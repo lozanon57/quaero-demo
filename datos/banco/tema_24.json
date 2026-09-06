@@ -1,0 +1,715 @@
+[
+ {
+  "id": "T24-M001",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 29 años con enfermedad de Crohn de doce años de evolución presenta episodios repetidos de dolor y distensión abdominal, vómitos y pérdida de peso. La enteroRM muestra dos estenosis cortas y fibróticas en íleon, separadas entre sí, sin flemón ni fístulas, y la calprotectina fecal es baja. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Intensificar el tratamiento con corticoides sistemicos y anti-TNF antes de plantear cirugia."
+   },
+   {
+    "id": "B",
+    "text": "Estricturoplastia de ambas estenosis, para preservar la maxima longitud intestinal."
+   },
+   {
+    "id": "C",
+    "text": "Reseccion ileal amplia que englobe ambas estenosis, con margenes generosos."
+   },
+   {
+    "id": "D",
+    "text": "Ileostomia de derivacion proximal y observacion durante seis meses."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Las estenosis del Crohn pueden ser inflamatorias, que responden al tratamiento medico, o cicatriciales, que exigen cirugia. Aqui la fibrosis en la enteroRM y la calprotectina baja indican estenosis cicatricial. La clase reserva la estricturoplastia para estenosis cortas y distantes entre si, como es el caso, y la reseccion con anastomosis para estenosis largas o varias muy proximas. El objetivo general es preservar al maximo la longitud intestinal. Opción A: intensificar el tratamiento medico solo tiene sentido en la estenosis inflamatoria; en la fibrotica añade toxicidad sin resolver la obstruccion. Opción C: englobar ambas estenosis en una reseccion amplia sacrifica el intestino sano interpuesto; la clase insiste en limitar la longitud de la reseccion porque las resecciones amplias no evitan la recidiva, que se situa entre el 20 y el 50 %. Opción D: la ileostomia de derivacion no resuelve la estenosis, condena al paciente a un estoma y contradice el objetivo explicito de evitar estomas. Punto de enseñanza: distinguir estenosis inflamatoria de cicatricial es lo que decide entre farmaco y quirofano.",
+  "teaching_point": "Estenosis cicatriciales cortas y distantes en el Crohn: estricturoplastia; resecar solo lo imprescindible.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 17
+  },
+  "tags": [
+   "Crohn",
+   "estenosis",
+   "estricturoplastia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M002",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 26 años con colitis ulcerosa extensa ingresada por brote grave. Al cuarto día de corticoides intravenosos presenta fiebre de 38,6 grados, taquicardia de 130 latidos por minuto, leucocitosis, hipotensión y distensión abdominal. La radiografía muestra colon transverso de 8 cm. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Panproctocolectomia restauradora con reservorio ileoanal e ileostomia de proteccion."
+   },
+   {
+    "id": "B",
+    "text": "Descompresion colonoscopica y sonda rectal, reservando la cirugia si no cede en 48 horas."
+   },
+   {
+    "id": "C",
+    "text": "Colectomia total con anastomosis ileorrectal en un solo tiempo quirurgico."
+   },
+   {
+    "id": "D",
+    "text": "Colectomia total con ileostomia terminal, dejando muñon rectal cerrado."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro es un megacolon toxico, manifestacion aguda de la colitis ulcerosa que puede llegar a ser la forma de debut, con fiebre superior a 38 grados, taquicardia por encima de 120 latidos por minuto, leucocitosis, anemia, alteracion electrolitica e hipotension, y criterio radiologico de dilatacion colonica por encima de 6 cm. Ante el fracaso del tratamiento medico, la cirugia urgente indicada es la colectomia total con ileostomia terminal, dejando muñon rectal. Opción A: una panproctocolectomia con reservorio en un paciente inestable, desnutrido y con acidosis es una intervencion de reconstruccion que no debe hacerse en urgencias. Opción B: la descompresion endoscopica y la sonda rectal pertenecen al manejo de la seudoobstruccion colonica; en un megacolon toxico con fiebre, taquicardia e hipotension al cuarto dia de corticoides, esperar 48 horas mas es la via mas rapida a la perforacion. Opción C: la anastomosis ileorrectal en un colon toxico y un paciente septico tiene un riesgo de dehiscencia inasumible; se reserva para casos electivos muy seleccionados. Punto de enseñanza: en urgencia se reseca y se deriva, la reconstruccion se difiere.",
+  "teaching_point": "Megacolon toxico en colitis ulcerosa: colectomia total con ileostomia terminal y muñon rectal; nunca reconstruir en urgencia.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 32
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "megacolon toxico",
+   "colectomia total"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M003",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 33 años con enfermedad de Crohn ileal consulta por fiebre y dolor en fosa ilíaca derecha. La TC muestra una colección con pared bien definida de 6 cm adyacente al íleon terminal, sin neumoperitoneo ni signos de peritonitis difusa, y el paciente está hemodinámicamente estable. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Antibioterapia y drenaje percutaneo de la coleccion, dejando la cirugia para el fracaso."
+   },
+   {
+    "id": "B",
+    "text": "Laparotomia urgente con reseccion ileal y anastomosis primaria en el mismo acto."
+   },
+   {
+    "id": "C",
+    "text": "Iniciar anti-TNF de inmediato para controlar la actividad inflamatoria subyacente."
+   },
+   {
+    "id": "D",
+    "text": "Corticoides intravenosos a dosis altas y observacion clinica durante 72 horas."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase separa con claridad las tres complicaciones perforativas del Crohn. La perforacion libre exige reseccion urgente del segmento afecto. La fistula sintomatica se resuelve con reseccion reglada del segmento afecto y sutura del organo al que fistuliza. El absceso se trata con antibioterapia y drenaje, y cuando supera los 4 centimetros el drenaje percutaneo es de eleccion, reservando la cirugia para el fracaso de ese manejo. Opción B: operar de urgencia un absceso drenable, en un paciente estable, obliga a una anastomosis en campo septico y con mayor riesgo de dehiscencia; ademas convierte una cirugia reglada en una urgente. Opción C: introducir un anti-TNF con un absceso no drenado es un error de seguridad, porque la inmunosupresion sobre una infeccion no controlada la agrava. Opción D: los corticoides en presencia de un absceso empeoran el control de la infeccion y son ademas un factor de riesgo quirurgico reconocido. Punto de enseñanza: primero drenar y controlar la sepsis, despues decidir la cirugia reglada.",
+  "teaching_point": "Absceso mayor de 4 cm en el Crohn: antibioterapia y drenaje percutaneo; la cirugia se difiere y se hace reglada.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 18
+  },
+  "tags": [
+   "Crohn",
+   "absceso",
+   "drenaje percutaneo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M004",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 38 años intervenida hace un año de panproctocolectomía restauradora con reservorio ileoanal por colitis ulcerosa. Consulta por aumento del número de deposiciones, urgencia defecatoria, algún episodio de incontinencia y dolor pélvico. No hay fiebre ni datos de sepsis. ¿Qué complicación es más probable y cómo se trata inicialmente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Fistula del reservorio; tratamiento con seton y drenaje de la coleccion asociada."
+   },
+   {
+    "id": "B",
+    "text": "Obstruccion intestinal por bridas; tratamiento con sonda nasogastrica y dieta absoluta."
+   },
+   {
+    "id": "C",
+    "text": "Reservoritis; tratamiento inicial con metronidazol y ciprofloxacino."
+   },
+   {
+    "id": "D",
+    "text": "Recidiva de la colitis ulcerosa en el reservorio; tratamiento con corticoides sistemicos."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La reservoritis es la complicacion mas frecuente de la cirugia del reservorio ileoanal y cursa con aumento del numero de deposiciones, urgencia defecatoria, incontinencia fecal y dolor abdominal y pelvico, exactamente el cuadro descrito. El tratamiento de primera linea es antibiotico, con metronidazol y ciprofloxacino, y despues pueden emplearse 5-ASA oral o topico, enemas de budesonida, probioticos y, en casos refractarios, corticoides, inmunosupresores o biologicos. Opción A: la fistula del reservorio es menos frecuente y se acompaña de supuracion o de un orificio con drenaje, no de un sindrome funcional aislado. Opción B: la obstruccion por bridas cursa con vomitos, ausencia de transito y distension, no con aumento del numero de deposiciones. Opción D: la colitis ulcerosa es una enfermedad de la mucosa colonica y la panproctocolectomia la cura, de modo que no recidiva sobre el reservorio; confundir reservoritis con recidiva conduce a inmunosupresion innecesaria. Punto de enseñanza: mas deposiciones y urgencia tras un reservorio es reservoritis hasta demostrar lo contrario.",
+  "teaching_point": "La reservoritis es la complicacion mas frecuente del reservorio ileoanal y se trata en primera linea con metronidazol y ciprofloxacino.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 36
+  },
+  "tags": [
+   "reservoritis",
+   "reservorio ileoanal",
+   "colitis ulcerosa"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M005",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 41 años con enfermedad de Crohn ileal presenta neumaturia y fecaluria de meses de evolución, con infecciones urinarias de repetición. La enteroRM confirma una fístula entre el íleon terminal afecto y la cúpula vesical, sin absceso asociado. El paciente está estable y bien nutrido. ¿Qué actuación quirúrgica procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cistectomia parcial amplia junto con la reseccion ileal, por afectacion vesical secundaria."
+   },
+   {
+    "id": "B",
+    "text": "Reseccion reglada del segmento ileal afecto y sutura simple de la vejiga."
+   },
+   {
+    "id": "C",
+    "text": "Ileostomia de derivacion aislada, dejando la fistula cerrarse de forma espontanea."
+   },
+   {
+    "id": "D",
+    "text": "Reseccion urgente del ileon y de la cupula vesical, sin preparacion preoperatoria."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "En la fistula sintomatica del Crohn la clase indica reseccion reglada del segmento intestinal afecto y sutura del organo al que fistuliza, con el principio expreso de no resecar los organos a los que la enfermedad fistuliza, porque estos no estan enfermos sino secundariamente implicados. Al tratarse de una cirugia programada, procede ademas optimizar al paciente reduciendo factores de riesgo: corticoides por debajo de 20 mg al dia de prednisona, corregir desnutricion y anemia y descartar abscesos intraabdominales. Opción A: la cistectomia parcial amplia extirpa vejiga sana y añade morbilidad urologica sin beneficio. Opción C: la derivacion aislada no cierra de forma fiable una fistula sobre intestino enfermo y añade un estoma que se busca evitar. Opción D: no hay criterio de urgencia, que se reserva para la perforacion libre; operar sin preparacion aumenta la infeccion de herida, la dehiscencia y el riesgo de estoma. Punto de enseñanza: en el Crohn se reseca el intestino enfermo y se sutura el organo receptor.",
+  "teaching_point": "Fistula sintomatica en el Crohn: reseccion reglada del segmento afecto y sutura del organo al que fistuliza, que no se reseca.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 18
+  },
+  "tags": [
+   "Crohn",
+   "fistula enterovesical",
+   "cirugia reglada"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M006",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Se remite a anatomía patológica la pieza de una resección ileocecal realizada en un paciente joven con dolor abdominal crónico, diarrea y pérdida de peso. El patólogo debe orientar el diagnóstico entre las dos formas principales de enfermedad inflamatoria intestinal. ¿Qué combinación de hallazgos es propia de la enfermedad de Crohn?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inflamacion transmural, aspecto en empedrado, ulceras lineales, zonas salteadas y granulomas no caseificantes."
+   },
+   {
+    "id": "B",
+    "text": "Inflamacion limitada a la mucosa, afectacion continua desde el recto y ausencia de granulomas."
+   },
+   {
+    "id": "C",
+    "text": "Inflamacion transmural con granulomas caseificantes y necrosis central extensa."
+   },
+   {
+    "id": "D",
+    "text": "Inflamacion mucosa con criptitis, pseudopolipos y afectacion exclusiva del colon derecho."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase describe el aspecto macroscopico del Crohn como un proceso inflamatorio transmural, con aspecto de empedrado, ulceras lineales y zonas salteadas, y el aspecto microscopico con edema submucoso, agregados linfoides, fibrosis y granulomas no caseificantes. Ese caracter transmural es el que explica las complicaciones tipicas: estenosis, fistulas, abscesos y enfermedad perianal. Opción B: describe la colitis ulcerosa, enfermedad de la mucosa colonica con extension continua y proximal desde el recto y sin granulomas. Opción C: el granuloma del Crohn es no caseificante; el granuloma caseificante con necrosis central orienta a tuberculosis intestinal, principal diferencial morfologico. Opción D: la criptitis y los pseudopolipos no son especificos y la afectacion exclusiva del colon derecho no define ninguna de las dos entidades; el Crohn puede afectar a cualquier tramo del tubo digestivo. Punto de enseñanza: transmural, salteado y granuloma no caseificante es la triada morfologica del Crohn.",
+  "teaching_point": "Crohn: inflamacion transmural, empedrado, ulceras lineales, zonas salteadas y granulomas no caseificantes.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 7
+  },
+  "tags": [
+   "Crohn",
+   "anatomia patologica",
+   "granuloma no caseificante"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M007",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Un varón de 34 años con enfermedad de Crohn de colon, pendiente de una proctocolectomía, pregunta en consulta si podrá llevar la misma reconstrucción con reservorio ileoanal que su compañera de habitación, operada de colitis ulcerosa, y si la operación le dejará curado de su enfermedad. ¿Qué debe responderle según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Que el reservorio es igualmente la reconstruccion preferida, porque la proctocolectomia extirpa toda la mucosa enferma."
+   },
+   {
+    "id": "B",
+    "text": "Que el reservorio solo se contraindica si existe enfermedad perianal activa en el momento de la cirugia."
+   },
+   {
+    "id": "C",
+    "text": "Que el reservorio es posible si mantiene un anti-TNF indefinido para prevenir la recidiva."
+   },
+   {
+    "id": "D",
+    "text": "Que el reservorio esta contraindicado en el Crohn y que, ademas, la cirugia no cura la enfermedad."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase resume la diferencia en sus mensajes finales. En la colitis ulcerosa, enfermedad limitada a la mucosa colonica, la proctocolectomia total es curativa y el reservorio ileal es la reconstruccion preferida por los pacientes. En la enfermedad de Crohn la cirugia no cura: controla los sintomas y reduce los requerimientos de tratamiento medico, la recidiva se situa entre el 20 y el 50 % y el reservorio esta contraindicado, porque el Crohn puede afectar a cualquier tramo del tubo digestivo, incluido el intestino delgado con el que se construye el reservorio. Opción A: extirpar el colon no elimina la enfermedad en el Crohn, y ese es el error conceptual que lleva a resecciones amplias inutiles y a reconstrucciones condenadas al fracaso. Opción B: la enfermedad perianal activa desaconseja aun mas el reservorio, pero su ausencia no levanta una contraindicacion que la clase enuncia sin matices. Opción C: ningun tratamiento medico convierte al Crohn en candidato a reservorio; una inmunosupresion indefinida añade riesgo sin resolver el problema de fondo. Punto de enseñanza: en la colitis ulcerosa la cirugia cura y hay reservorio; en el Crohn la cirugia controla los sintomas y el reservorio esta contraindicado.",
+  "teaching_point": "La cirugia cura la colitis ulcerosa pero no el Crohn, en el que el reservorio ileoanal esta contraindicado.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 27
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "Crohn",
+   "reservorio ileoanal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M008",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Una paciente con colitis ulcerosa en brote grave empeora bajo tratamiento médico y se plantea el diagnóstico de megacolon tóxico. Además de los criterios clínicos y analíticos, la clase establece un criterio radiológico de dilatación colónica. ¿Qué diámetros definen el megacolon tóxico en la radiografía simple?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mas de 4 cm en el colon y mas de 6 cm en el ciego."
+   },
+   {
+    "id": "B",
+    "text": "Mas de 5 cm en el colon y mas de 7 cm en el ciego."
+   },
+   {
+    "id": "C",
+    "text": "Mas de 6 cm en el colon y mas de 9 cm en el ciego."
+   },
+   {
+    "id": "D",
+    "text": "Mas de 8 cm en el colon y mas de 12 cm en el ciego."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El megacolon toxico es una manifestacion aguda de la colitis ulcerosa que a veces constituye la forma de debut y afecta a una minoria de los pacientes. Se define por la combinacion de datos clinicos y analiticos, fiebre superior a 38 grados, taquicardia por encima de 120 latidos por minuto, leucocitosis por encima de 10.000, junto con anemia, alteracion electrolitica, deshidratacion e hipotension, y por el criterio radiologico de dilatacion superior a 6 cm en el colon y superior a 9 cm en el ciego. Opción A: umbrales demasiado bajos, que etiquetarian como megacolon toxico dilataciones fisiologicas o inespecificas y llevarian a colectomias innecesarias. Opción B: sigue por debajo de los limites establecidos y comparte el mismo problema de sobrediagnostico. Opción D: umbrales demasiado altos, que retrasarian el diagnostico y con el la colectomia, en un cuadro que asocia shock septico y deterioro grave. Punto de enseñanza: el megacolon toxico es un diagnostico clinico-radiologico, no solo radiologico.",
+  "teaching_point": "Megacolon toxico: dilatacion mayor de 6 cm en colon y mayor de 9 cm en ciego, con fiebre, taquicardia y leucocitosis.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 31
+  },
+  "tags": [
+   "megacolon toxico",
+   "criterios",
+   "colitis ulcerosa"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M009",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Se realiza una colonoscopia a un paciente con colitis ulcerosa en tratamiento con mesalazina oral y tópica, para graduar la actividad de la enfermedad antes de decidir si procede subir de escalón terapéutico. La clase describe tres grados endoscópicos de actividad. ¿Qué aspecto de la mucosa corresponde al grado de actividad grave?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ulceras, exudado mucopurulento y sangrado espontaneo de la mucosa."
+   },
+   {
+    "id": "B",
+    "text": "Eritema marcado con perdida del patron vascular, friabilidad, exudado y erosiones."
+   },
+   {
+    "id": "C",
+    "text": "Edema y eritema de la mucosa con el patron vascular todavia conservado."
+   },
+   {
+    "id": "D",
+    "text": "Ulceras aftosas salteadas con mucosa sana intercalada y aspecto en empedrado."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase gradua el aspecto endoscopico de la colitis ulcerosa en tres escalones. La forma leve muestra edema y eritema. La moderada añade eritema mas marcado, perdida del patron vascular, friabilidad, exudado y erosiones. La grave se define por ulceras, exudado mucopurulento y sangrado espontaneo de la mucosa, que es el aspecto que corresponde a la respuesta. Opción B: eritema marcado, friabilidad y erosiones definen la actividad moderada, que no llega a ulceras francas ni a sangrado espontaneo. Opción C: edema y eritema con patron vascular reconocible corresponden a la actividad leve, la que se maneja con 5-ASA topico y oral. Opción D: las ulceras aftosas salteadas con mucosa sana intercalada y el aspecto en empedrado son el patron de la enfermedad de Crohn y no forman parte de esta gradacion; confundirlos cambia la enfermedad, no solo el grado. Punto de enseñanza: la gradacion endoscopica orienta el escalon terapeutico, del 5-ASA en la enfermedad leve a moderada a los esteroides sistemicos y los biologicos en la moderada a grave o refractaria, y finalmente a la cirugia.",
+  "teaching_point": "Ulceras, exudado mucopurulento y sangrado espontaneo definen la actividad endoscopica grave de la colitis ulcerosa.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "colonoscopia",
+   "gradacion de actividad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M010",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Paciente de 52 años con colitis ulcerosa pancolónica de 22 años de evolución, en remisión clínica con mesalazina. En la colonoscopia de cribado se detecta displasia de alto grado en dos biopsias de colon descendente, sin lesión endoscópicamente resecable. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Repetir la colonoscopia en seis meses manteniendo el tratamiento de mantenimiento actual."
+   },
+   {
+    "id": "B",
+    "text": "Panproctocolectomia, con extirpacion de todo el colon y el recto."
+   },
+   {
+    "id": "C",
+    "text": "Colectomia segmentaria del colon descendente con anastomosis colorrectal."
+   },
+   {
+    "id": "D",
+    "text": "Colectomia total con anastomosis ileorrectal, conservando el recto para vigilancia endoscopica."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La colitis ulcerosa asocia mayor incidencia de cancer colorrectal, y la clase enumera como factores de riesgo el inicio en edad temprana, la duracion de la enfermedad, con una incidencia del aproximadamente el 8 % a los veinte años según el metaanálisis clásico de Eaden (2001), y bastante menos en las cohortes poblacionales recientes, la extension pancolonica, la presencia de estenosis y la colangitis esclerosante. Por eso son necesarias colonoscopias de control, y ante displasia severa o cancer la indicacion es la panproctocolectomia. Opción A: vigilar una displasia de alto grado no resecable equivale a esperar a que aparezca un carcinoma invasor en un colon con riesgo elevado. Opción C: la reseccion segmentaria deja mucosa colonica enferma con el mismo riesgo de displasia sincronica y metacronica, y no cumple el objetivo oncologico. Opción D: la anastomosis ileorrectal conserva el recto, que es mucosa enferma y en riesgo, y obliga a una vigilancia indefinida sobre el segmento mas dificil de valorar; la clase la reserva para casos electivos muy seleccionados, no para una displasia de alto grado. Punto de enseñanza: en la colitis ulcerosa la displasia de alto grado es indicacion quirurgica, y la extirpacion de todo el colon y el recto es lo unico que cierra el riesgo.",
+  "teaching_point": "Displasia severa o cancer en colitis ulcerosa: panproctocolectomia, no vigilancia ni reseccion segmentaria.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 30
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "displasia",
+   "panproctocolectomia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M011",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Se programa una resección ileocecal reglada en un paciente con enfermedad de Crohn. El objetivo declarado de la preparación preoperatoria es disminuir la morbilidad, en particular la infección postquirúrgica, la dehiscencia, el sangrado y la necesidad de estoma. ¿Qué factor de riesgo modificable debe corregirse antes de la intervención?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La enfermedad perianal, que conviene resolver antes de cualquier reseccion intestinal."
+   },
+   {
+    "id": "B",
+    "text": "La longitud prevista de la reseccion, que debe ampliarse para reducir la recidiva."
+   },
+   {
+    "id": "C",
+    "text": "El tratamiento previo con anti-TNF, factor de riesgo establecido de dehiscencia anastomotica."
+   },
+   {
+    "id": "D",
+    "text": "La dosis de corticoides, la desnutricion, la anemia y los abscesos intraabdominales."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase enumera de forma explicita los factores de riesgo que hay que corregir antes de una cirugia reglada en la enfermedad de Crohn: mantener la prednisona por debajo de 20 mg al dia, corregir la desnutricion y la anemia y tratar los abscesos intraabdominales. El objetivo declarado es reducir la infeccion postquirurgica, la dehiscencia, el sangrado, la necesidad de estoma y la longitud de la reseccion. Opción A: la enfermedad perianal se maneja de la forma mas conservadora posible, con setones y drenaje de abscesos, y no es un requisito que deba resolverse antes de una reseccion intestinal indicada. Opción B: ampliar la reseccion es justamente lo contrario de lo recomendado, porque las resecciones amplias no evitan la recidiva y comprometen la longitud intestinal. Opción C: el papel del anti-TNF como factor de riesgo quirurgico queda expresamente en interrogante en la clase, de modo que presentarlo como un factor establecido va mas alla de lo que se sostiene, y ademas no es el grupo de factores que se corrige antes de operar. Punto de enseñanza: en el Crohn se opera a un paciente optimizado, no en pleno brote y con corticoides a dosis altas.",
+  "teaching_point": "Antes de una cirugia reglada por Crohn: prednisona por debajo de 20 mg al dia, corregir desnutricion y anemia y drenar abscesos.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 19
+  },
+  "tags": [
+   "Crohn",
+   "preparacion preoperatoria",
+   "morbilidad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-M012",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En la colonoscopia de un varón de 27 años con diarrea crónica, dolor abdominal y pérdida de peso se describen pseudopólipos inflamatorios, mucosa friable que sangra al roce del endoscopio, afectación inflamatoria del recto y un tramo del colon transverso con aspecto en empedrado. Según la tabla comparativa de la clase, ¿cuál de estos hallazgos es exclusivo de la enfermedad de Crohn?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Los pseudopolipos inflamatorios del segmento afecto."
+   },
+   {
+    "id": "B",
+    "text": "La friabilidad de la mucosa, que sangra al roce del endoscopio."
+   },
+   {
+    "id": "C",
+    "text": "El aspecto en empedrado del colon transverso."
+   },
+   {
+    "id": "D",
+    "text": "La afectacion inflamatoria del recto."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La tabla comparativa de la clase puntua cada rasgo en las dos enfermedades. El aspecto en empedrado recibe la puntuacion maxima en la enfermedad de Crohn y un cero en la colitis ulcerosa, igual que las ulceras aftosas, las ulceras longitudinales profundas, la afectacion segmentaria, el engrosamiento de la pared y del mesenterio y la afectacion del intestino delgado. Es, de los cuatro hallazgos descritos, el unico que por si solo decide el diagnostico. Opción A: los pseudopolipos reciben la misma puntuacion en ambas entidades, de modo que no separan nada; son un residuo de la regeneracion mucosa tras cualquier colitis grave. Opción B: la friabilidad es maxima en la colitis ulcerosa y minima en el Crohn, de manera que orienta justo en sentido contrario. Opción D: la afectacion rectal es tambien caracteristica de la colitis ulcerosa, donde alcanza la puntuacion maxima, y solo excepcional en el Crohn; su presencia no apoya el diagnostico de Crohn. Punto de enseñanza: entre hallazgos compartidos, el que decide es el que la tabla puntua con un cero en una de las dos enfermedades.",
+  "teaching_point": "El empedrado, las ulceras aftosas y longitudinales y la afectacion del delgado no existen en la colitis ulcerosa: son los hallazgos que deciden el diagnostico de Crohn.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 27
+  },
+  "tags": [
+   "colonoscopia",
+   "diagnostico diferencial",
+   "Crohn"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T24-C001",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Se recibe la pieza de una resección ileocecal de un paciente joven con diarrea crónica y pérdida de peso, y el patólogo describe inflamación que atraviesa toda la pared. Cite los cuatro hallazgos macroscópicos característicos de la enfermedad de Crohn descritos en la clase.",
+  "respuesta_canonica": "Inflamacion transmural, aspecto en empedrado, ulceras lineales y zonas salteadas",
+  "aceptadas": [
+   "proceso transmural, empedrado, ulceras longitudinales y lesiones discontinuas",
+   "afectacion transmural, patron en empedrado, ulceras lineales y areas salteadas"
+  ],
+  "conceptos_clave": [
+   "transmural",
+   "empedrado",
+   "lineales",
+   "salteadas"
+  ],
+  "max_palabras": 20,
+  "explanation": "La enfermedad de Crohn es una enfermedad inflamatoria cronica y progresiva que puede afectar a cualquier tramo del tubo digestivo, cursa en brotes y tiene un origen desconocido en el que se implican factores geneticos, inmunologicos, infecciosos y ambientales, entre ellos el tabaco. Comienza con inflamacion de la mucosa y se extiende al resto de la pared, y ese caracter transmural es la clave que explica su historia natural: fibrosis, estenosis, perforacion, fistulas intestinales y enfermedad perianal. Macroscopicamente se reconoce por el proceso inflamatorio transmural, el aspecto de empedrado, las ulceras lineales y las zonas salteadas. Microscopicamente se describen edema submucoso, agregados linfoides, fibrosis y granulomas no caseificantes. La incidencia se situa en torno a seis o siete casos por cada 100.000 habitantes, es similar en ambos sexos y presenta un pico en la segunda y tercera decadas de la vida con un segundo pico en la sexta. La afectacion perianal aparece en aproximadamente un tercio de los pacientes.",
+  "teaching_point": "Los cuatro hallazgos macroscopicos del Crohn son inflamacion transmural, empedrado, ulceras lineales y zonas salteadas.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 7
+  },
+  "tags": [
+   "Crohn",
+   "anatomia patologica",
+   "macroscopia"
+  ]
+ },
+ {
+  "id": "T24-C002",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Una paciente con colitis ulcerosa refractaria al tratamiento médico ingresa por un brote grave con hemorragia digestiva baja abundante y deterioro hemodinámico progresivo. Cite las tres complicaciones que, según la clase, constituyen indicación de cirugía urgente en la colitis ulcerosa.",
+  "respuesta_canonica": "Hemorragia masiva, megacolon toxico y perforacion",
+  "aceptadas": [
+   "sangrado masivo, megacolon toxico y perforacion colonica",
+   "hemorragia grave, megacolon toxico y perforacion libre"
+  ],
+  "conceptos_clave": [
+   "hemorragia",
+   "megacolon",
+   "perforacion"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase separa las indicaciones quirurgicas de la colitis ulcerosa en dos escenarios. La cirugia urgente se indica ante hemorragia masiva, megacolon toxico y perforacion. La cirugia reglada se indica ante el fracaso del tratamiento medico, entendido como persistencia de sintomas, complicaciones del propio tratamiento o manifestaciones extracolonicas refractarias, y ante la aparicion de displasia o cancer. En urgencia la tecnica es la colectomia total con ileostomia terminal, dejando muñon rectal, sobre todo si hay inestabilidad hemodinamica, desnutricion, acidosis, hipotermia o alteracion de la coagulacion. En cirugia electiva la tecnica de referencia es la panproctocolectomia, restauradora con reservorio ileal unido al ano o no restauradora con ileostomia terminal, y puede realizarse en uno, dos o tres tiempos segun la situacion del paciente. En casos muy seleccionados cabe una colectomia total con anastomosis ileorrectal. La diferencia importa porque en el escenario urgente nunca se reconstruye: se reseca, se deriva y se difiere la reconstruccion.",
+  "teaching_point": "Cirugia urgente en colitis ulcerosa: hemorragia masiva, megacolon toxico y perforacion.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 29
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "cirugia urgente",
+   "indicacion"
+  ]
+ },
+ {
+  "id": "T24-C003",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Un paciente intervenido de panproctocolectomía restauradora con reservorio ileoanal consulta a los ocho meses por aumento del número de deposiciones, urgencia defecatoria y dolor pélvico. Indique cuál es la complicación más frecuente de la cirugía del reservorio y su tratamiento antibiótico de primera línea.",
+  "respuesta_canonica": "Reservoritis o pouchitis; se trata con metronidazol y ciprofloxacino",
+  "aceptadas": [
+   "pouchitis, tratada con metronidazol y ciprofloxacino",
+   "reservoritis; metronidazol y ciprofloxacino como primera linea",
+   "reservoritis o pouchitis, con metronidazol y ciprofloxacino",
+   "pouchitis o reservoritis; metronidazol y ciprofloxacino"
+  ],
+  "conceptos_clave": [
+   "reservorit",
+   "metronidazol",
+   "ciprofloxacino"
+  ],
+  "max_palabras": 20,
+  "explanation": "La cirugia del reservorio ileoanal tiene un perfil de complicaciones propio que conviene conocer antes de indicarla, porque condiciona la informacion que se da al paciente. La clase enumera la reservoritis, que afecta a una proporcion sustancial de los operados y es la mas frecuente; la dehiscencia y la infeccion organo-cavitaria; la obstruccion intestinal; la cufitis; las fistulas; la estenosis; la disfuncion sexual; las diarreas y trastornos funcionales; y la dermatitis perianal. La reservoritis se manifiesta con aumento del numero de deposiciones, urgencia defecatoria, incontinencia fecal y dolor abdominal y pelvico. Su tratamiento de primera linea es antibiotico, con metronidazol y ciprofloxacino, y en segunda linea pueden emplearse 5-ASA oral o topico, enemas de budesonida, probioticos y, en casos refractarios, corticoides, inmunosupresores o biologicos. Es importante no confundir la reservoritis con una recidiva de la colitis ulcerosa, imposible tras extirpar todo el colon y el recto, ni con una enfermedad de Crohn no diagnosticada previamente.",
+  "teaching_point": "La reservoritis es la complicacion mas frecuente del reservorio ileoanal; primera linea, metronidazol y ciprofloxacino.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 35
+  },
+  "tags": [
+   "reservoritis",
+   "complicaciones",
+   "reservorio ileoanal"
+  ]
+ },
+ {
+  "id": "T24-C004",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Un paciente con enfermedad de Crohn ileal presenta un cuadro suboclusivo. Antes de decidir entre tratamiento médico y cirugía, hay que precisar el tipo de estenosis. Indique los dos tipos de estenosis que describe la clase y qué tratamiento corresponde a cada uno de ellos.",
+  "respuesta_canonica": "Inflamatoria, tratamiento medico; cicatricial, cirugia",
+  "aceptadas": [
+   "estenosis inflamatoria con tratamiento medico y estenosis fibrotica o cicatricial con cirugia",
+   "la inflamatoria se trata con farmacos y la cicatricial con cirugia",
+   "inflamatoria: tratamiento medico; cicatricial: tratamiento quirurgico",
+   "inflamatoria: farmacos; cicatricial: quirofano"
+  ],
+  "conceptos_clave": [
+   "inflamatoria",
+   "medico",
+   "cicatricial",
+   "cirugia"
+  ],
+  "max_palabras": 20,
+  "explanation": "La estenosis es la complicacion que con mas frecuencia lleva al quirofano en la enfermedad de Crohn y se manifiesta como un cuadro de obstruccion intestinal subagudo o cronico, con dolor y distension abdominal, vomitos, ausencia de transito y perdida de peso. Su localizacion mas frecuente es el intestino delgado, en particular el ileon. La clase distingue dos tipos con implicacion terapeutica directa. La estenosis inflamatoria se produce por la disminucion de calibre secundaria a la inflamacion de la pared intestinal y responde al tratamiento medico. La estenosis cicatricial es secundaria a la curacion de las zonas inflamatorias y su tratamiento es quirurgico. Dentro de la cirugia, la reseccion con anastomosis, manual o mecanica laterolateral, o la anastomosis de Kono-S, se reservan para estenosis largas o para varias muy proximas entre si, mientras que la estricturoplastia es la tecnica adecuada para estenosis cortas y distantes. En todos los casos el principio rector es preservar al maximo la longitud intestinal.",
+  "teaching_point": "La estenosis inflamatoria del Crohn se trata con farmacos; la cicatricial, con cirugia.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 14
+  },
+  "tags": [
+   "Crohn",
+   "estenosis",
+   "tratamiento"
+  ]
+ },
+ {
+  "id": "T24-L001",
+  "tema": 24,
+  "bloque": "intestino_delgado",
+  "formato": "larga",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 31 años con colitis ulcerosa extensa de ocho años de evolución, corticodependiente y con mala calidad de vida pese a haber agotado dos biológicos. Exponga las indicaciones de cirugía en la colitis ulcerosa, las técnicas de cirugía urgente y electiva, los tiempos quirúrgicos del reservorio ileoanal y las complicaciones que debe informar antes de operarla. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Separa las indicaciones de cirugia reglada de las de cirugia urgente",
+    "puntos": 0.5,
+    "claves": [
+     "fracaso",
+     "displasia",
+     "cancer"
+    ]
+   },
+   {
+    "elemento": "Enumera las tres complicaciones que obligan a cirugia urgente",
+    "puntos": 0.4,
+    "claves": [
+     "hemorragia masiva",
+     "megacolon toxico",
+     "perforacion"
+    ]
+   },
+   {
+    "elemento": "Describe la tecnica de urgencia y por que no se reconstruye",
+    "puntos": 0.5,
+    "claves": [
+     "colectomia total",
+     "ileostomia terminal",
+     "muñon rectal"
+    ]
+   },
+   {
+    "elemento": "Describe la panproctocolectomia electiva restauradora y no restauradora",
+    "puntos": 0.5,
+    "claves": [
+     "panproctocolectomia",
+     "reservorio"
+    ]
+   },
+   {
+    "elemento": "Expone los esquemas de uno, dos y tres tiempos",
+    "puntos": 0.5,
+    "claves": [
+     "tres tiempos",
+     "dos tiempos",
+     "ileostomia de proteccion"
+    ]
+   },
+   {
+    "elemento": "Informa de las complicaciones del reservorio, con la reservoritis como la mas frecuente",
+    "puntos": 0.4,
+    "claves": [
+     "reservoritis",
+     "dehiscencia",
+     "obstruccion"
+    ]
+   },
+   {
+    "elemento": "Concluye que la cirugia cura la enfermedad y valora el riesgo de cancer y la calidad de vida",
+    "puntos": 0.2,
+    "claves": [
+     "cura",
+     "cancer colorrectal",
+     "calidad de vida"
+    ]
+   }
+  ],
+  "respuesta_modelo": "En la colitis ulcerosa la cirugia se indica en dos escenarios. De forma reglada, ante el fracaso del tratamiento medico, entendido como persistencia de sintomas, complicaciones derivadas del propio tratamiento o manifestaciones extracolonicas refractarias, y ante la aparicion de displasia o cancer. De forma urgente, ante hemorragia masiva, megacolon toxico o perforacion. La paciente descrita, corticodependiente, con dos biologicos agotados y mala calidad de vida, entra de lleno en la primera categoria. En el escenario urgente la tecnica es la colectomia total con ileostomia terminal, dejando muñon rectal cerrado. No se reconstruye porque el paciente suele presentar inestabilidad hemodinamica, desnutricion, acidosis, hipotermia o alteracion de la coagulacion, situaciones en las que una anastomosis tiene un riesgo de dehiscencia inaceptable. En el escenario electivo la tecnica de referencia es la panproctocolectomia, que extirpa todo el colon y el recto. Puede ser restauradora, uniendo un reservorio de ileon al ano, o no restauradora, con ileostomia terminal; existe ademas la ileostomia continente de Kock, y en casos muy seleccionados cabe una colectomia total con anastomosis ileo-rectal. El abordaje laparoscopico es una opcion. La reconstruccion con reservorio se organiza en tiempos. En tres tiempos: colectomia con ileostomia terminal, despues proctectomia con reservorio e ileostomia de proteccion, y por ultimo cierre de la ileostomia. En dos tiempos: panproctocolectomia con reservorio e ileostomia de proteccion, y despues cierre de la ileostomia. En un tiempo: panproctocolectomia restauradora sin ileostomia de proteccion. Antes de operar hay que informar de las complicaciones especificas del reservorio: reservoritis, que es la mas frecuente, dehiscencia e infeccion organo-cavitaria, obstruccion intestinal, cufitis, fistulas, estenosis, disfuncion sexual, diarreas y trastornos funcionales y dermatitis perianal. La reservoritis cursa con aumento del numero de deposiciones, urgencia, incontinencia y dolor pelvico, y se trata en primera linea con metronidazol y ciprofloxacino. Conviene cerrar la informacion con los tres mensajes de la clase: la cirugia cura la enfermedad, el riesgo de cancer colorrectal es mayor en estos pacientes, sobre todo con enfermedad de larga evolucion, extension pancolonica y colangitis esclerosante, y hay que sopesar el impacto sobre la calidad de vida del reservorio y del estoma.",
+  "explanation": "La pregunta obliga a ordenar la cirugia de la colitis ulcerosa en dos ejes que el alumno suele mezclar: el eje de la indicacion, reglada frente a urgente, y el eje de la tecnica, resectiva y derivativa en urgencia frente a resectiva y reconstructiva en electiva. El error mas frecuente es proponer una panproctocolectomia restauradora con reservorio en un megacolon toxico, es decir, reconstruir a un paciente septico e inestable. El segundo error es olvidar el muñon rectal, que se deja cerrado precisamente para permitir una reconstruccion posterior y para no añadir una proctectomia en un paciente critico. El tercero es no informar de las complicaciones funcionales del reservorio, que son las que mas condicionan la satisfaccion a largo plazo: reservoritis, urgencia, incontinencia y trastornos funcionales. Finalmente, la afirmacion de que la cirugia cura la colitis ulcerosa debe hacerse con precision, porque es exactamente lo contrario de lo que ocurre en la enfermedad de Crohn, donde la cirugia controla los sintomas pero no cura y el reservorio esta contraindicado.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de enfermedad inflamatoria intestinal",
+  "fuente_clase": {
+   "archivo": "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx",
+   "pagina": 34
+  },
+  "tags": [
+   "colitis ulcerosa",
+   "panproctocolectomia",
+   "reservorio ileoanal",
+   "indicacion quirurgica"
+  ]
+ }
+]

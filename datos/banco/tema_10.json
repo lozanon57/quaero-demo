@@ -1,0 +1,734 @@
+[
+ {
+  "id": "T10-M001",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 68 años con dolor abdominal difuso de doce horas, vómitos y fiebre. Está taquicárdico a 120 lpm, con presión arterial de 85/50 mmHg y abdomen en tabla con defensa en los cuatro cuadrantes. La analítica muestra leucocitosis con desviación izquierda y lactato elevado. ¿Qué actuación procede de forma prioritaria?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Trasladar al paciente a la sala de TC con contraste para localizar la perforación y decidir después el abordaje quirúrgico."
+   },
+   {
+    "id": "B",
+    "text": "Iniciar antibioterapia empírica y reevaluar en veinticuatro horas antes de plantear la cirugía."
+   },
+   {
+    "id": "C",
+    "text": "Resucitación con fluidos, antibioterapia empírica precoz y cirugía urgente de control del foco."
+   },
+   {
+    "id": "D",
+    "text": "Drenaje percutáneo guiado por imagen como único gesto de control del foco, evitando la laparotomía por la inestabilidad."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define tres pilares en toda urgencia séptica de origen intraabdominal: resucitación y tratamiento de soporte, antibioterapia empírica precoz de amplio espectro y control adecuado del foco. Ante una peritonitis difusa con inestabilidad hemodinámica y signos de sepsis la cirugía urgente es obligada, y el material subraya que demorar el control del foco en estos pacientes aumenta la mortalidad. Opción A: la TC es la prueba más sensible, pero la clase la reserva para el paciente hemodinámicamente estable; en el inestable con peritonitis difusa retrasa el quirófano sin modificar la indicación quirúrgica. Opción B: la antibioterapia aislada no sustituye al control del foco en una peritonitis difusa, y esperar veinticuatro horas es precisamente la demora que empeora el pronóstico. Opción C: correcta, integra los tres pilares en el orden y el tiempo adecuados. Opción D: el abordaje percutáneo debe perseguir los mismos principios (resolver el origen de la perforación, eliminar el inóculo y lavar o drenar la cavidad), pero no resuelve por sí solo una perforación con peritonitis difusa. Punto de enseñanza: resucitar, antibiótico y quirófano, sin esperar a completar el estudio.",
+  "teaching_point": "En la peritonitis difusa con sepsis, el control quirúrgico del foco no se demora para completar el estudio de imagen.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "peritonitis",
+   "sepsis",
+   "control del foco"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M002",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Mujer de 55 años con fiebre y dolor en hipocondrio derecho. La TC muestra una única colección hepática de 4 cm en el lóbulo derecho, sin gas. La serología para amebiasis es negativa y se obtiene muestra para cultivo. Está hemodinámicamente estable. ¿Qué actuación procede sobre el control del foco?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Antibioterapia dirigida asociada a punción aspiración repetida, sin dejar drenaje permanente."
+   },
+   {
+    "id": "B",
+    "text": "Laparotomía urgente con drenaje quirúrgico abierto de la colección y lavado de la cavidad."
+   },
+   {
+    "id": "C",
+    "text": "Metronidazol oral durante diez días seguido de paromomicina para erradicación intestinal."
+   },
+   {
+    "id": "D",
+    "text": "Drenaje percutáneo con colocación de catéter permanente, asociado a la antibioterapia dirigida por el cultivo."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase precisa que el absceso hepático piógeno único de 3-5 cm puede tratarse solamente con antibióticos asociados a punción aspiración repetida, sin dejar drenaje asociado. La paciente está estable, la colección es única y pequeña, y ya se ha tomado muestra para cultivo, que es el gesto que permite dirigir el antibiótico. Opción A: correcta, corresponde exactamente al escenario descrito en el material docente. Opción B: el drenaje quirúrgico no es la primera opción; se reserva para la repercusión sistémica grave que no permite demora o para el fracaso del drenaje percutáneo. Opción C: metronidazol y paromomicina constituyen el tratamiento del absceso amebiano, descartado aquí por la serología negativa. Opción D: el drenaje percutáneo con catéter es la primera opción de control del foco en el absceso intraabdominal en general, y es la respuesta que se elige si no se recuerda la excepción; el material reserva para el absceso hepático piógeno único de 3-5 cm la punción aspiración repetida sin dejar drenaje. Punto de enseñanza: el tamaño, el número de colecciones y la estabilidad hemodinámica deciden entre aspiración, drenaje percutáneo y cirugía.",
+  "teaching_point": "El absceso hepático piógeno único de 3-5 cm puede resolverse con antibiótico y punción aspiración repetida, sin drenaje.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "absceso hepático",
+   "piógeno",
+   "punción aspiración"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M003",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un paciente refiere dolor abdominal de tipo cólico, paroxístico y mal localizado, y se muestra inquieto, cambiando continuamente de postura en la camilla. No presenta defensa ni contractura de la pared abdominal en la exploración. ¿Qué característica de la inervación peritoneal explica mejor este patrón de dolor?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Estimulación del peritoneo parietal a través del nervio frénico y de los nervios subcostales."
+   },
+   {
+    "id": "B",
+    "text": "Irritación del peritoneo parietal pélvico por el nervio obturador con contractura refleja."
+   },
+   {
+    "id": "C",
+    "text": "Afectación somática toracoabdominal y lumbosacra, que produce dolor constante y localizado."
+   },
+   {
+    "id": "D",
+    "text": "Estimulación del peritoneo visceral por nervios esplácnicos y plexos celíaco y mesentérico."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase separa dos semiologías. El peritoneo parietal tiene inervación somática (nervio frénico, toracoabdominal, subcostal, lumbosacro y obturador en la pelvis) y produce dolor agudo, constante y bien localizado; si la superficie afectada está próxima a un grupo muscular aparece contractura y defensa. El peritoneo visceral, inervado por nervios esplácnicos y por los plexos celíaco y mesentérico, produce un dolor cólico, paroxístico y mal localizado, con un paciente inquieto que no encuentra postura. Opción A: el nervio frénico y los subcostales son parietales y darían dolor localizado, no cólico. Opción B: el obturador inerva el peritoneo parietal pélvico y se asocia a contractura, ausente en este caso. Opción C: describe también el patrón parietal, incompatible con la ausencia de defensa. Opción D: correcta, es el patrón visceral típico. Punto de enseñanza: paciente quieto que evita moverse orienta a peritoneo parietal; paciente inquieto, a dolor visceral.",
+  "teaching_point": "Dolor constante y localizado con defensa indica peritoneo parietal; dolor cólico con paciente inquieto, peritoneo visceral.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "semiología",
+   "peritoneo parietal",
+   "peritoneo visceral"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M004",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 58 años con cirrosis alcohólica y ascitis acude por fiebre y dolor abdominal difuso leve. No refiere antecedente quirúrgico ni traumático y la TC no muestra perforación ni colecciones. El cultivo del líquido ascítico aísla un único germen. ¿Ante qué tipo de peritonitis se encuentra y qué tratamiento le corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Peritonitis secundaria localizada por una perforación cubierta; antibioterapia dirigida y cirugía si no mejora."
+   },
+   {
+    "id": "B",
+    "text": "Peritonitis bacteriana espontánea; el tratamiento es antibioterapia, sin control quirúrgico del foco."
+   },
+   {
+    "id": "C",
+    "text": "Peritonitis terciaria; requiere reintervención programada y manejo posterior con abdomen abierto."
+   },
+   {
+    "id": "D",
+    "text": "Peritonitis secundaria difusa; precisa laparotomía urgente con lavado de los cuatro cuadrantes."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clasificación de la clase distingue tres formas. La peritonitis bacteriana espontánea ocurre sin lesión visceral, se asume producida por translocación bacteriana, vía hematógena o iatrogénica, es generalmente monomicrobiana, predomina en niños y cirróticos y su tratamiento es la antibioterapia. Aquí coinciden la cirrosis, la ausencia de lesión visceral en la TC y el aislamiento de un único germen. Opción A: la peritonitis secundaria exige perforación, fuga anastomótica o necrosis isquémica y es polimicrobiana; aquí la TC descarta la perforación y el cultivo aísla un único germen. Opción B: correcta. Opción C: la terciaria es la infección persistente o recidivante pese al tratamiento de una secundaria previa, propia de sépticos graves, inmunodeprimidos o abdomen abierto, y aquí no hay tratamiento previo. Opción D: no existe peritonitis difusa con líquido purulento en cuatro cuadrantes ni indicación de laparotomía. Punto de enseñanza: monomicrobiana y sin lesión visceral en un cirrótico es peritonitis bacteriana espontánea y se trata con antibiótico.",
+  "teaching_point": "La peritonitis bacteriana espontánea es monomicrobiana, sin lesión visceral, y su tratamiento es antibiótico, no quirúrgico.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "clasificación",
+   "PBE",
+   "cirrosis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M005",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Paciente de 71 años intervenido hace tres semanas por perforación de sigma, con dos reintervenciones y manejo con abdomen abierto en la unidad de críticos. Persisten la fiebre y la elevación de reactantes, y los cultivos aíslan flora de baja virulencia. ¿Qué forma de peritonitis describe mejor este cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Peritonitis terciaria: infección persistente o recidivante tras tratar una peritonitis secundaria."
+   },
+   {
+    "id": "B",
+    "text": "Peritonitis bacteriana espontánea de presentación nosocomial en un paciente inmunodeprimido."
+   },
+   {
+    "id": "C",
+    "text": "Peritonitis secundaria localizada por una fuga anastomótica todavía no identificada en la imagen."
+   },
+   {
+    "id": "D",
+    "text": "Absceso intraabdominal postoperatorio de órgano-espacio, subsidiario de drenaje percutáneo dirigido por imagen."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define la peritonitis terciaria como la infección persistente o recidivante de la cavidad abdominal pese al intento inicial de tratar una peritonitis secundaria, y la sitúa en pacientes con sepsis grave, inmunodeprimidos o tras abdomen abierto, con inmunidad alterada y necesidad de cuidados críticos. El caso reúne todos esos elementos. Opción A: correcta. Opción B: la peritonitis bacteriana espontánea se produce sin lesión visceral previa y en este paciente hubo perforación de sigma intervenida, de modo que la contaminación fue directa. Opción C: una fuga anastomótica no explica la persistencia tras dos reintervenciones ni el aislamiento de flora de baja virulencia, que es el rasgo característico de la terciaria. Opción D: un absceso de órgano-espacio es una colección localizada y drenable, y la TC del abdomen abierto no la muestra; aquí la infección es difusa y persistente, no una colección única. Punto de enseñanza: fiebre persistente tras varias reintervenciones, abdomen abierto y gérmenes poco virulentos definen la peritonitis terciaria.",
+  "teaching_point": "Peritonitis terciaria: infección persistente o recidivante tras tratar una secundaria, en el paciente crítico con inmunidad alterada.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "peritonitis terciaria",
+   "abdomen abierto",
+   "reintervención"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M006",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Al alcanzar las bacterias la cavidad peritoneal se activan los receptores del sistema inmune innato, acuden macrófagos y después neutrófilos, y se producen TNF alfa e interleucinas 1 y 6. De forma paralela se activa localmente la cascada de la coagulación. ¿Qué consecuencia tiene esa activación de la coagulación sobre la infección peritoneal?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aumenta la liberación de lipopolisacáridos y amplifica de forma directa la respuesta sistémica."
+   },
+   {
+    "id": "B",
+    "text": "Bloquea la llegada de neutrófilos al foco y favorece la progresión hacia una sepsis grave."
+   },
+   {
+    "id": "C",
+    "text": "Produce fibrina, que puede confinar y encapsular la infección limitando su diseminación."
+   },
+   {
+    "id": "D",
+    "text": "Neutraliza los lipopolisacáridos liberados por la destrucción bacteriana y frena la producción de citoquinas."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El material describe la secuencia completa: reconocimiento bacteriano por el sistema inmune innato, mediadores de células mesoteliales dañadas, llegada de macrófagos con citoquinas proinflamatorias (TNF alfa, IL-1 e IL-6) y después neutrófilos; la destrucción bacteriana libera lipopolisacáridos que amplifican el ambiente proinflamatorio, y si la respuesta local se extiende a la circulación sistémica aparecen SIRS y sepsis. En ese contexto, la actividad local de la cascada de la coagulación produce fibrina, que potencialmente confina y encapsula la infección. Opción A: los lipopolisacáridos proceden de la destrucción bacteriana, no de la coagulación. Opción B: la coagulación no bloquea la quimiotaxis de neutrófilos; la progresión a sepsis depende de la extensión sistémica de la respuesta. Opción C: correcta. Opción D: los lipopolisacáridos liberados por la destrucción bacteriana estimulan más el ambiente proinflamatorio y no son neutralizados por la fibrina. Punto de enseñanza: la fibrina es un mecanismo de defensa que localiza la infección y explica la formación de abscesos.",
+  "teaching_point": "La fibrina generada por la coagulación local confina la infección peritoneal y es el origen anatómico del absceso.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "fisiopatología",
+   "fibrina",
+   "citoquinas"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M007",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Se atiende en urgencias a varios pacientes con infección intraabdominal de distinto origen y gravedad. Todos han recibido fluidoterapia y antibioterapia empírica de amplio espectro. ¿En cuál de las siguientes situaciones está indicada la cirugía urgente de control del foco, y no una actitud conservadora o un abordaje percutáneo inicial?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absceso intraperitoneal único de seis centímetros, accesible, en paciente afebril y estable."
+   },
+   {
+    "id": "B",
+    "text": "Peritonitis localizada en fosa ilíaca con hipotensión mantenida pese a la fluidoterapia."
+   },
+   {
+    "id": "C",
+    "text": "Peritonitis bacteriana espontánea en paciente cirrótico con buena respuesta al antibiótico."
+   },
+   {
+    "id": "D",
+    "text": "Absceso hepático piógeno de cuatro centímetros con descenso progresivo de los reactantes."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase enumera con precisión quién necesita cirugía urgente: los pacientes con peritonitis difusa de cualquier origen, los que presentan peritonitis localizada con inestabilidad hemodinámica y los que muestran signos de sepsis. Opción A: un absceso accesible en paciente estable es la indicación típica de drenaje percutáneo, que el material señala como primera opción de control del foco en el absceso intraabdominal. Opción B: correcta, la peritonitis localizada deja de ser subsidiaria de manejo conservador en cuanto aparece inestabilidad hemodinámica. Opción C: la peritonitis bacteriana espontánea se trata con antibioterapia y no requiere control quirúrgico del foco. Opción D: un absceso piógeno pequeño con reactantes en descenso no precisa cirugía; se maneja con antibiótico y punción aspiración o drenaje percutáneo. Punto de enseñanza: la inestabilidad hemodinámica convierte cualquier peritonitis, aunque sea localizada, en una indicación de quirófano urgente.",
+  "teaching_point": "Peritonitis difusa, peritonitis localizada con inestabilidad o signos de sepsis: las tres obligan a cirugía urgente.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "control del foco",
+   "inestabilidad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M008",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Paciente con dolor abdominal, febrícula y elevación de proteína C reactiva y procalcitonina, hemodinámicamente estable, en el que se sospecha una infección intraabdominal sin foco claro tras la exploración física. Se plantea qué prueba de imagen solicitar para confirmar el diagnóstico y localizar el foco. ¿Cuál procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Radiografía simple de abdomen en bipedestación, suficiente para descartar colecciones profundas."
+   },
+   {
+    "id": "B",
+    "text": "Ecografía abdominal a pie de cama, que evita la radiación y permite guiar el drenaje si se confirma una colección."
+   },
+   {
+    "id": "C",
+    "text": "Resonancia magnética abdominal urgente, de elección por su resolución de partes blandas."
+   },
+   {
+    "id": "D",
+    "text": "TC abdominal, la prueba más sensible, que además valora el retroperitoneo y la perfusión."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El material es explícito en los dos apartados: en la peritonitis, la TC es la prueba más sensible, aporta información de toda la cavidad y del retroperitoneo y permite valorar la perfusión si se realiza con contraste; en el absceso intraabdominal, la TC es la prueba de imagen de elección. La condición es que el paciente esté hemodinámicamente estable, como aquí. Opción A: la radiografía simple puede mostrar neumoperitoneo o niveles, pero no descarta colecciones profundas ni localiza el foco. Opción B: la ecografía es accesible, no irradia y sirve para guiar un drenaje, pero el gas intestinal y el hábito del paciente limitan la valoración del retroperitoneo y de los compartimentos profundos, de modo que no es la prueba que confirma el diagnóstico. Opción C: la resonancia no es la prueba de elección en el contexto urgente por disponibilidad y tiempo de adquisición. Opción D: correcta. Punto de enseñanza: paciente estable con sospecha de infección intraabdominal, TC con contraste.",
+  "teaching_point": "La TC es la prueba más sensible y de elección en peritonitis y absceso intraabdominal en el paciente estable.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 4
+  },
+  "tags": [
+   "TC",
+   "diagnóstico",
+   "imagen"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M009",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 34 años procedente de zona endémica, con fiebre intermitente, sudoración, pérdida de peso, anorexia, náuseas e hipo. La TC muestra una colección única en el lóbulo hepático derecho, sin criterios de sepsis, y la serología resulta positiva. ¿Qué tratamiento procede en este paciente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Drenaje percutáneo urgente asociado a piperacilina-tazobactam durante un mínimo de dos semanas."
+   },
+   {
+    "id": "B",
+    "text": "Piperacilina-tazobactam o un carbapenémico asociado a aminoglucósido, sin gesto de drenaje."
+   },
+   {
+    "id": "C",
+    "text": "Punción aspiración repetida con cobertura antibiótica de amplio espectro frente a anaerobios."
+   },
+   {
+    "id": "D",
+    "text": "Metronidazol oral al menos diez días y después paromomicina para el parásito intestinal."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro corresponde al absceso hepático amebiano, que la clase caracteriza por fiebre intermitente, pérdida de peso, sudoración, anorexia, náuseas e hipo, y cuyo diagnóstico de confirmación es serológico, positivo en el 80 % de los casos. El tratamiento indicado es metronidazol por vía oral durante al menos diez días y, resuelto el cuadro, paromomicina para eliminar el parásito a nivel endoluminal intestinal. Opción A: el drenaje percutáneo no es el gesto de partida en el amebiano no complicado y el antibiótico propuesto no cubre la ameba. Opción B: piperacilina-tazobactam o carbapenémico con aminoglucósido es la pauta del absceso piógeno, tras la toma de cultivo. Opción C: la punción aspiración repetida corresponde al piógeno único de 3-5 cm. Opción D: correcta. Punto de enseñanza: la clínica y la serología separan el absceso amebiano del piógeno y cambian por completo el fármaco.",
+  "teaching_point": "Absceso hepático amebiano: metronidazol oral al menos diez días y paromomicina posterior para la erradicación intestinal.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "absceso amebiano",
+   "metronidazol",
+   "paromomicina"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M010",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente con absceso intraabdominal drenado percutáneamente y en tratamiento antibiótico empírico mantiene fiebre y leucocitosis al quinto día. Se revisa la razón por la que el antibiótico puede resultar insuficiente en este escenario concreto. ¿Qué explicación se ajusta mejor a lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El antibiótico alcanza en el interior de la colección concentraciones equivalentes a las plasmáticas, por lo que el fallo apunta al drenaje."
+   },
+   {
+    "id": "B",
+    "text": "La biodisponibilidad está reducida por fibrina, detritus y deficiente irrigación del absceso."
+   },
+   {
+    "id": "C",
+    "text": "Los anaerobios pierden relevancia clínica una vez colocado el drenaje percutáneo eficaz."
+   },
+   {
+    "id": "D",
+    "text": "La fiebre al quinto día traduce ya una peritonitis terciaria establecida y obliga a laparotomía inmediata."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase explica que la eficacia del antibiótico está limitada en el absceso intraabdominal: su biodisponibilidad se reduce por barreras mecánicas (fibrina, detritus) y por la deficiente irrigación del área abscesificada, en la que no se alcanza la concentración óptima; además, un inóculo bacteriano elevado inhibe la capacidad fagocítica de los neutrófilos y favorece la selección de cepas resistentes. Por eso el principal factor de riesgo de fracaso terapéutico es la inadecuación del antibiótico elegido, y por eso los estudios microbiológicos son fundamentales. Opción A: precisamente no se alcanzan concentraciones óptimas dentro de la colección, porque la fibrina, los detritus y la mala perfusión reducen la biodisponibilidad; revisar el drenaje es obligado, pero no es la explicación del fallo del antibiótico. Opción B: correcta. Opción C: la cobertura debe mantenerse frente a flora mixta aerobia y anaerobia. Opción D: la peritonitis terciaria exige el fracaso del tratamiento de una secundaria; la fiebre persistente obliga antes a revisar drenaje y cultivos. Punto de enseñanza: sin control del foco, el antibiótico no llega donde tiene que actuar.",
+  "teaching_point": "En el absceso, la fibrina, los detritus y la mala perfusión reducen la biodisponibilidad del antibiótico: manda el drenaje.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "fracaso terapéutico",
+   "biodisponibilidad",
+   "microbiología"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M011",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Mujer de 62 años con peritonitis secundaria por perforación de úlcera duodenal, con vómitos abundantes y oliguria. Se inicia resucitación con fluidos mientras se prepara el quirófano y se monitorizan las constantes de forma estrecha. ¿Qué objetivos hemodinámicos y de perfusión se persiguen según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Presión arterial media mayor de 65 mmHg, diuresis superior a 0,5 ml/kg/h, saturación venosa de oxígeno mayor del 65 % y lactato normalizado."
+   },
+   {
+    "id": "B",
+    "text": "Los mismos objetivos de presión y de diuresis, aceptando un lactato que se mantenga elevado si la diuresis se ha recuperado."
+   },
+   {
+    "id": "C",
+    "text": "Restricción de fluidos e inicio precoz de vasopresores, tolerando una presión arterial media de 55 mmHg para no agravar el tercer espacio."
+   },
+   {
+    "id": "D",
+    "text": "Presión venosa central entre 8 y 12 mmHg como objetivo único de la resucitación, sin fijar cifras de diuresis ni de lactato."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El material fija los objetivos de la resucitación en la peritonitis: presión arterial media mayor de 65 mmHg, diuresis superior a 0,5 ml/kg/h, saturación venosa de oxígeno mayor del 65 % y lactato normal, con monitorización estrecha y toma frecuente de constantes para asegurar la respuesta. La justificación fisiopatológica es el secuestro de fluidos en la cavidad y la hipovolemia por tercer espacio, agravados por los vómitos y la diarrea, que en esta paciente ya han producido oliguria. Opción A: correcta, reúne los cuatro objetivos en la dirección y con los umbrales que exige la clase. Opción B: el lactato es el marcador de hipoperfusión sistémica y su normalización forma parte del objetivo; darlo por bueno mientras permanece elevado tolera una hipoperfusión mantenida aunque mejore la diuresis. Opción C: la clase exige perfusión adecuada de fluidos desde el momento en que se sospecha la peritonitis, precisamente por el tercer espacio, y sitúa el umbral de presión arterial media en 65 mmHg, no en 55. Opción D: la presión venosa central no figura entre los objetivos del material y, como valor aislado, no informa de la respuesta a volumen ni sustituye a la diuresis y al lactato. Punto de enseñanza: la resucitación se guía por presión, diuresis, saturación venosa de oxígeno y lactato, y el lactato hay que normalizarlo.",
+  "teaching_point": "Objetivos en la peritonitis: PAM mayor de 65 mmHg, diuresis mayor de 0,5 ml/kg/h, SvO2 mayor del 65 % y lactato normal.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 4
+  },
+  "tags": [
+   "resucitación",
+   "objetivos",
+   "tercer espacio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-M012",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Varón de 45 años tratado recientemente de una endocarditis consulta por dolor en hipocondrio izquierdo, fiebre y derrame pleural izquierdo. La TC muestra una colección esplénica única. Está estable y se plantea el control del foco y la cobertura empírica. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esplenectomía urgente como primera opción, dado el riesgo de rotura de la colección."
+   },
+   {
+    "id": "B",
+    "text": "Metronidazol en monoterapia, por tratarse de una colección de origen intestinal anaerobio."
+   },
+   {
+    "id": "C",
+    "text": "Drenaje percutáneo y antibioterapia frente a cocos grampositivos y bacilos gramnegativos."
+   },
+   {
+    "id": "D",
+    "text": "Observación con antibiótico oral domiciliario y control por imagen a las cuatro semanas."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase describe el absceso esplénico por dolor en hipocondrio izquierdo, fiebre y, en ocasiones, derrame pleural, y establece como tratamiento antibiótico una pauta de amplio espectro que cubra cocos grampositivos y bacilos gramnegativos. En el capítulo general de control del foco del absceso intraabdominal, el drenaje percutáneo es la primera opción y el drenaje quirúrgico se reserva para la repercusión sistémica grave que no permite demora o para el fracaso del percutáneo. Opción A: la esplenectomía no es la primera opción en un paciente estable. Opción B: el metronidazol en monoterapia deja sin cubrir los grampositivos, que son esperables tras una endocarditis. Opción C: correcta. Opción D: una colección esplénica infectada no se maneja de forma ambulatoria y expectante, dada la mortalidad de la infección intraabdominal complicada. Punto de enseñanza: drenaje percutáneo primero y cobertura frente a grampositivos y gramnegativos en el absceso esplénico.",
+  "teaching_point": "Absceso esplénico: drenaje percutáneo como primera opción y antibiótico frente a cocos grampositivos y bacilos gramnegativos.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "absceso esplénico",
+   "drenaje percutáneo",
+   "antibioterapia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T10-C001",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un paciente acude a urgencias con una peritonitis difusa de origen digestivo y criterios de sepsis. Antes de trasladarlo al quirófano se decide organizar el tratamiento según el esquema expuesto en clase. Enumere los tres pilares del tratamiento de la sepsis de origen intraabdominal.",
+  "respuesta_canonica": "Resucitación y soporte, antibioterapia empírica precoz y control del foco",
+  "aceptadas": [
+   "resucitación, antibiótico empírico y control del foco",
+   "soporte hemodinámico, antibioterapia de amplio espectro precoz y control del foco",
+   "fluidoterapia, antibioterapia empírica y cirugía o drenaje de control del foco",
+   "control del foco, antibioterapia empírica precoz y resucitación con soporte hemodinámico",
+   "reanimación con fluidos, antibiótico empírico precoz y control del foco quirúrgico o percutáneo"
+  ],
+  "conceptos_clave": [
+   "resucitación",
+   "antibioterapia",
+   "control del foco"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase organiza el tratamiento de toda emergencia o urgencia séptica de origen intraabdominal en tres pilares. El primero es la resucitación y el tratamiento de soporte, porque la peritonitis produce un secuestro importante de fluidos en la cavidad abdominal e hipovolemia por tercer espacio, agravados por vómitos y diarrea; los objetivos son una presión arterial media mayor de 65 mmHg, una diuresis superior a 0,5 ml/kg/h, una saturación venosa de oxígeno mayor del 65 % y un lactato normal. El segundo es la antibioterapia intravenosa empírica precoz de amplio espectro, con cobertura de grampositivos, gramnegativos y anaerobios. El tercero es el control adecuado del foco, que el material señala como el punto más importante junto a la antibioterapia, y que exige cirugía urgente en la peritonitis difusa, en la localizada con inestabilidad y en el paciente séptico. Se acepta cualquier redacción que incluya los tres conceptos; falta uno, falta la respuesta.",
+  "teaching_point": "Los tres pilares son resucitación y soporte, antibioterapia empírica precoz y control del foco.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 4
+  },
+  "tags": [
+   "pilares",
+   "sepsis",
+   "peritonitis"
+  ]
+ },
+ {
+  "id": "T10-C002",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Mujer de 70 años intervenida hace diez días de una hemicolectomía derecha presenta fiebre de origen desconocido, leucocitosis y elevación de reactantes, sin foco aparente en la exploración física. Se sospecha un absceso intraabdominal postoperatorio. Indique la prueba de imagen de elección para confirmarlo.",
+  "respuesta_canonica": "TC (tomografía computarizada) abdominal, preferiblemente con contraste",
+  "aceptadas": [
+   "TC abdominal",
+   "tomografía computarizada abdominopélvica",
+   "TAC de abdomen con contraste",
+   "TC abdominopélvica con contraste intravenoso",
+   "TAC abdominal"
+  ],
+  "conceptos_clave": [
+   "TC",
+   "tomografía",
+   "abdominal"
+  ],
+  "max_palabras": 20,
+  "explanation": "El material docente afirma de forma expresa que, ante la sospecha de absceso intraabdominal, la TC es la prueba de imagen de elección, y que las manifestaciones clínicas de estos abscesos suelen ser muy inespecíficas, lo que retrasa el diagnóstico y aumenta la morbimortalidad. Por eso el empleo precoz de una técnica de imagen es fundamental. En el apartado de peritonitis se añade que la TC es la prueba más sensible, que aporta información de toda la cavidad y también del retroperitoneo, y que permite valorar la perfusión cuando se administra contraste. En el caso descrito concurren además los dos rasgos que la clase asocia al absceso intraperitoneal: síntomas inespecíficos y antecedente quirúrgico abdominal reciente. Se acepta cualquier variante que identifique la tomografía computarizada; no se acepta la ecografía ni la radiografía simple como respuesta principal, aunque puedan ser el primer gesto disponible en urgencias.",
+  "teaching_point": "Ante la sospecha de absceso intraabdominal, la TC es la prueba de imagen de elección.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "TC",
+   "absceso intraabdominal",
+   "diagnóstico"
+  ]
+ },
+ {
+  "id": "T10-C003",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Varón de 60 años con un absceso intraabdominal de siete centímetros tras una apendicectomía complicada, febril pero hemodinámicamente estable y sin peritonismo en la exploración. Se ha tomado muestra para cultivo y se ha iniciado antibioterapia empírica. Indique cuál es la primera opción para el control del foco.",
+  "respuesta_canonica": "Drenaje percutáneo guiado por imagen",
+  "aceptadas": [
+   "drenaje percutáneo",
+   "punción-drenaje percutáneo radiológico",
+   "drenaje percutáneo guiado por TC o ecografía",
+   "drenaje percutáneo radiológico",
+   "punción y drenaje percutáneo guiado por ecografía o TC"
+  ],
+  "conceptos_clave": [
+   "drenaje",
+   "percutáneo"
+  ],
+  "max_palabras": 20,
+  "explanation": "En el tratamiento del absceso intraabdominal la clase separa dos apartados: control del foco y tratamiento antibiótico. Dentro del control del foco establece con claridad que el drenaje percutáneo es la primera opción, mientras que el drenaje quirúrgico no lo es y queda reservado a dos supuestos: que exista repercusión sistémica grave que no permita demora, o que la evolución sea desfavorable por fracaso del drenaje percutáneo. El paciente descrito está estable y sin peritonismo, de modo que no cumple ninguno de esos dos supuestos. Conviene recordar además que el antibiótico solo no basta, porque su biodisponibilidad dentro de la colección está reducida por la fibrina, los detritus y la deficiente irrigación del área abscesificada. Se acepta cualquier formulación que identifique el drenaje percutáneo, con o sin mención de la guía radiológica; no se acepta el drenaje quirúrgico ni la actitud expectante.",
+  "teaching_point": "En el absceso intraabdominal, el drenaje percutáneo es la primera opción de control del foco.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "drenaje percutáneo",
+   "control del foco",
+   "absceso"
+  ]
+ },
+ {
+  "id": "T10-C004",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Varón de 38 años con un absceso hepático cuya serología confirma la etiología amebiana, sin criterios de gravedad ni signos de rotura en la TC. Se decide tratamiento médico y erradicación posterior del parásito. Indique el fármaco de elección inicial, su vía de administración y la duración mínima.",
+  "respuesta_canonica": "Metronidazol por vía oral durante al menos diez días",
+  "aceptadas": [
+   "metronidazol oral 10 días",
+   "metronidazol vía oral, mínimo diez días",
+   "metronidazol oral al menos 10 días y después paromomicina",
+   "metronidazol VO 10 días",
+   "metronidazol por boca, no menos de diez días"
+  ],
+  "conceptos_clave": [
+   "metronidazol",
+   "oral",
+   "diez días"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase responde de forma literal a esta pregunta: el tratamiento del absceso amebiano es metronidazol por vía oral durante al menos diez días y, una vez resuelto el cuadro, la eliminación del parásito a nivel endoluminal intestinal con paromomicina. El diagnóstico de confirmación del absceso hepático amebiano es serológico y resulta positivo en el 80 % de los casos, dato que aquí ya se aporta. Conviene distinguirlo del absceso hepático piógeno, en el que, tras la toma de cultivo, se inicia piperacilina-tazobactam o un carbapenémico (imipenem, meropenem o ertapenem) asociado a un aminoglucósido, y en el que se añade metronidazol precisamente cuando no se ha podido descartar el origen amebiano. La respuesta debe contener el fármaco, la vía y la duración mínima; se considera correcta aunque no mencione la paromomicina, pero no lo es si omite la vía oral o los diez días.",
+  "teaching_point": "Absceso amebiano: metronidazol oral al menos diez días, seguido de paromomicina para el reservorio intestinal.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "metronidazol",
+   "absceso amebiano",
+   "paromomicina"
+  ]
+ },
+ {
+  "id": "T10-L001",
+  "tema": 10,
+  "bloque": "peritoneo",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 66 años, hipertenso, acude por dolor abdominal difuso de dieciocho horas de evolución, fiebre y vómitos. Está taquicárdico e hipotenso y presenta abdomen en tabla con defensa generalizada. La analítica muestra leucocitosis con desviación izquierda, acidosis metabólica y lactato elevado. Exponga el diagnóstico sindrómico y la clasificación de la peritonitis que sospecha, el estudio complementario que solicitaría y los tres pilares del tratamiento, justificando el momento de la cirugía. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Identifica el cuadro como peritonitis con criterios de sepsis a partir de la clínica y la analítica",
+    "puntos": 0.38,
+    "claves": [
+     "peritonitis",
+     "sepsis",
+     "lactato"
+    ]
+   },
+   {
+    "elemento": "Clasifica la peritonitis como secundaria y difusa o generalizada, y justifica la diferencia con la espontánea y la terciaria",
+    "puntos": 0.38,
+    "claves": [
+     "secundaria",
+     "difusa",
+     "espontánea",
+     "terciaria"
+    ]
+   },
+   {
+    "elemento": "Describe la exploración y la analítica dirigidas: defensa, peritonismo, leucocitosis con desviación izquierda, lactato, proteína C reactiva y procalcitonina",
+    "puntos": 0.38,
+    "claves": [
+     "defensa",
+     "peritonismo",
+     "procalcitonina",
+     "lactato"
+    ]
+   },
+   {
+    "elemento": "Indica la TC como prueba más sensible y matiza que en el paciente inestable no debe retrasar el quirófano",
+    "puntos": 0.38,
+    "claves": [
+     "TC",
+     "estable",
+     "no debe retrasar"
+    ]
+   },
+   {
+    "elemento": "Expone la resucitación con objetivos de presión arterial media, diuresis, saturación venosa de oxígeno y lactato",
+    "puntos": 0.38,
+    "claves": [
+     "resucitación",
+     "presión arterial media",
+     "diuresis",
+     "lactato"
+    ]
+   },
+   {
+    "elemento": "Indica antibioterapia intravenosa empírica precoz de amplio espectro con cobertura de grampositivos, gramnegativos y anaerobios",
+    "puntos": 0.38,
+    "claves": [
+     "antibioterapia",
+     "empírica",
+     "anaerobios"
+    ]
+   },
+   {
+    "elemento": "Justifica la cirugía urgente de control del foco y que la demora aumenta la mortalidad",
+    "puntos": 0.38,
+    "claves": [
+     "cirugía urgente",
+     "control del foco",
+     "mortalidad"
+    ]
+   },
+   {
+    "elemento": "Enuncia los principios del control del foco: resolver el origen de la perforación, eliminar el inóculo y lavar o drenar la cavidad",
+    "puntos": 0.34,
+    "claves": [
+     "origen",
+     "inóculo",
+     "lavar",
+     "drenar"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro corresponde a una peritonitis difusa con criterios de sepsis. La clínica de dolor difuso, abdomen en tabla y defensa en los cuatro cuadrantes traduce afectación del peritoneo parietal, cuya inervación somática produce dolor agudo, constante y localizado con contractura muscular refleja. La hipotensión, la taquicardia, la acidosis metabólica y el lactato elevado indican hipoperfusión sistémica. Por su mecanismo se clasifica como peritonitis secundaria, es decir, infección de la cavidad por perforación de víscera hueca, fuga anastomótica o necrosis isquémica, de etiología polimicrobiana; y por su extensión, como generalizada o difusa, al existir afectación de los cuatro cuadrantes. Se diferencia de la peritonitis bacteriana espontánea, que ocurre sin lesión visceral, es monomicrobiana, predomina en niños y cirróticos y se trata solo con antibiótico, y de la terciaria, que es la infección persistente o recidivante tras el tratamiento de una secundaria en pacientes críticos o inmunodeprimidos. En cuanto al estudio, la primera valoración incluye constantes y aspecto general, anamnesis dirigida y exploración física buscando dolor, defensa, peritonismo y su localización, junto a hemograma, bioquímica y coagulación, con atención a leucocitosis con desviación izquierda, lactato, acidosis, proteína C reactiva y procalcitonina. La TC es la prueba más sensible y valora toda la cavidad, el retroperitoneo y la perfusión con contraste, pero solo tiene sentido en el paciente estable: en este caso no debe retrasar el quirófano. El tratamiento se apoya en tres pilares. Primero, resucitación y soporte, con fluidoterapia precoz por el secuestro en tercer espacio, buscando presión arterial media mayor de 65 mmHg, diuresis superior a 0,5 ml/kg/h, saturación venosa de oxígeno mayor del 65 % y lactato normal, con monitorización estrecha. Segundo, antibioterapia intravenosa empírica precoz de amplio espectro frente a grampositivos, gramnegativos y anaerobios. Tercero, control del foco mediante cirugía urgente, indicada aquí por peritonitis difusa e inestabilidad hemodinámica; la demora aumenta la mortalidad. El gesto quirúrgico debe resolver el origen de la perforación, eliminar el inóculo y lavar y drenar la cavidad, principios que también rigen cualquier abordaje percutáneo.",
+  "explanation": "La pregunta evalúa si el alumno integra la semiología peritoneal, la clasificación de las peritonitis y los tres pilares del tratamiento urgente tal como se exponen en la clase. El punto crítico, y el que más se falla, es el momento de la cirugía: ante peritonitis difusa con inestabilidad hemodinámica o signos de sepsis, la indicación quirúrgica es inmediata y no debe supeditarse a completar el estudio de imagen, porque la demora del control del foco aumenta la mortalidad. Se valorará también que el alumno no confunda la peritonitis secundaria con la bacteriana espontánea, cuyo tratamiento es exclusivamente antibiótico, ni con la terciaria, que exige el fracaso previo del tratamiento de una secundaria. Se penaliza omitir alguno de los tres pilares o proponer una TC en un paciente hemodinámicamente inestable como paso previo obligado a la cirugía.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), capítulo de Peritonitis — edición citada en el material de clase: 3.ª ed.",
+  "fuente_clase": {
+   "archivo": "Tema 10.Peritonitis. Abscesos intrabdominales.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "peritonitis secundaria",
+   "sepsis",
+   "control del foco",
+   "resucitación"
+  ]
+ }
+]

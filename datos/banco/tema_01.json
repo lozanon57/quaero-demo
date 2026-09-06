@@ -1,0 +1,725 @@
+[
+  {
+    "id": "T01-M001",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Varón de 68 años con disfagia orofaríngea de dos años, regurgitación de alimentos no digeridos al acostarse, halitosis marcada, deglución ruidosa y dos episodios de neumonía. La exploración cervical es anodina. Su médico sospecha un divertículo faringoesofágico. Señale la exploración inicial más apropiada para confirmar el diagnóstico y definir el tamaño de la bolsa.",
+    "options": [
+      {
+        "id": "A",
+        "text": "TC cervicotorácico con contraste intravenoso"
+      },
+      {
+        "id": "B",
+        "text": "Endoscopia digestiva alta con biopsias"
+      },
+      {
+        "id": "C",
+        "text": "Manometría esofágica de alta resolución"
+      },
+      {
+        "id": "D",
+        "text": "Esofagograma con contraste baritado"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase sitúa el estudio radiológico con contraste baritado como la primera prueba diagnóstica de los divertículos esofágicos, por delante de la TC y de las demás exploraciones. Opción D: correcta, el bario demuestra la bolsa, su tamaño y su relación con el músculo cricofaríngeo, y el tamaño es justamente el dato que decide el tratamiento, porque por debajo de dos centímetros basta la miotomía y por encima se añade un gesto sobre el divertículo. Opción B: la endoscopia sí está en el algoritmo, pero con otro papel, descartar anomalías de la mucosa como esofagitis, esófago de Barrett o lesión sugestiva de carcinoma, y practicada a ciegas sobre un divertículo no diagnosticado añade riesgo de perforar la bolsa. Opción C: la manometría se reserva para la sospecha de acalasia o de otro trastorno motor esofágico. Opción A: la TC informa del mediastino y de las complicaciones, pero no es la exploración inicial. Punto de enseñanza: en el divertículo faringoesofágico el bario va primero y el endoscopio después.",
+    "teaching_point": "Ante sospecha de divertículo faringoesofágico, el esofagograma baritado es la primera prueba; la endoscopia se reserva para descartar patología mucosa.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 6
+    },
+    "tags": [
+      "divertículo de Zenker",
+      "esofagograma",
+      "disfagia orofaríngea"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M002",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 62 años estudiada por tos crónica de un año de evolución. El esofagograma descubre un divertículo de cinco centímetros en el tercio medio del esófago. No refiere disfagia ni dolor torácico y la manometría no demuestra hiperpresión ni trastorno motor del esófago distal. Señale el mecanismo que explica mejor la formación de esta bolsa.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pulsión por hipertonía del músculo cricofaríngeo"
+      },
+      {
+        "id": "B",
+        "text": "Pulsión por un trastorno motor del esófago distal"
+      },
+      {
+        "id": "C",
+        "text": "Tracción por reacción granulomatosa de ganglios mediastínicos"
+      },
+      {
+        "id": "D",
+        "text": "Herniación mucosa a través del triángulo de Killian"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La tabla de la clase separa los tres divertículos esofágicos por localización, edad, frecuencia y mecanismo. El mesoesofágico, del tercio medio, es el menos frecuente y es el único de tracción: la reacción inflamatoria granulomatosa de los ganglios mediastínicos retrae la pared esofágica desde fuera y arrastra todas sus capas. Opción A: la hipertonía y la alteración de la distensibilidad del cricofaríngeo son la causa del divertículo faringoesofágico, del tercio superior, no del mesoesofágico. Opción C: correcta, mecanismo de tracción por adenopatías mediastínicas. Opción B: el trastorno motor esofágico con hiperpresión es la causa del divertículo epifrénico, situado a menos de diez centímetros de la unión esofagogástrica, y la manometría normal del caso lo descarta. Opción D: el triángulo de Killian es el punto de debilidad del divertículo de Zenker, cervical. Punto de enseñanza: tercio medio significa tracción; tercios superior e inferior, pulsión.",
+    "teaching_point": "El divertículo mesoesofágico es de tracción por adenopatías mediastínicas; los divertículos faringoesofágico y epifrénico son de pulsión.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 4
+    },
+    "tags": [
+      "divertículo mesoesofágico",
+      "tracción",
+      "clasificación"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M003",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Mujer de 42 años con cuatro años de disfagia que comenzó para líquidos y ahora también afecta a sólidos, regurgitación nocturna, dolor retroesternal y pérdida de seis kilos. El esofagograma muestra megaesófago con estrechamiento distal en pico de pájaro. Indique la exploración que procede realizar a continuación.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esofagoscopia y manometría esofágica"
+      },
+      {
+        "id": "B",
+        "text": "Dilatación con balón sin más estudios previos"
+      },
+      {
+        "id": "C",
+        "text": "pH-metría esofágica de veinticuatro horas"
+      },
+      {
+        "id": "D",
+        "text": "Impedanciometría esofágica para caracterizar el reflujo"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La disfagia paradójica, que empieza por líquidos y progresa a sólidos, junto al esofagograma con megaesófago y estrechamiento distal en pico de pájaro, orientan a acalasia, pero la clase establece que el diagnóstico se confirma con esofagoscopia y manometría. La esofagoscopia descarta esofagitis, esófago de Barrett y cáncer, es decir, la pseudoacalasia tumoral, y la manometría documenta la hipertonía del esfínter esofágico inferior con ausencia de relajación deglutoria y la falta de peristalsis del cuerpo. Opción C: la pH-metría cuantifica reflujo, que no es el problema aquí. Opción B: dilatar antes de confirmar el diagnóstico expone a perforación en un paciente que podría tener un tumor del cardias. Opción A: correcta. Opción D: la impedanciometría se emplea para caracterizar mejor el reflujo, no para diagnosticar la acalasia. Punto de enseñanza: la imagen sugiere acalasia, pero endoscopia y manometría son las que la confirman y descartan pseudoacalasia.",
+    "teaching_point": "El diagnóstico de acalasia se confirma con esofagoscopia y manometría; la endoscopia es obligada para descartar pseudoacalasia tumoral.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 14
+    },
+    "tags": [
+      "acalasia",
+      "manometría",
+      "disfagia paradójica"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M004",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 50 años con pirosis diaria de ocho años pese a inhibidores de la bomba de protones. En la endoscopia se describen varias pérdidas de sustancia de la mucosa del esófago distal que se han fusionado entre sí formando placas continuas, sin llegar a rodear toda la luz; el calibre esofágico es normal y no hay epitelio columnar. Según el índice de Savary-Miller empleado en clase, señale el grado de esofagitis que corresponde.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grado 1: eritema de la mucosa"
+      },
+      {
+        "id": "B",
+        "text": "Grado 3: úlceras confluyentes"
+      },
+      {
+        "id": "C",
+        "text": "Grado 2: ulceración lineal"
+      },
+      {
+        "id": "D",
+        "text": "Grado 4: estenosis esofágica"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "El índice de Savary-Miller que figura en la clase gradúa la esofagitis por reflujo en cuatro escalones: 1 eritema, 2 ulceración lineal, 3 úlceras confluyentes y 4 estenosis. Las lesiones del caso son pérdidas de sustancia de la mucosa que han dejado de estar aisladas y se han unido formando placas, sin comprometer el calibre de la luz: eso es exactamente lo que define el tercer escalón. Opción A: el grado 1 es sólo eritema, sin pérdida de sustancia de la mucosa, y aquí la mucosa está ulcerada. Opción C: el grado 2 son ulceraciones lineales que permanecen separadas unas de otras; lo que marca el paso al grado 3 es que se unan entre sí, y el caso las describe ya fusionadas. Es el distractor que más se elige. Opción B: correcta. Opción D: el grado 4 exige estenosis de la luz, y el enunciado precisa que el calibre esofágico es normal. Punto de enseñanza: en Savary-Miller la frontera entre el grado 2 y el 3 es la confluencia de las lesiones, y la del 4 es la reducción del calibre, no la extensión de la esofagitis.",
+    "teaching_point": "Savary-Miller: 1 eritema, 2 ulceración lineal, 3 úlceras confluyentes, 4 estenosis.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 36
+    },
+    "tags": [
+      "esofagitis",
+      "Savary-Miller",
+      "RGE"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M005",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 55 años acude a urgencias tras una comida copiosa con alcohol y varios vómitos violentos, seguidos de dolor torácico intenso y disnea. Está taquicárdico, con crepitación cervical y disminución del murmullo en la base izquierda. La radiografía muestra neumomediastino y derrame pleural izquierdo. Señale el diagnóstico más probable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desgarro de Mallory-Weiss de la unión esofagogástrica"
+      },
+      {
+        "id": "B",
+        "text": "Perforación esofágica espontánea o síndrome de Boerhaave"
+      },
+      {
+        "id": "C",
+        "text": "Perforación de úlcera péptica con neumoperitoneo"
+      },
+      {
+        "id": "D",
+        "text": "Rotura traqueobronquial por barotrauma de la tos"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "El cuadro reúne los tres elementos de la tríada de Mackler descrita en clase: vómitos, dolor torácico y enfisema, a los que se añaden neumomediastino y derrame pleural izquierdo. Es la perforación espontánea postemética en ausencia de enfermedad esofágica predisponente, con desencadenante típico de vómitos y alcohol, y asiento característico en el borde posterolateral izquierdo del esófago torácico inferior. Opción B: correcta. Opción A: el síndrome de Mallory-Weiss es un desgarro de la mucosa sin perforación, por lo que cursa con hematemesis y nunca con neumomediastino ni enfisema. Opción C: la úlcera perforada da aire subdiafragmático y abdomen en tabla, no neumomediastino ni crepitación cervical tras vómitos. Opción D: la rotura de la vía aérea produce enfisema y neumomediastino, pero no explica el derrame pleural izquierdo tras el vómito ni el dolor de perfil esofágico. Punto de enseñanza: vómito, dolor y enfisema obligan a descartar perforación esofágica antes de las primeras veinticuatro horas.",
+    "teaching_point": "Vómitos, dolor torácico y enfisema forman la tríada de Mackler del síndrome de Boerhaave; el retraso diagnóstico empeora radicalmente la supervivencia.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 21
+    },
+    "tags": [
+      "Boerhaave",
+      "perforación esofágica",
+      "tríada de Mackler"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M006",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "intermedia",
+    "stem": "Varón de 60 años con sospecha de perforación del esófago torácico; la TC muestra aire extraluminal periesofágico y un derrame pleural izquierdo abundante. Antes de decidir entre manejo conservador y cirugía se practica una toracocentesis diagnóstica. Señale el conjunto de hallazgos del líquido pleural que confirma la comunicación con la luz esofágica.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exudado linfocitario con adenosina desaminasa elevada"
+      },
+      {
+        "id": "B",
+        "text": "Líquido lechoso con triglicéridos muy elevados"
+      },
+      {
+        "id": "C",
+        "text": "Restos alimentarios, pH menor de 6 y amilasa salival"
+      },
+      {
+        "id": "D",
+        "text": "Exudado neutrofílico sin restos alimentarios y con amilasa normal"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase enumera los tres datos de la toracocentesis que confirman que el derrame procede de la luz esofágica: restos alimentarios, pH inferior a 6 y presencia de amilasa salival. Son marcadores directos de contenido digestivo alto en la cavidad pleural y acompañan a los signos radiológicos de sospecha, entre ellos el aire extraluminal, presente en el noventa y dos por ciento de las tomografías. Opción A: el exudado linfocitario con ADA elevada orienta a tuberculosis pleural, un contexto clínico distinto. Opción C: correcta. Opción B: el líquido lechoso rico en triglicéridos define el quilotórax, complicación de la lesión del conducto torácico, no de la perforación esofágica. Opción D: un exudado neutrofílico sin restos alimentarios y con amilasa normal corresponde a un derrame paraneumónico o a un empiema, situaciones que también complican una mediastinitis pero que no demuestran comunicación con la luz esofágica. Punto de enseñanza: en la sospecha de perforación, el líquido pleural ácido con amilasa salival y restos alimentarios cierra el diagnóstico sin necesidad de endoscopia.",
+    "teaching_point": "Restos alimentarios, pH menor de 6 y amilasa salival en el líquido pleural confirman la perforación esofágica.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 24
+    },
+    "tags": [
+      "perforación esofágica",
+      "toracocentesis",
+      "diagnóstico"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M007",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Un paciente con reflujo gastroesofágico de larga evolución acude a revisión endoscópica. Se describe una lengüeta de mucosa asalmonada de tres centímetros por encima de la unión esofagogástrica y la biopsia confirma esófago de Barrett. Señale la definición histológica que corresponde a este diagnóstico según lo explicado en clase.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Displasia de alto grado del epitelio escamoso"
+      },
+      {
+        "id": "B",
+        "text": "Carcinoma escamoso in situ de la mucosa distal"
+      },
+      {
+        "id": "C",
+        "text": "Hiperplasia de la muscularis mucosae por esofagitis crónica"
+      },
+      {
+        "id": "D",
+        "text": "Metaplasia glandular con sustitución por epitelio columnar"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase define el esófago de Barrett como una metaplasia glandular, es decir, la respuesta del epitelio esofágico al reflujo crónico consistente en el cambio de epitelio estratificado a epitelio columnar. Es una lesión adaptativa, no neoplásica, pero con riesgo aumentado de carcinoma, motivo por el que exige vigilancia endoscópica reglada. Opción A: la displasia de alto grado es un escalón posterior, que puede aparecer sobre el Barrett y modifica la conducta hacia la ablación o la resección, pero no es la definición. Opción B: el carcinoma in situ del esófago distal sobre Barrett es adenocarcinoma, no escamoso, y además ya es malignidad establecida. Opción D: correcta. Opción C: la esofagitis crónica engrosa y fibrosa la pared, pero el Barrett se define por el cambio del epitelio, no de la muscular. Punto de enseñanza: Barrett es cambio de epitelio, no cáncer, y por eso el paciente entra en un programa de vigilancia.",
+    "teaching_point": "El esófago de Barrett es una metaplasia glandular: el epitelio estratificado esofágico se sustituye por epitelio columnar.",
+    "guideline_ref": "WHO Classification of Digestive System Tumours, 2019",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 41
+    },
+    "tags": [
+      "esófago de Barrett",
+      "metaplasia",
+      "RGE"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M008",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "extrema",
+    "stem": "Mujer de 70 años con plenitud posprandial y anemia. El estudio baritado muestra la unión esofagogástrica en su posición abdominal habitual y un saco de fundus gástrico herniado hacia el mediastino, situado junto al esófago. Señale el tipo de hernia de hiato que corresponde a esta descripción.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tipo I, hernia por deslizamiento"
+      },
+      {
+        "id": "B",
+        "text": "Tipo III, hernia mixta"
+      },
+      {
+        "id": "C",
+        "text": "Tipo II, hernia paraesofágica"
+      },
+      {
+        "id": "D",
+        "text": "Tipo I de gran tamaño con esófago corto"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clasificación de la clase distingue tres tipos de hernia de hiato: tipo I por deslizamiento, tipo II paraesofágica y tipo III mixta. La clave anatómica que las separa es la posición de la unión esofagogástrica. Aquí la unión permanece en el abdomen y lo que asciende es el fundus junto al esófago, que es la definición de hernia paraesofágica pura. Opción A: en el tipo I lo que migra al tórax es precisamente la unión esofagogástrica, y el enunciado dice que está en su sitio. Opción B: el tipo III es mixto, con la unión desplazada y además fundus herniado; es el distractor más fino y se descarta por la posición de la unión. Opción D: el esófago corto acompaña a hernias de larga evolución y obliga a maniobras de alargamiento, pero no es un tipo de la clasificación. Opción C: correcta. Punto de enseñanza: mire dónde está el cardias, no cuánto estómago hay en el tórax.",
+    "teaching_point": "En la hernia tipo II la unión esofagogástrica sigue en el abdomen y asciende el fundus; en la tipo III asciende también la unión.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 33
+    },
+    "tags": [
+      "hernia de hiato",
+      "clasificación",
+      "paraesofágica"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M009",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 38 años con pirosis y regurgitación diarias, mala respuesta a los inhibidores de la bomba de protones y endoscopia sin esofagitis. La pH-metría de veinticuatro horas muestra un índice de DeMeester patológico. Se plantea una funduplicatura. Señale la exploración que debe completarse antes de la intervención.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nueva pH-metría realizada bajo tratamiento con IBP"
+      },
+      {
+        "id": "B",
+        "text": "Manometría esofágica para descartar un trastorno motor"
+      },
+      {
+        "id": "C",
+        "text": "Ecoendoscopia para medir el espesor del esfínter"
+      },
+      {
+        "id": "D",
+        "text": "TC toracoabdominal para valorar el hiato diafragmático"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase atribuye a la manometría tres funciones: valorar el funcionamiento del cuerpo esofágico y del esfínter esofágico inferior, descartar trastornos primarios de la motilidad y permitir la planificación de la intervención quirúrgica. Es decir, es la prueba que evita operar como reflujo una acalasia y la que orienta entre funduplicatura total y parcial según la capacidad propulsiva del cuerpo. Opción B: correcta. Opción A: el reflujo ya está documentado con un DeMeester patológico; repetir la pH-metría bajo tratamiento no aporta información quirúrgica. Opción C: la ecoendoscopia sirve para estadificar tumores por profundidad y adenopatías, no para indicar una funduplicatura. Opción D: la TC no forma parte del estudio funcional preoperatorio del reflujo, que se apoya en esofagograma, endoscopia, pH-metría, manometría e impedanciometría. Punto de enseñanza: ningún paciente debe entrar en quirófano por reflujo sin manometría previa.",
+    "teaching_point": "La manometría es obligada antes de una funduplicatura: descarta trastornos motores primarios y permite planificar el tipo de válvula.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 38
+    },
+    "tags": [
+      "RGE",
+      "manometría",
+      "cirugía antirreflujo"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M010",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "extrema",
+    "stem": "Paciente de 55 años con esófago de Barrett sin displasia. Se le realizó una endoscopia con biopsias hace un año y otra ahora; ambas confirman metaplasia sin displasia y el reflujo está bien controlado con tratamiento médico. Señale el intervalo de vigilancia endoscópica que procede a partir de este momento.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Endoscopia cada dos o tres años"
+      },
+      {
+        "id": "B",
+        "text": "Endoscopia cada seis meses durante un año"
+      },
+      {
+        "id": "C",
+        "text": "Endoscopia anual de forma indefinida"
+      },
+      {
+        "id": "D",
+        "text": "Ablación endoscópica con radiofrecuencia y alta del programa"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El esquema de vigilancia de la clase parte de una endoscopia anual y establece que, cuando dos endoscopias consecutivas no muestran displasia, el intervalo puede espaciarse a cada dos o tres años. Es exactamente la situación del caso: dos estudios seguidos sin displasia. Opción B: el control semestral durante un año, seguido de control anual, es la pauta de la displasia de bajo grado, y aquí no hay displasia. Opción A: correcta. Opción C: la endoscopia anual es el punto de partida del programa, pero mantenerla indefinidamente pese a dos controles negativos ignora la regla de espaciamiento y consume recursos sin beneficio. Opción D: la ablación endoscópica, con radiofrecuencia o con resección mucosa, es el tratamiento de la displasia de alto grado, no de la metaplasia sin displasia, y tampoco cierra el seguimiento del paciente. Punto de enseñanza: la vigilancia del Barrett se gradúa por la displasia, no por la longitud del segmento.",
+    "teaching_point": "Barrett sin displasia en dos endoscopias consecutivas permite espaciar la vigilancia a cada dos o tres años.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 41
+    },
+    "tags": [
+      "esófago de Barrett",
+      "vigilancia",
+      "displasia"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M011",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 46 años operada hace tres semanas de funduplicatura de Nissen laparoscópica por reflujo refractario. Refiere disfagia para sólidos, sin dolor ni fiebre, y tolera bien los líquidos. El tránsito baritado muestra una válvula de aspecto normal, sin migración ni deslizamiento al mediastino. Señale la actuación más apropiada en este momento.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reintervención precoz para deshacer la funduplicatura"
+      },
+      {
+        "id": "B",
+        "text": "Dilatación endoscópica inmediata de la válvula"
+      },
+      {
+        "id": "C",
+        "text": "Conversión a funduplicatura parcial tipo Toupet"
+      },
+      {
+        "id": "D",
+        "text": "Dieta progresiva y observación, sin más pruebas por ahora"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Los resultados de la funduplicatura que recoge la clase incluyen disfagia temporal en el veinte a treinta por ciento de los operados frente a disfagia permanente en el uno a cinco por ciento. Con tres semanas de evolución, sin dolor ni fiebre, con tolerancia a líquidos y con una válvula de aspecto radiológico normal, estamos ante la disfagia posoperatoria precoz esperable, que se maneja con dieta progresiva y observación. Opción A: reintervenir precozmente a una paciente cuya disfagia es previsiblemente transitoria y cuya válvula es normal expone a una segunda cirugía innecesaria. Opción B: la dilatación tiene sentido en la disfagia persistente por válvula ajustada o cierre de pilares excesivo, no en las primeras semanas. Opción D: correcta. Opción C: la conversión a válvula parcial se plantea ante disfagia permanente demostrada, no de entrada. Punto de enseñanza: la disfagia precoz tras Nissen es la regla y el tiempo es el primer tratamiento.",
+    "teaching_point": "La disfagia en las primeras semanas tras una funduplicatura es habitual y transitoria; sólo la persistente exige dilatación o reintervención.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 50
+    },
+    "tags": [
+      "funduplicatura de Nissen",
+      "disfagia",
+      "complicaciones"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-M012",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 58 años con acalasia diagnosticada hace veinte años, tratado con dilataciones repetidas y una miotomía de Heller que fracasó. Persisten disfagia grave, regurgitación y desnutrición. El esofagograma muestra un megaesófago sigmoideo con gran retención de contraste. Señale la opción terapéutica que procede plantear en este momento.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esofaguectomía con reconstrucción del tránsito"
+      },
+      {
+        "id": "B",
+        "text": "Inyección endoscópica de toxina botulínica"
+      },
+      {
+        "id": "C",
+        "text": "Repetir la miotomía de Heller ampliada"
+      },
+      {
+        "id": "D",
+        "text": "Nueva dilatación con balón de Gruntzig"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La clase reserva la esofaguectomía en la acalasia para cinco situaciones: megaesófago, esófago sigmoideo, miotomía ineficaz, estenosis imposible de dilatar y riesgo de carcinoma. Este paciente cumple tres de ellas a la vez, y además arrastra veinte años de enfermedad, periodo en el que la clase sitúa un riesgo apreciable de degeneración maligna. El órgano ya no es recuperable funcionalmente. Opción D: la dilatación con balón resuelve alrededor del sesenta por ciento de los casos, pero no en un esófago sigmoideo descompensado ya dilatado varias veces. Opción B: la toxina botulínica es un tratamiento paliativo y transitorio, pensado para pacientes de alto riesgo quirúrgico. Opción C: repetir la miotomía sobre una miotomía fallida y un esófago sigmoideo no restaura el vaciamiento. Opción A: correcta. Punto de enseñanza: cuando el esófago se hace sigmoideo, el problema deja de ser el esfínter y pasa a ser el órgano entero.",
+    "teaching_point": "Megaesófago sigmoideo, miotomía fallida o estenosis no dilatable son indicaciones de esofaguectomía en la acalasia.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 15
+    },
+    "tags": [
+      "acalasia",
+      "esofaguectomía",
+      "megaesófago"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T01-C001",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En la perforación del esófago torácico, que es la forma más grave de perforación esofágica y evoluciona a mediastinitis, sepsis y shock, se describe una tríada clínica clásica que orienta el diagnóstico en urgencias. Enumere los tres elementos que componen esa tríada, conocida por el nombre de su autor.",
+    "respuesta_canonica": "Dolor torácico, vómitos y enfisema (tríada de Mackler)",
+    "aceptadas": [
+      "dolor torácico, vómitos y enfisema subcutáneo",
+      "vómitos, dolor torácico y enfisema",
+      "tríada de Mackler: vómito, dolor torácico y enfisema",
+      "vómito, dolor retroesternal y enfisema subcutáneo"
+    ],
+    "conceptos_clave": [
+      "dolor",
+      "vómit",
+      "enfisema"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase describe la tríada de Mackler como la presentación clásica de la perforación del esófago torácico: dolor torácico, vómitos y enfisema. Los tres elementos se explican por el mecanismo, un aumento brusco de presión intraluminal durante el vómito que rompe la pared y permite el paso de aire y contenido digestivo al mediastino. Es una tríada completa en pocos pacientes, de modo que su valor está en pensar en ella, no en exigirla entera. Los datos aislados más frecuentes que recoge la clase son el dolor, la fiebre, la disnea y la crepitación. Reconocerla importa porque la supervivencia depende del tiempo: por debajo de veinticuatro horas alcanza el ochenta a noventa por ciento y por encima cae por debajo del cincuenta por ciento. Punto de enseñanza: ante vómito seguido de dolor torácico y enfisema, la perforación esofágica se descarta activamente, no se espera.",
+    "teaching_point": "Tríada de Mackler: dolor torácico, vómitos y enfisema. La supervivencia depende de diagnosticar la perforación en las primeras veinticuatro horas.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 23
+    },
+    "tags": [
+      "perforación esofágica",
+      "tríada de Mackler",
+      "mediastinitis"
+    ]
+  },
+  {
+    "id": "T01-C002",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "El síndrome de Boerhaave es la perforación esofágica espontánea que aparece tras un episodio de vómitos en ausencia de enfermedad esofágica predisponente. Localizar correctamente el desgarro condiciona la vía de abordaje quirúrgico. Indique la localización anatómica en la que asienta característicamente esta perforación, precisando la pared afectada y la distancia respecto al hiato diafragmático.",
+    "respuesta_canonica": "Borde posterolateral izquierdo del esófago torácico inferior, 3-5 cm sobre el hiato",
+    "aceptadas": [
+      "pared posterolateral izquierda del esófago torácico inferior, a 3-5 cm del hiato",
+      "esófago torácico inferior, borde posterolateral izquierdo, unos 3-5 cm por encima del diafragma",
+      "borde posterolateral izquierdo del esófago torácico inferior, 3 a 5 cm sobre el hiato"
+    ],
+    "conceptos_clave": [
+      "posterolateral",
+      "torácico",
+      "inferior",
+      "cm"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase localiza la perforación del síndrome de Boerhaave en el borde posterolateral izquierdo del esófago torácico inferior, unos tres a cinco centímetros por encima del hiato diafragmático. Ese dato no es anecdótico: explica por qué el derrame pleural acompañante suele ser izquierdo y por qué la vía de abordaje clásica de estas perforaciones es la toracotomía izquierda. El desencadenante habitual es un episodio de vómitos asociado a alcohol, y también se describe tras la maniobra de Heimlich. El diagnóstico diferencial obligado es el síndrome de Mallory-Weiss, que es un desgarro de la mucosa sin perforación y por tanto cursa con hemorragia y no con neumomediastino. Punto de enseñanza: memorizar la localización orienta simultáneamente la sospecha radiológica, el lado del derrame y la vía quirúrgica.",
+    "teaching_point": "El Boerhaave rompe el borde posterolateral izquierdo del esófago torácico inferior, 3-5 cm sobre el hiato; por eso el derrame es izquierdo.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 21
+    },
+    "tags": [
+      "Boerhaave",
+      "anatomía quirúrgica",
+      "perforación"
+    ]
+  },
+  {
+    "id": "T01-C003",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En la acalasia el diagnóstico se confirma mediante esofagoscopia y manometría esofágica. La manometría explora por separado el esfínter esofágico inferior y el cuerpo del esófago. Describa los dos hallazgos manométricos que caracterizan al esfínter esofágico inferior en esta enfermedad, tal y como se expusieron en la clase.",
+    "respuesta_canonica": "Hipertonía del EEI, con presiones mayores de 35 mmHg, y ausencia de relajación deglutoria",
+    "aceptadas": [
+      "hipertonía del esfínter esofágico inferior y falta de relajación con la deglución",
+      "EEI hipertónico, con presión basal por encima de 35 mmHg, y ausencia de relajación",
+      "esfínter esofágico inferior hipertónico que no se relaja al deglutir"
+    ],
+    "conceptos_clave": [
+      "hiperton",
+      "relaj"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase describe dos alteraciones manométricas del esfínter esofágico inferior en la acalasia: hipertonía, con presiones superiores a treinta y cinco milímetros de mercurio, y ausencia de relajación durante la deglución. El cuerpo esofágico muestra en paralelo presión basal aumentada, contracciones especulares no propulsivas y ausencia de tono muscular, de modo que el esófago ni se abre por abajo ni empuja por arriba. Esta doble alteración explica la disfagia paradójica, que empieza para líquidos y progresa a sólidos, y el esofagograma con megaesófago, retraso del vaciado y estrechamiento distal en pico de pájaro. La lesión primaria es la destrucción de los nervios que inervan el esfínter, con degeneración del plexo de Auerbach. Punto de enseñanza: la manometría es la prueba que define la acalasia y la que separa la enfermedad de la pseudoacalasia tumoral, que exige endoscopia.",
+    "teaching_point": "En la acalasia el EEI está hipertónico, con presiones mayores de 35 mmHg, y no se relaja al deglutir.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 14
+    },
+    "tags": [
+      "acalasia",
+      "manometría",
+      "EEI"
+    ]
+  },
+  {
+    "id": "T01-C004",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "La pH-metría esofágica de veinticuatro horas cuantifica el reflujo y su resultado se resume en una puntuación compuesta que lleva el nombre del cirujano que la describió. Indique el nombre de ese índice y el valor por debajo del cual el estudio se considera normal, tal como figura en la clase.",
+    "respuesta_canonica": "Índice de DeMeester; normal por debajo de 14,7",
+    "aceptadas": [
+      "DeMeester menor de 14,7",
+      "puntuación de DeMeester, normal si es inferior a 14,7",
+      "score de DeMeester < 14,7"
+    ],
+    "conceptos_clave": [
+      "DeMeester",
+      "14,7"
+    ],
+    "max_palabras": 20,
+    "explanation": "La pH-metría esofágica registra el pH durante veinticuatro horas y cuantifica el reflujo, y la clase fija el umbral de normalidad del índice de DeMeester en un valor inferior a catorce coma siete. Es la prueba que objetiva el reflujo cuando la endoscopia es normal, situación frecuente en la enfermedad por reflujo no erosiva, y por tanto la que permite indicar cirugía a un paciente sin esofagitis. Se complementa con la impedanciometría, que caracteriza mejor el episodio de reflujo midiendo la resistencia al flujo de una corriente eléctrica y distingue reflujo líquido de reflujo gaseoso. El estudio funcional preoperatorio se completa con esofagograma, endoscopia y manometría. Punto de enseñanza: la pH-metría demuestra que hay reflujo, la manometría demuestra que el esófago puede soportar una válvula, y ambas son necesarias antes de operar.",
+    "teaching_point": "El índice de DeMeester de la pH-metría de 24 horas se considera normal por debajo de 14,7.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 37
+    },
+    "tags": [
+      "pH-metría",
+      "DeMeester",
+      "RGE"
+    ]
+  },
+  {
+    "id": "T01-L001",
+    "tema": 1,
+    "bloque": "esofago",
+    "formato": "larga",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 61 años que acude a urgencias doce horas después de un episodio de vómitos seguido de dolor torácico. La TC muestra aire extraluminal periesofágico y un derrame pleural izquierdo pequeño; está estable hemodinámicamente, afebril y sin datos de sepsis. Exponga el diagnóstico, las pruebas que confirman la perforación, los criterios que permiten optar por un tratamiento conservador y las opciones quirúrgicas si ese manejo fracasa. Máximo 350 palabras.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Establece el diagnóstico de perforación esofágica espontánea postemética y menciona la tríada de Mackler",
+        "puntos": 0.38,
+        "claves": [
+          "perforación",
+          "Boerhaave",
+          "Mackler"
+        ]
+      },
+      {
+        "elemento": "Señala el valor pronóstico del tiempo transcurrido, con mejor supervivencia por debajo de veinticuatro horas",
+        "puntos": 0.38,
+        "claves": [
+          "24 horas",
+          "supervivencia"
+        ]
+      },
+      {
+        "elemento": "Enumera pruebas confirmatorias: TC con aire extraluminal, esofagograma y toracocentesis con restos alimentarios, pH bajo y amilasa salival",
+        "puntos": 0.38,
+        "claves": [
+          "TC",
+          "esofagograma",
+          "amilasa"
+        ]
+      },
+      {
+        "elemento": "Enuncia los criterios de manejo conservador: perforación contenida, estabilidad hemodinámica, síntomas mínimos, ausencia de sepsis y mejoría a las veinticuatro horas",
+        "puntos": 0.38,
+        "claves": [
+          "contenida",
+          "estabilidad",
+          "sepsis",
+          "mejoría"
+        ]
+      },
+      {
+        "elemento": "Describe las medidas del tratamiento conservador: monitorización, estabilización, antibióticos, nutrición, prótesis recubierta y drenaje de colecciones",
+        "puntos": 0.38,
+        "claves": [
+          "antibióticos",
+          "nutrición",
+          "prótesis",
+          "drenaje"
+        ]
+      },
+      {
+        "elemento": "Indica los supuestos de cirugía: fracaso del manejo conservador, perforación no contenida y sepsis",
+        "puntos": 0.38,
+        "claves": [
+          "fracaso",
+          "no contenida",
+          "sepsis"
+        ]
+      },
+      {
+        "elemento": "Enumera opciones quirúrgicas: reparación primaria con refuerzo de parche autólogo, sutura sobre tutor, exclusión esofágica con esofagostomía y gastrostomía, y drenaje pleural",
+        "puntos": 0.38,
+        "claves": [
+          "reparación primaria",
+          "parche",
+          "exclusión",
+          "drenaje pleural"
+        ]
+      },
+      {
+        "elemento": "Menciona la vía de abordaje según el nivel de la perforación: cervical, torácica o abdominal",
+        "puntos": 0.34,
+        "claves": [
+          "cervical",
+          "torácica",
+          "abdominal"
+        ]
+      }
+    ],
+    "respuesta_modelo": "El cuadro corresponde a una perforación esofágica espontánea postemética, el síndrome de Boerhaave, cuya presentación clásica reúne vómitos, dolor torácico y enfisema, la tríada de Mackler. La perforación asienta característicamente en el borde posterolateral izquierdo del esófago torácico inferior, unos tres a cinco centímetros por encima del hiato, lo que explica el derrame izquierdo. El tiempo transcurrido es la variable pronóstica principal: reparada antes de las 24 horas la supervivencia se sitúa en el ochenta a noventa por ciento y por encima de ese plazo cae por debajo del cincuenta por ciento, de modo que doce horas es todavía una ventana favorable. La sospecha se confirma con radiología simple, que puede mostrar neumomediastino, enfisema, derrame o el signo de la V; con TC, que detecta aire extraluminal en la mayoría de los casos y además engrosamiento esofágico, colecciones aire-líquido, abscesos mediastínicos o empiema; con esofagograma, que localiza la fuga; y con toracocentesis, cuyo líquido muestra restos alimentarios, pH inferior a seis y amilasa salival. La endoscopia tiene sensibilidad muy alta pero no es de primera elección. La decisión terapéutica depende de la edad, el tiempo, la localización, la patología esofágica subyacente, la estabilidad clínica, el grado de inflamación y el alcance de la contaminación. Este paciente cumple los criterios de manejo conservador: perforación contenida, estabilidad hemodinámica, síntomas mínimos y ausencia de sepsis, con la condición de comprobar mejoría clínica a las veinticuatro horas de iniciado el tratamiento. Ese manejo incluye monitorización, estabilización hemodinámica, antibióticos, soporte nutricional, prevención de la contaminación pulmonar y, cuando procede, prótesis recubierta, reparación endoscópica y drenaje radiológico de colecciones. Ante el fracaso del manejo conservador, la perforación no contenida o la sepsis, la indicación es quirúrgica. Las opciones son la reparación primaria del defecto, reforzada con parches autólogos de pleura, pericardio, diafragma, epiplón, músculo o fundus gástrico, la sutura sobre tutor en tubo en T y, en los casos más contaminados, la exclusión esofágica con esofagostomía cervical, drenaje pleural y gastrostomía. La vía de abordaje será cervical, torácica o abdominal según el nivel de la lesión.",
+    "explanation": "La pregunta obliga a integrar cuatro bloques de la clase: el reconocimiento clínico de la perforación espontánea, el algoritmo diagnóstico, los criterios de selección para tratamiento conservador y el abanico quirúrgico. El error más frecuente del alumno es saltar directamente a la cirugía en cuanto ve aire extraluminal, olvidando que la clase define un grupo bien delimitado de perforaciones contenidas en pacientes estables y sin sepsis que se manejan sin quirófano, siempre con la condición de reevaluar a las veinticuatro horas. El segundo error es no jerarquizar el tiempo transcurrido, que es la variable que más pesa en el pronóstico. Un tercer fallo habitual es citar la endoscopia como primera prueba, cuando la clase advierte expresamente que, pese a su sensibilidad, nunca es de primera elección. La respuesta completa debe además distinguir la reparación primaria con refuerzo de la exclusión esofágica, reservada a los casos con contaminación extensa.",
+    "teaching_point": "En la perforación esofágica se decide por tres ejes: tiempo transcurrido, si la perforación está contenida y si hay sepsis.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+    "fuente_clase": {
+      "archivo": "Tema 1pdf_Enfermedades funcionales_2025.pdf",
+      "pagina": 28
+    },
+    "tags": [
+      "perforación esofágica",
+      "tratamiento conservador",
+      "exclusión esofágica"
+    ]
+  }
+]

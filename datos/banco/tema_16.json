@@ -1,0 +1,712 @@
+[
+ {
+  "id": "T16-M001",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 62 años con cirrosis por virus C, Child-Pugh A, incluido en un programa de cribado semestral. La ecografía detecta un nódulo de 3 cm en el segmento VI. La TC dinámica muestra captación intensa en fase arterial y lavado en las fases portal y de equilibrio. ¿Qué actuación diagnóstica procede a continuación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Dar por establecido el diagnóstico de hepatocarcinoma y pasar al estudio de extensión."
+   },
+   {
+    "id": "B",
+    "text": "Realizar una biopsia percutánea del nódulo antes de plantear cualquier tratamiento."
+   },
+   {
+    "id": "C",
+    "text": "Repetir la ecografía a los tres meses para confirmar el crecimiento de la lesión."
+   },
+   {
+    "id": "D",
+    "text": "Determinar alfa-fetoproteína y biopsiar solo si el valor resulta normal o bajo."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "En un paciente cirrótico, un nódulo mayor de 2 cm con el patrón dinámico característico, hipercaptación en fase arterial seguida de lavado en las fases portal y de equilibrio, se considera diagnóstico de hepatocarcinoma por imagen y no necesita confirmación histológica; el paso siguiente es el estudio de extensión y la estadificación. Opción A: correcta, porque el patrón vascular descrito es suficiente para el diagnóstico y evita una biopsia innecesaria. Opción B: la biopsia se reserva para lesiones menores de 2 cm con alfa-fetoproteína normal y para lesiones hipovasculares; además tiene falsos negativos por error de muestra y añade riesgo de sangrado y de diseminación tumoral. Opción C: el seguimiento ecográfico cada tres a seis meses corresponde a los nódulos menores de 1 cm, no a una lesión de 3 cm ya caracterizada. Opción D: la alfa-fetoproteína es un marcador poco sensible y su normalidad no descarta el tumor, de modo que no debe condicionar ni retrasar la decisión. Punto de enseñanza: el hepatocarcinoma es el tumor sólido que se diagnostica por imagen sobre un hígado cirrótico.",
+  "teaching_point": "Sobre cirrosis, un nódulo mayor de 2 cm con hipercaptación arterial y lavado venoso es diagnóstico de hepatocarcinoma sin biopsia.",
+  "guideline_ref": "Reig M et al. Documento de consenso AEEH, AEC, SEOM, SERAM, SERVEI y SETH. Med Clin (Barc) 2021;156(9):463.e1-463.e30 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "hepatocarcinoma",
+   "diagnostico",
+   "TC dinamica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M002",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la clase se subraya que entre el 80 y el 95 por ciento de los hepatocarcinomas asientan sobre un hígado cirrótico, pero también que los distintos agentes etiológicos no actúan por el mismo mecanismo. Respecto al papel del virus de la hepatitis B en la hepatocarcinogénesis, ¿qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Actúa a través de la reacción inflamatoria crónica, sin oncogenicidad propia."
+   },
+   {
+    "id": "B",
+    "text": "Tiene poder oncogénico directo y puede inducir el tumor sin cirrosis establecida."
+   },
+   {
+    "id": "C",
+    "text": "Su contribución se limita a potenciar el efecto de las aflatoxinas de la dieta."
+   },
+   {
+    "id": "D",
+    "text": "Necesita el concurso del alcohol para llegar a inducir la transformación tumoral."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase separa explícitamente los mecanismos etiológicos: al virus B se le atribuye poder oncogénico propio, mientras que al virus C se le atribuye la reacción inflamatoria mantenida frente al virus; el alcohol y las toxinas, como las aflatoxinas, actúan como factores adicionales. Esa distinción tiene consecuencias prácticas, porque explica que el portador del virus B pueda desarrollar el tumor sin haber alcanzado el estadio de cirrosis y justifica que el cribado en portadores del virus B se plantee por edad y origen geográfico, no solo por la presencia de cirrosis. Opción A: describe el mecanismo del virus C, no el del B. Opción B: correcta. Opción C: las aflatoxinas son un factor tóxico independiente recogido en la clase, no el vehículo de acción del virus. Opción D: el alcohol es un factor etiológico independiente recogido en la clase, y su ausencia no protege frente al hepatocarcinoma del portador del virus B. Punto de enseñanza: el virus B es oncogénico por sí mismo.",
+  "teaching_point": "El VHB tiene poder oncogénico directo; el VHC actúa por la inflamación crónica que provoca.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "hepatocarcinoma",
+   "etiologia",
+   "VHB"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M003",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Paciente cirrótico con un único nódulo de hepatocarcinoma de 4 cm, performance status 0, bilirrubina normal y un gradiente de presión venosa hepática medido de 14 mmHg. No hay invasión vascular ni enfermedad extrahepática. Según la estadificación del Hospital Clínico de Barcelona utilizada en clase, ¿qué categoría le corresponde y qué tratamiento se le asigna?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Estadio A1, en el que se indica la resección hepática."
+   },
+   {
+    "id": "B",
+    "text": "Estadio B, en el que se indica la quimioembolización transarterial."
+   },
+   {
+    "id": "C",
+    "text": "Estadio A2, en el que cabe la resección o el trasplante hepático."
+   },
+   {
+    "id": "D",
+    "text": "Estadio A3, en el que se indica el trasplante hepático ortotópico."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La subclasificación del estadio precoz que se maneja en clase se apoya en dos variables: la bilirrubina y el gradiente de presión venosa hepática, que obliga a un estudio hemodinámico. El estadio A1 corresponde a bilirrubina normal con gradiente menor de 10 mmHg; el A2, a bilirrubina normal con gradiente superior a 10 mmHg; el A3, a bilirrubina elevada con gradiente superior a 10 mmHg; y el A4, a un máximo de tres nódulos menores de 3 cm con independencia de la función. La asignación terapéutica es A1 resección, A2 resección o trasplante, A3 trasplante y A4 trasplante, con la radiofrecuencia disponible en todo el estadio A. Opción A: exigiría un gradiente inferior a 10 mmHg. Opción B: el estadio intermedio requiere enfermedad multinodular, que aquí no existe. Opción C: correcta, por bilirrubina normal con gradiente superior a 10 mmHg. Opción D: el estadio A3 exige bilirrubina elevada. Punto de enseñanza: en el estadio precoz manda el gradiente portal.",
+  "teaching_point": "En el BCLC precoz, bilirrubina normal con gradiente portal mayor de 10 mmHg define el A2: resección o trasplante.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "BCLC",
+   "estadificacion",
+   "hipertension portal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M004",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Mujer de 58 años con cirrosis alcohólica es valorada para trasplante hepático. La TC muestra dos nódulos de hepatocarcinoma, uno de 3,5 cm en el segmento VII y otro de 1,2 cm en el segmento IV, sin invasión vascular ni enfermedad extrahepática. La función hepática y el estado general permitirían el injerto. ¿Cómo queda esta paciente respecto a los criterios que la clase exige para indicar el trasplante?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Dentro, porque ningún nódulo alcanza los 5 cm de diámetro máximo."
+   },
+   {
+    "id": "B",
+    "text": "Dentro, porque la suma de los diámetros tumorales no llega a 5 cm."
+   },
+   {
+    "id": "C",
+    "text": "Fuera, porque la existencia de dos nódulos excluye por sí misma el injerto."
+   },
+   {
+    "id": "D",
+    "text": "Fuera, porque con más de un nódulo el límite de tamaño baja a 3 cm."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "Los criterios de Milán, tal como los enuncia la clase, tienen dos ramas que no pueden mezclarse: un tumor único 5 cm o menos, o un máximo de tres tumores todos ellos 3 cm o menos cada uno, y en ambos casos sin invasión vascular y sin metástasis a distancia. La paciente tiene dos nódulos, de modo que la rama aplicable es la segunda, y el nódulo de 3,5 cm rebasa el límite de 3 cm que rige cuando la enfermedad es multinodular. Ese mismo nódulo de 3,5 cm, si hubiera sido el único, la habría dejado dentro: el dato que cambia la respuesta es la existencia del segundo nódulo. Opción A: aplica el límite de 5 cm a una enfermedad multinodular, que es justamente el error que la pregunta persigue. Opción B: los criterios no suman diámetros, sino que valoran el número de nódulos y el diámetro de cada uno por separado. Opción C: la multinodularidad no excluye por sí misma, puesto que se admiten hasta tres nódulos. Opción D: correcta. Punto de enseñanza: en cuanto hay más de un nódulo, ninguno puede alcanzar los 3 cm.",
+  "teaching_point": "Criterios de Milán: único menor de 5 cm o hasta tres menores de 3 cm; con dos nódulos el límite aplicable es el de 3 cm.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "criterios de Milan",
+   "trasplante",
+   "hepatocarcinoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M005",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 70 años, cirrótico Child-Pugh B, con un hepatocarcinoma de 3 cm en el segmento VIII y sin enfermedad extrahepática. No es candidato a resección por su función hepática. La TC identifica además un trombo en la rama portal derecha, y la analítica muestra 95.000 plaquetas con coagulación normal. Se plantea una ablación por radiofrecuencia percutánea. ¿Qué dato de los recogidos contraindica la técnica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El trombo identificado en la rama portal derecha."
+   },
+   {
+    "id": "B",
+    "text": "El grado funcional Child-Pugh B de la hepatopatía."
+   },
+   {
+    "id": "C",
+    "text": "El diámetro tumoral de 3 cm en el segmento VIII."
+   },
+   {
+    "id": "D",
+    "text": "La cifra de 95.000 plaquetas del hemograma."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enumera por separado las indicaciones y las contraindicaciones de la ablación por radiofrecuencia. Se indica en tumores menores de 3 a 4 cm, en pacientes no candidatos a cirugía, con función hepática Child-Pugh A o B, en recidivas y como puente antes de la resección o del trasplante. Las contraindicaciones son el tumor subcapsular, la trombosis portal, la enfermedad extrahepática, la coagulopatía y la plaquetopenia por debajo de 40.000. El caso reúne tres datos de aspecto amenazante y solo uno lo es de verdad. Opción A: correcta, la trombosis portal figura de forma expresa entre las contraindicaciones. Opción B: el Child-Pugh B se acepta explícitamente, y de hecho es la mala función hepática la que aparta al paciente de la resección y lo acerca a la ablación. Opción C: un tumor de 3 cm queda dentro del rango de tamaño indicado, no fuera de él. Opción D: la plaquetopenia contraindica la técnica por debajo de 40.000, cifra muy inferior a las 95.000 de este paciente, que además tiene la coagulación normal. Punto de enseñanza: la trombosis portal es la contraindicación que hay que buscar activamente antes de indicar una radiofrecuencia.",
+  "teaching_point": "La trombosis portal contraindica la radiofrecuencia; el Child-Pugh B y un tumor de 3 cm no, y la plaquetopenia solo por debajo de 40.000.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "radiofrecuencia",
+   "contraindicaciones",
+   "hepatocarcinoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M006",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Varón de 65 años con cirrosis conocida acude a urgencias por dolor abdominal de comienzo brusco, palidez e hipotensión. La TC urgente muestra hemoperitoneo abundante y una lesión hepática subcapsular de 6 cm en el segmento VI. No hay antecedente traumático ni procedimiento reciente. ¿Qué complicación explica mejor este cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Trombosis portal tumoral con infarto hepático segmentario extenso."
+   },
+   {
+    "id": "B",
+    "text": "Rotura espontánea del hepatocarcinoma con hemoperitoneo secundario."
+   },
+   {
+    "id": "C",
+    "text": "Hemorragia digestiva por varices esofágicas con anemización aguda."
+   },
+   {
+    "id": "D",
+    "text": "Absceso hepático piógeno abierto a la cavidad peritoneal libre."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase señala que el hepatocarcinoma suele ser asintomático y se detecta en el seguimiento de la hepatopatía crónica, pero que puede debutar como urgencia en forma de rotura espontánea con hemoperitoneo. Un cirrótico con shock hipovolémico, hemoperitoneo y una lesión subcapsular reúne exactamente ese escenario, y la localización subcapsular es el factor que favorece la rotura. Opción A: la trombosis portal tumoral produce deterioro de la función hepática y descompensación, no hemoperitoneo agudo. Opción B: correcta. Opción C: la hemorragia por varices se manifiesta como hematemesis o melenas y no explica la sangre libre intraperitoneal ni la lesión focal descrita. Opción D: un absceso hepático cursa con fiebre alta y un cuadro séptico, y su apertura al peritoneo produciría peritonitis purulenta, no hemoperitoneo. Punto de enseñanza: en un cirrótico con abdomen agudo y hemoperitoneo sin traumatismo, hay que pensar en la rotura de un hepatocarcinoma.",
+  "teaching_point": "El hepatocarcinoma puede debutar como urgencia por rotura espontánea con hemoperitoneo.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "rotura",
+   "hemoperitoneo",
+   "urgencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M007",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En el estudio de un nódulo hepático de 4 cm, la TC dinámica describe una lesión hipovascular y de marcado componente fibroso, que no muestra la captación intensa en fase arterial ni el lavado en las fases portal y de equilibrio propios del hepatocarcinoma. ¿Qué diagnóstico sugiere mejor esta descripción radiológica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hemangioma cavernoso hepático de gran tamaño."
+   },
+   {
+    "id": "B",
+    "text": "Nódulo displásico sobre parénquima cirrótico."
+   },
+   {
+    "id": "C",
+    "text": "Colangiocarcinoma intrahepático, tumor de los colangiocitos."
+   },
+   {
+    "id": "D",
+    "text": "Hepatocarcinoma bien diferenciado de crecimiento lento."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "En el diagnóstico diferencial del nódulo hepático que plantea la clase, el colangiocarcinoma se define precisamente por ser hipovascular y muy fibroso, lo que lo separa del hepatocarcinoma, cuya firma radiológica es la hipercaptación arterial con lavado posterior. Opción A: el hemangioma se caracteriza por un realce más homogéneo y por retener el contraste durante más tiempo, un comportamiento opuesto al lavado y distinto de la hipovascularidad descrita. Opción B: el nódulo displásico es un problema diagnóstico real en el hígado cirrótico, sobre todo cuando la enfermedad es multicéntrica, pero se plantea con lesiones pequeñas y no con una masa fibrosa de 4 cm. Opción C: correcta. Opción D: el hepatocarcinoma, incluso bien diferenciado, no encaja porque la descripción niega expresamente el patrón de captación arterial con lavado. Punto de enseñanza: hipovascular y fibroso orienta a colangiocarcinoma; hipervascular con lavado, a hepatocarcinoma.",
+  "teaching_point": "El colangiocarcinoma intrahepático es hipovascular y muy fibroso, al contrario que el hepatocarcinoma.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "colangiocarcinoma",
+   "diagnostico diferencial",
+   "imagen"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M008",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Un paciente de 45 años con colitis ulcerosa consulta por prurito e ictericia progresiva de tres meses de evolución. La analítica muestra un patrón de colestasis y en el estudio se plantea el riesgo de colangiocarcinoma intrahepático. De las entidades que la clase recoge entre los factores de riesgo de este tumor, ¿cuál explica mejor el aumento de riesgo en este paciente concreto?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Enfermedad de Caroli con dilataciones quísticas intrahepáticas."
+   },
+   {
+    "id": "B",
+    "text": "Cirrosis biliar primaria de larga evolución no tratada."
+   },
+   {
+    "id": "C",
+    "text": "Quiste de colédoco no diagnosticado durante la infancia."
+   },
+   {
+    "id": "D",
+    "text": "Colangitis esclerosante primaria con afectación de la vía biliar intrahepática."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase agrupa los factores de riesgo del colangiocarcinoma intrahepático y sitúa dentro del bloque autoinmune la colangitis esclerosante primaria, la colitis ulcerosa y la cirrosis biliar primaria. La asociación clínica clásica es la de la colitis ulcerosa con la colangitis esclerosante primaria, y es esta colangiopatía, con su colestasis crónica e ictericia, la que confiere el riesgo tumoral en el paciente descrito. Opción A: la enfermedad de Caroli es una anomalía congénita que también aumenta el riesgo, pero no guarda relación con la colitis ulcerosa ni explica el cuadro. Opción B: la cirrosis biliar primaria figura en la lista, pero no es la entidad asociada a la colitis ulcerosa. Opción C: el quiste de colédoco es un factor congénito de riesgo, ligado a las anomalías de la unión pancreatobiliar, no a la enfermedad inflamatoria intestinal. Opción D: correcta, es la colangiopatía que acompaña a la enfermedad inflamatoria intestinal y la que justifica la colestasis y el riesgo tumoral del caso. Punto de enseñanza: colitis ulcerosa más colestasis obliga a descartar colangitis esclerosante y su degeneración.",
+  "teaching_point": "La colitis ulcerosa se asocia a colangitis esclerosante primaria, factor de riesgo de colangiocarcinoma.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 47
+  },
+  "tags": [
+   "colangiocarcinoma",
+   "factores de riesgo",
+   "colangitis esclerosante"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M009",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 60 años intervenida de adenocarcinoma de sigma presenta cuatro metástasis hepáticas confinadas al lóbulo derecho. Tras quimioterapia se plantea una hepatectomía derecha ampliada. La volumetría estima un remanente del 18 por ciento del volumen hepático inicial en un hígado no cirrótico. ¿Qué actuación procede antes de la resección?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Embolización portal derecha para hipertrofiar el futuro remanente hepático."
+   },
+   {
+    "id": "B",
+    "text": "Renunciar a la cirugía e indicar quimioterapia paliativa de forma exclusiva."
+   },
+   {
+    "id": "C",
+    "text": "Realizar la hepatectomía prevista, porque el remanente calculado es suficiente."
+   },
+   {
+    "id": "D",
+    "text": "Sustituir la resección por radiofrecuencia percutánea de las cuatro metástasis."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La planificación de la resección de metástasis hepáticas exige dos condiciones simultáneas: extirpar todas las lesiones con márgenes libres y dejar un remanente hepático viable. La clase fija ese remanente en más del 20 por ciento del volumen inicial, con al menos dos segmentos contiguos y flujo portal, flujo arterial y drenaje biliar adecuados. Con un 18 por ciento estimado no se cumple el umbral, y la clase recoge tres técnicas para aumentar la resecabilidad: la embolización portal, la cirugía en dos tiempos y el ALPPS. Opción A: correcta, la embolización portal induce hipertrofia del futuro remanente y permite resecar después. Opción B: renunciar a la cirugía es prematuro cuando existen maniobras reconocidas para hacer resecable el caso. Opción C: un 18 por ciento queda por debajo del umbral y expone a insuficiencia hepática postoperatoria. Opción D: la radiofrecuencia no sustituye a la resección con intención curativa en esta situación. Punto de enseñanza: preservar más del 20 por ciento del volumen inicial.",
+  "teaching_point": "Un remanente menor del 20 por ciento obliga a embolización portal, cirugía en dos tiempos o ALPPS antes de resecar.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 61
+  },
+  "tags": [
+   "metastasis hepaticas",
+   "volumetria",
+   "embolizacion portal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M010",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 55 años con un hepatocarcinoma único de 4 cm, subcapsular, situado en el segmento VI, sobre hepatopatía compensada Child-Pugh A y sin hipertensión portal significativa. Se discute la vía de abordaje quirúrgico. Según las indicaciones de cirugía mínimamente invasiva expuestas en clase, ¿qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El abordaje laparoscópico está contraindicado en los tumores subcapsulares."
+   },
+   {
+    "id": "B",
+    "text": "Reúne las condiciones aceptadas para un abordaje laparoscópico o robótico."
+   },
+   {
+    "id": "C",
+    "text": "El segmento VI queda excluido de los abordajes mínimamente invasivos."
+   },
+   {
+    "id": "D",
+    "text": "La cirugía mínimamente invasiva exige un tamaño tumoral inferior a 2 cm."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase define las indicaciones del abordaje mínimamente invasivo, laparoscópico o robótico, en el hepatocarcinoma: tumores subcapsulares o exofíticos, localizados en los segmentos III, IVb, V y VI, con un tamaño máximo de 4 a 5 cm y sobre enfermedad hepática compensada Child-Pugh A. El caso cumple los cuatro requisitos. Opción A: la localización subcapsular es precisamente una de las indicaciones del abordaje mínimamente invasivo, no una contraindicación; sí es contraindicación de la radiofrecuencia, y ahí está la trampa. Opción B: correcta. Opción C: el segmento VI figura de forma expresa entre los segmentos favorables. Opción D: el límite de tamaño que recoge la clase es de 4 a 5 cm, no de 2 cm. Punto de enseñanza: subcapsular favorece la laparoscopia y desaconseja la radiofrecuencia; conviene no confundir ambas listas de criterios.",
+  "teaching_point": "Segmentos III, IVb, V y VI, tumor subcapsular o exofítico, hasta 4-5 cm y Child A: caso favorable para laparoscopia.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 28
+  },
+  "tags": [
+   "laparoscopia",
+   "reseccion hepatica",
+   "indicaciones"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M011",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En un programa de cribado de hepatocarcinoma sobre cirrosis, la ecografía semestral detecta un nódulo de 1,4 cm no conocido previamente. Siguiendo el algoritmo por tamaño de la Sociedad Americana para el Estudio de las Enfermedades Hepáticas recogido en la clase, ¿cuál es la conducta que corresponde a un nódulo de este tamaño?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Repetir la ecografía cada tres a seis meses hasta que supere los 2 cm."
+   },
+   {
+    "id": "B",
+    "text": "Biopsiar de entrada, porque por debajo de 2 cm la imagen no es concluyente."
+   },
+   {
+    "id": "C",
+    "text": "Estudiarlo con dos pruebas de imagen y biopsiar si el patrón no es típico."
+   },
+   {
+    "id": "D",
+    "text": "Considerarlo maligno si la alfa-fetoproteína supera los 200 nanogramos por mililitro."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El algoritmo que expone la clase se organiza por el tamaño del nódulo detectado en el cribado. Los nódulos menores de 1 cm se siguen con ecografía cada tres a seis meses. Los nódulos de 1 a 2 cm deben estudiarse con dos pruebas de imagen: si ambas muestran el patrón típico de hepatocarcinoma, el diagnóstico queda establecido; si no lo muestran, procede la biopsia. Los nódulos mayores de 2 cm sugestivos de hepatocarcinoma con alfa-fetoproteína superior a 200 nanogramos por mililitro se consideran diagnósticos. Opción A: es la conducta de los nódulos menores de 1 cm. Opción B: la biopsia no es el primer paso en este rango, sino el recurso cuando la imagen no es típica. Opción C: correcta. Opción D: ese criterio combinado se aplica a nódulos mayores de 2 cm, no a uno de 1,4 cm. Punto de enseñanza: el algoritmo se recuerda por tres franjas de tamaño.",
+  "teaching_point": "Nódulo de 1 a 2 cm: dos pruebas de imagen; si el patrón no es típico en ambas, biopsia.",
+  "guideline_ref": "Reig M et al. Documento de consenso AEEH, AEC, SEOM, SERAM, SERVEI y SETH. Med Clin (Barc) 2021;156(9):463.e1-463.e30 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "cribado",
+   "algoritmo",
+   "hepatocarcinoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-M012",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Paciente de 63 años, sin hepatopatía crónica conocida, con una masa hepática única de 6 cm en el lóbulo izquierdo biopsiada como colangiocarcinoma intrahepático, sin enfermedad extrahepática y con buena función hepática. ¿Qué tratamiento recoge la clase como el único potencialmente curativo en esta situación clínica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Quimioembolización transarterial dirigida a la lesión hepática."
+   },
+   {
+    "id": "B",
+    "text": "Braquiterapia percutánea transcatéter con iridio radiactivo."
+   },
+   {
+    "id": "C",
+    "text": "Trasplante hepático ortotópico como primera opción terapéutica."
+   },
+   {
+    "id": "D",
+    "text": "Hepatectomía con linfadenectomía del pedículo hepático asociada."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase es explícita al afirmar que en el colangiocarcinoma intrahepático la cirugía es el único tratamiento potencialmente curativo, y define el procedimiento como hepatectomía acompañada de linfadenectomía. El resto de las opciones que aparecen en la clase se presentan como tratamiento adyuvante o paliativo, no curativo. Opción A: la quimioembolización pertenece al arsenal locorregional y paliativo, sin intención curativa en este tumor. Opción B: la braquiterapia percutánea transcatéter con iridio se cita en la clase dentro del apartado de tratamiento adyuvante o paliativo, no como opción radical. Opción C: el trasplante hepático se reserva en la clase para el hepatocarcinoma, del que se dice que es el único tumor sólido que se trasplanta; el colangiocarcinoma no se plantea así en este contexto. Opción D: correcta. Punto de enseñanza: en el colangiocarcinoma intrahepático resecable, la resección con linfadenectomía es la única opción con intención curativa.",
+  "teaching_point": "En el colangiocarcinoma intrahepático, solo la hepatectomía con linfadenectomía es potencialmente curativa.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 53
+  },
+  "tags": [
+   "colangiocarcinoma",
+   "cirugia",
+   "linfadenectomia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T16-C001",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "corta",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "En el seguimiento de un paciente cirrótico se detecta un nódulo hepático de 3 cm y se solicita una tomografía computarizada con contraste en fases arterial, portal y de equilibrio para caracterizarlo. Describa el patrón de captación que se considera característico del hepatocarcinoma en ese estudio dinámico.",
+  "respuesta_canonica": "Hipercaptación en fase arterial con lavado en fases portal y de equilibrio",
+  "aceptadas": [
+   "hipervascular en arterial e hipointenso en portal y equilibrio",
+   "captación arterial precoz seguida de washout venoso",
+   "hiperintensa en arterial, hipointensa en portal y en equilibrio",
+   "realce intenso en arterial con lavado en portal y equilibrio",
+   "hipercaptación arterial y washout en las fases portal y de equilibrio"
+  ],
+  "conceptos_clave": [
+   "arterial",
+   "lavado",
+   "portal",
+   "equilibrio"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe el comportamiento del hepatocarcinoma en la TC dinámica en tres fases: hiperintensa en la fase arterial, hipointensa en la fase portal e hipointensa en la fase de equilibrio. Ese patrón de hipercaptación arterial seguida de lavado es la firma radiológica que permite el diagnóstico no invasivo y lo distingue del hemangioma, que retiene el contraste más tiempo y es más homogéneo, y del colangiocarcinoma, que es hipovascular y muy fibroso. En resonancia la lesión se comporta como hipointensa en T1 e hiperintensa en T2. Conviene fijar además el comportamiento en resonancia, hipointensa en T1 e hiperintensa en T2, y recordar que este patrón dinámico es el que sostiene el diagnóstico no invasivo por encima de los 2 cm en el hígado cirrótico, de modo que la biopsia deja de ser necesaria y se evitan su riesgo de sangrado y de siembra tumoral. En los nódulos de 1 a 2 cm el patrón debe confirmarse en dos pruebas de imagen distintas antes de dar el diagnóstico por establecido.",
+  "teaching_point": "Hipercaptación arterial con lavado venoso: la firma del hepatocarcinoma.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "TC dinamica",
+   "hepatocarcinoma"
+  ]
+ },
+ {
+  "id": "T16-C002",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Un paciente cirrótico con hepatocarcinoma es presentado en el comité de tumores para valorar su inclusión en lista de trasplante hepático, y el hepatólogo pregunta si la enfermedad tumoral cumple los requisitos aceptados. Enuncie los criterios de Milán tal como se emplean para indicar el trasplante en el hepatocarcinoma.",
+  "respuesta_canonica": "Tumor único menor de 5 cm o hasta tres menores de 3 cm, sin invasión vascular ni metástasis",
+  "aceptadas": [
+   "un tumor de menos de 5 cm o tres tumores de menos de 3 cm, sin invasión vascular ni enfermedad a distancia",
+   "único menor de 5 cm o máximo tres menores de 3 cm sin invasión vascular ni metástasis",
+   "nódulo único de hasta 5 cm o tres nódulos de hasta 3 cm, sin trombosis tumoral ni diseminación",
+   "uno solo por debajo de 5 cm, o no más de tres por debajo de 3 cm, sin invasión vascular ni metástasis"
+  ],
+  "conceptos_clave": [
+   "único",
+   "5 cm",
+   "tres",
+   "3 cm"
+  ],
+  "max_palabras": 20,
+  "explanation": "Los criterios de Milán, descritos por Mazzaferro y recogidos en la clase, definen la población de hepatocarcinoma con mejores resultados tras el trasplante: un tumor único 5 cm o menos, o un máximo de tres tumores 3 cm o menos cada uno, siempre sin invasión vascular y sin metástasis a distancia. La clase añade que con estos criterios se alcanza una supervivencia del 75 al 85 por ciento a los cuatro años. Es importante no introducir en la formulación variables ajenas, como la alfa-fetoproteína o la suma de diámetros, que no forman parte de los criterios tal como se enuncian. Conviene recordar también que el trasplante es el único tratamiento que resuelve simultáneamente el tumor y la cirrosis subyacente, y que la clase presenta el hepatocarcinoma como el único tumor sólido que se trasplanta. Los factores pronósticos tras el trasplante que se citan son el grado histológico, la satelitosis y la invasión vascular, que solo se conocen con seguridad en la pieza y explican parte de las recidivas en pacientes que cumplían criterios radiológicos antes de la intervención.",
+  "teaching_point": "Milán: uno menor de 5 cm o hasta tres menores de 3 cm, sin invasión vascular ni metástasis.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "criterios de Milan",
+   "trasplante"
+  ]
+ },
+ {
+  "id": "T16-C003",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Antes de una hepatectomía derecha ampliada por metástasis de cáncer colorrectal se realiza una volumetría hepática para comprobar que el hígado que quedará tras la resección será suficiente para sostener la función del paciente. Indique qué proporción del volumen hepático inicial debe preservarse al planificar esa resección.",
+  "respuesta_canonica": "Preservar un remanente mayor del 20 por ciento del volumen hepático inicial",
+  "aceptadas": [
+   "por encima del 20 %",
+   "un remanente superior al 20 % del volumen inicial",
+   "más del veinte por ciento",
+   "más del 20 % del volumen hepático total",
+   "remanente hepático futuro por encima del 20 %"
+  ],
+  "conceptos_clave": [
+   "20",
+   "volumen",
+   "remanente"
+  ],
+  "max_palabras": 20,
+  "explanation": "La planificación de la resección de metástasis hepáticas se apoya en la volumetría y el recuento real de lesiones. La clase fija el umbral de seguridad en preservar más del 20 por ciento del volumen hepático inicial, y añade que ese remanente debe corresponder al menos a dos segmentos contiguos con flujo portal, flujo arterial y drenaje biliar adecuados. No basta con el porcentaje: el remanente tiene que ser funcional y estar correctamente vascularizado y drenado. Cuando no se alcanza ese umbral se recurre a la embolización portal, a la cirugía en dos tiempos o al ALPPS. El umbral debe evaluarse junto con la función hepática tras la quimioterapia, ya que el parénquima expuesto a tratamiento sistémico tolera peor una resección amplia, y junto con el recuento real del número de metástasis, que puede diferir del recuento inicial. La hepatectomía virtual y la planificación tridimensional ayudan a anticipar el volumen residual y a decidir el tipo de resección según la topografía, el número y la relación vascular de las lesiones.",
+  "teaching_point": "Más del 20 por ciento del volumen inicial, en dos segmentos contiguos bien vascularizados y drenados.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 61
+  },
+  "tags": [
+   "volumetria",
+   "remanente hepatico"
+  ]
+ },
+ {
+  "id": "T16-C004",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente con metástasis hepáticas de cáncer colorrectal es considerado inicialmente irresecable porque el remanente hepático previsto resulta insuficiente, pese a que todas las lesiones podrían extirparse con márgenes libres. Cite las tres técnicas que se emplean para aumentar la resecabilidad en esta situación clínica.",
+  "respuesta_canonica": "Embolización portal, cirugía en dos tiempos y ALPPS",
+  "aceptadas": [
+   "embolización de la vena porta, hepatectomía en dos tiempos y ALPPS",
+   "embolización portal, resección en dos tiempos y ALPPS",
+   "embolización portal preoperatoria, cirugía en dos tiempos y ALPPS",
+   "oclusión portal, hepatectomía en dos tiempos y ALPPS"
+  ],
+  "conceptos_clave": [
+   "embolización portal",
+   "dos tiempos",
+   "ALPPS"
+  ],
+  "max_palabras": 20,
+  "explanation": "Cuando la volumetría anticipa un remanente hepático insuficiente, la clase enumera tres estrategias para convertir en resecable un hígado que de entrada no lo es: la embolización portal del lado que se va a resecar, que induce hipertrofia compensadora del futuro remanente; la cirugía en dos tiempos, que reparte la resección en dos intervenciones separadas por un periodo de regeneración; y el ALPPS, que combina la partición del parénquima con la ligadura portal para acelerar esa hipertrofia. La elección depende de la topografía de las lesiones, del volumen residual y de la función hepática del paciente. La decisión se toma tras evaluar el tumor primario, descartar lesiones a otros niveles y comprobar que es posible resecar con márgenes libres todas las metástasis dejando un remanente viable. La clase recuerda que solo entre el 10 y el 20 por ciento de las metástasis colorrectales sincrónicas son resecables de entrada, lo que explica el peso de la quimioterapia neoadyuvante y de estas maniobras de aumento de volumen en la práctica actual.",
+  "teaching_point": "Embolización portal, cirugía en dos tiempos y ALPPS aumentan la resecabilidad.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 63
+  },
+  "tags": [
+   "ALPPS",
+   "embolizacion portal",
+   "metastasis"
+  ]
+ },
+ {
+  "id": "T16-L001",
+  "tema": 16,
+  "bloque": "higado",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 61 años con cirrosis por virus C en programa de cribado. La ecografía detecta un nódulo de 4 cm en el segmento VI. Está asintomático, con bilirrubina normal, Child-Pugh A y sin ascitis. Exponga el proceso diagnóstico que seguiría, cómo lo estadificaría según la clasificación del Hospital Clínico de Barcelona y qué opciones terapéuticas plantearía, justificando la elección.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Describe el patrón diagnóstico en TC dinámica y justifica que no se precisa biopsia por encima de 2 cm",
+    "puntos": 0.5,
+    "claves": [
+     "arterial",
+     "lavado",
+     "sin biopsia"
+    ]
+   },
+   {
+    "elemento": "Sitúa la biopsia y sus limitaciones: lesiones menores de 2 cm con alfa-fetoproteína normal, lesiones hipovasculares, falsos negativos y riesgo de diseminación",
+    "puntos": 0.4,
+    "claves": [
+     "negativos",
+     "diseminación"
+    ]
+   },
+   {
+    "elemento": "Aplica la estadificación de Barcelona e identifica la necesidad de conocer bilirrubina y gradiente de presión venosa hepática para separar A1 de A2 y A3",
+    "puntos": 0.6,
+    "claves": [
+     "Barcelona",
+     "gradiente",
+     "bilirrubina",
+     "A1",
+     "A2"
+    ]
+   },
+   {
+    "elemento": "Enumera las indicaciones de resección: tumor único, bien delimitado, periférico y menor de 5 cm, y las contraindicaciones absolutas",
+    "puntos": 0.5,
+    "claves": [
+     "único",
+     "periférico",
+     "5 cm",
+     "invasión vascular"
+    ]
+   },
+   {
+    "elemento": "Valora el abordaje mínimamente invasivo con sus criterios: subcapsular o exofítico, segmentos III, IVb, V y VI, hasta 4-5 cm, Child A",
+    "puntos": 0.4,
+    "claves": [
+     "laparoscópico",
+     "segmento VI",
+     "Child A"
+    ]
+   },
+   {
+    "elemento": "Plantea las alternativas locorregionales y el trasplante, con los criterios de Milán y las contraindicaciones de la radiofrecuencia",
+    "puntos": 0.6,
+    "claves": [
+     "radiofrecuencia",
+     "Milán",
+     "trasplante"
+    ]
+   }
+  ],
+  "respuesta_modelo": "Ante un nódulo de 4 cm en un cirrótico en cribado, el primer paso es caracterizarlo con TC dinámica o resonancia. El hallazgo de hipercaptación en fase arterial con lavado en las fases portal y de equilibrio, en una lesión mayor de 2 cm sobre hígado cirrótico, permite el diagnóstico de hepatocarcinoma sin biopsia. La biopsia queda reservada para lesiones menores de 2 cm con alfa-fetoproteína normal o para lesiones hipovasculares, y no es inocua: tiene falsos negativos por error de muestra, dificultad para separar displasia de hepatocarcinoma bien diferenciado, y riesgo de sangrado y de diseminación. El diagnóstico diferencial incluye el nódulo displásico, el hemangioma, más homogéneo y con retención prolongada de contraste, y el colangiocarcinoma, hipovascular y fibroso. Completado el estudio de extensión, la estadificación se hace con la clasificación del Hospital Clínico de Barcelona. Con un tumor único, bilirrubina normal y buen estado general, el paciente está en estadio precoz; para separar A1 de A2 hace falta el estudio hemodinámico con medida del gradiente de presión venosa hepática. Si el gradiente es menor de 10 mmHg se trata de un A1 y la indicación es la resección; si supera los 10 mmHg es un A2, en el que caben tanto la resección como el trasplante; con bilirrubina elevada y gradiente alto sería un A3, cuya indicación es el trasplante. La resección exige un tumor único, bien delimitado, periférico y menor de 5 cm, y está contraindicada de forma absoluta ante comorbilidad grave, enfermedad tumoral avanzada, invasión vascular mayor o previsión de disfunción hepática severa tras la resección. Por su localización subcapsular en el segmento VI, su tamaño y el Child A, el caso reúne los criterios expuestos para un abordaje laparoscópico o robótico. Si el paciente no fuera candidato a cirugía, la radiofrecuencia es la alternativa en tumores menores de 3 a 4 cm, siempre que no exista trombosis portal, tumor subcapsular, enfermedad extrahepática ni coagulopatía. El trasplante se plantearía si cumpliera criterios de Milán, con supervivencias del 75 al 85 por ciento a los cuatro años.",
+  "explanation": "La pregunta integra las tres decisiones que estructuran el manejo del hepatocarcinoma en la clase: cómo se diagnostica, cómo se estadifica y cómo se asigna el tratamiento. El punto crítico que separa al alumno que entiende del que memoriza es reconocer que la estadificación de Barcelona no se resuelve solo con el tamaño y el número de nódulos, sino que en el estadio precoz exige el estudio hemodinámico del gradiente portal, y que ese dato es el que decide entre resección y trasplante. La rúbrica prima que el alumno ordene el razonamiento en tres tiempos y que no confunda las listas de criterios: las indicaciones del abordaje laparoscópico incluyen el tumor subcapsular, mientras que la localización subcapsular es una contraindicación de la radiofrecuencia. Se valora también que enumere las contraindicaciones absolutas de la resección, que cite los criterios de Milán con precisión y que no invente cifras de supervivencia ni valores de gradiente distintos de los expuestos en la clase.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022; Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Tumores Hepáticos2023-2024.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "hepatocarcinoma",
+   "BCLC",
+   "reseccion",
+   "trasplante"
+  ]
+ }
+]

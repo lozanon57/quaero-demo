@@ -1,0 +1,729 @@
+[
+  {
+    "id": "T19-M001",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 58 años sometida a colecistectomía laparoscópica por colelitiasis sintomática. El informe anatomopatológico describe un adenocarcinoma limitado a la lámina propia (T1a), con muñón cístico libre y márgenes negativos. La paciente está asintomática y la TC postoperatoria no muestra lesiones. ¿Qué actuación procede en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colecistectomía ampliada con bisegmentectomía IVb-V y linfadenectomía del ligamento hepatoduodenal."
+      },
+      {
+        "id": "B",
+        "text": "Reintervención para linfadenectomía regional y resección de los puertos de laparoscopia."
+      },
+      {
+        "id": "C",
+        "text": "Resección de la vía biliar principal con hepaticoyeyunostomía en Y de Roux."
+      },
+      {
+        "id": "D",
+        "text": "No precisa más cirugía: la colecistectomía realizada es suficiente y no requiere linfadenectomía."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "El cáncer de vesícula incidental T1a queda limitado a la lámina propia y no obliga a ampliar la cirugía: la colecistectomía simple es suficiente y no precisa linfadenectomía ni resección de los puertos, siempre que el patólogo informe el muñón cístico libre. Es el único estadio en el que el hallazgo incidental no obliga a reintervenir, y por eso el informe del cístico es la pieza de información que decide. Opción A: la bisegmentectomía IVb-V se reserva para los tumores T2 de la vertiente hepática, donde la vía de diseminación hacia el lecho justifica resecar parénquima; aplicarla a un T1a añade morbilidad sin beneficio oncológico. Opción B: la linfadenectomía sólo se exige a partir de T1b, y la resección sistemática de los puertos de laparoscopia no está indicada en ningún estadio según la clase. Opción C: la resección de la vía biliar principal únicamente procede cuando existe afectación micro o macroscópica del conducto cístico, que aquí está libre. Punto de enseñanza: la frontera entre observar y reintervenir en el cáncer incidental de vesícula está exactamente entre T1a y T1b.",
+    "teaching_point": "En el cáncer de vesícula incidental, sólo el T1a con muñón cístico libre se maneja sin reintervención.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 21
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "incidental",
+      "T1a"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M002",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 66 años colecistectomizado hace tres semanas por colecistitis crónica litiásica. La anatomía patológica informa de adenocarcinoma que infiltra la capa muscular sin sobrepasarla (T1b). El estudio de extensión con TC y PET-TC es negativo para enfermedad a distancia y el paciente mantiene buen estado general. ¿Qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colecistectomía ampliada con linfadenectomía regional, sin resección sistemática de la vía biliar."
+      },
+      {
+        "id": "B",
+        "text": "Seguimiento con TC y CA 19.9 semestral, sin realizar ninguna nueva intervención."
+      },
+      {
+        "id": "C",
+        "text": "Quimiorradioterapia adyuvante con gemcitabina, reservando la cirugía para la recidiva."
+      },
+      {
+        "id": "D",
+        "text": "Colecistectomía ampliada asociada a resección reglada de la vía biliar principal."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A partir de T1b el cáncer de vesícula incidental obliga a re-cirugía: colecistectomía ampliada más linfadenectomía. La clase es explícita en que la resección de la vía biliar no forma parte del procedimiento estándar y sólo se añade si hay afectación micro o macroscópica del conducto cístico. Que la primera intervención se haya hecho en otro tiempo no penaliza el resultado: no hay diferencias de supervivencia entre la cirugía en uno o en dos tiempos. Opción B: el seguimiento sin cirugía sólo es aceptable en T1a; en T1b se pierde la única oportunidad curativa, porque la cirugía es el único tratamiento con intención curativa en este tumor. Opción C: la quimiorradioterapia se plantea como adyuvante tras resección R0 en pacientes con T2 o superior y ganglios positivos, o ante márgenes R1-R2, nunca como sustituto de una resección posible. Opción D: la resección reglada de la vía biliar añade morbilidad y sólo se indica ante afectación del cístico. Punto de enseñanza: T1b obliga a reintervenir, pero no a resecar la vía biliar por sistema.",
+    "teaching_point": "Desde T1b, el cáncer incidental de vesícula exige colecistectomía ampliada con linfadenectomía.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 21
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "T1b",
+      "re-cirugía"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M003",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "extrema",
+    "stem": "Mujer de 61 años con adenocarcinoma de vesícula que en la pieza infiltra el tejido conectivo perimuscular en la vertiente hepática de la vesícula, sin sobrepasar la serosa ni invadir el hígado (T2b). No hay adenopatías celíacas ni metástasis. ¿Qué resección hepática asociada procede junto a la linfadenectomía?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bisegmentectomía reglada de los segmentos IVb y V del hígado."
+      },
+      {
+        "id": "B",
+        "text": "Hepatectomía derecha ampliada al segmento IV con resección de la vía biliar."
+      },
+      {
+        "id": "C",
+        "text": "Sólo linfadenectomía del ligamento hepatoduodenal, sin resección hepática asociada."
+      },
+      {
+        "id": "D",
+        "text": "Resección del lecho vesicular con margen de 2 cm de parénquima hepático."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La localización del tumor dentro de la pared vesicular condiciona la resección en los T2. Los tumores de la vertiente hepática (T2b) drenan directamente hacia el lecho y hacia los segmentos IVb y V, por lo que la clase indica bisegmentectomía IVb-V asociada a la linfadenectomía. Los tumores del borde libre peritoneal (T2a, fundus y cuerpo) se resuelven con resección con margen. Opción D: el margen de 2 cm de parénquima es la conducta correcta para los T2 de fundus y cuerpo hacia el lado peritoneal, no para la vertiente hepática. Opción B: la hepatectomía derecha ampliada y la resección biliar corresponden a la cirugía radical de los T3-T4 o a la afectación del cístico, y en un T2b supone morbi-mortalidad injustificada. Opción C: prescindir de la resección hepática deja tumor residual en el lecho y contradice el manejo del T2. Punto de enseñanza: en el T2 hay que preguntar siempre en qué vertiente de la vesícula está el tumor, porque decide la extensión hepática.",
+    "teaching_point": "T2 hacia el lado hepático (T2b): bisegmentectomía IVb-V; T2 hacia el lado peritoneal: margen de 2 cm.",
+    "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017); Cirugía AEC 2022",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 23
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "T2b",
+      "bisegmentectomía IVb-V"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M004",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "extrema",
+    "stem": "En el comité de tumores se revisa la pieza de una colecistectomía ampliada por adenocarcinoma de vesícula. El patólogo informa de que ha aislado y estudiado los ganglios del ligamento hepatoduodenal, y el cirujano quiere saber si la linfadenectomía puede considerarse óptima según las premisas del manejo quirúrgico expuestas en la clase. ¿Cuál es el número mínimo de ganglios exigido?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Al menos tres ganglios."
+      },
+      {
+        "id": "B",
+        "text": "Al menos quince ganglios."
+      },
+      {
+        "id": "C",
+        "text": "Al menos doce ganglios."
+      },
+      {
+        "id": "D",
+        "text": "Al menos seis ganglios."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La linfadenectomía en el cáncer de vesícula tiene valor pronóstico, y para que ese valor sea real hace falta un número mínimo de ganglios examinados. La clase fija ese umbral en al menos seis ganglios: por debajo de esa cifra, un informe de ganglios negativos no permite descartar enfermedad ganglionar y el estadio N queda infravalorado. Opción A: tres ganglios es claramente insuficiente y produce migración de estadio, es decir, pacientes clasificados como N0 que en realidad son N1. Opción C: doce ganglios es el umbral que se maneja para el estadiaje de los tumores periampulares, no para la vesícula; es el distractor más atractivo porque la cifra existe, pero en otro tumor. Opción B: quince ganglios corresponde a los estándares de linfadenectomía gástrica y no a la vía biliar. Punto de enseñanza: seis ganglios en la vesícula, doce en los periampulares; confundir las dos cifras es el error clásico en este bloque.",
+    "teaching_point": "Una linfadenectomía se considera óptima en el cáncer de vesícula cuando aporta al menos seis ganglios.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 18
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "linfadenectomía",
+      "estadio N"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M005",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "basica",
+    "stem": "Mujer de 47 años asintomática a la que se detecta en una ecografía abdominal de control un pólipo vesicular sésil de 12 mm, con vascularización en el estudio Doppler. No tiene colelitiasis ni antecedentes de colangitis esclerosante. La función hepática es normal. ¿Qué actuación procede según los criterios expuestos en la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ecoendoscopia con punción del pólipo para confirmación histológica previa."
+      },
+      {
+        "id": "B",
+        "text": "Ecografía de control a los seis meses para vigilar el crecimiento del pólipo."
+      },
+      {
+        "id": "C",
+        "text": "Colecistectomía ampliada con linfadenectomía del ligamento hepatoduodenal."
+      },
+      {
+        "id": "D",
+        "text": "Colecistectomía laparoscópica electiva en los próximos meses, sin estudios adicionales."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase acepta la colecistectomía en los pólipos vesiculares mayores de 10 mm porque reduce la probabilidad de cáncer ulterior. Además, esta paciente reúne otros factores de riesgo de degeneración recogidos en la clase: forma sésil y vascularización. La suma de tamaño, morfología sésil y vascularización desplaza la balanza hacia la resección aunque esté asintomática. Opción B: es cierto que la mayoría de los pólipos son de colesterol y que un porcentaje elevado desaparece en el seguimiento, pero ese argumento sirve para los pólipos pequeños; mantener en vigilancia un pólipo sésil vascularizado de 12 mm es precisamente la conducta que la clase desaconseja. Opción C: la colecistectomía ampliada con linfadenectomía es el tratamiento de un cáncer ya confirmado a partir de T1b, no de un pólipo sin diagnóstico de malignidad. Opción A: la ecoendoscopia aporta especificidad en la valoración de la pared, pero puncionar un pólipo intravesicular no cambia la indicación, que ya está tomada por tamaño y morfología. Punto de enseñanza: tamaño mayor de 10 mm, forma sésil y vascularización son los criterios que llevan un pólipo al quirófano.",
+    "teaching_point": "Pólipo vesicular mayor de 10 mm: colecistectomía; sésil y vascularizado refuerza la indicación.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de patología de la vesícula biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 7
+    },
+    "tags": [
+      "pólipo vesicular",
+      "colecistectomía",
+      "factores de riesgo"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M006",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 70 años con masa vesicular infiltrante. La TC muestra adenopatías patológicas peripancreáticas y en el origen de la arteria mesentérica superior, sin metástasis hepáticas ni ascitis. La laparoscopia exploradora no encuentra implantes peritoneales. El paciente conserva buen estado general y función hepática normal. ¿Qué actuación procede ante estos hallazgos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colecistectomía radical con hepatectomía derecha y linfadenectomía extendida."
+      },
+      {
+        "id": "B",
+        "text": "Colecistectomía ampliada con bisegmentectomía IVb-V y linfadenectomía regional."
+      },
+      {
+        "id": "C",
+        "text": "Renunciar a la resección y remitir a quimioterapia sistémica con gemcitabina."
+      },
+      {
+        "id": "D",
+        "text": "Duodenopancreatectomía cefálica asociada a colecistectomía ampliada."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Las adenopatías peripancreáticas y de la arteria mesentérica superior son ganglios a distancia y constituyen una contraindicación formal a la cirugía en el cáncer de vesícula: la clase señala que la afectación N2 positiva contraindica la resección, junto con las metástasis hepáticas, la diseminación peritoneal, la ascitis tumoral con citología positiva y el encasement vascular extenso del ligamento hepatoduodenal. En esa situación la quimioterapia sistémica con gemcitabina ofrece buena paliación y prolonga la supervivencia. Opción A: la cirugía radical con hepatectomía mayor conlleva altas cifras de morbi-mortalidad y sólo se plantea, y de forma controvertida, en T3-T4 siempre que sean N2 negativos. Opción B: la colecistectomía ampliada con bisegmentectomía es el tratamiento del T2, y ninguna extensión local de la resección corrige una enfermedad ganglionar a distancia. Opción D: añadir una duodenopancreatectomía multiplica la morbilidad sin modificar el pronóstico cuando ya hay N2. Punto de enseñanza: antes de decidir la extensión de la resección hay que descartar las contraindicaciones, y N2 positivo cierra la puerta del quirófano.",
+    "teaching_point": "La afectación ganglionar a distancia (N2 positivo) contraindica la cirugía del cáncer de vesícula.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 19
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "contraindicaciones",
+      "N2"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M007",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En el cáncer de vesícula, la clase relaciona el desarrollo del tumor con todos aquellos procesos capaces de mantener una inflamación crónica de la pared vesicular, y precisa además cuál es el tipo histológico dominante. ¿Cuál de las siguientes afirmaciones sobre histología y factores de riesgo es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El tipo predominante es el carcinoma epidermoide, surgido sobre metaplasia escamosa."
+      },
+      {
+        "id": "B",
+        "text": "La incidencia predomina en varones, al contrario que la de la colelitiasis."
+      },
+      {
+        "id": "C",
+        "text": "El 90 % son adenocarcinomas y la infección por Salmonella typhi es factor de riesgo."
+      },
+      {
+        "id": "D",
+        "text": "El síndrome de Mirizzi queda fuera de los factores de riesgo por ser compresión extrínseca."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase establece que el 90 % de los cánceres de vesícula son adenocarcinomas originados en la mucosa, y enumera entre los factores de riesgo todo aquello que perpetúa la inflamación crónica: colelitiasis, pólipos, factores genéticos y ambientales, infecciones como la producida por Salmonella typhi (endémica en Chile), anomalías de la unión biliopancreática con reflujo, quistes de la vía biliar, síndrome de Mirizzi y vesícula en porcelana. Opción A: el carcinoma epidermoide es excepcional en la vesícula; confundirlo con el adenocarcinoma es el error histológico clásico de este tema. Opción B: la clase recoge explícitamente una mayor incidencia en mujeres, no en varones, lo que además encaja con la epidemiología de la colelitiasis. Opción D: el síndrome de Mirizzi figura expresamente entre los factores de riesgo que enumera la clase, precisamente porque mantiene la inflamación crónica de la mucosa, con independencia de que el mecanismo obstructivo sea extrínseco al epitelio. Punto de enseñanza: casi todo lo que inflama crónicamente la mucosa vesicular, incluida la infección tifoidea, aumenta el riesgo de adenocarcinoma.",
+    "teaching_point": "El 90 % de los cánceres de vesícula son adenocarcinomas y sus factores de riesgo comparten la inflamación crónica.",
+    "guideline_ref": "WHO Classification of Digestive System Tumours (2019); Cirugía AEC 2022",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 5
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "factores de riesgo",
+      "adenocarcinoma"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M008",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 64 años con ictericia obstructiva y CA 19.9 elevado. La colangio-RM muestra una estenosis hiliar que afecta a la confluencia y se extiende al conducto hepático derecho hasta sus ramas sectoriales, con el conducto izquierdo libre. La volumetría del hígado izquierdo es adecuada. ¿Qué resección procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resección aislada de la vía biliar con hepaticoyeyunostomía en Y de Roux."
+      },
+      {
+        "id": "B",
+        "text": "Hepatectomía derecha con resección del segmento I y hepaticoyeyunostomía."
+      },
+      {
+        "id": "C",
+        "text": "Trisectorectomía izquierda con resección portal reglada asociada."
+      },
+      {
+        "id": "D",
+        "text": "Hepatectomía izquierda con resección del segmento I y hepaticoyeyunostomía."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La extensión hacia el conducto hepático derecho con izquierdo libre corresponde a un Bismuth-Corlette IIIa, y la clase indica hepatectomía derecha con o sin resección del segmento I, valorando además la necesidad de resección portal. El segmento I se reseca porque sus conductos drenan directamente en el hilio y constituyen una vía de diseminación biliar. La volumetría adecuada del remanente izquierdo permite operar sin embolización portal previa. Opción A: la resección aislada de la vía biliar con hepaticoyeyunostomía se reserva para los tipos I y II, y en un IIIa dejaría tumor en el conducto derecho. Opción D: la hepatectomía izquierda es el gesto correcto para el tipo IIIb, con afectación del conducto hepático izquierdo; elegirla aquí equivale a resecar el lado sano. Opción C: la trisectorectomía es una alternativa en los tipos IV, y la resección portal no es un gesto sistemático sino una decisión intraoperatoria. Punto de enseñanza: en el Klatskin, el lado del conducto afectado marca el lado de la hepatectomía, y el segmento I casi siempre acompaña.",
+    "teaching_point": "Bismuth-Corlette IIIa: hepatectomía derecha con resección del segmento I.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 53
+    },
+    "tags": [
+      "colangiocarcinoma perihiliar",
+      "Klatskin",
+      "hepatectomía derecha"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M009",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "basica",
+    "stem": "En el comité de tumores se presenta un colangiocarcinoma perihiliar. La colangio-RM demuestra afectación tumoral de la confluencia biliar con extensión simultánea a los conductos hepáticos derecho e izquierdo. Según la clasificación morfológica empleada en la clase para estos tumores, ¿qué tipo corresponde a esta situación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bismuth-Corlette tipo II."
+      },
+      {
+        "id": "B",
+        "text": "Bismuth-Corlette tipo IIIa."
+      },
+      {
+        "id": "C",
+        "text": "Bismuth-Corlette tipo IV."
+      },
+      {
+        "id": "D",
+        "text": "Bismuth-Corlette tipo IIIb."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clasificación de Bismuth-Corlette es morfológica y describe hasta dónde asciende el tumor por el árbol biliar: el tipo I queda por debajo de la bifurcación, el tipo II toca la bifurcación, el IIIa se extiende al conducto hepático derecho, el IIIb al izquierdo y el tipo IV afecta a ambos conductos hepáticos. La afectación simultánea de los dos conductos define, por tanto, un tipo IV. Opción A: el tipo II toca la confluencia pero no progresa hacia ninguno de los dos conductos hepáticos, lo que aquí no se cumple. Opción B: el tipo IIIa exige que el conducto izquierdo esté libre. Opción D: el tipo IIIb exige que el conducto derecho esté libre. Conviene recordar que la clase distingue tres clasificaciones con finalidades diferentes: Bismuth-Corlette morfológica, TNM anatomopatológica y Blumgart de resecabilidad quirúrgica. Punto de enseñanza: Bismuth-Corlette describe morfología, no resecabilidad; para ésta se usa Blumgart-Jarnagin.",
+    "teaching_point": "Bismuth-Corlette IV es la afectación de ambos conductos hepáticos.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 43
+    },
+    "tags": [
+      "Bismuth-Corlette",
+      "colangiocarcinoma perihiliar",
+      "clasificación"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M010",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "intermedia",
+    "stem": "El informe anatomopatológico de una resección hiliar describe un tumor de crecimiento infiltrante, con intensa reacción desmoplásica, que engloba estructuras vasculares del hilio y no forma proyecciones intraluminales. Según los tipos histológicos del colangiocarcinoma perihiliar descritos en la clase, ¿ante qué variante y frecuencia relativa nos encontramos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Variante papilar, en torno al 10 % y de mejor pronóstico."
+      },
+      {
+        "id": "B",
+        "text": "Variante esclerosante, en torno al 70 % de los casos."
+      },
+      {
+        "id": "C",
+        "text": "Variante mucinosa, minoritaria y sin atrapamiento vascular."
+      },
+      {
+        "id": "D",
+        "text": "Variante nodular, en torno al 20 % de los casos."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase describe tres tipos histológicos del colangiocarcinoma perihiliar: esclerosante, que supone alrededor del 70 %, forma masa y suele producir atrapamiento vascular hiliar; nodular, en torno al 20 %; y papilar, en torno al 10 % y de mejor pronóstico. La descripción de un tumor infiltrante y desmoplásico que engloba los vasos del hilio corresponde a la variante esclerosante, que es además la más frecuente. Opción A: el papilar crece hacia la luz formando proyecciones, es el minoritario y tiene mejor pronóstico, hasta el punto de que en los tipos I-II puede bastar la resección de la vía biliar sin hepatectomía. Opción D: el nodular forma masa pero no es el patrón dominante ni el que caracteriza el atrapamiento vascular descrito. Opción C: la clase no recoge una variante mucinosa entre los tipos histológicos del colangiocarcinoma perihiliar. Punto de enseñanza: el patrón esclerosante explica por qué el Klatskin atrapa vasos y por qué la resecabilidad se decide con TC vascular.",
+    "teaching_point": "El colangiocarcinoma perihiliar esclerosante es el más frecuente (70 %) y el que atrapa los vasos del hilio.",
+    "guideline_ref": "WHO Classification of Digestive System Tumours (2019); Cirugía AEC 2022",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 46
+    },
+    "tags": [
+      "colangiocarcinoma perihiliar",
+      "histología",
+      "esclerosante"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-M011",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "extrema",
+    "stem": "Varón de 68 años con colangiocarcinoma perihiliar tipo IIIa y bilirrubina de 14 mg/dL. Se planifica hepatectomía derecha y la volumetría obliga a una embolización portal previa por remanente insuficiente. El paciente está afebril, sin leucocitosis y hemodinámicamente estable. ¿Qué estrategia de descompresión biliar preoperatoria procede y en qué momento respecto a la embolización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Drenaje percutáneo del hígado remanente antes de la embolización portal."
+      },
+      {
+        "id": "B",
+        "text": "Drenaje endoscópico del hígado remanente antes de la embolización portal."
+      },
+      {
+        "id": "C",
+        "text": "Cirugía directa sin drenaje, porque la hiperbilirrubinemia se corrige tras la resección."
+      },
+      {
+        "id": "D",
+        "text": "Drenaje percutáneo bilateral incluyendo el lóbulo derecho que se va a resecar."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Con 14 mg/dL de bilirrubina y un remanente insuficiente, hay que descomprimir antes de embolizar y operar con bilirrubina baja: ese orden no se discute. Lo que sí cambió es la vía. El ensayo DRAINAGE comparó drenaje endoscópico frente a percutáneo en colangiocarcinoma perihiliar resecable y se interrumpió antes de tiempo por una mortalidad marcadamente superior en el brazo percutáneo, de modo que la primera opción es el drenaje endoscópico del hígado que va a quedar. Conviene saber que el ensayo se cerró de forma precoz y que el percutáneo sigue siendo la salida cuando la vía endoscópica falla o el sector remanente no es accesible por ella. Opción A: es la vía que el único ensayo aleatorizado disponible asocia a mayor mortalidad; queda como rescate, no como primera elección. Opción C: operar con colestasis intensa y remanente insuficiente es la combinación que más insuficiencia hepática postoperatoria produce. Opción D: drenar el lóbulo que se va a resecar no aporta nada al remanente futuro y multiplica el riesgo de colangitis; la descompresión se dirige al hígado que quedará. Punto de enseñanza: se drena el remanente antes de embolizar, y por vía endoscópica de entrada.",
+    "teaching_point": "En el colangiocarcinoma perihiliar se descomprime el hígado remanente antes de embolizar, y la primera vía es la endoscópica.",
+    "guideline_ref": "Coelen RJS et al. Lancet Gastroenterol Hepatol. 2018 (ensayo DRAINAGE)",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 50
+    },
+    "tags": [
+      "drenaje biliar",
+      "embolización portal",
+      "colangitis"
+    ],
+    "tiempo_objetivo_s": 45,
+    "discrepancia_evidencia": true,
+    "trial_ref": "DRAINAGE, Lancet Gastroenterol Hepatol 2018; PMID 30122355",
+    "diverge_de_la_clase": true
+  },
+  {
+    "id": "T19-M012",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Mujer de 71 años con ictericia obstructiva progresiva y vesícula palpable. La TC y la colangio-RM muestran una estenosis del colédoco distal intrapancreático, sin masa pancreática identificable y sin contacto con los ejes vasculares. La bilirrubina es de 9 mg/dL, el CA 19.9 está elevado y no hay metástasis. ¿Qué intervención procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duodenopancreatectomía cefálica, con resección del duodeno y la vía biliar distal."
+      },
+      {
+        "id": "B",
+        "text": "Hepatectomía derecha con resección del segmento I y linfadenectomía hiliar."
+      },
+      {
+        "id": "C",
+        "text": "Resección aislada de la vía biliar extrahepática con hepaticoyeyunostomía."
+      },
+      {
+        "id": "D",
+        "text": "Prótesis biliar endoscópica y quimioterapia paliativa con gemcitabina."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El colangiocarcinoma distal, localizado en el colédoco intrapancreático, se maneja igual que los tumores de cabeza de páncreas y de la región ampular, es decir, mediante duodenopancreatectomía cefálica. La clase organiza el tratamiento del colangiocarcinoma según su localización: el intrahepático exige resección hepática, el perihiliar resección hepática más biliar, y el distal duodenopancreatectomía. Opción C: la resección aislada de la vía biliar extrahepática deja el margen distal dentro del páncreas y no permite una linfadenectomía adecuada, por lo que no es oncológicamente válida en esta localización. Opción B: la hepatectomía derecha con segmento I corresponde al perihiliar tipo IIIa y no tiene ningún papel en un tumor del colédoco intrapancreático. Opción D: la prótesis endoscópica y la quimioterapia son el manejo paliativo, inadecuado en un tumor sin metástasis y sin contacto vascular, es decir, potencialmente resecable. Punto de enseñanza: en el colangiocarcinoma, la localización manda sobre la técnica, y el distal es quirúrgicamente un periampular.",
+    "teaching_point": "El colangiocarcinoma distal se trata como un tumor periampular: duodenopancreatectomía cefálica.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 57
+    },
+    "tags": [
+      "colangiocarcinoma distal",
+      "duodenopancreatectomía",
+      "periampular"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T19-C001",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En una colecistectomía ampliada por adenocarcinoma de vesícula T2, el cirujano realiza linfadenectomía del ligamento hepatoduodenal. Para que el estudio ganglionar tenga valor pronóstico y la linfadenectomía se considere óptima, indique el número mínimo de ganglios que debe recoger la pieza quirúrgica.",
+    "respuesta_canonica": "Al menos 6 ganglios",
+    "aceptadas": [
+      "6 ganglios",
+      "seis ganglios",
+      "un mínimo de seis adenopatías",
+      "6 o más ganglios linfáticos",
+      "mínimo 6 ganglios"
+    ],
+    "conceptos_clave": [
+      "6",
+      "seis",
+      "ganglios"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase señala que la linfadenectomía tiene valor pronóstico en el cáncer de vesícula y que, para considerarla óptima, deben obtenerse al menos seis ganglios. Por debajo de esa cifra el estadio N queda infravalorado: un informe de ganglios negativos con dos o tres ganglios examinados no permite descartar enfermedad regional y produce migración de estadio, con pacientes clasificados como N0 que en realidad son N1 y que por tanto no reciben la adyuvancia que les correspondería. Es una cifra que conviene fijar junto a la de los tumores periampulares, donde el estadiaje correcto exige al menos doce ganglios; intercambiar ambos números es el error más frecuente en este bloque. El número de ganglios examinados es, en la práctica, un indicador de calidad de la cirugía y del trabajo del patólogo, no un dato accesorio del informe.",
+    "teaching_point": "Seis ganglios es el mínimo que hace fiable el estadio N en el cáncer de vesícula.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 18
+    },
+    "tags": [
+      "linfadenectomía",
+      "cáncer de vesícula",
+      "estadio N"
+    ]
+  },
+  {
+    "id": "T19-C002",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "corta",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "Un colangiocarcinoma perihiliar afecta a la confluencia biliar y se extiende exclusivamente hacia el conducto hepático izquierdo, quedando el derecho libre de tumor. Según la clasificación morfológica de Bismuth-Corlette utilizada en la clase, indique el tipo que corresponde y la hepatectomía que se planificaría.",
+    "respuesta_canonica": "Tipo IIIb; hepatectomía izquierda con resección del segmento I",
+    "aceptadas": [
+      "Bismuth IIIb, hepatectomía izquierda",
+      "IIIb; hepatectomía izquierda más segmento I",
+      "tipo IIIb y hepatectomía izquierda",
+      "IIIb, hepatectomia izquierda con sI"
+    ],
+    "conceptos_clave": [
+      "IIIb",
+      "izquierda"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clasificación de Bismuth-Corlette es morfológica: el tipo I queda por debajo de la bifurcación, el II toca la bifurcación, el IIIa se extiende al conducto hepático derecho, el IIIb al izquierdo y el IV afecta a ambos. La afectación exclusiva del conducto hepático izquierdo define un tipo IIIb, cuya cirugía es la hepatectomía izquierda, habitualmente asociada a la resección del segmento I porque sus conductos drenan directamente en el hilio y constituyen una vía de diseminación biliar. La reconstrucción se realiza mediante hepaticoyeyunostomía en Y de Roux. El error clásico consiste en invertir IIIa y IIIb y resecar el lado sano: conviene memorizar que la letra a corresponde al conducto derecho y la b al izquierdo, y que el lado enfermo es el que se reseca. La necesidad de resección portal y de embolización portal previa se valora según la volumetría del remanente.",
+    "teaching_point": "IIIa es derecho y IIIb izquierdo; se reseca el lado afectado, casi siempre con el segmento I.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 43
+    },
+    "tags": [
+      "Bismuth-Corlette",
+      "hepatectomía izquierda",
+      "segmento I"
+    ]
+  },
+  {
+    "id": "T19-C003",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "corta",
+    "categoria": "indicacion",
+    "difficulty": "basica",
+    "stem": "Tras una colecistectomía laparoscópica por colelitiasis, el patólogo informa de un adenocarcinoma de vesícula limitado a la lámina propia, con muñón cístico libre de tumor. Indique cuál es el tratamiento quirúrgico definitivo que corresponde a este estadio y si el paciente requiere alguna reintervención.",
+    "respuesta_canonica": "Colecistectomía simple, sin linfadenectomía y no reintervención",
+    "aceptadas": [
+      "la colecistectomía ya realizada es suficiente, sin linfadenectomía",
+      "colecistectomía sola, no precisa re-cirugía",
+      "no reintervenir; colecistectomía simple suficiente",
+      "ninguna reintervención: basta la colecistectomía simple"
+    ],
+    "conceptos_clave": [
+      "colecistectomía",
+      "sin linfadenectomía",
+      "no reintervención"
+    ],
+    "max_palabras": 20,
+    "explanation": "El T1a limitado a la lámina propia es el único estadio de cáncer de vesícula incidental que no obliga a reintervenir: la colecistectomía simple ya realizada es el tratamiento definitivo, no se precisa linfadenectomía y tampoco está indicada la resección de los puertos de laparoscopia. La condición imprescindible es que el informe del patólogo confirme el muñón cístico libre, porque la afectación micro o macroscópica del cístico es lo único que obligaría a resecar la vía biliar. A partir de T1b la situación cambia por completo y se impone la re-cirugía con colecistectomía ampliada y linfadenectomía. Conviene recordar que el cáncer incidental supone alrededor de la mitad de todos los cánceres de vesícula, que su manejo no difiere del conocido de antemano y que no hay diferencias de supervivencia entre operar en uno o en dos tiempos, por lo que remitir a un centro de referencia hepatobiliopancreático no penaliza al paciente.",
+    "teaching_point": "T1a con cístico libre: la colecistectomía ya hecha basta; desde T1b hay que reintervenir.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 26
+    },
+    "tags": [
+      "cáncer incidental",
+      "T1a",
+      "colecistectomía"
+    ]
+  },
+  {
+    "id": "T19-C004",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Varón de 65 años con una estenosis hiliar sospechosa de colangiocarcinoma perihiliar en la colangio-RM. Se plantea establecer el diagnóstico sin biopsia, porque la punción percutánea conlleva riesgo de diseminación. Indique qué biomarcador sérico se considera de elección en este tumor según la clase.",
+    "respuesta_canonica": "CA 19.9",
+    "aceptadas": [
+      "CA 19-9",
+      "antígeno carbohidrato 19.9",
+      "CA19.9 sérico",
+      "CA19-9"
+    ],
+    "conceptos_clave": [
+      "19.9",
+      "CA"
+    ],
+    "max_palabras": 20,
+    "explanation": "Entre los biomarcadores del colangiocarcinoma perihiliar la clase señala el CEA y el CA 19.9, y marca este último como el de elección. Su utilidad práctica es doble. Por un lado permite, junto a una prueba dinámica radiológica compatible como la TC o la colangio-RM, establecer el diagnóstico sin necesidad de confirmación histológica previa a la cirugía o al trasplante, algo especialmente valioso porque la biopsia percutánea o por laparoscopia no está recomendada por el elevado riesgo de diseminación. Por otro lado, el valor debe interpretarse una vez drenada la vía biliar: la colestasis eleva el CA 19.9 por sí misma, de modo que sólo una elevación mantenida después del drenaje es realmente informativa. La clase considera además dudoso el valor del PET-TC en este tumor, y recuerda que la TC informa mejor de la afectación vascular mientras que la resonancia valora mejor la extensión biliar intrahepática.",
+    "teaching_point": "En el colangiocarcinoma perihiliar el CA 19.9 es el marcador de elección, valorado tras drenar la vía biliar.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vía biliar",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 48
+    },
+    "tags": [
+      "CA 19.9",
+      "colangiocarcinoma perihiliar",
+      "diagnóstico"
+    ]
+  },
+  {
+    "id": "T19-L001",
+    "tema": 19,
+    "bloque": "vias_biliares",
+    "formato": "larga",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "El cáncer de vesícula incidental representa aproximadamente la mitad de los cánceres de vesícula y se descubre en el estudio anatomopatológico de piezas de colecistectomía realizadas por otra indicación. Exponga el manejo quirúrgico del cáncer de vesícula en función del estadio T, indicando cuándo procede reintervenir, qué extensión de resección hepática corresponde a cada situación, cuándo está indicada la resección de la vía biliar principal y qué hallazgos contraindican la cirugía.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Define el cáncer incidental y su peso relativo, y señala que su manejo no difiere del conocido de antemano ni penaliza la cirugía en dos tiempos",
+        "puntos": 0.3,
+        "claves": [
+          "incidental",
+          "dos tiempos",
+          "referencia"
+        ]
+      },
+      {
+        "elemento": "Establece que T1a se trata con colecistectomía simple, sin linfadenectomía ni resección de puertos, condicionado al informe del muñón cístico",
+        "puntos": 0.38,
+        "claves": [
+          "T1a",
+          "cístico"
+        ]
+      },
+      {
+        "elemento": "Indica que desde T1b procede re-cirugía con colecistectomía ampliada y linfadenectomía",
+        "puntos": 0.38,
+        "claves": [
+          "T1b",
+          "ampliada"
+        ]
+      },
+      {
+        "elemento": "Diferencia el T2 según la vertiente: borde libre peritoneal con margen de 2 cm frente a vertiente hepática con bisegmentectomía IVb-V",
+        "puntos": 0.45,
+        "claves": [
+          "2 cm",
+          "IVb"
+        ]
+      },
+      {
+        "elemento": "Expone el manejo de T3-T4 como colecistectomía radical con linfadenectomía, con posibilidad de gestos asociados, señalando que es controvertido y de alta morbi-mortalidad y que exige N2 negativo",
+        "puntos": 0.38,
+        "claves": [
+          "T3",
+          "T4",
+          "radical",
+          "morbi-mortalidad",
+          "N2"
+        ]
+      },
+      {
+        "elemento": "Precisa que la resección de la vía biliar sólo se indica ante afectación micro o macroscópica del conducto cístico",
+        "puntos": 0.3,
+        "claves": [
+          "vía biliar",
+          "cístico"
+        ]
+      },
+      {
+        "elemento": "Enumera las contraindicaciones a la cirugía: metástasis hepáticas, diseminación peritoneal, ganglios a distancia, ascitis tumoral con citología positiva y encasement vascular del ligamento hepatoduodenal",
+        "puntos": 0.45,
+        "claves": [
+          "metástasis",
+          "peritoneal",
+          "ascitis"
+        ]
+      },
+      {
+        "elemento": "Menciona el papel de la quimioterapia y radioterapia adyuvante tras R0 en T2 o superior con N1, en R1-R2, y de la gemcitabina en enfermedad irresecable",
+        "puntos": 0.36,
+        "claves": [
+          "adyuvante",
+          "R1",
+          "gemcitabina",
+          "irresecable"
+        ]
+      }
+    ],
+    "respuesta_modelo": "El cáncer de vesícula incidental se descubre en el estudio de la pieza de colecistectomía y supone alrededor de la mitad del total. Su manejo no difiere del cáncer conocido de antemano y no existen diferencias de supervivencia entre operar en uno o en dos tiempos, por lo que ante un hallazgo incidental en un centro sin experiencia lo correcto es remitir al paciente a una unidad hepatobiliopancreática de referencia. La cirugía es el único tratamiento con intención curativa y su extensión la marca la profundidad de invasión de la pared. El T1a, limitado a la lámina propia, se resuelve con la colecistectomía ya realizada: no precisa linfadenectomía ni resección de los puertos, siempre que el patólogo informe el muñón cístico libre. Desde T1b se impone la re-cirugía con colecistectomía ampliada y linfadenectomía; una linfadenectomía se considera óptima cuando aporta al menos seis ganglios, cifra que da valor pronóstico al estadio N. En el T2 la decisión depende de la vertiente: los tumores de fundus y cuerpo hacia el lado peritoneal se resuelven con resección con margen de unos 2 cm de parénquima, mientras que los de la vertiente hepática exigen bisegmentectomía IVb-V. En T3-T4 se plantea colecistectomía radical con linfadenectomía, eventualmente asociada a hepatectomía mayor, duodenopancreatectomía, colectomía, gastrectomía o nefrectomía; es una cirugía controvertida, con altas cifras de morbi-mortalidad, y sólo se justifica en pacientes N2 negativos. La resección de la vía biliar principal no es sistemática: sólo se indica cuando existe afectación micro o macroscópica del conducto cístico. Contraindican la cirugía las metástasis hepáticas, la diseminación peritoneal, la afectación ganglionar a distancia (celíacos, peripancreáticos, periduodenales o de la mesentérica superior), la ascitis tumoral con citología positiva y la afectación extensa del ligamento hepatoduodenal con atrapamiento vascular portal o arterial. Tras cirugía R0 en pacientes con T2 o superior y ganglios positivos debe considerarse quimiorradioterapia adyuvante, obligada en resecciones R1-R2; en enfermedad irresecable o N2 positiva, la quimioterapia sistémica con gemcitabina ofrece buena paliación y prolonga la supervivencia.",
+    "explanation": "La pregunta obliga a recorrer el algoritmo completo del cáncer de vesícula ordenado por el estadio T, que es como lo estructura la clase, y a separar tres decisiones que los alumnos tienden a mezclar: si hay que reintervenir, cuánto hígado hay que resecar y si hay que tocar la vía biliar. La primera se decide en la frontera T1a frente a T1b; la segunda depende de la vertiente vesicular en el T2 y de la carga tumoral en T3-T4; la tercera depende exclusivamente del estado del conducto cístico. A ello se añade el filtro previo de las contraindicaciones, que se evalúan antes de discutir cualquier extensión de la resección: con ganglios a distancia, carcinomatosis, metástasis o encasement vascular del ligamento hepatoduodenal, la conversación deja de ser quirúrgica. Una respuesta que enumere técnicas sin ese filtro previo está incompleta aunque acierte las resecciones.",
+    "teaching_point": "La extensión de la cirugía del cáncer de vesícula la marca el T; la vía biliar sólo se reseca si el cístico está afectado.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de vesícula y vía biliar; AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+    "fuente_clase": {
+      "archivo": "Tumores malignos biliares UCM alumnos.pptx",
+      "pagina": 26
+    },
+    "tags": [
+      "cáncer de vesícula",
+      "manejo quirúrgico",
+      "incidental",
+      "contraindicaciones"
+    ]
+  }
+]

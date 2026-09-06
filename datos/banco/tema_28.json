@@ -1,0 +1,756 @@
+[
+ {
+  "id": "T28-M001",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 71 años consulta por astenia progresiva de seis meses y disnea de esfuerzo. No ha notado cambios del ritmo intestinal ni sangre en las heces. En la analítica destaca hemoglobina de 8,6 g/dL con volumen corpuscular medio de 70 fL y ferritina descendida. El abdomen es blando y el tacto rectal no muestra sangre macroscópica. ¿Qué localización tumoral explica mejor este cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colon derecho, donde el tumor sangra de forma crónica en una luz amplia y de contenido líquido"
+   },
+   {
+    "id": "B",
+    "text": "Sigma, donde el tumor estrecha la luz y produce estreñimiento progresivo y episodios suboclusivos"
+   },
+   {
+    "id": "C",
+    "text": "Recto medio, donde el tumor causa tenesmo, urgencia y emisión de sangre roja con las deposiciones"
+   },
+   {
+    "id": "D",
+    "text": "Ángulo esplénico, donde el tumor debuta como obstrucción aguda con dolor cólico y distensión"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La anemia ferropénica sin síntomas digestivos es la forma típica de presentación del cáncer de colon derecho. El ciego y el colon ascendente tienen una luz amplia y un contenido todavía líquido, de modo que el tumor crece hasta un tamaño considerable sin obstruir, y su sangrado crónico y oculto se manifiesta únicamente como ferropenia, melenas o hematoquecia intermitente. La clase advierte además que una proporción relevante de estos pacientes mantiene la hemoglobina normal, por lo que la ausencia de anemia tampoco descarta la lesión. Opción B: el cáncer de sigma se comporta al revés, estrecha una luz ya estrecha con heces formadas y debuta con cambio del ritmo intestinal, estreñimiento o suboclusión, no con ferropenia silente. Opción C: el tumor de recto medio produce rectorragia visible, tenesmo y urgencia defecatoria, síntomas que la paciente niega y que el tacto rectal habría orientado. Opción D: el ángulo esplénico pertenece funcionalmente al colon izquierdo y su presentación característica es obstructiva, con dolor cólico y distensión, no anémica. Punto de enseñanza: ante ferropenia inexplicada en un adulto la colonoscopia es obligada aunque no haya ningún síntoma digestivo.",
+  "teaching_point": "Anemia ferropénica sin síntomas digestivos en un adulto obliga a descartar cáncer de colon derecho.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores malignos del colon",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 19
+  },
+  "tags": [
+   "cáncer de colon",
+   "colon derecho",
+   "anemia ferropénica",
+   "clínica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M002",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la vía de inestabilidad cromosómica descrita por Fearon y Vogelstein, el epitelio colónico normal progresa a adenoma y después a carcinoma acumulando alteraciones sucesivas en oncogenes y en genes supresores. Se le pide señalar la alteración que inicia la secuencia, es decir, la responsable del paso de mucosa normal a adenoma displásico. ¿Cuál es?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mutación de KRAS, oncogén de la señalización situada por debajo del receptor EGFR"
+   },
+   {
+    "id": "B",
+    "text": "Mutación del gen supresor APC, con pérdida de función de la proteína que codifica"
+   },
+   {
+    "id": "C",
+    "text": "Mutación de TP53, gen supresor del arresto del ciclo celular y de la apoptosis"
+   },
+   {
+    "id": "D",
+    "text": "Hipermetilación del promotor de MLH1, gen del sistema de reparación de errores replicativos"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La vía de inestabilidad cromosómica es la mayoritaria en el cáncer colorrectal esporádico y en la poliposis adenomatosa familiar, y sigue el orden clásico APC, KRAS, p53 y pérdida de heterocigosidad del cromosoma 18 (DCC, SMAD). La inactivación de APC es el acontecimiento iniciador: sin ella no se forma el adenoma, y las mutaciones posteriores actúan sobre un epitelio ya displásico. Opción A: KRAS es un oncogén que se activa después de APC y explica el crecimiento del adenoma, no su aparición; su mutación aislada sobre mucosa normal no genera la lesión. Opción C: TP53 se pierde tardíamente y marca la transición de adenoma con displasia grave a carcinoma invasivo. Opción D: la hipermetilación de MLH1 pertenece al fenotipo hipermetilador CIMP y a la vía de inestabilidad de microsatélites, que es una ruta alternativa y no la secuencia cromosómica preguntada. Punto de enseñanza: en la vía CIN el orden importa, y APC es siempre la primera pieza.",
+  "teaching_point": "En la vía CIN la secuencia es APC, KRAS, p53 y pérdida de 18q: APC es el acontecimiento iniciador.",
+  "guideline_ref": "Fearon ER, Vogelstein B. Cell 1990;61:759-767 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "carcinogénesis",
+   "CIN",
+   "APC",
+   "secuencia adenoma-carcinoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M003",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En una colonoscopia de cribado se extirpa una lesión plana y sésil de 12 mm en el colon ascendente de una mujer de 47 años. La anatomía patológica describe criptas con arquitectura en dientes de sierra, componente mucinoso y escasa diferenciación. La inmunohistoquímica muestra pérdida de expresión de MLH1. ¿Qué vía de carcinogénesis corresponde a esta lesión?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inestabilidad cromosómica clásica, con secuencia APC-KRAS-p53 y pérdida de heterocigosidad"
+   },
+   {
+    "id": "B",
+    "text": "Mutación germinal de un gen reparador, propia del síndrome de Lynch hereditario"
+   },
+   {
+    "id": "C",
+    "text": "Fenotipo hipermetilador CIMP, con silenciamiento epigenético de MLH1 e inestabilidad de microsatélites"
+   },
+   {
+    "id": "D",
+    "text": "Poliposis adenomatosa familiar, con mutación germinal de APC y aneuploidía precoz"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El retrato es el del fenotipo hipermetilador descrito en la clase: pólipo serrado sésil y aplanado, colon derecho, mujer, menos de cincuenta años, tumor mucinoso y poco diferenciado, con mutación de BRAF e inestabilidad de microsatélites. El mecanismo no es una mutación de la secuencia de ADN sino una alteración epigenética: la metilación anormal del promotor de MLH1 silencia el gen y produce la mayoría de los cánceres colorrectales esporádicos con MSI. Opción A: la vía CIN afecta preferentemente al colon izquierdo, cursa con aneuploidía y pérdida de heterocigosidad, y no explica la pérdida aislada de MLH1 sin mutación estructural. Opción B: el síndrome de Lynch también da tumores MSI de colon derecho, pero la alteración es una mutación germinal, no un silenciamiento por metilación de un pólipo serrado esporádico. Opción D: la poliposis adenomatosa familiar cursa con centenares de adenomas tubulares y sigue la vía cromosómica, no la serrada. Punto de enseñanza: pólipo serrado sésil derecho más pérdida de MLH1 es sinónimo de vía CIMP-MSI.",
+  "teaching_point": "El pólipo serrado sésil del colon derecho es la lesión precursora de la vía CIMP, con MLH1 metilado y MSI.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours, 2019",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "pólipo serrado",
+   "CIMP",
+   "MSI",
+   "MLH1"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M004",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Se extirpa con asa de diatermia un pólipo pediculado de sigma de 15 mm en un varón de 62 años con buen estado general. El informe anatomopatológico describe un adenocarcinoma que atraviesa la muscularis mucosae y alcanza el tallo, con el margen de resección libre, pero pobremente diferenciado y con invasión linfovascular. ¿Qué actuación procede a continuación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vigilancia endoscópica sin tratamiento adicional, dado el bajo riesgo ganglionar de este nivel de invasión"
+   },
+   {
+    "id": "B",
+    "text": "Nueva resección endoscópica ampliando el margen profundo hasta la base del tallo del pólipo"
+   },
+   {
+    "id": "C",
+    "text": "Tomografía abdominal y, si no aparecen adenopatías, mantener únicamente controles endoscópicos periódicos"
+   },
+   {
+    "id": "D",
+    "text": "Sigmoidectomía oncológica con resección en bloque de su territorio ganglionar"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clasificación de Haggitt gradúa la profundidad de invasión de un pólipo maligno pediculado: el nivel 0 es el carcinoma in situ, el 1 se limita a la cabeza, el 2 alcanza el cuello, el 3 invade el tallo y el 4 llega a la submucosa de la base del tallo. La lesión descrita es un nivel 3, y los niveles 1, 2 y 3 tienen bajo riesgo de metástasis linfáticas y de recurrencia local, de modo que la resección endoscópica suele bastar. Pero esa regla lleva incorporada su excepción: deja de ser suficiente cuando el tumor es pobremente diferenciado o existe invasión linfovascular, situación en la que el riesgo de metástasis ganglionares supera el diez por ciento. Aquí concurren los dos factores, así que procede la resección segmentaria con su territorio linfático. Opción A: aplica la regla general y pasa por alto la excepción que la anula, que es justamente lo que este caso pone a prueba. Opción B: ampliar el margen profundo mejora el control local, pero no extirpa los ganglios, que es donde está el riesgo. Opción C: una tomografía sin adenopatías no excluye la afectación ganglionar microscópica, y esperar a que las adenopatías aparezcan equivale a tratar la recidiva en lugar del tumor. Punto de enseñanza: en el pólipo maligno manda el nivel de Haggitt, salvo que la mala diferenciación o la invasión linfovascular impongan la cirugía.",
+  "teaching_point": "Haggitt 1-3 permite tratar con la polipectomía, salvo tumor pobremente diferenciado o invasión linfovascular, que obligan a operar.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de pólipos y poliposis colorrectales",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "Haggitt",
+   "pólipo maligno",
+   "invasión linfovascular",
+   "indicación quirúrgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M005",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 66 años con rectorragia intermitente y pérdida de cinco kilos. La colonoscopia muestra una lesión estenosante en colon transverso y la biopsia confirma adenocarcinoma. Está hemodinámicamente estable, sin dolor ni distensión abdominal. Antes de sentar la indicación quirúrgica, ¿qué conjunto de pruebas de estadificación y determinaciones analíticas procede solicitar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tomografía toracoabdominopélvica, analítica con coagulación y CEA, y estudio MMR/MSI en la biopsia"
+   },
+   {
+    "id": "B",
+    "text": "Ecografía abdominal y radiografía de tórax, con alfafetoproteína y Ca 19-9 séricos"
+   },
+   {
+    "id": "C",
+    "text": "PET-TC de entrada y determinación de KRAS, NRAS, BRAF y HER2 en la biopsia endoscópica"
+   },
+   {
+    "id": "D",
+    "text": "Resonancia abdominal con enema opaco y marcadores tumorales CA 125 y CA 15-3"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El estudio de un cáncer de colon recién diagnosticado se apoya en la colonoscopia con biopsia, en la que se determina el estado de los genes reparadores (MMR/MSI), en la analítica con coagulación y antígeno carcinoembrionario como marcador de referencia para el seguimiento, y en la tomografía toracoabdominopélvica como estudio de extensión. Opción B: la ecografía y la radiografía simple tienen sensibilidad insuficiente para metástasis hepáticas y pulmonares pequeñas, y la alfafetoproteína corresponde al hepatocarcinoma, no al cáncer colorrectal. Opción C: el perfil molecular ampliado con KRAS, NRAS, BRAF y HER2 se reserva para la enfermedad metastásica, cuando condiciona la elección del tratamiento sistémico; en un tumor aparentemente localizado no se solicita de entrada, y la PET-TC no es la prueba de estadificación inicial. Opción D: el enema opaco ha sido desplazado por la colonoscopia y la colonografía por TC, y CA 125 y CA 15-3 corresponden a ovario y mama. Punto de enseñanza: colonoscopia con MMR, CEA y TC toracoabdominopélvica son el mínimo antes de operar.",
+  "teaching_point": "Estadificación inicial del cáncer de colon: colonoscopia con biopsia y MMR/MSI, CEA y TC toracoabdominopélvica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores malignos del colon",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "estadificación",
+   "CEA",
+   "TC",
+   "MMR"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M006",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Durante una colonoscopia de cribado se identifica en el colon descendente una lesión de 15 mm, plana y asentada directamente sobre la pared, sin tallo alguno. El endoscopista quiere extirparla en el mismo acto y con la pieza íntegra, minimizando el riesgo de alcanzar la muscular propia con la corriente. ¿Qué maniobra debe preceder a la aplicación del asa?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Coagular la base con argón antes de seccionar, para controlar el vaso nutricio"
+   },
+   {
+    "id": "B",
+    "text": "Inyectar suero salino en la submucosa para elevar la lesión y separarla de la pared"
+   },
+   {
+    "id": "C",
+    "text": "Fragmentar la lesión con pinza fría y recuperar por separado cada uno de los fragmentos"
+   },
+   {
+    "id": "D",
+    "text": "Tatuar la zona con tinta y remitir al paciente a una colectomía segmentaria programada"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase distingue el pólipo pediculado, que tiene tallo, del sésil, que carece de él, y precisa cómo se extirpa cada uno. El pediculado se reseca con lazo o asa que secciona y cauteriza el tallo, con lo que se controla el vaso nutricio. La lesión plana asienta directamente sobre la pared y no ofrece ese tallo, de manera que el asa quedaría apoyada sobre la muscular propia: por eso debe elevarse antes inyectando suero salino en la submucosa, que crea un colchón líquido y separa la lesión del plano muscular. Aun con esa maniobra, la clase advierte de que la resección de las lesiones sésiles conserva mayor riesgo que la de las pediculadas. Opción A: la coagulación con argón sobre una lesión no elevada acerca la energía a la muscular propia y además destruye el tejido que el patólogo necesita para valorar el margen profundo. Opción C: la resección fragmentada con pinza fría impide evaluar ese margen en una lesión de quince milímetros y deja tejido residual. Opción D: remitir a cirugía una lesión perfectamente resecable por endoscopia somete al paciente a una colectomía innecesaria. Punto de enseñanza: la lesión sin tallo se eleva antes de resecarla; la que tiene tallo se secciona sobre el tallo.",
+  "teaching_point": "La lesión sésil se eleva con inyección submucosa antes de aplicar el asa; la pediculada se secciona sobre el tallo.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de pólipos y poliposis colorrectales",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "pólipos",
+   "polipectomía",
+   "endoscopia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M007",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Varón de 58 años con adenocarcinoma de colon ascendente, sin signos de obstrucción, sin perforación y sin infiltración de órganos vecinos en la tomografía. No se documentan metástasis a distancia. Se plantea la intervención con intención curativa en un comité multidisciplinar. ¿Qué principio técnico define la resección oncológica correcta en este caso?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección segmentaria con márgenes de cinco centímetros y biopsia selectiva del ganglio centinela"
+   },
+   {
+    "id": "B",
+    "text": "Colectomía total profiláctica, para prevenir tumores metacrónicos en el resto del marco cólico"
+   },
+   {
+    "id": "C",
+    "text": "Colectomía parcial con resección en bloque del territorio ganglionar correspondiente"
+   },
+   {
+    "id": "D",
+    "text": "Resección endoscópica ampliada con disección submucosa y linfadenectomía diferida posterior"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El tratamiento quirúrgico del cáncer de colon consiste en una colectomía parcial que extirpa en bloque el segmento tumoral junto con su territorio linfático correspondiente, siguiendo el pedículo vascular. La pieza debe contener un mínimo de doce ganglios linfáticos para que la estadificación ganglionar sea válida. En ausencia de obstrucción, perforación o enfermedad localmente avanzada, el abordaje laparoscópico es una alternativa aceptada. Opción A: el ganglio centinela no forma parte del tratamiento estándar del cáncer de colon; el territorio linfático se extirpa completo, no se muestrea. Opción B: la colectomía total profiláctica se reserva para situaciones concretas como la poliposis adenomatosa familiar, no para un tumor esporádico único. Opción D: una lesión invasiva con indicación quirúrgica no se trata por vía endoscópica, y la linfadenectomía diferida no es un concepto oncológicamente válido en este contexto. Punto de enseñanza: resección segmentaria en bloque con su territorio ganglionar y al menos doce ganglios en la pieza.",
+  "teaching_point": "Cáncer de colon: colectomía parcial con resección en bloque del territorio ganglionar que sigue el pedículo vascular.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores malignos del colon",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "colectomía",
+   "linfadenectomía",
+   "12 ganglios",
+   "cirugía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M008",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 34 años asintomático cuyo padre falleció de cáncer de colon a los 41 años. La colonoscopia muestra varios centenares de pólipos adenomatosos que tapizan todo el marco cólico, algunos con displasia grave. El estudio genético identifica una mutación germinal. ¿Qué gen está mutado y por qué vía progresan estas lesiones a carcinoma?",
+  "options": [
+   {
+    "id": "A",
+    "text": "MLH1, con inestabilidad de microsatélites y conservación de la dotación cromosómica"
+   },
+   {
+    "id": "B",
+    "text": "BRAF, con fenotipo hipermetilador originado en pólipos serrados del colon derecho"
+   },
+   {
+    "id": "C",
+    "text": "MSH2, con fenotipo reparador deficiente y tumores mucinosos poco diferenciados"
+   },
+   {
+    "id": "D",
+    "text": "APC, con inestabilidad cromosómica y aneuploidía por pérdida de heterocigosidad"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro corresponde a una poliposis adenomatosa familiar: cientos de adenomas, historia familiar y mutación germinal. La clase sitúa la FAP dentro de la vía de inestabilidad cromosómica, junto con la mayor parte del cáncer colorrectal esporádico, con la secuencia APC, KRAS, p53 y pérdida de heterocigosidad del cromosoma 18. El gen alterado es APC, supresor tumoral cuya pérdida de función inicia la secuencia adenoma-carcinoma. Opción A: la hipermetilación de MLH1 pertenece al fenotipo CIMP esporádico y no produce poliposis; además no es una alteración germinal. Opción B: BRAF caracteriza la vía serrada del colon derecho, con lesiones planas y escasas, no con centenares de adenomas. Opción C: MSH2 mutado en línea germinal define el síndrome de Lynch, que cursa con pocos pólipos y cáncer precoz, no con poliposis difusa. Punto de enseñanza: FAP y mayoría del cáncer esporádico comparten la vía CIN; Lynch y el fenotipo CIMP comparten la vía MSI.",
+  "teaching_point": "La poliposis adenomatosa familiar es una enfermedad de APC y sigue la vía de inestabilidad cromosómica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de poliposis y cáncer colorrectal hereditario",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "FAP",
+   "APC",
+   "CIN",
+   "cáncer hereditario"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M009",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Se recibe la pieza de una hemicolectomía derecha por adenocarcinoma. El informe patológico describe un tumor que infiltra la subserosa, márgenes de resección libres y ocho ganglios linfáticos aislados, todos ellos negativos. El cirujano pregunta si el estudio ganglionar es suficiente para dar por cerrada la estadificación. ¿Qué respuesta es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "No: el mínimo exigible son doce ganglios, y con ocho la estadificación queda incompleta"
+   },
+   {
+    "id": "B",
+    "text": "Sí: con márgenes libres y ganglios negativos la estadificación queda cerrada como pN0"
+   },
+   {
+    "id": "C",
+    "text": "No, pero el recuento mínimo solo se exige cuando alguno de los ganglios resulta positivo"
+   },
+   {
+    "id": "D",
+    "text": "Sí, porque el recuento mínimo se aplica a las piezas de recto y no a las de colon"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase fija en doce el número mínimo de ganglios linfáticos que debe contener la pieza de una colectomía oncológica. Ese umbral no es un capricho patológico: por debajo de doce aumenta la probabilidad de infraestadificar un tumor realmente pN1, con la consecuencia práctica de privar al paciente de quimioterapia adyuvante. Con ocho ganglios negativos no puede afirmarse con seguridad que el paciente sea pN0. Opción B: márgenes libres y ganglios negativos no sustituyen a un recuento ganglionar adecuado; el problema es de muestreo, no de resultado. Opción C: el umbral no depende del resultado del estudio ganglionar, sino que se exige precisamente para poder afirmar que los ganglios son negativos. Opción D: el recuento mínimo es un requisito de calidad de toda resección oncológica colorrectal y no una exigencia exclusiva de la pieza de recto. Punto de enseñanza: menos de doce ganglios obliga a revisar la pieza antes de asumir que el tumor es N0.",
+  "teaching_point": "Menos de doce ganglios en la pieza de colectomía significa estadificación ganglionar incompleta, no pN0.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "estadificación",
+   "ganglios",
+   "pN",
+   "anatomía patológica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M010",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 74 años acude a urgencias con vómitos, ausencia de deposición y de gas desde hace 48 horas y distensión importante. La tomografía muestra una neoplasia estenosante de sigma con dilatación colónica retrógrada y neumatosis focal del ciego. Se decide cirugía urgente. ¿Qué consideración sobre el abordaje quirúrgico es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La laparoscopia es de elección precisamente en la obstrucción, por el menor íleo postoperatorio"
+   },
+   {
+    "id": "B",
+    "text": "El abordaje laparoscópico no está indicado ante obstrucción, perforación o tumor localmente avanzado"
+   },
+   {
+    "id": "C",
+    "text": "Demorar la cirugía para administrar quimioterapia neoadyuvante y operar en condiciones electivas"
+   },
+   {
+    "id": "D",
+    "text": "Mantener el abordaje laparoscópico y convertir a laparotomía solo si aparece dificultad técnica"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El abordaje laparoscópico es una opción válida en el cáncer de colon electivo, pero la clase lo excluye expresamente en tres situaciones: tumor localmente avanzado, obstrucción y perforación. En un colon masivamente dilatado el espacio de trabajo desaparece, la manipulación del asa distendida es peligrosa y la evaluación del sufrimiento parietal es difícil, de modo que el abordaje abierto es el razonable. La neumatosis del ciego indica además sufrimiento parietal por hiperpresión y anuncia perforación diastásica inminente. Opción A: invierte la recomendación; el íleo postoperatorio no es la variable que decide el abordaje en una urgencia obstructiva. Opción C: demorar la cirugía en una obstrucción completa con sufrimiento cecal expone a la perforación y a la peritonitis fecaloidea, y la neoadyuvancia no es el escenario del cáncer de colon obstructivo. Opción D: la contraindicación no depende de la destreza del cirujano sino de la situación clínica; empezar por laparoscopia un colon masivamente dilatado añade riesgo de perforación durante la manipulación sin aportar ninguna ventaja. Punto de enseñanza: obstrucción, perforación y enfermedad localmente avanzada contraindican la laparoscopia.",
+  "teaching_point": "Obstrucción, perforación y tumor localmente avanzado son las tres situaciones que excluyen la laparoscopia.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores malignos del colon",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "obstrucción",
+   "laparoscopia",
+   "cirugía urgente",
+   "complicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M011",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 61 años intervenido de adenocarcinoma de sigma. En el estudio de extensión se documentan tres metástasis hepáticas bilobares no resecables de entrada y se plantea tratamiento sistémico. El oncólogo solicita al patólogo estudios moleculares complementarios sobre la pieza quirúrgica. ¿Qué determinaciones procede realizar en este escenario metastásico?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Solo el estudio MMR/MSI, suficiente para decidir cualquier línea de tratamiento sistémico"
+   },
+   {
+    "id": "B",
+    "text": "Determinación de APC y de pérdida de heterocigosidad del cromosoma 18 en el tumor primario"
+   },
+   {
+    "id": "C",
+    "text": "Determinación de KRAS, NRAS, BRAF y HER2, además del estado MMR/MSI ya conocido"
+   },
+   {
+    "id": "D",
+    "text": "Determinación de hTERT y de E-cadherina para estimar el potencial metastásico residual"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase separa con claridad dos momentos. En el diagnóstico inicial se determina el estado de los genes reparadores (MMR/MSI) sobre la biopsia endoscópica. Cuando aparece enfermedad metastásica se amplía el perfil molecular a KRAS, NRAS, BRAF y HER2, porque son estas alteraciones las que condicionan la elección del tratamiento sistémico y de las terapias dirigidas. Opción A: el estado MMR/MSI es relevante y orienta hacia la inmunoterapia, pero por sí solo no permite decidir el resto de las líneas de tratamiento. Opción B: APC y la pérdida de heterocigosidad de 18q describen el mecanismo de carcinogénesis y tienen valor conceptual, pero no se determinan en la práctica para elegir tratamiento. Opción D: hTERT y E-cadherina son piezas del modelo de inmortalización y de transición epitelio-mesenquimal explicado en clase, no biomarcadores de decisión terapéutica. Punto de enseñanza: en la enfermedad metastásica el perfil molecular incluye KRAS, NRAS, BRAF y HER2 junto al estado MMR.",
+  "teaching_point": "En cáncer colorrectal metastásico se determinan KRAS, NRAS, BRAF y HER2, además del estado MMR/MSI.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores malignos del colon",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "biomarcadores",
+   "KRAS",
+   "metástasis",
+   "tratamiento sistémico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-M012",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "El hígado es el órgano donde con más frecuencia asientan las metástasis del cáncer colorrectal. En la clase se contrapusieron dos teorías clásicas de la diseminación hematógena, y cada una se ilustró con parejas concretas de tumor primario y órgano diana. ¿Qué teoría, y de qué autor, explica según ese esquema la predilección hepática del cáncer de colon?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La teoría «seed and soil» de Paget, por la afinidad entre la célula tumoral y el órgano receptor"
+   },
+   {
+    "id": "B",
+    "text": "La transición epitelio-mesenquimal, que selecciona clones con pérdida de E-cadherina y mayor motilidad"
+   },
+   {
+    "id": "C",
+    "text": "La colonización de nichos premetastásicos, que acondiciona el órgano antes de que llegue la célula tumoral"
+   },
+   {
+    "id": "D",
+    "text": "La teoría del primer filtro capilar de Ewing, por factores mecánicos y anatómicos de la circulación"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase contrapone dos modelos clásicos. El de Paget, «seed and soil» (1889), explica la metástasis por la interacción biológica entre la célula tumoral y el órgano receptor, y da cuenta de asociaciones como cáncer de mama y hueso o melanoma e hígado. El de Ewing (1928) atiende a factores mecánicos y anatómicos del sistema circulatorio: el primer lecho capilar que encuentra la célula tumoral tras la intravasación determina dónde se detiene. El cáncer de colon drena por el sistema portal y su primer filtro capilar es el sinusoide hepático, de ahí el ejemplo colon-hígado que la clase usa precisamente para ilustrar esta teoría. Opción A: «seed and soil» es la teoría biológica y en la clase se ejemplifica con mama-hueso y melanoma-hígado, no con colon. Opción B: la transición epitelio-mesenquimal, con pérdida de E-cadherina y ganancia de motilidad, explica la capacidad de invadir e intravasar, no la elección del órgano diana. Opción C: el nicho premetastásico es un paso de la cascada metastásica, no una de las dos teorías contrapuestas. Punto de enseñanza: colon-hígado se explica por anatomía portal, es decir, por el primer filtro capilar.",
+  "teaching_point": "La metástasis hepática del cáncer de colon se explica por la teoría del primer filtro capilar (Ewing, 1928).",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de biología tumoral",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "cascada metastásica",
+   "Ewing",
+   "Paget",
+   "metástasis hepáticas"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T28-C001",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La carcinogénesis colorrectal no sigue un camino único: en la clase se describieron dos mecanismos moleculares básicos que explican tanto la mayoría de los casos esporádicos como los síndromes hereditarios más relevantes. Nombre esas dos vías básicas de carcinogénesis del cáncer colorrectal.",
+  "respuesta_canonica": "Inestabilidad cromosómica (CIN) e inestabilidad de microsatélites (MSI)",
+  "aceptadas": [
+   "CIN y MSI",
+   "vía CIN y vía MSI",
+   "CIN y MSI/MMR",
+   "inestabilidad cromosómica y de microsatélites",
+   "inestabilidad cromosómica e inestabilidad de microsatélites",
+   "inestabilidad cromosómica (CIN) e inestabilidad de microsatélites (MSI)",
+   "inestabilidad cromosómica e inestabilidad de microsatélites por alteración MMR",
+   "la vía CIN y la vía MSI",
+   "las vías CIN y MSI"
+  ],
+  "conceptos_clave": [
+   "cromosómica",
+   "microsatélites"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase organiza la carcinogénesis colorrectal en dos vías básicas. La primera es la inestabilidad cromosómica (CIN), que agrupa la mayor parte del cáncer esporádico y la poliposis adenomatosa familiar, con alteración del número y la estructura de los cromosomas y la secuencia APC, KRAS, p53 y pérdida de heterocigosidad del cromosoma 18. La segunda es la inestabilidad de microsatélites (MSI), por mutación de los genes reparadores del ADN, que agrupa el síndrome de Lynch y una fracción del cáncer esporádico y mantiene la euploidía. Dentro de esta segunda vía se sitúa el fenotipo hipermetilador CIMP, en el que la metilación anormal del promotor de MLH1 silencia el gen sin alterar la secuencia de ADN y origina la mayoría de los tumores esporádicos con MSI, típicamente a partir de pólipos serrados del colon derecho.",
+  "teaching_point": "Dos vías: inestabilidad cromosómica (CIN) e inestabilidad de microsatélites (MSI), con CIMP dentro de la segunda.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de carcinogénesis colorrectal",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "carcinogénesis",
+   "CIN",
+   "MSI"
+  ]
+ },
+ {
+  "id": "T28-C002",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Un paciente ha sido intervenido mediante hemicolectomía derecha por adenocarcinoma y el patólogo prepara el informe de la pieza quirúrgica. Para que la estadificación ganglionar pueda considerarse adecuada, ¿cuántos ganglios linfáticos como mínimo debe contener la pieza de una colectomía oncológica?",
+  "respuesta_canonica": "Al menos doce ganglios linfáticos",
+  "aceptadas": [
+   "12 ganglios",
+   "12",
+   "doce ganglios",
+   "doce ganglios linfáticos",
+   "al menos 12 ganglios linfáticos",
+   "al menos doce",
+   "un mínimo de doce ganglios linfáticos",
+   "mínimo de doce ganglios",
+   "mínimo 12 ganglios linfáticos",
+   "doce",
+   "un mínimo de doce"
+  ],
+  "conceptos_clave": [
+   "12",
+   "ganglios"
+  ],
+  "max_palabras": 20,
+  "explanation": "El tratamiento quirúrgico del cáncer de colon es la colectomía parcial con resección en bloque del territorio ganglionar correspondiente, y la clase exige un mínimo de doce ganglios linfáticos en la pieza. El umbral tiene una consecuencia clínica directa: por debajo de doce ganglios aumenta la probabilidad de infraestadificar un tumor que en realidad tiene afectación ganglionar, lo que se traduce en no indicar quimioterapia adyuvante a un paciente que la necesita. Por eso, ante un recuento insuficiente, lo correcto es solicitar la revisión de la pieza antes de asumir que el tumor es N0. El número mínimo se exige con independencia de la profundidad de invasión del tumor primario y de la localización del segmento resecado, y es también uno de los indicadores de calidad de la resección oncológica.",
+  "teaching_point": "Doce ganglios es el mínimo exigible en la pieza de colectomía oncológica para estadificar correctamente.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "ganglios",
+   "estadificación",
+   "calidad quirúrgica"
+  ]
+ },
+ {
+  "id": "T28-C003",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Tras la polipectomía endoscópica de una lesión colónica con foco de adenocarcinoma, el patólogo aplica la clasificación de Haggitt para graduar la profundidad de la invasión, que va del nivel 0 al nivel 4. Indique qué nivel corresponde por definición a todo pólipo sésil, con independencia de la profundidad concreta que alcance el tumor.",
+  "respuesta_canonica": "Nivel 4",
+  "aceptadas": [
+   "nivel 4",
+   "Haggitt 4",
+   "Haggitt nivel 4",
+   "el nivel 4",
+   "4",
+   "nivel IV"
+  ],
+  "conceptos_clave": [
+   "4"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clasificación de Haggitt describe cinco niveles de invasión en pólipos con carcinoma. El nivel 0 es el carcinoma in situ; el 1 sobrepasa la muscularis mucosae pero se limita a la cabeza del pólipo; el 2 alcanza el cuello; el 3 invade el tallo; y el 4 invade la submucosa de la base del tallo. Como el pólipo sésil carece de tallo, por definición cualquier invasión submucosa en él corresponde al nivel 4. Los niveles 1, 2 y 3 tienen bajo riesgo de metástasis linfáticas y de recurrencia local, de modo que la resección endoscópica es adecuada salvo que el tumor sea pobremente diferenciado o exista invasión linfovascular, situaciones que elevan el riesgo ganglionar. El nivel 4, en cambio, es indicación de cirugía con resección segmentaria y linfadenectomía.",
+  "teaching_point": "Todo pólipo sésil es Haggitt nivel 4 y, por tanto, indicación de resección quirúrgica con linfadenectomía.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de pólipos y poliposis colorrectales",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "Haggitt",
+   "pólipo sésil",
+   "indicación quirúrgica"
+  ]
+ },
+ {
+  "id": "T28-C004",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En el fenotipo hipermetilador CIMP las alteraciones no modifican la secuencia del ADN, sino que silencian genes por metilación anormal de sus promotores. Indique de qué gen depende ese silenciamiento cuando explica la mayoría de los cánceres colorrectales esporádicos con inestabilidad de microsatélites.",
+  "respuesta_canonica": "Del gen reparador MLH1",
+  "aceptadas": [
+   "MLH1",
+   "hipermetilación del promotor de MLH1",
+   "metilación de MLH1",
+   "el gen reparador MLH1",
+   "silenciamiento de MLH1"
+  ],
+  "conceptos_clave": [
+   "MLH1"
+  ],
+  "max_palabras": 20,
+  "explanation": "El fenotipo hipermetilador CIMP consiste en alteraciones epigenéticas que cambian la función del gen manteniendo íntegra la secuencia de ADN. La pieza clave es la metilación anormal del promotor de MLH1, uno de los genes del sistema de reparación de errores de replicación, cuyo silenciamiento produce la mayoría de los cánceres colorrectales esporádicos con inestabilidad de microsatélites. Estas lesiones se originan en pólipos serrados sésiles y aplanados, predominan en el colon derecho y en mujeres, aparecen con frecuencia por debajo de los cincuenta años y suelen ser tumores poco diferenciados y mucinosos, con mutación de BRAF en una proporción elevada. Conviene distinguir este mecanismo epigenético esporádico de la mutación germinal de los genes reparadores propia del síndrome de Lynch, aunque el resultado en el tumor, la inestabilidad de microsatélites, sea el mismo.",
+  "teaching_point": "La metilación del promotor de MLH1 es el mecanismo del CIMP y origina la mayoría del cáncer esporádico con MSI.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours, 2019",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "CIMP",
+   "MLH1",
+   "epigenética",
+   "MSI"
+  ]
+ },
+ {
+  "id": "T28-L001",
+  "tema": 28,
+  "bloque": "colorrectal",
+  "formato": "larga",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Describa las dos vías básicas de carcinogénesis del cáncer colorrectal explicadas en clase. Para cada una indique el mecanismo molecular, los genes implicados y su orden cuando lo haya, las formas clínicas que agrupa (esporádica y hereditaria), la localización preferente en el marco cólico y las características anatomopatológicas asociadas. Explique además qué es el fenotipo hipermetilador CIMP y qué lesión precursora le corresponde, y señale por qué identificar la vía tiene consecuencias en la práctica clínica. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Nombra las dos vías: inestabilidad cromosómica (CIN) e inestabilidad de microsatélites (MSI)",
+    "puntos": 0.38,
+    "claves": [
+     "cromosómica",
+     "microsatélites"
+    ]
+   },
+   {
+    "elemento": "Describe la secuencia de la vía CIN en orden: APC, KRAS, p53 y pérdida de heterocigosidad del cromosoma 18 (DCC, SMAD)",
+    "puntos": 0.38,
+    "claves": [
+     "APC",
+     "KRAS",
+     "p53",
+     "18"
+    ]
+   },
+   {
+    "elemento": "Asocia la vía CIN al cáncer esporádico mayoritario y a la poliposis adenomatosa familiar, con predominio en colon izquierdo y aneuploidía",
+    "puntos": 0.38,
+    "claves": [
+     "esporádico",
+     "poliposis",
+     "colon izquierdo"
+    ]
+   },
+   {
+    "elemento": "Describe la vía MSI: mutación de genes reparadores (MLH1, MSH2, MSH3, MSH6, PMS1, PMS2), euploidía conservada, síndrome de Lynch",
+    "puntos": 0.38,
+    "claves": [
+     "MLH1",
+     "MSH2",
+     "Lynch",
+     "euploidía"
+    ]
+   },
+   {
+    "elemento": "Define el fenotipo hipermetilador CIMP como alteración epigenética con secuencia de ADN íntegra y metilación del promotor de MLH1",
+    "puntos": 0.38,
+    "claves": [
+     "CIMP",
+     "epigenét",
+     "metilación",
+     "promotor"
+    ]
+   },
+   {
+    "elemento": "Identifica el pólipo serrado sésil como lesión precursora del CIMP y su perfil: colon derecho, mujeres, menores de 50 años, mucinoso y poco diferenciado, BRAF, MSI",
+    "puntos": 0.38,
+    "claves": [
+     "serrado",
+     "sésil",
+     "colon derecho",
+     "BRAF",
+     "mucinoso"
+    ]
+   },
+   {
+    "elemento": "Relaciona la secuencia adenoma-carcinoma con la displasia progresiva, el tamaño del pólipo y el intervalo temporal entre el pico de pólipos y el de carcinoma",
+    "puntos": 0.38,
+    "claves": [
+     "adenoma-carcinoma",
+     "displasia",
+     "tamaño"
+    ]
+   },
+   {
+    "elemento": "Señala la utilidad clínica: determinación de MMR/MSI en la biopsia, implicaciones pronósticas y de tratamiento, y ampliación del perfil molecular en enfermedad metastásica",
+    "puntos": 0.34,
+    "claves": [
+     "MMR",
+     "biopsia",
+     "inmunoterapia",
+     "KRAS",
+     "metastásic"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La carcinogénesis colorrectal discurre por dos vías básicas. La primera es la inestabilidad cromosómica (CIN), responsable de la mayor parte del cáncer esporádico y de la poliposis adenomatosa familiar. Consiste en alteraciones del número y la estructura de los cromosomas y sigue el orden descrito por Fearon y Vogelstein: mutación de APC, que inicia el paso de mucosa normal a adenoma; mutación de KRAS, que impulsa el crecimiento del adenoma; mutación de p53, que permite la progresión a carcinoma invasivo; y pérdida de heterocigosidad del cromosoma 18, con afectación de DCC y SMAD. Predomina en el colon izquierdo y cursa con aneuploidía. La segunda vía es la inestabilidad de microsatélites (MSI), por alteración de los genes reparadores del ADN (MLH1, MSH2, MSH3, MSH6, PMS1, PMS2), encargados de corregir los errores de replicación. Aquí se mantiene la euploidía. Agrupa el síndrome de Lynch, con mutación germinal, y una fracción del cáncer esporádico. Dentro de esta segunda vía se sitúa el fenotipo hipermetilador CIMP, cuyo mecanismo es epigenético: la secuencia de ADN permanece íntegra y lo que cambia es la función del gen por metilación anormal del promotor. La hipermetilación de MLH1 explica la mayoría de los cánceres colorrectales esporádicos con MSI. Su lesión precursora es el pólipo serrado, sésil y aplanado, con un perfil característico: colon derecho, mujeres, pacientes por debajo de los cincuenta años, tumores poco diferenciados y mucinosos, con mutación de BRAF e inestabilidad de microsatélites en una proporción elevada. Ambas vías comparten el marco de la secuencia adenoma-carcinoma: los adenomas desarrollan displasia progresiva, el riesgo de carcinoma aumenta con el tamaño y con el componente velloso, y el desfase entre el pico de incidencia de pólipos y el de carcinoma sugiere un intervalo prolongado que justifica el cribado. Identificar la vía tiene consecuencias prácticas: el estado MMR/MSI se determina en la biopsia diagnóstica, orienta el pronóstico y la posible indicación de inmunoterapia, y en la enfermedad metastásica el perfil molecular se amplía a KRAS, NRAS, BRAF y HER2 para decidir el tratamiento sistémico.",
+  "explanation": "La pregunta obliga a organizar el tema en dos ejes (CIN y MSI) y a colocar el CIMP en su sitio, que es dentro de la vía MSI y no como una tercera vía independiente. El error más frecuente del alumno es enumerar genes sin orden ni asociación clínica: la clase exige la secuencia APC-KRAS-p53-LOH18 en ese orden y el emparejamiento de cada vía con sus formas hereditarias, FAP para la CIN y Lynch para la MSI. El segundo error habitual es olvidar que el CIMP no es una mutación sino un silenciamiento epigenético con la secuencia de ADN conservada. La aplicación clínica cierra la respuesta y es lo que separa el aprobado del notable: determinación de MMR/MSI en la biopsia inicial y perfil ampliado en la enfermedad metastásica.",
+  "teaching_point": "CIN y MSI son las dos vías; el CIMP es un mecanismo epigenético dentro de la MSI, con el pólipo serrado como precursor.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de carcinogénesis colorrectal; WHO Classification of Digestive System Tumours, 2019",
+  "fuente_clase": {
+   "archivo": "28.- carcinogénesis.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "carcinogénesis",
+   "CIN",
+   "MSI",
+   "CIMP",
+   "pólipo serrado"
+  ]
+ }
+]

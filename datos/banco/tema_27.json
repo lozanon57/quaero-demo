@@ -1,0 +1,737 @@
+[
+ {
+  "id": "T27-M001",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de treinta y ocho años refiere desde hace cuatro meses dolor intenso tras la defecación, que dura horas, con rectorragia escasa. En la exploración se aprecia una fisura posterior con hipertonía marcada del esfínter anal interno. Ha fracasado el tratamiento con fibra, baños de asiento y diltiazem tópico. ¿Qué procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colgajo cutáneo de avance para cubrir la fisura, sin sección esfinteriana"
+   },
+   {
+    "id": "B",
+    "text": "Esfinterotomía lateral interna de longitud igual a la de la fisura"
+   },
+   {
+    "id": "C",
+    "text": "Infiltración de toxina botulínica y nueva tanda de nifedipino"
+   },
+   {
+    "id": "D",
+    "text": "Hemorroidectomía con esfinterotomía asociada en el mismo acto"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La fisura anal con hipertonía del esfínter anal interno se explica por la teoría de la isquemia y se manifiesta con dolor postdefecatorio que tiende a la cronicidad, proctorragia y prurito en las fases más agudas, con el estreñimiento y la diarrea como desencadenantes. El tratamiento comienza siendo conservador, con dieta rica en fibra y abundante agua, baños de asiento en agua templada y relajantes del esfínter anal interno. Cuando ese escalón fracasa, el tratamiento quirúrgico es la esfinterotomía lateral interna, cuya longitud debe ser igual a la longitud de la fisura, con una tasa de curación del 95 % y una incontinencia crónica del 1 al 2 %. Opción B: correcta, es la cirugía indicada tras el fracaso del tratamiento médico en una fisura hipertónica. Opción A: el colgajo cutáneo de avance se reserva para la fisura sin hipertonía, en la que seccionar el esfínter empeoraría la continencia. Opción C: la toxina botulínica y el nifedipino pertenecen al escalón conservador que ya ha fracasado. Opción D: no hay patología hemorroidal que justifique una hemorroidectomía. Punto de enseñanza: la esfinterotomía solo tiene sentido si hay hipertonía, y su longitud se ajusta a la fisura.",
+  "teaching_point": "Fisura anal con hipertonía que no responde al tratamiento médico: esfinterotomía lateral interna de longitud igual a la de la fisura.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — patología anal benigna",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "fisura anal",
+   "esfinterotomia lateral interna",
+   "hipertonia",
+   "EAI"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M002",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de veintinueve años presenta una úlcera anal de localización lateral, indolora y sin hipertonía esfinteriana, acompañada de diarrea crónica y aftas orales de repetición. La lesión no ha cicatrizado tras ocho semanas de medidas higiénico-dietéticas y en consulta se plantea ya un tratamiento definitivo. ¿Qué actitud procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Infiltrar toxina botulínica en el esfínter anal interno"
+   },
+   {
+    "id": "B",
+    "text": "Esfinterotomía lateral interna reglada, dada la cronicidad de la lesión"
+   },
+   {
+    "id": "C",
+    "text": "Estudiar otra causa: enfermedad de Crohn, carcinoma epidermoide o infección"
+   },
+   {
+    "id": "D",
+    "text": "Colgajo cutáneo de avance para cubrir la úlcera sin seccionar esfínter"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase enumera con precisión las señales que obligan a buscar otras causas ante una lesión fisuraria: fisuras de localización lateral, ausencia de hipertonía y ausencia de dolor; y nombra los diagnósticos a considerar, que son la enfermedad de Crohn, el carcinoma epidermoide y las causas infecciosas. Esta paciente reúne las tres señales, y además la diarrea crónica y las aftas orales orientan a enfermedad inflamatoria intestinal. En la fisura sin hipertonía el tratamiento conservador es el tratamiento de la causa, y solo cuando esta se ha filiado y tratado tiene sentido plantear cirugía. Opción C: correcta, el diagnóstico etiológico precede a cualquier gesto. Opción A: la toxina botulínica busca relajar un esfínter hipertónico que aquí no existe. Opción B: seccionar el esfínter en una fisura sin hipertonía y de causa no filiada expone a incontinencia sin resolver el problema. Opción D: el colgajo cutáneo de avance es en efecto la cirugía de la fisura sin hipertonía, y por eso es el error más fino de los cuatro; pero es un gesto sobre la herida, no sobre la causa, y hacerlo sobre una úlcera de Crohn o sobre un carcinoma epidermoide sin diagnosticar es operar a ciegas. Punto de enseñanza: fisura lateral, indolora o sin hipertonía obliga a descartar Crohn, carcinoma epidermoide e infección antes de tocar el ano.",
+  "teaching_point": "Fisura lateral, sin hipertonía o indolora: buscar enfermedad de Crohn, carcinoma epidermoide o causa infecciosa antes de operar.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — patología anal benigna",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 14
+  },
+  "tags": [
+   "fisura atipica",
+   "crohn",
+   "carcinoma epidermoide",
+   "diagnostico diferencial"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M003",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de cincuenta y dos años consulta por prolapso hemorroidal que precisa reducción manual tras cada deposición y rectorragia recurrente. Ha completado seis meses de medidas higiénico-dietéticas, flavonoides y dos sesiones de ligadura con banda elástica, sin mejoría. La arquitectura anorrectal está conservada. ¿Qué actuación procede ahora?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Nueva tanda de flavonoides y tópicos, reservando la cirugía al prolapso irreducible"
+   },
+   {
+    "id": "B",
+    "text": "Cirugía de las hemorroides internas por prolapso sintomático y fallo conservador"
+   },
+   {
+    "id": "C",
+    "text": "Escleroterapia de los tres paquetes en una única sesión ambulatoria"
+   },
+   {
+    "id": "D",
+    "text": "Esfinterotomía lateral interna para reducir la presión del canal anal"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase precisa que la cirugía solo es necesaria en el 5 al 10 % de los pacientes con hemorroides internas, y enumera sus indicaciones: prolapso sintomático de grado III y IV, alteración de la arquitectura anorrectal, fallo del tratamiento conservador con sangrado persistente y patología sintomática asociada. El escalón previo comprende medidas higiénico-dietéticas, flavonoides y tópicos, de escasa eficacia, y los procedimientos instrumentales como la esclerosis y la ligadura hemorroidal. Un prolapso que precisa reducción manual corresponde a un grado III y, tras el fracaso de la ligadura, cumple indicación quirúrgica. Opción B: correcta, reúne dos indicaciones, prolapso sintomático y fallo del tratamiento conservador. Opción A: prolongar un tratamiento farmacológico de escasa eficacia no cambia la evolución, y esperar a que el prolapso se haga irreducible es esperar al grado IV pudiendo operar ya un grado III sintomático. Opción C: la escleroterapia es un procedimiento instrumental del mismo escalón que ya ha fracasado con la ligadura. Opción D: la esfinterotomía lateral interna es el tratamiento quirúrgico de la fisura hipertónica, no de las hemorroides. Punto de enseñanza: la mayoría de las hemorroides no se operan; las indicaciones de cirugía hay que saberlas de memoria.",
+  "teaching_point": "Solo el 5-10 % de las hemorroides internas requiere cirugía: prolapso sintomático III-IV, alteración de la arquitectura anorrectal, fallo conservador con sangrado y patología asociada.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad hemorroidal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 20
+  },
+  "tags": [
+   "hemorroides",
+   "indicacion quirurgica",
+   "ligadura",
+   "prolapso"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M004",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante la clase se insiste en que las hemorroides no son varices, sino una estructura anatómica normal del canal anal que solo se convierte en enfermedad cuando se hace sintomática. ¿Qué definición histológica de los paquetes hemorroidales se corresponde con la expuesta por el profesor?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Almohadillados vasculares con comunicaciones arteriovenosas, mucosa y músculo liso"
+   },
+   {
+    "id": "B",
+    "text": "Dilataciones varicosas del plexo venoso submucoso sin componente arterial"
+   },
+   {
+    "id": "C",
+    "text": "Prolapso de mucosa rectal redundante sin estructura vascular organizada"
+   },
+   {
+    "id": "D",
+    "text": "Malformación arteriovenosa adquirida por hipertensión portal del canal anal"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define las hemorroides como almohadillados vasculares compuestos de arteriolas, vénulas, comunicaciones arteriovenosas, mucosa, submucosa, tejido elástico, tejido conectivo y músculo liso. No son, por tanto, una dilatación venosa, sino una estructura anatómica compleja y normal que contribuye a la continencia fina y al sellado del canal anal, y que solo se considera enfermedad cuando produce síntomas. Esa definición explica que la ligadura y la hemorroidopexia actúen sobre el aporte arterial y sobre la fijación del tejido, y no sobre una supuesta variz. Opción A: correcta, reproduce la definición del profesor. Opción B: el concepto de variz hemorroidal es precisamente el error que la clase se dedica a corregir, y omite el componente arterial y muscular. Opción C: el prolapso mucoso puede acompañar a la enfermedad hemorroidal avanzada, pero no la define ni explica su estructura. Opción D: no se trata de una malformación adquirida ni depende de la hipertensión portal, que da lugar a varices anorrectales, entidad distinta. Punto de enseñanza: las hemorroides son almohadillados vasculares normales, no varices.",
+  "teaching_point": "Las hemorroides son almohadillados vasculares con arteriolas, vénulas, comunicaciones arteriovenosas, mucosa, tejido conectivo y músculo liso, no varices.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad hemorroidal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 17
+  },
+  "tags": [
+   "hemorroides",
+   "anatomia",
+   "almohadillados vasculares"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M005",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Mujer de cuarenta y un años acude a urgencias por un nódulo perianal azulado, duro y doloroso, aparecido de forma brusca tras una deposición dificultosa hace cinco días. El dolor ha empezado a remitir en las últimas veinticuatro horas. No hay fiebre, ni induración de la fosa isquioanal, ni signos de isquemia del paquete hemorroidal. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hemorroidectomía urgente por el proctólogo, dado el tamaño y el dolor"
+   },
+   {
+    "id": "B",
+    "text": "Ligadura con banda elástica del paquete trombosado en la propia consulta"
+   },
+   {
+    "id": "C",
+    "text": "Medidas higiénico-dietéticas, evitando esfuerzo, estreñimiento y sedestación prolongada"
+   },
+   {
+    "id": "D",
+    "text": "Hemorroidopexia grapada de Longo urgente para reducir el paquete trombosado"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La trombosis hemorroidal externa es un motivo frecuente de visita a urgencias y se presenta como un nódulo perianal doloroso de inicio brusco, a menudo tras un esfuerzo. La clase plantea la hemorroidectomía realizada por un proctólogo cuando la evolución es inferior a 48 horas, es decir, mientras el dolor está en ascenso y el trombo puede extraerse con beneficio; pasada esa ventana el cuadro ya se está resolviendo solo y el tratamiento es higiénico-dietético, evitando el esfuerzo, el estreñimiento y permanecer sentado durante mucho tiempo. La misma diapositiva distingue este cuadro del prolapso hemorroidal trombosado con isquemia, que sí es una urgencia quirúrgica y que aquí se descarta expresamente. Opción C: correcta, a los cinco días y con el dolor ya en descenso la ventana quirúrgica ha pasado. Opción A: sería la respuesta correcta dentro de las primeras 48 horas, y es justamente el umbral que se está midiendo. Opción B: la ligadura con banda es un procedimiento para las hemorroides internas, no para un trombo externo. Opción D: la técnica de Longo es cirugía programada de las hemorroides internas prolapsadas, nunca un recurso urgente para una trombosis externa. Punto de enseñanza: en la trombosis hemorroidal externa la fecha de inicio vale más que el tamaño del nódulo.",
+  "teaching_point": "Trombosis hemorroidal externa: hemorroidectomía por proctólogo solo dentro de las primeras 48 horas; después, medidas higiénico-dietéticas.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad hemorroidal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "trombosis hemorroidal",
+   "urgencias",
+   "hemorroidectomia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M006",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de sesenta años, diabético mal controlado y obeso, consulta por dolor perineal creciente y fiebre. Presenta eritema y crepitación desde la región perianal hasta el escroto y los pliegues inguinales, con zonas de necrosis cutánea e inestabilidad hemodinámica. ¿Qué diagnóstico y qué tratamiento proceden sin demora?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gangrena de Fournier; cirugía urgente con necrosectomía amplia"
+   },
+   {
+    "id": "B",
+    "text": "Absceso isquioanal simple; drenaje ambulatorio con anestesia local"
+   },
+   {
+    "id": "C",
+    "text": "Celulitis perianal no complicada; antibioterapia intravenosa y observación"
+   },
+   {
+    "id": "D",
+    "text": "Trombosis hemorroidal extensa; hemorroidectomía urgente y analgesia"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La gangrena de Fournier es una fascitis necrotizante perineal grave que afecta a la región perianal, el escroto, el pene, los pliegues inguinales y la vulva, y cuyo origen puede ser anal o genitourinario. Los factores predisponentes que recoge la clase son la diabetes mellitus en primer lugar, la obesidad, el alcoholismo y la inmunosupresión. El tratamiento es cirugía urgente con necrosectomía, sin demora, porque el retraso es el principal determinante del desenlace. Opción A: correcta, el terreno diabético y obeso, la crepitación, la extensión escrotal e inguinal y la necrosis cutánea con inestabilidad son el cuadro completo. Opción B: un absceso isquioanal simple es una colección localizada y no cursa con crepitación, necrosis cutánea extensa ni shock. Opción C: llamar celulitis no complicada a una infección con crepitación y necrosis y tratarla solo con antibiótico es el error que cuesta la vida al paciente. Opción D: la trombosis hemorroidal es un nódulo doloroso sin fiebre, crepitación ni repercusión sistémica. Punto de enseñanza: crepitación y necrosis perineal en un diabético significan quirófano inmediato.",
+  "teaching_point": "Gangrena de Fournier: fascitis necrotizante perineal, favorecida por diabetes, obesidad, alcoholismo e inmunosupresión, que exige cirugía urgente con necrosectomía.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — infecciones de partes blandas perineales",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 33
+  },
+  "tags": [
+   "fournier",
+   "fascitis necrotizante",
+   "necrosectomia",
+   "diabetes"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M007",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Se revisa en clase la clasificación de las fístulas anales según su relación con el aparato esfinteriano y su frecuencia relativa, así como la regla que predice la localización del orificio interno a partir del externo. ¿Qué afirmación reproduce correctamente los datos expuestos por el profesor?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La extraesfinteriana es la más frecuente, con el 23 %, y rige la ley de Parks"
+   },
+   {
+    "id": "B",
+    "text": "La transesfinteriana es la más frecuente, con el 70 %, y rige la ley de Goodsall"
+   },
+   {
+    "id": "C",
+    "text": "La supraelevadora es la más frecuente, con el 23 %, y rige la ley de Parks"
+   },
+   {
+    "id": "D",
+    "text": "La interesfinteriana es la más frecuente, con el 70 %, y rige la ley de Goodsall"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase reparte las fístulas anales en cuatro tipos con sus frecuencias: interesfinteriana el 70 %, transesfinteriana el 23 %, supraelevadora el 5 % y extraesfinteriana el 2 %. La regla que relaciona el orificio externo con el interno es la ley de Goodsall, que figura en la misma diapositiva. Opción D: correcta, combina el tipo más frecuente con su porcentaje y con la regla exacta. Opción B: la transesfinteriana es la segunda en frecuencia y le corresponde el 23 %, no el 70 %; es el error más habitual porque es el tipo que más se discute en el tratamiento. Opción C: la supraelevadora representa el 5 % y, aunque Parks da nombre a una clasificación clásica de las fístulas, la regla que orienta el trayecto es la de Goodsall. Opción A: la extraesfinteriana es la menos frecuente, con el 2 %, y tampoco existe una ley de Parks. Punto de enseñanza: 70, 23, 5 y 2 son los cuatro números de las fístulas anales, y la ley que orienta el trayecto es la de Goodsall.",
+  "teaching_point": "Fístulas anales: interesfinteriana 70 %, transesfinteriana 23 %, supraelevadora 5 % y extraesfinteriana 2 %; la ley de Goodsall orienta el orificio interno.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — absceso y fístula anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 34
+  },
+  "tags": [
+   "fistula anal",
+   "goodsall",
+   "clasificacion",
+   "interesfinteriana"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M008",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Mujer de treinta y seis años presenta una fístula anal anterior, transesfinteriana alta, que afecta a más de un tercio del aparato esfinteriano, con supuración persistente. Tuvo un parto instrumental con desgarro y refiere escapes ocasionales de gases. ¿Qué gesto quirúrgico procede en primer lugar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Sedal de corte progresivo para seccionar el esfínter en varias sesiones"
+   },
+   {
+    "id": "B",
+    "text": "Fistulotomía completa del trayecto, que es el tratamiento más eficaz"
+   },
+   {
+    "id": "C",
+    "text": "Esfinterotomía lateral interna asociada al legrado del trayecto"
+   },
+   {
+    "id": "D",
+    "text": "Colocación de un sedal laxo de drenaje para controlar la sepsis"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La fistulotomía es el tratamiento más eficaz de la fístula anal, con una una eficacia en torno al 94 % en la revisión sistemática de fístula simple, a costa de un 12,7 % de alteración de la continencia, pero solo es aplicable a las fístulas simples, es decir, las que afectan poco esfínter, orientativamente menos de un tercio: las interesfinterianas y las transesfinterianas bajas. Se consideran complejas las transesfinterianas medias y altas, las supraelevadoras, las extraesfinterianas, las fístulas anteriores en la mujer, las asociadas a enfermedad inflamatoria intestinal, las reoperaciones y las que asientan sobre una incontinencia previa. Esta paciente acumula tres criterios de complejidad. En ellas, la colocación de un sedal laxo de drenaje para controlar la sepsis es el gesto puente a la cirugía definitiva, y en ocasiones el tratamiento definitivo. Opción D: correcta, controla la sepsis sin comprometer más la continencia. Opción B: una fistulotomía sobre más de un tercio del esfínter en una fístula anterior de mujer con escapes previos es la receta de la incontinencia. Opción C: la esfinterotomía lateral interna trata la fisura hipertónica y no la fístula. Opción A: el sedal de corte también secciona esfínter, aunque de forma progresiva. Punto de enseñanza: ante una fístula compleja, primero drenar con sedal laxo.",
+  "teaching_point": "Fístula compleja (transesfinteriana alta, anterior en mujer, incontinencia previa): sedal laxo de drenaje como puente, nunca fistulotomía de entrada.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — absceso y fístula anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 36
+  },
+  "tags": [
+   "fistula compleja",
+   "seton laxo",
+   "fistulotomia",
+   "incontinencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M009",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Al explicar el mecanismo de la continencia, el profesor describe dos estructuras tubulares concéntricas de origen embriológico distinto y un reflejo mediado por el plexo mientérico. ¿Qué afirmación sobre los esfínteres del canal anal y sobre ese reflejo se corresponde con lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El reflejo rectoanal inhibitorio contrae el esfínter interno vía nervio pudendo"
+   },
+   {
+    "id": "B",
+    "text": "El esfínter externo es la continuación de la muscular propia del recto"
+   },
+   {
+    "id": "C",
+    "text": "El esfínter interno es estriado y voluntario, y el externo liso e involuntario"
+   },
+   {
+    "id": "D",
+    "text": "El esfínter interno es músculo liso, continuación de la muscular propia del recto"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El canal anal está formado por dos estructuras tubulares concéntricas de origen embriológico distinto: el esfínter interno, de músculo liso, que es la continuación de la muscular propia del recto, y el esfínter externo, de músculo estriado. La continencia depende de la complianza rectal, la sensibilidad, la consistencia de las heces, los esfínteres y los nervios, y se apoya en el ángulo rectoanal, en la presión y la circunferencia de los músculos del canal, en los sensores del recto y del canal y en el reflejo rectoanal inhibitorio, mediado por el plexo mientérico. Opción D: correcta, define el esfínter interno tal y como lo expone la clase. Opción A: el reflejo rectoanal inhibitorio relaja el esfínter interno, no lo contrae, y va por el plexo mientérico, no por el nervio pudendo, que es el del esfínter externo. Opción B: invierte los dos esfínteres, porque es el interno el que prolonga la muscular propia. Opción C: invierte también la naturaleza muscular; el interno es liso e involuntario y el externo estriado y voluntario. Punto de enseñanza: interno liso e involuntario, externo estriado y voluntario, y el reflejo rectoanal inhibitorio relaja el interno.",
+  "teaching_point": "Esfínter anal interno: músculo liso, continuación de la muscular propia del recto. Esfínter externo: músculo estriado. Reflejo rectoanal inhibitorio vía plexo mientérico.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — anatomía del canal anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 5
+  },
+  "tags": [
+   "canal anal",
+   "esfinteres",
+   "continencia",
+   "reflejo rectoanal inhibitorio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M010",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "En la clase se clasifican los abscesos anorrectales según el espacio anatómico que ocupan, y esa localización condiciona la vía y el tipo de drenaje. Se pregunta por los tres tipos recogidos en la diapositiva de clasificación de abscesos. ¿Qué opción los enumera correctamente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absceso submucoso, absceso retrorrectal y absceso extraesfinteriano"
+   },
+   {
+    "id": "B",
+    "text": "Absceso perianal, absceso interesfinteriano y absceso pilonidal"
+   },
+   {
+    "id": "C",
+    "text": "Absceso perianal, absceso isquioanal y absceso supraelevador"
+   },
+   {
+    "id": "D",
+    "text": "Absceso perianal, absceso transesfinteriano y absceso pelvirrectal"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La diapositiva de clasificación de abscesos recoge tres tipos: perianal, isquioanal y supraelevador. La distinción no es académica, porque el drenaje difiere: los abscesos perianal e isquioanal se drenan por vía perineal directa, mientras que el supraelevador requiere una vía distinta en función de su origen, y ese es el motivo por el que la clase le dedica una diapositiva propia. Conviene recordar además que el absceso anal es la manifestación aguda de la fístula anal, y que la etiología más frecuente de ambos es la infección criptoglandular, seguida de la enfermedad inflamatoria intestinal, la fisura anal, la cirugía anorrectal previa y otras causas como el carcinoma y el traumatismo. Opción C: correcta, es la clasificación expuesta. Opción B: el absceso pilonidal es una entidad sacrococcígea distinta, ajena a esta clasificación. Opción A: submucoso, retrorrectal y extraesfinteriano mezclan términos de otras clasificaciones y omiten el isquioanal. Opción D: transesfinteriano describe un trayecto fistuloso, no un espacio donde se colecciona un absceso. Punto de enseñanza: perianal, isquioanal y supraelevador, y el drenaje depende de cuál sea.",
+  "teaching_point": "Los abscesos anorrectales se clasifican en perianal, isquioanal y supraelevador; el absceso es la manifestación aguda de la fístula anal.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — absceso y fístula anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 30
+  },
+  "tags": [
+   "absceso anal",
+   "isquioanal",
+   "supraelevador",
+   "criptoglandular"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M011",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de cuarenta y cinco años presenta escapes de heces líquidas y sólidas dos años después de un parto instrumental. La ecografía endoanal muestra un defecto anterior del esfínter externo. No ha mejorado con medidas dietéticas, loperamida y biofeedback. ¿Qué opción terapéutica procede plantear a continuación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esfinteroplastia, es decir, reparación quirúrgica de la lesión muscular"
+   },
+   {
+    "id": "B",
+    "text": "Colostomía de descarga definitiva por fracaso del tratamiento"
+   },
+   {
+    "id": "C",
+    "text": "Esfinterotomía lateral interna para reducir el tono de reposo"
+   },
+   {
+    "id": "D",
+    "text": "Nueva tanda de biofeedback asociada a laxantes osmóticos"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El tratamiento de la incontinencia anal que expone la clase es escalonado: medidas dietéticas y de hábito defecatorio, antidiarreicos como la loperamida, rehabilitación con biofeedback, reparación quirúrgica de los esfínteres mediante esfinteroplastia, irrigaciones transanales, estimulación del nervio tibial posterior, neuromodulación de raíces sacras y, como último recurso, colostomía de descarga. Ante un defecto esfinteriano anatómico demostrado por ecografía endoanal y con fracaso de las medidas conservadoras, el gesto que corresponde es la reparación del defecto. Opción A: correcta, hay una lesión anatómica reparable y los escalones previos han fracasado. Opción B: la colostomía es el último escalón y no se plantea mientras exista un defecto reparable. Opción C: la esfinterotomía lateral interna secciona esfínter y agravaría la incontinencia; su indicación es la fisura hipertónica. Opción D: repetir el biofeedback que ya ha fracasado no corrige un defecto anatómico. Punto de enseñanza: ante incontinencia con defecto esfinteriano demostrado, la esfinteroplastia precede a las técnicas de neuromodulación y a la colostomía.",
+  "teaching_point": "Incontinencia anal con defecto esfinteriano demostrado y fracaso conservador: esfinteroplastia, antes de neuromodulación o colostomía.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — incontinencia anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 9
+  },
+  "tags": [
+   "incontinencia anal",
+   "esfinteroplastia",
+   "biofeedback",
+   "neuromodulacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-M012",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Se describe, en un varón con infección por el virus de la inmunodeficiencia humana, una tumoración perianal exofítica y verrucosa, de gran tamaño y crecimiento local destructivo, informada como condiloma acuminado gigante. ¿Qué denominación recibe esta lesión y qué actitud complementaria recomienda la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Enfermedad de Bowen perianal; radioterapia externa sin estudio virológico"
+   },
+   {
+    "id": "B",
+    "text": "Buschke-Löwenstein; tipaje del VPH por PCR y cribado de neoplasia anal"
+   },
+   {
+    "id": "C",
+    "text": "Enfermedad de Paget perianal; excisión amplia sin necesidad de tipaje viral"
+   },
+   {
+    "id": "D",
+    "text": "Carcinoma verrucoso anal; amputación abdominoperineal de entrada"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Los condilomas son la enfermedad de transmisión sexual más frecuente en coloproctología. Existen más de sesenta subtipos del virus del papiloma humano: los subtipos 6 y 11 son los más frecuentes, y los subtipos 16 y 18 los más asociados al cáncer epidermoide. La forma gigante y localmente destructiva recibe el nombre de Buschke-Löwenstein. El tratamiento incluye excisión y fulguración e imiquimod en crema al 5 %, y la clase insiste en hacer tipaje del virus por PCR y en los programas de cribado de cáncer epidermoide en hombres que tienen sexo con hombres con infección por el virus de la inmunodeficiencia humana, por la alta incidencia de neoplasia anal intraepitelial. Opción B: correcta, nombra la lesión y añade las dos actitudes complementarias recomendadas. Opción A: la enfermedad de Bowen es un carcinoma epidermoide in situ, no un condiloma gigante, y renunciar al estudio virológico contradice lo expuesto. Opción C: la enfermedad de Paget perianal es un adenocarcinoma intraepitelial, de aspecto eccematoso y no verrucoso. Opción D: indicar de entrada una amputación abdominoperineal ante un condiloma gigante es desproporcionado. Punto de enseñanza: condiloma gigante es Buschke-Löwenstein, y obliga a tipar el virus y a cribar la neoplasia anal intraepitelial.",
+  "teaching_point": "El condiloma gigante de Buschke-Löwenstein obliga a tipaje del VPH por PCR y a cribado de neoplasia anal intraepitelial; 6 y 11 son los subtipos más frecuentes y 16 y 18 los más oncogénicos.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — patología anal de transmisión sexual",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 42
+  },
+  "tags": [
+   "condilomas",
+   "VPH",
+   "buschke-lowenstein",
+   "neoplasia anal intraepitelial"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T27-C001",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "El canal anal está formado por dos estructuras tubulares concéntricas de origen embriológico distinto, responsables de las presiones basales y de contracción del orificio anal. Indique, en un máximo de veinte palabras, la naturaleza muscular de cada uno de esos dos esfínteres.",
+  "respuesta_canonica": "Interno de músculo liso, continuación de la muscular propia del recto; externo de músculo estriado",
+  "aceptadas": [
+   "esfínter interno liso e involuntario; esfínter externo estriado y voluntario",
+   "el interno es musculatura lisa y el externo musculatura estriada"
+  ],
+  "conceptos_clave": [
+   "interno",
+   "lis",
+   "externo",
+   "estriad"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe el canal anal como una anatomía compleja destinada a mantener la continencia y a facilitar la defecación, con dos estructuras tubulares concéntricas de origen embriológico distinto. El esfínter interno es de músculo liso y constituye la continuación de la muscular propia del recto, por lo que es involuntario y responsable en gran medida de la presión basal de reposo. El esfínter externo es de músculo estriado y aporta la presión de contracción voluntaria. Sobre esa base se articula el mecanismo de la continencia, que la clase resume en complianza rectal, sensibilidad, consistencia de las heces, esfínteres y nervios, con el ángulo rectoanal, los sensores del recto y del canal y el reflejo rectoanal inhibitorio mediado por el plexo mientérico. Para dar por buena la respuesta deben aparecer los dos esfínteres con su naturaleza muscular correcta. Punto de enseñanza: interno liso e involuntario, externo estriado y voluntario.",
+  "teaching_point": "Esfínter anal interno de músculo liso, continuación de la muscular propia del recto; esfínter anal externo de músculo estriado.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — anatomía del canal anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 5
+  },
+  "tags": [
+   "canal anal",
+   "esfinteres",
+   "anatomia"
+  ]
+ },
+ {
+  "id": "T27-C002",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Las fístulas anales se clasifican por su relación con el aparato esfinteriano, y la clase aporta la frecuencia relativa de cada tipo. Indique, en un máximo de veinte palabras, el tipo más frecuente y el porcentaje que representa según la diapositiva del profesor.",
+  "respuesta_canonica": "La fístula interesfinteriana, con el 70 % de los casos",
+  "aceptadas": [
+   "interesfinteriana, 70 %",
+   "la interesfinteriana (70 por ciento)"
+  ],
+  "conceptos_clave": [
+   "interesfinteriana",
+   "70"
+  ],
+  "max_palabras": 20,
+  "explanation": "La diapositiva de fístulas anales reparte los cuatro tipos con sus frecuencias: interesfinteriana el 70 %, transesfinteriana el 23 %, supraelevadora el 5 % y extraesfinteriana el 2 %. En la misma diapositiva figura la ley de Goodsall, que relaciona la posición del orificio externo con la del orificio interno y orienta la búsqueda del trayecto durante la cirugía. Esta clasificación es la que decide el tratamiento: se consideran fístulas simples las que afectan poco esfínter, es decir, las interesfinterianas y las transesfinterianas bajas, subsidiarias de fistulotomía, y complejas las transesfinterianas medias y altas, las supraelevadoras, las extraesfinterianas, las anteriores en la mujer, las asociadas a enfermedad inflamatoria intestinal, las reoperaciones y las que asientan sobre una incontinencia previa. Para dar por buena la respuesta deben figurar el tipo interesfinteriano y la cifra del 70 %. Punto de enseñanza: la fístula más frecuente es también la más sencilla de tratar.",
+  "teaching_point": "La fístula interesfinteriana es la más frecuente, con el 70 %, seguida de la transesfinteriana con el 23 %.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — absceso y fístula anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 34
+  },
+  "tags": [
+   "fistula anal",
+   "clasificacion",
+   "interesfinteriana"
+  ]
+ },
+ {
+  "id": "T27-C003",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La hemorroidectomía puede realizarse dejando las heridas abiertas o cerrándolas, y cada variante recibe el nombre de su autor. Indique, en un máximo de veinte palabras, qué nombre corresponde a la técnica abierta y cuál a la técnica cerrada según lo expuesto en clase.",
+  "respuesta_canonica": "Abierta, Milligan-Morgan; cerrada, Ferguson",
+  "aceptadas": [
+   "Milligan-Morgan es la abierta y Ferguson la cerrada",
+   "técnica de Milligan-Morgan (abierta) y técnica de Ferguson (cerrada)"
+  ],
+  "conceptos_clave": [
+   "Milligan-Morgan",
+   "Ferguson",
+   "abierta",
+   "cerrada"
+  ],
+  "max_palabras": 20,
+  "explanation": "Dentro de la cirugía de las hemorroides internas, la clase distingue la hemorroidectomía de las técnicas de hemorroidopexia y ligadura de las arterias hemorroidales. La hemorroidectomía admite dos variantes según el manejo de las heridas: si se dejan abiertas, se denomina técnica de Milligan-Morgan; si se cierran, técnica de Ferguson. La comparación que ofrece la diapositiva siguiente resume las ventajas y los inconvenientes de cada estrategia frente a la técnica de Longo y a la desarterialización guiada por Doppler, en términos de dolor, complicaciones graves y recidiva: la hemorroidectomía es la más dolorosa pero la que menos recidiva, mientras que las técnicas de hemorroidopexia duelen menos y recidivan más. Para dar por buena la respuesta deben asignarse correctamente los dos epónimos. Punto de enseñanza: Milligan-Morgan abierta, Ferguson cerrada.",
+  "teaching_point": "Hemorroidectomía abierta: Milligan-Morgan. Hemorroidectomía cerrada: Ferguson.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad hemorroidal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 22
+  },
+  "tags": [
+   "hemorroidectomia",
+   "milligan-morgan",
+   "ferguson"
+  ]
+ },
+ {
+  "id": "T27-C004",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "En el tratamiento conservador de la fisura anal con hipertonía del esfínter anal interno se emplean medidas higiénico-dietéticas y fármacos relajantes de ese esfínter. Enumere, en un máximo de veinte palabras, los relajantes del esfínter anal interno recogidos en la diapositiva de tratamiento.",
+  "respuesta_canonica": "Donantes de óxido nítrico, nifedipino, diltiazem y toxina botulínica",
+  "aceptadas": [
+   "nitratos tópicos, nifedipino, diltiazem y toxina botulínica",
+   "óxido nítrico, nifedipino, diltiazem, toxina botulínica",
+   "nitroglicerina tópica, nifedipino, diltiazem y toxina botulínica",
+   "óxido nitroso, nifedipino, diltiazem y toxina botulínica (literal de la diapositiva)"
+  ],
+  "conceptos_clave": [
+   "nifedipino",
+   "diltiazem",
+   "toxina botulínica"
+  ],
+  "max_palabras": 20,
+  "explanation": "El tratamiento conservador de la fisura anal con hipertonía se apoya en dos pilares. El primero son las medidas higiénico-dietéticas: dieta con fibra y mucha agua, y baños de asiento en agua templada. El segundo son los relajantes del esfínter anal interno, que la diapositiva enumera como óxido nitroso, nifedipino, diltiazem y toxina botulínica. Conviene advertir aquí que la denominación correcta del primer agente es óxido nítrico o, en la práctica clínica, un donante de óxido nítrico como la nitroglicerina tópica: el óxido nitroso es un gas anestésico y no relaja el esfínter, de modo que la diapositiva contiene una errata. Por eso se da por buena tanto la forma corregida como la literal de la clase, que es la que el alumno habrá copiado, pero conviene conocer cuál de las dos es la correcta. Si el tratamiento conservador fracasa, se pasa a la esfinterotomía lateral interna, de longitud igual a la de la fisura, con una tasa de curación del 95 % y una incontinencia crónica del 1 al 2 %. Punto de enseñanza: nitratos, calcioantagonistas tópicos y toxina botulínica son la esfinterotomía química.",
+  "teaching_point": "Relajantes del esfínter anal interno en la fisura: donantes de óxido nítrico, nifedipino, diltiazem y toxina botulínica.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — patología anal benigna",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "fisura anal",
+   "diltiazem",
+   "nifedipino",
+   "toxina botulinica"
+  ]
+ },
+ {
+  "id": "T27-L001",
+  "tema": 27,
+  "bloque": "colorrectal",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 44 años acude por dolor perianal, tumefacción y fiebre; se diagnostica un absceso perianal que se drena. Seis semanas después persiste un orificio externo con supuración. Exponga, en un máximo de 350 palabras, la relación entre absceso y fístula anal, su etiología, la clasificación de las fístulas con su frecuencia, el papel de la ley de Goodsall y el tratamiento de las fístulas simples y complejas.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Establece que el absceso anal es la manifestación aguda de la fístula anal",
+    "puntos": 0.38,
+    "claves": [
+     "manifestacion aguda",
+     "fistula"
+    ]
+   },
+   {
+    "elemento": "Enumera la etiología: infección criptoglandular como causa principal, enfermedad inflamatoria intestinal, fisura anal, cirugía anorrectal previa y otras (carcinoma, traumatismo)",
+    "puntos": 0.38,
+    "claves": [
+     "criptoglandular",
+     "enfermedad inflamatoria intestinal",
+     "fisura",
+     "cirugia anorrectal"
+    ]
+   },
+   {
+    "elemento": "Clasifica los abscesos en perianal, isquioanal y supraelevador y relaciona la localización con la vía de drenaje",
+    "puntos": 0.38,
+    "claves": [
+     "perianal",
+     "isquioanal",
+     "supraelevador",
+     "drenaje"
+    ]
+   },
+   {
+    "elemento": "Clasifica las fístulas con sus porcentajes: interesfinteriana 70 %, transesfinteriana 23 %, supraelevadora 5 % y extraesfinteriana 2 %",
+    "puntos": 0.38,
+    "claves": [
+     "70",
+     "23",
+     "5",
+     "2"
+    ]
+   },
+   {
+    "elemento": "Menciona la ley de Goodsall como regla que orienta la relación entre orificio externo e interno",
+    "puntos": 0.19,
+    "claves": [
+     "Goodsall"
+    ]
+   },
+   {
+    "elemento": "Define la fístula simple y su tratamiento: fistulotomía con eficacia del 99 % en fístulas que afectan poco esfínter, interesfinterianas y transesfinterianas bajas",
+    "puntos": 0.56,
+    "claves": [
+     "fistulotomia",
+     "99",
+     "interesfinteriana",
+     "transesfinteriana"
+    ]
+   },
+   {
+    "elemento": "Define la fístula compleja con todos sus criterios y sitúa el sedal laxo de drenaje como control de sepsis y puente a la cirugía",
+    "puntos": 0.56,
+    "claves": [
+     "compleja",
+     "anteriores en la mujer",
+     "sedal laxo",
+     "sepsis"
+    ]
+   },
+   {
+    "elemento": "Enumera las alternativas de cirugía curativa en fístula compleja y su eficacia aproximada del 40-80 %",
+    "puntos": 0.17,
+    "claves": [
+     "colgajo de avance",
+     "LIFT",
+     "esfinterorrafia",
+     "40"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El absceso anal es la manifestación aguda de la fístula anal: ambos son dos momentos de un mismo proceso, de modo que la persistencia de un orificio externo supurativo tras drenar un absceso indica que existe un trayecto fistuloso establecido. La etiología principal es la infección criptoglandular, y le siguen la enfermedad inflamatoria intestinal, la fisura anal, la cirugía anorrectal previa y otras causas como el carcinoma y el traumatismo. Los abscesos se clasifican según el espacio que ocupan en perianal, isquioanal y supraelevador; los dos primeros se drenan por vía perineal directa y el supraelevador exige una vía específica según su origen. Las fístulas se clasifican por su relación con el aparato esfinteriano: interesfinteriana el 70 %, transesfinteriana el 23 %, supraelevadora el 5 % y extraesfinteriana el 2 %. La ley de Goodsall orienta la relación entre la posición del orificio externo y la del orificio interno, y ayuda a buscar el trayecto en el quirófano. El tratamiento más eficaz es la fistulotomía, con una eficacia del 99 %, pero solo se aplica a las fístulas que afectan poco esfínter, orientativamente menos de un tercio: las interesfinterianas y las transesfinterianas bajas, que se consideran fístulas simples. Se consideran complejas las transesfinterianas medias y altas, las supraelevadoras, las extraesfinterianas, las fístulas anteriores en la mujer, las asociadas a enfermedad inflamatoria intestinal, las reoperaciones y las que asientan sobre una incontinencia previa. En ellas, la colocación de un sedal laxo de drenaje permite controlar la sepsis y sirve de puente a la cirugía, y en ocasiones se mantiene como tratamiento definitivo. Cuando se intenta una cirugía curativa, la eficacia se sitúa aproximadamente entre el 40 y el 80 %, y las técnicas disponibles son la fistulotomía con esfinterorrafia, el colgajo de avance, la ligadura interesfinteriana del trayecto o LIFT, el plasma rico en plaquetas, el sellado con fibrina, los tapones, la terapia celular, aprobada para la enfermedad de Crohn, y los sedales de corte. La elección se subordina siempre a preservar la continencia.",
+  "explanation": "La pregunta obliga a construir el razonamiento completo que la clase despliega en varias diapositivas: absceso y fístula como una misma enfermedad en dos tiempos, etiología encabezada por la infección criptoglandular, clasificación anatómica de abscesos y fístulas con sus porcentajes, ley de Goodsall y, sobre todo, la dicotomía entre fístula simple y compleja, que es la que decide el tratamiento. El error más penalizado es proponer una fistulotomía en una fístula compleja, porque la eficacia del 99 % de esa técnica se paga con incontinencia cuando se secciona más de un tercio del esfínter. El segundo error frecuente es olvidar los criterios de complejidad que no dependen del trayecto, como la fístula anterior en la mujer, la enfermedad inflamatoria intestinal, las reoperaciones y la incontinencia previa. Se valora citar el sedal laxo como control de sepsis y puente a la cirugía. Punto de enseñanza: en la fístula anal, la continencia manda sobre la eficacia.",
+  "teaching_point": "El absceso es la fístula en fase aguda; la elección entre fistulotomía y sedal laxo depende de cuánto esfínter está implicado y de los criterios de complejidad.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — absceso y fístula anal",
+  "fuente_clase": {
+   "archivo": "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx",
+   "pagina": 35
+  },
+  "tags": [
+   "fistula anal",
+   "absceso",
+   "fistulotomia",
+   "sedal laxo"
+  ]
+ }
+]

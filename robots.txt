@@ -1,0 +1,5 @@
+# El banco de preguntas no se indexa. La version de prueba esta en un
+# repositorio publico solo porque GitHub Pages no sirve repositorios privados
+# en el plan gratuito; no debe aparecer en buscadores antes del estudio.
+User-agent: *
+Disallow: /

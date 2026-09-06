@@ -1,0 +1,717 @@
+[
+  {
+    "id": "T03-M001",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Varón de 45 años en tratamiento con antiinflamatorios por lumbalgia. Acude por dolor epigástrico de instauración brusca hace tres horas. Está taquicárdico y el abdomen está rígido, en tabla, con dolor a la descompresión. La radiografía de tórax en bipedestación muestra neumoperitoneo. Señale la actuación terapéutica más apropiada.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cierre primario de la perforación e investigación de Helicobacter pylori"
+      },
+      {
+        "id": "B",
+        "text": "Gastrectomía subtotal con reconstrucción tipo Billroth II"
+      },
+      {
+        "id": "C",
+        "text": "Vagotomía troncular con antrectomía en el mismo acto"
+      },
+      {
+        "id": "D",
+        "text": "Tratamiento conservador con inhibidores de bomba y antibióticos"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El cuadro es una úlcera duodenal perforada: dolor epigástrico brusco, signos de irritación peritoneal con abdomen en tabla y aire libre en la radiografía de tórax en bipedestación. La clase establece como tratamiento el cierre primario de la perforación, técnica de Roscoe-Graham, por vía abierta o laparoscópica, con investigación de Helicobacter pylori y tratamiento erradicador si procede. Opción A: correcta. Opción B: la gastrectomía subtotal es una resección mayor injustificada en una perforación duodenal, con morbilidad postgastrectomía en torno al veinte por ciento. Opción C: la vagotomía con antrectomía es un procedimiento antipéptico pensado para la úlcera intratable, no para la urgencia perforativa. Opción D: el tratamiento conservador no cierra una perforación libre con peritonitis difusa, cuadro cuya mortalidad la clase sitúa en el quince por ciento. Punto de enseñanza: en la úlcera perforada se cierra el agujero y se trata la causa, no se resecan órganos.",
+    "teaching_point": "La úlcera duodenal perforada se trata con cierre primario tipo Roscoe-Graham más investigación y erradicación de Helicobacter pylori.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 27
+    },
+    "tags": [
+      "úlcera perforada",
+      "neumoperitoneo",
+      "Roscoe-Graham"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M002",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "En una vagotomía se seccionan únicamente las ramas vagales destinadas al cuerpo del estómago, y se respeta la inervación del antro y del píloro que discurre por el nervio de Latarjet. Señale cuál es la consecuencia práctica más característica de esta modalidad de vagotomía según lo expuesto en clase.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exige asociar una piloroplastia de drenaje"
+      },
+      {
+        "id": "B",
+        "text": "Permite prescindir del procedimiento de drenaje gástrico"
+      },
+      {
+        "id": "C",
+        "text": "Secciona el tronco vagal antes de las ramas hepática y celiaca"
+      },
+      {
+        "id": "D",
+        "text": "Reduce el pico de secreción ácida en un ochenta y cinco por ciento"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La descripción corresponde a la vagotomía supraselectiva o de células parietales, que divide las ramas vagales del cuerpo gástrico preservando el nervio de Latarjet, la llamada pata de ganso. Al conservar la inervación del antro y del píloro, el vaciamiento gástrico se mantiene y, según la clase, no precisa procedimiento de drenaje. Su precio es una recurrencia del diez al quince por ciento, superior a la de la vagotomía troncular, a cambio de mucha menos diarrea y menos síndrome de dumping. Opción A: la piloroplastia es obligada tras vagotomía troncular y tras vagotomía selectiva, no tras la supraselectiva. Opción B: correcta. Opción C: seccionar el tronco vagal antes de las ramas hepática y celiaca es la definición de la vagotomía troncular, no de la supraselectiva, que actúa mucho más distalmente. Opción D: la reducción del ochenta y cinco por ciento corresponde a la vagotomía troncular asociada a antrectomía; la vagotomía sola reduce alrededor del cincuenta por ciento. Punto de enseñanza: preservar Latarjet es preservar el vaciamiento.",
+    "teaching_point": "La vagotomía supraselectiva preserva el nervio de Latarjet y por eso no requiere procedimiento de drenaje, a costa de mayor recurrencia.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 12
+    },
+    "tags": [
+      "vagotomía supraselectiva",
+      "nervio de Latarjet",
+      "drenaje gástrico"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M003",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 52 años intervenida hace ocho meses de gastrectomía parcial. Refiere que a los veinte o treinta minutos de comer aparecen plenitud, náuseas, dolor cólico y diarrea, con mareo y sudoración menos llamativos. Los síntomas son más intensos cuando la ingesta lleva muchos azúcares. Señale el tratamiento inicial más apropiado.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Octeótrido de larga duración desde el primer momento"
+      },
+      {
+        "id": "B",
+        "text": "Interposición de un asa yeyunal invertida de diez centímetros"
+      },
+      {
+        "id": "C",
+        "text": "Conversión quirúrgica de la reconstrucción a Y de Roux"
+      },
+      {
+        "id": "D",
+        "text": "Comidas pequeñas y frecuentes, con proteínas y grasas y sin líquidos"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "El cuadro corresponde a un síndrome de dumping precoz, que la clase sitúa a los veinte o treinta minutos de la ingesta y con predominio de síntomas digestivos sobre los cardiovasculares, a diferencia del dumping tardío, que aparece a las dos o tres horas y es sobre todo cardiovascular. El mecanismo es el paso al intestino delgado de comida de alta osmolaridad, con extracción rápida de líquido extracelular a la luz y distensión intestinal. La clase afirma que el tratamiento dietético suele resolver el dumping precoz: comidas pequeñas y frecuentes, ricas en proteínas y grasas, pobres en hidratos de carbono y sin líquidos. Opción A: el octeótrido se reserva para los que no responden a la dieta. Opción B: la interposición de yeyuno invertido es el recurso quirúrgico para el menos del dos por ciento que lo necesita. Opción D: correcta. Opción C: la conversión a Y de Roux es el tratamiento de la gastritis alcalina. Punto de enseñanza: en el dumping precoz, primero la dieta.",
+    "teaching_point": "El dumping precoz aparece a los 20-30 minutos, predomina la clínica digestiva y se resuelve casi siempre con medidas dietéticas.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 21
+    },
+    "tags": [
+      "dumping precoz",
+      "síndromes postgastrectomía",
+      "dieta"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M004",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "basica",
+    "stem": "Tras una antrectomía por úlcera péptica, el cirujano cierra el muñón duodenal y restablece el tránsito anastomosando el estómago restante a la primera asa yeyunal, de modo que la bilis y el jugo pancreático alcanzan el estómago antes de mezclarse con el alimento. Señale el nombre que recibe esta reconstrucción según la clasificación clásica.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Billroth I, gastroduodenostomía término-terminal"
+      },
+      {
+        "id": "B",
+        "text": "Reconstrucción en Y de Roux con asa larga"
+      },
+      {
+        "id": "C",
+        "text": "Gastroyeyunostomía en omega sin resección gástrica"
+      },
+      {
+        "id": "D",
+        "text": "Billroth II, gastroyeyunostomía con asa aferente"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase clasifica la reconstrucción tras gastrectomía en tres modalidades: Billroth I, que anastomosa el muñón gástrico al duodeno; Billroth II, que lo anastomosa al yeyuno; y Y de Roux. La existencia de un asa aferente que conduce el contenido pancreatobiliar es el rasgo definitorio del Billroth II, y explica que sea la reconstrucción en la que aparece el síndrome de asa aferente. Opción A: en el Billroth I no existe asa aferente porque el tránsito sigue por el duodeno. Opción B: la Y de Roux deriva la bilis a distancia mediante un asa en Y y se emplea precisamente para corregir la gastritis alcalina y el síndrome de asa aferente. Opción C: la gastroyeyunostomía en omega es un procedimiento de drenaje sin resección gástrica, y el enunciado describe una antrectomía. Opción D: correcta. Punto de enseñanza: si hay asa aferente, la reconstrucción es Billroth II y el paciente hereda sus complicaciones.",
+    "teaching_point": "Billroth I anastomosa el estómago al duodeno; Billroth II al yeyuno y crea un asa aferente; la Y de Roux deriva la bilis lejos del muñón.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 17
+    },
+    "tags": [
+      "Billroth II",
+      "reconstrucción",
+      "gastrectomía"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M005",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 63 años intervenido hace dos años de gastrectomía parcial con reconstrucción Billroth II. Presenta dolor cólico en epigastrio que aumenta tras la comida y cede bruscamente con un vómito bilioso abundante que no contiene alimentos. La gammagrafía con HIDA muestra retención del trazador proximal a la anastomosis. Señale el diagnóstico.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome de dumping tardío"
+      },
+      {
+        "id": "B",
+        "text": "Gastritis alcalina por reflujo biliar"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome de asa aferente"
+      },
+      {
+        "id": "D",
+        "text": "Vaciamiento gástrico lento posquirúrgico"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase define el síndrome de asa aferente como la obstrucción parcial o total del asa aferente en un Billroth II, de modo que el contenido pancreatobiliar no se vacía en el estómago. Se acumula, distiende el asa y provoca dolor cólico posprandial que cede de golpe cuando el asa se descomprime en un vómito bilioso sin alimentos. El diagnóstico se apoya en la endoscopia, que no consigue pasar al asa, y en el HIDA, que muestra acumulación del trazador. Opción C: correcta, asa aferente obstruida en un Billroth II. Opción B: la gastritis alcalina cursa con dolor epigástrico continuo, vómitos biliares y pérdida de peso, pero el dolor no cede tras el vómito y la endoscopia muestra gastritis. Opción A: el dumping tardío aparece a las dos o tres horas con síntomas cardiovasculares por hipoglucemia de rebote. Opción D: el vaciamiento lento cursa con vómitos de alimentos retenidos y digestiones largas. Punto de enseñanza: dolor que cede con el vómito bilioso equivale a asa aferente obstruida.",
+    "teaching_point": "En el síndrome de asa aferente el dolor cólico posprandial cede bruscamente con un vómito bilioso sin alimentos; el tratamiento es la conversión a Y de Roux.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 23
+    },
+    "tags": [
+      "asa aferente",
+      "Billroth II",
+      "HIDA"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M006",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 58 años con antecedente de gastrectomía y reconstrucción Billroth II. Presenta dolor epigástrico continuo, vómitos biliares y pérdida de peso desde hace un año, sin respuesta a procinéticos ni a inhibidores de bomba. La endoscopia muestra gastritis con abundante bilis en el muñón. Señale el tratamiento definitivo indicado.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colestiramina y procinéticos de forma indefinida"
+      },
+      {
+        "id": "B",
+        "text": "Conversión quirúrgica a Y de Roux con asa larga"
+      },
+      {
+        "id": "C",
+        "text": "Vagotomía troncular asociada a piloroplastia"
+      },
+      {
+        "id": "D",
+        "text": "Dilatación endoscópica repetida de la anastomosis"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "El cuadro es una gastritis alcalina por reflujo biliar, complicación que la clase describe tras Billroth I y con más frecuencia tras Billroth II, con la tríada de dolor epigástrico, vómitos biliares y pérdida de peso. El diagnóstico se apoya en la historia clínica, el HIDA y la endoscopia alta que demuestra la gastritis. Solo un pequeño porcentaje de pacientes con reflujo biliar se hace sintomático, y en ellos el tratamiento definitivo es quirúrgico: la conversión de la reconstrucción a una Y de Roux con asa superior a cuarenta centímetros, longitud que aleja la bilis del muñón gástrico. Opción A: la colestiramina y los procinéticos son medidas sintomáticas insuficientes en un cuadro de un año sin respuesta. Opción B: correcta. Opción C: la vagotomía con piloroplastia es un procedimiento antipéptico, no antibiliar. Opción D: la anastomosis no está estenosada. Punto de enseñanza: contra el reflujo biliar sintomático, derivar la bilis lejos.",
+    "teaching_point": "La gastritis alcalina sintomática tras Billroth II se corrige convirtiendo la reconstrucción a Y de Roux con asa mayor de 40 cm.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 19
+    },
+    "tags": [
+      "gastritis alcalina",
+      "Y de Roux",
+      "reflujo biliar"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M007",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 70 años con hematemesis masiva y shock, sin antecedentes digestivos ni consumo de antiinflamatorios. La endoscopia urgente muestra una mucosa gástrica prácticamente normal salvo un vaso submucoso protruyente de unos dos milímetros en el fundus, con sangrado en chorro. Señale el diagnóstico que corresponde a este hallazgo.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gastritis de estrés"
+      },
+      {
+        "id": "B",
+        "text": "Lesión de Dieulafoy"
+      },
+      {
+        "id": "C",
+        "text": "Ectasia vascular antral gástrica"
+      },
+      {
+        "id": "D",
+        "text": "Desgarro de Mallory-Weiss"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase define la lesión de Dieulafoy como la hemorragia procedente de un vaso submucoso anormalmente grande, de uno a tres milímetros, que erosiona la mucosa suprayacente y sangra de forma masiva sobre una mucosa por lo demás normal. El tratamiento incluye endoscopia, embolización y, si fracasan, cirugía con sutura del punto sangrante. Opción A: la gastritis de estrés se caracteriza por erosiones superficiales múltiples repartidas por todo el estómago en un paciente crítico con isquemia mucosa, y el enunciado describe una mucosa normal. Opción C: la ectasia vascular antral consiste en vénulas dilatadas antrales, cursa con anemia crónica y rara vez con hemorragia franca, y además su localización es antral. Opción B: correcta, lesión de Dieulafoy. Opción D: el desgarro de Mallory-Weiss afecta a mucosa y submucosa en la proximidad de la unión esofagogástrica tras arcadas o vómitos, ausentes aquí. Punto de enseñanza: mucosa normal más sangrado arterial en chorro obliga a buscar un Dieulafoy.",
+    "teaching_point": "La lesión de Dieulafoy es un vaso submucoso anómalo de 1-3 mm que sangra masivamente sobre una mucosa gástrica por lo demás normal.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 33
+    },
+    "tags": [
+      "Dieulafoy",
+      "hemorragia digestiva alta",
+      "endoscopia"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M008",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 48 años con úlcera duodenal que persiste tras doce semanas de tratamiento correcto, con Helicobacter pylori ya erradicado y comprobado, y sin consumo de antiinflamatorios. Se plantea cirugía por úlcera intratable. Señale la actuación que debe realizarse antes de sentar definitivamente la indicación quirúrgica.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar de entrada vagotomía troncular con piloroplastia"
+      },
+      {
+        "id": "B",
+        "text": "Programar una gastrectomía subtotal con Billroth II"
+      },
+      {
+        "id": "C",
+        "text": "Determinar la gastrinemia para descartar un gastrinoma"
+      },
+      {
+        "id": "D",
+        "text": "Repetir tratamiento erradicador empírico otros tres meses"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase indica que la cirugía será necesaria en alrededor del veinte por ciento de los pacientes con úlcera péptica duodenal, y define la úlcera intratable como la que no responde a un tratamiento adecuado y persiste durante ocho a doce semanas. En ese punto establece de forma explícita un paso previo: descartar un gastrinoma mediante la determinación de la gastrinemia, y solo después realizar el procedimiento antipéptico, vagotomía troncular con piloroplastia. Opción A: operar sin descartar antes un síndrome de Zollinger-Ellison condena al paciente a la recidiva, porque el estímulo hormonal persiste. Opción B: la gastrectomía subtotal no es el procedimiento de elección en esta indicación. Opción D: repetir la erradicación cuando ya está comprobada no aporta nada y retrasa el diagnóstico. Opción C: correcta. Punto de enseñanza: antes de operar una úlcera rebelde, hay que preguntarse si detrás hay un tumor productor de gastrina.",
+    "teaching_point": "Ante una úlcera duodenal intratable, determinar la gastrinemia para descartar gastrinoma antes de indicar la cirugía antipéptica.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 29
+    },
+    "tags": [
+      "úlcera intratable",
+      "gastrinoma",
+      "indicación quirúrgica"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M009",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "extrema",
+    "stem": "Paciente de 40 años con úlcera duodenal confirmada por endoscopia y test del aliento con urea marcada positivo. Se prescribe tratamiento erradicador y el paciente pregunta qué gana con completarlo, porque los síntomas ya han cedido con el inhibidor de la bomba de protones. Señale qué efecto tiene la erradicación sobre la recurrencia de la úlcera según lo expuesto en clase.",
+    "options": [
+      {
+        "id": "A",
+        "text": "La reduce al veinte por ciento, cifra propia de la gastrectomía subtotal"
+      },
+      {
+        "id": "B",
+        "text": "La reduce al diez o quince por ciento, como la vagotomía supraselectiva"
+      },
+      {
+        "id": "C",
+        "text": "La reduce por debajo del dos por ciento, prácticamente la elimina"
+      },
+      {
+        "id": "D",
+        "text": "No la modifica; su beneficio es poder retirar antes el inhibidor de la bomba"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase señala que Helicobacter pylori está presente en el ochenta a noventa y cinco por ciento de las úlceras duodenales y en el setenta y cinco por ciento de las gástricas, y que su erradicación reduce la recurrencia de la úlcera por debajo del dos por ciento. Ese dato es el que desplazó la enfermedad ulcerosa del quirófano a la consulta: ninguna operación antipéptica ofrece un resultado mejor con menos riesgo. Opción C: correcta. Opción B: el diez a quince por ciento es la recurrencia que la clase atribuye a la vagotomía supraselectiva, superior a la de la vagotomía troncular y muy superior a la que deja la erradicación. Opción A: el veinte por ciento no es la recurrencia de la gastrectomía, que la clase sitúa entre el cero y el dos por ciento, sino la frecuencia del síndrome postgastrectomía; confundir recurrencia con morbilidad es el error que este distractor detecta. Opción D: los inhibidores de la bomba forman parte de la pauta erradicadora y alivian los síntomas, pero es la desaparición de la bacteria la que evita la recidiva. Punto de enseñanza: la úlcera no asociada a Helicobacter suele deberse a antiinflamatorios, y la que sí lo está deja de recidivar cuando la bacteria desaparece.",
+    "teaching_point": "Erradicar Helicobacter pylori reduce la recurrencia de la úlcera por debajo del dos por ciento, mejor que cualquier procedimiento antipéptico.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 26
+    },
+    "tags": [
+      "Helicobacter pylori",
+      "úlcera péptica",
+      "erradicación"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M010",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Mujer de 44 años con úlceras pépticas múltiples de difícil control pese a tratamiento correcto, diarrea crónica y Helicobacter pylori negativo. La endoscopia muestra hipertrofia de los pliegues del fundus y del cuerpo. La gastrinemia en ayunas es de 1.400 pg/ml. Señale la actuación que corresponde a continuación.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inhibidores de bomba y estudio de localización del tumor"
+      },
+      {
+        "id": "B",
+        "text": "Vagotomía troncular con antrectomía como primer paso"
+      },
+      {
+        "id": "C",
+        "text": "Repetir la gastrinemia y hacer un test de secretina antes de tratar"
+      },
+      {
+        "id": "D",
+        "text": "Gastrectomía total profiláctica por riesgo de degeneración"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El caso reúne el síndrome clínico típico del Zollinger-Ellison descrito en clase: enfermedad péptica de difícil control, hipersecreción ácida y tumor pancreático de islotes no beta productor de gastrina, con hipertrofia de pliegues en fundus y cuerpo en la endoscopia. Una gastrinemia superior a mil picogramos por mililitro es diagnóstica, y solo cuando hay dudas se recurre al test de secretina intravenosa. El tratamiento que la clase enumera es, en este orden, inhibidores de la bomba de protones y resección del tumor pancreático si no hay metástasis, lo que exige localizarlo. Opción B: la vagotomía con antrectomía no elimina el estímulo hormonal, que procede del tumor. Opción A: correcta. Opción C: el test de secretina se reserva para las gastrinemias dudosas; con mil cuatrocientos picogramos por mililitro, muy por encima del umbral de mil que la clase considera diagnóstico, repetir el estudio sólo retrasa el tratamiento. Opción D: la gastrectomía total profiláctica no figura en el esquema terapéutico. Punto de enseñanza: úlceras múltiples rebeldes con diarrea obligan a medir gastrina.",
+    "teaching_point": "Gastrinemia superior a 1.000 pg/ml es diagnóstica de Zollinger-Ellison; el tratamiento es IBP y resección tumoral si no hay metástasis.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 31
+    },
+    "tags": [
+      "Zollinger-Ellison",
+      "gastrinoma",
+      "hipergastrinemia"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M011",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "basica",
+    "stem": "Paciente de 66 años ingresado en cuidados intensivos por sepsis grave, ventilado y con inestabilidad hemodinámica. Al quinto día presenta hematemesis. La endoscopia describe erosiones superficiales múltiples repartidas por todo el estómago, sin úlcera profunda ni masa. Señale el diagnóstico que corresponde a esta descripción endoscópica.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ectasia vascular antral con vénulas dilatadas"
+      },
+      {
+        "id": "B",
+        "text": "Gastritis alcalina por reflujo biliar crónico"
+      },
+      {
+        "id": "C",
+        "text": "Linitis plástica con infiltración difusa de la pared"
+      },
+      {
+        "id": "D",
+        "text": "Gastritis de estrés por isquemia mucosa"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase describe la gastritis de estrés como erosiones superficiales múltiples repartidas por todo el estómago en un paciente crítico, con la isquemia mucosa como mecanismo, y le atribuye alrededor del diez por ciento de las hemorragias digestivas altas. Insiste además en la profilaxis con antiácidos, sucralfato o bloqueantes H2, precisamente en el enfermo crítico como el del caso. Opción A: la ectasia vascular antral son vénulas dilatadas localizadas en el antro, cursa con anemia crónica y no se presenta como erosiones difusas. Opción B: la gastritis alcalina exige cirugía gástrica previa y bilis en el muñón, antecedentes ausentes aquí. Opción D: correcta, gastritis de estrés por isquemia mucosa. Opción C: la linitis plástica es una infiltración tumoral difusa que rigidiza la pared y no se describe como erosiones superficiales. Punto de enseñanza: en el paciente crítico que sangra, el patrón endoscópico de erosiones difusas superficiales define la gastritis de estrés y obliga a revisar la profilaxis.",
+    "teaching_point": "Erosiones superficiales múltiples y difusas en un paciente crítico definen la gastritis de estrés, responsable de alrededor del 10 por ciento de las HDA.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 33
+    },
+    "tags": [
+      "gastritis de estrés",
+      "HDA",
+      "paciente crítico"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-M012",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 57 años con cirrosis hepática ingresa por hematemesis abundante. La endoscopia realizada en las primeras horas identifica varices esofagogástricas como origen del sangrado. El adjunto pregunta con qué sistema debe estimarse el pronóstico de este paciente. Señale la clasificación que corresponde.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clasificación de Child en grados A, B y C"
+      },
+      {
+        "id": "B",
+        "text": "Clasificación endoscópica de Forrest de la lesión"
+      },
+      {
+        "id": "C",
+        "text": "Clasificación de Sarin del origen de las varices"
+      },
+      {
+        "id": "D",
+        "text": "Escala de Glasgow-Blatchford de riesgo hemorrágico"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La clase, al tratar la hemorragia digestiva alta por hipertensión portal, indica que el pronóstico de estos pacientes se establece con la clasificación de Child y sitúa la mortalidad del episodio en torno al veinte por ciento. La lógica es que en la hemorragia por varices lo que marca el desenlace no es tanto la lesión sangrante como la reserva funcional hepática. Opción D: la escala de Glasgow-Blatchford estratifica el riesgo de la hemorragia digestiva alta en general, pero no es la referencia que da la clase para el paciente cirrótico. Opción B: la clasificación de Forrest describe los estigmas endoscópicos de la úlcera péptica, no de las varices. Opción C: la clasificación de Sarin ordena las varices según su localización y su relación con el cardias, es decir, describe la lesión, pero no estima el pronóstico del enfermo. Opción A: correcta. Punto de enseñanza: en el cirrótico que sangra, el pronóstico lo escribe el hígado.",
+    "teaching_point": "En la hemorragia por varices esofagogástricas el pronóstico se establece con la clasificación de Child, no con la apariencia endoscópica.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de hipertensión portal",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 35
+    },
+    "tags": [
+      "hipertensión portal",
+      "varices",
+      "clasificación de Child"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T03-C001",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "El objetivo de la cirugía antipéptica clásica es reducir la secreción ácida, y cada procedimiento lo consigue en distinta medida según actúe sobre la vía vagal, sobre la vía gastrínica o sobre ambas. Indique qué porcentaje del pico de secreción ácida reduce la vagotomía troncular asociada a antrectomía.",
+    "respuesta_canonica": "Un 85 por ciento del pico de secreción ácida",
+    "aceptadas": [
+      "85%",
+      "reduce el pico de secreción ácida en un 85 por ciento",
+      "aproximadamente el 85 por ciento (ochenta y cinco)"
+    ],
+    "conceptos_clave": [
+      "85"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase cuantifica el efecto de cada procedimiento sobre el pico de secreción ácida. Los que actúan sobre la vía vagal, es decir, la vagotomía troncular, la selectiva y la supraselectiva, reducen esa secreción alrededor del cincuenta por ciento, cifra coherente con el hecho de que el vago es responsable de aproximadamente la mitad de la secreción ácida. La antrectomía, que suprime la fuente de gastrina al eliminar las células G del antro, la reduce alrededor del treinta y cinco por ciento. La combinación de vagotomía troncular y antrectomía suma ambos mecanismos y alcanza el ochenta y cinco por ciento, que es la reducción máxima del arsenal clásico y también la que más síndromes postgastrectomía produce. Punto de enseñanza: cada punto porcentual de reducción ácida se paga con secuelas funcionales, y por eso la erradicación de Helicobacter desplazó a la cirugía.",
+    "teaching_point": "Vagotomía sola reduce el pico ácido un 50 por ciento, antrectomía un 35 por ciento, y ambas combinadas un 85 por ciento.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 16
+    },
+    "tags": [
+      "secreción ácida",
+      "vagotomía",
+      "antrectomía"
+    ]
+  },
+  {
+    "id": "T03-C002",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "corta",
+    "categoria": "indicacion",
+    "difficulty": "basica",
+    "stem": "En la úlcera duodenal perforada, con dolor epigástrico brusco, abdomen en tabla y neumoperitoneo en la radiografía de tórax en bipedestación, la clase describe un procedimiento quirúrgico concreto que puede realizarse por vía abierta o laparoscópica. Nombre ese procedimiento y el gesto complementario que debe acompañarlo.",
+    "respuesta_canonica": "Cierre primario de Roscoe-Graham, con investigación y tratamiento de Helicobacter pylori",
+    "aceptadas": [
+      "cierre primario de la perforación (Graham) y estudio de H. pylori",
+      "parche de Graham más erradicación de Helicobacter pylori si procede",
+      "sutura primaria tipo Roscoe-Graham e investigación de H. pylori"
+    ],
+    "conceptos_clave": [
+      "Graham",
+      "pylori"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase indica para la úlcera duodenal perforada el cierre primario de la perforación de Roscoe-Graham, realizable por vía abierta o laparoscópica, acompañado siempre de la investigación de Helicobacter pylori y del tratamiento erradicador si procede. El razonamiento es doble: el gesto quirúrgico resuelve la urgencia, la peritonitis por perforación libre, cuya mortalidad la clase cifra en el quince por ciento; y el tratamiento médico posterior actúa sobre la causa, evitando la recidiva, ya que la erradicación reduce la recurrencia de la úlcera por debajo del dos por ciento. Añadir de entrada un procedimiento antipéptico como la vagotomía con antrectomía supone someter a un paciente con peritonitis a una cirugía mayor cuyo beneficio hoy cubre el tratamiento médico. Punto de enseñanza: en la urgencia se cierra el defecto; la enfermedad ulcerosa se trata después con fármacos.",
+    "teaching_point": "Úlcera duodenal perforada: cierre primario de Roscoe-Graham más investigación y erradicación de Helicobacter pylori.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 27
+    },
+    "tags": [
+      "úlcera perforada",
+      "Roscoe-Graham",
+      "Helicobacter pylori"
+    ]
+  },
+  {
+    "id": "T03-C003",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "El diagnóstico de la infección por Helicobacter pylori puede hacerse por biopsia con tinción, serología, test del aliento o antígeno en heces, pero la clase reduce a dos las pruebas válidas para comprobar que la erradicación se ha conseguido. Indique cuáles son esas dos pruebas de confirmación de la erradicación.",
+    "respuesta_canonica": "Test del aliento con urea-C13 y antígeno monoclonal en heces",
+    "aceptadas": [
+      "test del aliento y antígeno en heces",
+      "prueba del aliento con urea marcada y antígeno monoclonal en heces",
+      "urea-C13 en aliento y test monoclonal de antígeno en heces"
+    ],
+    "conceptos_clave": [
+      "aliento",
+      "heces"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase distingue entre las pruebas que sirven para diagnosticar la infección por Helicobacter pylori, que incluyen la biopsia con tinción de hematoxilina-eosina, el test del aliento con urea marcada con carbono trece, la serología y el antígeno monoclonal en heces, y las que sirven para comprobar la erradicación, que se reducen a dos: el test del aliento y el antígeno monoclonal en heces. La serología queda excluida del control porque los anticuerpos persisten después de eliminar la bacteria y darían un falso positivo. La comprobación importa porque la erradicación reduce la recurrencia de la úlcera por debajo del dos por ciento, y una úlcera que persiste con erradicación confirmada obliga a plantear otras causas, entre ellas los antiinflamatorios o un gastrinoma. Punto de enseñanza: la serología diagnostica pero no confirma la curación.",
+    "teaching_point": "La erradicación de Helicobacter pylori se confirma con test del aliento con urea-C13 o antígeno monoclonal en heces, nunca con serología.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 26
+    },
+    "tags": [
+      "Helicobacter pylori",
+      "test del aliento",
+      "erradicación"
+    ]
+  },
+  {
+    "id": "T03-C004",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "La vagotomía supraselectiva o de células parietales divide las ramas del vago destinadas al cuerpo gástrico y respeta la inervación del antro y del píloro, motivo por el cual no precisa procedimiento de drenaje. Indique el nombre del nervio que se preserva en esta técnica y el del ramo que debe buscarse para evitar recidivas.",
+    "respuesta_canonica": "Se preserva el nervio de Latarjet; debe seccionarse el nervio criminal de Grassi",
+    "aceptadas": [
+      "nervio de Latarjet, pata de ganso; y el nervio criminal de Grassi",
+      "Latarjet preservado, Grassi buscado y seccionado",
+      "se conserva el de Latarjet y se busca el criminal de Grassi"
+    ],
+    "conceptos_clave": [
+      "Latarjet",
+      "Grassi"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase describe la vagotomía supraselectiva como la división de las ramas del vago que van al cuerpo gástrico preservando el nervio de Latarjet, la llamada pata de ganso, que inerva antro y píloro. Al conservar el vaciamiento no hace falta piloroplastia ni gastroyeyunostomía. La técnica exige liberar los cinco centímetros proximales desde la unión esofagogástrica para localizar y seccionar el nervio criminal de Grassi, un ramo alto cuya persistencia mantiene secreción ácida y explica parte de las recidivas. La recurrencia global de la técnica se sitúa entre el diez y el quince por ciento, superior a la de la vagotomía troncular, pero a cambio produce menos diarrea y menos dumping. Punto de enseñanza: la vagotomía supraselectiva cambia recurrencia por calidad de vida, y su punto crítico técnico está en el esófago distal.",
+    "teaching_point": "La vagotomía supraselectiva preserva el nervio de Latarjet y exige seccionar el nervio criminal de Grassi en los 5 cm proximales.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 12
+    },
+    "tags": [
+      "vagotomía supraselectiva",
+      "Latarjet",
+      "Grassi"
+    ]
+  },
+  {
+    "id": "T03-L001",
+    "tema": 3,
+    "bloque": "estomago",
+    "formato": "larga",
+    "categoria": "complicacion",
+    "difficulty": "intermedia",
+    "stem": "Una paciente intervenida de gastrectomía parcial con reconstrucción Billroth II acude a consulta un año después con molestias digestivas mal definidas. Exponga los principales síndromes postgastrectomía que deben considerarse en el diagnóstico diferencial, explicando para cada uno su fisiopatología, los datos clínicos que lo identifican, cómo se confirma y cuál es su tratamiento. Máximo 350 palabras.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Describe el dumping precoz: momento de aparición, predominio digestivo y mecanismo osmótico",
+        "puntos": 0.38,
+        "claves": [
+          "dumping precoz",
+          "minutos",
+          "osmolaridad"
+        ]
+      },
+      {
+        "elemento": "Describe el dumping tardío: aparición a las dos o tres horas, hiperglucemia con hipoglucemia de rebote y síntomas cardiovasculares",
+        "puntos": 0.38,
+        "claves": [
+          "dumping tardío",
+          "horas",
+          "hipoglucemia"
+        ]
+      },
+      {
+        "elemento": "Indica el tratamiento del dumping: dieta, octeótrido si no responde y cirugía en menos del dos por ciento",
+        "puntos": 0.38,
+        "claves": [
+          "dieta",
+          "octeótrido",
+          "yeyuno invertido"
+        ]
+      },
+      {
+        "elemento": "Describe la gastritis alcalina: dolor epigástrico, vómitos biliares, pérdida de peso, diagnóstico con HIDA y endoscopia",
+        "puntos": 0.38,
+        "claves": [
+          "vómitos biliares",
+          "HIDA",
+          "endoscopia"
+        ]
+      },
+      {
+        "elemento": "Indica la conversión a Y de Roux con asa mayor de cuarenta centímetros como tratamiento de la gastritis alcalina",
+        "puntos": 0.38,
+        "claves": [
+          "Y de Roux",
+          "40 cm"
+        ]
+      },
+      {
+        "elemento": "Describe el síndrome de asa aferente: obstrucción del asa, dolor cólico que cede con vómito bilioso, sobrecrecimiento y déficit de vitamina B12",
+        "puntos": 0.38,
+        "claves": [
+          "asa aferente",
+          "vómito bilioso",
+          "B12"
+        ]
+      },
+      {
+        "elemento": "Describe la diarrea postvagotomía y el vaciamiento gástrico lento con sus tratamientos",
+        "puntos": 0.38,
+        "claves": [
+          "colestiramina",
+          "procinéticos",
+          "metoclopramida"
+        ]
+      },
+      {
+        "elemento": "Menciona las alteraciones metabólicas: anemia ferropénica, anemia megaloblástica por déficit de B12 y osteoporosis por déficit de calcio",
+        "puntos": 0.34,
+        "claves": [
+          "ferropénica",
+          "B12",
+          "osteoporosis"
+        ]
+      }
+    ],
+    "respuesta_modelo": "Los síndromes postgastrectomía afectan a alrededor del veinte por ciento de los operados. El dumping aparece en torno al veinticinco por ciento de los pacientes sometidos a resección, derivación o vagotomía troncular con piloroplastia, aunque solo el uno por ciento queda incapacitado. El dumping precoz se manifiesta a los veinte o treinta minutos de la ingesta: la comida de alta osmolaridad pasa con rapidez al intestino delgado, arrastra líquido extracelular a la luz para igualar la osmolaridad, distiende el intestino y libera serotonina, bradiquinina y enteroglucagón, con plenitud, náuseas, vómitos, dolor cólico y diarrea. El dumping tardío aparece a las dos o tres horas: la carga de hidratos produce hiperglucemia, liberación excesiva de insulina e hipoglucemia de rebote, con descarga de catecolaminas: mareo, taquicardia, sudoración, temblor y confusión. El tratamiento es la dieta: comidas pequeñas y frecuentes, ricas en proteínas y grasas, pobres en hidratos y sin líquidos; si no hay respuesta se emplea octeótrido de larga duración, y menos del dos por ciento precisa cirugía, habitualmente la interposición de un segmento de yeyuno invertido de 10 cm. La gastritis alcalina, más frecuente tras Billroth II, cursa con dolor epigástrico continuo, vómitos biliares y pérdida de peso; se diagnostica por la clínica, el HIDA y la endoscopia, y su tratamiento definitivo es la conversión a Y de Roux con asa superior a 40 cm. El síndrome de asa aferente, propio del Billroth II, consiste en la obstrucción parcial o total del asa que conduce el contenido pancreatobiliar: produce distensión y dolor cólico que cede bruscamente con un vómito bilioso sin alimentos, y en su forma crónica genera sobrecrecimiento bacteriano con desconjugación de sales biliares y déficit de vitamina B12; se confirma con endoscopia y HIDA y se corrige quirúrgicamente. La diarrea postvagotomía afecta hasta al veinticinco por ciento de los operados con vagotomía troncular y responde a colestiramina y difenoxilato con atropina. El vaciamiento gástrico lento responde a procinéticos como la metoclopramida, tras descartar causa mecánica. Deben vigilarse además la anemia ferropénica, la anemia megaloblástica por déficit de B12 y la osteoporosis por déficit de calcio.",
+    "explanation": "La pregunta obliga a ordenar por mecanismos un grupo de cuadros que el alumno suele memorizar como lista inconexa. Los errores más frecuentes son tres. El primero, confundir dumping precoz y tardío: se separan por el momento de aparición y por el predominio de síntomas digestivos frente a cardiovasculares, y su fisiopatología es distinta, osmótica en el precoz e insulínica en el tardío. El segundo, mezclar gastritis alcalina y síndrome de asa aferente, que comparten el vómito bilioso pero se distinguen porque en el asa aferente el dolor cede tras el vómito y este no contiene alimentos, mientras que en la gastritis alcalina el dolor es continuo. El tercero, olvidar las alteraciones metabólicas a largo plazo, que son las que condicionan el seguimiento del paciente durante años. Conviene señalar además que la Y de Roux es la solución quirúrgica común a la gastritis alcalina y al asa aferente.",
+    "teaching_point": "Los síndromes postgastrectomía se ordenan por mecanismo: osmótico, insulínico, biliar, obstructivo, motor y carencial.",
+    "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de estómago y duodeno",
+    "fuente_clase": {
+      "archivo": "03. Pat Gástrica B.pdf",
+      "pagina": 19
+    },
+    "tags": [
+      "síndromes postgastrectomía",
+      "dumping",
+      "asa aferente"
+    ]
+  }
+]

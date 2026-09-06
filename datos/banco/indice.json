@@ -1,0 +1,304 @@
+{
+ "temas": [
+  {
+   "n": 1,
+   "titulo": "Esófago: enfermedades funcionales",
+   "bloque": "esofago",
+   "bloque_nombre": "Esófago",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 2,
+   "titulo": "Esófago: tumores",
+   "bloque": "esofago",
+   "bloque_nombre": "Esófago",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 3,
+   "titulo": "Estómago: patología benigna",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 4,
+   "titulo": "Estómago: cáncer gástrico y de cardias",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 5,
+   "titulo": "Cirugía bariátrica",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 6,
+   "titulo": "Diafragma y bazo",
+   "bloque": "pared_diafragma",
+   "bloque_nombre": "Pared abdominal, diafragma y bazo",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 7,
+   "titulo": "Peritoneo, epiplón y mesenterio",
+   "bloque": "peritoneo",
+   "bloque_nombre": "Peritoneo y peritonitis",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 8,
+   "titulo": "Apendicitis aguda y abdomen agudo",
+   "bloque": "abdomen_agudo",
+   "bloque_nombre": "Abdomen agudo",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 9,
+   "titulo": "Abdomen agudo: obstrucción y trauma",
+   "bloque": "abdomen_agudo",
+   "bloque_nombre": "Abdomen agudo",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 10,
+   "titulo": "Peritonitis y abscesos intraabdominales",
+   "bloque": "peritoneo",
+   "bloque_nombre": "Peritoneo y peritonitis",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 11,
+   "titulo": "Retroperitoneo",
+   "bloque": "retroperitoneo",
+   "bloque_nombre": "Retroperitoneo",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 12,
+   "titulo": "Pared abdominal: hernias y eventraciones",
+   "bloque": "pared_diafragma",
+   "bloque_nombre": "Pared abdominal, diafragma y bazo",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 13,
+   "titulo": "Hígado: anatomía, embriología, fisiología y volumetría",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "test": 11,
+   "corta": 4,
+   "larga": 1,
+   "total": 16
+  },
+  {
+   "n": 14,
+   "titulo": "Hígado: hepatitis, cirrosis, hipertensión portal, abscesos y quiste hidatídico",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 15,
+   "titulo": "Hígado: tumores benignos",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 16,
+   "titulo": "Hígado: tumores malignos",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 17,
+   "titulo": "Trasplante hepático, pancreático e intestinal",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 18,
+   "titulo": "Vías biliares: anatomía, litiasis y tumores benignos",
+   "bloque": "biliar",
+   "bloque_nombre": "Vías biliares",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 19,
+   "titulo": "Vías biliares: tumores malignos",
+   "bloque": "biliar",
+   "bloque_nombre": "Vías biliares",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 20,
+   "titulo": "Páncreas: anatomía y pancreatitis",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 21,
+   "titulo": "Páncreas: cáncer de páncreas y periampular",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 22,
+   "titulo": "Páncreas endocrino y tumores neuroendocrinos",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 23,
+   "titulo": "Síndromes vasculares del aparato digestivo",
+   "bloque": "vascular_digestivo",
+   "bloque_nombre": "Síndromes vasculares digestivos",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 24,
+   "titulo": "Intestino delgado: enfermedad inflamatoria intestinal",
+   "bloque": "intestino_delgado",
+   "bloque_nombre": "Intestino delgado",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 25,
+   "titulo": "Intestino delgado: tumores y poliposis",
+   "bloque": "intestino_delgado",
+   "bloque_nombre": "Intestino delgado",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 26,
+   "titulo": "Colorrectal: anatomía, diverticulosis y vólvulo",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 27,
+   "titulo": "Colorrectal: suelo pélvico y patología anal benigna",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 28,
+   "titulo": "Colorrectal: carcinogénesis y cáncer de colon",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 29,
+   "titulo": "Colorrectal: cáncer de recto y ano",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "test": 12,
+   "corta": 4,
+   "larga": 1,
+   "total": 17
+  },
+  {
+   "n": 30,
+   "titulo": "Pelvis: exenteraciones, sacrectomías y pelvectomías",
+   "bloque": "pelvis",
+   "bloque_nombre": "Pelvis",
+   "test": 7,
+   "corta": 3,
+   "larga": 1,
+   "total": 11
+  }
+ ]
+}

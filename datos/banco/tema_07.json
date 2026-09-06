@@ -1,0 +1,722 @@
+[
+ {
+  "id": "T07-M001",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante una sesión sobre diálisis peritoneal se recuerda que el peritoneo se comporta como una membrana semipermeable bidireccional. Un compañero pregunta cómo se mantiene constante el volumen del líquido que la serosa produce de forma continua a lo largo del día. Señale la afirmación que describe correctamente la fisiología del peritoneo normal según lo explicado en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El líquido peritoneal normal supera los 500 cc y es rico en fibrina y hematíes."
+   },
+   {
+    "id": "B",
+    "text": "La circulación del líquido peritoneal sigue un sentido antihorario impulsada solo por la gravedad."
+   },
+   {
+    "id": "C",
+    "text": "La reabsorción se produce por los estomas diafragmáticos, poros que comunican con lagunas linfáticas."
+   },
+   {
+    "id": "D",
+    "text": "El peritoneo parietal supone el 70 % de la superficie total y el visceral el 30 %."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El peritoneo produce menos de 100 cc de líquido seroso rico en fosfatidilcolina, que circula en el sentido de las agujas del reloj y se reabsorbe por dos vías: los estomas diafragmáticos y el epiplón mayor. Opción A: falsa; el volumen normal es inferior a 100 cc y su composición es rica en fosfatidilcolina, como el surfactante pulmonar, no en fibrina. Opción B: falsa por partida doble: la circulación es horaria y depende del movimiento diafragmático y del intestino, además de la gravedad. Opción C: es correcta: los estomas diafragmáticos son poros intercelulares del mesotelio diafragmático que comunican con lagunas linfáticas y drenan a los linfáticos diafragmáticos. Opción D: invierte los porcentajes de la clase: el peritoneo parietal representa el 30 % y el visceral el 70 % de una superficie de 1-1,8 metros cuadrados. Punto de enseñanza: El peritoneo es una membrana bidireccional de 1-1,8 m², visceral en un 70 %, que reabsorbe por estomas diafragmáticos y epiplón mayor.",
+  "teaching_point": "El peritoneo es una membrana bidireccional de 1-1,8 m², visceral en un 70 %, que reabsorbe por estomas diafragmáticos y epiplón mayor.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "peritoneo",
+   "fisiología",
+   "estomas diafragmáticos"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M002",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 68 años con carcinomatosis peritoneal de origen ovárico que consulta por aumento progresivo del perímetro abdominal en las últimas semanas. No tiene hepatopatía conocida ni datos clínicos de insuficiencia cardiaca, y la ecografía confirma ascitis abundante. Según los mecanismos de ascitis explicados en clase, ¿qué explica mejor el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reacción inflamatoria a los implantes tumorales, que liberan fluido rico en proteínas."
+   },
+   {
+    "id": "B",
+    "text": "Hipertensión portal con extravasación plasmática que supera el drenaje linfático."
+   },
+   {
+    "id": "C",
+    "text": "Activación del eje renina-angiotensina-aldosterona con retención de sodio y agua."
+   },
+   {
+    "id": "D",
+    "text": "Bloqueo por fibrina de los estomas diafragmáticos, con fallo de la reabsorción del líquido."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase distingue tres mecanismos de ascitis: hipertensión portal en la cirrosis, retención hidrosalina en el fallo cardiaco y reacción inflamatoria a los implantes en la carcinomatosis. Opción A: es correcta: en la carcinomatosis las células tumorales implantadas en el peritoneo provocan una reacción inflamatoria que libera fluido rico en proteínas. Opción B: describe el mecanismo de la cirrosis hepática, causa del 85 % de las ascitis, pero la paciente no tiene hepatopatía conocida. Opción C: corresponde al fallo cardiaco, con congestión retrógrada y aumento de la presión hidrostática; aquí no hay datos de insuficiencia cardiaca. Opción D: no corresponde al mecanismo que la clase atribuye a la ascitis neoplásica, que es la reacción inflamatoria a los implantes; además la reabsorción dispone de una segunda vía, el epiplón mayor, que este supuesto bloqueo no explicaría. Punto de enseñanza: La ascitis de la carcinomatosis es inflamatoria y rica en proteínas, no un trasudado por hipertensión portal.",
+  "teaching_point": "La ascitis de la carcinomatosis es inflamatoria y rica en proteínas, no un trasudado por hipertensión portal.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "ascitis",
+   "carcinomatosis",
+   "fisiopatología"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M003",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 61 años intervenido hace ocho meses de un adenocarcinoma de colon derecho. En el TAC de control se describen implantes peritoneales sin enfermedad a distancia. Recordando la circulación del líquido peritoneal y el papel de las moléculas de adherencia, ¿en qué localizaciones espera encontrar los depósitos más previsibles de la siembra?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Espacio preperitoneal y trayecto del uraco, siguiendo los ligamentos umbilicales mediales."
+   },
+   {
+    "id": "B",
+    "text": "Transcavidad de los epiplones y pars densa del epiplón menor de forma preferente."
+   },
+   {
+    "id": "C",
+    "text": "Mesocolon transverso y adherencias congénitas de Told, por fusión con la pared posterior."
+   },
+   {
+    "id": "D",
+    "text": "Espacio subfrénico derecho, epiplón mayor (omental cake) y pelvis: Douglas, sigma y anejos."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La siembra peritoneal no es aleatoria: sigue la circulación horaria del líquido peritoneal y las moléculas de adherencia, lo que hace previsibles determinados depósitos. Opción A: sitúa la enfermedad fuera de la cavidad peritoneal: el espacio preperitoneal queda entre la fascia transversalis y el peritoneo, no baña el líquido peritoneal. Opción B: cita espacios peritoneales reales, pero no son los depósitos previsibles descritos; la transcavidad es un compartimento relativamente aislado del flujo. Opción C: confunde estructuras de fijación y fusión mesentérica con las zonas de estancamiento del líquido peritoneal donde asienta la siembra. Opción D: es correcta: son los tres depósitos previsibles que recoge la clase para la siembra peritoneal desde un tumor primario. Punto de enseñanza: Subfrénico derecho, omental cake y pelvis son las tres estaciones previsibles de la carcinomatosis.",
+  "teaching_point": "Subfrénico derecho, omental cake y pelvis son las tres estaciones previsibles de la carcinomatosis.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "carcinomatosis",
+   "omental cake",
+   "siembra peritoneal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M004",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 55 años con dolor abdominal, pérdida de peso y aumento del perímetro abdominal de meses de evolución. El TAC muestra engrosamiento del mesenterio y de la pared intestinal, masas sólidas y ascitis, sin tumor primario identificable en el tubo digestivo tras endoscopia completa. ¿Qué actuación procede para establecer el diagnóstico?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Paracentesis diagnóstica y citología del líquido, suficiente para tipificar el tumor."
+   },
+   {
+    "id": "B",
+    "text": "Laparoscopia diagnóstica con toma de biopsias peritoneales para tipificar la lesión."
+   },
+   {
+    "id": "C",
+    "text": "TAC de control en tres meses, dado el carácter inespecífico de los hallazgos."
+   },
+   {
+    "id": "D",
+    "text": "Biopsia percutánea del epiplón guiada por ecografía, evitando la anestesia general."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El cuadro clínico y los hallazgos del TAC descritos corresponden a la presentación típica del mesotelioma peritoneal, tumor primario poco frecuente que la clase diagnostica de forma específica. Opción A: resulta insuficiente: la citología del líquido ascítico no permite establecer el subtipo histológico epitelial, sarcomatoide o mixto del que depende el tratamiento. Opción B: es correcta: la clase establece la laparoscopia con biopsia como método diagnóstico del mesotelioma peritoneal, y añade la ventaja de valorar en el mismo acto la extensión de la enfermedad en la cavidad. Opción C: demora el diagnóstico de una enfermedad potencialmente tratable con intención curativa; los hallazgos descritos obligan a obtener tejido. Opción D: es una alternativa razonable en otros contextos, pero la clase indica laparoscopia y biopsia, que aporta además la evaluación de la extensión peritoneal. Punto de enseñanza: Ante sospecha de mesotelioma peritoneal el diagnóstico se establece por laparoscopia con biopsia.",
+  "teaching_point": "Ante sospecha de mesotelioma peritoneal el diagnóstico se establece por laparoscopia con biopsia.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "mesotelioma",
+   "laparoscopia",
+   "diagnóstico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M005",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Se confirma un mesotelioma peritoneal en una paciente de 55 años. El informe anatomopatológico debe precisar el subtipo histológico, porque de él depende la indicación de citorreducción con quimioterapia intraperitoneal hipertérmica. Según la clasificación patológica revisada en clase, ¿qué subtipo es el que se trata con citorreducción e HIPEC?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El subtipo epitelial, de estirpe glandular en la revisión patológica."
+   },
+   {
+    "id": "B",
+    "text": "El subtipo sarcomatoide, por su mayor sensibilidad a la quimioterapia intraperitoneal."
+   },
+   {
+    "id": "C",
+    "text": "El subtipo mixto o bifásico, por combinar componente epitelial y sarcomatoide."
+   },
+   {
+    "id": "D",
+    "text": "El tumor desmoplásico de células redondas y pequeñas, variante del mesotelioma."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La revisión patológica del mesotelioma peritoneal distingue tres variantes: epitelial, sarcomatoide y mixta. La distinción no es académica, porque condiciona la indicación de tratamiento regional. Opción A: es correcta: la clase reserva el tratamiento con citorreducción e HIPEC para el mesotelioma peritoneal de estirpe epitelial. Opción B: invierte el criterio: la variante sarcomatoide es la de peor comportamiento biológico y no es la que la clase selecciona para este tratamiento. Opción C: la forma mixta comparte rasgos de las otras dos, pero la clase no la selecciona para el tratamiento regional; el subtipo señalado es el epitelial puro. Opción D: contiene un error de clasificación: ese tumor es una entidad peritoneal primaria independiente, no una variante histológica del mesotelioma. Punto de enseñanza: El mesotelioma peritoneal epitelial es el subtipo tratado con citorreducción e HIPEC.",
+  "teaching_point": "El mesotelioma peritoneal epitelial es el subtipo tratado con citorreducción e HIPEC.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "mesotelioma",
+   "histología",
+   "HIPEC"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M006",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "En la clase de enfermedad maligna peritoneal se distinguen los tumores peritoneales primarios de los secundarios, una distinción que condiciona el pronóstico y la estrategia terapéutica. Un estudiante confunde ambos grupos al preparar una sesión clínica. Señale la opción que clasifica correctamente las entidades según lo explicado en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El adenocarcinoma primario peritoneal se clasifica como tumor secundario de origen ovárico."
+   },
+   {
+    "id": "B",
+    "text": "Las sarcomatosis intra y retroperitoneales se consideran tumores peritoneales primarios."
+   },
+   {
+    "id": "C",
+    "text": "El mesotelioma peritoneal se clasifica como tumor secundario de origen pleural."
+   },
+   {
+    "id": "D",
+    "text": "El tumor desmoplásico de células redondas y pequeñas es un tumor peritoneal primario."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La enfermedad maligna peritoneal se define como crecimiento neoplásico maligno primario o secundario en la cavidad peritoneal, y la clase enumera con precisión qué entidades pertenecen a cada grupo. Opción A: es falsa: se trata de un tumor peritoneal primario, distinto de la siembra secundaria de un carcinoma ovárico. Opción B: las clasifica mal: las sarcomatosis figuran entre los tumores secundarios, junto a los digestivos y los ginecológicos. Opción C: es incorrecta: el mesotelioma peritoneal es un tumor primario de la serosa peritoneal, no una metástasis de un mesotelioma pleural. Opción D: es correcta: junto al mesotelioma y al adenocarcinoma primario peritoneal, integra el grupo de los tumores peritoneales primarios. Punto de enseñanza: Primarios: mesotelioma, adenocarcinoma primario peritoneal y tumor desmoplásico de células redondas y pequeñas.",
+  "teaching_point": "Primarios: mesotelioma, adenocarcinoma primario peritoneal y tumor desmoplásico de células redondas y pequeñas.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "enfermedad maligna peritoneal",
+   "clasificación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M007",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "La enfermedad maligna peritoneal se ha reconceptualizado como una enfermedad regional confinada al abdomen y, por tanto, susceptible de tratamiento con intención curativa. Sobre la estrategia de intensificación terapéutica regional expuesta en clase, ¿qué afirmación describe correctamente el objetivo de cada uno de sus dos componentes?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La citorreducción se limita a las peritonectomías de cuadrante, sin resecciones viscerales."
+   },
+   {
+    "id": "B",
+    "text": "La citorreducción elimina el tumor macroscópico y la HIPEC el residuo microscópico."
+   },
+   {
+    "id": "C",
+    "text": "La electroevaporación tumoral sustituye a la HIPEC en el control del residuo microscópico."
+   },
+   {
+    "id": "D",
+    "text": "La HIPEC se administra antes de la citorreducción para reducir el volumen tumoral."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La estrategia de intensificación regional combina dos gestos con objetivos distintos y complementarios que se realizan en el mismo acto quirúrgico. Opción A: reduce indebidamente el alcance de la cirugía: incluye peritonectomías, electroevaporación tumoral y resecciones viscerales de estómago, intestino delgado o colon. Opción B: es correcta: la cirugía de citorreducción persigue eliminar el tumor macroscópico y la quimioterapia intraperitoneal hipertérmica, el residuo microscópico. Opción C: confunde los planos: la electroevaporación es una herramienta de la citorreducción macroscópica, no un sustituto de la quimioterapia intraperitoneal. Opción D: invierte la secuencia: la quimioterapia intraperitoneal hipertérmica es intraoperatoria y se aplica una vez completada la citorreducción. Punto de enseñanza: Citorreducción para el tumor macroscópico, HIPEC para el residuo microscópico: dos objetivos, un mismo acto quirúrgico.",
+  "teaching_point": "Citorreducción para el tumor macroscópico, HIPEC para el residuo microscópico: dos objetivos, un mismo acto quirúrgico.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "citorreducción",
+   "HIPEC",
+   "estrategia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M008",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Niño de 9 años con fiebre de 39 °C y dolor en fosa iliaca derecha de 24 horas, precedido de un cuadro catarral. La exploración muestra dolor a la palpación sin defensa clara y la ecografía describe adenopatías mesentéricas aumentadas de tamaño con apéndice de calibre normal. ¿Qué causa explica mejor el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Apendicitis aguda retrocecal, en la que el apéndice puede no visualizarse bien."
+   },
+   {
+    "id": "B",
+    "text": "Paniculitis mesentérica, con engrosamiento nodular de la raíz del mesenterio."
+   },
+   {
+    "id": "C",
+    "text": "Linfadenitis mesentérica, con hipertrofia ganglionar en el drenaje del íleon distal."
+   },
+   {
+    "id": "D",
+    "text": "Tumor desmoide mesentérico de crecimiento rápido en la raíz del mesenterio."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La combinación de fiebre alta, dolor en fosa iliaca derecha en un niño y ganglios mesentéricos aumentados con apéndice normal corresponde al cuadro clínico descrito en clase. Opción A: es el principal diagnóstico diferencial, pero la ecografía describe un apéndice de calibre normal y no hay defensa; además la fiebre alta no es lo habitual. Opción B: no encaja: afecta a adultos con edad media en torno a los 50 años, predomina en varones y suele ser un hallazgo asintomático. Opción C: es correcta: la clase la define por fiebre alta y dolor en fosa iliaca derecha en niños y jóvenes, con ganglios aumentados en la zona de mayor drenaje linfático. Opción D: es improbable en este contexto agudo y febril; el desmoide se manifiesta como masa de crecimiento progresivo, con frecuencia asociado a poliposis familiar. Punto de enseñanza: Fiebre alta más dolor en fosa iliaca derecha en un niño, con apéndice normal, sugiere linfadenitis mesentérica.",
+  "teaching_point": "Fiebre alta más dolor en fosa iliaca derecha en un niño, con apéndice normal, sugiere linfadenitis mesentérica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "linfadenitis mesentérica",
+   "fosa iliaca derecha"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M009",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 52 años con dolor abdominal recurrente en los últimos meses y dos episodios suboclusivos que cedieron con tratamiento conservador. El TAC describe una masa de bordes definidos en la raíz del mesenterio, que rodea los vasos mesentéricos superiores, sin signos invasivos ni adenopatías. No refiere antecedentes oncológicos ni cirugía abdominal previa. ¿Qué tratamiento procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Corticoides y antiinflamatorios, añadiendo inmunosupresores si no hay respuesta."
+   },
+   {
+    "id": "B",
+    "text": "Resección del segmento mesentérico afectado con anastomosis del intestino delgado."
+   },
+   {
+    "id": "C",
+    "text": "Sulindac, tamoxifeno o imatinib, como en la fibromatosis mesentérica no resecable."
+   },
+   {
+    "id": "D",
+    "text": "Vigilancia radiológica exclusiva, por tratarse de un proceso inflamatorio benigno."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El perfil descrito corresponde a una paniculitis mesentérica: inflamación inespecífica de causa desconocida, con predominio en varones y edad media en torno a los 50 años, que en el TAC se muestra como una masa de bordes definidos en la raíz del mesenterio, rodeando los vasos mesentéricos superiores y sin signos invasivos. La dificultad no está en el diagnóstico sino en la conducta, porque en la raíz del mesenterio asientan dos entidades con tratamientos opuestos, la paniculitis y el tumor desmoide. Opción A: es correcta: la clase indica corticoides, antiinflamatorios e inmunosupresores para la paniculitis mesentérica, y este paciente está sintomático. Opción B: propone una resección de riesgo elevado sobre una lesión que envuelve los vasos mesentéricos superiores, gesto que no corresponde a un proceso inflamatorio. Opción C: traslada a la paniculitis el tratamiento médico que la clase reserva al tumor desmoide mesentérico sintomático y no resecable. Opción D: sería la actitud razonable en la paniculitis descubierta de forma casual y asintomática, que es su forma habitual de presentación, pero aquí hay dolor recurrente y episodios suboclusivos que obligan a tratar. Punto de enseñanza: La paniculitis mesentérica sintomática se trata con corticoides; el sulindac, el tamoxifeno y el imatinib pertenecen al desmoide irresecable.",
+  "teaching_point": "La paniculitis mesentérica sintomática se trata con corticoides, antiinflamatorios e inmunosupresores; el sulindac y el tamoxifeno son del tumor desmoide.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "paniculitis mesentérica",
+   "TAC"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M010",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 44 años con dolor abdominal de 12 horas en hemiabdomen derecho y defensa localizada. No presenta fiebre alta ni leucocitosis marcada. El TAC describe una lesión grasa arremolinada en el epiplón mayor derecho, con apéndice y vesícula biliar de aspecto normal. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Antibioterapia y drenaje percutáneo, como en el absceso apendicular."
+   },
+   {
+    "id": "B",
+    "text": "Corticoides y antiinflamatorios, tratamiento de elección en esta entidad."
+   },
+   {
+    "id": "C",
+    "text": "Enucleación con destechamiento de la lesión, sin resecar el epiplón."
+   },
+   {
+    "id": "D",
+    "text": "Resección quirúrgica del segmento omental necrótico, por laparoscopia o laparotomía."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro corresponde a una torsión del epiplón, que produce isquemia y necrosis del segmento afectado, con dolor y defensa abdominal predominantemente en el lado derecho. Opción A: trata una colección que aquí no existe: el problema es un segmento omental isquémico y necrótico, no una cavidad drenable. Opción B: corresponde al tratamiento de la paniculitis mesentérica, no al de la torsión omental, que exige resecar el tejido necrótico. Opción C: es el gesto propio de los quistes mesentéricos; aplicado a un epiplón torsionado y necrótico dejaría tejido desvitalizado in situ. Opción D: es correcta: el tratamiento de la torsión del epiplón es la resección del segmento isquémico, abordable por laparoscopia o laparotomía. Punto de enseñanza: La torsión del epiplón predomina en el lado derecho y se trata resecando el segmento necrótico.",
+  "teaching_point": "La torsión del epiplón predomina en el lado derecho y se trata resecando el segmento necrótico.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 39
+  },
+  "tags": [
+   "torsión de epiplón",
+   "necrosis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M011",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 38 años con poliposis adenomatosa familiar y colectomía previa. Consulta por una masa abdominal de crecimiento rápido con dolor y episodios suboclusivos; el TAC muestra una lesión sólida en la raíz del mesenterio y la biopsia informa de fibromatosis. La lesión se considera irresecable. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vigilancia clínica y radiológica, sin tratamiento activo por el momento."
+   },
+   {
+    "id": "B",
+    "text": "Tratamiento médico con sulindac, tamoxifeno, imatinib o quimioterapia."
+   },
+   {
+    "id": "C",
+    "text": "Resección quirúrgica ampliada de la raíz del mesenterio con reconstrucción vascular."
+   },
+   {
+    "id": "D",
+    "text": "Corticoides e inmunosupresores, tratamiento habitual de la fibromatosis mesentérica."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Se trata de un tumor desmoide mesentérico, el tumor que la clase señala como el más frecuente entre los sólidos malignos del mesenterio, especialmente frecuente en la poliposis adenomatosa familiar y en el síndrome de Gardner. Opción A: es la actitud indicada cuando el desmoide es asintomático, condición que aquí no se cumple: el paciente tiene dolor y episodios suboclusivos. Opción B: es correcta: la clase reserva estas opciones para el desmoide sintomático que no es resecable, como ocurre en este paciente. Opción C: choca con el enunciado, que califica la lesión de irresecable; la cirugía se indica cuando hay síntomas y la lesión es técnicamente resecable. Opción D: traslada a la fibromatosis el tratamiento propio de la paniculitis mesentérica; no figura entre las opciones de la clase para el desmoide. Punto de enseñanza: Desmoide mesentérico: asintomático, vigilancia; sintomático y resecable, cirugía; irresecable, tratamiento médico.",
+  "teaching_point": "Desmoide mesentérico: asintomático, vigilancia; sintomático y resecable, cirugía; irresecable, tratamiento médico.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 36
+  },
+  "tags": [
+   "tumor desmoide",
+   "poliposis adenomatosa familiar"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-M012",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Durante una hemicolectomía derecha laparoscópica el cirujano moviliza el marco cólico y un alumno pregunta qué segmentos del tubo digestivo quedan fijos por detrás de la serosa y no pueden movilizarse sin abrir un plano de fusión. Señale la opción que enumera correctamente esas porciones según la clase de mesenterio y mesocolon.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Las cuatro porciones del duodeno, el páncreas en su totalidad y el ciego con el apéndice."
+   },
+   {
+    "id": "B",
+    "text": "El estómago, el colon transverso y los ángulos hepático y esplénico del colon."
+   },
+   {
+    "id": "C",
+    "text": "El duodeno de la segunda a la cuarta porción, el páncreas y la cara posterior de los colon ascendente y descendente."
+   },
+   {
+    "id": "D",
+    "text": "El yeyuno, el íleon y el colon sigmoide, por la brevedad de su raíz mesentérica."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase enumera con precisión qué tramos del tubo digestivo son retroperitoneales: el duodeno en sus porciones segunda, tercera y cuarta, el páncreas, la cara posterior del colon ascendente y la del descendente, y el recto, que es extraperitoneal. Esa lista es la que orienta la movilización quirúrgica. Opción A: incluye de más: la primera porción duodenal es intraperitoneal y el ciego con el apéndice también lo son, por lo que la enumeración es falsa aunque acierte con el páncreas. Opción B: enumera estructuras intraperitoneales; el estómago y el colon transverso cuelgan de sus mesos, y los ángulos cólicos están fijados por ligamentos, no situados tras el peritoneo. Opción C: es correcta: reproduce la enumeración de la clase, con el matiz de que en el colon ascendente y descendente solo es retroperitoneal la cara posterior. Opción D: sitúa mal el yeyuno-íleon y el sigma, que son intraperitoneales y disponen precisamente de un meso largo y móvil. Punto de enseñanza: Son retroperitoneales el duodeno de la 2.ª a la 4.ª porción, el páncreas y la cara posterior de los colon ascendente y descendente; el recto es extraperitoneal.",
+  "teaching_point": "Son retroperitoneales el duodeno de la 2.ª a la 4.ª porción, el páncreas y la cara posterior de los colon ascendente y descendente; el recto es extraperitoneal.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 30
+  },
+  "tags": [
+   "anatomía quirúrgica",
+   "retroperitoneo",
+   "Told"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T07-C001",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la clase de peritoneo se describe la circulación del líquido peritoneal y las vías por las que se reabsorbe, un concepto que explica después el patrón previsible de siembra de la carcinomatosis. Cite, en un máximo de veinte palabras, las dos estructuras responsables de la reabsorción del líquido peritoneal.",
+  "respuesta_canonica": "Los estomas diafragmáticos y el epiplón mayor",
+  "aceptadas": [
+   "estomas diafragmáticos y epiplón mayor",
+   "estomas diafragmáticos y omento mayor",
+   "stomata diafragmáticos y epiplón mayor",
+   "poros diafragmáticos y epiplón mayor",
+   "poros diafragmáticos y omento mayor",
+   "lagunas linfáticas diafragmáticas y epiplón mayor",
+   "los estomas del diafragma y el epiplón mayor",
+   "estomas del mesotelio diafragmático y epiplón mayor"
+  ],
+  "conceptos_clave": [
+   "estomas",
+   "diafragmáticos",
+   "epiplón mayor"
+  ],
+  "max_palabras": 20,
+  "explanation": "El peritoneo produce menos de 100 cc de líquido seroso rico en fosfatidilcolina, que circula en el sentido de las agujas del reloj impulsado por el movimiento de los diafragmas, el movimiento intestinal y la gravedad según la postura. Esa producción se equilibra con dos vías de reabsorción. La primera son los estomas diafragmáticos, poros intercelulares del mesotelio del diafragma que comunican directamente con lagunas linfáticas diafragmáticas y drenan a los linfáticos del diafragma. La segunda es el epiplón mayor, rico en vasos linfáticos y en milky spots densamente pobladas de macrófagos. Entender esta dinámica no es un detalle anatómico: explica por qué el peritoneo funciona como membrana semipermeable bidireccional en la diálisis peritoneal y por qué la siembra tumoral se deposita de forma previsible en el espacio subfrénico derecho, en el epiplón mayor y en la pelvis. Se considera acertada la respuesta que nombre ambas vías.",
+  "teaching_point": "El líquido peritoneal se reabsorbe por los estomas diafragmáticos y por el epiplón mayor.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "peritoneo",
+   "fisiología",
+   "reabsorción"
+  ]
+ },
+ {
+  "id": "T07-C002",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "La enfermedad maligna peritoneal se clasifica en tumores primarios y secundarios, y los primarios, aunque poco frecuentes, condicionan un manejo específico que conviene distinguir del de la carcinomatosis secundaria. Enumere, en un máximo de veinte palabras, los tres tumores peritoneales primarios recogidos en la clasificación expuesta en clase.",
+  "respuesta_canonica": "Mesotelioma, adenocarcinoma primario peritoneal y tumor desmoplásico de células redondas y pequeñas",
+  "aceptadas": [
+   "mesotelioma, adenocarcinoma primario peritoneal y TDCRP",
+   "mesotelioma peritoneal, adenocarcinoma primario peritoneal y tumor desmoplásico",
+   "mesotelioma, carcinoma primario peritoneal y tumor desmoplásico de células redondas y pequeñas",
+   "mesotelioma, adenocarcinoma peritoneal primario y tumor desmoplásico de células pequeñas y redondas",
+   "mesotelioma, adenocarcinoma primario del peritoneo y tumor desmoplásico de células redondas y pequeñas"
+  ],
+  "conceptos_clave": [
+   "mesotelioma",
+   "adenocarcinoma primario",
+   "desmoplásico"
+  ],
+  "max_palabras": 20,
+  "explanation": "La enfermedad maligna peritoneal se define como el crecimiento neoplásico maligno, primario o secundario, en la cavidad peritoneal. Los tumores peritoneales primarios son tres: el mesotelioma, el adenocarcinoma primario peritoneal y el tumor desmoplásico de células redondas y pequeñas. Frente a ellos, los secundarios agrupan la siembra de tumores digestivos (apéndice, colon y recto, intestino delgado y estómago), de tumores ginecológicos (ovario, trompa y útero) y las sarcomatosis intraperitoneales y retroperitoneales. La distinción importa porque la clase construye sobre ella el concepto de enfermedad regional confinada al abdomen y, por tanto, susceptible de tratamiento con intención curativa mediante citorreducción y quimioterapia intraperitoneal perioperatoria. Los errores más frecuentes consisten en clasificar el adenocarcinoma primario peritoneal como una siembra ovárica o en incluir las sarcomatosis entre los primarios. Se considera acertada la respuesta que nombre las tres entidades primarias.",
+  "teaching_point": "Los tumores peritoneales primarios son el mesotelioma, el adenocarcinoma primario peritoneal y el tumor desmoplásico de células redondas y pequeñas.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "enfermedad maligna peritoneal",
+   "clasificación"
+  ]
+ },
+ {
+  "id": "T07-C003",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "El tratamiento de la enfermedad maligna peritoneal se apoya en dos componentes complementarios que se realizan en el mismo acto quirúrgico y que persiguen objetivos distintos. Indique, en un máximo de veinte palabras, cuál es el objetivo específico de la quimioterapia intraperitoneal intraoperatoria hipertérmica dentro de esa estrategia de intensificación regional.",
+  "respuesta_canonica": "Eliminar el residuo tumoral microscópico que deja la citorreducción",
+  "aceptadas": [
+   "eliminar el residuo microscópico",
+   "eliminar el residuo tumoral microscópico",
+   "destruir el residuo microscópico tras la citorreducción",
+   "eliminar el tumor microscópico residual",
+   "eliminar la enfermedad microscópica residual",
+   "tratar la enfermedad residual microscópica",
+   "eliminar los restos tumorales microscópicos que deja la cirugía"
+  ],
+  "conceptos_clave": [
+   "residuo",
+   "microscópico"
+  ],
+  "max_palabras": 20,
+  "explanation": "La estrategia de tratamiento de la enfermedad maligna peritoneal combina dos gestos con objetivos claramente separados. La cirugía de citorreducción persigue eliminar el tumor macroscópico y para ello recurre a peritonectomías por cuadrantes, a la peritonectomía de la cápsula de Glisson, a la electroevaporación tumoral y a las resecciones viscerales que sean necesarias, incluidas las de estómago, intestino delgado y colon. La quimioterapia intraperitoneal intraoperatoria hipertérmica, o HIPEC, tiene un objetivo distinto y complementario: eliminar el residuo tumoral microscópico que la cirugía no puede ver ni resecar. Por eso se administra una vez completada la citorreducción y no antes. Este reparto de papeles es el que sostiene el concepto de enfermedad regional tratable con intención curativa. Se considera acertada la respuesta que identifique el residuo microscópico como diana de la HIPEC.",
+  "teaching_point": "La HIPEC no trata el tumor visible: su diana es el residuo microscópico que queda tras la citorreducción.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "HIPEC",
+   "citorreducción"
+  ]
+ },
+ {
+  "id": "T07-C004",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Una mujer de 45 años acude por dolor abdominal agudo en hemiabdomen derecho con defensa localizada, y en el quirófano se halla un segmento del epiplón mayor torsionado, isquémico y necrótico, con apéndice y vesícula normales. Indique, en un máximo de veinte palabras, el tratamiento que corresponde a esta entidad.",
+  "respuesta_canonica": "Resección del segmento de epiplón torsionado y necrótico",
+  "aceptadas": [
+   "resección del epiplón",
+   "resección del epiplón necrótico",
+   "resección del segmento omental necrótico",
+   "resección quirúrgica del epiplón afectado",
+   "resecar el segmento de epiplón necrosado",
+   "omentectomía parcial del segmento necrótico",
+   "omentectomía parcial",
+   "extirpación del epiplón necrótico"
+  ],
+  "conceptos_clave": [
+   "resección",
+   "epiplón"
+  ],
+  "max_palabras": 20,
+  "explanation": "La torsión del epiplón produce isquemia y necrosis de la porción afectada y se manifiesta como dolor y defensa abdominal, en torno al ochenta por ciento de los casos en el lado derecho, lo que explica que se confunda con una apendicitis o una colecistitis aguda. El diagnóstico se apoya en la ecografía y en el TAC, y con frecuencia se establece finalmente en la laparoscopia o en la laparotomía. El tratamiento es la resección del segmento omental afectado; ni la antibioterapia aislada ni el drenaje percutáneo resuelven un tejido ya desvitalizado, y los corticoides corresponden a otra entidad, la paniculitis mesentérica. Conviene no confundir esta situación con los quistes del epiplón, de origen linfático, que también se tratan mediante resección pero cursan de forma habitualmente asintomática. Se considera acertada la respuesta que indique resección.",
+  "teaching_point": "La torsión omental se trata resecando el segmento necrótico, no con antibióticos ni con corticoides.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del mesenterio y del epiplón",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 39
+  },
+  "tags": [
+   "torsión de epiplón",
+   "tratamiento"
+  ]
+ },
+ {
+  "id": "T07-L001",
+  "tema": 7,
+  "bloque": "peritoneo",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 62 años intervenida hace un año de un adenocarcinoma de colon derecho. En el TAC de control se objetivan implantes peritoneales en el espacio subfrénico derecho, engrosamiento en manto del epiplón mayor y nódulos en el fondo de saco de Douglas, sin enfermedad hepática ni pulmonar. Exponga, en un máximo de 350 palabras, el concepto actual de enfermedad maligna peritoneal, el patrón de siembra que explica estos hallazgos y la estrategia terapéutica de intensificación regional con sus dos componentes.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Define la enfermedad maligna peritoneal como crecimiento neoplásico primario o secundario en la cavidad peritoneal y sitúa el caso entre los secundarios de origen digestivo",
+    "puntos": 0.5,
+    "claves": [
+     "primario",
+     "secundario",
+     "cavidad peritoneal"
+    ]
+   },
+   {
+    "elemento": "Enumera los tres tumores peritoneales primarios y al menos dos grupos de secundarios",
+    "puntos": 0.5,
+    "claves": [
+     "mesotelioma",
+     "adenocarcinoma primario peritoneal",
+     "desmoplásico",
+     "ginecológicos"
+    ]
+   },
+   {
+    "elemento": "Explica el patrón de siembra por la circulación del líquido peritoneal y las moléculas de adherencia",
+    "puntos": 0.5,
+    "claves": [
+     "circulación",
+     "moléculas de adherencia",
+     "siembra"
+    ]
+   },
+   {
+    "elemento": "Identifica los depósitos previsibles: subfrénico derecho, epiplón mayor (omental cake) y pelvis",
+    "puntos": 0.5,
+    "claves": [
+     "subfrénico derecho",
+     "epiplón mayor",
+     "pelvis",
+     "Douglas"
+    ]
+   },
+   {
+    "elemento": "Expone el concepto de enfermedad regional confinada al abdomen susceptible de tratamiento curativo",
+    "puntos": 0.5,
+    "claves": [
+     "regional",
+     "confinada"
+    ]
+   },
+   {
+    "elemento": "Describe la citorreducción: peritonectomías, electroevaporación y resecciones viscerales, dirigida al tumor macroscópico",
+    "puntos": 0.25,
+    "claves": [
+     "peritonectomía",
+     "electroevaporación",
+     "macroscópico"
+    ]
+   },
+   {
+    "elemento": "Describe la HIPEC como quimioterapia intraperitoneal intraoperatoria hipertérmica dirigida al residuo microscópico",
+    "puntos": 0.25,
+    "claves": [
+     "HIPEC",
+     "microscópico",
+     "intraoperatoria"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La enfermedad maligna peritoneal es el crecimiento neoplásico maligno, primario o secundario, en la cavidad peritoneal. Los primarios son el mesotelioma, el adenocarcinoma primario peritoneal y el tumor desmoplásico de células redondas y pequeñas. Los secundarios proceden de tumores digestivos (apéndice, colon y recto, intestino delgado, estómago), de tumores ginecológicos (ovario, trompa, útero) y de sarcomatosis intra y retroperitoneales. El caso corresponde a una carcinomatosis secundaria a un adenocarcinoma de colon derecho. La siembra peritoneal no se distribuye al azar. Las células desprendidas del tumor primario siguen la circulación del líquido peritoneal, que discurre en sentido horario impulsada por el movimiento del diafragma, el peristaltismo y la gravedad, y se implantan según sus moléculas de adherencia. De ahí que los depósitos sean previsibles: el espacio subfrénico derecho, el epiplón mayor, donde el engrosamiento en manto configura el llamado omental cake, y la pelvis, con afectación del fondo de saco de Douglas, el sigma y los anejos. Los hallazgos del TAC de esta paciente reproducen exactamente ese patrón. El cambio conceptual consiste en dejar de considerar la carcinomatosis una enfermedad diseminada e incurable y entenderla como una enfermedad regional confinada al abdomen y, por tanto, susceptible de tratamiento con intención curativa mediante intensificación terapéutica regional. Esa intensificación tiene dos componentes con objetivos distintos y complementarios. El primero es la cirugía de citorreducción, cuyo objetivo es eliminar todo el tumor macroscópico: peritonectomías por cuadrantes, peritonectomía de la cápsula de Glisson, electroevaporación tumoral y las resecciones viscerales que sean necesarias sobre estómago, intestino delgado o colon. El segundo es la quimioterapia intraperitoneal intraoperatoria hipertérmica, la HIPEC, que se administra una vez completada la citorreducción y cuyo objetivo es eliminar el residuo tumoral microscópico que la cirugía no puede ver. La selección de pacientes es esencial: se requiere ausencia de enfermedad extraabdominal, como ocurre en este caso, y posibilidad razonable de citorreducción completa.",
+  "explanation": "La pregunta evalúa tres bloques que la clase encadena de forma explícita. Primero, la definición y la clasificación de la enfermedad maligna peritoneal, distinguiendo tumores primarios de secundarios, porque de esa distinción depende todo lo demás. Segundo, la fisiología aplicada: la circulación horaria del líquido peritoneal y las moléculas de adherencia hacen que la siembra sea previsible en el espacio subfrénico derecho, el epiplón mayor y la pelvis, que es exactamente lo que describe el TAC del caso. Tercero, el cambio conceptual que convierte una enfermedad antes considerada diseminada en una enfermedad regional tratable con intención curativa, y la estrategia de dos tiempos que se deriva de él. El error más frecuente en esta pregunta consiste en atribuir a la HIPEC el control del tumor macroscópico o en describir la citorreducción como una simple peritonectomía sin resecciones viscerales. Se valora también que el alumno mencione la ausencia de enfermedad extraabdominal como condición para plantear el tratamiento.",
+  "teaching_point": "La carcinomatosis peritoneal sin enfermedad extraabdominal es una enfermedad regional: citorreducción para lo macroscópico, HIPEC para lo microscópico.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de peritoneo y carcinomatosis peritoneal",
+  "fuente_clase": {
+   "archivo": "07.- Peritoneo. Mesenterio.Epiplon.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "carcinomatosis",
+   "citorreducción",
+   "HIPEC",
+   "enfermedad regional"
+  ]
+ }
+]

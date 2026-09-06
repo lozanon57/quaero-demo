@@ -1,0 +1,727 @@
+[
+ {
+  "id": "T14-M001",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 71 años, diabético, ingresa por fiebre en agujas y dolor en hipocondrio derecho irradiado al hombro, con hepatomegalia dolorosa a la palpación. La TC muestra una colección hepática multiloculada y la analítica, leucocitosis con granulocitosis y elevación de la proteína C reactiva. Señale cuál es hoy la vía de llegada de los gérmenes al hígado más frecuente en este tipo de abscesos.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La contigüidad a partir de una colecistitis aguda perforada."
+   },
+   {
+    "id": "B",
+    "text": "La vía portal, procedente de una apendicitis o una diverticulitis."
+   },
+   {
+    "id": "C",
+    "text": "La vía arterial, en el seno de una sepsis o de una endocarditis."
+   },
+   {
+    "id": "D",
+    "text": "La vía biliar, en el contexto de una colangitis ascendente."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase es explícita: la vía de llegada de los gérmenes al hígado más frecuente en el absceso piógeno es la biliar, en forma de colangitis ascendente, de modo que ante una colección como la del caso hay que estudiar siempre la vía biliar aunque el paciente no refiera un episodio previo. Opción B: la vía portal, a partir de apendicitis, diverticulitis o peritonitis, fue la más frecuente antes de la era antibiótica, pero ha dejado de serlo precisamente porque esos focos se tratan hoy de forma precoz. Opción C: la vía arterial, en el contexto de sepsis, endocarditis, meningitis u otitis, se recoge en clase como la menos frecuente de las tres. Opción A: la patología hepatobiliar previa, incluida la colecistitis, se cita como factor predisponente junto con la edad avanzada, la diabetes, los tumores y la inmunosupresión, pero la contigüidad no es la vía de diseminación principal. Punto de enseñanza: ante un absceso piógeno, hay que estudiar siempre la vía biliar.",
+  "teaching_point": "Hoy la vía biliar (colangitis ascendente) es el origen más frecuente del absceso hepático piógeno; antes de los antibióticos lo era la portal.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de infecciones hepáticas",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 23
+  },
+  "tags": [
+   "absceso piogeno",
+   "colangitis",
+   "etiologia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M002",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 34 años, de vuelta de un viaje de tres meses por el sudeste asiático, consulta por dolor en hipocondrio derecho, febrícula y hepatomegalia dolorosa. La TC muestra una colección única de gran tamaño en el lóbulo derecho. La aspiración obtiene material achocolatado y estéril. Señale el tratamiento inicial más apropiado.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Drenaje percutáneo con catéter y piperacilina-tazobactam intravenoso."
+   },
+   {
+    "id": "B",
+    "text": "Albendazol en ciclos de veintiocho días con descansos intermedios."
+   },
+   {
+    "id": "C",
+    "text": "Metronidazol asociado a un amebicida luminal como el iodoquinol."
+   },
+   {
+    "id": "D",
+    "text": "Hepatectomía derecha reglada por el tamaño de la colección."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El cuadro reúne los rasgos que la clase atribuye al absceso amebiano: antecedente de viaje a un país tropical, colección única y de grandes dimensiones en el lóbulo derecho, contenido achocolatado y cultivo habitualmente estéril. El tratamiento es médico, con metronidazol 750 mg cada ocho horas durante diez días asociado a iodoquinol durante veinte días, pauta eficaz en el 90% de los pacientes. Opción A: el drenaje percutáneo con antibiótico de amplio espectro es el tratamiento del absceso piógeno; aquí el cultivo estéril y el material achocolatado apuntan en otra dirección, y sólo el 5-10% de los amebianos requiere evacuación. Opción B: el albendazol en tres ciclos de veintiocho días es el tratamiento médico de la hidatidosis, no de la amebiasis. Opción D: la hepatectomía es excepcional incluso en los abscesos piógenos que fracasan. Punto de enseñanza: viaje tropical más pus achocolatado estéril equivale a metronidazol.",
+  "teaching_point": "El absceso amebiano se trata con metronidazol más un amebicida luminal; sólo el 5-10% necesita evacuación.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de infecciones hepáticas",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 37
+  },
+  "tags": [
+   "absceso amebiano",
+   "metronidazol",
+   "Entamoeba histolytica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M003",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la sesión sobre abscesos hepáticos piógenos se discute la elección del antibiótico empírico antes de disponer del cultivo. El profesor recuerda cuál es el grupo de microorganismos que con más frecuencia se aísla en estas colecciones. Señale cuál es ese grupo y cite dos ejemplos representativos según lo expuesto.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aerobios gramnegativos: Escherichia coli y Klebsiella."
+   },
+   {
+    "id": "B",
+    "text": "Anaerobios estrictos: Bacteroides fragilis y Clostridium."
+   },
+   {
+    "id": "C",
+    "text": "Cocos grampositivos: Streptococcus y Staphylococcus aureus."
+   },
+   {
+    "id": "D",
+    "text": "Hongos levaduriformes: Candida albicans y Candida glabrata."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enumera como gérmenes más frecuentes del absceso hepático piógeno los aerobios gramnegativos, y cita expresamente Escherichia coli, Klebsiella, Enterobacter y Proteus. Eso explica que el antibiótico empírico deba cubrir aerobios gramnegativos, estreptococos y anaerobios. Opción C: los grampositivos, estreptococo y estafilococo, se aíslan con menor frecuencia y no justifican por sí solos la cobertura empírica. Opción B: los anaerobios, Bacteroides y Clostridium, se recogen también en la clase, pero como grupo menos frecuente; hay que cubrirlos, aunque no sean el aislamiento predominante. Opción D: los hongos no son un aislamiento habitual en el absceso piógeno de novo; la clase los menciona sólo en el paciente con manipulación previa de la vía biliar, junto con los gérmenes resistentes, que es un escenario distinto del planteado. Punto de enseñanza: la cobertura empírica sale de la epidemiología, no del germen más llamativo.",
+  "teaching_point": "Los aerobios gramnegativos (E. coli, Klebsiella) son el aislamiento más frecuente; los hongos sólo tras manipulación biliar.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de infecciones hepáticas",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "absceso piogeno",
+   "microbiologia",
+   "antibioterapia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M004",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Paciente con absceso hepático piógeno de localización posterosuperior, multiloculado, que persiste febril y con la colección sin colapsar tras dos intentos de drenaje percutáneo y tres semanas de antibiótico intravenoso. Señale cuál es la actuación que procede en este momento según los criterios expuestos en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prolongar el antibiótico intravenoso otras seis semanas sin más gestos."
+   },
+   {
+    "id": "B",
+    "text": "Pasar a antibiótico oral y repetir la ecografía en dos meses."
+   },
+   {
+    "id": "C",
+    "text": "Realizar una hepatectomía derecha reglada para extirpar la cavidad."
+   },
+   {
+    "id": "D",
+    "text": "Evacuación quirúrgica de la colección por vía abierta, sin resección hepática."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El caso reúne los tres criterios que la clase enumera para pasar al drenaje quirúrgico: localización superior y posterior, absceso multiloculado y fracaso del drenaje percutáneo. La misma diapositiva subraya que la hepatectomía es muy rara, de modo que la solución es el drenaje quirúrgico y no una resección. Opción A: mantener el antibiótico sin controlar el foco perpetúa la sepsis; el principio de control del foco no admite excepción por el hecho de que el germen sea sensible. Opción B: el paso a la vía oral, durante cuatro a seis semanas, se contempla tras el inicio parenteral en un paciente que responde, no en uno que sigue febril con la colección íntegra. Opción C: la resección hepática es excepcional en esta indicación y sacrifica parénquima sano innecesariamente. Punto de enseñanza: fracaso del percutáneo más absceso multiloculado y posterosuperior es igual a quirófano.",
+  "teaching_point": "El drenaje quirúrgico se reserva a los abscesos posterosuperiores, multiloculados o con fracaso del percutáneo; la hepatectomía es muy rara.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de infecciones hepáticas",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "absceso piogeno",
+   "drenaje",
+   "indicacion quirurgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M005",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 48 años, ganadero, con un quiste hidatídico hepático conocido de años de evolución, acude por ictericia progresiva, coluria y fiebre con escalofríos. Señale cuál es la complicación de la hidatidosis hepática que con mayor frecuencia explica este cuadro, de acuerdo con lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La rotura del quiste a la cavidad peritoneal libre."
+   },
+   {
+    "id": "B",
+    "text": "La afectación de la vía biliar por comunicación quistobiliar."
+   },
+   {
+    "id": "C",
+    "text": "El tránsito pleuropulmonar con vómica de vesículas hijas."
+   },
+   {
+    "id": "D",
+    "text": "La sobreinfección bacteriana del contenido del quiste."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase afirma de forma directa que la complicación más frecuente del quiste hidatídico hepático es la relacionada con la afectación de la vía biliar, y la traduce clínicamente en ictericia y colangitis, exactamente el cuadro del paciente. De ahí que la cirugía conservadora obligue a explorar y tratar la vía biliar con tubo de Kehr o CPRE cuando el contenido es biliar. Opción A: la rotura al peritoneo es una complicación grave, con shock anafiláctico y peritonitis, pero infrecuente y de presentación aguda y dramática, no con ictericia progresiva. Opción C: el tránsito a otros órganos es infrecuente y el más común es el pleural, con derrame pleural biliar, o el pulmonar con vómica; nada de eso figura en el caso. Opción D: la contaminación del quiste da fiebre dentro de un síndrome séptico y define el quiste complicado, pero no explica por sí sola la ictericia con coluria. Punto de enseñanza: la vía biliar manda en la hidatidosis.",
+  "teaching_point": "La complicación más frecuente del quiste hidatídico hepático es la afectación de la vía biliar: ictericia y colangitis.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 57
+  },
+  "tags": [
+   "hidatidosis",
+   "via biliar",
+   "colangitis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M006",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Durante una caída, un paciente con un quiste hidatídico hepático de gran tamaño sufre un traumatismo abdominal cerrado. Llega con dolor abdominal difuso, urticaria generalizada, broncoespasmo e hipotensión grave. Señale cuáles son los dos cuadros que definen esta complicación según se describió en la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Shock anafiláctico y peritonitis por rotura del quiste al peritoneo."
+   },
+   {
+    "id": "B",
+    "text": "Colangitis aguda y absceso hepático secundario a la contaminación."
+   },
+   {
+    "id": "C",
+    "text": "Derrame pleural biliar y expulsión oral de vesículas, o vómica."
+   },
+   {
+    "id": "D",
+    "text": "Coagulación intravascular diseminada y hemoperitoneo masivo."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La rotura del quiste hidatídico a la cavidad peritoneal se describe en clase como una complicación grave que asocia dos fenómenos: el shock anafiláctico, por la liberación masiva del líquido hidatídico altamente antigénico, y la peritonitis, con la consiguiente siembra de escólex y el riesgo posterior de hidatidosis peritoneal secundaria. El caso reúne los signos de anafilaxia junto con el dolor abdominal difuso. Opción B: la colangitis y la contaminación bacteriana del quiste definen el quiste complicado por infección, que cursa con fiebre dentro de un síndrome séptico y no con broncoespasmo ni urticaria. Opción C: el derrame pleural biliar y la vómica corresponden al tránsito pleural o pulmonar, que la clase califica de infrecuente y que no cursa con shock inmediato. Opción D: la coagulopatía de consumo pertenece al síndrome de Kasabach-Merritt de los hemangiomas gigantes, no a la hidatidosis. Punto de enseñanza: la anafilaxia obliga a cubrir con albendazol si hay rotura intraoperatoria.",
+  "teaching_point": "La rotura del quiste hidatídico al peritoneo produce shock anafiláctico y peritonitis, e indica albendazol postoperatorio.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 57
+  },
+  "tags": [
+   "hidatidosis",
+   "rotura",
+   "anafilaxia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M007",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En la descripción anatomopatológica del quiste hidatídico hepático se distinguen una capa producida por el propio parásito y otra producida por el organismo del huésped, y el profesor detalla además el mecanismo por el que el quiste aumenta de tamaño. Señale la afirmación que recoge correctamente esa estructura y ese crecimiento.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La periquística es de origen parasitario y se calcifica en el 30-40% de los quistes."
+   },
+   {
+    "id": "B",
+    "text": "La capa germinal es la reacción fibrosa del huésped y es la que se calcifica."
+   },
+   {
+    "id": "C",
+    "text": "El quiste crece por invasión celular directa del parénquima hepático vecino."
+   },
+   {
+    "id": "D",
+    "text": "La periquística o adventicia es del huésped y el quiste crece por presión y vesículas hijas."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La forma larvaria constituye el quiste hidatídico, formado por una capa interna de células germinales, parasitaria, que produce hacia el interior el líquido hidatídico con escólex y vesículas hijas, y por fuera una capa fibrosa debida a la reacción del organismo, la adventicia o periquística, que se calcifica en el 30-40% de los quistes. El crecimiento se produce por el aumento de presión del líquido y por la formación de vesículas hijas. Opción A: invierte el origen de las capas; es cierto que la periquística se calcifica en el 30-40%, pero es tejido del huésped y no del parásito. Opción B: la capa germinal es parasitaria y es la que fabrica el líquido y las vesículas hijas; la reacción fibrosa del huésped es la periquística, y es esa, y no la germinal, la que llega a calcificarse. Opción C: el quiste no invade, crece por presión y por vesículas hijas, lo que explica que desplace y comprima estructuras en lugar de infiltrarlas, a diferencia de la forma alveolar. Punto de enseñanza: la periquística es tejido del enfermo, y por eso la cirugía radical la extirpa.",
+  "teaching_point": "La periquística o adventicia es fibrosis del huésped y se calcifica en el 30-40%; la capa germinal, parasitaria, genera líquido y vesículas hijas.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 54
+  },
+  "tags": [
+   "hidatidosis",
+   "periquistica",
+   "anatomia patologica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M008",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Ante la sospecha de hidatidosis hepática en un paciente asintomático con serología positiva, se plantea qué prueba de imagen debe solicitarse en primer lugar y qué papel tiene cada una en la decisión terapéutica. Señale la afirmación que corresponde a lo expuesto en la clase sobre el diagnóstico radiológico.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La TC con contraste es la prueba de elección y establece el estadio que orienta el tratamiento."
+   },
+   {
+    "id": "B",
+    "text": "La ecografía es la prueba de elección y establece el estadio que orienta el tratamiento."
+   },
+   {
+    "id": "C",
+    "text": "La RM con gadolinio es la prueba de elección; la ecografía sólo sirve como cribado poblacional."
+   },
+   {
+    "id": "D",
+    "text": "La colangiorresonancia es la prueba inicial, porque anticipa la comunicación con la vía biliar."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase señala la ecografía como prueba de elección en la hidatidosis hepática, diagnóstica en el 100% de los casos y capaz de clasificar el quiste para orientar el tratamiento, mediante la clasificación ecográfica de Gharbi y la de la Organización Mundial de la Salud. La TC, la RM y la colangiorresonancia se reservan para obtener la información anatómica con la que planificar el tratamiento y para el seguimiento. Opción A: la TC aporta detalle anatómico y resulta imprescindible para planificar la cirugía, pero no es la primera prueba ni es la que define el estadio, que se establece por ecografía. Opción C: la RM completa el estudio anatómico y reducir la ecografía al papel de cribado invierte la jerarquía expuesta en clase. Opción D: la colangiorresonancia es muy útil cuando se sospecha comunicación biliar, que es la complicación más frecuente, pero se solicita de forma dirigida y no como primera prueba ante un hallazgo asintomático. Punto de enseñanza: en hidatidosis, la ecografía diagnostica y además estadifica.",
+  "teaching_point": "La ecografía es la prueba de elección en hidatidosis hepática: diagnostica y clasifica el estadio del quiste.",
+  "guideline_ref": "Clasificación ecográfica de Gharbi y clasificación de la OMS, citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 59
+  },
+  "tags": [
+   "hidatidosis",
+   "ecografia",
+   "diagnostico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M009",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Una mujer embarazada presenta un quiste hidatídico hepático univesicular de siete centímetros, sin signos de comunicación con la vía biliar, y se descarta la cirugía por su situación clínica. Se plantea entonces un tratamiento percutáneo. Señale cuál de las siguientes afirmaciones sobre ese tratamiento se corresponde con lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El PAIR exige completar antes los tres ciclos de albendazol, que el embarazo desaconseja."
+   },
+   {
+    "id": "B",
+    "text": "El PAIR se contempla en los estadios CE1, CE2 y CE3, y el embarazo es una de sus indicaciones."
+   },
+   {
+    "id": "C",
+    "text": "Debe puncionarse y aspirarse sin inyectar escolicida, para evitar la colangitis esclerosante."
+   },
+   {
+    "id": "D",
+    "text": "Procede un drenaje percutáneo con catéter permanente, que sustituye al PAIR fuera de la infección."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El PAIR, acrónimo de punción, aspiración, inyección y reaspiración, se indica en la clase en los estadios CE1, CE2 y CE3, en los quistes infectados, en los quistes múltiples accesibles a punción, en las mujeres embarazadas, en las recidivas y en los pacientes con contraindicación para la cirugía; el caso reúne dos de esos supuestos. Opción A: el albendazol acompaña al procedimiento como profilaxis los catorce días previos, no como un tratamiento completo que haya que terminar antes de puncionar. Opción C: la inyección del escolicida, suero hipertónico o etanol al 95%, forma parte del procedimiento y es lo que lo hace terapéutico; lo que obliga a extremar la precaución con el escolicida es la comunicación con la vía biliar, por el riesgo de colangitis esclerosante, y aquí se ha descartado. Opción D: el quiste infectado es una de las indicaciones del PAIR, de modo que la infección no es el criterio que separa un procedimiento del otro. Punto de enseñanza: el estadio ecográfico y la situación del paciente deciden la vía terapéutica.",
+  "teaching_point": "El PAIR se indica en CE1, CE2 y CE3, quistes infectados, embarazo, recidivas y contraindicación quirúrgica; escolicidas: suero hipertónico o etanol 95%.",
+  "guideline_ref": "Clasificación de la OMS del quiste hidatídico, citada en la clase",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 74
+  },
+  "tags": [
+   "hidatidosis",
+   "PAIR",
+   "estadio CE"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M010",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Se programa la quistoperiquistectomía de un quiste hidatídico hepático en un paciente sin otras localizaciones. El equipo plantea pautar albendazol antes de la intervención. Señale cuál es la indicación de este tratamiento médico perioperatorio y durante cuánto tiempo se administra antes de la cirugía, según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esterilizar el líquido hidatídico; se pauta durante las setenta y dos horas previas."
+   },
+   {
+    "id": "B",
+    "text": "Profilaxis de la diseminación; se pauta durante un ciclo completo de veintiocho días."
+   },
+   {
+    "id": "C",
+    "text": "Profilaxis de la diseminación; se pauta durante los catorce días previos."
+   },
+   {
+    "id": "D",
+    "text": "Prevenir la colangitis esclerosante; se pauta durante los tres ciclos completos."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase enumera las indicaciones del albendazol, a dosis de 400 mg cada doce horas en tres ciclos de veintiocho días separados por descansos de catorce días, e incluye entre ellas la profilaxis durante los catorce días previos al tratamiento quirúrgico o radiológico, además de los quistes múltiples o en varios órganos, la rotura durante la cirugía y la cirugía incompleta o la recidiva. Opción B: veintiocho días es la duración de cada ciclo del tratamiento médico completo, no la de la profilaxis preoperatoria; confundir las dos cifras retrasa la intervención dos semanas sin fundamento. Opción A: el albendazol no esteriliza el líquido hidatídico, que se trata con escolicidas dentro de la cavidad, y setenta y dos horas no corresponden a ninguna pauta descrita. Opción D: la colangitis esclerosante es un riesgo del escolicida en la cirugía conservadora cuando existe comunicación biliar, no una indicación del albendazol. Punto de enseñanza: catorce días antes del procedimiento, veintiocho días por ciclo de tratamiento.",
+  "teaching_point": "El albendazol perioperatorio se pauta los catorce días previos a cirugía o PAIR, como profilaxis de la diseminación.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 68
+  },
+  "tags": [
+   "hidatidosis",
+   "albendazol",
+   "profilaxis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M011",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Un paciente procedente de una zona endémica presenta una lesión hepática infiltrativa compatible con equinococosis alveolar. En el comité se discute entre una resección radical y un destechamiento con escolicidas. Señale qué actuación procede y cuál es el argumento que se expuso en clase para esa decisión.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cirugía radical, porque es mandatoria en las formas alveolares."
+   },
+   {
+    "id": "B",
+    "text": "Destechamiento, porque la recurrencia es menor con la cirugía conservadora."
+   },
+   {
+    "id": "C",
+    "text": "Destechamiento, porque la cirugía radical está contraindicada en formas alveolares."
+   },
+   {
+    "id": "D",
+    "text": "Cirugía radical, porque evita el riesgo de colangitis esclerosante."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase contrapone la cirugía radical, quistoperiquistectomía o quistorresección, con la conservadora, destechamiento y tratamiento de la cavidad, y establece que la radical es la técnica de elección, con menor tasa de recurrencia, y que resulta mandatoria en las formas alveolares, producidas por Echinococcus multilocularis, que se comportan de manera infiltrativa. Opción C: invierte el dato, porque es precisamente en la forma alveolar donde la radicalidad resulta obligatoria. Opción B: la recurrencia es mayor, no menor, con la cirugía conservadora, que se reserva a pacientes no aptos para la radical. Opción D: es cierto que la colangitis esclerosante es un riesgo del escolicida empleado en la cirugía conservadora, pero ése no es el argumento que justifica la radicalidad en la forma alveolar, sino el comportamiento infiltrativo del parásito. Punto de enseñanza: la radical es peligrosa en quistes profundos junto a la cava o la bifurcación portal, y ahí se individualiza.",
+  "teaching_point": "La cirugía radical es la técnica de elección y es mandatoria en la equinococosis alveolar; la conservadora recurre más.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 72
+  },
+  "tags": [
+   "hidatidosis",
+   "cirugia radical",
+   "E. multilocularis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-M012",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Un pastor de una comarca endémica, que convive con perros y les da vísceras de oveja, es diagnosticado de quiste hidatídico hepático. Explique cómo llegó el parásito hasta su hígado. Señale la secuencia correcta desde la ingesta hasta la formación del quiste, según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ingiere larvas del perro, que atraviesan la pared gástrica y alcanzan la arteria hepática."
+   },
+   {
+    "id": "B",
+    "text": "Ingiere carne de oveja con quistes; los escólex llegan al hígado por vía linfática."
+   },
+   {
+    "id": "C",
+    "text": "Ingiere huevos; el embrión hexacanto se libera y llega al hígado por vía portal."
+   },
+   {
+    "id": "D",
+    "text": "Inhala huevos del pelo del perro, que alcanzan el hígado desde el pulmón."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El ciclo expuesto en clase es claro: el adulto de Echinococcus granulosus vive en el intestino delgado del perro, que se infecta al comer vísceras de los animales intermediarios; los huevos contaminan el hocico y el pelo del perro, así como pastos, agua y plantas. El hombre se infecta al ingerir los huevos, en el estómago se libera el embrión hexacanto, que en el intestino delgado penetra la mucosa y llega por vía portal al hígado, donde constituye el quiste. Opción A: lo que se ingiere son huevos, no larvas, y la vía de llegada es portal y no arterial. Opción B: el hombre es huésped intermediario y se infecta por los huevos del perro, no por comer carne quística; además la diseminación no es linfática. Opción D: la puerta de entrada es digestiva; el pulmón es una localización secundaria cuando el embrión atraviesa el filtro hepático. Punto de enseñanza: el hígado es el primer filtro tras la vía portal.",
+  "teaching_point": "El hombre ingiere huevos; el embrión hexacanto atraviesa la mucosa intestinal y llega al hígado por vía portal, primer filtro del ciclo.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 50
+  },
+  "tags": [
+   "hidatidosis",
+   "ciclo biologico",
+   "embrion hexacanto"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T14-C001",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En un paciente diabético de edad avanzada que ingresa con fiebre en agujas, dolor en hipocondrio derecho y una colección hepática en la TC, el residente debe orientar el estudio etiológico. Indique, en un máximo de veinte palabras, cuál es hoy la vía de llegada de los gérmenes al hígado más frecuente en el absceso piógeno.",
+  "respuesta_canonica": "La vía biliar, generalmente por colangitis ascendente.",
+  "aceptadas": [
+   "vía biliar (colangitis ascendente)",
+   "biliar, a partir de una colangitis ascendente",
+   "diseminación biliar ascendente desde la vía biliar",
+   "la vía biliar"
+  ],
+  "conceptos_clave": [
+   "biliar"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase ordena las vías de llegada de los gérmenes al hígado por frecuencia y añade el matiz histórico que suele ser el objeto de la pregunta. Hoy la más frecuente es la biliar, en forma de colangitis ascendente. Antes de la era antibiótica lo era la portal, a partir de apendicitis, diverticulitis o peritonitis, focos que actualmente se controlan de forma precoz. La vía arterial, en el contexto de sepsis, endocarditis, meningitis u otitis, es la menos frecuente de las tres. Se citan además como predisponentes la patología hepática previa, con quistes, tumores o colecistitis, y se reconoce un 10-15% de casos criptogenéticos. La consecuencia práctica es que ante todo absceso piógeno hay que estudiar la vía biliar, y que si ha habido manipulación biliar previa el antibiótico debe cubrir gérmenes resistentes y hongos. Se acepta la respuesta que nombre la vía biliar; mencionar la colangitis ascendente la completa.",
+  "teaching_point": "Vía biliar hoy, vía portal antes de los antibióticos, vía arterial la menos frecuente.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de infecciones hepáticas",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 23
+  },
+  "tags": [
+   "absceso piogeno",
+   "etiologia",
+   "via biliar"
+  ]
+ },
+ {
+  "id": "T14-C002",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "La mayoría de los quistes hidatídicos hepáticos son asintomáticos y se descubren de forma incidental, pero un porcentaje se complica a lo largo de su evolución, y esa complicación condiciona tanto la vía de abordaje como los gestos que hay que añadir durante la intervención. Indique, en un máximo de veinte palabras, cuál es la complicación más frecuente.",
+  "respuesta_canonica": "La afectación de la vía biliar, con ictericia y colangitis.",
+  "aceptadas": [
+   "comunicación del quiste con la vía biliar",
+   "afectación biliar: ictericia y colangitis",
+   "apertura a la vía biliar",
+   "la afectación de la vía biliar"
+  ],
+  "conceptos_clave": [
+   "biliar"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase enumera las complicaciones del quiste hidatídico hepático y las jerarquiza. La más frecuente es la relacionada con la afectación de la vía biliar, que se traduce en ictericia y colangitis y que explica la insistencia en explorar la vía biliar durante la cirugía conservadora, con colangiografía intraoperatoria y, si el contenido es biliar, con tubo de Kehr o CPRE. Por debajo quedan el quiste complicado por contaminación, definido por la fiebre dentro de un síndrome séptico; la rotura al peritoneo, grave pero infrecuente, con shock anafiláctico y peritonitis; y el tránsito a otros órganos, cuyo destino más común es el pleural, con derrame pleural biliar, o el pulmonar, con expulsión oral de vesículas o vómica. Se considera correcta la respuesta que nombre la vía biliar; añadir ictericia o colangitis como traducción clínica refuerza el acierto, pero responder sólo ictericia sin mencionar la vía biliar se considera incompleto.",
+  "teaching_point": "La complicación más frecuente del quiste hidatídico hepático es la afectación de la vía biliar; la rotura al peritoneo es la más dramática.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 57
+  },
+  "tags": [
+   "hidatidosis",
+   "complicaciones",
+   "via biliar"
+  ]
+ },
+ {
+  "id": "T14-C003",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "En el algoritmo diagnóstico de la hidatidosis hepática, una de las pruebas de imagen no sólo confirma el diagnóstico en la práctica totalidad de los casos, sino que además clasifica el quiste y con ello orienta la elección entre tratamiento médico, percutáneo o quirúrgico. Indique, en un máximo de veinte palabras, de qué prueba se trata.",
+  "respuesta_canonica": "La ecografía abdominal, que además clasifica el quiste.",
+  "aceptadas": [
+   "ecografía",
+   "ecografía abdominal, prueba de elección",
+   "la ultrasonografía abdominal",
+   "eco abdominal",
+   "la ecografía"
+  ],
+  "conceptos_clave": [
+   "ecografía"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase señala la ecografía como prueba de elección en la hidatidosis hepática, con dos argumentos: es diagnóstica en la práctica totalidad de los casos y clasifica el quiste para orientar el tratamiento, mediante la clasificación ecográfica de Gharbi y la clasificación de la Organización Mundial de la Salud, cuyos estadios CE1 y CE3 según la clase; la OMS-IWGE lo reserva a CE1 y CE3a, y en CE2 y CE3b prefiere la cirugía son los que después definen la indicación de PAIR. La TC, la RM y la colangiorresonancia aportan información anatómica para planificar el tratamiento y para el seguimiento, pero no desplazan a la ecografía como primera prueba. Conviene recordar que el diagnóstico se completa con la serología: los anticuerpos totales IgG son sensibles y específicos, la subclase IgG1 es positiva en casi el 100% de los pacientes y la IgG4 se negativiza cuando la evolución es favorable, lo que la hace útil en el seguimiento. Se acepta cualquier variante que nombre la ecografía.",
+  "teaching_point": "La ecografía es la prueba de elección en hidatidosis: diagnostica y estadifica según Gharbi y la OMS.",
+  "guideline_ref": "Clasificación ecográfica de Gharbi y clasificación de la OMS, citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 59
+  },
+  "tags": [
+   "hidatidosis",
+   "ecografia",
+   "Gharbi"
+  ]
+ },
+ {
+  "id": "T14-C004",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Tanto en el tratamiento percutáneo mediante PAIR como en la cirugía conservadora del quiste hidatídico hepático es necesario tratar la cavidad con una sustancia capaz de destruir los escólex antes de completar el procedimiento. Enumere, en un máximo de veinte palabras, los dos escolicidas que se citaron en clase.",
+  "respuesta_canonica": "Suero salino hipertónico y etanol al 95%.",
+  "aceptadas": [
+   "salino hipertónico y alcohol de 95 grados",
+   "suero hipertónico; etanol 95%",
+   "solución salina hipertónica y etanol",
+   "suero salino hipertónico y alcohol al 95%",
+   "suero hipertónico y etanol al 95%",
+   "hipertónico y alcohol"
+  ],
+  "conceptos_clave": [
+   "hipertónico",
+   "etanol"
+  ],
+  "max_palabras": 20,
+  "explanation": "Los escolicidas que la clase cita expresamente son el suero hipertónico y el etanol al 95%. Se emplean en la fase de inyección del PAIR, entre la aspiración y la reaspiración, y también en la cirugía conservadora para tratar la cavidad residual tras el destechamiento. La advertencia que acompaña a este punto es la que suele preguntarse: el escolicida no debe emplearse cuando existe comunicación del quiste con la vía biliar, porque su paso al árbol biliar puede provocar una colangitis esclerosante, complicación que la clase atribuye precisamente a la cirugía conservadora. De ahí la insistencia en la colangiografía intraoperatoria y en tratar la vía biliar con tubo de Kehr o CPRE cuando el contenido es biliar. Se considera correcta la respuesta que nombre los dos agentes; citar sólo uno de ellos se considera parcialmente correcta según el criterio del corrector.",
+  "teaching_point": "Escolicidas: suero hipertónico y etanol al 95%; contraindicados si hay comunicación biliar, por riesgo de colangitis esclerosante.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 74
+  },
+  "tags": [
+   "hidatidosis",
+   "escolicidas",
+   "PAIR"
+  ]
+ },
+ {
+  "id": "T14-L001",
+  "tema": 14,
+  "bloque": "higado_trasplante",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 52 años, procedente de una zona rural con ganado ovino, presenta un quiste hepático de nueve centímetros en el segmento VII hallado de forma incidental, sin ictericia ni fiebre. Exponga, en un máximo de trescientas cincuenta palabras, el diagnóstico y las opciones terapéuticas del quiste hidatídico hepático, justificando la elección en esta paciente.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Sitúa la etiología: larva de Echinococcus granulosus, con el perro como huésped definitivo y el hombre como intermediario que ingiere los huevos",
+    "puntos": 0.32,
+    "claves": [
+     "granulosus",
+     "perro",
+     "huevos",
+     "intermediario"
+    ]
+   },
+   {
+    "elemento": "Describe la estructura del quiste: capa germinal parasitaria con líquido, escólex y vesículas hijas, y periquística o adventicia del huésped, calcificada en el 30-40%",
+    "puntos": 0.32,
+    "claves": [
+     "germinal",
+     "periquística",
+     "vesículas hijas"
+    ]
+   },
+   {
+    "elemento": "Enumera la clínica y las complicaciones, señalando la afectación de la vía biliar como la más frecuente y la rotura al peritoneo con shock anafiláctico como la más grave",
+    "puntos": 0.39,
+    "claves": [
+     "asintomático",
+     "vía biliar",
+     "anafiláctico",
+     "peritonitis"
+    ]
+   },
+   {
+    "elemento": "Expone el diagnóstico serológico: IgG total sensible y específica, IgG1 positiva en casi todos los pacientes, IgG4 que se negativiza si la evolución es favorable",
+    "puntos": 0.32,
+    "claves": [
+     "IgG",
+     "IgG1",
+     "IgG4"
+    ]
+   },
+   {
+    "elemento": "Establece la ecografía como prueba de elección, que diagnostica y clasifica (Gharbi y OMS), reservando TC, RM y colangioRM para planificar y seguir",
+    "puntos": 0.39,
+    "claves": [
+     "ecografía",
+     "Gharbi",
+     "OMS"
+    ]
+   },
+   {
+    "elemento": "Describe el tratamiento médico con albendazol 400 mg cada doce horas, tres ciclos de veintiocho días con descansos de catorce, y sus indicaciones incluida la profilaxis preoperatoria",
+    "puntos": 0.39,
+    "claves": [
+     "albendazol",
+     "ciclos",
+     "profilaxis"
+    ]
+   },
+   {
+    "elemento": "Contrapone cirugía radical (quistoperiquistectomía o quistorresección, técnica de elección, menor recurrencia, mandatoria en formas alveolares) y conservadora (destechamiento, más sencilla, más recurrencia, escolicidas, riesgo de colangitis esclerosante)",
+    "puntos": 0.47,
+    "claves": [
+     "quistoperiquistectomía",
+     "destechamiento",
+     "recurrencia",
+     "escolicidas"
+    ]
+   },
+   {
+    "elemento": "Sitúa el PAIR y sus indicaciones (CE1-CE3, quistes infectados, embarazo, recidivas, contraindicación quirúrgica) y justifica la elección en esta paciente",
+    "puntos": 0.4,
+    "claves": [
+     "PAIR",
+     "CE1",
+     "indica"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El quiste hidatídico hepático es la fase larvaria de Echinococcus granulosus, cuyo adulto habita el intestino delgado del perro. El hombre es huésped intermediario y se infecta al ingerir los huevos; en el estómago se libera el embrión hexacanto, que penetra la mucosa intestinal y llega al hígado por vía portal. Allí forma un quiste con una capa germinal interna, parasitaria, que produce el líquido hidatídico con escólex y vesículas hijas, y una capa fibrosa externa o periquística, reacción del huésped, que se calcifica en el 30-40% de los casos. El quiste crece por aumento de presión y formación de vesículas hijas. La mayoría son asintomáticos y se descubren de forma incidental, como en esta paciente. Pueden dar dolor, dispepsia, hepatomegalia, fiebre o reacciones cutáneas. La complicación más frecuente es la afectación de la vía biliar, con ictericia y colangitis; la más grave, la rotura al peritoneo, con shock anafiláctico y peritonitis. El tránsito pleural o pulmonar, con derrame pleural biliar o vómica, es infrecuente. El diagnóstico serológico se basa en los anticuerpos totales IgG, sensibles y específicos; la IgG1 es positiva en casi todos los pacientes y la IgG4 se negativiza si la evolución es favorable. La prueba de imagen de elección es la ecografía, diagnóstica y capaz de clasificar el quiste según Gharbi y la OMS, lo que orienta el tratamiento; la TC, la RM y la colangiorresonancia aportan la información anatómica necesaria para planificar y seguir. El albendazol, 400 mg cada doce horas en tres ciclos de veintiocho días separados por descansos de catorce, se indica en quistes múltiples o en varios órganos, tras rotura intraoperatoria, como profilaxis los catorce días previos al procedimiento y tras cirugía incompleta o recidiva. La cirugía radical, quistoperiquistectomía o quistorresección, es la técnica de elección por su menor recurrencia y es mandatoria en las formas alveolares, aunque resulta peligrosa en quistes profundos próximos a la cava o a la bifurcación portal. La conservadora, destechamiento con escolicidas, es más sencilla pero recurre más. El PAIR se reserva a estadios CE1 a CE3 y a situaciones especiales.",
+  "explanation": "La pregunta recorre el bloque de hidatidosis completo y exige cerrar con una decisión razonada, que es donde se separa el alumno que ha entendido el tema. Los ejes que deben aparecer son el ciclo y la estructura del quiste, la jerarquía de complicaciones con la vía biliar en primer lugar, la serología con el matiz de la IgG4 como marcador de respuesta, la ecografía como prueba que diagnostica y estadifica, y las tres vías terapéuticas con sus indicaciones. La justificación final debe apoyarse en dos hechos del caso: la localización periférica en el segmento VII, que aleja el quiste de la cava y de la bifurcación portal y hace factible la radicalidad, y la ausencia de contraindicaciones que obligarían a optar por el PAIR o por la cirugía conservadora. Se penaliza atribuir la periquística al parásito, indicar escolicidas sin descartar comunicación biliar, o aportar cifras de recurrencia o supervivencia que no figuran en el material de clase.",
+  "teaching_point": "En hidatidosis hepática el estadio ecográfico y la localización deciden entre albendazol, PAIR, cirugía conservadora y cirugía radical.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de hidatidosis hepática; clasificación de la OMS citada en la clase",
+  "fuente_clase": {
+   "archivo": "clasehidatidosis.pdf",
+   "pagina": 67
+  },
+  "tags": [
+   "hidatidosis",
+   "tratamiento",
+   "PAIR",
+   "quistoperiquistectomia"
+  ]
+ }
+]

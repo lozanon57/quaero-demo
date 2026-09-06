@@ -1,0 +1,727 @@
+[
+ {
+  "id": "T04-M001",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 64 años en seguimiento por una anemia macrocítica con déficit de vitamina B12 atribuida a una inflamación autoinmune de la mucosa gástrica que cursa con aclorhidria. No refiere síntomas digestivos y la gastroscopia previa no mostró lesiones focales. Su médico propone incluirla en un programa de vigilancia endoscópica por riesgo aumentado de cáncer gástrico. Señale qué cambios sucesivos de la mucosa justifican esa vigilancia.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hiperplasia de glándulas fúndicas inducida por el uso prolongado de inhibidores de la bomba de protones."
+   },
+   {
+    "id": "B",
+    "text": "Pérdida de adhesión intercelular por mutación germinal de la E-cadherina, con patrón infiltrativo difuso."
+   },
+   {
+    "id": "C",
+    "text": "Atrofia glandular y metaplasia intestinal, los mismos escalones que preceden al carcinoma de tipo intestinal."
+   },
+   {
+    "id": "D",
+    "text": "Proliferación de las células intersticiales de Cajal con mutación activadora de KIT en la pared gástrica."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase incluye la anemia perniciosa entre los factores de riesgo de cáncer gástrico y explica el mecanismo: la inflamación autoinmune de las células parietales y principales produce aclorhidria, atrofia gástrica y metaplasia intestinal, de modo que desemboca en los mismos escalones que la cascada de Pelayo Correa descrita para Helicobacter pylori, la que continúa en displasia y termina en carcinoma de tipo intestinal. Esa convergencia es la que convierte a una paciente asintomática en candidata a vigilancia endoscópica. Opción A: la hiperplasia de glándulas fúndicas secundaria a inhibidores de la bomba de protones es benigna y la clase precisa que no precisa extirpación ni seguimiento oncológico; además, aquí la hipoclorhidria es autoinmune y no farmacológica. Opción B: la mutación germinal del gen de la E-cadherina define el cáncer gástrico hereditario difuso, en el que el 80 % de los portadores desarrolla la enfermedad, una vía que no pasa por la atrofia ni por la metaplasia intestinal. Opción D: las células intersticiales de Cajal y las mutaciones activadoras de KIT corresponden al tumor del estroma gastrointestinal, de estirpe mesenquimal y ajeno a la mucosa. Punto de enseñanza: la anemia perniciosa desemboca en la misma secuencia histológica que Helicobacter pylori, y por eso comparte el riesgo y la conducta.",
+  "teaching_point": "La anemia perniciosa produce aclorhidria, atrofia gástrica y metaplasia intestinal, y converge con la cascada de Correa hacia el adenocarcinoma de tipo intestinal.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "cascada de Correa",
+   "Helicobacter pylori",
+   "metaplasia intestinal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M002",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Durante una gastroscopia de cribado se describen dos lesiones polipoideas: un pólipo adenomatoso antral de 25 milímetros y varios pólipos fúndicos milimétricos en un paciente que toma omeprazol desde hace años por reflujo. Señale la afirmación que refleja correctamente el riesgo y la conducta que corresponde a cada uno de estos hallazgos.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El adenomatoso puede extirparse por vía endoscópica pese a su tamaño y los fúndicos requieren control anual."
+   },
+   {
+    "id": "B",
+    "text": "Los pólipos fúndicos precisan resección y el adenomatoso sólo control endoscópico anual."
+   },
+   {
+    "id": "C",
+    "text": "El riesgo del pólipo adenomatoso es independiente de su tamaño y basta con biopsiarlo."
+   },
+   {
+    "id": "D",
+    "text": "El adenomatoso, por superar los dos centímetros, requiere resección quirúrgica y los fúndicos no precisan extirpación."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase separa con claridad los dos escenarios. Los pólipos adenomatosos gástricos tienen un riesgo de desarrollar adenocarcinoma del 10 al 20 %, riesgo que aumenta con el tamaño; está indicada su extirpación endoscópica y, cuando superan los dos centímetros, la resección quirúrgica. Los pólipos fúndicos por hiperplasia secundaria al tratamiento con inhibidores de la bomba de protones son benignos y no precisan extirpación. La lesión descrita mide veinticinco milímetros, es decir, rebasa el umbral, y ese es el paso que decide la respuesta. Opción A: mantiene la vía endoscópica para una lesión que ya ha superado los dos centímetros, que es justamente el punto en el que la clase desplaza la indicación a la resección quirúrgica, y añade un seguimiento innecesario a una lesión benigna. Opción B: invierte exactamente la conducta correcta, porque atribuye riesgo a la lesión benigna y deja sin tratar la premaligna. Opción C: el tamaño sí modifica el riesgo, y limitar la actuación a la biopsia deja in situ una lesión con un 10 a 20 % de potencial maligno. Punto de enseñanza: el pólipo adenomatoso se quita, y por encima de dos centímetros se quita en el quirófano.",
+  "teaching_point": "Pólipo adenomatoso gástrico: 10-20 % de riesgo de adenocarcinoma, extirpación endoscópica y resección quirúrgica si supera 2 cm; pólipo fúndico por IBP: benigno.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "pólipo gástrico",
+   "adenoma",
+   "IBP"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M003",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "El informe anatomopatológico de una gastrectomía subtotal por adenocarcinoma describe borde distal libre, borde proximal libre y borde radial con células tumorales aisladas en el estudio histológico. El cirujano hace constar que al terminar la resección no quedaba enfermedad visible en el campo quirúrgico. Según la evaluación del residuo tumoral que se emplea en la clase, ¿cómo se clasifica esta resección?",
+  "options": [
+   {
+    "id": "A",
+    "text": "R1, porque hay márgenes microscópicos positivos sin residuo macroscópico."
+   },
+   {
+    "id": "B",
+    "text": "R0, porque los extremos proximal y distal, que son los que definen la categoría, están libres."
+   },
+   {
+    "id": "C",
+    "text": "R2, porque la persistencia de células tumorales en un margen equivale a residuo macroscópico."
+   },
+   {
+    "id": "D",
+    "text": "No puede clasificarse hasta conocer el estado de los ganglios linfáticos de la pieza."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clasificación del residuo tumoral de Hermanek, de 1994, que la clase recoge, distingue R0 como ausencia de tumor residual con márgenes microscópicos negativos, R1 como márgenes microscópicos positivos y R2 como residuo macroscópico. La evaluación incluye expresamente los extremos distal y proximal, el borde radial y los ganglios linfáticos, de modo que un borde radial afecto en el estudio histológico, sin enfermedad visible en el campo, basta para clasificar la resección como R1. Opción B: la evaluación no se limita a los extremos longitudinales; el borde radial forma parte de ella con el mismo peso, y es el que con más frecuencia se afecta en las gastrectomías. Opción C: la categoría R2 exige residuo macroscópico, y el enunciado deja constancia de que no quedaba enfermedad visible al terminar la resección. Opción D: los ganglios linfáticos se evalúan, pero su resultado no puede rescatar la categoría, porque un solo margen microscópicamente afecto ya excluye la R0. Punto de enseñanza: sólo las resecciones R0 presentan supervivencia a largo plazo, y por eso la categoría R condiciona todo el plan terapéutico posterior.",
+  "teaching_point": "R0 es ausencia de tumor residual con todos los márgenes microscópicos negativos, incluido el radial; sólo R0 se asocia a supervivencia a largo plazo.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "clasificación R",
+   "Hermanek",
+   "márgenes"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M004",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 58 años con adenocarcinoma gástrico conocido acude por distensión abdominal. La exploración detecta una tumoración umbilical dura de un centímetro y la ecografía informa masas sólidas en ambos ovarios con líquido libre en la pelvis. Señale qué significan estos hallazgos en términos de extensión de la enfermedad y de intención terapéutica.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Corresponden a enfermedad locorregional y permiten cirugía radical con linfadenectomía D2."
+   },
+   {
+    "id": "B",
+    "text": "Son signos de enfermedad avanzada: nódulo de Sister Mary Joseph y tumor de Krukenberg."
+   },
+   {
+    "id": "C",
+    "text": "Definen un estadio precoz porque el ovario recibe siembra directa por contigüidad."
+   },
+   {
+    "id": "D",
+    "text": "Traducen infiltración del ganglio de Virchow y obligan a repetir la ecoendoscopia."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase enumera entre los signos de cáncer gástrico avanzado el ganglio de Virchow, el nódulo de Sister Mary Joseph, el anaquel de Blumer, el síndrome de Krukenberg y la ascitis. El nódulo periumbilical duro corresponde al nódulo de Sister Mary Joseph y las masas ováricas bilaterales al tumor de Krukenberg; ambos son manifestación de diseminación y sitúan al caso fuera de la intención curativa. Opción A: la enfermedad locorregional es precisamente lo contrario de lo que describen estos signos, y la linfadenectomía D2 pertenece a la cirugía con intención curativa, que aquí carece de sentido. Opción C: la afectación ovárica del Krukenberg no ocurre por contigüidad ni define estadio precoz, sino que es metastásica. Opción D: el ganglio de Virchow es supraclavicular izquierdo, no periumbilical, y repetir la ecoendoscopia no aportaría nada cuando ya existe enfermedad a distancia demostrable. Punto de enseñanza: los epónimos clásicos son marcadores clínicos de enfermedad diseminada.",
+  "teaching_point": "Nódulo de Sister Mary Joseph y masas ováricas bilaterales (Krukenberg) en un cáncer gástrico indican enfermedad avanzada y descartan la intención curativa.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "Krukenberg",
+   "Sister Mary Joseph",
+   "cáncer gástrico avanzado"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M005",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 70 años con un adenocarcinoma gástrico detectado en un programa de cribado. La ecoendoscopia lo cataloga como T1a, sin adenopatías sospechosas, y la biopsia informa adenocarcinoma bien diferenciado. La lesión mide quince milímetros y su superficie está deprimida y ulcerada. Señale qué actuación procede a la vista de los criterios de resección endoscópica expuestos en la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección endoscópica, porque la lesión no rebasa la muscularis mucosae y mide menos de dos centímetros."
+   },
+   {
+    "id": "B",
+    "text": "Quimioterapia neoadyuvante y reevaluación con tomografía antes de plantear ningún gesto resectivo."
+   },
+   {
+    "id": "C",
+    "text": "Gastrectomía con márgenes libres y linfadenectomía D1 o D2, al quedar fuera de los criterios de resección endoscópica."
+   },
+   {
+    "id": "D",
+    "text": "Seguimiento endoscópico semestral con biopsias, reservando el tratamiento para la progresión a T1b."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase reserva la resección endoscópica para el cáncer gástrico precoz y enumera cuatro requisitos que deben cumplirse a la vez: Tis o T1a, es decir, que la lesión no rebase la muscularis mucosae, buena diferenciación, tamaño inferior a dos centímetros y ausencia de ulceración. Este caso cumple tres de los cuatro y falla el último, de modo que la vía endoscópica queda descartada y el paciente pasa al tratamiento estándar con intención curativa: gastrectomía con márgenes libres y linfadenectomía D1 o D2. Opción A: recoge dos de los criterios y los presenta como suficientes; es la trampa de la pregunta, porque la lista de la clase no es una selección de requisitos sino un conjunto que se cumple entero o no se cumple. Opción B: la neoadyuvancia se valora en el tumor localmente avanzado, definido en la clase a partir de T2, y no en una lesión limitada a la mucosa. Opción D: vigilar una lesión maligna ya diagnosticada no es una alternativa terapéutica, y esperar a la progresión sólo empeora el estadio de partida. Punto de enseñanza: en el cáncer gástrico precoz, cumplir tres criterios de cuatro no autoriza la resección endoscópica.",
+  "teaching_point": "Los criterios de resección endoscópica del cáncer gástrico precoz (Tis o T1a, bien diferenciado, menor de 2 cm y no ulcerado) son acumulativos: fallar uno solo obliga a la cirugía.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "cáncer gástrico precoz",
+   "resección endoscópica",
+   "T1a"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M006",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 61 años estudiado por anemia. La gastroscopia muestra una lesión submucosa de cuatro centímetros en cuerpo gástrico con umbilicación central; la biopsia informa proliferación de células fusiformes con positividad intensa para CD-117. La tomografía no detecta enfermedad a distancia. Señale qué tratamiento procede.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección con márgenes libres sin linfadenectomía reglada."
+   },
+   {
+    "id": "B",
+    "text": "Gastrectomía total con linfadenectomía D2 y dieciséis ganglios."
+   },
+   {
+    "id": "C",
+    "text": "Erradicación de Helicobacter pylori y control endoscópico a los seis meses."
+   },
+   {
+    "id": "D",
+    "text": "Imatinib de mantenimiento indefinido sin plantear resección quirúrgica."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La positividad para CD-117, marcador inmunohistoquímico del receptor KIT, junto con la morfología fusiforme y la localización submucosa, identifican un tumor del estroma gastrointestinal. La clase establece que su tratamiento es la cirugía de resección con márgenes libres; la diseminación es peritoneal y hepática, y los ganglios linfáticos se afectan de forma excepcional, por lo que no procede la linfadenectomía reglada. Opción B: la linfadenectomía D2 con dieciséis ganglios corresponde al adenocarcinoma gástrico, no al tumor del estroma, cuya vía de diseminación no es linfática. Opción C: la erradicación de Helicobacter pylori es el tratamiento de los estadios precoces del linfoma MALT, no de una lesión mesenquimal CD-117 positiva. Opción D: el imatinib se emplea como adyuvante según riesgo, como neoadyuvante cuando la resección conllevaría alta morbilidad o para convertir en resecable un tumor que no lo es, y como mantenimiento en irresecables y metastásicos; en un tumor localizado y resecable no sustituye a la cirugía. Punto de enseñanza: en el tumor del estroma gastrointestinal se resecan márgenes, no ganglios.",
+  "teaching_point": "El GIST se trata con resección de márgenes libres sin linfadenectomía; el imatinib se reserva a adyuvancia por riesgo, neoadyuvancia o enfermedad irresecable y metastásica.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "GIST",
+   "CD-117",
+   "imatinib"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M007",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la clase se explica el origen celular y el perfil molecular de los tumores del estroma gastrointestinal, que suponen alrededor del tres por ciento de los tumores gástricos. Señale la afirmación que describe correctamente la célula de la que derivan y las alteraciones moleculares que sustentan su tratamiento dirigido.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Derivan del epitelio foveolar y presentan mutación de la E-cadherina en la mayoría de casos."
+   },
+   {
+    "id": "B",
+    "text": "Derivan de las células intersticiales de Cajal y presentan mutaciones de KIT o de PDGFRA."
+   },
+   {
+    "id": "C",
+    "text": "Derivan de las células enterocromafines y se tratan con análogos de la somatostatina."
+   },
+   {
+    "id": "D",
+    "text": "Derivan del tejido linfoide asociado a mucosas y responden a la erradicación bacteriana."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase define los tumores del estroma gastrointestinal como derivados de las células intersticiales de Cajal, los marcapasos intestinales de origen mesodérmico, y describe su perfil molecular: receptores tirosina quinasa específicos, con mutación de C-KIT en el 75 % de los casos, de PDGFRA en el 10 % y de SDH en el 14 %; el CD-117 es el marcador inmunohistoquímico del epítopo extracelular de KIT. Ese perfil es lo que hace eficaz al imatinib, inhibidor competitivo de KIT y PDGFRA. Opción A: el epitelio foveolar y la E-cadherina remiten al adenocarcinoma, en particular al cáncer gástrico hereditario difuso, de estirpe epitelial. Opción C: las células enterocromafines corresponden al tumor carcinoide gástrico, que representa menos del uno por ciento de los tumores gástricos y se trata con análogos de la somatostatina cuando recurre o metastatiza. Opción D: el tejido linfoide asociado a mucosas define el linfoma MALT. Punto de enseñanza: Cajal más KIT o PDGFRA identifica al GIST y explica su diana terapéutica.",
+  "teaching_point": "El GIST deriva de las células intersticiales de Cajal; KIT (75 %) y PDGFRA (10 %) son las mutaciones que justifican el tratamiento con imatinib.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "GIST",
+   "células de Cajal",
+   "KIT",
+   "PDGFRA"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M008",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 65 años con epigastralgia y dispepsia. La gastroscopia describe una gastritis con pliegues engrosados y las biopsias informan linfoma B de bajo grado del tejido linfoide asociado a mucosas, con Helicobacter pylori en las muestras tisulares. El estudio de extensión no muestra enfermedad a distancia. Señale la actuación inicial.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gastrectomía total reglada y erradicación de Helicobacter pylori una vez recuperada del postoperatorio."
+   },
+   {
+    "id": "B",
+    "text": "Radioterapia gástrica exclusiva por tratarse de una enfermedad localizada de bajo grado."
+   },
+   {
+    "id": "C",
+    "text": "Quimioterapia CHOP durante seis ciclos y erradicación de Helicobacter pylori al finalizarla."
+   },
+   {
+    "id": "D",
+    "text": "Tratamiento erradicador de Helicobacter pylori con control endoscópico posterior."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase recoge que el linfoma gástrico MALT se asocia a infección por Helicobacter pylori en prácticamente todos los casos y que los estadios precoces del MALT y los linfomas B gástricos pueden responder al tratamiento erradicador en más del 75 % de los casos, lo que convierte a la erradicación en la primera medida ante un linfoma de bajo grado localizado con la bacteria demostrada. Opción A: la cirugía queda reservada al fallo de la quimioterapia y a las complicaciones obstructivas, hemorrágicas o perforativas; indicarla de entrada priva a la paciente de una respuesta obtenible con antibióticos y le impone la morbilidad de una gastrectomía total. Opción B: la radioterapia se valora en los estadios avanzados, junto con la cirugía y la quimioterapia, no como tratamiento inicial de un estadio precoz erradicable. Opción C: el esquema CHOP, con ciclofosfamida, doxorubicina, vincristina y prednisona, es el tratamiento quimioterápico del linfoma, pero no es el primer escalón en este escenario y posponer la erradicación desaprovecha el tratamiento más eficaz y menos tóxico. Punto de enseñanza: en el MALT gástrico precoz, el primer tratamiento es un antibiótico.",
+  "teaching_point": "El linfoma MALT gástrico precoz asociado a H. pylori responde a la erradicación en más del 75 % de los casos: ese es el tratamiento inicial.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "linfoma MALT",
+   "Helicobacter pylori",
+   "erradicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M009",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Un paciente presenta un tumor carcinoide gástrico único, con pH gástrico normal y gastrinemia normal, sin gastritis crónica atrófica ni datos de neoplasia endocrina múltiple. Según la clasificación en tres tipos que expone la clase, señale a qué tipo corresponde y qué comportamiento se le atribuye.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tipo III, esporádico, metastásico en la mitad de los casos y con supervivencia a cinco años del 35 %."
+   },
+   {
+    "id": "B",
+    "text": "Tipo I, asociado a gastritis crónica atrófica e hipoclorhidria, de curso benigno."
+   },
+   {
+    "id": "C",
+    "text": "Tipo II, asociado a síndrome de Zollinger-Ellison y a neoplasia endocrina múltiple tipo I."
+   },
+   {
+    "id": "D",
+    "text": "Tipo II, con hipergastrinemia y tumores multifocales de las células enterocromafines."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase divide el carcinoide gástrico en tres tipos. El tipo I se relaciona con gastritis crónica atrófica e hipoclorhidria, produce tumores pequeños de células enterocromafines símil y tiene curso benigno con supervivencia a cinco años superior al 90 %. El tipo II se asocia al síndrome de Zollinger-Ellison y a la neoplasia endocrina múltiple tipo I, cursa con hiperclorhidria e hipergastrinemia y es multifocal. El tipo III es esporádico, unifocal, con pH y gastrina normales, y es metastásico en el 50 % de los casos, con supervivencia a cinco años del 35 %. El caso descrito, unifocal y con pH y gastrina normales, corresponde al tipo III. Opción B: exige gastritis atrófica e hipoclorhidria, ambas ausentes en el enunciado. Opción C: requiere Zollinger-Ellison o neoplasia endocrina múltiple, expresamente descartados. Opción D: la hipergastrinemia y la multifocalidad contradicen los datos aportados. Punto de enseñanza: el pH y la gastrina separan los tres tipos y anticipan el pronóstico.",
+  "teaching_point": "Carcinoide gástrico: tipo I con atrofia e hipoclorhidria y curso benigno, tipo II con Zollinger-Ellison y MEN I, tipo III esporádico con pH y gastrina normales y peor pronóstico.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 30
+  },
+  "tags": [
+   "carcinoide gástrico",
+   "células enterocromafines",
+   "Zollinger-Ellison"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M010",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Un paciente ha sido intervenido de adenocarcinoma gástrico de cuerpo mediante gastrectomía por vía laparoscópica. El informe de anatomía patológica describe márgenes libres, pero sólo se han identificado nueve ganglios linfáticos en la pieza. Señale qué objeción principal cabe hacer a la calidad oncológica de esta intervención según la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La vía laparoscópica ofrece resultados oncológicos inferiores a la laparotomía en el cáncer gástrico."
+   },
+   {
+    "id": "B",
+    "text": "Los márgenes libres pierden valor pronóstico cuando la reconstrucción no es en Y de Roux."
+   },
+   {
+    "id": "C",
+    "text": "Con márgenes libres, el número de ganglios extirpados no modifica la calidad oncológica de la resección."
+   },
+   {
+    "id": "D",
+    "text": "La linfadenectomía es insuficiente: el estándar exige D1 o D2 con al menos dieciséis ganglios."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase define el tratamiento quirúrgico estándar con intención curativa del carcinoma gástrico como una gastrectomía con márgenes libres acompañada de linfadenectomía D1 o D2 con dieciséis ganglios, y precisa que el abordaje, antes por laparotomía y hoy mínimamente invasivo, ofrece iguales resultados oncológicos. Con nueve ganglios examinados, la estadificación ganglionar es incompleta y la resección no cumple el estándar de calidad, por mucho que los márgenes sean negativos. Opción A: contradice de forma directa lo que afirma la clase, que equipara los resultados oncológicos de ambos abordajes. Opción B: los márgenes libres son un requisito de la resección R0 y su valor pronóstico no depende del tipo de reconstrucción digestiva elegido. Opción C: recoge la idea intuitiva de que basta con extirpar el tumor entero, pero el recuento ganglionar no es un detalle técnico: por debajo del número exigido la N queda infraestadificada y el paciente puede quedarse sin el tratamiento adyuvante que le corresponde. Punto de enseñanza: márgenes libres y recuento ganglionar suficiente son dos requisitos independientes, y fallar el segundo compromete la estadificación.",
+  "teaching_point": "El estándar oncológico del cáncer gástrico es gastrectomía con márgenes libres y linfadenectomía D1/D2 con al menos 16 ganglios; la vía laparoscópica no lo modifica.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 17
+  },
+  "tags": [
+   "linfadenectomía D2",
+   "gastrectomía",
+   "laparoscopia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M011",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 74 años con adenocarcinoma gástrico irresecable por invasión de órganos adyacentes y adenopatías paraaórticas. Ingresa por vómitos por obstrucción de la salida gástrica y anemización progresiva. La expectativa de vida estimada supera el mes. Señale qué actuación procede ante esta complicación.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gastrectomía total ampliada con intención de conseguir una resección R0."
+   },
+   {
+    "id": "B",
+    "text": "Manejo endoscópico y, si fracasa, cirugía paliativa o radioterapia para la hemorragia."
+   },
+   {
+    "id": "C",
+    "text": "Abstención terapéutica exclusiva, ya que la quimioterapia no supera al tratamiento de soporte."
+   },
+   {
+    "id": "D",
+    "text": "Laparoscopia de estadificación urgente antes de tomar cualquier decisión paliativa."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase indica que, cuando la resección R0 no es posible, hay que evitar la cirugía salvo con finalidad paliativa, y que la obstrucción o la hemorragia en un paciente con expectativa de vida superior al mes se abordan mediante manejo endoscópico, radioterapia paliativa para la hemorragia y cirugía paliativa cuando resulta necesaria. Opción A: la invasión de órganos adyacentes y las adenopatías paraaórticas definen la irresecabilidad, y solo la resección R0 se asocia a supervivencia a largo plazo, de modo que una gastrectomía ampliada sumaría morbilidad sin beneficio oncológico. Opción C: la clase afirma expresamente que en la enfermedad metastásica la quimioterapia es mejor que el tratamiento de soporte, por lo que la abstención no es la conducta correcta. Opción D: la laparoscopia de estadificación sirve para detectar metástasis peritoneales antes de una cirugía con intención curativa, no para decidir el manejo urgente de una obstrucción en enfermedad ya conocida como irresecable. Punto de enseñanza: sin posibilidad de R0, la cirugía solo se justifica como paliación.",
+  "teaching_point": "En el cáncer gástrico irresecable con obstrucción o hemorragia y expectativa de vida superior al mes, el manejo es endoscópico, radioterápico paliativo o cirugía paliativa.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 20
+  },
+  "tags": [
+   "cáncer gástrico irresecable",
+   "paliación",
+   "obstrucción"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-M012",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En un adenocarcinoma gástrico, la ecoendoscopia informa infiltración que rebasa la muscular propia y adenopatías perigástricas, y la tomografía toracoabdominopélvica no identifica lesiones a distancia. El comité plantea cirugía con intención curativa. Señale qué exploración añade la clase para completar la estadificación antes de la resección y qué pretende descartar.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tránsito baritado, para valorar la distensibilidad de la cámara gástrica."
+   },
+   {
+    "id": "B",
+    "text": "Nueva ecoendoscopia, para recontar las adenopatías perigástricas sospechosas."
+   },
+   {
+    "id": "C",
+    "text": "Laparoscopia de estadificación, para descartar metástasis peritoneales."
+   },
+   {
+    "id": "D",
+    "text": "Gammagrafía ósea, para descartar diseminación hematógena al esqueleto."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase reparte las exploraciones por lo que cada una es capaz de ver: la ecoendoscopia evalúa la T y la N, la tomografía evalúa la N y las metástasis hematógenas, y la laparoscopia se reserva para detectar las metástasis peritoneales, que son precisamente las que escapan a las técnicas de imagen previas. En un tumor que rebasa la muscular propia y con ganglios sospechosos, encontrar siembra peritoneal cambiaría por completo la indicación quirúrgica. Opción A: el tránsito baritado no forma parte del algoritmo de estadificación expuesto y no aporta información sobre extensión. Opción B: repetir la ecoendoscopia no añade nada, porque su limitación no es el recuento ganglionar sino su incapacidad para explorar la cavidad peritoneal. Opción D: la gammagrafía ósea no figura entre las pruebas de estadificación del cáncer gástrico de la clase, que menciona como selectivas la resonancia y la tomografía por emisión de positrones. Punto de enseñanza: lo que la tomografía no ve es el peritoneo, y para eso está la laparoscopia.",
+  "teaching_point": "Ecoendoscopia para T y N, tomografía para N y metástasis hematógenas, laparoscopia de estadificación para las metástasis peritoneales.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "estadificación",
+   "laparoscopia",
+   "carcinomatosis peritoneal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T04-C001",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Helicobacter pylori fue declarado carcinógeno en 1994 y multiplica por cuatro el riesgo de cáncer gástrico. Enumere, en el orden correcto y en un máximo de veinte palabras, los pasos histológicos sucesivos de la cascada de Pelayo Correa que conducen desde la infección hasta el carcinoma gástrico de tipo intestinal.",
+  "respuesta_canonica": "Gastritis, gastritis atrófica, metaplasia intestinal, displasia y carcinoma de tipo intestinal",
+  "aceptadas": [
+   "gastritis del cuerpo, atrofia, metaplasia intestinal, displasia, carcinoma intestinal",
+   "gastritis crónica, atrofia gástrica, metaplasia intestinal, displasia, adenocarcinoma tipo intestinal",
+   "gastritis, atrofia gástrica, metaplasia intestinal, displasia y adenocarcinoma de tipo intestinal",
+   "gastritis por Helicobacter, gastritis atrófica, metaplasia, displasia, carcinoma gástrico intestinal"
+  ],
+  "conceptos_clave": [
+   "gastritis",
+   "metaplasia intestinal",
+   "displasia",
+   "carcinoma"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase atribuye a Helicobacter pylori un mecanismo secuencial bien definido, conocido como cascada de Pelayo Correa: la infección produce gastritis del cuerpo, que evoluciona a gastritis atrófica, después a metaplasia intestinal, luego a displasia y finalmente a carcinoma de tipo intestinal. Los cinco escalones deben aparecer en ese orden, porque el valor de la respuesta está en la secuencia y no en la enumeración suelta de lesiones. Se aceptan variantes de redacción siempre que aparezcan atrofia, metaplasia intestinal, displasia y carcinoma, y que el resultado final se identifique como de tipo intestinal, ya que el cáncer gástrico difuso responde a otra vía patogénica, la de la mutación del gen de la E-cadherina. Conviene recordar que la misma secuencia se alcanza desde la anemia perniciosa, en la que la inflamación autoinmune de las células parietales y principales produce aclorhidria, atrofia gástrica y metaplasia intestinal. Respuestas que omitan la displasia o que terminen en metaplasia se consideran incompletas.",
+  "teaching_point": "La cascada de Correa encadena gastritis, atrofia, metaplasia intestinal, displasia y carcinoma de tipo intestinal.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "cascada de Correa",
+   "Helicobacter pylori"
+  ]
+ },
+ {
+  "id": "T04-C002",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Ante una lesión submucosa gástrica formada por células fusiformes, el patólogo necesita confirmar que se trata de un tumor del estroma gastrointestinal. Indique, en un máximo de veinte palabras, cuál es el marcador inmunohistoquímico que se emplea en la clase para ese fin y qué receptor identifica exactamente.",
+  "respuesta_canonica": "CD-117, marcador del epítopo extracelular del receptor KIT",
+  "aceptadas": [
+   "CD117 (KIT)",
+   "CD-117, que detecta el receptor tirosina quinasa KIT",
+   "c-KIT identificado por CD-117",
+   "CD-117, marcador inmunohistoquímico del receptor KIT",
+   "CD117, epítopo extracelular del receptor KIT"
+  ],
+  "conceptos_clave": [
+   "CD-117",
+   "KIT"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase señala que los tumores del estroma gastrointestinal expresan receptores tirosina quinasa específicos, glicoproteínas transmembrana, y que el CD-117 es el marcador inmunohistoquímico del KIT, concretamente de su epítopo extracelular. Es la prueba que en la práctica confirma el diagnóstico ante una proliferación fusiforme submucosa y la que separa esta entidad del adenocarcinoma, del linfoma y del tumor carcinoide. Se acepta la respuesta que nombre el CD-117 asociándolo a KIT, con o sin la precisión del epítopo extracelular, porque el término que decide el acierto es la pareja marcador-receptor. El mismo perfil molecular sostiene el tratamiento dirigido: el imatinib es un inhibidor competitivo de KIT y de PDGFRA que inactiva estos receptores, y la clase distribuye las alteraciones en un 75 % de mutaciones de C-KIT, un 10 % de PDGFRA y un 14 % de SDH. Una respuesta que cite sólo la morfología fusiforme, sin marcador, no es válida.",
+  "teaching_point": "El CD-117 es el marcador inmunohistoquímico del receptor KIT y confirma el diagnóstico de GIST.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "GIST",
+   "CD-117",
+   "KIT"
+  ]
+ },
+ {
+  "id": "T04-C003",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Una familia acude a consejo genético porque varios miembros han desarrollado cáncer gástrico difuso a edades jóvenes. Indique, en un máximo de veinte palabras, qué gen se altera en el cáncer gástrico hereditario difuso que menciona la clase y qué función celular desempeña la proteína que codifica.",
+  "respuesta_canonica": "El gen de la E-cadherina, proteína de adhesión celular",
+  "aceptadas": [
+   "gen de adhesión celular E-cadherina",
+   "CDH1, que codifica la E-cadherina, molécula de adhesión celular",
+   "mutación del gen de la E-cadherina, proteína de adhesión intercelular",
+   "E-cadherina, responsable de la adhesión entre células epiteliales"
+  ],
+  "conceptos_clave": [
+   "E-cadherina",
+   "adhesión celular"
+  ],
+  "max_palabras": 20,
+  "explanation": "Entre los factores hereditarios de cáncer gástrico, la clase cita en primer lugar el cáncer gástrico hereditario difuso, producido por mutación del gen de la molécula de adhesión celular E-cadherina, y precisa que el 80 % de los portadores desarrollan cáncer gástrico. Junto a él enumera el síndrome de Li-Fraumeni y la poliposis adenomatosa familiar. La respuesta debe identificar la E-cadherina y su papel en la adhesión celular; se admite el nombre del gen CDH1 como sinónimo, aunque la clase lo designa por la proteína. Es importante distinguir esta vía de la cascada de Correa: el cáncer difuso hereditario no procede de la secuencia atrofia, metaplasia y displasia asociada a Helicobacter pylori, sino de la pérdida de adhesión intercelular, lo que explica su patrón infiltrativo y su presentación en pacientes más jóvenes. Una respuesta que sólo diga que es hereditario, sin nombrar el gen o la proteína, no puntúa.",
+  "teaching_point": "El cáncer gástrico hereditario difuso se debe a la mutación del gen de la E-cadherina, molécula de adhesión celular, con penetrancia del 80 %.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "cáncer gástrico hereditario difuso",
+   "E-cadherina"
+  ]
+ },
+ {
+  "id": "T04-C004",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Tras una gastrectomía por adenocarcinoma, el cirujano y el patólogo evalúan conjuntamente el residuo tumoral en los extremos distal y proximal, el borde radial y los ganglios linfáticos. Defina, en un máximo de veinte palabras, qué significa una resección R0 según la clasificación de Hermanek que utiliza la clase.",
+  "respuesta_canonica": "Ausencia de tumor residual con márgenes microscópicos negativos",
+  "aceptadas": [
+   "no queda tumor residual y todos los márgenes microscópicos son negativos",
+   "resección completa sin tumor residual macroscópico ni microscópico",
+   "ausencia de tumor residual con márgenes microscópicos libres",
+   "sin tumor residual: márgenes microscópicos negativos, incluido el radial"
+  ],
+  "conceptos_clave": [
+   "tumor residual",
+   "márgenes microscópicos negativos"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase recoge la evaluación del residuo tumoral propuesta por Hermanek en 1994, que clasifica la resección en tres categorías: R0 cuando no hay tumor residual y los márgenes microscópicos son negativos, R1 cuando los márgenes microscópicos son positivos y R2 cuando persiste residuo macroscópico. La evaluación se aplica a los extremos distal y proximal, al borde radial y a los ganglios linfáticos, de modo que basta con que uno de ellos esté afecto para perder la categoría R0. La respuesta debe contener las dos ideas: ausencia de tumor residual y negatividad microscópica de los márgenes; describir sólo bordes libres macroscópicos es insuficiente porque esa situación puede corresponder a una R1. La importancia práctica del concepto es que, según la clase, sólo los pacientes con resección R0 presentan supervivencia a largo plazo, y por eso cuando la R0 no es alcanzable debe evitarse la cirugía salvo con intención paliativa.",
+  "teaching_point": "R0 significa ausencia de tumor residual con márgenes microscópicos negativos, y sólo R0 se asocia a supervivencia a largo plazo.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "clasificación R",
+   "Hermanek",
+   "márgenes quirúrgicos"
+  ]
+ },
+ {
+  "id": "T04-L001",
+  "tema": 4,
+  "bloque": "estomago_bariatrica",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 68 años con pérdida de peso, saciedad precoz y anemia. La gastroscopia muestra una lesión ulcerada de seis centímetros en cuerpo gástrico y la biopsia informa adenocarcinoma. Exponga, en un máximo de trescientas cincuenta palabras, el proceso de estadificación que aplicaría, los criterios que determinan la resecabilidad y en qué consiste el tratamiento quirúrgico con intención curativa, incluyendo el significado pronóstico de la categoría R.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Indica endoscopia alta con biopsia como base diagnóstica y la ecoendoscopia para evaluar T y N",
+    "puntos": 0.43,
+    "claves": [
+     "endoscopia",
+     "biopsia",
+     "ecoendoscopia"
+    ]
+   },
+   {
+    "elemento": "Indica tomografía toracoabdominopélvica para N y metástasis hematógenas, con resonancia y PET-TC como pruebas selectivas",
+    "puntos": 0.43,
+    "claves": [
+     "TAC",
+     "metástasis",
+     "PET",
+     "resonancia"
+    ]
+   },
+   {
+    "elemento": "Añade la laparoscopia de estadificación para descartar metástasis peritoneales",
+    "puntos": 0.43,
+    "claves": [
+     "laparoscopia",
+     "peritoneal"
+    ]
+   },
+   {
+    "elemento": "Enumera los criterios de irresecabilidad: invasión de órganos adyacentes y adenopatías paraaórticas, y la regla de evitar la cirugía si no es posible R0 salvo paliación",
+    "puntos": 0.43,
+    "claves": [
+     "irresecable",
+     "órganos adyacentes",
+     "paraaórticos"
+    ]
+   },
+   {
+    "elemento": "Describe el tratamiento estándar: gastrectomía con márgenes libres y linfadenectomía D1/D2 con dieciséis ganglios",
+    "puntos": 0.43,
+    "claves": [
+     "gastrectomía",
+     "márgenes libres",
+     "linfadenectomía",
+     "D2",
+     "16 ganglios"
+    ]
+   },
+   {
+    "elemento": "Señala que el abordaje mínimamente invasivo ofrece iguales resultados oncológicos que la laparotomía",
+    "puntos": 0.21,
+    "claves": [
+     "resultados oncológicos"
+    ]
+   },
+   {
+    "elemento": "Define R0, R1 y R2 según Hermanek y precisa que sólo R0 se asocia a supervivencia a largo plazo",
+    "puntos": 0.43,
+    "claves": [
+     "R0",
+     "R1",
+     "R2",
+     "supervivencia a largo plazo"
+    ]
+   },
+   {
+    "elemento": "Menciona la valoración de la respuesta a la neoadyuvancia y la quimioterapia frente al soporte en enfermedad metastásica",
+    "puntos": 0.21,
+    "claves": [
+     "neoadyuvante",
+     "quimioterapia",
+     "soporte"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El diagnóstico ya está establecido por endoscopia alta con biopsia. La estadificación se construye asignando a cada prueba lo que realmente puede ver. La ecoendoscopia evalúa la profundidad de invasión y la afectación ganglionar: distingue el cáncer precoz, Tis y T1a, del intermedio T1b y del localmente avanzado, definido a partir de T2. La tomografía toracoabdominopélvica (TAC) valora ganglios y metástasis hematógenas, y de forma selectiva se recurre a la resonancia o a la tomografía por emisión de positrones (PET-TC). Como ninguna de estas técnicas explora bien la superficie peritoneal, se añade la laparoscopia de estadificación para descartar metástasis peritoneales antes de una resección con intención curativa. Con esa información se decide la resecabilidad. Se consideran irresecables la invasión de órganos adyacentes y la afectación de ganglios paraaórticos. La regla que gobierna la decisión es sencilla: si la resección R0 es posible, la cirugía ofrece la mejor perspectiva; si no lo es, debe evitarse la cirugía salvo con finalidad paliativa, reservada a la obstrucción o la hemorragia, donde también caben el manejo endoscópico y la radioterapia paliativa. El tratamiento quirúrgico estándar con intención curativa es la gastrectomía con márgenes libres acompañada de linfadenectomía D1 o D2, con un mínimo de dieciséis ganglios examinados para que la estadificación ganglionar sea fiable. El abordaje clásico fue la laparotomía, pero actualmente se emplea la vía mínimamente invasiva, con iguales resultados oncológicos. Tras la resección, la evaluación del residuo tumoral de Hermanek clasifica la intervención en R0, ausencia de tumor residual con márgenes microscópicos negativos; R1, márgenes microscópicos positivos; y R2, residuo macroscópico. Esa evaluación abarca los extremos distal y proximal, el borde radial y los ganglios linfáticos. Su relevancia es pronóstica y directa: sólo los pacientes con resección R0 presentan supervivencia a largo plazo, lo que convierte la R0 en el objetivo que ordena toda la planificación. En el paciente que recibe tratamiento neoadyuvante debe valorarse la respuesta antes de la cirugía, y en la enfermedad metastásica la quimioterapia es preferible al tratamiento de soporte.",
+  "explanation": "La pregunta obliga a recorrer el algoritmo completo del adenocarcinoma gástrico tal como se expone en la clase, y se corrige por elementos observables más que por extensión. El alumno debe demostrar que entiende para qué sirve cada prueba, y no limitarse a enumerarlas: la ecoendoscopia aporta T y N, la tomografía aporta N y metástasis hematógenas, y la laparoscopia aporta el peritoneo, que es el punto ciego de las anteriores. El segundo bloque de puntuación evalúa la resecabilidad, donde el criterio decisivo no es la localización del tumor sino la posibilidad de alcanzar una resección R0; quien no formule esa regla pierde el elemento correspondiente aunque describa bien la técnica. El tercer bloque exige la definición del estándar quirúrgico con sus dos componentes, márgenes libres y linfadenectomía D1 o D2 con dieciséis ganglios, y el reconocimiento de que la vía mínimamente invasiva no penaliza el resultado oncológico. El último bloque comprueba el manejo de la clasificación del residuo tumoral y su traducción pronóstica. Se penaliza incluir cifras de supervivencia por estadio que el alumno no pueda referenciar.",
+  "teaching_point": "Toda la estrategia del adenocarcinoma gástrico se ordena alrededor de una sola pregunta: si es posible una resección R0.",
+  "guideline_ref": "Cirugía AEC 2022, sección de estómago; AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "04.- Pat Gástrica M.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "adenocarcinoma gástrico",
+   "estadificación",
+   "gastrectomía",
+   "resección R0"
+  ]
+ }
+]

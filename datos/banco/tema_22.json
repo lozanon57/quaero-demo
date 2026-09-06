@@ -1,0 +1,711 @@
+[
+ {
+  "id": "T22-M001",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 41 años con episodios matutinos de sudoración, temblor y confusión que ceden tras beber zumo. Durante una crisis se documenta glucemia de 52 mg/dl con insulina y péptido C elevados y beta-hidroxibutirato bajo. La TC con contraste en fases arterial y portal no muestra lesiones. ¿Qué actuación diagnóstica procede a continuación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Octreoscan con 111In-DTPA-octreotido, por la elevada expresion de receptores de somatostatina en estos tumores."
+   },
+   {
+    "id": "B",
+    "text": "Test del ayuno de 72 horas para demostrar la falta de supresion de la insulina."
+   },
+   {
+    "id": "C",
+    "text": "Ecoendoscopia pancreatica, con sensibilidad superior a TC y RM en lesiones menores de 2 cm."
+   },
+   {
+    "id": "D",
+    "text": "Determinacion de peptido C para descartar una hipoglucemia ficticia por insulina exogena."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El cuadro es un insulinoma bioquimicamente confirmado: hipoglucemia sintomatica con insulina no suprimida, peptido C elevado y beta-hidroxibutirato bajo. El problema pendiente no es el diagnostico sino la localizacion, y la clase es explicita en que la ecoendoscopia tiene sensibilidad superior a TC y RM para lesiones menores de 2 cm, ademas de permitir puncion para estudio histologico y valorar la relacion de la lesion con el Wirsung, dato que decide si cabe una enucleacion. Opción A: el insulinoma expresa pocos receptores de somatostatina 2 y 5, de modo que el Octreoscan tiene precisamente en este tumor su peor rendimiento y no resolveria el problema de localizacion. Opción B: el test del ayuno de 72 horas ya no aporta nada porque la triada bioquimica esta documentada; repetirlo retrasa la localizacion sin cambiar el diagnostico. Opción D: el peptido C ya consta elevado en el enunciado, lo que descarta la hipoglucemia ficticia, en la que la insulina alta no se acompaña de peptido C elevado. Punto de enseñanza: con insulinoma confirmado y TC negativa, el siguiente paso es la ecoendoscopia.",
+  "teaching_point": "Insulinoma confirmado con TC negativa: la ecoendoscopia es la prueba de localizacion de eleccion en lesiones menores de 2 cm.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 18
+  },
+  "tags": [
+   "insulinoma",
+   "ecoendoscopia",
+   "localizacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M002",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 38 años con diarrea acuosa de unos 6 litros al día, sin sangre ni moco, que persiste durante el ayuno. Está hipotenso, con potasio de 2,6 mEq/l, acidosis metabólica e hipoclorhidria. La TC muestra una masa sólida de 5 cm en la cola pancreática. ¿Qué tumor explica mejor el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "VIPoma, con sindrome de Verner-Morrison."
+   },
+   {
+    "id": "B",
+    "text": "Gastrinoma, con sindrome de Zollinger-Ellison."
+   },
+   {
+    "id": "C",
+    "text": "Somatostatinoma de localizacion caudal."
+   },
+   {
+    "id": "D",
+    "text": "Glucagonoma con diarrea paraneoplasica."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La combinacion de diarrea acuosa masiva que no cede con el ayuno, hipopotasemia, acidosis metabolica e hipoclorhidria define el sindrome de Verner-Morrison del VIPoma, tal como se describe en la clase. Encajan ademas el tamaño (tumores unicos mayores de 3 cm), la localizacion en cola en el 75 % de los casos y el predominio en varones en la cuarta decada. Opción B: el gastrinoma cursa con hipersecrecion acida y pH gastrico bajo, no con hipoclorhidria; su diarrea se acompaña de ulceras pepticas recidivantes. Opción C: el somatostatinoma asienta en duodeno y cabeza pancreatica y su cuadro tipico combina colelitiasis, diabetes, esteatorrea y perdida de peso, no una diarrea secretora de varios litros. Opción D: el glucagonoma produce eritema necrolitico migratorio, diabetes, hipoalbuminemia y anemia; la diarrea no es su manifestacion dominante ni justifica esta depleccion hidroelectrolitica. Punto de enseñanza: diarrea secretora que persiste en ayunas con hipopotasemia y aclorhidria es VIPoma hasta demostrar lo contrario.",
+  "teaching_point": "Diarrea acuosa que no cede con el ayuno, hipopotasemia y aclorhidria: sindrome de Verner-Morrison por VIPoma.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 13
+  },
+  "tags": [
+   "VIPoma",
+   "Verner-Morrison",
+   "diarrea secretora"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M003",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 62 años con pérdida de peso, anemia e hiperglucemia de reciente diagnóstico. Presenta un exantema eritematoso de bordes serpiginosos que cambia de localización de una semana a otra, con ampollas y descamación en ingles y periné, y albúmina de 2,4 g/dl. La TC identifica una masa de 6 cm en la cola pancreática con nódulos hepáticos. ¿Qué diagnóstico es más probable?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Somatostatinoma, que tambien cursa con diabetes, diarrea y perdida de peso."
+   },
+   {
+    "id": "B",
+    "text": "VIPoma, que tambien asienta en la cola y debuta con metastasis."
+   },
+   {
+    "id": "C",
+    "text": "Tumor neuroendocrino no funcionante, que explicaria la masa caudal y los nodulos hepaticos."
+   },
+   {
+    "id": "D",
+    "text": "Glucagonoma, cuyo eritema necrolitico migratorio acompaña a la diabetes y la hipoalbuminemia."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El eritema necrolitico migratorio, que es la dermatosis descrita en el enunciado, junto con diabetes de reciente diagnostico, hipoalbuminemia, anemia y perdida de peso, constituye la firma clinica del glucagonoma tal como se expone en la clase. Concuerdan tambien el sexo femenino, la sexta decada de la vida, el tamaño grande, la localizacion en la cola del pancreas y la presencia de metastasis en el momento del diagnostico, que es la regla en este tumor. Opción A: el somatostatinoma comparte la diabetes, la diarrea y la perdida de peso, pero asienta en duodeno y cabeza pancreatica y su cuadro se completa con colelitiasis y esteatorrea, sin dermatosis. Opción B: el VIPoma comparte la localizacion caudal, el tamaño grande y el debut metastasico, pero su manifestacion dominante es una diarrea acuosa masiva con hipopotasemia y acidosis que aqui no existe. Opción C: un tumor no funcionante explicaria la masa y los nodulos hepaticos, pero por definicion carece de traduccion hormonal y no justifica ni la dermatosis ni la diabetes de novo. Punto de enseñanza: ante una masa caudal ya metastasica, la dermatosis migratoria con diabetes e hipoalbuminemia es lo que identifica al glucagonoma.",
+  "teaching_point": "Eritema necrolitico migratorio con diabetes, anemia e hipoalbuminemia: glucagonoma, casi siempre ya metastasico.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 14
+  },
+  "tags": [
+   "glucagonoma",
+   "eritema necrolitico migratorio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M004",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 34 años con úlceras duodenales múltiples recidivantes, gastrina sérica elevada y pH gástrico bajo. El estudio genético confirma una neoplasia endocrina múltiple tipo 1 y asocia hipercalcemia con PTH elevada. La TC identifica una lesión pancreática de 3 cm en la cabeza. ¿Qué secuencia terapéutica procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resecar el gastrinoma y diferir la paratiroidectomia hasta comprobar la respuesta clinica."
+   },
+   {
+    "id": "B",
+    "text": "Operar primero el hiperparatiroidismo primario y despues abordar el gastrinoma pancreatico."
+   },
+   {
+    "id": "C",
+    "text": "Mantener actitud conservadora con inhibidores de la bomba de protones por tratarse de un MEN1."
+   },
+   {
+    "id": "D",
+    "text": "Realizar la paratiroidectomia y la reseccion del gastrinoma en un mismo acto quirurgico."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "En el gastrinoma asociado a MEN1 con hiperparatiroidismo primario concomitante, la clase indica operar primero las paratiroides y despues el pancreas: corregir la hipercalcemia alivia los sintomas ulcerosos y facilita el tratamiento medico del gastrinoma. Ademas, en el MEN1 la cirugia pancreatica se reserva para lesiones mayores de 2 cm por el riesgo de metastasis, condicion que este paciente cumple con sus 3 cm. Opción A: invierte el orden recomendado y deja sin tratar la hipercalcemia, que agrava la hipersecrecion acida y empeora el control sintomatico. Opción C: la abstencion quirurgica solo se acepta en el MEN1 para gastrinomas menores de 2 cm; con 3 cm esta indicada la reseccion para reducir el riesgo de diseminacion. Opción D: reunir ambas intervenciones en un mismo acto renuncia al beneficio de operar el pancreas con la calcemia ya corregida, que es justamente lo que alivia los sintomas ulcerosos y facilita el tratamiento medico del gastrinoma. Punto de enseñanza: paratiroides antes que pancreas en el MEN1.",
+  "teaching_point": "Gastrinoma en MEN1 con hiperPTH primario: primero paratiroidectomia; cirugia pancreatica si el tumor supera los 2 cm.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 29
+  },
+  "tags": [
+   "gastrinoma",
+   "MEN1",
+   "hiperparatiroidismo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M005",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Durante la laparotomía de una mujer de 45 años con insulinoma bioquímicamente confirmado y estudio preoperatorio no localizador, la palpación bimanual y la ecografía intraoperatoria de todo el páncreas no identifican ninguna lesión. No hay adenopatías ni implantes y la paciente está hemodinámicamente estable. ¿Qué actuación procede en ese momento?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cerrar sin resecar y completar el estudio de localizacion en el postoperatorio."
+   },
+   {
+    "id": "B",
+    "text": "Realizar una pancreatectomia distal a ciegas por ser la localizacion mas probable."
+   },
+   {
+    "id": "C",
+    "text": "Realizar una duodenopancreatectomia cefalica reglada con linfadenectomia estandar."
+   },
+   {
+    "id": "D",
+    "text": "Realizar una duodenotomia con transiluminacion para localizar el tumor en la pared."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase es taxativa: cuando el insulinoma no se localiza ni antes ni durante la intervencion, no esta indicada la reseccion a ciegas. La conducta correcta es cerrar y reorientar el estudio de localizacion, con la opcion de terapias ablativas locales, como la radiofrecuencia o la etanolizacion, en pacientes que finalmente no sean candidatos a cirugia. Opción B: la pancreatectomia distal a ciegas expone a una reseccion inutil, con riesgo de fistula, diabetes y esplenectomia, sin garantia de extirpar el tumor. Opción C: la duodenopancreatectomia cefalica es una intervencion de morbilidad elevada que ademas no requiere linfadenectomia en el insulinoma, tumor benigno en el 90 % de los casos. Opción D: la duodenotomia con transiluminacion es un paso imprescindible en la cirugia del gastrinoma, cuyo asiento mas frecuente es la pared duodenal, pero no aporta nada en el insulinoma, que es un tumor pancreatico. Punto de enseñanza: insulinoma no localizado, no se reseca a ciegas.",
+  "teaching_point": "Si el insulinoma no se localiza ni preoperatoria ni intraoperatoriamente, no se practica reseccion pancreatica a ciegas.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 27
+  },
+  "tags": [
+   "insulinoma",
+   "cirugia",
+   "ecografia intraoperatoria"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M006",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un varón de 44 años con úlceras duodenales recidivantes y gastrina sérica muy elevada es intervenido de un gastrinoma esporádico. El cirujano explora de forma sistemática la región donde asienta la mayoría de estos tumores y sobre la que practicará después la linfadenectomía. ¿Qué tres estructuras anatómicas delimitan esa región?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Piloro, primera porcion duodenal y cuerpo-cola del pancreas."
+   },
+   {
+    "id": "B",
+    "text": "Ligamento hepatoduodenal, hilio esplenico y cuerpo pancreatico."
+   },
+   {
+    "id": "C",
+    "text": "Ligamento hepatoduodenal, segunda-tercera porcion duodenal y cabeza-uncinado pancreatico."
+   },
+   {
+    "id": "D",
+    "text": "Angulo de Treitz, vena mesenterica superior y proceso uncinado."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El triangulo del gastrinoma queda delimitado por el ligamento hepatoduodenal (hilio hepatico), la segunda y tercera porcion duodenal y el bloque cabeza-uncinado-istmo del pancreas. Conocerlo importa porque condiciona toda la tactica: exploracion completa de la cavidad, ecografia intraoperatoria del pancreas, duodenotomia con transiluminacion y linfadenectomia de ese territorio. Opción A: el piloro y el cuerpo-cola pancreatico quedan fuera del triangulo; los gastrinomas de cola son excepcionales y esta delimitacion llevaria a explorar una zona equivocada. Opción B: el hilio esplenico y el cuerpo pancreatico corresponden al territorio tipico del VIPoma y del glucagonoma, no del gastrinoma. Opción D: el angulo de Treitz marca el limite duodenoyeyunal, distal al triangulo, y la vena mesenterica superior no es uno de sus vertices clasicos. Punto de enseñanza: hilio hepatico, segunda-tercera porcion duodenal y cabeza-uncinado son los tres vertices que hay que explorar.",
+  "teaching_point": "Triangulo del gastrinoma: ligamento hepatoduodenal, segunda-tercera porcion duodenal y cabeza-uncinado-istmo pancreatico.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 12
+  },
+  "tags": [
+   "gastrinoma",
+   "anatomia quirurgica",
+   "triangulo del gastrinoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M007",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Un varón de 52 años con obesidad grave y diabetes tipo 2 mal controlada es intervenido mediante bypass gástrico. A las dos semanas, cuando todavía apenas ha perdido peso, sus glucemias se han normalizado y ha podido suspender la insulina. ¿Qué mecanismo explica mejor esta mejoría precoz?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La restriccion calorica del postoperatorio inmediato, con un balance energetico muy negativo."
+   },
+   {
+    "id": "B",
+    "text": "La reduccion de la masa grasa visceral alcanzada durante las primeras semanas."
+   },
+   {
+    "id": "C",
+    "text": "La disminucion de la secrecion pancreatica exocrina inducida por la derivacion."
+   },
+   {
+    "id": "D",
+    "text": "La activacion de mecanismos neuroendocrinos, con implicacion del GLP-1, no proporcional al peso perdido."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase subraya que la cirugia bariatrica regula el metabolismo de la glucosa activando mecanismos neuroendocrinos, y que la mejoria del control glucemico aparece poco despues de la intervencion sin relacion proporcional clara con la perdida de peso; el peptido 1 similar al glucagon (GLP-1) parece estar implicado. Por eso los procedimientos derivativos, como el bypass, el SADI-S o el cruce duodenal, controlan la diabetes tipo 2 en la mayoria de los casos. Opción A: la restriccion calorica contribuye, pero no explica una remision que precede a la perdida ponderal significativa ni que los procedimientos derivativos controlen la diabetes mejor que los puramente restrictivos. Opción B: a las dos semanas la reduccion de grasa visceral es minima y no justifica la retirada de la insulina. Opción C: la secrecion exocrina no interviene en la homeostasis de la glucosa; confundir ambas funciones pancreaticas es el error tipico aqui. Punto de enseñanza: el efecto metabolico de la cirugia bariatrica es incretinico y precoz, no solo ponderal.",
+  "teaching_point": "La mejoria glucemica tras cirugia bariatrica es precoz y neuroendocrina (GLP-1), no proporcional a la perdida de peso.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de cirugia de la obesidad y metabolica",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 38
+  },
+  "tags": [
+   "cirugia metabolica",
+   "GLP-1",
+   "bypass gastrico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M008",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "El informe anatomopatológico de un tumor neuroendocrino pancreático debe permitir asignar un grado histológico con implicación pronóstica y terapéutica, según la clasificación de la Organización Mundial de la Salud de 2017 empleada en la clase. ¿Sobre qué dos parámetros se establece ese grado y cómo se evalúan?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Indice mitotico por campo aislado e indice Ki-67 evaluado sobre 100 celulas."
+   },
+   {
+    "id": "B",
+    "text": "Indice mitotico por 10 campos de gran aumento e indice Ki-67 evaluado sobre mas de 500 celulas."
+   },
+   {
+    "id": "C",
+    "text": "Grado de invasion vascular y porcentaje de celulas con receptores de somatostatina."
+   },
+   {
+    "id": "D",
+    "text": "Tamaño tumoral y presencia de necrosis, igual que en el adenocarcinoma ductal."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clasificacion histologica de los tumores neuroendocrinos pancreaticos se apoya en dos parametros de proliferacion: el indice mitotico, contado por 10 campos de gran aumento, y el indice Ki-67, que debe evaluarse sobre mas de 500 celulas. Ambos deben constar en el informe para poder estadificar correctamente y decidir tratamiento. Opción A: el recuento sobre un unico campo y sobre solo 100 celulas es insuficiente y produce una infraestimacion o sobreestimacion del grado por muestreo. Opción C: la invasion vascular y la expresion de receptores de somatostatina tienen valor pronostico y terapeutico, esta ultima para el tratamiento con analogos o radionuclidos, pero no definen el grado histologico. Opción D: el tamaño y la necrosis no gradan estos tumores; el sistema del adenocarcinoma ductal solo se aplica al carcinoma neuroendocrino de alto grado, no a la gradacion de los tumores bien diferenciados. Punto de enseñanza: grado equivale a mitosis por 10 campos mas Ki-67 sobre mas de 500 celulas.",
+  "teaching_point": "El grado de un TNE pancreatico se establece con el indice mitotico por 10 campos de gran aumento y el Ki-67 sobre mas de 500 celulas.",
+  "guideline_ref": "WHO Classification of Tumours of Endocrine Organs, 4.a ed. (IARC, Lyon, 2017), citada en la clase",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 7
+  },
+  "tags": [
+   "clasificacion WHO",
+   "Ki-67",
+   "indice mitotico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M009",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Se valora un trasplante hepático en un paciente con metástasis hepáticas de un tumor neuroendocrino pancreático bien diferenciado G1-G2. El tumor primario ya está resecado, no hay enfermedad extrahepática y la enfermedad lleva ocho meses estable con tratamiento sistémico. ¿Qué umbrales exige además cumplir la selección de candidatos según los criterios de Mazzaferro expuestos en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ki-67 menor del 10 %, carga metastasica menor del 50 % del volumen hepatico y edad inferior a 60 años."
+   },
+   {
+    "id": "B",
+    "text": "Ki-67 menor del 20 %, carga metastasica menor del 50 % del volumen hepatico y edad inferior a 65 años."
+   },
+   {
+    "id": "C",
+    "text": "Ki-67 menor del 10 %, carga metastasica menor del 70 % del volumen hepatico y edad inferior a 60 años."
+   },
+   {
+    "id": "D",
+    "text": "Ki-67 menor del 5 %, carga metastasica menor del 30 % del volumen hepatico y edad inferior a 55 años."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "Los criterios de Mazzaferro expuestos en la clase exigen, en un tumor bien diferenciado G1-G2, un indice Ki-67 inferior al 10 %, una carga metastasica total menor del 50 % del volumen hepatico y una edad inferior a 60 años, ademas de ausencia de enfermedad extrahepatica, tumor primario ya resecado y enfermedad estable con tratamiento durante al menos seis meses previos; se recomienda tambien laparoscopia o laparotomia previa para descartar enfermedad peritoneal o ganglionar oculta. Opción B: elevar el Ki-67 hasta el 20 % desdibuja precisamente la seleccion biologica que sostiene la indicacion, y ampliar la edad a 65 años se aparta del limite recogido. Opción C: admitir una carga metastasica del 70 % del volumen hepatico deja un higado con escasa reserva y contradice el umbral del 50 %. Opción D: exigir un Ki-67 menor del 5 %, una carga menor del 30 % y una edad menor de 55 años es mas restrictivo que lo establecido y excluiria a candidatos que si obtienen beneficio de supervivencia. Punto de enseñanza: el trasplante en metastasis neuroendocrinas se decide con umbrales concretos, no con una impresion general de buen pronostico.",
+  "teaching_point": "Mazzaferro: G1-G2 con Ki-67 menor del 10 %, sin enfermedad extrahepatica, primario resecado, carga hepatica menor del 50 %, estabilidad de seis meses y edad menor de 60 años.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de trasplante hepatico",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 33
+  },
+  "tags": [
+   "Mazzaferro",
+   "trasplante hepatico",
+   "metastasis hepaticas"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M010",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Se descubre de forma incidental, en una mujer de 58 años sin comorbilidad relevante, un tumor neuroendocrino pancreático no funcionante de 3 cm situado en el cuerpo, bien diferenciado G2 en la punción, sin metástasis en el estudio de extensión. ¿Qué actuación procede según los criterios expuestos en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Seguimiento con TC semestral, reservando la cirugia para el crecimiento o la aparicion de sintomas."
+   },
+   {
+    "id": "B",
+    "text": "Enucleacion de la lesion, evitando la esplenectomia y la linfadenectomia."
+   },
+   {
+    "id": "C",
+    "text": "Pancreatectomia corporocaudal con esplenectomia y linfadenectomia, con criterios oncologicos."
+   },
+   {
+    "id": "D",
+    "text": "Tratamiento sistemico con analogos de somatostatina antes de plantear cualquier cirugia."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La cirugia es el tratamiento de eleccion de los tumores neuroendocrinos pancreaticos no funcionantes G1 y G2 mayores de 2 cm, y en ellos deben aplicarse los mismos criterios oncologicos que en el adenocarcinoma ductal, es decir, linfadenectomia y margenes adecuados. Para una lesion de cuerpo o cola la tecnica que corresponde es la pancreatectomia distal con esplenectomia. Opción A: la observacion solo se contempla, y de forma controvertida, en tumores no funcionantes G1 menores de 2 cm; esta lesion es G2 y mide 3 cm, de modo que esperar al crecimiento o a los sintomas deja progresar un tumor hoy resecable. Opción B: la enucleacion se reserva para tumores G1 menores de 2 cm alejados del Wirsung, y ademas no proporciona margen oncologico ni linfadenectomia, exigibles aqui. Opción D: los analogos de somatostatina son tratamiento de la enfermedad avanzada o irresecable, no un paso previo obligado en un tumor localizado y resecable. Punto de enseñanza: no funcionante mayor de 2 cm equivale a reseccion oncologica reglada.",
+  "teaching_point": "TNE pancreatico no funcionante G1-G2 mayor de 2 cm: reseccion reglada con criterios oncologicos, no enucleacion ni observacion.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 25
+  },
+  "tags": [
+   "TNE no funcionante",
+   "indicacion quirurgica",
+   "pancreatectomia distal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M011",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente es intervenido de un insulinoma de 1,5 cm situado en el cuerpo pancreático y alejado del conducto de Wirsung, mediante enucleación. Al cuarto día del postoperatorio el drenaje recoge unos 200 ml de líquido claro con amilasa muy elevada, sin repercusión sistémica. ¿Qué complicación se ha producido?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Coleccion serosa esteril del lecho de la enucleacion, sin comunicacion ductal."
+   },
+   {
+    "id": "B",
+    "text": "Fistula quilosa por seccion de linfaticos retroperitoneales durante la diseccion."
+   },
+   {
+    "id": "C",
+    "text": "Hemorragia postoperatoria tardia por seudoaneurisma de la arteria esplenica."
+   },
+   {
+    "id": "D",
+    "text": "Fistula pancreatica por comunicacion con una rama del sistema ductal."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "Un debito por drenaje rico en amilasa a partir del tercer o cuarto dia define una fistula pancreatica, y la clase señala expresamente el alto riesgo de fistula como la principal desventaja de la enucleacion, junto con la falta de margen oncologico y la ausencia de linfadenectomia. Es el precio de conservar parenquima y evitar una reseccion mayor. Opción A: una coleccion serosa del lecho tambien da liquido claro y un debito moderado, pero sin comunicacion con el sistema ductal la amilasa del drenaje no se dispara; es la amilasa, y no el aspecto del liquido, lo que separa ambos escenarios. Opción B: la fistula quilosa aparece tras disecciones retroperitoneales amplias, se hace evidente al reintroducir la dieta con un liquido lechoso y es rica en trigliceridos, no en amilasa. Opción C: la hemorragia por seudoaneurisma cursa con sangrado, inestabilidad o un sangrado centinela, no con liquido claro y un paciente sin repercusion sistemica. Punto de enseñanza: en cirugia pancreatica lo que define la fistula es la amilasa del drenaje, y la enucleacion es la tecnica que mas la produce.",
+  "teaching_point": "Debito con amilasa elevada tras enucleacion pancreatica: fistula pancreatica, la complicacion propia de la tecnica.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "enucleacion",
+   "fistula pancreatica",
+   "complicacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-M012",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "En el estudio de una masa pancreática se realiza una TC con contraste intravenoso que incluye fase arterial y fase portal. El informe describe una lesión sólida homogénea de 2,5 cm en la cabeza, marcadamente hipercaptante en la fase arterial y con descenso de la intensidad en la fase portal. ¿Qué diagnóstico sugiere ese patrón?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Adenocarcinoma ductal de pancreas."
+   },
+   {
+    "id": "B",
+    "text": "Tumor neuroendocrino pancreatico."
+   },
+   {
+    "id": "C",
+    "text": "Masa inflamatoria de pancreatitis cronica focal."
+   },
+   {
+    "id": "D",
+    "text": "Neoplasia quistica mucinosa de pancreas."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase describe como tipico del tumor neuroendocrino pancreatico el comportamiento hiperintenso en fase arterial con disminucion de la intensidad en fase portal, en una lesion generalmente homogenea; por eso la TC con contraste intravenoso es de eleccion y resulta imprescindible incluir al menos fase arterial y fase portal. Opción A: el adenocarcinoma ductal es caracteristicamente hipovascular, se muestra hipodenso respecto al parenquima y suele asociar dilatacion del Wirsung y atrofia distal. Opción C: la masa inflamatoria de la pancreatitis cronica no realza de forma marcada en fase arterial y se acompaña de calcificaciones y cambios ductales cronicos. Opción D: una neoplasia quistica mucinosa es una lesion de contenido liquido con tabiques, no una lesion solida hipervascular homogenea. Punto de enseñanza: hipervascular en fase arterial con lavado portal es el patron del tumor neuroendocrino, lo contrario del adenocarcinoma ductal.",
+  "teaching_point": "Lesion pancreatica solida hipercaptante en fase arterial con lavado portal: patron radiologico del tumor neuroendocrino.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 18
+  },
+  "tags": [
+   "TC trifasica",
+   "hipervascular",
+   "diagnostico radiologico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T22-C001",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Una paciente con hipoglucemias de repetición ingresa para estudio con sospecha de insulinoma. Enumere los tres elementos que integran la tríada de Whipple, tal como se define en la clase, y que, junto con el test del ayuno de 72 horas, orientan el diagnóstico bioquímico.",
+  "respuesta_canonica": "Sintomas de hipoglucemia, glucemia menor de 55 mg/dl y recuperacion rapida al administrar glucosa",
+  "aceptadas": [
+   "clinica de hipoglucemia, glucosa por debajo de 55 mg/dl y mejoria inmediata tras dar glucosa",
+   "sintomas neuroglucopenicos, hipoglucemia documentada menor de 55 mg/dl y resolucion con glucosa",
+   "sintomas compatibles, glucemia baja (<55 mg/dl) y alivio con la administracion de glucosa",
+   "sintomas de hipoglucemia, glucemia inferior a 55 mg/dl y recuperacion al administrar glucosa"
+  ],
+  "conceptos_clave": [
+   "hipoglucemia",
+   "55",
+   "glucosa"
+  ],
+  "max_palabras": 20,
+  "explanation": "La triada de Whipple es el armazon clinico que permite afirmar que una hipoglucemia es real y no un artefacto de laboratorio o una sensacion referida por el paciente. Requiere tres elementos simultaneos: sintomas compatibles con hipoglucemia, glucosa plasmatica por debajo de 55 mg/dl documentada en ese momento, y recuperacion rapida de la clinica al administrar glucosa. En el insulinoma los sintomas se hacen mas evidentes con el ejercicio fisico o el ayuno prolongado, y se dividen en neuroglucopenicos (crisis de ausencia, convulsiones, alucinaciones visuales) y neurovegetativos (mareo, sudoracion). Confirmada la triada, el paso siguiente es el test del ayuno de 72 horas, que busca la falta de supresion de la secrecion de insulina tras aparecer la hipoglucemia; la medicion de beta-hidroxibutirato tiene alto valor predictivo negativo y puede permitir finalizar la prueba antes de completar las 72 horas. Conviene recordar ademas que insulina elevada sin peptido C elevado indica hipoglucemia ficticia por insulina exogena.",
+  "teaching_point": "Sin triada de Whipple documentada no se debe iniciar el estudio de localizacion de un insulinoma.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 9
+  },
+  "tags": [
+   "insulinoma",
+   "triada de Whipple",
+   "hipoglucemia"
+  ]
+ },
+ {
+  "id": "T22-C002",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Un varón de 40 años presenta úlceras duodenales múltiples y recidivantes, diarrea y esofagitis grave, con gastrina sérica muy elevada y pH gástrico bajo. Indique el nombre del síndrome clínico que produce la hipersecreción ácida secundaria a la liberación mantenida de gastrina por el tumor.",
+  "respuesta_canonica": "Sindrome de Zollinger-Ellison",
+  "aceptadas": [
+   "Zollinger-Ellison",
+   "sindrome de Zollinger Ellison",
+   "sd. de Zollinger-Ellison",
+   "el sindrome de Zollinger-Ellison"
+  ],
+  "conceptos_clave": [
+   "Zollinger",
+   "Ellison"
+  ],
+  "max_palabras": 20,
+  "explanation": "El gastrinoma es un tumor neuroendocrino habitualmente de pequeño tamaño que asienta en el triangulo del gastrinoma, delimitado por la cabeza pancreatica, el hilio hepatico y el duodeno. Su diagnostico se apoya en la combinacion de hipersecrecion de gastrina y pH gastrico bajo, y la hipersecrecion acida resultante da lugar al sindrome de Zollinger-Ellison, con ulceras pepticas multiples y recidivantes de localizacion a menudo atipica, diarrea y esofagitis grave. Hasta el 20 % de los gastrinomas aparecen en el contexto de una neoplasia endocrina multiple tipo 1, de modo que su diagnostico obliga siempre a descartar un MEN1, igual que ocurre con el insulinoma. Esa distincion no es academica: en el MEN1 la cirugia pancreatica no se indica en tumores menores de 2 cm, y si coexiste hiperparatiroidismo primario debe operarse primero la paratiroides. La cirugia del gastrinoma esporadico exige duodenotomia con transiluminacion y linfadenectomia del triangulo.",
+  "teaching_point": "Ulceras pepticas multiples recidivantes con gastrina alta y pH gastrico bajo: sindrome de Zollinger-Ellison por gastrinoma.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 11
+  },
+  "tags": [
+   "gastrinoma",
+   "Zollinger-Ellison",
+   "MEN1"
+  ]
+ },
+ {
+  "id": "T22-C003",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Se plantea una enucleación en un tumor neuroendocrino pancreático G1 menor de 2 cm y alejado del conducto de Wirsung. Cite las tres desventajas, oncológicas o técnicas, que la enucleación presenta frente a una resección pancreática reglada, según se expuso en la clase.",
+  "respuesta_canonica": "Alto riesgo de fistula pancreatica, falta de margen oncologico y ausencia de linfadenectomia",
+  "aceptadas": [
+   "riesgo de fistula, sin margen oncologico y sin linfadenectomia",
+   "fistula pancreatica, ausencia de margen y no se realiza linfadenectomia"
+  ],
+  "conceptos_clave": [
+   "fistula",
+   "margen",
+   "linfadenectomia"
+  ],
+  "max_palabras": 20,
+  "explanation": "La enucleacion es la tecnica que mas parenquima conserva y por eso resulta atractiva en tumores pequeños y bien diferenciados, pero la clase enumera con claridad su precio: alto riesgo de fistula pancreatica, falta de margen oncologico y ausencia de linfadenectomia. De ahi que solo se acepte en tumores G1 menores de 2 cm alejados del conducto de Wirsung, y que la colangio-RM sea imprescindible antes de plantearla, porque es la prueba que define la distancia real de la lesion al conducto principal. En el insulinoma esporadico la regla practica es que los tumores separados mas de 2-3 mm del Wirsung pueden enuclearse, y cuando no es posible se recurre a una duodenopancreatectomia cefalica o a una pancreatectomia corporal o distal. En el insulinoma asociado a MEN1 la enucleacion es tambien el procedimiento de eleccion. Para los tumores G1 y G2 mayores de 2 cm se aplican los criterios oncologicos del adenocarcinoma ductal.",
+  "teaching_point": "La enucleacion conserva parenquima pero renuncia a margen y linfadenectomia y multiplica el riesgo de fistula.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "enucleacion",
+   "fistula pancreatica",
+   "tecnica quirurgica"
+  ]
+ },
+ {
+  "id": "T22-C004",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Ante un tumor neuroendocrino pancreático con estudio de extensión no concluyente se solicita una prueba de medicina nuclear. Indique cuál es, según la clase, la exploración de mayor sensibilidad para detectar tanto tumores primarios ocultos como metástasis no conocidas en estos pacientes.",
+  "respuesta_canonica": "PET con Galio-68 (68Ga-DOTATATE, DOTATOC o DOTANOC)",
+  "aceptadas": [
+   "PET-Ga68",
+   "PET/TC con galio 68 DOTATATE",
+   "PET con 68Ga-DOTA",
+   "PET galio 68",
+   "PET con galio-68 (DOTATATE, DOTATOC o DOTANOC)",
+   "PET/TC con 68Ga-DOTATATE"
+  ],
+  "conceptos_clave": [
+   "PET",
+   "68"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase ordena las pruebas de medicina nuclear por rendimiento. El Octreoscan, que emplea 111In-DTPA-octreotido, se capta en tumores que expresan receptores de somatostatina 2 y 5, muy abundantes en los tumores no funcionantes, los glucagonomas y los VIPomas, y escasos en el insulinoma, lo que limita su utilidad precisamente en el tumor funcionante mas frecuente. El PET con fluorodesoxiglucosa resulta especialmente util en tumores de alto grado con elevada actividad metabolica, donde la avidez por la glucosa es alta y la expresion de receptores baja. Por encima de ambos se situa el PET con Galio-68, con los trazadores 68Ga-DOTATATE, 68Ga-DOTATOC y 68Ga-DOTANOC, que la clase presenta como la prueba de mayor sensibilidad tanto para localizar primarios ocultos como para detectar metastasis no conocidas. Ese matiz cambia decisiones reales: una metastasis hepatica invisible en el PET-FDG puede hacerse evidente en el PET con Galio-68 y modificar por completo la estrategia terapeutica.",
+  "teaching_point": "El PET con Galio-68 (DOTATATE/DOTATOC/DOTANOC) es la prueba mas sensible para primarios ocultos y metastasis de TNE pancreatico.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 20
+  },
+  "tags": [
+   "PET Ga68",
+   "Octreoscan",
+   "medicina nuclear"
+  ]
+ },
+ {
+  "id": "T22-L001",
+  "tema": 22,
+  "bloque": "pancreas",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 46 años con episodios de confusión, sudoración y visión borrosa que aparecen en ayunas y ceden al comer. Exponga el diagnóstico bioquímico y de localización que plantearía, la actitud quirúrgica según el tamaño del tumor y su relación con el conducto de Wirsung, y qué síndrome hereditario debe descartar y por qué. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Plantea el diagnostico de insulinoma y define la triada de Whipple",
+    "puntos": 0.5,
+    "claves": [
+     "Whipple",
+     "hipoglucemia",
+     "glucosa"
+    ]
+   },
+   {
+    "elemento": "Describe el test del ayuno de 72 horas y el papel del beta-hidroxibutirato",
+    "puntos": 0.5,
+    "claves": [
+     "ayuno",
+     "72 horas",
+     "hidroxibutirato"
+    ]
+   },
+   {
+    "elemento": "Descarta la hipoglucemia ficticia mediante el peptido C",
+    "puntos": 0.25,
+    "claves": [
+     "peptido c",
+     "ficticia"
+    ]
+   },
+   {
+    "elemento": "Ordena las pruebas de localizacion: TC trifasica, colangio-RM y ecoendoscopia",
+    "puntos": 0.75,
+    "claves": [
+     "arterial",
+     "wirsung",
+     "ecoendoscopia"
+    ]
+   },
+   {
+    "elemento": "Indica la exploracion intraoperatoria con ecografia y palpacion bimanual y la conducta si el tumor no se localiza",
+    "puntos": 0.5,
+    "claves": [
+     "ecografia intraoperatoria",
+     "palpacion bimanual",
+     "ciegas"
+    ]
+   },
+   {
+    "elemento": "Elige la tecnica: enucleacion si esta alejado del Wirsung, reseccion reglada si no; sin linfadenectomia",
+    "puntos": 0.25,
+    "claves": [
+     "enucleacion"
+    ]
+   },
+   {
+    "elemento": "Descarta MEN1 y justifica por que el diagnostico de insulinoma obliga a hacerlo",
+    "puntos": 0.25,
+    "claves": [
+     "hiperparatiroidismo",
+     "hipofis"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro corresponde a una hipoglucemia organica de ayuno y obliga a documentar primero la triada de Whipple: sintomas de hipoglucemia, glucemia inferior a 55 mg/dl medida en ese momento y recuperacion rapida al administrar glucosa. Confirmada, se realiza el test del ayuno de 72 horas, que busca demostrar la falta de supresion de la secrecion de insulina cuando ya existe hipoglucemia; la medicion de beta-hidroxibutirato, cuerpo cetonico de produccion hepatica que se eleva cuando falta insulina, tiene alto valor predictivo negativo y puede permitir finalizar la prueba antes de completar las 72 horas. Es obligado medir el peptido C: una insulina alta sin peptido C elevado indica hipoglucemia ficticia por insulina exogena y no un insulinoma. Confirmada la bioquimica, el problema es la localizacion. La TC con contraste intravenoso en fase arterial y portal es la exploracion inicial, y el patron tipico es una lesion hipervascular en fase arterial que pierde intensidad en fase portal. La colangio-RM es imprescindible en lesiones menores de 2 cm porque define la relacion del tumor con el conducto de Wirsung, dato que decide si cabe una enucleacion. La ecoendoscopia supera a la TC y la RM en lesiones menores de 2 cm y permite ademas puncion diagnostica. En quirofano se exploran el pancreas completo con palpacion bimanual y ecografia intraoperatoria, cuya sensibilidad se aproxima al 100 % en insulinomas pequeños. Si el tumor esta separado mas de 2-3 milimetros del Wirsung se practica una enucleacion, tecnica de eleccion tambien en el insulinoma asociado a MEN1, asumiendo su riesgo de fistula pancreatica; si no es posible, se recurre a una duodenopancreatectomia cefalica o a una pancreatectomia corporal o distal segun la localizacion. No es necesaria la linfadenectomia, porque solo el 10 % de los insulinomas son malignos, y la laparoscopia ofrece resultados equiparables a la cirugia abierta. Si el tumor no se localiza ni antes ni durante la intervencion, no debe realizarse reseccion a ciegas. Por ultimo, el 5 % de los insulinomas se asocian a MEN1, de modo que su diagnostico obliga siempre a descartarlo buscando hiperparatiroidismo primario y tumores hipofisarios.",
+  "explanation": "La pregunta recorre el eje completo del insulinoma tal como se explico en clase: confirmacion bioquimica antes que imagen, imagen escalonada segun el tamaño de la lesion, y decision tecnica gobernada por la distancia al conducto de Wirsung. El error tipico del alumno es saltar directamente a la prueba de imagen sin haber documentado la triada de Whipple ni haber descartado la hipoglucemia ficticia con el peptido C, lo que en la practica genera estudios de localizacion en pacientes que no tienen insulinoma. El segundo error frecuente es olvidar que la ausencia de localizacion no autoriza una reseccion pancreatica a ciegas, con la morbilidad que eso conlleva. El tercero es aplicar al insulinoma la logica oncologica del adenocarcinoma ductal e indicar linfadenectomia sistematica, cuando el 90 % de estos tumores son benignos. Finalmente, el cribado de MEN1 no es un adorno: cambia el procedimiento de eleccion, que pasa a ser la enucleacion, y obliga a buscar hiperparatiroidismo primario y tumores hipofisarios.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de pancreas endocrino",
+  "fuente_clase": {
+   "archivo": "TNE pancreas UCM alumnos.pptx",
+   "pagina": 27
+  },
+  "tags": [
+   "insulinoma",
+   "enucleacion",
+   "MEN1",
+   "diagnostico bioquimico"
+  ]
+ }
+]

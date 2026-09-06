@@ -1,0 +1,716 @@
+[
+ {
+  "id": "T21-M001",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 68 años con ictericia progresiva indolora de tres semanas, prurito, coluria y pérdida de 8 kg. En la exploración se palpa una vesícula distendida no dolorosa. La bilirrubina es de 12 mg/dL con patrón colestásico. ¿Qué prueba de imagen procede como primer paso diagnóstico y de estadificación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resonancia magnética abdominal, por su superioridad frente a la TC en este tumor."
+   },
+   {
+    "id": "B",
+    "text": "PET-TC de cuerpo entero, por ser la prueba estándar de estadificación inicial."
+   },
+   {
+    "id": "C",
+    "text": "CPRE inicial para drenar la vía biliar y obtener citología por cepillado."
+   },
+   {
+    "id": "D",
+    "text": "TC toraco-abdomino-pélvica con contraste intravenoso, que además planifica la resecabilidad."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro descrito, ictericia obstructiva indolora con síndrome constitucional y vesícula de Courvoisier, obliga a sospechar origen tumoral periampular o pancreático. La clase señala la TC toraco-abdomino-pélvica con contraste intravenoso como prueba de elección, porque permite a la vez el diagnóstico de sospecha radiológica, la estadificación y la planificación de la resecabilidad, además de servir de guía para la biopsia si la ecoendoscopia falla. Opción A: la resonancia aporta poca información adicional a la TC en el adenocarcinoma ductal de páncreas, según recoge expresamente la clase. Opción B: el PET-TC tiene un papel controvertido en la estadificación y se indica ante sospecha de enfermedad diseminada en la TC o en el seguimiento con sospecha de recidiva, nunca como prueba inicial. Opción C: la CPRE es de elección en el diagnóstico de los tumores periampulares y permite drenar la vía biliar, pero drenar antes de estadificar invierte el orden y no aporta la información de resecabilidad. Punto de enseñanza: primero se estadifica con TC y después se decide si hay que drenar o biopsiar.",
+  "teaching_point": "En la ictericia obstructiva indolora con sospecha tumoral, la TC con contraste es la primera prueba.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 16
+  },
+  "tags": [
+   "ictericia obstructiva",
+   "TC",
+   "Courvoisier"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M002",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En el estudio de un paciente con sospecha de adenocarcinoma ductal de páncreas se solicita CA 19.9, que resulta de 240 U/mL. El paciente presenta en ese momento ictericia obstructiva con bilirrubina de 11 mg/dL. ¿Qué afirmación sobre la interpretación de este marcador es correcta según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Confirma el diagnóstico y hace innecesaria la confirmación histológica por ecoendoscopia."
+   },
+   {
+    "id": "B",
+    "text": "No es valorable con obstrucción biliar, aunque es por sí mismo un factor pronóstico."
+   },
+   {
+    "id": "C",
+    "text": "Un valor normal permitiría descartar el tumor, dada su sensibilidad del 79 %."
+   },
+   {
+    "id": "D",
+    "text": "El CEA supera al CA 19.9 en sensibilidad y especificidad para este tumor."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase precisa tres cosas sobre el CA 19.9 en el adenocarcinoma ductal y los tumores periampulares: es el marcador de mayor sensibilidad, del 79 %, y especificidad, del 82 %; no es valorable en el contexto de obstrucción biliar, porque la colestasis lo eleva por sí misma; y constituye un factor pronóstico independiente. Con una bilirrubina de 11 mg/dL, la cifra de 240 U/mL no puede interpretarse hasta que se resuelva la obstrucción. Opción A: ningún marcador confirma el diagnóstico, y la confirmación histológica por ecoendoscopia es imprescindible cuando se va a administrar tratamiento oncológico. Opción C: entre el 10 y el 15 % de los pacientes con adenocarcinoma ductal o tumor periampular no elevan el CA 19.9, de modo que un valor normal no excluye nada. Opción D: el CEA se emplea también, pero es el CA 19.9 el que la clase destaca por sensibilidad y especificidad. Punto de enseñanza: el CA 19.9 se interpreta con la vía biliar drenada, y su normalidad no descarta el tumor.",
+  "teaching_point": "El CA 19.9 no es valorable con ictericia obstructiva y es normal en el 10-15 % de los casos.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "CA 19.9",
+   "marcadores tumorales",
+   "ictericia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M003",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 63 años con adenocarcinoma de cabeza de páncreas. La TC muestra contacto tumoral con la arteria mesentérica superior inferior a 180 grados y afectación de la vena mesentérica superior en más de 180 grados, con posibilidad técnica de reconstrucción. No hay metástasis ni adenopatías a distancia. ¿Cómo se clasifica la resecabilidad?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resecable, porque el contacto arterial es inferior a 180 grados."
+   },
+   {
+    "id": "B",
+    "text": "Irresecable, por la afectación venosa superior a 180 grados."
+   },
+   {
+    "id": "C",
+    "text": "Marginalmente resecable o borderline, según la definición de la clase."
+   },
+   {
+    "id": "D",
+    "text": "Irresecable, por el contacto simultáneo arterial y venoso del tumor."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define la resecabilidad combinando tres columnas: afectación arterial, afectación venosa y presencia de N2 o M1. Un tumor es resecable cuando no hay afectación arterial y el contacto venoso con la vena mesentérica superior o la porta es inexistente o menor de 180 grados. Es marginalmente resecable o borderline cuando, en la cabeza, hay contacto con la arteria hepática común sin extensión al tronco celíaco ni a la bifurcación, o contacto menor de 180 grados con la arteria mesentérica superior, y cuando la afectación venosa supera los 180 grados pero es técnicamente reconstruible. Es exactamente el caso descrito. Opción A: la categoría resecable exige ausencia de afectación arterial, que aquí no se cumple. Opción B: la afectación venosa mayor de 180 grados sólo hace irresecable el tumor cuando no permite reconstrucción, hay trombo o afecta a la primera rama yeyunal. Opción D: el contacto arterial hace irresecable el tumor cuando supera los 180 grados con la mesentérica superior o el tronco celíaco. Punto de enseñanza: en la resecabilidad pancreática mandan los grados y la posibilidad de reconstrucción, no el simple contacto.",
+  "teaching_point": "Contacto arterial menor de 180 grados o afectación venosa reconstruible definen el tumor borderline.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 17
+  },
+  "tags": [
+   "resecabilidad",
+   "borderline",
+   "arteria mesentérica superior"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M004",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En el comité de tumores se estadifica un adenocarcinoma ductal de páncreas de 4,5 cm de diámetro, sin infiltración del tronco celíaco ni de la arteria mesentérica superior, con dos ganglios regionales positivos y sin metástasis a distancia. Según la estadificación AJCC 8.ª edición empleada en la clase, ¿qué corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "T3 N1 M0, estadio IIB."
+   },
+   {
+    "id": "B",
+    "text": "T2 N1 M0, estadio IIB."
+   },
+   {
+    "id": "C",
+    "text": "T3 N2 M0, estadio III."
+   },
+   {
+    "id": "D",
+    "text": "T4 N1 M0, estadio III."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase recoge la estadificación AJCC 8.ª edición para el adenocarcinoma ductal: T1 es un tumor menor de 2 cm, T2 mide entre 2 y 4 cm, T3 supera los 4 cm y T4 es el que infiltra el tronco celíaco, la arteria hepática o la arteria mesentérica superior. En cuanto a los ganglios, N1 corresponde a la afectación de entre uno y tres ganglios y N2 a la de cuatro o más. Un tumor de 4,5 cm sin infiltración arterial es T3, y dos ganglios positivos son N1, lo que sitúa el caso en el estadio IIB, agrupación que reúne T1-T3 N1 M0. Opción B: T2 exige un diámetro entre 2 y 4 cm, y 4,5 cm lo excede. Opción C: N2 requiere cuatro o más ganglios, no dos. Opción D: T4 se define por la infiltración arterial, ausente en este caso. Punto de enseñanza: en el páncreas el T se define por tamaño salvo el T4, que se define por invasión arterial.",
+  "teaching_point": "AJCC 8.ª ed.: T1 menor de 2 cm, T2 de 2 a 4, T3 mayor de 4 y T4 por invasión arterial.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 19
+  },
+  "tags": [
+   "AJCC",
+   "TNM",
+   "adenocarcinoma ductal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M005",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Mujer de 70 años con ictericia obstructiva. La TC con contraste describe dilatación simultánea del colédoco y del conducto de Wirsung, que se interrumpen bruscamente a la altura de la cabeza pancreática, sin masa claramente definida. ¿Qué significado tiene este hallazgo según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Es el signo de la lágrima, característico de la pancreatitis crónica cefálica."
+   },
+   {
+    "id": "B",
+    "text": "Es el signo del doble conducto, altamente sospechoso de adenocarcinoma ductal."
+   },
+   {
+    "id": "C",
+    "text": "Es un hallazgo inespecífico, presente en la mayoría de las coledocolitiasis distales."
+   },
+   {
+    "id": "D",
+    "text": "Es típico del tumor mucinoso papilar intraductal de rama principal."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase describe entre los hallazgos de la TC el signo del doble conducto, la dilatación simultánea del colédoco y del Wirsung con interrupción brusca en la cabeza pancreática, y lo califica de altamente sospechoso de adenocarcinoma ductal. Su valor está en que aparece incluso cuando la masa no se identifica bien, que es una situación frecuente en tumores pequeños e infiltrantes. Opción A: la clase menciona también el signo de la lágrima entre los hallazgos radiológicos, pero no lo define como marcador de pancreatitis crónica cefálica ni corresponde a la doble dilatación descrita. Opción C: la coledocolitiasis distal dilata la vía biliar, pero no produce de forma característica la dilatación simultánea del Wirsung con interrupción brusca, y calificar el hallazgo de inespecífico llevaría a infravalorar una imagen de alta sospecha. Opción D: el tumor mucinoso papilar intraductal de rama principal dilata el Wirsung con zonas de estenosis y mucina, pero no produce el patrón de doble conducto con corte abrupto. Punto de enseñanza: doble conducto en la cabeza pancreática obliga a descartar adenocarcinoma aunque no se vea masa.",
+  "teaching_point": "El signo del doble conducto es altamente sospechoso de adenocarcinoma ductal de páncreas.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 18
+  },
+  "tags": [
+   "signo del doble conducto",
+   "TC",
+   "adenocarcinoma ductal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M006",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 66 años con adenocarcinoma de cuerpo pancreático de 4 cm, considerado resecable en la TC, con CA 19.9 de 380 U/mL sin ictericia y sin lesiones hepáticas ni implantes visibles. Se discute el siguiente paso antes de programar la resección. ¿Qué actuación procede según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Programar directamente la resección, ya que la TC considera el tumor resecable."
+   },
+   {
+    "id": "B",
+    "text": "Solicitar PET-TC, que es la prueba estándar de estadificación en este tumor."
+   },
+   {
+    "id": "C",
+    "text": "Realizar CPRE con cepillado para confirmación histológica antes de la cirugía."
+   },
+   {
+    "id": "D",
+    "text": "Realizar laparoscopia de estadificación previa para descartar carcinomatosis."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase indica la laparoscopia de estadificación por sistema en el adenocarcinoma ductal para reducir el número de laparotomías innecesarias, y establece consenso para realizarla siempre que el tumor supere los 3 cm, el CA 19.9 sea mayor de 100 U/mL, el tumor se localice en cuerpo o cola, o exista sospecha de enfermedad diseminada en la TC. Este paciente cumple tres de los cuatro criterios. La justificación es que hasta en el 30 % de los pacientes considerados resecables por TC se encuentra enfermedad metastásica o localmente avanzada. Opción A: operar sin laparoscopia previa en un paciente que reúne varios criterios expone a una laparotomía inútil. Opción B: el papel del PET-TC en la estadificación es controvertido y se reserva a la sospecha de enfermedad diseminada. Opción C: la CPRE es de elección en los tumores periampulares y para drenar la vía biliar; aquí no hay ictericia y, si se necesitase histología, la vía sería la ecoendoscopia. Punto de enseñanza: la laparoscopia de estadificación es la que evita abrir para cerrar.",
+  "teaching_point": "Laparoscopia de estadificación si el tumor supera 3 cm, CA 19.9 mayor de 100, cuerpo-cola o sospecha de diseminación.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 22
+  },
+  "tags": [
+   "laparoscopia de estadificación",
+   "carcinomatosis",
+   "resecabilidad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M007",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "extrema",
+  "stem": "Paciente en el séptimo día tras una duodenopancreatectomía cefálica. La amilasa del drenaje es diez veces el valor sérico normal, presenta febrícula y se decide mantener el drenaje, añadir antibiótico y colocar un drenaje percutáneo adicional. No hay fracaso de ningún órgano ni indicación de reintervención. ¿Qué tipo de fístula corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Fístula tipo B, porque obliga a modificar el manejo sin fracaso orgánico."
+   },
+   {
+    "id": "B",
+    "text": "Fístula tipo A o bioquímica, ya que no ha requerido reintervención quirúrgica."
+   },
+   {
+    "id": "C",
+    "text": "Fístula tipo C, por la necesidad de colocar drenajes percutáneos adicionales."
+   },
+   {
+    "id": "D",
+    "text": "No es fístula pancreática, porque el criterio exige el vigésimo primer día."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clasificación que recoge la clase gradúa la fístula pancreática postoperatoria en tres tipos. La tipo A o bioquímica cumple el criterio analítico, amilasa en el drenaje superior a tres veces el valor normal a partir del tercer día, pero sin repercusión clínica: el paciente tolera dieta, no tiene fiebre y puede irse de alta con el drenaje. La tipo B cumple los criterios bioquímicos y obliga a modificar el manejo, manteniendo el drenaje al menos tres semanas y pudiendo requerir drenajes adicionales percutáneos o endoscópicos, o incluso embolización en caso de hemorragia. La tipo C implica fracaso de algún órgano y necesidad de reintervención. Opción B: la tipo A exige ausencia de repercusión clínica, y aquí hay febrícula y cambios en el tratamiento. Opción C: la tipo C requiere fallo orgánico y reintervención, ninguno presente. Opción D: los 21 días son la duración mínima del drenaje en la tipo B, no un requisito diagnóstico. Punto de enseñanza: lo que separa la A de la B no es la cifra de amilasa sino si cambia el manejo del paciente.",
+  "teaching_point": "Fístula tipo B: criterios bioquímicos más un cambio en el manejo, sin fallo orgánico ni reintervención.",
+  "guideline_ref": "Clasificación de fístula pancreática postoperatoria referida en la clase (ISGPS)",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 31
+  },
+  "tags": [
+   "fístula pancreática",
+   "duodenopancreatectomía",
+   "complicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M008",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 74 años sin antecedentes familiares de diabetes que consulta por hiperglucemia de nueva aparición en los últimos tres meses, con índice de masa corporal de 21 y pérdida de 6 kg. Es fumador de 30 cigarrillos diarios. ¿Qué interpretación procede según los factores de riesgo expuestos en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Es una diabetes tipo 2 habitual, sin ninguna implicación oncológica en este perfil."
+   },
+   {
+    "id": "B",
+    "text": "El tabaco multiplica por diez el riesgo, pero la diabetes reciente no lo modifica."
+   },
+   {
+    "id": "C",
+    "text": "El perfil concentra varios factores de riesgo y obliga a descartar cáncer de páncreas."
+   },
+   {
+    "id": "D",
+    "text": "Sólo la obesidad y la pancreatitis crónica se aceptan como factores ambientales."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase enumera entre los factores de riesgo ambientales el tabaco, que multiplica por tres el riesgo respecto a los no fumadores, la pancreatitis crónica, la obesidad y la diabetes de reciente aparición, y precisa que el riesgo es mayor cuando esa diabetes aparece en ancianos, en pacientes con bajo índice de masa corporal o pérdida de peso reciente, y en quienes carecen de historia familiar de diabetes. Este paciente reúne las tres circunstancias de mayor riesgo más el tabaquismo. Opción A: banalizar la hiperglucemia en este contexto es precisamente el error que la clase busca evitar, porque la única forma de mejorar el pronóstico es el diagnóstico precoz. Opción B: el multiplicador del tabaco es tres, no diez, y la diabetes reciente sí modifica el riesgo. Opción D: la clase incluye expresamente la diabetes de reciente aparición entre los factores de riesgo ambientales, junto al tabaco. Punto de enseñanza: diabetes nueva en un anciano delgado que además pierde peso es una señal de alarma pancreática.",
+  "teaching_point": "La diabetes de reciente aparición en un anciano delgado con pérdida de peso obliga a descartar cáncer de páncreas.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 6
+  },
+  "tags": [
+   "factores de riesgo",
+   "diabetes de reciente aparición",
+   "tabaco"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M009",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 42 años con hallazgo incidental de lesión quística de 4 cm en la cola del páncreas. La ecoendoscopia muestra un quiste que no comunica con el conducto pancreático, con revestimiento de células de estroma de tipo ovárico, y el líquido presenta CEA muy elevado con amilasa baja. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Seguimiento con resonancia anual, dado el bajo potencial de malignización."
+   },
+   {
+    "id": "B",
+    "text": "Drenaje endoscópico transmural, por tratarse probablemente de un pseudoquiste."
+   },
+   {
+    "id": "C",
+    "text": "Duodenopancreatectomía cefálica con linfadenectomía regional reglada."
+   },
+   {
+    "id": "D",
+    "text": "Resección quirúrgica: es un tumor quístico mucinoso con riesgo de malignización."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "Los datos apuntan a un tumor quístico mucinoso: mujer con pico diagnóstico en la cuarta década, localización típica en cuerpo-cola, ausencia de comunicación con el ducto pancreático y revestimiento de células de estroma ovárico. La clase señala que producen mucina, pueden presentar atipia, tienen un riesgo de malignización más elevado que el tumor quístico seroso y que su resección está recomendada en pacientes seleccionados. El perfil del líquido, con CEA muy elevado y amilasa baja, encaja con una neoplasia quística mucinosa y no con un pseudoquiste. Opción A: el seguimiento es la conducta del tumor quístico seroso asintomático, cuyo potencial de malignización es muy bajo. Opción B: en el pseudoquiste la amilasa del líquido estaría muy elevada y el CEA bajo, además de existir antecedente de pancreatitis o traumatismo. Opción C: la duodenopancreatectomía cefálica no corresponde a una lesión de la cola, que se aborda mediante pancreatectomía distal. Punto de enseñanza: estroma ovárico, cuerpo-cola y ausencia de comunicación ductal definen el tumor quístico mucinoso.",
+  "teaching_point": "Tumor quístico mucinoso: mujer, cuerpo-cola, estroma ovárico, sin comunicación ductal y con indicación de resección.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019); Cirugía AEC 2022",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 35
+  },
+  "tags": [
+   "tumor quístico mucinoso",
+   "lesiones quísticas",
+   "ecoendoscopia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M010",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 63 años con una lesión quística pancreática de 3 cm hallada al estudiar un dolor lumbar. La ecoendoscopia describe un patrón microquístico y el análisis del líquido obtenido por punción muestra CEA, CA 19.9 y amilasa bajos. La paciente está asintomática. ¿Qué actuación procede según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Pancreatectomía distal con esplenectomía por el elevado riesgo de degeneración."
+   },
+   {
+    "id": "B",
+    "text": "Drenaje endoscópico, ya que el perfil del líquido corresponde a un pseudoquiste."
+   },
+   {
+    "id": "C",
+    "text": "Seguimiento, porque el potencial de malignización de esta lesión es muy bajo."
+   },
+   {
+    "id": "D",
+    "text": "Enucleación de la lesión para evitar la insuficiencia pancreática postoperatoria."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El patrón microquístico en una mujer en la sexta década, con CEA, CA 19.9 y amilasa bajos en el líquido, corresponde a un tumor quístico seroso, la lesión quística pancreática más frecuente. La clase lo describe como una lesión benigna revestida de células ricas en glucógeno originadas en las células centroacinares, que puede aparecer en cualquier parte del páncreas y que, salvo que sea sintomática, se puede seguir porque su potencial de malignización es muy bajo. Opción A: la resección con esplenectomía es una cirugía mayor injustificada en una lesión benigna asintomática. Opción B: en el pseudoquiste la amilasa del líquido está muy elevada, y aquí es baja; además no hay antecedente de pancreatitis. Opción D: la enucleación es una intervención que no evita la morbilidad pancreática, con riesgo de fístula, y sigue siendo cirugía sobre una lesión que no la necesita. Punto de enseñanza: microquístico con marcadores bajos equivale a seroso, y el seroso asintomático se vigila.",
+  "teaching_point": "El tumor quístico seroso asintomático se sigue: patrón microquístico y CEA, CA 19.9 y amilasa bajos.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019); Cirugía AEC 2022",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 34
+  },
+  "tags": [
+   "tumor quístico seroso",
+   "lesiones quísticas",
+   "seguimiento"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M011",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En una sesión de patología molecular se repasa el modelo de progresión del adenocarcinoma ductal de páncreas a través de las neoplasias intraepiteliales pancreáticas, junto con las alteraciones genéticas que lo acompañan. ¿Cuál de las siguientes afirmaciones sobre esa patogénesis se corresponde con lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La PanIN1B corresponde ya al carcinoma in situ por su marcada atipia nuclear."
+   },
+   {
+    "id": "B",
+    "text": "K-ras está mutado en más del 90 % y la PanIN3 es el carcinoma in situ."
+   },
+   {
+    "id": "C",
+    "text": "El principal gen supresor implicado es el APC, alterado en la mayoría de los casos."
+   },
+   {
+    "id": "D",
+    "text": "La PanIN2 se caracteriza por metaplasia columnar sin atipia ni formación de papilas."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El modelo de progresión que recoge la clase describe la transformación del epitelio ductal normal en metaplasia columnar que mantiene la producción de mucina y núcleos sin atipia, la PanIN1A; su progresión con formación de papilas, la PanIN1B; el crecimiento papilar con aparición de atipia nuclear, la PanIN2; y la marcada atipia nuclear y citoplasmática que constituye el carcinoma in situ, la PanIN3, precursor del adenocarcinoma ductal. El oncogén implicado es K-ras, mutado en más del 90 % de los casos, y los genes supresores son p53, DPC4 y CDKN2A. Opción A: la PanIN1B es todavía una lesión con papilas pero sin atipia; situar el carcinoma in situ ahí adelanta dos escalones la secuencia. Opción C: el APC aparece en la clase asociado a la poliposis adenomatosa familiar como síndrome hereditario, no como gen supresor principal de la vía esporádica. Opción D: la descripción de metaplasia columnar sin atipia ni papilas corresponde a la PanIN1A. Punto de enseñanza: PanIN3 es carcinoma in situ y K-ras es la mutación dominante.",
+  "teaching_point": "K-ras está mutado en más del 90 % de los adenocarcinomas ductales y la PanIN3 es el carcinoma in situ.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019); Cirugía AEC 2022",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 8
+  },
+  "tags": [
+   "PanIN",
+   "K-ras",
+   "patogénesis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-M012",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 61 años con adenocarcinoma ductal de 3 cm localizado en la cola del páncreas, sin contacto con el tronco celíaco ni con la arteria mesentérica superior y sin metástasis. La laparoscopia de estadificación no muestra carcinomatosis. ¿Qué intervención procede como tratamiento con intención curativa?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Pancreatectomía corporocaudal o distal asociada a esplenectomía."
+   },
+   {
+    "id": "B",
+    "text": "Duodenopancreatectomía cefálica con reconstrucción de las tres anastomosis."
+   },
+   {
+    "id": "C",
+    "text": "Enucleación de la lesión preservando el parénquima restante y el bazo."
+   },
+   {
+    "id": "D",
+    "text": "Quimioterapia con gemcitabina y capecitabina, sin resección quirúrgica."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase distingue dos intervenciones según la localización del tumor: la duodenopancreatectomía cefálica para los tumores de cabeza y la región periampular, y la pancreatectomía corporocaudal o distal, asociada a esplenectomía, para los tumores de cuerpo y cola. Este tumor es de cola, resecable por criterios vasculares y sin carcinomatosis en la laparoscopia, de modo que la resección con intención curativa es la pancreatectomía distal con esplenectomía; el abordaje laparoscópico o robótico es hoy el estándar para esta técnica. Opción B: la duodenopancreatectomía cefálica resecaría la cabeza pancreática, el duodeno y la vía biliar distal sin alcanzar el tumor, y añade una morbilidad muy superior. Opción C: la enucleación no permite márgenes ni linfadenectomía y no es una operación oncológica en el adenocarcinoma ductal. Opción D: la quimioterapia con gemcitabina y capecitabina es el esquema adyuvante tras la resección, no un sustituto de ella en un tumor resecable. Punto de enseñanza: la localización decide la técnica, y el bazo acompaña a la pancreatectomía distal oncológica.",
+  "teaching_point": "Adenocarcinoma de cuerpo o cola resecable: pancreatectomía corporocaudal con esplenectomía.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 24
+  },
+  "tags": [
+   "pancreatectomía distal",
+   "esplenectomía",
+   "tratamiento quirúrgico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T21-C001",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En el modelo de progresión del adenocarcinoma ductal de páncreas, la clase describe la secuencia PanIN hasta el carcinoma in situ y enumera las alteraciones moleculares implicadas. Indique cuál es el oncogén implicado con mayor frecuencia y en qué proporción aproximada de los tumores aparece alterado.",
+  "respuesta_canonica": "K-ras, en más del 90 % de los casos",
+  "aceptadas": [
+   "KRAS, más del 90 %",
+   "mutación de K-ras en más del 90 %",
+   "oncogén K-ras (>90 %)",
+   "K-ras mutado en >90 % de los casos"
+  ],
+  "conceptos_clave": [
+   "K-ras",
+   "90"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase señala el K-ras como el oncogén implicado en el adenocarcinoma ductal de páncreas, alterado en más del 90 % de los casos, y menciona como genes supresores tumorales el p53, el DPC4 y el CDKN2A. Esa alteración se inscribe en el modelo de progresión PanIN, que describe la transformación del epitelio ductal normal en metaplasia columnar sin atipia y con producción de mucina (PanIN1A), la aparición de papilas (PanIN1B), el crecimiento papilar con atipia nuclear (PanIN2) y finalmente la marcada atipia nuclear y citoplasmática que constituye el carcinoma in situ (PanIN3), precursor directo del adenocarcinoma. Conocer esta secuencia tiene sentido práctico porque sustenta el argumento central de la clase: existe una ventana de hasta cinco años hasta el desarrollo de metástasis a distancia, y el diagnóstico precoz es hoy la mejor manera de mejorar un pronóstico que globalmente se sitúa en torno al 5 % de supervivencia a cinco años.",
+  "teaching_point": "K-ras está mutado en más del 90 % de los adenocarcinomas ductales de páncreas.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 9
+  },
+  "tags": [
+   "K-ras",
+   "PanIN",
+   "patogénesis"
+  ]
+ },
+ {
+  "id": "T21-C002",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Un paciente con masa en la cabeza pancreática va a recibir tratamiento oncológico con quimioterapia, para lo cual es imprescindible disponer de confirmación histológica. Indique qué prueba es de elección para la toma de biopsia en el adenocarcinoma ductal de páncreas según la clase y qué información añadida aporta.",
+  "respuesta_canonica": "Ecoendoscopia con punción; informa además de la resecabilidad local",
+  "aceptadas": [
+   "ECEN con biopsia, valora también las relaciones vasculares",
+   "ecoendoscopia; aporta valoración de resecabilidad",
+   "USE con PAAF, informa de resecabilidad local"
+  ],
+  "conceptos_clave": [
+   "ecoendoscopia",
+   "resecabilidad"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase señala la ecoendoscopia como prueba de elección para la toma de biopsia y la confirmación histológica, imprescindible cuando se va a administrar tratamiento oncológico con quimioterapia o quimiorradioterapia. Además de obtener tejido, la ecoendoscopia permite valorar la resecabilidad local informando de las relaciones vasculares del tumor, lo que la convierte en complemento de la TC y no en una alternativa. Conviene situarla dentro del conjunto de pruebas: la TC toraco-abdomino-pélvica con contraste es la de elección para el diagnóstico de sospecha, la estadificación y la planificación de la resecabilidad, y sirve de guía para la biopsia si la ecoendoscopia falla; la resonancia aporta poca información adicional; la CPRE permite drenar la vía biliar y es de elección en el diagnóstico de los tumores periampulares; la colangiografía transparietohepática se reserva a la CPRE fallida; y el PET-TC tiene un papel controvertido.",
+  "teaching_point": "La ecoendoscopia es la vía de elección para biopsiar el páncreas y además informa de la resecabilidad local.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 16
+  },
+  "tags": [
+   "ecoendoscopia",
+   "biopsia",
+   "diagnóstico"
+  ]
+ },
+ {
+  "id": "T21-C003",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Tras una duodenopancreatectomía cefálica realizada por un adenocarcinoma ampular, el patólogo debe informar del estado de los ganglios regionales para poder completar la estadificación TNM de la pieza. Indique cuántos ganglios deben reclutarse como mínimo para considerar correcto el estadiaje de los tumores periampulares según la clase.",
+  "respuesta_canonica": "Al menos 12 ganglios regionales",
+  "aceptadas": [
+   "12 ganglios",
+   "doce ganglios",
+   "un mínimo de 12 adenopatías regionales",
+   "12 ganglios linfáticos regionales"
+  ],
+  "conceptos_clave": [
+   "12",
+   "doce",
+   "ganglios"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase precisa que, para un correcto estadiaje de los tumores periampulares, es necesario reclutar al menos 12 ganglios, y define como ganglios regionales los peripancreáticos, los portales y los de la arteria hepática. La cifra importa porque el estadio N condiciona la agrupación por estadios: N1 corresponde a la afectación de uno a tres ganglios regionales y N2 a la de cuatro o más, de modo que un recuento insuficiente produce migración de estadio y priva al paciente de la adyuvancia que le correspondería. Conviene fijar la cifra junto a la de la vesícula biliar, donde la linfadenectomía se considera óptima con al menos seis ganglios; intercambiar ambos números es el error más repetido en este bloque. En el mismo esquema de la clase figura además la estadificación T de los periampulares, que va de la lesión limitada a la ampolla o al esfínter de Oddi hasta la invasión del tronco celíaco, la arteria mesentérica superior o la hepática común.",
+  "teaching_point": "Los tumores periampulares exigen al menos 12 ganglios regionales para un estadiaje correcto.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 21
+  },
+  "tags": [
+   "tumores periampulares",
+   "ganglios",
+   "estadificación"
+  ]
+ },
+ {
+  "id": "T21-C004",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Un paciente intervenido mediante duodenopancreatectomía cefálica por adenocarcinoma ductal de páncreas, con resección R0 y que no ha recibido tratamiento neoadyuvante, acude a la consulta de oncología. Indique cuál es el esquema de quimioterapia adyuvante que recoge la clase para el adenocarcinoma ductal y los tumores periampulares.",
+  "respuesta_canonica": "Gemcitabina más capecitabina",
+  "aceptadas": [
+   "gemcitabina y capecitabina",
+   "gemcitabina-capecitabina",
+   "capecitabina asociada a gemcitabina"
+  ],
+  "conceptos_clave": [
+   "gemcitabina",
+   "capecitabina"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase indica como quimioterapia adyuvante del adenocarcinoma ductal y de los tumores periampulares el esquema de gemcitabina más capecitabina, aplicable en cualquier estadio siempre que el paciente no haya recibido neoadyuvancia. Añade que el papel de la radioterapia adyuvante es controvertido al no existir ensayos clínicos aleatorizados que lo respalden, matiz que conviene reproducir porque el examen distingue bien entre lo establecido y lo discutido. Este dato se integra en las propuestas de tratamiento por estadios que recoge la clase: cirugía en los estadios IA, IB, IIA y IIB; quimioterapia con o sin radioterapia en el estadio III, que corresponde al T4 o a la afectación N2; y quimioterapia paliativa en el estadio IV. Conviene recordar el contexto pronóstico, con una supervivencia global a cinco años en torno al 5 % y del 10 al 20 % tras resección en grandes series, lo que explica que la adyuvancia se ofrezca de forma sistemática. NOTA: PRODIGE-24 (N Engl J Med 2018, PMID 30575490) situó mFOLFIRINOX como adyuvancia estándar tras resección en paciente con buen estado general, con supervivencia global de 54,4 frente a 35,0 meses; gemcitabina-capecitabina queda como alternativa si no se tolera.",
+  "teaching_point": "La adyuvancia estándar tras resección pancreática es gemcitabina más capecitabina si no hubo neoadyuvancia.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 32
+  },
+  "tags": [
+   "adyuvancia",
+   "gemcitabina",
+   "capecitabina"
+  ],
+  "discrepancia_evidencia": true
+ },
+ {
+  "id": "T21-L001",
+  "tema": 21,
+  "bloque": "pancreas",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Un varón de 65 años consulta por ictericia obstructiva indolora y pérdida de peso, y la TC muestra una masa en la cabeza del páncreas. Exponga el proceso diagnóstico del adenocarcinoma ductal de páncreas y de los tumores periampulares, los criterios que definen la resecabilidad quirúrgica, el papel de la laparoscopia de estadificación y el tratamiento quirúrgico y adyuvante que corresponde.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Reconoce la ictericia obstructiva indolora con síndrome constitucional como alta sospecha tumoral y cita la vesícula de Courvoisier",
+    "puntos": 0.33,
+    "claves": [
+     "ictericia",
+     "Courvoisier",
+     "indolora"
+    ]
+   },
+   {
+    "elemento": "Sitúa el CA 19.9 con su sensibilidad y especificidad, su falta de valor con obstrucción biliar y su valor pronóstico",
+    "puntos": 0.33,
+    "claves": [
+     "CA 19.9",
+     "pronóstico"
+    ]
+   },
+   {
+    "elemento": "Ordena las pruebas de imagen: TC con contraste como elección, ecoendoscopia para biopsia y resecabilidad local, CPRE para drenaje y en periampulares, CTPH si la CPRE falla y PET-TC controvertido",
+    "puntos": 0.5,
+    "claves": [
+     "TC",
+     "ecoendoscopia",
+     "CPRE",
+     "PET-TC"
+    ]
+   },
+   {
+    "elemento": "Define resecable, borderline e irresecable con los grados de contacto arterial y venoso y la posibilidad de reconstrucción",
+    "puntos": 0.59,
+    "claves": [
+     "180",
+     "tronco celíaco"
+    ]
+   },
+   {
+    "elemento": "Indica la laparoscopia de estadificación y sus criterios de consenso, y su falta de utilidad en tumores periampulares",
+    "puntos": 0.42,
+    "claves": [
+     "laparoscopia",
+     "3 cm",
+     "100",
+     "cuerpo y cola"
+    ]
+   },
+   {
+    "elemento": "Expone el tratamiento quirúrgico según localización: duodenopancreatectomía cefálica con sus tres anastomosis y pancreatectomía distal con esplenectomía",
+    "puntos": 0.5,
+    "claves": [
+     "duodenopancreatectomía",
+     "hepaticoyeyunostomía",
+     "pancreatoyeyunostomía",
+     "pancreatectomía distal",
+     "esplenectomía"
+    ]
+   },
+   {
+    "elemento": "Indica el tratamiento adyuvante con gemcitabina y capecitabina y señala el carácter controvertido de la radioterapia adyuvante",
+    "puntos": 0.33,
+    "claves": [
+     "gemcitabina",
+     "capecitabina"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La ictericia obstructiva indolora con síndrome constitucional obliga a sospechar origen tumoral; la vesícula de Courvoisier, distendida y no dolorosa, refuerza la sospecha. En el laboratorio se solicita perfil hepático y marcadores: el CA 19.9 es el de mayor sensibilidad (79 %) y especificidad (82 %), no es valorable con obstrucción biliar, no se eleva en el 10-15 % de los pacientes y es por sí mismo un factor pronóstico. La prueba de imagen de elección es la TC toraco-abdomino-pélvica con contraste, que permite el diagnóstico de sospecha, la estadificación y la planificación de la resecabilidad. La ecoendoscopia es de elección para la biopsia, imprescindible si va a administrarse tratamiento oncológico, y valora además las relaciones vasculares. La CPRE drena la vía biliar y es de elección en el diagnóstico de los tumores periampulares; la colangiografía transparietohepática se reserva a la CPRE fallida. La resonancia aporta poco sobre la TC y el PET-TC tiene un papel controvertido. La resecabilidad se define en tres categorías. Resecable: sin afectación arterial y sin contacto o con contacto menor de 180 grados con la vena mesentérica superior o la porta. Irresecable: contacto mayor de 180 grados con la mesentérica superior o el tronco celíaco, afectación venosa no reconstruible, trombo o afectación de la primera rama yeyunal, o presencia de N2 o M1. La laparoscopia de estadificación se indica por sistema en el adenocarcinoma para evitar laparotomías innecesarias, con consenso en tumores mayores de 3 cm, CA 19.9 superior a 100 U/mL, localización en cuerpo y cola o sospecha de diseminación; carece de utilidad en los periampulares. La cirugía es la duodenopancreatectomía cefálica en cabeza y periampulares, con hepaticoyeyunostomía, pancreatoyeyunostomía o pancreatogastrostomía y gastroyeyunostomía, y la pancreatectomía distal con esplenectomía en cuerpo y cola. La adyuvancia es gemcitabina más capecitabina si no hubo neoadyuvancia; la radioterapia adyuvante es controvertida.",
+  "explanation": "La pregunta reproduce el recorrido real de un paciente con masa cefálica y obliga a ordenar cuatro bloques que se evalúan por separado. El primero es diagnóstico y exige jerarquizar las pruebas: TC para estadificar, ecoendoscopia para biopsiar, CPRE para drenar. El segundo, la resecabilidad, es donde más se pierde nota, porque hay que manejar la tabla de tres columnas con los grados de contacto arterial y venoso y con la posibilidad técnica de reconstrucción, sin confundir el criterio arterial con el venoso. El tercero es la laparoscopia de estadificación, cuyo sentido se entiende sólo si se cita que hasta un 30 % de los considerados resecables por TC no lo son al abrir. El cuarto es terapéutico y debe ligar localización con técnica y añadir la adyuvancia. Una respuesta que enumere técnicas sin explicar cómo se decidió la resecabilidad no demuestra el razonamiento que se está evaluando.",
+  "teaching_point": "En el cáncer de páncreas se estadifica antes de drenar y se decide la resecabilidad por grados de contacto vascular.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores de páncreas; AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "ADC pancreas UCM alumnos.pptx",
+   "pagina": 17
+  },
+  "tags": [
+   "adenocarcinoma ductal",
+   "resecabilidad",
+   "duodenopancreatectomía",
+   "periampulares"
+  ]
+ }
+]

@@ -1,0 +1,502 @@
+[
+ {
+  "id": "T30-M001",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 64 años intervenido hace tres años de un adenocarcinoma de recto. En el seguimiento aparece dolor pélvico y una masa central que la resonancia describe englobando la anastomosis colorrectal e infiltrando la vejiga y las vesículas seminales, sin metástasis a distancia y sin afectación de la pared lateral de la pelvis. ¿Qué intervención con intención curativa procede plantear?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Exenteración pélvica total, con una fase de resección y otra de reconstrucción"
+   },
+   {
+    "id": "B",
+    "text": "Sacrectomía alta por encima de S3, con abordaje combinado anterior y posterior"
+   },
+   {
+    "id": "C",
+    "text": "Pelvectomía interna, resecando el anillo pélvico y preservando la extremidad inferior"
+   },
+   {
+    "id": "D",
+    "text": "Resección local de la masa por vía perineal con radioterapia externa complementaria"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "Se trata de una recidiva pélvica central, el escenario para el que la clase reserva la exenteración pélvica. La intervención se estructura en dos fases: la resección en bloque de las vísceras pélvicas comprometidas y la reconstrucción, que incluye derivación urinaria, derivación digestiva y colgajo TRAM o VRAM. Como la masa compromete a la vez el compartimento urinario y el digestivo, corresponde una exenteración total, y no una anterior o una posterior, que se reservan para cuando solo uno de los dos está afectado. Opción B: la sacrectomía es la respuesta a la recidiva pélvica posterior, fijada al sacro, situación que la resonancia descarta expresamente al no describir afectación ósea. Opción C: la pelvectomía se indica en sarcomas óseos y de partes blandas del anillo pélvico, no en la recidiva visceral de un adenocarcinoma. Opción D: una resección local no consigue márgenes en una masa que infiltra la vejiga y condena al paciente a una recidiva precoz. Punto de enseñanza: la topografía de la recidiva manda; central significa exenteración y posterior significa sacrectomía.",
+  "teaching_point": "La recidiva pélvica central de origen rectal es la indicación típica de exenteración pélvica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "exenteración pélvica",
+   "recidiva central",
+   "cáncer de recto"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M002",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Al describir la exenteración pélvica se emplean dos ejes de clasificación. Uno define la extensión visceral de la resección, que puede ser anterior, posterior o total. El otro define el plano en el que se completa la resección, con dos posibilidades que condicionan el tamaño del defecto y la reconstrucción posterior. ¿Qué par de términos corresponde a este segundo eje?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Intrafascial y extrafascial, según se respete o no la fascia endopélvica visceral"
+   },
+   {
+    "id": "B",
+    "text": "Supraelevador e infraelevador, según el plano quede por encima o por debajo del elevador"
+   },
+   {
+    "id": "C",
+    "text": "Interna y externa, según se preserve o se sacrifique la extremidad inferior homolateral"
+   },
+   {
+    "id": "D",
+    "text": "Alta y baja, según el nivel de sección se sitúe por encima o por debajo de la tercera sacra"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase clasifica la exenteración pélvica en dos ejes. El primero es el plano respecto al músculo elevador del ano: supraelevador, que conserva el suelo pélvico y permite reconstruir por encima de él, e infraelevador, que lo sacrifica junto con el periné y deja un defecto mucho mayor. El segundo eje es la extensión visceral: anterior, posterior o total. Opción A: la distinción intrafascial y extrafascial pertenece a la terminología de la histerectomía y de la cirugía prostática, no a esta clasificación. Opción C: interna y externa son los tipos de pelvectomía o hemipelvectomía, es decir, otra intervención de la misma clase. Opción D: alta y baja son los tipos de sacrectomía, definidos por el nivel S3. Punto de enseñanza: cada una de las tres intervenciones del tema tiene su propia pareja de términos, y confundirlas es el error más frecuente: supra/infraelevador para la exenteración, alta/baja para la sacrectomía, interna/externa para la pelvectomía.",
+  "teaching_point": "La exenteración pélvica es supraelevadora o infraelevadora, y además anterior, posterior o total.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "exenteración pélvica",
+   "clasificación",
+   "elevador del ano"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M003",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Tras una exenteración pélvica total la reconstrucción obliga a derivar la orina, y la clase recoge tres alternativas para hacerlo. Antes de firmar el consentimiento, la paciente pregunta si alguna de ellas le permitiría prescindir de una bolsa colectora adherida a la piel. ¿Qué derivación urinaria responde a esa petición?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El conducto de Bricker, que interpone un segmento intestinal entre los uréteres y la piel"
+   },
+   {
+    "id": "B",
+    "text": "La ureterostomía cutánea bilateral directa, sin interposición de segmento intestinal alguno"
+   },
+   {
+    "id": "C",
+    "text": "El Miami pouch, que almacena la orina y se vacía por cateterización intermitente"
+   },
+   {
+    "id": "D",
+    "text": "La nefrostomía percutánea bilateral permanente, como derivación definitiva de baja morbilidad"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "Las tres opciones de derivación urinaria recogidas en la clase son el conducto urinario de Bricker, los reservorios continentes, con el Miami pouch como ejemplo, y la neovejiga. El Miami pouch es el reservorio continente propiamente dicho: almacena la orina y se vacía por cateterización intermitente, de modo que el paciente no necesita bolsa colectora adherida a la piel. Opción A: el conducto de Bricker es una derivación no continente, drena de forma continua a un estoma y obliga precisamente al dispositivo colector que la paciente quiere evitar. Opción B: la ureterostomía cutánea directa tampoco es continente y añade el problema de la estenosis del estoma. Opción D: la nefrostomía bilateral es una derivación de rescate o paliativa, no una reconstrucción tras exenteración, y su morbilidad a largo plazo no es baja. Punto de enseñanza: Bricker equivale a derivación no continente, Miami pouch a reservorio continente cateterizable y neovejiga a reconstrucción ortotópica.",
+  "teaching_point": "En la reconstrucción urinaria, Bricker no es continente; el Miami pouch es el reservorio continente.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "derivación urinaria",
+   "Bricker",
+   "Miami pouch",
+   "neovejiga"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M005",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 58 años con una recidiva pélvica posterior de un adenocarcinoma de recto que infiltra la cara anterior del sacro, sin enfermedad a distancia, en la que se plantea cirugía radical por tratarse de una paciente seleccionada. Además de esta situación, ¿qué otra estirpe tumoral constituye la indicación clásica de sacrectomía?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El cordoma, tumor de crecimiento lento y asiento característicamente sacrococcígeo"
+   },
+   {
+    "id": "B",
+    "text": "El carcinoma epidermoide de canal anal tras fracaso de la quimiorradioterapia inicial"
+   },
+   {
+    "id": "C",
+    "text": "El adenocarcinoma de cérvix con extensión a parametrios y a la pared pélvica lateral"
+   },
+   {
+    "id": "D",
+    "text": "El sarcoma óseo del ala ilíaca, por tratarse también de un tumor primario del anillo pélvico"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enumera dos indicaciones de sacrectomía: la recidiva pélvica posterior del cáncer de recto y los cordomas, en ambos casos en pacientes seleccionados. El cordoma es un tumor primario sacropélvico de crecimiento lento cuyo tratamiento es la resección radical, y encaja en el grupo de tumores sacropélvicos primarios y secundarios tratados con cirugía radical y radioterapia intraoperatoria. Opción B: el carcinoma epidermoide de ano que fracasa a la quimiorradioterapia se rescata con amputación abdominoperineal, no con sacrectomía, salvo que exista invasión sacra demostrada. Opción C: el cáncer de cérvix figura entre las indicaciones de exenteración pélvica, que es una intervención distinta y con otra topografía de recidiva. Opción D: los sarcomas óseos y de partes blandas de la pelvis son la indicación de las pelvectomías o hemipelvectomías, no de la sacrectomía; confundir las indicaciones de las dos intervenciones es el error más frecuente del tema. Punto de enseñanza: recidiva posterior de recto y cordoma son el binomio clásico de la sacrectomía.",
+  "teaching_point": "La sacrectomía se indica en la recidiva pélvica posterior del cáncer de recto y en los cordomas.",
+  "guideline_ref": "García-Sabrido JL et al. Cir Esp 2003;73(2):78-87 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "sacrectomía",
+   "cordoma",
+   "recidiva posterior",
+   "indicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M006",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 47 años con un sarcoma de partes blandas de alto grado que engloba el ala ilíaca izquierda y la musculatura glútea, sin metástasis pulmonares. La extremidad es funcional y tanto los vasos ilíacos externos como el nervio ciático están libres. ¿Qué procedimiento constituye la indicación quirúrgica en este paciente seleccionado?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Exenteración pélvica anterior con derivación urinaria y colgajo de reconstrucción perineal"
+   },
+   {
+    "id": "B",
+    "text": "Pelvectomía interna, intervención propia de los tumores primarios del anillo pélvico"
+   },
+   {
+    "id": "C",
+    "text": "Sacrectomía baja por debajo de S3, mediante abordaje posterior y cierre directo del defecto"
+   },
+   {
+    "id": "D",
+    "text": "Resección marginal de la masa con radioterapia intraoperatoria sobre el lecho tumoral"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Las pelvectomías o hemipelvectomías son la intervención que la clase reserva a los sarcomas óseos y de partes blandas del anillo pélvico, en pacientes seleccionados. Se distinguen dos tipos, internas y externas; la interna reseca el segmento óseo afectado preservando la extremidad, y la externa la sacrifica. Con los vasos ilíacos externos y el nervio ciático libres y una extremidad funcional, la variante interna es la indicada. Opción A: la exenteración pélvica resuelve la recidiva visceral central y no aborda el ala ilíaca ni la musculatura glútea. Opción C: la sacrectomía se dirige a la recidiva posterior fijada al sacro y a los cordomas, no a un sarcoma del ala ilíaca. Opción D: una resección marginal en un sarcoma de alto grado deja enfermedad residual y la radioterapia intraoperatoria complementa la resección radical, no la sustituye. Punto de enseñanza: sarcoma del anillo pélvico significa pelvectomía, y la elección entre interna y externa depende de la afectación neurovascular.",
+  "teaching_point": "Los sarcomas óseos y de partes blandas de la pelvis se tratan con pelvectomía; la interna preserva la extremidad.",
+  "guideline_ref": "Mankin HJ, Hornicek FJ. Surg Oncol Clin North Am 2005 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 30
+  },
+  "tags": [
+   "pelvectomía",
+   "hemipelvectomía",
+   "sarcoma",
+   "indicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M007",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 61 años sometida a exenteración pélvica total infraelevadora por recidiva de un carcinoma de cérvix previamente irradiado. Concluida la fase de resección, queda un defecto perineal amplio sobre un lecho irradiado y un espacio muerto pélvico considerable. ¿Qué recurso reconstructivo procede emplear para resolver ese defecto?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cierre directo por planos del periné, con drenajes aspirativos y curas por segunda intención"
+   },
+   {
+    "id": "B",
+    "text": "Interposición de una malla de polipropileno para cerrar el suelo pélvico y evitar la hernia"
+   },
+   {
+    "id": "C",
+    "text": "Colgajo miocutáneo de recto abdominal, transverso o vertical, es decir, TRAM o VRAM"
+   },
+   {
+    "id": "D",
+    "text": "Epiploplastia pediculada aislada, suficiente para rellenar el espacio muerto y cerrar la piel"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase incluye el colgajo TRAM o VRAM dentro de la fase de reconstrucción de la exenteración pélvica, junto con la derivación urinaria y la derivación digestiva. El colgajo miocutáneo de recto abdominal, en su variante transversa o vertical, aporta tejido bien vascularizado no irradiado, rellena el espacio muerto pélvico y permite cerrar un defecto perineal amplio, que es exactamente el problema de esta paciente. Opción A: el cierre directo sobre un lecho irradiado y con espacio muerto tiene una tasa inaceptable de dehiscencia perineal y de colección. Opción B: una malla protésica en un lecho irradiado y potencialmente contaminado favorece la infección y la exposición del material. Opción D: el epiplón puede emplearse para rellenar la pelvis, pero por sí solo no aporta cobertura cutánea ni resuelve un defecto perineal extenso. Punto de enseñanza: la exenteración no termina con la resección, y el colgajo de recto abdominal es la herramienta estándar de cobertura perineal.",
+  "teaching_point": "El colgajo TRAM o VRAM cubre el defecto perineal y rellena el espacio muerto tras la exenteración pélvica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "reconstrucción",
+   "TRAM",
+   "VRAM",
+   "periné"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-M008",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "extrema",
+  "stem": "En el consentimiento informado de un paciente que va a ser intervenido por una recidiva pélvica central se le deben explicar los resultados esperables de la cirugía radical en centros con experiencia. ¿Qué combinación de mortalidad, morbilidad mayor y supervivencia a cinco años corresponde a esta situación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mortalidad del 15 %, morbilidad mayor del 60 % y supervivencia a cinco años del 20 %"
+   },
+   {
+    "id": "B",
+    "text": "Mortalidad del 2 %, morbilidad mayor del 15 % y supervivencia a cinco años del 60-70 %"
+   },
+   {
+    "id": "C",
+    "text": "Mortalidad del 10 %, morbilidad mayor del 50 % y supervivencia a cinco años del 30 %"
+   },
+   {
+    "id": "D",
+    "text": "Mortalidad igual o inferior al 5 %, morbilidad mayor del 30-40 % y supervivencia del 40-50 %"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "Las cifras que la clase asocia a la cirugía de la recidiva pélvica central son mortalidad igual o inferior al 5 %, morbilidad mayor del 30 al 40 % y supervivencia a cinco años del 40 al 50 %. El mensaje que hay que trasladar al paciente tiene dos caras: es una cirugía con una mortalidad contenida pero con una probabilidad muy alta de complicación mayor, y a cambio ofrece una supervivencia prolongada a casi la mitad de los pacientes seleccionados. Opción A: triplica la mortalidad real y rebaja la supervivencia a la mitad, un balance que no justificaría indicar la intervención. Opción B: describe una cirugía de riesgo bajo y resultado excelente que no se corresponde con una exenteración sobre un lecho a menudo irradiado. Opción C: dobla la mortalidad y sobrestima la morbilidad, y sitúa la supervivencia por debajo de la comunicada en las series con experiencia. Punto de enseñanza: baja mortalidad, alta morbilidad y supervivencia prolongada en cerca de la mitad de los casos seleccionados.",
+  "teaching_point": "Recidiva pélvica central: mortalidad ≤5 %, morbilidad mayor del 30-40 % y supervivencia a cinco años del 40-50 %.",
+  "guideline_ref": "Hyngstrom JR et al. J Surg Oncol 2014;109(7):652-8 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 17
+  },
+  "tags": [
+   "recidiva central",
+   "morbimortalidad",
+   "supervivencia",
+   "consentimiento"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T30-C001",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "En la planificación de una sacrectomía por un tumor sacropélvico, el nivel de sección condiciona la morbilidad funcional y las necesidades de estabilización posterior. Indique qué vértebra marca el límite entre la sacrectomía alta y la sacrectomía baja según la clasificación empleada en clase.",
+  "respuesta_canonica": "S3: alta si incluye S3 o por encima, baja por debajo de S3",
+  "aceptadas": [
+   "S3",
+   "la S3",
+   "la tercera vértebra sacra",
+   "tercera vértebra sacra",
+   "alta desde S3, baja por debajo de S3",
+   "S3: alta si incluye S3 o por encima, baja por debajo de S3"
+  ],
+  "conceptos_clave": [
+   "S3"
+  ],
+  "max_palabras": 20,
+  "explanation": "La sacrectomía se clasifica en alta y baja tomando S3 como umbral: es alta la que incluye S3 o cualquier nivel superior, y baja la que queda por debajo de S3. La distinción tiene consecuencias prácticas inmediatas, porque cuanto más proximal es el nivel de sección más raíces sacras se sacrifican, con repercusión sobre la continencia fecal y urinaria y sobre la función sexual, y mayor es el compromiso de la estabilidad del anillo pelviano, que puede obligar a una reconstrucción o estabilización. La sacrectomía se plantea en la recidiva pélvica posterior del cáncer de recto y en los cordomas, siempre en pacientes seleccionados, y forma parte del abordaje de los tumores sacropélvicos primarios y secundarios mediante cirugía radical y radioterapia intraoperatoria.",
+  "teaching_point": "S3 es el nivel que separa la sacrectomía alta de la baja.",
+  "guideline_ref": "García-Sabrido JL et al. Cir Esp 2003;73(2):78-87 (citado en la clase)",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 18
+  },
+  "tags": [
+   "sacrectomía",
+   "S3",
+   "clasificación"
+  ]
+ },
+ {
+  "id": "T30-C002",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Tras la fase de resección de una exenteración pélvica total es obligada la derivación urinaria. Entre las opciones descritas en clase figura una derivación no continente que interpone un segmento intestinal entre los uréteres y la piel. Indique el nombre con el que se conoce esa derivación.",
+  "respuesta_canonica": "Conducto urinario de Bricker",
+  "aceptadas": [
+   "Bricker",
+   "conducto de Bricker",
+   "conducto ileal de Bricker",
+   "conducto urinario de Bricker",
+   "ureteroileostomía cutánea tipo Bricker"
+  ],
+  "conceptos_clave": [
+   "Bricker"
+  ],
+  "max_palabras": 20,
+  "explanation": "Las tres opciones de derivación urinaria recogidas en la clase son el conducto urinario de Bricker, los reservorios continentes, con el Miami pouch como ejemplo, y la neovejiga. El conducto de Bricker es la derivación no continente clásica: se interpone un segmento intestinal entre los uréteres y la piel, de modo que la orina fluye de forma continua a un estoma y el paciente necesita un dispositivo colector adherido. Los reservorios continentes almacenan la orina y se vacían por cateterización intermitente, evitando la bolsa externa, y la neovejiga es la reconstrucción ortotópica. La elección depende del estado del paciente, de la extensión de la resección y de si el lecho ha sido irradiado, y forma parte de la fase de reconstrucción junto con la derivación digestiva y el colgajo TRAM o VRAM.",
+  "teaching_point": "El conducto de Bricker es la derivación urinaria no continente; el Miami pouch es el reservorio continente.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "derivación urinaria",
+   "Bricker",
+   "exenteración"
+  ]
+ },
+ {
+  "id": "T30-C003",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La exenteración pélvica se organiza en dos fases: la resección y la reconstrucción. Enumere los tres componentes que integran la fase de reconstrucción tal como se describen en la clase, sin detallar las variantes técnicas de cada uno de ellos ni las indicaciones del procedimiento.",
+  "respuesta_canonica": "Derivación urinaria, derivación digestiva y colgajo TRAM/VRAM",
+  "aceptadas": [
+   "derivación urinaria, derivación digestiva y colgajo TRAM o VRAM",
+   "derivación urinaria, digestiva y TRAM/VRAM",
+   "urinaria, digestiva y TRAM o VRAM",
+   "derivación urinaria, derivación digestiva y colgajo miocutáneo de recto abdominal",
+   "urinaria, digestiva y colgajo miocutáneo de recto abdominal",
+   "derivación urinaria, derivación digestiva y reconstrucción con colgajo miocutáneo"
+  ],
+  "conceptos_clave": [
+   "urinaria",
+   "digestiva"
+  ],
+  "max_palabras": 20,
+  "explanation": "La exenteración pélvica se descompone en dos fases. La primera es la resección, cuya extensión se define en dos ejes: el plano respecto al elevador del ano, supraelevador o infraelevador, y la extensión visceral, anterior, posterior o total. La segunda es la reconstrucción, que integra tres componentes: la derivación urinaria, con el conducto de Bricker, los reservorios continentes tipo Miami pouch o la neovejiga como alternativas; la derivación digestiva; y la cobertura del defecto con un colgajo miocutáneo de recto abdominal en su variante transversa o vertical, TRAM o VRAM. Olvidar la fase reconstructiva es el error conceptual más habitual: en esta cirugía el tiempo de reconstrucción condiciona buena parte de la morbilidad mayor, que en la recidiva pélvica central se sitúa entre el treinta y el cuarenta por ciento.",
+  "teaching_point": "La reconstrucción de la exenteración tiene tres piezas: derivación urinaria, derivación digestiva y colgajo TRAM/VRAM.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "exenteración pélvica",
+   "reconstrucción",
+   "TRAM",
+   "VRAM"
+  ]
+ },
+ {
+  "id": "T30-L001",
+  "tema": 30,
+  "bloque": "pelvis",
+  "formato": "larga",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Exponga de forma ordenada la cirugía pélvica radical oncológica tal como se plantea en la clase. Describa la exenteración pélvica: su clasificación según el plano de resección y según la extensión visceral, sus dos fases y los componentes de la reconstrucción. Indique las indicaciones tumorales de este grupo de intervenciones. Diferencie después la sacrectomía y la pelvectomía, con sus tipos, sus indicaciones y la topografía de la recidiva a la que responde cada una. Cierre con los resultados esperables. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Clasifica la exenteración pélvica según el plano de resección (supraelevadora o infraelevadora) y según la extensión visceral (anterior, posterior o total)",
+    "puntos": 0.38,
+    "claves": [
+     "supraelevador",
+     "infraelevador",
+     "anterior",
+     "posterior",
+     "total"
+    ]
+   },
+   {
+    "elemento": "Distingue las dos fases de la intervención, resección y reconstrucción",
+    "puntos": 0.38,
+    "claves": [
+     "resección",
+     "reconstrucción"
+    ]
+   },
+   {
+    "elemento": "Enumera los tres componentes de la reconstrucción: derivación urinaria, derivación digestiva y colgajo TRAM/VRAM, con las opciones de derivación urinaria (Bricker, reservorio continente tipo Miami pouch, neovejiga)",
+    "puntos": 0.38,
+    "claves": [
+     "derivación urinaria",
+     "derivación digestiva",
+     "TRAM",
+     "VRAM",
+     "Bricker",
+     "Miami"
+    ]
+   },
+   {
+    "elemento": "Cita las indicaciones tumorales del grupo: cáncer de recto, cáncer de cérvix y sarcomas",
+    "puntos": 0.38,
+    "claves": [
+     "recto",
+     "cérvix",
+     "sarcoma"
+    ]
+   },
+   {
+    "elemento": "Define la sacrectomía, su división en alta (S3 e incluso por encima) y baja (por debajo de S3), y sus indicaciones: recidiva pélvica posterior de cáncer de recto y cordomas",
+    "puntos": 0.38,
+    "claves": [
+     "sacrectomía",
+     "S3",
+     "alta",
+     "baja",
+     "cordoma"
+    ]
+   },
+   {
+    "elemento": "Define la pelvectomía o hemipelvectomía, sus tipos interna y externa, y su indicación en sarcomas óseos y de partes blandas",
+    "puntos": 0.38,
+    "claves": [
+     "pelvectomía",
+     "interna",
+     "externa",
+     "sarcoma"
+    ]
+   },
+   {
+    "elemento": "Relaciona la topografía de la recidiva con la intervención: central para la exenteración y posterior para la sacrectomía",
+    "puntos": 0.38,
+    "claves": [
+     "central",
+     "posterior"
+    ]
+   },
+   {
+    "elemento": "Aporta los resultados: mortalidad igual o inferior al 5 %, morbilidad mayor del 30-40 % y supervivencia a cinco años del 40-50 % en pacientes seleccionados",
+    "puntos": 0.34,
+    "claves": [
+     "mortalidad",
+     "morbilidad",
+     "supervivencia",
+     "seleccionados"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La cirugía pélvica radical oncológica agrupa tres intervenciones que responden a problemas distintos. La exenteración pélvica consiste en la resección en bloque de las vísceras pélvicas y se clasifica en dos ejes. Según el plano de resección es supraelevadora, cuando respeta el músculo elevador del ano, o infraelevadora, cuando lo sacrifica junto con el periné. Según la extensión visceral es anterior, posterior o total. La intervención se organiza en dos fases. La primera es la resección. La segunda es la reconstrucción, que integra tres componentes: la derivación urinaria, con tres alternativas, el conducto urinario de Bricker, no continente, los reservorios continentes tipo Miami pouch y la neovejiga; la derivación digestiva; y la cobertura del defecto con un colgajo miocutáneo de recto abdominal, transverso o vertical, TRAM o VRAM. Las indicaciones tumorales de este grupo de intervenciones son el cáncer de recto, el cáncer de cérvix y los sarcomas. La topografía de la recidiva determina la técnica. La recidiva pélvica central es el terreno de la exenteración. La recidiva pélvica posterior, fijada al sacro, es el de la sacrectomía, que se divide en alta, cuando alcanza S3 o niveles superiores, y baja, cuando queda por debajo de S3; sus indicaciones clásicas son la recidiva del cáncer de recto y los cordomas, siempre en pacientes seleccionados. Las pelvectomías o hemipelvectomías, por su parte, se indican en los sarcomas óseos y de partes blandas de la pelvis y se dividen en internas, que resecan el anillo pélvico preservando la extremidad, y externas, que la sacrifican; también en pacientes seleccionados. En cuanto a los resultados, la cirugía de la recidiva pélvica central se asocia a una mortalidad igual o inferior al 5 %, a una morbilidad mayor del 30 al 40 % y a una supervivencia a cinco años del 40 al 50 %. Cifras similares de supervivencia a cinco años se comunican en los pacientes seleccionados sometidos a sacrectomía por recidiva posterior y a pelvectomía por sarcoma. En conjunto son intervenciones de morbilidad elevada y mortalidad contenida que ofrecen supervivencia prolongada a cerca de la mitad de los pacientes seleccionados.",
+  "explanation": "La pregunta obliga a mantener separadas tres intervenciones que el alumno tiende a mezclar porque comparten escenario anatómico. El error más repetido es aplicar los pares de términos a la intervención equivocada: supraelevador e infraelevador son de la exenteración, alta y baja son de la sacrectomía, e interna y externa son de la pelvectomía. El segundo error frecuente es reducir la exenteración a su fase resectiva y olvidar que la reconstrucción tiene tres componentes obligados, siendo además la que concentra buena parte de la morbilidad. El tercero es no relacionar la topografía de la recidiva con la técnica: central para la exenteración, posterior para la sacrectomía. Cerrar con los resultados, con mortalidad baja frente a morbilidad alta, es lo que demuestra que el alumno entiende por qué estas cirugías se limitan a pacientes seleccionados.",
+  "teaching_point": "Tres intervenciones, tres pares de términos y tres topografías: exenteración central, sacrectomía posterior y pelvectomía para el sarcoma del anillo.",
+  "guideline_ref": "García-Sabrido JL et al. Cir Esp 2003;73(2):78-87; Cirugía AEC 2022, capítulo de cirugía de la recidiva pélvica",
+  "fuente_clase": {
+   "archivo": "30.- Pelvis.pdf",
+   "pagina": 2
+  },
+  "tags": [
+   "exenteración pélvica",
+   "sacrectomía",
+   "pelvectomía",
+   "recidiva pélvica"
+  ]
+ }
+]

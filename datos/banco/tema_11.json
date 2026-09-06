@@ -1,0 +1,732 @@
+[
+ {
+  "id": "T11-M001",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 63 años, diabético y con antecedente de litiasis renal, consulta por dolor lumbar derecho y fiebre de dos semanas, con pérdida de peso y dolor irradiado a la ingle. La TC muestra una masa inflamatoria con gas en el espacio perirrenal derecho. ¿Cuál es el origen más probable y el germen esperable?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Origen digestivo, con flora multibacteriana de gramnegativos y anaerobios como Bacteroides."
+   },
+   {
+    "id": "B",
+    "text": "Origen renal, monobacteriano y por gramnegativos como Escherichia coli o Proteus."
+   },
+   {
+    "id": "C",
+    "text": "Origen óseo vertebral, monobacteriano y típicamente por Mycobacterium tuberculosis."
+   },
+   {
+    "id": "D",
+    "text": "Origen postoperatorio, con flora dependiente del órgano intervenido previamente."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase tabula las causas de absceso retroperitoneal: renal 47 %, remota 11 %, digestiva 16 %, postoperatoria 8 % e infección ósea 7 %, y asocia a cada una un patrón microbiológico. El origen renal es el más frecuente, monobacteriano y por gramnegativos como Escherichia coli o Proteus, y se acompaña de factores colaterales como litiasis renal, diabetes mellitus, inmunodeficiencia o neoplasia, presentes aquí. La clínica descrita, dolor lumbar y fiebre con pérdida de peso y dolor inguinal, y la imagen de masa inflamatoria con gas en la TC son las que recoge el material. Opción A: el origen digestivo es multibacteriano por gramnegativos y anaerobios, y no encaja con la localización perirrenal ni con los antecedentes. Opción B: correcta. Opción C: la infección ósea vertebral es monobacteriana por Mycobacterium tuberculosis, pero exige afectación vertebral. Opción D: la causa postoperatoria requiere una intervención previa, ausente en el caso. Punto de enseñanza: en el absceso retroperitoneal, el antecedente urológico orienta al origen renal y a gramnegativos.",
+  "teaching_point": "El absceso retroperitoneal más frecuente es el de origen renal, monobacteriano y por gramnegativos.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "absceso retroperitoneal",
+   "microbiología",
+   "TC"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M002",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Se planifica el abordaje quirúrgico de una masa situada por detrás del peritoneo parietal posterior. Antes de la disección se repasan los límites del compartimento retroperitoneal y las vísceras que contiene, para anticipar qué estructuras quedan en riesgo durante la intervención. ¿Qué afirmación describe correctamente los límites o el contenido del retroperitoneo según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Su límite anterior es el músculo cuadrado lumbar y el posterior el peritoneo parietal."
+   },
+   {
+    "id": "B",
+    "text": "Su límite inferior es el diafragma y el superior los músculos elevadores del ano."
+   },
+   {
+    "id": "C",
+    "text": "Contiene el yeyuno y el íleon, además de los riñones, los uréteres y las suprarrenales."
+   },
+   {
+    "id": "D",
+    "text": "Contiene duodeno y páncreas, además de aorta, cava, riñones, uréteres y suprarrenales."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase define el retroperitoneo por sus límites: superior el diafragma, inferior los elevadores del ano, lateral el músculo transverso, posterior el cuadrado lumbar, el psoas y el ilíaco, y anterior el peritoneo parietal posterior. Su contenido incluye aorta, cava, linfáticos, raíces nerviosas somáticas y plexos vegetativos, suprarrenales, riñones y uréteres con sus espacios renal, prerrenal y retrorrenal, y tejido conjuntivo-adiposo; el material dedica una diapositiva específica al digestivo retroperitoneal, que son el duodeno y el páncreas. Opción A: invierte los límites anterior y posterior. Opción B: invierte el límite superior y el inferior. Opción C: el yeyuno y el íleon son intraperitoneales y están sostenidos por el mesenterio, no retroperitoneales. Opción D: correcta. Punto de enseñanza: duodeno y páncreas son las vísceras digestivas retroperitoneales, y su relación con los grandes vasos condiciona la cirugía de esta región.",
+  "teaching_point": "Duodeno y páncreas son las vísceras digestivas del retroperitoneo, junto a riñones, uréteres, suprarrenales y grandes vasos.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "anatomía",
+   "retroperitoneo",
+   "duodeno-páncreas"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M003",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente politraumatizado presenta en la TC un hematoma retroperitoneal central que afecta a la región de los grandes vasos, el páncreas y el duodeno. Se encuentra estable tras la resucitación inicial y no presenta otras lesiones que requieran cirugía inmediata. ¿Qué actitud corresponde a esa localización según la clasificación por zonas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Zona 1: exploración quirúrgica del hematoma para descartar lesión vascular o visceral."
+   },
+   {
+    "id": "B",
+    "text": "Zona 1: observación con TC seriada, reservando la cirugía solo si el hematoma se expande."
+   },
+   {
+    "id": "C",
+    "text": "Zona 2: exploración quirúrgica sistemática por el riesgo de lesión renal asociada."
+   },
+   {
+    "id": "D",
+    "text": "Zona 3: estabilización de la fractura y arteriografía con embolización, sin explorar."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase divide el hematoma retroperitoneal en tres zonas y asigna a cada una una actitud. La zona 1 es la central e incluye cava, aorta, páncreas y duodeno, y obliga a exploración quirúrgica. La zona 2 corresponde al riñón y los tejidos perirrenales, y su exploración se reserva a los hematomas que se expanden, manteniendo la observación si hay estabilidad. La zona 3 es la pélvica, por lesión ósea o de los vasos ilíacos, y se maneja estabilizando la fractura y con arteriografía y embolización, sin exploración. Opción A: correcta, la localización descrita es zona 1. Opción B: la observación es la actitud de la zona 2 estable, no de la zona 1. Opción C: confunde la zona y además convierte en sistemática una exploración que es selectiva. Opción D: describe correctamente la zona 3, pero no corresponde a la localización del caso. Punto de enseñanza: zona 1 se explora, zona 2 se explora si se expande, zona 3 se emboliza.",
+  "teaching_point": "Hematoma retroperitoneal: zona 1 se explora, zona 2 solo si se expande, zona 3 se estabiliza y emboliza.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "hematoma retroperitoneal",
+   "zonas",
+   "trauma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M004",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 29 años atropellada, con fractura inestable de pelvis y anemia aguda. La TC muestra un hematoma retroperitoneal pélvico sin lesión de órgano sólido. Persiste hipotensa pese a la transfusión y no hay sangrado intraabdominal libre en la exploración ecográfica. ¿Qué actuación procede sobre el hematoma?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Exploración quirúrgica inmediata del hematoma con empaquetamiento pélvico retroperitoneal."
+   },
+   {
+    "id": "B",
+    "text": "Observación con control ecográfico seriado, reservando la arteriografía para el caso de que aumenten los requerimientos transfusionales."
+   },
+   {
+    "id": "C",
+    "text": "Estabilizar la fractura y realizar arteriografía con embolización, sin explorar el hematoma."
+   },
+   {
+    "id": "D",
+    "text": "Nefrectomía exploradora por probable lesión renal asociada al mecanismo del atropello."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El hematoma pélvico corresponde a la zona 3, definida por lesión ósea o vascular de los vasos ilíacos. La clase indica estabilizar la fractura y realizar arteriografía con embolización, y precisa que no debe realizarse exploración quirúrgica, porque en el traumatismo cerrado el hematoma suele deberse a la fractura de pelvis y su exploración conlleva mayor necesidad de transfusión y mayor mortalidad. Opción A: abrir el hematoma pélvico libera el efecto de taponamiento y es precisamente la conducta que el material desaconseja en el trauma cerrado. Opción B: demorar la arteriografía en una paciente que sigue hipotensa pese a la transfusión deja sin controlar un sangrado activo; la observación es la actitud de la zona 2 no expansiva, no la de una zona 3 con inestabilidad. Opción C: correcta. Opción D: no hay lesión de órgano sólido en la TC, de modo que no procede una nefrectomía. Punto de enseñanza: en el hematoma pélvico por trauma cerrado, la hemostasia es angiográfica y ortopédica, no quirúrgica abierta.",
+  "teaching_point": "El hematoma retroperitoneal de zona 3 por fractura de pelvis no se explora: se estabiliza y se emboliza.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "zona 3",
+   "embolización",
+   "fractura de pelvis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M005",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Varón de 56 años en tratamiento crónico con metisergida presenta deterioro de la función renal e hidronefrosis bilateral. La TC muestra una masa retroperitoneal de límites imprecisos que se extiende entre los vasos renales y el promontorio y engloba ambos uréteres. ¿Qué entidad explica mejor el cuadro y qué estructura se obstruye primero?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Linfoma retroperitoneal; la primera estructura comprometida es la vena cava inferior."
+   },
+   {
+    "id": "B",
+    "text": "Sarcoma retroperitoneal desdiferenciado; obstruye antes la aorta que los uréteres."
+   },
+   {
+    "id": "C",
+    "text": "Absceso retroperitoneal crónico; la obstrucción inicial afecta a los vasos ilíacos."
+   },
+   {
+    "id": "D",
+    "text": "Fibrosis retroperitoneal; el uréter es la estructura más débil y se obstruye primero."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase describe la fibrosis retroperitoneal como una inflamación crónica de los tejidos retroperitoneales secundaria a neoplasia, radioterapia o infección previa, o idiopática, en cuyo caso se conoce como enfermedad de Ormond, descrita en 1948, y se relaciona con autoinmunidad o con fármacos como la metisergida. Se extiende típicamente entre los vasos renales y el promontorio y forma una masa fibrosa de límites imprecisos que engloba uréteres y grandes vasos. La clínica se debe a la obstrucción ureteral, porque el uréter es la estructura más débil; en casos más graves puede obstruir la cava y la aorta, y la TC muestra masa retroperitoneal e hidronefrosis. Opción A: el linfoma no se asocia a metisergida ni a esta distribución característica. Opción B: el sarcoma es una masa expansiva de límites definidos, no una placa fibrosa infiltrante. Opción C: el absceso cursa con fiebre y masa con gas. Opción D: correcta. Punto de enseñanza: hidronefrosis bilateral con placa fibrosa periaórtica y fármaco sospechoso es fibrosis retroperitoneal.",
+  "teaching_point": "En la fibrosis retroperitoneal el uréter es la estructura más débil: la hidronefrosis precede a la afectación vascular.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "fibrosis retroperitoneal",
+   "Ormond",
+   "hidronefrosis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M006",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Se confirma una fibrosis retroperitoneal idiopática en fase inicial en un varón de 54 años con hidronefrosis bilateral y deterioro de la función renal. La biopsia muestra proliferación de fibroblastos y colágena, neoformación de capilares e infiltrado de linfocitos, células plasmáticas y monocitos. ¿Qué opciones terapéuticas contempla la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Quimioterapia sistémica de primera línea seguida de resección compartimental reglada."
+   },
+   {
+    "id": "B",
+    "text": "Corticoides en estadios iniciales y, según evolución, ureterolisis o derivación urinaria."
+   },
+   {
+    "id": "C",
+    "text": "Radioterapia externa como tratamiento único, por su elevada radiosensibilidad conocida."
+   },
+   {
+    "id": "D",
+    "text": "Nefrectomía bilateral programada y entrada precoz en un programa de hemodiálisis."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El material describe la anatomía patológica de la fibrosis retroperitoneal exactamente como se recoge en el enunciado: proliferación de fibroblastos y colágena con neoformación de capilares, infiltración de linfocitos, células plasmáticas y monocitos en un intersticio fibroso, dilatación de vasos linfáticos y venas trombosadas. En cuanto al tratamiento, señala que los corticoides pueden dar resultados favorables en estadios iniciales y enumera como alternativas quirúrgicas la ureterolisis, la nefrostomía bilateral y la derivación urinaria. Opción A: la quimioterapia y la resección compartimental pertenecen al terreno de los sarcomas retroperitoneales, no de la fibrosis. Opción B: correcta, combina el tratamiento médico inicial y el rescate urológico. Opción C: la radioterapia figura entre las causas de fibrosis retroperitoneal secundaria, no entre sus tratamientos. Opción D: la nefrectomía bilateral es una mutilación innecesaria cuando el objetivo es liberar los uréteres y preservar la función renal. Punto de enseñanza: corticoides pronto y desobstrucción urinaria después.",
+  "teaching_point": "Fibrosis retroperitoneal: corticoides en fases iniciales y ureterolisis, nefrostomía o derivación urinaria si progresa.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "fibrosis retroperitoneal",
+   "corticoides",
+   "ureterolisis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M007",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 58 años con una masa retroperitoneal de 14 cm en la TC, de aspecto sólido y heterogéneo, sin ascitis ni adenopatías. Ya se han completado la historia clínica con antecedentes personales y familiares, la exploración física y el estudio por imagen, y el caso se discute en comité. ¿Qué paso procede antes de decidir el tratamiento?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección quirúrgica directa sin biopsia previa, para no diseminar células por el trayecto."
+   },
+   {
+    "id": "B",
+    "text": "Punción aspiración con aguja fina, suficiente para tipificar con seguridad el subtipo histológico."
+   },
+   {
+    "id": "C",
+    "text": "Biopsia con aguja gruesa para obtener un cilindro de tejido y alcanzar el diagnóstico histológico."
+   },
+   {
+    "id": "D",
+    "text": "Radioterapia preoperatoria empírica con reevaluación por imagen a los tres meses del inicio."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase ordena el manejo del sarcoma de partes blandas en cinco pasos: historia clínica y exploración física, antecedentes personales y familiares, estudio por imagen, biopsia con aguja gruesa preferible y estadificación. Una diapositiva específica insiste en que la biopsia se realiza con punción con aguja gruesa para obtener un cilindro de tejido y llegar al diagnóstico histológico, que es el que condiciona la estrategia, porque el diagnóstico diferencial incluye linfoma, tumor de células germinales y metástasis, entidades que no se operan de entrada. Opción A: operar sin diagnóstico expone a resecar un linfoma o un tumor germinal, cuyo tratamiento es médico. Opción B: la punción con aguja fina aporta citología, insuficiente para tipificar un sarcoma y establecer su grado. Opción C: correcta. Opción D: la radioterapia preoperatoria puede indicarse, pero después del diagnóstico histológico, nunca de forma empírica. Punto de enseñanza: ninguna masa retroperitoneal se trata sin diagnóstico histológico por aguja gruesa.",
+  "teaching_point": "Toda masa retroperitoneal sospechosa de sarcoma se biopsia con aguja gruesa antes de decidir el tratamiento.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "biopsia",
+   "BAG",
+   "sarcoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M008",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 57 años consulta por saciedad precoz, molestias abdominales vagas y pérdida de peso de varios meses de evolución. La TC muestra una masa retroperitoneal de 16 cm que desplaza el riñón izquierdo, sin adenopatías ni lesiones a distancia. ¿Cuál es el diagnóstico histológico más probable?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Liposarcoma, el subtipo más frecuente de sarcoma retroperitoneal, en torno al 75 %."
+   },
+   {
+    "id": "B",
+    "text": "Leiomiosarcoma, que representa aproximadamente el 15 % de los sarcomas retroperitoneales."
+   },
+   {
+    "id": "C",
+    "text": "Rabdomiosarcoma, subtipo predominante en esta localización en el paciente adulto."
+   },
+   {
+    "id": "D",
+    "text": "Tumor fibroso solitario, que en el retroperitoneo es más frecuente que el leiomiosarcoma."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase caracteriza el sarcoma retroperitoneal por una incidencia de un caso por cien mil habitantes y año, una edad media de presentación de 50 a 60 años, igual distribución entre hombres y mujeres y un tamaño medio al diagnóstico de 15 cm, y precisa que los subtipos más frecuentes son el liposarcoma, con el 75 %, el leiomiosarcoma, con el 15 %, y otros, con el 10 %. La clínica es la descrita: tumores asintomáticos hasta alcanzar gran tamaño, con síntomas vagos como dolor abdominal, pérdida de peso, saciedad precoz, náuseas y vómitos. Opción A: correcta por frecuencia. Opción B: el leiomiosarcoma es posible, pero cinco veces menos frecuente, y suele relacionarse con un gran vaso. Opción C: el rabdomiosarcoma es el subtipo característico de la edad pediátrica. Opción D: el tumor fibroso solitario aparece en el retroperitoneo, pero queda dentro del 10 % agrupado como otros subtipos, por debajo del 15 % del leiomiosarcoma. Punto de enseñanza: masa retroperitoneal grande y pauci-sintomática en la sexta década sugiere liposarcoma.",
+  "teaching_point": "El liposarcoma es el sarcoma retroperitoneal más frecuente, en torno al 75 % de los casos.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "liposarcoma",
+   "epidemiología",
+   "sarcoma retroperitoneal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M009",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 61 años intervenido de un leiomiosarcoma retroperitoneal de 12 cm originado en la vena renal izquierda, con resección completa y sin enfermedad a distancia en el estudio de extensión. Acude a la primera revisión y pregunta qué problema es el más probable durante el seguimiento y por qué se le van a repetir las pruebas de imagen. ¿Qué patrón evolutivo corresponde a este tumor según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Metástasis a distancia frecuentes, en torno al 50 %, con una recidiva local en torno al 10 %."
+   },
+   {
+    "id": "B",
+    "text": "Recidiva local superior al 50 %, que obliga a plantear la resección compartimental propia del liposarcoma."
+   },
+   {
+    "id": "C",
+    "text": "Diseminación linfática regional precoz, que justifica una linfadenectomía retroperitoneal reglada."
+   },
+   {
+    "id": "D",
+    "text": "Metástasis a distancia excepcionales y curso indolente, que permiten espaciar mucho el seguimiento por imagen."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase contrapone los dos subtipos que concentran el 90 % de los sarcomas retroperitoneales. El leiomiosarcoma, que con frecuencia se origina en un gran vaso (cava, vena renal o vena gonadal), tiene una recurrencia local baja, en torno al 10 %, pero metastatiza a distancia en cerca del 50 % de los casos, y no precisa resección compartimental. El liposarcoma se comporta al revés: recurrencia local superior al 50 %, metástasis a distancia menos frecuentes (32 % en el desdiferenciado) y necesidad de resección compartimental. Ninguno de los dos da metástasis linfáticas. Opción A: correcta, es el patrón del leiomiosarcoma y explica que el seguimiento se dirija sobre todo a la enfermedad a distancia. Opción B: describe el comportamiento del liposarcoma, no el del leiomiosarcoma, y arrastra una indicación técnica que este tumor no requiere. Opción C: el material subraya que ninguno de los dos subtipos da metástasis linfáticas, de modo que la linfadenectomía reglada no tiene sentido. Opción D: el curso no es indolente; precisamente la mitad de estos pacientes desarrolla enfermedad a distancia, y en el sarcoma retroperitoneal en conjunto la supervivencia global a cinco años que cita la clase es del 35 al 40 %. Punto de enseñanza: en el liposarcoma vigila la recidiva local; en el leiomiosarcoma, las metástasis a distancia.",
+  "teaching_point": "Leiomiosarcoma retroperitoneal: recidiva local baja (10 %) y metástasis a distancia en el 50 %; el liposarcoma se comporta justo al contrario y sí exige resección compartimental.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "leiomiosarcoma",
+   "liposarcoma",
+   "patrón de recidiva"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M010",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Se planifica la cirugía de un liposarcoma retroperitoneal derecho de 18 cm que contacta con el riñón, el colon y el músculo psoas, y que desplaza sin infiltrar claramente el duodeno. El paciente no presenta enfermedad a distancia y tiene buen estado funcional. ¿Qué estrategia quirúrgica procede según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección intralesional con vaciamiento del tumor, aceptando márgenes microscópicos positivos."
+   },
+   {
+    "id": "B",
+    "text": "Biopsia intraoperatoria y cierre, remitiendo al paciente a quimioterapia como tratamiento principal."
+   },
+   {
+    "id": "C",
+    "text": "Resección en bloque con los órganos contiguos que no añadan morbilidad excesiva, buscando R0."
+   },
+   {
+    "id": "D",
+    "text": "Duodenopancreatectomía sistemática asociada, por el contacto radiológico con el duodeno."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase establece que la cirugía es el único tratamiento curativo del sarcoma retroperitoneal y que consiste en la resección en bloque con los órganos que le rodean, siendo la resección completa R0 con márgenes libres el factor pronóstico más importante. Precisa además que se incluyen los órganos contiguos que no causen morbilidad excesiva, como riñón, colon o músculo psoas, mientras que la aorta y el bloque duodenopancreático solo se resecan si están claramente invadidos. Opción A: la resección intralesional contradice el objetivo de márgenes libres y garantiza la recidiva. Opción B: el material recuerda que la quimioterapia es poco activa, de modo que no sustituye a la cirugía. Opción C: correcta. Opción D: el duodeno está desplazado, no invadido, y una duodenopancreatectomía sistemática añadiría una morbilidad injustificada. Punto de enseñanza: se reseca en bloque lo que se puede quitar sin coste excesivo y solo lo invadido cuando el coste es alto.",
+  "teaching_point": "El sarcoma retroperitoneal se reseca en bloque con los órganos contiguos; la R0 es el factor pronóstico más importante.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "resección en bloque",
+   "R0",
+   "cirugía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M011",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Ante una tumoración de partes blandas de nueva aparición se orienta la sospecha según el territorio anatómico en el que asienta, porque la frecuencia de los sarcomas no es la misma en todas las localizaciones y de ella depende el retraso diagnóstico habitual. ¿Qué afirmación sobre la distribución por localización se corresponde con la expuesta en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El retroperitoneo es la localización más frecuente, por delante de las extremidades."
+   },
+   {
+    "id": "B",
+    "text": "Cabeza y cuello reúne casi la mitad de los casos y las extremidades apenas el 10 %."
+   },
+   {
+    "id": "C",
+    "text": "Los sarcomas viscerales abdominotorácicos son más frecuentes que los de las extremidades."
+   },
+   {
+    "id": "D",
+    "text": "Las extremidades son la localización más frecuente, con el 43 %, y el retroperitoneo supone el 15 %."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase distribuye los sarcomas de partes blandas por localización: cabeza y cuello 10 %, tronco 10 %, extremidades 43 %, viscerales abdominotorácicos 20 % y retroperitoneales 15 %. Es un dato con consecuencia práctica: la mayoría de los sarcomas asientan en las extremidades, donde el diagnóstico es más precoz por ser palpables, mientras que los retroperitoneales, con un 15 %, permanecen asintomáticos hasta alcanzar gran tamaño, con un tamaño medio al diagnóstico de 15 cm. Opción A: invierte los dos porcentajes, porque el retroperitoneo reúne el 15 % y las extremidades el 43 %. Opción B: cabeza y cuello supone el 10 %, igual que el tronco, y en ningún caso desplaza a las extremidades. Opción C: los viscerales abdominotorácicos suponen el 20 %, muy por debajo del 43 % de las extremidades. Opción D: correcta. Punto de enseñanza: el sarcoma de partes blandas es sobre todo un tumor de extremidades; el retroperitoneal es minoritario pero de peor pronóstico.",
+  "teaching_point": "Los sarcomas de partes blandas asientan sobre todo en extremidades (43 %); solo el 15 % son retroperitoneales.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "sarcoma de partes blandas",
+   "distribución",
+   "epidemiología"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-M012",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Varón de 24 años con una masa retroperitoneal paraaórtica de 9 cm en la TC, sin antecedentes de interés y con buen estado general. Antes de programar cualquier gesto quirúrgico se plantea el diagnóstico diferencial propio de esta edad y localización. ¿Qué exploración y qué determinaciones procede realizar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colonoscopia y determinación de antígeno carcinoembrionario para descartar origen digestivo."
+   },
+   {
+    "id": "B",
+    "text": "Exploración del testículo y marcadores tumorales alfafetoproteína y beta-HCG en sangre."
+   },
+   {
+    "id": "C",
+    "text": "Gammagrafía ósea y fosfatasa alcalina para descartar un origen esquelético del tumor."
+   },
+   {
+    "id": "D",
+    "text": "Catecolaminas en orina y gammagrafía con MIBG por sospecha de tumor de la suprarrenal."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase enumera el diagnóstico diferencial de la masa retroperitoneal e insiste en el tumor de células germinales, especialmente en el paciente joven, indicando de forma expresa la exploración del testículo y los marcadores tumorales alfafetoproteína y beta-HCG. El resto del diferencial incluye linfoma, angiomiolipoma, tumores de la glándula suprarrenal como el mielolipoma y metástasis. La importancia práctica es evidente: un tumor germinal metastásico se trata con quimioterapia, no con una resección retroperitoneal de entrada. Opción A: el origen digestivo no es la primera hipótesis en un varón joven con masa paraaórtica y no justifica una colonoscopia como primer paso. Opción B: correcta. Opción C: el origen esquelético no figura en el diferencial propuesto por la clase para esta localización. Opción D: el tumor suprarrenal aparece en el diferencial, pero la masa es paraaórtica y la edad orienta antes al germinal. Punto de enseñanza: masa retroperitoneal en varón joven obliga a explorar el testículo y pedir marcadores.",
+  "teaching_point": "Ante una masa retroperitoneal en un varón joven, explorar el testículo y solicitar alfafetoproteína y beta-HCG.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 22
+  },
+  "tags": [
+   "diagnóstico diferencial",
+   "tumor germinal",
+   "marcadores"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T11-C001",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Varón de 61 años ingresado por fiebre, dolor lumbar y pérdida de peso, en el que la TC demuestra una masa inflamatoria retroperitoneal con gas. Se solicita cultivo antes de iniciar el tratamiento antibiótico dirigido. Indique cuál es la causa más frecuente de absceso retroperitoneal y su porcentaje aproximado.",
+  "respuesta_canonica": "La causa renal, en torno al 47 % de los casos",
+  "aceptadas": [
+   "origen renal, 47 %",
+   "renal (47%)",
+   "abscesos de origen renal, aproximadamente la mitad de los casos",
+   "la causa renal, cerca del 47 %",
+   "renal, casi la mitad de los casos (47 %)"
+  ],
+  "conceptos_clave": [
+   "renal",
+   "47"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase presenta una tabla con las causas de absceso retroperitoneal, su incidencia y las bacterias implicadas: renal 47 %, digestiva 16 %, infección remota 11 %, postoperatoria 8 % e infección ósea 7 %. La causa renal es, por tanto, la más frecuente, y se acompaña de una infección monobacteriana por gramnegativos, típicamente Escherichia coli o Proteus. La causa digestiva es multibacteriana, por gramnegativos y anaerobios como Escherichia coli, enterococo y Bacteroides; la postoperatoria depende del órgano intervenido; la ósea es monobacteriana por Mycobacterium tuberculosis; y la remota es monobacteriana por grampositivos, generalmente estafilococo. La clínica típica es dolor lumbar y fiebre, con pérdida de peso y dolor inguinal, sobre factores colaterales como litiasis renal, diabetes mellitus, inmunodeficiencia o neoplasia. Se acepta la respuesta que identifique el origen renal, con o sin la cifra exacta, siempre que no atribuya la mayor frecuencia al origen digestivo o al postoperatorio.",
+  "teaching_point": "La causa más frecuente de absceso retroperitoneal es la renal, con un 47 % de los casos y gérmenes gramnegativos.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "absceso retroperitoneal",
+   "etiología",
+   "renal"
+  ]
+ },
+ {
+  "id": "T11-C002",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente politraumatizado presenta un hematoma retroperitoneal en la TC realizada tras la resucitación inicial. El cirujano de guardia decide la actitud en función de la zona anatómica afectada, según la clasificación expuesta en clase. Indique qué zona obliga siempre a exploración quirúrgica y qué estructuras contiene.",
+  "respuesta_canonica": "La zona 1 o central: cava, aorta, páncreas y duodeno",
+  "aceptadas": [
+   "zona 1 (aorta, cava, páncreas, duodeno)",
+   "zona central, con grandes vasos, duodeno y páncreas",
+   "zona 1",
+   "la zona central: grandes vasos, duodeno y páncreas"
+  ],
+  "conceptos_clave": [
+   "zona 1",
+   "aorta",
+   "cava",
+   "duodeno",
+   "páncreas"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase divide el retroperitoneo en tres zonas a efectos del manejo del hematoma traumático. La zona 1 es la central y contiene la cava, la aorta, el páncreas y el duodeno; obliga a exploración quirúrgica, porque puede ocultar una lesión vascular mayor o una lesión duodenopancreática que no se resuelven de forma espontánea. La zona 2 corresponde al riñón y a los tejidos perirrenales, y solo se explora si el hematoma se expande, manteniendo la observación si hay estabilidad. La zona 3 es la pélvica, por lesión ósea o de los vasos ilíacos, y se maneja estabilizando la fractura y con arteriografía y embolización, sin exploración, porque en el traumatismo cerrado suele deberse a la fractura de pelvis y abrirlo conlleva mayor transfusión y mayor mortalidad. Se acepta la respuesta que identifique la zona 1 y al menos dos de las estructuras que contiene.",
+  "teaching_point": "La zona 1 del hematoma retroperitoneal, central, contiene aorta, cava, páncreas y duodeno y siempre se explora.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de patología retroperitoneal",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "hematoma retroperitoneal",
+   "zona 1",
+   "trauma"
+  ]
+ },
+ {
+  "id": "T11-C003",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Se comenta en sesión el caso de una masa retroperitoneal de gran tamaño en un paciente de 58 años, ya biopsiada con aguja gruesa, y se repasa la epidemiología de los sarcomas retroperitoneales antes de planificar la cirugía. Indique el subtipo histológico más frecuente y su porcentaje aproximado.",
+  "respuesta_canonica": "El liposarcoma, aproximadamente el 75 % de los casos",
+  "aceptadas": [
+   "liposarcoma (75%)",
+   "liposarcoma, unas tres cuartas partes de los casos",
+   "LPS o liposarcoma, 75 %",
+   "el liposarcoma, en torno al 75 %"
+  ],
+  "conceptos_clave": [
+   "liposarcoma",
+   "75"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase resume la epidemiología del sarcoma retroperitoneal: incidencia de un caso por cien mil habitantes y año, edad media de presentación entre los 50 y los 60 años, igual proporción entre hombres y mujeres, tamaño medio al diagnóstico de 15 cm y supervivencia global a cinco años del 35 al 40 %. Entre los subtipos, el liposarcoma representa el 75 %, el leiomiosarcoma el 15 % y otros el 10 %. La distinción tiene consecuencias prácticas, porque el liposarcoma presenta recurrencia local mayor del 50 %, metástasis a distancia menos frecuentes y precisa resección compartimental, mientras que el leiomiosarcoma tiene recurrencia local del 10 %, metástasis a distancia frecuentes en el 50 % de los casos y no precisa resección compartimental, con frecuente origen en un gran vaso. Se acepta la respuesta que identifique el liposarcoma, con o sin porcentaje exacto.",
+  "teaching_point": "El liposarcoma es el subtipo más frecuente de sarcoma retroperitoneal, con aproximadamente el 75 % de los casos.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "liposarcoma",
+   "epidemiología",
+   "sarcoma"
+  ]
+ },
+ {
+  "id": "T11-C004",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Tras la resección de un sarcoma retroperitoneal se discute en comité el pronóstico del paciente y la conveniencia de tratamientos complementarios, teniendo en cuenta que la quimioterapia es poco activa y que el papel de la radioterapia no está bien definido. Indique cuál es el factor pronóstico más importante.",
+  "respuesta_canonica": "La resección completa R0 con márgenes libres",
+  "aceptadas": [
+   "resección R0",
+   "cirugía completa con márgenes libres",
+   "obtener márgenes libres en la resección en bloque",
+   "resección completa con márgenes libres (R0)",
+   "conseguir un margen quirúrgico libre, es decir, R0"
+  ],
+  "conceptos_clave": [
+   "R0",
+   "márgenes libres",
+   "resección completa"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase afirma que la cirugía es el único tratamiento curativo del sarcoma retroperitoneal, que consiste en la resección en bloque con los órganos que lo rodean y que la resección completa R0 con márgenes libres es el factor pronóstico más importante. Añade el matiz que hace difícil ese objetivo: los sarcomas retroperitoneales condicionan su tratamiento por la proximidad a grandes vasos y órganos cuya resección presenta alta morbilidad, de modo que la resección amplia con márgenes de tejido sano con frecuencia no es posible y la recidiva local es frecuente, hasta el 50 %, siendo además la causa principal de muerte. Respecto a los tratamientos complementarios, el material indica que el papel de la radioterapia no está bien definido, aunque su uso clínico es habitual y preferiblemente preoperatorio, y que la quimioterapia es poco activa. Se acepta cualquier formulación que identifique la resección completa con márgenes libres.",
+  "teaching_point": "El factor pronóstico más importante en el sarcoma retroperitoneal es la resección completa R0 con márgenes libres.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "R0",
+   "pronóstico",
+   "cirugía"
+  ]
+ },
+ {
+  "id": "T11-L001",
+  "tema": 11,
+  "bloque": "retroperitoneo",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 59 años consulta por saciedad precoz, molestias abdominales inespecíficas y pérdida de peso de cuatro meses. La TC muestra una masa retroperitoneal izquierda de 17 cm, heterogénea, que desplaza el riñón y el colon, sin lesiones a distancia. Exponga el diagnóstico diferencial que plantea, el estudio que completaría antes de tratar, el tratamiento de elección con sus principios técnicos y el pronóstico esperable. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Plantea el diagnóstico diferencial de masa retroperitoneal: tumor de células germinales, linfoma, angiomiolipoma, tumor suprarrenal y metástasis",
+    "puntos": 0.38,
+    "claves": [
+     "germinal",
+     "linfoma",
+     "angiomiolipoma",
+     "metástasis"
+    ]
+   },
+   {
+    "elemento": "Indica TC y resonancia para definir la lesión y su relación con vasos y órganos, y el PET para grado y enfermedad a distancia",
+    "puntos": 0.38,
+    "claves": [
+     "TC",
+     "resonancia",
+     "PET"
+    ]
+   },
+   {
+    "elemento": "Indica biopsia con aguja gruesa para obtener cilindro y diagnóstico histológico antes de tratar",
+    "puntos": 0.38,
+    "claves": [
+     "biopsia",
+     "aguja gruesa",
+     "histológico"
+    ]
+   },
+   {
+    "elemento": "Reconoce el liposarcoma como subtipo más probable por frecuencia y describe la clínica tardía por gran tamaño",
+    "puntos": 0.38,
+    "claves": [
+     "liposarcoma",
+     "asintomático",
+     "gran tamaño"
+    ]
+   },
+   {
+    "elemento": "Establece la cirugía como único tratamiento curativo y la resección R0 en bloque como factor pronóstico más importante",
+    "puntos": 0.38,
+    "claves": [
+     "cirugía",
+     "R0",
+     "en bloque"
+    ]
+   },
+   {
+    "elemento": "Precisa qué órganos se resecan en bloque y cuáles solo si están claramente invadidos",
+    "puntos": 0.38,
+    "claves": [
+     "riñón",
+     "colon",
+     "psoas",
+     "aorta",
+     "duodenopancreático"
+    ]
+   },
+   {
+    "elemento": "Sitúa el papel de radioterapia y quimioterapia según la clase, sin atribuirles beneficio no demostrado",
+    "puntos": 0.38,
+    "claves": [
+     "radioterapia",
+     "preoperatorio",
+     "quimioterapia"
+    ]
+   },
+   {
+    "elemento": "Expone el pronóstico: recidiva local frecuente y principal causa de muerte, con seguimiento prolongado",
+    "puntos": 0.34,
+    "claves": [
+     "recidiva local",
+     "causa principal de muerte",
+     "seguimiento"
+    ]
+   }
+  ],
+  "respuesta_modelo": "Debe considerarse el tumor de células germinales, sobre todo en el paciente joven, con exploración testicular y determinación de alfafetoproteína y beta-HCG; el linfoma; el angiomiolipoma; los tumores de la glándula suprarrenal, como el mielolipoma; y las metástasis. El estudio se completa con TC y resonancia, que definen la lesión primaria y su relación con vasos y órganos próximos, y con PET, que se correlaciona con el grado histológico, con la respuesta al tratamiento y con la afectación a distancia. El diagnóstico histológico se obtiene mediante biopsia con aguja gruesa, que proporciona un cilindro de tejido; es el paso previo obligado a cualquier decisión terapéutica. Por frecuencia, el subtipo más probable es el liposarcoma, que supone el 75 % de los sarcomas retroperitoneales, seguido del leiomiosarcoma con el 15 %. La presentación descrita es la habitual: tumores asintomáticos hasta alcanzar gran tamaño, con síntomas vagos como dolor abdominal, pérdida de peso, saciedad precoz, náuseas y vómitos, lo que explica un tamaño medio al diagnóstico de 15 cm. La cirugía es el único tratamiento curativo. Consiste en la resección en bloque con los órganos que rodean el tumor, y la resección completa R0 con márgenes libres es el factor pronóstico más importante. Se incluyen en el bloque los órganos contiguos cuya resección no cause morbilidad excesiva, como el riñón, el colon o el músculo psoas, mientras que la aorta y el bloque duodenopancreático solo se resecan si están claramente invadidos. El papel de la radioterapia no está bien definido, aunque su uso clínico es habitual y preferiblemente preoperatorio; la quimioterapia es poco activa. El pronóstico viene marcado por la recidiva local, más frecuente que en las extremidades, que alcanza hasta el 50 % y constituye la causa principal de muerte, con una supervivencia global —35-40 % según la clase, 66 % en las series modernas de resección completa— a cinco años del 35 al 40 %. Ello obliga a un seguimiento prolongado con pruebas de imagen y a centralizar el tratamiento en unidades con experiencia.",
+  "explanation": "La pregunta evalúa la secuencia completa que la clase exige ante una masa retroperitoneal: diferencial primero, imagen después, biopsia con aguja gruesa antes de tratar y cirugía en bloque como único tratamiento curativo. El error que más se repite es proponer la resección directa sin diagnóstico histológico, con el riesgo de operar un linfoma o un tumor de células germinales, cuyo tratamiento es médico. También se valora que el alumno no atribuya a la quimioterapia ni a la radioterapia un papel que el material no les concede, y que sitúe correctamente el pronóstico en la recidiva local como causa principal de muerte, y no en la diseminación linfática, que estos tumores no presentan. Se penaliza inventar cifras de supervivencia o de respuesta distintas de las expuestas en la clase.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025), capítulo de sarcomas de partes blandas y retroperitoneo",
+  "fuente_clase": {
+   "archivo": "11.- Retroperitoneo.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "sarcoma retroperitoneal",
+   "liposarcoma",
+   "R0",
+   "biopsia"
+  ]
+ }
+]

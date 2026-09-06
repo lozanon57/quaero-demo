@@ -1,0 +1,716 @@
+[
+  {
+    "id": "T08-M001",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Un paciente refiere al inicio un dolor cólico, mal localizado, referido a la línea media y acompañado de náuseas y vómitos; horas después el dolor se vuelve constante, agudo, bien localizado en un punto y con defensa muscular. Según la inervación del peritoneo explicada en clase, ¿qué afirmación describe correctamente este cambio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambos dolores proceden del peritoneo visceral; el cambio se debe solo al aumento de intensidad."
+      },
+      {
+        "id": "B",
+        "text": "El primero es visceral, por fibras lentas vegetativas; el segundo, parietal, por nervios espinales."
+      },
+      {
+        "id": "C",
+        "text": "El dolor inicial es parietal y el posterior visceral, al progresar la inflamación al mesenterio."
+      },
+      {
+        "id": "D",
+        "text": "El dolor referido a la línea media traduce irritación del peritoneo parietal contralateral."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "El peritoneo visceral y el parietal derivan del mesodermo embrionario pero tienen inervaciones distintas, y esa diferencia es la que explica el cambio de carácter del dolor a lo largo del cuadro. Opción A: ignora el cambio cualitativo: la buena localización y la defensa muscular solo aparecen cuando se irrita el peritoneo parietal. Opción B: es correcta: el dolor visceral viaja por fibras lentas del sistema nervioso vegetativo y el parietal por nervios espinales de conducción rápida. Opción C: invierte la secuencia: el dolor parietal es el que llega después, cuando la inflamación alcanza el peritoneo que tapiza la pared. Opción D: es falsa: la referencia a la línea media es propia del dolor visceral, mientras que el parietal se localiza bien y de forma ipsilateral. Punto de enseñanza: Dolor visceral: cólico, mal localizado, línea media, cortejo vegetativo. Dolor parietal: constante, bien localizado, con defensa, y más probable indicación quirúrgica.",
+    "teaching_point": "Dolor visceral: cólico, mal localizado, línea media, cortejo vegetativo. Dolor parietal: constante, bien localizado, con defensa, y más probable indicación quirúrgica.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de abdomen agudo",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 10
+    },
+    "tags": [
+      "dolor abdominal",
+      "peritoneo",
+      "inervación"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M002",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Durante la guardia se comentan tres pacientes: uno con rotura esplénica que refiere dolor en el hombro izquierdo, otro con pancreatitis aguda y dolor irradiado a la espalda, y un tercero con cólico renal irradiado a los genitales. ¿Qué mecanismo comparten los tres, según lo explicado en clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irritación directa del peritoneo parietal ipsilateral por contigüidad anatómica."
+      },
+      {
+        "id": "B",
+        "text": "Reflejo medular de defensa muscular desencadenado por fibras nerviosas rápidas."
+      },
+      {
+        "id": "C",
+        "text": "Distensión de víscera hueca transmitida por fibras vegetativas lentas al epigastrio."
+      },
+      {
+        "id": "D",
+        "text": "Dolor referido: vías nerviosas compartidas por aferentes de puntos distintos."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Los tres ejemplos figuran en la clase como casos de una misma situación fisiopatológica, en la que el dolor se percibe en un lugar distinto de donde realmente se origina. Opción A: no explica que el dolor se perciba a distancia del órgano lesionado; la irritación parietal produce dolor bien localizado en el punto afectado. Opción B: describe la contractura refleja que acompaña a la irritación peritoneal parietal, no la percepción del dolor en un territorio alejado. Opción C: corresponde al dolor visceral del intestino anterior; ninguno de los tres ejemplos citados se debe a distensión de una víscera hueca. Opción D: es correcta: el signo de Kehr, el dolor dorsal del páncreas y la irradiación genital del cólico renal son los tres ejemplos de dolor referido de la clase. Punto de enseñanza: El dolor referido nace de vías nerviosas compartidas: Kehr en la rotura esplénica, espalda en el páncreas, genitales en el cólico renal.",
+    "teaching_point": "El dolor referido nace de vías nerviosas compartidas: Kehr en la rotura esplénica, espalda en el páncreas, genitales en el cólico renal.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de abdomen agudo",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 11
+    },
+    "tags": [
+      "dolor referido",
+      "Kehr"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M003",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Varón de 22 años con dolor periumbilical de 14 horas que se ha localizado en fosa iliaca derecha, con anorexia, náuseas escasas y febrícula. En la exploración hay dolor a la palpación en fosa iliaca derecha, signo del rebote positivo y dolor con la tos. Los leucocitos son 13.000. ¿Qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apendicectomía, preferentemente laparoscópica, con antibiótico profiláctico."
+      },
+      {
+        "id": "B",
+        "text": "Radiografía simple de abdomen para confirmar el fecalito antes de indicar cirugía."
+      },
+      {
+        "id": "C",
+        "text": "TAC abdominal urgente, imprescindible antes de cualquier indicación quirúrgica."
+      },
+      {
+        "id": "D",
+        "text": "Antibioterapia y apendicectomía diferida, como en el plastrón apendicular."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El cuadro reúne la secuencia clásica descrita en clase: dolor de comienzo periumbilical que migra a fosa iliaca derecha, anorexia, febrícula y signos de irritación peritoneal localizada. Opción A: es correcta: el diagnóstico de apendicitis aguda es clínico y el tratamiento es quirúrgico, con profilaxis antibiótica en las formas flemonosas. Opción B: tiene escaso rendimiento: la radiografía simple identifica fecalitos solo en torno al 15 % de los casos y no cambia la indicación. Opción C: no es imprescindible: el TAC se reserva para cuando la ecografía no llega al diagnóstico, y aquí la clínica y la exploración ya lo establecen. Opción D: corresponde al plastrón, que exige varios días de evolución y una masa palpable; este paciente lleva 14 horas y no tiene masa. Punto de enseñanza: La historia clínica y la exploración física son lo más útil para diagnosticar una apendicitis aguda; el cuadro típico aparece en la mitad de los casos.",
+    "teaching_point": "La historia clínica y la exploración física son lo más útil para diagnosticar una apendicitis aguda; el cuadro típico aparece en la mitad de los casos.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 27
+    },
+    "tags": [
+      "apendicitis aguda",
+      "diagnóstico",
+      "apendicectomía"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M004",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Varón de 30 años con dolor abdominal de 20 horas, febrícula y molestias mal localizadas en flanco derecho. La palpación en fosa iliaca derecha resulta poco expresiva y no hay defensa, pero el dolor aumenta claramente con la extensión del muslo derecho contra resistencia. ¿Qué explica mejor esta presentación clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apéndice en posición pélvica, sugerido por el signo del obturador positivo."
+      },
+      {
+        "id": "B",
+        "text": "Apendicitis perforada con peritonitis difusa que irrita el músculo psoas derecho."
+      },
+      {
+        "id": "C",
+        "text": "Apéndice en posición retrocecal, sugerido por el signo del psoas positivo."
+      },
+      {
+        "id": "D",
+        "text": "Ileítis terminal, que cursa con dolor mal localizado en el flanco derecho."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La posición del apéndice condiciona la semiología: cuando no es la habitual, los signos clásicos pierden valor y aparecen otros que orientan a la localización real. La maniobra que describe el enunciado, la extensión del muslo contra resistencia, hay que saber traducirla a un signo con nombre propio antes de poder responder. Opción A: el signo del obturador se explora con la rotación externa de la cadera contra resistencia y orienta al apéndice pélvico, que no es la maniobra descrita. Opción B: no encaja: una peritonitis difusa daría defensa generalizada y una exploración muy expresiva, justo lo contrario de lo que se describe. Opción C: es correcta: la extensión del muslo contra resistencia define el signo del psoas, que sugiere un apéndice retrocecal, la posición más frecuente, en torno al 64 % de los casos. Opción D: la ileítis terminal figura en el diagnóstico diferencial del dolor en flanco y fosa iliaca derecha, pero no explica que el dolor se reproduzca con la extensión del muslo contra resistencia. Punto de enseñanza: El signo del psoas orienta al apéndice retrocecal y el del obturador al pélvico; las posiciones atípicas retrasan el diagnóstico y elevan la tasa de perforación hasta el 70 %.",
+    "teaching_point": "El signo del psoas (extensión del muslo) orienta al apéndice retrocecal; el del obturador (rotación externa de la cadera), al pélvico.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 22
+    },
+    "tags": [
+      "apéndice retrocecal",
+      "signo del psoas"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M005",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Niño de 8 años con dolor periumbilical que se ha desplazado a la fosa iliaca derecha en las últimas doce horas, con anorexia y febrícula. Diez días antes había presentado una gastroenteritis vírica con deshidratación que requirió sueroterapia. Se interviene y se confirma una apendicitis aguda. ¿Qué mecanismo explica mejor la obstrucción de la luz apendicular en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstrucción por un fecalito, causa más frecuente en este grupo de edad."
+      },
+      {
+        "id": "B",
+        "text": "Hiperplasia linfoide de los folículos submucosos, causa habitual en niños y jóvenes."
+      },
+      {
+        "id": "C",
+        "text": "Trombosis primaria de la arteria apendicular con isquemia mucosa inicial."
+      },
+      {
+        "id": "D",
+        "text": "Infección hematógena por Shigella o Salmonella sin obstrucción luminal."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La causa más común de apendicitis es la obstrucción de la luz apendicular, pero el agente que la produce cambia con la edad del paciente. Opción A: traslada al niño la causa propia del adulto: los fecalitos, formados por depósito de fibra vegetal y concreción con moco y calcio, predominan en adultos. Opción B: es correcta: en niños y adultos jóvenes la obstrucción suele deberse a hiperplasia linfoide tras deshidratación o infecciones víricas y bacterianas. Opción C: invierte el orden fisiopatológico: la trombosis de la arteria apendicular es una consecuencia tardía que da lugar a la apendicitis gangrenosa. Opción D: malinterpreta el papel de esos gérmenes, que la clase cita como desencadenantes de la hiperplasia linfoide, no como infección hematógena primaria. Punto de enseñanza: En niños y jóvenes obstruye la hiperplasia linfoide; en adultos, el fecalito. También obstruyen parásitos y tumores.",
+    "teaching_point": "En niños y jóvenes obstruye la hiperplasia linfoide; en adultos, el fecalito. También obstruyen parásitos y tumores.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 25
+    },
+    "tags": [
+      "fisiopatología",
+      "hiperplasia linfoide"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M006",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 26 años con dolor en fosa iliaca derecha de 18 horas y test de embarazo negativo. La ecografía describe un apéndice dilatado, de pared engrosada, no deformable a la compresión con el transductor y doloroso de forma selectiva a la presión, con escaso líquido libre periapendicular. ¿Cómo interpreta estos hallazgos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Son hallazgos inespecíficos; la ecografía no permite diagnosticar apendicitis aguda."
+      },
+      {
+        "id": "B",
+        "text": "Indican plastrón apendicular, que contraindica la cirugía en este momento."
+      },
+      {
+        "id": "C",
+        "text": "Corresponden a una linfadenitis mesentérica con apéndice secundariamente engrosado."
+      },
+      {
+        "id": "D",
+        "text": "Son criterios ecográficos de apendicitis aguda, con sensibilidad y especificidad del 90 %."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase enumera con detalle los signos ecográficos de la apendicitis aguda, y el enunciado los reproduce uno a uno. Opción A: contradice a la clase, que atribuye a la ecografía una sensibilidad y una especificidad en torno al 90 % con signos bien definidos. Opción B: no corresponde: el plastrón exige varios días de evolución y se describe como un conglomerado inflamatorio, no como un apéndice dilatado aislado. Opción C: no encaja: en la linfadenitis el apéndice es de calibre normal y lo llamativo son las adenopatías mesentéricas aumentadas de tamaño. Opción D: es correcta: engrosamiento y dilatación apendicular, pared gruesa, ausencia de deformidad a la compresión y dolor selectivo son los signos descritos. Punto de enseñanza: Apéndice dilatado, de pared gruesa, no compresible y doloroso al transductor: criterios ecográficos de apendicitis aguda.",
+    "teaching_point": "Apéndice dilatado, de pared gruesa, no compresible y doloroso al transductor: criterios ecográficos de apendicitis aguda.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 29
+    },
+    "tags": [
+      "ecografía",
+      "apendicitis aguda"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M007",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "extrema",
+    "stem": "Mujer de 58 años con dolor en fosa iliaca derecha de seis días, fiebre y una masa palpable dolorosa en esa localización. El TAC muestra un conglomerado inflamatorio de asas y epiplón alrededor del ciego, sin colección drenable. ¿Ante qué forma anatomoclínica se encuentra y qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plastrón apendicular: tratamiento antibiótico y apendicectomía diferida."
+      },
+      {
+        "id": "B",
+        "text": "Absceso apendicular: antibioterapia y punción-drenaje de la colección."
+      },
+      {
+        "id": "C",
+        "text": "Apendicitis flemonosa: apendicectomía urgente con antibiótico profiláctico."
+      },
+      {
+        "id": "D",
+        "text": "Apendicitis gangrenosa: apendicectomía urgente con antibiótico de tratamiento."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Entre las formas anatomoclínicas especiales, la clase separa el absceso apendicular del plastrón, y la distinción determina el tratamiento. Opción A: es correcta: el conglomerado inflamatorio sin colección drenable corresponde al plastrón, que se trata con antibiótico y apendicectomía diferida. Opción B: requiere una colección drenable, que el TAC descarta expresamente; el absceso sí se trata con antibiótico y punción. Opción C: no encaja con seis días de evolución y una masa palpable: la forma flemonosa corresponde a un cuadro precoz sin conglomerado. Opción D: describe un hallazgo intraoperatorio, no una forma anatomoclínica de presentación; con seis días de evolución y un conglomerado inflamatorio organizado, la apendicectomía urgente es precisamente lo que se evita. Punto de enseñanza: Absceso apendicular: antibiótico y punción. Plastrón: antibiótico y apendicectomía diferida. La apendicitis crónica no existe.",
+    "teaching_point": "Absceso apendicular: antibiótico y punción. Plastrón: antibiótico y apendicectomía diferida. La apendicitis crónica no existe.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 35
+    },
+    "tags": [
+      "plastrón apendicular",
+      "formas anatomoclínicas"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M008",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "En quirófano se objetiva un apéndice gangrenoso y perforado, con líquido purulento libre en la pelvis. El residente pregunta qué pauta de cobertura corresponde en este caso y en qué se diferencia de la de un apéndice inflamado pero íntegro. Según los tipos patológicos y el manejo revisados en clase, señale la respuesta correcta.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambas formas se resuelven con una dosis preoperatoria de antibiótico profiláctico."
+      },
+      {
+        "id": "B",
+        "text": "La flemonosa exige tratamiento prolongado y la perforada solo profilaxis."
+      },
+      {
+        "id": "C",
+        "text": "Perforada y gangrenosa requieren antibiótico de tratamiento; en la flemonosa basta la profilaxis."
+      },
+      {
+        "id": "D",
+        "text": "La cobertura antibiótica debe dirigirse a los anaerobios intestinales en las formas perforadas."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase vincula el tipo patológico del apéndice con la estrategia antibiótica: la apendicitis flemonosa se comporta como una cirugía limpia-contaminada, mientras que la perforada y la gangrenosa suponen contaminación establecida de la cavidad, y esa correspondencia es lo que se evalúa aquí. Opción A: infratrata la apendicitis perforada y gangrenosa, en la que la contaminación ya establecida obliga a mantener antibiótico de tratamiento. Opción B: invierte por completo la correspondencia entre tipo patológico e intensidad del tratamiento antibiótico. Opción C: es correcta: la clase reserva la profilaxis para las formas flemonosas y exige antibiótico profiláctico y de tratamiento en las perforadas y gangrenosas. Opción D: es insuficiente: la cobertura debe abarcar la flora aerobia y anaerobia intestinal, no solo los anaerobios. Punto de enseñanza: Apendicitis flemonosa: profilaxis. Perforada y gangrenosa: profilaxis y tratamiento, cubriendo aerobios y anaerobios intestinales.",
+    "teaching_point": "Apendicitis flemonosa: profilaxis. Perforada y gangrenosa: profilaxis y tratamiento, cubriendo aerobios y anaerobios intestinales.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 32
+    },
+    "tags": [
+      "antibioterapia",
+      "tipos patológicos"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M009",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 70 años que acude por dolor abdominal intenso de diez horas de evolución, que no cede ni se modifica con los cambios de postura. Permanece quieto en la camilla, evita moverse, y al palpar el hemiabdomen inferior la pared se contrae de forma involuntaria. Aplicando los criterios de historia clínica y exploración expuestos en clase, ¿qué afirmación orienta mejor la indicación quirúrgica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El dolor cólico con inquietud es el que con más probabilidad requiere cirugía urgente."
+      },
+      {
+        "id": "B",
+        "text": "Dolor parietal constante con defensa muscular y más de seis horas: probable cirugía."
+      },
+      {
+        "id": "C",
+        "text": "La radiografía simple de abdomen decide la indicación en la mayoría de los casos."
+      },
+      {
+        "id": "D",
+        "text": "La ausencia de fiebre y de leucocitosis excluye razonablemente la necesidad de cirugía."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase señala que la base del diagnóstico del abdomen agudo son la historia clínica y la exploración física, y da criterios concretos que orientan hacia la necesidad de cirugía. Opción A: invierte el criterio: el dolor cólico corresponde al peritoneo visceral y es el dolor constante con inmovilidad el que orienta a cirugía. Opción B: es correcta: hay que traducir la descripción a categorías, el dolor que no cede y la contractura involuntaria de la pared son dolor parietal con defensa, y la clase asocia ese cuadro y una duración superior a seis horas a una mayor probabilidad de requerir cirugía. Opción C: sobrevalora una prueba de escaso rendimiento, que aporta datos positivos solo en torno al 10 % de los abdómenes agudos. Opción D: es peligrosa en el anciano, en quien la clínica es atípica y la analítica poco expresiva pese a existir patología quirúrgica. Punto de enseñanza: Dolor constante, paciente inmóvil, defensa muscular y más de seis horas de evolución: la cirugía se hace probable.",
+    "teaching_point": "Dolor constante, paciente inmóvil, defensa muscular y más de seis horas de evolución: la cirugía se hace probable.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de abdomen agudo",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 7
+    },
+    "tags": [
+      "abdomen agudo",
+      "indicación quirúrgica"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M010",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 82 años con dolor abdominal impreciso de tres días, febrícula y una exploración abdominal poco expresiva, sin defensa clara. Se decide intervenir y se halla una apendicitis perforada con peritonitis purulenta. Según lo explicado sobre formas especiales y posición del apéndice, ¿qué explica mejor esta evolución?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La trombosis precoz de la arteria apendicular, que perfora el apéndice en menos de seis horas."
+      },
+      {
+        "id": "B",
+        "text": "La apendicitis crónica de larga evolución, entidad reconocida en pacientes ancianos."
+      },
+      {
+        "id": "C",
+        "text": "El uso de antibiótico previo, que en el anciano transforma la flemonosa en perforada."
+      },
+      {
+        "id": "D",
+        "text": "El retraso diagnóstico, favorecido por la clínica atípica del anciano y por posiciones atípicas."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase agrupa varias situaciones en las que el diagnóstico de apendicitis se retrasa y aumenta la tasa de perforación: el niño, el anciano, la gestante, el paciente con sida y las posiciones atípicas del apéndice. Opción A: adelanta indebidamente los tiempos: la perforación se produce en torno a las 24 horas tras la obstrucción, no en menos de seis. Opción B: invoca una entidad que la clase niega expresamente; lo que existe es la apendicitis recurrente por fibrosis cicatricial. Opción C: atribuye al antibiótico un efecto que la clase no describe; el factor determinante en el anciano es el retraso diagnóstico. Opción D: es correcta: en el anciano faltan la historia típica, el dolor selectivo, la fiebre y la leucocitosis, lo que retrasa el diagnóstico y favorece la perforación. Punto de enseñanza: En niños, ancianos, gestantes y pacientes con sida el diagnóstico se retrasa; las posiciones atípicas alcanzan tasas de perforación del 70 %.",
+    "teaching_point": "En niños, ancianos, gestantes y pacientes con sida el diagnóstico se retrasa; las posiciones atípicas alcanzan tasas de perforación del 70 %.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 35
+    },
+    "tags": [
+      "apendicitis en el anciano",
+      "perforación"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M011",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Gestante de 32 años y 24 semanas de embarazo, con dolor abdominal de 12 horas localizado en el flanco derecho, más craneal de lo habitual, con febrícula y leucocitosis. La exploración abdominal resulta dudosa por el útero grávido. ¿Qué actuación procede como primera prueba de imagen, según lo explicado en clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TAC abdominal con contraste, por la baja rentabilidad de la ecografía en el embarazo."
+      },
+      {
+        "id": "B",
+        "text": "Radiografía simple de abdomen en bipedestación para descartar neumoperitoneo."
+      },
+      {
+        "id": "C",
+        "text": "Ecografía abdominal, ya que el TAC debe evitarse en la mujer embarazada."
+      },
+      {
+        "id": "D",
+        "text": "Laparoscopia diagnóstica directa, sin realizar prueba de imagen previa."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La apendicitis en la embarazada se retrasa porque el dolor se desplaza cranealmente conforme crece el útero y porque la exploración pierde fiabilidad; la elección de la prueba de imagen tiene además una restricción específica. Opción A: ignora la contraindicación expresa del TAC en la mujer embarazada que recoge la clase. Opción B: aporta muy poco: el neumoperitoneo aparece en torno al 1 % de las apendicitis y además irradia a la gestante sin beneficio. Opción C: es correcta: la ecografía es la primera prueba y la clase contraindica expresamente el TAC en la gestante. Opción D: salta un escalón: la laparoscopia se reserva para la duda diagnóstica persistente, después de la prueba de imagen no irradiante. Punto de enseñanza: En la gestante el dolor apendicular es más craneal, la ecografía es la primera prueba y el TAC debe evitarse.",
+    "teaching_point": "En la gestante el dolor apendicular es más craneal, la ecografía es la primera prueba y el TAC debe evitarse.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 30
+    },
+    "tags": [
+      "apendicitis en el embarazo",
+      "ecografía"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-M012",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Mujer de 24 años con dolor en fosa iliaca derecha de 24 horas, febrícula y leucocitosis. En el tacto vaginal presenta dolor intenso a la movilización del cuello uterino y refiere leucorrea en los días previos. La ecografía no consigue visualizar el apéndice. ¿Qué causa explica mejor el cuadro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Salpingitis aguda, apoyada además por la leucorrea de los días previos."
+      },
+      {
+        "id": "B",
+        "text": "Apendicitis aguda pélvica, en la que la movilización cervical es típicamente dolorosa."
+      },
+      {
+        "id": "C",
+        "text": "Divertículo de Meckel complicado, causa frecuente de dolor en fosa iliaca derecha."
+      },
+      {
+        "id": "D",
+        "text": "Pielonefritis aguda derecha, que cursa con fiebre y dolor en fosa iliaca derecha."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "En la mujer joven con dolor en fosa iliaca derecha, la clase insiste en explorar la esfera ginecológica: el dolor a la movilización cervical es el dato que separa ambos escenarios. Opción A: es correcta: la clase señala expresamente que en la apendicitis no hay dolor a la movilización del cuello uterino, de modo que su presencia, junto a la leucorrea, desplaza el diagnóstico a la esfera anexial. Opción B: invierte el criterio semiológico: en la apendicitis, incluso pélvica, no debe haber dolor a la movilización del cuello uterino. Opción C: figura en el diagnóstico diferencial, pero es poco frecuente y no explica ni la leucorrea ni el dolor a la movilización cervical. Opción D: figura en el diagnóstico diferencial del dolor en fosa iliaca derecha, pero no explica la leucorrea ni el dolor a la movilización cervical, y sería el sedimento de orina el que la orientase. Punto de enseñanza: En la mujer joven con dolor en fosa iliaca derecha, el dolor a la movilización cervical desplaza el diagnóstico hacia la esfera ginecológica.",
+    "teaching_point": "En la mujer joven con dolor en fosa iliaca derecha, el dolor a la movilización cervical desplaza el diagnóstico hacia la esfera ginecológica.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 28
+    },
+    "tags": [
+      "diagnóstico diferencial",
+      "salpingitis"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T08-C001",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "La fisiopatología de la apendicitis aguda comienza con la obstrucción de la luz apendicular y termina, en torno a las veinticuatro horas, en la perforación, siguiendo una cadena de acontecimientos bien definida. Enumere, en un máximo de veinte palabras, esa secuencia desde la obstrucción luminal hasta la perforación.",
+    "respuesta_canonica": "Obstrucción, acúmulo de moco y sobrecrecimiento bacteriano, distensión, edema, isquemia, necrosis y perforación",
+    "aceptadas": [
+      "obstrucción, distensión, isquemia, necrosis y perforación",
+      "obstrucción, moco y bacterias, distensión, compromiso venoso y linfático, isquemia, necrosis y perforación",
+      "obstrucción luminal, distensión, aumento de presión parietal, isquemia mucosa, necrosis y perforación",
+      "obstrucción de la luz, acúmulo de moco, sobrecrecimiento bacteriano, distensión, edema, isquemia, necrosis, perforación",
+      "obstrucción, aumento de presión, edema, isquemia, necrosis y perforación"
+    ],
+    "conceptos_clave": [
+      "obstrucción",
+      "distensión",
+      "isquemia",
+      "necrosis",
+      "perforación"
+    ],
+    "max_palabras": 20,
+    "explanation": "Cuando se obstruye la luz apendicular se acumula moco intraluminal y se produce sobrecrecimiento bacteriano, lo que distiende el apéndice y aumenta la presión en su pared. Ese aumento de presión compromete primero el flujo linfático y venoso, de menor presión, y genera edema parietal. Según la ley de Laplace, la tensión de la pared crece con la presión intraluminal y con el radio y disminuye con el grosor de la pared, de modo que la distensión progresiva termina comprometiendo también el riego arterial. Aparecen entonces isquemia mucosa, necrosis y finalmente perforación, alrededor de las veinticuatro horas. En paralelo, la inflamación del peritoneo parietal contiguo explica el paso del dolor visceral periumbilical al dolor bien localizado en fosa iliaca derecha. Se considera acertada la respuesta que recoja la obstrucción, la distensión, la isquemia y la perforación como eslabones de la cadena.",
+    "teaching_point": "La apendicitis es una obstrucción que acaba en isquemia: distensión, compromiso venoso y linfático, isquemia arterial, necrosis y perforación hacia las 24 horas.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 26
+    },
+    "tags": [
+      "fisiopatología",
+      "ley de Laplace"
+    ]
+  },
+  {
+    "id": "T08-C002",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "La causa más frecuente de obstrucción de la luz apendicular no es la misma en todas las edades, y este matiz se pregunta con frecuencia porque explica la distinta presentación del cuadro. Indique, en un máximo de veinte palabras, cuál es la causa más frecuente en niños y adultos jóvenes y cuál en adultos.",
+    "respuesta_canonica": "Hiperplasia linfoide en niños y jóvenes; fecalitos en adultos",
+    "aceptadas": [
+      "hiperplasia linfoide en niños y fecalitos en adultos",
+      "hiperplasia de folículos linfoides en niños; fecalito en adultos",
+      "hiperplasia linfoide submucosa en el niño y fecalitos en el adulto",
+      "hiperplasia de los folículos linfoides submucosos en jóvenes y fecalito en adultos",
+      "en niños hiperplasia linfoide, en adultos fecalitos"
+    ],
+    "conceptos_clave": [
+      "hiperplasia linfoide",
+      "fecalito",
+      "adultos"
+    ],
+    "max_palabras": 20,
+    "explanation": "La causa más común de apendicitis aguda es la obstrucción de la luz apendicular, pero el agente obstructivo cambia con la edad. En niños y adultos jóvenes predomina la hiperplasia de los folículos linfoides submucosos, favorecida por la deshidratación y por infecciones víricas y bacterianas, entre ellas Shigella y Salmonella. En adultos la causa más frecuente son los fecalitos, que se forman por depósito de fibra vegetal en el orificio apendicular del ciego y su concreción posterior con moco y calcio, depositándose en capas que aumentan progresivamente su diámetro. Existen otras causas de obstrucción menos frecuentes: parásitos como Enterobius vermicularis, tenias y áscaris, y tumores como el adenocarcinoma y los carcinoides, estos últimos originados en las células neurosecretoras del plano submucoso, que aumentan con la edad. Se considera acertada la respuesta que asocie correctamente cada causa a su grupo de edad.",
+    "teaching_point": "Niños y jóvenes, hiperplasia linfoide; adultos, fecalitos. También obstruyen parásitos y tumores.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 25
+    },
+    "tags": [
+      "fisiopatología",
+      "fecalito"
+    ]
+  },
+  {
+    "id": "T08-C003",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En la exploración física de la apendicitis aguda se buscan varios signos de irritación peritoneal que reciben nombre propio y que conviene saber describir con precisión, porque cada uno explora una maniobra distinta. Defina, en un máximo de veinte palabras, en qué consiste el signo de Rovsing.",
+    "respuesta_canonica": "Dolor reflejo en fosa iliaca derecha al percutir la fosa iliaca izquierda",
+    "aceptadas": [
+      "dolor en fosa iliaca derecha al percutir la fosa iliaca izquierda",
+      "dolor en fosa iliaca derecha al percutir o palpar la fosa iliaca izquierda",
+      "dolor referido a FID con la percusión de FII",
+      "dolor en FID al percutir la FII",
+      "dolor reflejo en la fosa iliaca derecha al comprimir la fosa iliaca izquierda",
+      "aparece dolor en la fosa iliaca derecha cuando se percute la izquierda"
+    ],
+    "conceptos_clave": [
+      "dolor",
+      "fosa iliaca derecha",
+      "fosa iliaca izquierda"
+    ],
+    "max_palabras": 20,
+    "explanation": "El signo de Rovsing consiste en la aparición de dolor reflejo en la fosa iliaca derecha cuando se percute la fosa iliaca izquierda, y traduce irritación peritoneal en el cuadrante inferior derecho. Conviene no confundirlo con el resto de signos que la clase enumera. El signo del rebote o de Blumberg es el dolor a la descompresión brusca. El signo de Dunphy es el dolor que aparece con la tos. El signo del obturador consiste en dolor con la rotación externa de la cadera contra resistencia y orienta a un apéndice pélvico. El signo del psoas es el dolor con la extensión del muslo contra resistencia y sugiere un apéndice retrocecal. El tacto rectal muestra dolor en el lado derecho y, si se palpa una masa, indica absceso. Se considera acertada la respuesta que sitúe correctamente el estímulo en la izquierda y el dolor en la derecha.",
+    "teaching_point": "Rovsing: se percute la fosa iliaca izquierda y duele la derecha.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 27
+    },
+    "tags": [
+      "signo de Rovsing",
+      "exploración física"
+    ]
+  },
+  {
+    "id": "T08-C004",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "corta",
+    "categoria": "estadificacion",
+    "difficulty": "basica",
+    "stem": "La posición del apéndice condiciona la presentación clínica y explica buena parte de los retrasos diagnósticos, con tasas de perforación muy elevadas en las localizaciones atípicas. Indique, en un máximo de veinte palabras, cuál es la posición más frecuente del apéndice y qué porcentaje aproximado representa según lo expuesto en clase.",
+    "respuesta_canonica": "Retrocecal, en torno al 64 % de los casos",
+    "aceptadas": [
+      "retrocecal, aproximadamente el 64 %",
+      "posición retrocecal, 64 %",
+      "retrocecal (medial y posterior al ciego), 64 %",
+      "retrocecal, 64 % de los casos",
+      "la posición retrocecal, en torno al 64 %"
+    ],
+    "conceptos_clave": [
+      "retrocecal",
+      "64"
+    ],
+    "max_palabras": 20,
+    "explanation": "El apéndice se desarrolla a partir del ápex del ciego durante el quinto mes de gestación y mide entre dos y veinte centímetros, con un promedio en torno a los nueve. Su posición es variable, pero la más frecuente es la retrocecal, medial y posterior al ciego y todavía intraperitoneal, que representa alrededor del 64 % de los casos. La posición pélvica supone en torno al 30 %. La importancia práctica de este dato es que, cuando el apéndice se localiza en situación retroperitoneal, por detrás del íleon o muy bajo en la pelvis menor, los síntomas de presentación cambian, la exploración de la fosa iliaca derecha resulta poco expresiva y el diagnóstico se retrasa, alcanzándose una tasa de perforación del 70 %. Se considera acertada la respuesta que identifique la posición retrocecal junto a su porcentaje aproximado.",
+    "teaching_point": "El apéndice es retrocecal en torno al 64 % y pélvico en el 30 %; las posiciones atípicas perforan hasta en el 70 %.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 22
+    },
+    "tags": [
+      "anatomía",
+      "posición del apéndice"
+    ]
+  },
+  {
+    "id": "T08-L001",
+    "tema": 8,
+    "bloque": "abdomen_agudo",
+    "formato": "larga",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 19 años que acude a urgencias por dolor periumbilical de 16 horas que se ha desplazado a la fosa iliaca derecha, con anorexia, náuseas escasas y febrícula. Exponga, en un máximo de 350 palabras, el diagnóstico de la apendicitis aguda: los datos de la historia clínica y de la exploración física, los signos de irritación peritoneal con nombre propio, el rendimiento de las pruebas complementarias y el diagnóstico diferencial que debe plantearse.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Afirma que historia clínica y exploración física son lo más útil para el diagnóstico",
+        "puntos": 0.5,
+        "claves": [
+          "historia clínica",
+          "exploración física"
+        ]
+      },
+      {
+        "elemento": "Describe la secuencia clínica típica: dolor periumbilical que migra a fosa iliaca derecha, anorexia, náuseas escasas y febrícula, presente en torno al 50 % de los casos",
+        "puntos": 0.5,
+        "claves": [
+          "periumbilical",
+          "migra",
+          "anorexia",
+          "febrícula"
+        ]
+      },
+      {
+        "elemento": "Enumera los signos de irritación peritoneal con nombre propio (Blumberg, Rovsing, Dunphy, psoas y obturador) y la maniobra de cada uno",
+        "puntos": 0.5,
+        "claves": [
+          "Blumberg",
+          "Rovsing",
+          "Dunphy",
+          "psoas",
+          "obturador"
+        ]
+      },
+      {
+        "elemento": "Sitúa el valor del tacto rectal y la ausencia de dolor a la movilización cervical",
+        "puntos": 0.25,
+        "claves": [
+          "tacto rectal",
+          "movilización",
+          "cuello uterino"
+        ]
+      },
+      {
+        "elemento": "Valora correctamente el laboratorio y la radiografía simple, con su escaso rendimiento",
+        "puntos": 0.5,
+        "claves": [
+          "leucocitosis",
+          "10.000",
+          "radiografía",
+          "fecalito"
+        ]
+      },
+      {
+        "elemento": "Expone el papel de la ecografía con sus signos y el del TAC como segunda línea, evitándolo en la gestante",
+        "puntos": 0.5,
+        "claves": [
+          "ecografía",
+          "compresión",
+          "TAC",
+          "embarazada"
+        ]
+      },
+      {
+        "elemento": "Plantea el diagnóstico diferencial intestinal (ileitis terminal, linfadenitis mesentérica, divertículo de Meckel), urológico (cólico) y ginecológico (salpingitis)",
+        "puntos": 0.25,
+        "claves": [
+          "ileitis",
+          "linfadenitis",
+          "cólico",
+          "salpingitis",
+          "Meckel"
+        ]
+      }
+    ],
+    "respuesta_modelo": "El diagnóstico de la apendicitis aguda es clínico: la historia clínica y la exploración física son lo más útil. El cuadro más frecuente, presente en torno a la mitad de los pacientes, consiste en dolor de comienzo periumbilical, visceral y mal localizado, que migra en pocas horas a la fosa iliaca derecha cuando la inflamación alcanza el peritoneo parietal; se acompaña de anorexia, náuseas y vómitos escasos y febrícula, con pocas horas de evolución. La exploración detecta dolor a la palpación en la fosa iliaca derecha, con o sin defensa muscular, y signos de irritación peritoneal: el rebote o signo de Blumberg, el signo de Rovsing, que es el dolor reflejo en fosa iliaca derecha al percutir la izquierda, el signo de Dunphy o dolor con la tos, el signo del obturador, dolor con la rotación externa de la cadera contra resistencia, y el signo del psoas, dolor con la extensión del muslo contra resistencia, que sugiere apéndice retrocecal. El tacto rectal muestra dolor en el lado derecho y, si se palpa masa, indica absceso; no debe haber dolor a la movilización del cuello uterino. Las pruebas de laboratorio y la radiografía simple no son específicas. Dos tercios de los pacientes presentan leucocitosis por encima de 10.000, habitualmente por debajo de 15.000. La radiografía simple tiene escaso rendimiento: muestra fecalitos en el 15 %, neumoperitoneo en el 1 % y borramiento de la línea del psoas en las formas retroperitoneales, y no se realiza en niños. La ecografía alcanza una sensibilidad y una especificidad del 90 %, con engrosamiento y dilatación apendicular, pared gruesa, ausencia de deformidad a la compresión y dolor selectivo a la presión, además de líquido libre o absceso. El TAC se reserva para cuando la ecografía no llega al diagnóstico y debe evitarse en la embarazada. El diagnóstico diferencial incluye causas intestinales (ileitis terminal, linfadenitis mesentérica, diverticulitis, tumores, perforación de ulcus, colecistitis y divertículo de Meckel), urológicas (pielonefritis, cólico, epididimitis, torsión testicular) y ginecológicas (salpingitis, quiste ovárico, embarazo ectópico).",
+    "explanation": "La pregunta recorre el esqueleto de la clase de apendicitis aguda y penaliza dos errores opuestos. El primero es apoyar el diagnóstico en las pruebas complementarias: el alumno debe afirmar con claridad que la historia clínica y la exploración física son lo más útil, y situar el laboratorio y la radiografía simple en su lugar, que es el de pruebas inespecíficas y de escaso rendimiento. El segundo es enumerar signos con nombre propio sin describir la maniobra que los define, confundiendo con frecuencia el signo del psoas con el del obturador o situando el estímulo del Rovsing en el lado equivocado. Se valora que el alumno relacione la migración del dolor con el paso del peritoneo visceral al parietal, que cuantifique el rendimiento de la ecografía y que recuerde la contraindicación del TAC en la gestante. El diagnóstico diferencial debe ordenarse por aparatos, no como una lista suelta, y debe incluir la esfera ginecológica en la mujer joven.",
+    "teaching_point": "La apendicitis se diagnostica con la historia y la exploración; la ecografía confirma y el TAC solo cuando la ecografía no llega, nunca en la gestante.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de apendicitis aguda",
+    "fuente_clase": {
+      "archivo": "08.- AA.Apend aguda.pdf",
+      "pagina": 27
+    },
+    "tags": [
+      "apendicitis aguda",
+      "diagnóstico",
+      "diagnóstico diferencial"
+    ]
+  }
+]

@@ -1,0 +1,738 @@
+[
+  {
+    "id": "T26-M001",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Mujer de cincuenta y cuatro años, sin comorbilidad ni inmunosupresión, consulta por dolor en fosa ilíaca izquierda de dos días con febrícula. Está hemodinámicamente estable, sin signos de sepsis y con analítica poco alterada. La TC abdominopélvica confirma una diverticulitis aguda con inflamación limitada a la pared y la grasa pericólica. ¿Qué actitud procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibioterapia oral ambulatoria y control clínico en consulta"
+      },
+      {
+        "id": "B",
+        "text": "Tratamiento ambulatorio con analgesia y sin antibióticos"
+      },
+      {
+        "id": "C",
+        "text": "Ingreso hospitalario con antibioterapia intravenosa de amplio espectro"
+      },
+      {
+        "id": "D",
+        "text": "Sigmoidectomía urgente por el riesgo de perforación evolutiva"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La diverticulitis aguda aparece en el 5 % de los pacientes con diverticulosis y se diagnostica con TC abdominopélvico, con sensibilidad y especificidad del 99 %. En la forma no complicada la inflamación queda limitada a la pared colónica y al tejido circundante, y el algoritmo de la clase separa dos ramas: si hay afectación general, signos de sepsis, inmunosupresión, comorbilidades o alteración analítica se pauta antibiótico; si no concurre ninguna de esas circunstancias, el tratamiento es ambulatorio con analgesia y sin antibióticos. Opción B: correcta, la paciente no cumple ningún criterio de la rama antibiótica. Opción A: es la respuesta más tentadora, porque durante décadas el antibiótico fue automático, pero la clase lo condiciona a la repercusión general o al terreno del paciente, y aquí no hay ninguno de los dos. Opción C: el ingreso con antibioterapia intravenosa se reserva para los pacientes con repercusión general, sepsis, inmunosupresión o comorbilidad relevante. Opción D: la cirugía urgente exige peritonitis con abdomen agudo, shock séptico o empeoramiento o fracaso del tratamiento conservador, ninguno presente aquí. Punto de enseñanza: no toda diverticulitis aguda lleva antibiótico; el criterio es la repercusión sistémica y el terreno del paciente, no el diagnóstico en sí.",
+    "teaching_point": "En la diverticulitis aguda no complicada sin sepsis, inmunosupresión, comorbilidad ni alteración analítica, el tratamiento es ambulatorio con analgesia y sin antibióticos.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad diverticular del colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 19
+    },
+    "tags": [
+      "diverticulitis",
+      "no complicada",
+      "antibioticos",
+      "manejo ambulatorio"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M002",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Mujer de cuarenta y siete años refiere episodios recurrentes de dolor en fosa ilíaca izquierda de más de veinticuatro horas de duración, sin fiebre ni leucocitosis. La TC no muestra signos de diverticulitis y la colonoscopia objetiva divertículos sigmoideos. No hay alteración del patrón defecatorio. ¿Qué diagnóstico y tratamiento proceden?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome de intestino irritable; medidas dietéticas y espasmolíticos a demanda"
+      },
+      {
+        "id": "B",
+        "text": "Diverticulitis aguda no complicada; antibioterapia oral y control ambulatorio"
+      },
+      {
+        "id": "C",
+        "text": "Enfermedad diverticular sintomática no complicada; fibra, mesalazina o rifaximina"
+      },
+      {
+        "id": "D",
+        "text": "Estenosis diverticular crónica; resección sigmoidea programada con anastomosis"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La enfermedad diverticular sintomática no complicada afecta al 20 % de los pacientes con divertículos y se define por síntomas abdominales recurrentes, sobre todo en fosa ilíaca izquierda y de más de veinticuatro horas de duración, sin síntomas, signos, alteraciones analíticas ni hallazgos radiológicos de diverticulitis. Su tratamiento incluye fibra, mesalazina, rifaximina y espasmolíticos. Opción C: correcta, el enunciado reproduce exactamente esa definición operativa. Opción A: el diagnóstico diferencial obligado es el síndrome de intestino irritable, pero este se caracteriza por un patrón defecatorio alterado, con dolor asociado a estreñimiento, diarrea o alternancia y molestias con la defecación, expresamente ausente en el caso. Opción B: no puede hablarse de diverticulitis aguda cuando no hay fiebre, leucocitosis ni hallazgos inflamatorios en la TC. Opción D: la estenosis es una secuela crónica de diverticulitis previas y se manifiesta con clínica obstructiva, no con dolor recurrente aislado. Punto de enseñanza: el patrón defecatorio es la clave que separa la enfermedad diverticular sintomática del síndrome de intestino irritable.",
+    "teaching_point": "Enfermedad diverticular sintomática no complicada: dolor recurrente en fosa ilíaca izquierda de más de 24 horas sin datos de diverticulitis y con patrón defecatorio normal.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad diverticular del colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 17
+    },
+    "tags": [
+      "SUDD",
+      "sindrome de intestino irritable",
+      "mesalazina",
+      "rifaximina"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M003",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de setenta y dos años con diverticulitis sigmoidea acude con abdomen en tabla, taquicardia e hipotensión que no responde a fluidos. La TC muestra neumoperitoneo y líquido libre fecaloideo difuso. Padece insuficiencia renal e insuficiencia respiratoria crónicas. ¿Qué técnica procede en el quirófano según lo expuesto en clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sigmoidectomía con anastomosis primaria sin estoma de protección"
+      },
+      {
+        "id": "B",
+        "text": "Drenaje percutáneo guiado por TC y antibioterapia intravenosa"
+      },
+      {
+        "id": "C",
+        "text": "Lavado peritoneal laparoscópico con drenajes y sin resección"
+      },
+      {
+        "id": "D",
+        "text": "Sigmoidectomía con colostomía terminal (intervención de Hartmann)"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Son indicaciones de cirugía urgente en la diverticulitis complicada la peritonitis con abdomen agudo, el shock séptico y el empeoramiento o fracaso del tratamiento conservador. Una vez en quirófano, la elección entre sigmoidectomía con anastomosis y operación de Hartmann depende del estado del paciente: si está inestable hemodinámicamente, tiene fracaso orgánico, comorbilidad relevante, insuficiencia renal o insuficiencia respiratoria, se realiza Hartmann; si no concurre ninguna de esas circunstancias, cabe la sigmoidectomía con anastomosis. Opción D: correcta, el paciente reúne inestabilidad hemodinámica y comorbilidad respiratoria y renal, además de peritonitis fecal. Opción A: una anastomosis en peritonitis fecal y con shock séptico tiene un riesgo de dehiscencia inaceptable en este escenario. Opción C: el lavado laparoscópico se contempla solo en casos seleccionados, no en una peritonitis fecal con shock. Opción B: el drenaje percutáneo corresponde a los abscesos de la enfermedad complicada sin peritonitis difusa, y aquí ya existe abdomen agudo. Punto de enseñanza: peritonitis fecal más inestabilidad significa resección y colostomía terminal, no anastomosis.",
+    "teaching_point": "En la diverticulitis perforada con peritonitis, la inestabilidad hemodinámica, el fracaso orgánico y la comorbilidad inclinan la decisión hacia la intervención de Hartmann.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — cirugía urgente de la diverticulitis",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 21
+    },
+    "tags": [
+      "Hinchey IV",
+      "Hartmann",
+      "peritonitis fecal",
+      "cirugia urgente"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M004",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de ochenta y un años institucionalizado, con demencia y estreñimiento crónico, acude por distensión abdominal masiva, dolor cólico y ausencia de tránsito. Está afebril, sin peritonismo y con lactato normal. La radiografía simple de abdomen muestra una imagen en grano de café. ¿Qué actuación inicial procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intervención de Hartmann urgente por el riesgo elevado de necrosis"
+      },
+      {
+        "id": "B",
+        "text": "Descompresión endoscópica y colocación posterior de sonda rectal"
+      },
+      {
+        "id": "C",
+        "text": "Sigmoidectomía urgente con anastomosis primaria protegida con ileostomía"
+      },
+      {
+        "id": "D",
+        "text": "Sonda nasogástrica, dieta absoluta y observación clínica sin endoscopia"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "El vólvulo de sigma es el más frecuente en nuestro medio y afecta sobre todo a mayores de setenta años, institucionalizados, con enfermedad neurológica o psiquiátrica y estreñimiento crónico. La imagen en grano de café en la radiografía simple es característica. El objetivo en la fase aguda es desobstruir y tratar la sepsis, y la clase es explícita: si no hay sospecha de necrosis, se realiza descompresión endoscópica, que permite desvolvular, revisar la mucosa y aspirar el contenido, con una tasa de éxito del 75 al 95 %, y tras la desvolvulación se deja una sonda rectal. Opción B: correcta, es la secuencia recomendada en ausencia de datos de isquemia. Opción C: la sigmoidectomía urgente se reserva para la isquemia o la sepsis, ausentes en un paciente afebril, sin peritonismo y con lactato normal. Opción A: el Hartmann urgente es una opción quirúrgica, pero no el primer paso cuando la endoscopia es viable. Opción D: la observación pasiva no resuelve la torsión y expone a la progresión hacia la isquemia. Punto de enseñanza: sin necrosis, primero la colonoscopia; después la cirugía reglada para evitar la recidiva.",
+    "teaching_point": "Vólvulo de sigma sin sospecha de necrosis: descompresión endoscópica, sonda rectal y cirugía reglada posterior por la alta recurrencia del tratamiento conservador.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 32
+    },
+    "tags": [
+      "volvulo de sigma",
+      "descompresion endoscopica",
+      "grano de cafe",
+      "sonda rectal"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M005",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Mujer de setenta y ocho años, intervenida años atrás de histerectomía, acude por dolor abdominal brusco, vómitos y distensión. La TC muestra un vólvulo de ciego por torsión axial, con el colon derecho firmemente adherido al retroperitoneo, y un ciego muy dilatado pero de pared viable. Está hemodinámicamente estable, sin fracaso orgánico ni comorbilidad relevante. ¿Qué técnica procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ileocecectomía con cecopexia del segmento residual"
+      },
+      {
+        "id": "B",
+        "text": "Hemicolectomía derecha con anastomosis ileocólica"
+      },
+      {
+        "id": "C",
+        "text": "Cecostomía descompresiva sin resección, por la edad de la paciente"
+      },
+      {
+        "id": "D",
+        "text": "Descompresión colonoscópica y sonda rectal, como en el vólvulo de sigma"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El vólvulo de ciego es infrecuente en nuestro medio. En pacientes jóvenes obedece a un ciego hipermóvil de causa congénita y en los de mayor edad el mecanismo suele ser adherencial, como en esta paciente intervenida previamente. La torsión axial supone el 80 % de los casos y la báscula el 20 % restante. El tratamiento es quirúrgico, y la clase da una regla con su excepción: la técnica de elección es la hemicolectomía derecha, pero si el colon derecho está fijo puede hacerse una ileocequectomía con pexia; y en pacientes inestables o con comorbilidad importante se recurre a la cecostomía o a la ileostomía. Opción A: correcta, es precisamente el supuesto de excepción que recoge la diapositiva. Opción B: es la técnica por defecto, pero resecar todo el colon derecho aporta poco cuando ese colon ya está fijo y no puede volver a torsionarse. Opción C: la cecostomía sin resección se reserva para el paciente inestable o con comorbilidad grave, y esta paciente no lo es solo por su edad. Opción D: la descompresión colonoscópica es el primer paso del vólvulo de sigma, no del cecal, cuyo tratamiento es quirúrgico. Punto de enseñanza: en el vólvulo de ciego, lo que decide entre hemicolectomía e ileocequectomía con pexia es si el colon derecho está fijo.",
+    "teaching_point": "Vólvulo de ciego: hemicolectomía derecha como norma, ileocequectomía con pexia si el colon derecho ya está fijo, y cecostomía o ileostomía si el paciente es de alto riesgo.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 26
+    },
+    "tags": [
+      "volvulo de ciego",
+      "hemicolectomia derecha",
+      "ciego hipermovil"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M006",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "intermedia",
+    "stem": "Mujer de sesenta y seis años con dos episodios previos de diverticulitis sigmoidea consulta por neumaturia, fecaluria e infecciones urinarias polimicrobianas de repetición. La TC muestra gas en el interior de la vejiga y un trayecto entre el sigma y la cúpula de la vejiga. ¿Qué secuela presenta y qué tratamiento le corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fístula colovesical; resección, reparación del órgano receptor y anastomosis"
+      },
+      {
+        "id": "B",
+        "text": "Estenosis postinflamatoria; resección del segmento y anastomosis"
+      },
+      {
+        "id": "C",
+        "text": "Absceso pélvico crónico; drenaje percutáneo y antibioterapia dirigida"
+      },
+      {
+        "id": "D",
+        "text": "Perforación contenida; lavado laparoscópico y colocación de drenajes"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Las secuelas crónicas de la diverticulitis que recoge la clase son dos: la estenosis con obstrucción, cuyo tratamiento es la resección y la anastomosis, y la fístula, cuya forma más frecuente es la enterovesical, cuyo tratamiento es la resección del segmento afectado, la reparación del órgano receptor y la anastomosis. La neumaturia, la fecaluria y las infecciones urinarias polimicrobianas de repetición, junto con el gas intravesical en la TC, son el cuadro típico. Opción A: correcta, describe la secuela y el gesto quirúrgico completo, que incluye la reparación del órgano receptor, en este caso la vejiga. Opción B: la estenosis cursa con clínica obstructiva, no urinaria, y su tratamiento no incluye reparación de ningún órgano vecino. Opción C: un absceso pélvico no explica el paso de aire y heces a la vejiga ni las infecciones polimicrobianas de repetición. Opción D: el lavado laparoscópico es un recurso de la fase aguda complicada en casos seleccionados, no del manejo de una fístula establecida. Punto de enseñanza: neumaturia más fecaluria tras diverticulitis obliga a pensar en fístula colovesical.",
+    "teaching_point": "La fístula enterovesical es la secuela fistulosa más frecuente de la diverticulitis y se trata con resección, reparación del órgano receptor y anastomosis.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — complicaciones de la enfermedad diverticular",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 22
+    },
+    "tags": [
+      "fistula colovesical",
+      "neumaturia",
+      "secuelas",
+      "diverticulitis"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M007",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "basica",
+    "stem": "Un residente describe, en la radiografía simple de abdomen de un paciente con obstrucción, un asa gigante dilatada en forma de grano de café que asciende desde la pelvis. La TC posterior muestra un signo del remolino mesentérico y un afilamiento en pico de pájaro. ¿Qué diagnóstico corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome de Ogilvie o pseudoobstrucción intestinal aguda"
+      },
+      {
+        "id": "B",
+        "text": "Megacolon tóxico sobre una colitis ulcerosa conocida"
+      },
+      {
+        "id": "C",
+        "text": "Vólvulo de sigma con obstrucción en asa cerrada"
+      },
+      {
+        "id": "D",
+        "text": "Obstrucción mecánica por neoplasia estenosante de sigma"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase asigna dos signos radiológicos al vólvulo de sigma: la imagen en grano de café en la radiografía simple de abdomen y los signos del pico de pájaro o del remolino en la TC. Ambos traducen la torsión del asa sobre su mesenterio y la obstrucción en asa cerrada resultante. El diagnóstico se completa con la anamnesis y la exploración, que muestran dolor progresivo y cólico, náuseas, ausencia de tránsito y distensión, y con la analítica, que puede revelar alteraciones electrolíticas, hemoconcentración y datos de sepsis. Opción C: correcta, la combinación de grano de café, remolino y pico de pájaro es específica de la torsión sigmoidea. Opción B: el megacolon tóxico produce una dilatación parcial o pancolónica no obstructiva, con diarrea sanguinolenta e historia de enfermedad inflamatoria intestinal. Opción A: el síndrome de Ogilvie cursa con dilatación no obstructiva, sin punto de torsión ni signo del remolino. Opción D: una neoplasia estenosante da un punto de transición tumoral, no una torsión mesentérica. Punto de enseñanza: grano de café en la placa y remolino en la TC son el vólvulo de sigma.",
+    "teaching_point": "Vólvulo de sigma: grano de café en la radiografía simple y pico de pájaro o remolino en la TC abdominal.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 30
+    },
+    "tags": [
+      "grano de cafe",
+      "remolino",
+      "pico de pajaro",
+      "volvulo"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M008",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "En la clase se describe la fisiopatología de la enfermedad diverticular como multifactorial, con participación del estreñimiento, la disbiosis, la inflamación crónica, la hipertrofia muscular, las alteraciones de la motilidad y la genética. ¿Qué mecanismo explica la formación anatómica del divertículo colónico según lo expuesto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Protrusión de la pared completa, incluida la muscular propia, entre las tenias"
+      },
+      {
+        "id": "B",
+        "text": "Rotura de la serosa por hipertensión dentro del mesocolon sigmoideo"
+      },
+      {
+        "id": "C",
+        "text": "Dilatación quística de las criptas por obstrucción de su drenaje"
+      },
+      {
+        "id": "D",
+        "text": "Herniación de mucosa y submucosa por el trayecto de las vasa recta"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La diapositiva de fisiopatología resume el mecanismo en una frase: aumento de la presión intraluminal con herniación de mucosa y submucosa por los puntos donde las vasa recta atraviesan la pared del colon. Se trata, por tanto, de divertículos por pulsión y falsos, porque no contienen todo el espesor de la pared. Sobre ese mecanismo actúan factores contribuyentes como el estreñimiento, la disbiosis, la inflamación crónica, con similitudes con la enfermedad inflamatoria intestinal por el aumento de citocinas proinflamatorias y de óxido nítrico mucoso, la hipertrofia muscular, la alteración de la motilidad y la genética. Opción D: correcta, es el mecanismo descrito literalmente en la clase. Opción A: describe un divertículo verdadero, que conserva la capa muscular; no es el de la enfermedad diverticular adquirida del colon. Opción C: la dilatación quística de las glándulas describe los hamartomas de la poliposis juvenil, no un divertículo. Opción B: la serosa no es el punto débil de la pared, y la presión que importa es la intraluminal, no la mesocólica. Punto de enseñanza: el divertículo colónico es falso y se hernia por el orificio vascular.",
+    "teaching_point": "El divertículo colónico es un falso divertículo: herniación de mucosa y submucosa por los puntos de entrada de las vasa recta al aumentar la presión intraluminal.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad diverticular del colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 16
+    },
+    "tags": [
+      "diverticulosis",
+      "vasa recta",
+      "fisiopatologia",
+      "falso diverticulo"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M009",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "basica",
+    "stem": "Durante una sesión de estadificación se recuerda que la profundidad de invasión de la pared define la categoría T del cáncer colorrectal, y se repasan las capas del colon y del recto con sus peculiaridades anatómicas. ¿Qué afirmación sobre esas capas, tal y como se expusieron en la clase, es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La grasa del mesocolon se interpone entre la mucosa y la submucosa"
+      },
+      {
+        "id": "B",
+        "text": "La submucosa es la capa peor vascularizada de la pared del colon"
+      },
+      {
+        "id": "C",
+        "text": "La serosa reviste el recto extraperitoneal en toda su circunferencia"
+      },
+      {
+        "id": "D",
+        "text": "La muscular propia es la capa que conforma las tenias del colon"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La pared del colon se compone, de dentro afuera, de mucosa, submucosa, muscular propia, grasa cuando existe mesocolon y serosa. La clase subraya tres matices con consecuencias directas sobre la estadificación T del cáncer colorrectal: la submucosa es la capa con mayor aporte vascular, la muscular propia es la que conforma las tenias, y la serosa no existe en el recto extraperitoneal, lo que modifica el significado de la invasión más allá de la muscular en ese segmento y explica que sea la fascia mesorrectal, y no la serosa, el límite quirúrgico de referencia. Opción D: correcta, las tenias son condensaciones de la capa muscular propia. Opción B: invierte el dato, ya que la submucosa es precisamente la de mayor aporte vascular, hecho relevante para la diseminación de las lesiones que la invaden. Opción C: el recto extraperitoneal carece de serosa, que es justamente el matiz que la clase destaca. Opción A: la grasa del mesocolon se sitúa por fuera de la muscular propia, nunca entre mucosa y submucosa. Punto de enseñanza: submucosa la más vascularizada, muscular propia la de las tenias y recto extraperitoneal sin serosa.",
+    "teaching_point": "La muscular propia forma las tenias; la submucosa es la capa más vascularizada; el recto extraperitoneal carece de serosa.",
+    "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017) — colon y recto",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 5
+    },
+    "tags": [
+      "anatomia",
+      "pared colonica",
+      "estadificacion T",
+      "serosa"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M010",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de cincuenta y ocho años con diverticulitis aguda presenta fiebre persistente al cuarto día de antibioterapia. La TC muestra un absceso pélvico de seis centímetros alejado del sigma, sin neumoperitoneo ni peritonitis difusa. ¿Qué grado de la clasificación de Hinchey le corresponde y qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grado III; sigmoidectomía urgente con colostomía terminal"
+      },
+      {
+        "id": "B",
+        "text": "Grado I; antibioterapia exclusiva, sin drenaje percutáneo"
+      },
+      {
+        "id": "C",
+        "text": "Grado II; antibioterapia asociada a drenaje percutáneo"
+      },
+      {
+        "id": "D",
+        "text": "Grado IV; laparotomía urgente con lavado y colostomía"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clasificación clínica de Hinchey gradúa la diverticulitis aguda complicada en cuatro grados: el grado I es el flemón o absceso mesentérico o pericólico, el grado II el absceso a distancia, ya sea pélvico, intraabdominal o retroperitoneal, el grado III la peritonitis difusa purulenta y el grado IV la peritonitis fecal. Los grados I y II se tratan con antibioterapia con o sin drenaje percutáneo, y la clase precisa que se drena el absceso por vía percutánea cuando supera los cuatro o cinco centímetros; los grados III y IV son quirúrgicos. Opción C: correcta, un absceso pélvico a distancia de seis centímetros es un grado II subsidiario de drenaje. Opción B: el grado I corresponde al absceso mesentérico o pericólico, no al pélvico a distancia. Opción A: la peritonitis difusa purulenta no está presente, puesto que no hay neumoperitoneo ni líquido libre difuso. Opción D: la peritonitis fecal es el grado IV y exige cirugía urgente, escenario que tampoco se describe. Punto de enseñanza: en Hinchey II, el tamaño del absceso decide si se drena.",
+    "teaching_point": "Hinchey I y II se tratan con antibiótico con o sin drenaje percutáneo (si el absceso supera 4-5 cm); Hinchey III y IV son quirúrgicos.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — clasificación de Hinchey",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 20
+    },
+    "tags": [
+      "Hinchey",
+      "absceso pelvico",
+      "drenaje percutaneo",
+      "diverticulitis complicada"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M011",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de ochenta y cinco años ingresado por fractura de cadera, con enfermedad de Parkinson y estreñimiento crónico, desarrolla distensión abdominal progresiva sin dolor intenso. La TC muestra dilatación pancolónica hasta el recto, sin punto de transición ni torsión, y no refiere diarrea sanguinolenta ni colitis previa. ¿Qué diagnóstico corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pseudoobstrucción intestinal aguda o síndrome de Ogilvie"
+      },
+      {
+        "id": "B",
+        "text": "Vólvulo de sigma con torsión incompleta de ciento ochenta grados"
+      },
+      {
+        "id": "C",
+        "text": "Megacolon tóxico en el contexto de una colitis ulcerosa"
+      },
+      {
+        "id": "D",
+        "text": "Obstrucción mecánica por neoplasia estenosante de colon izquierdo"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "El diagnóstico diferencial del vólvulo de sigma que expone la clase incluye tres bloques: las causas de obstrucción mecánica intestinal, el megacolon tóxico y la pseudoobstrucción intestinal aguda o síndrome de Ogilvie. Este último se caracteriza por una dilatación no obstructiva en pacientes de edad avanzada, con estreñimiento crónico y alteraciones neurológicas, exactamente el perfil del caso. Opción A: correcta, la dilatación pancolónica hasta el recto sin punto de transición ni torsión define una pseudoobstrucción. Opción B: el vólvulo de sigma produce una obstrucción en asa cerrada con imagen en grano de café y signos de remolino o pico de pájaro en la TC, ausentes aquí. Opción C: el megacolon tóxico también cursa con dilatación no obstructiva, pero se acompaña de diarreas sanguinolentas e historia de enfermedad inflamatoria intestinal, expresamente descartadas. Opción D: la obstrucción neoplásica muestra un punto de transición tumoral en la TC, que el enunciado niega. Punto de enseñanza: dilatación colónica hasta el recto sin punto de transición es Ogilvie mientras no se demuestre lo contrario.",
+    "teaching_point": "Síndrome de Ogilvie: dilatación colónica no obstructiva en anciano con estreñimiento y patología neurológica, sin punto de transición en la TC.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — pseudoobstrucción colónica aguda",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 31
+    },
+    "tags": [
+      "ogilvie",
+      "pseudoobstruccion",
+      "diagnostico diferencial",
+      "megacolon toxico"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-M012",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "En el repaso de la inervación del colon se diferencian el sistema nervioso autónomo y el sistema nervioso entérico, con sus dos plexos intramurales. Se pregunta qué plexo gobierna la motilidad y qué efecto tiene la estimulación simpática sobre el peristaltismo. ¿Qué combinación es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plexo submucoso de Meissner; el simpático estimula el peristaltismo"
+      },
+      {
+        "id": "B",
+        "text": "Plexo mientérico de Auerbach; el simpático inhibe el peristaltismo"
+      },
+      {
+        "id": "C",
+        "text": "Plexo mientérico de Auerbach; el simpático estimula el peristaltismo"
+      },
+      {
+        "id": "D",
+        "text": "Plexo submucoso de Meissner; el simpático inhibe el peristaltismo"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase separa la inervación extrínseca de la intrínseca. La inervación simpática procede de las raíces anteriores de los segmentos T6 a T12 y de los plexos celiaco, preaórtico y mesentérico superior, e inhibe el peristaltismo. La parasimpática depende del nervio vago y de los plexos celiaco y mesentérico superior. Dentro del sistema nervioso entérico, el plexo submucoso de Meissner se ocupa de hormonas, enzimas y secreción, mientras que el plexo mientérico de Auerbach gobierna la motilidad intestinal, con la participación de las células intersticiales de Cajal. Opción B: correcta, asocia el plexo de Auerbach con la motilidad y el efecto inhibidor del simpático. Opción D: acierta el efecto simpático pero atribuye la motilidad al plexo de Meissner, que regula la secreción. Opción C: identifica bien el plexo motor pero invierte el efecto del simpático. Opción A: se equivoca en ambos elementos. Punto de enseñanza: Auerbach mueve, Meissner secreta, y el simpático frena.",
+    "teaching_point": "Plexo mientérico de Auerbach para la motilidad, plexo submucoso de Meissner para la secreción, y el simpático (T6-T12) inhibe el peristaltismo.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — anatomía y fisiología del colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 7
+    },
+    "tags": [
+      "auerbach",
+      "meissner",
+      "inervacion",
+      "peristaltismo"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T26-C001",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "La clase define el vólvulo de colon y precisa las consecuencias del grado de torsión sobre el segmento afectado. Indique, en un máximo de veinte palabras, qué ocurre con una torsión de ciento ochenta grados y qué ocurre con una torsión de trescientos sesenta grados.",
+    "respuesta_canonica": "Con 180 grados se produce obstrucción; con 360 grados se produce isquemia",
+    "aceptadas": [
+      "180º obstrucción y 360º isquemia",
+      "una torsión de 180 grados obstruye y una de 360 grados produce isquemia",
+      "obstrucción a 180 grados; isquemia a 360 grados"
+    ],
+    "conceptos_clave": [
+      "180",
+      "obstru",
+      "360",
+      "isquemia"
+    ],
+    "max_palabras": 20,
+    "explanation": "El vólvulo se define como la torsión de un segmento de colon que produce frecuentemente una obstrucción intestinal. La clase cuantifica ese concepto: una torsión de 180 grados produce obstrucción, mientras que una torsión de 360 grados compromete el pedículo vascular y produce isquemia. Esa gradación explica la diferencia de mortalidad recogida en el tema, mucho mayor cuando existe isquemia que cuando solo hay obstrucción, y justifica que la primera decisión clínica sea siempre descartar la necrosis antes de intentar una desvolvulación endoscópica. En nuestro medio el vólvulo de sigma es el más frecuente y afecta a ancianos, mientras que el de ciego es infrecuente y afecta a pacientes jóvenes. Para dar por buena la respuesta deben figurar los dos grados de torsión con su consecuencia respectiva. Punto de enseñanza: el grado de torsión no es un dato anecdótico, es lo que separa una colonoscopia de una laparotomía.",
+    "teaching_point": "Torsión de 180 grados: obstrucción. Torsión de 360 grados: isquemia.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 23
+    },
+    "tags": [
+      "volvulo",
+      "torsion",
+      "isquemia",
+      "obstruccion"
+    ]
+  },
+  {
+    "id": "T26-C002",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "corta",
+    "categoria": "estadificacion",
+    "difficulty": "basica",
+    "stem": "La clasificación clínica de Hinchey gradúa la diverticulitis aguda complicada en cuatro grados según el hallazgo radiológico o intraoperatorio. Defina, en un máximo de veinte palabras, en qué consisten el grado III y el grado IV tal y como se expusieron en la clase.",
+    "respuesta_canonica": "Grado III: peritonitis difusa purulenta. Grado IV: peritonitis fecal",
+    "aceptadas": [
+      "III peritonitis purulenta generalizada; IV peritonitis fecaloidea",
+      "peritonitis difusa purulenta y peritonitis fecal, respectivamente"
+    ],
+    "conceptos_clave": [
+      "purulenta",
+      "fecal",
+      "peritonitis"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clasificación clínica de Hinchey ordena la diverticulitis aguda complicada, es decir, la que cursa con perforación, absceso u obstrucción aguda, en cuatro grados: el grado I es el flemón o absceso mesentérico o pericólico, el grado II el absceso a distancia, pélvico, intraabdominal o retroperitoneal, el grado III la peritonitis difusa purulenta y el grado IV la peritonitis fecal. Los dos primeros grados se manejan con antibioterapia con o sin drenaje percutáneo, este último indicado cuando el absceso supera los cuatro o cinco centímetros; los dos últimos son quirúrgicos. La respuesta debe distinguir con claridad el carácter purulento del grado III frente al fecal del grado IV, porque es la diferencia que anticipa la contaminación y condiciona la decisión entre anastomosis y colostomía terminal. Punto de enseñanza: Hinchey III y IV comparten peritonitis difusa, pero no el tipo de contaminación.",
+    "teaching_point": "Hinchey III es peritonitis difusa purulenta y Hinchey IV peritonitis fecal; ambos son quirúrgicos.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — clasificación de Hinchey",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 20
+    },
+    "tags": [
+      "Hinchey",
+      "peritonitis",
+      "diverticulitis complicada"
+    ]
+  },
+  {
+    "id": "T26-C003",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "En la etiopatogenia del vólvulo de sigma se describen factores de riesgo anatómicos y funcionales, pero la clase señala tres condiciones que necesariamente deben concurrir para que se produzca la torsión. Enumérelas en un máximo de veinte palabras, tal y como aparecen en la diapositiva.",
+    "respuesta_canonica": "Elongación colónica, segmento móvil y mesenterio estrecho",
+    "aceptadas": [
+      "colon elongado, segmento móvil y base mesentérica estrecha",
+      "elongación del colon, movilidad del segmento y mesenterio estrecho"
+    ],
+    "conceptos_clave": [
+      "elonga",
+      "móvil",
+      "estrech"
+    ],
+    "max_palabras": 20,
+    "explanation": "El vólvulo de sigma requiere tres condiciones que la clase enuncia de forma explícita: elongación colónica, un segmento móvil y un mesenterio estrecho. Sin esa base anatómica estrecha y ese asa larga y libre no hay eje sobre el que girar. Sobre ese sustrato actúan los factores de riesgo: los anatómicos, con el colon redundante en primer lugar, la sobrecarga fecal y la constipación, las adherencias quirúrgicas, presentes en el 8 % de los casos, los trastornos de la motilidad, la enfermedad de Chagas, la enfermedad de Hirschsprung en la infancia y el abuso de laxantes. El perfil clásico es el mayor de setenta años institucionalizado, con enfermedad neurológica o psiquiátrica y estreñimiento crónico, mientras que en jóvenes predominan los trastornos de motilidad y el Chagas. Punto de enseñanza: sin asa larga, móvil y de base estrecha no hay vólvulo de sigma.",
+    "teaching_point": "El vólvulo de sigma exige elongación colónica, segmento móvil y mesenterio estrecho.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 28
+    },
+    "tags": [
+      "volvulo de sigma",
+      "etiopatogenia",
+      "mesenterio"
+    ]
+  },
+  {
+    "id": "T26-C004",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "corta",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Ante un vólvulo de sigma sin sospecha de necrosis, el primer paso en urgencias es la desvolvulación endoscópica, que permite además revisar la mucosa y aspirar el contenido. Indique, en un máximo de veinte palabras, la tasa de éxito de la colonoscopia y la recurrencia con tratamiento conservador.",
+    "respuesta_canonica": "Éxito de la colonoscopia del 75-95 %; recurrencia con tratamiento conservador superior al 60 %",
+    "aceptadas": [
+      "75 a 95 % de éxito y más del 60 % de recurrencia",
+      "colonoscopia eficaz en 75-95 %; recidiva mayor del 60 %"
+    ],
+    "conceptos_clave": [
+      "75",
+      "95",
+      "60"
+    ],
+    "max_palabras": 20,
+    "explanation": "El tratamiento del vólvulo de sigma persigue dos objetivos: desobstruir y tratar la sepsis en la fase aguda, y prevenir la recidiva después. En urgencias, la colonoscopia consigue desvolvular en el 75 al 95 % de los casos y permite además revisar la mucosa, aspirar el contenido y dejar una sonda rectal; la cirugía urgente, en forma de sigmoidectomía con anastomosis o colostomía, se reserva para la isquemia o la sepsis. La cifra que justifica la segunda parte del tratamiento es la recurrencia superior al 60 % cuando solo se hace tratamiento conservador, y por eso se indica cirugía reglada o diferida, habitualmente una sigmoidectomía; en pacientes con comorbilidad importante puede recurrirse a un estoma percutáneo endoscópico. Punto de enseñanza: desvolvular resuelve el episodio, pero no la enfermedad.",
+    "teaching_point": "La desvolvulación endoscópica tiene éxito en el 75-95 % de los casos, pero la recurrencia con tratamiento conservador supera el 60 %, lo que justifica la cirugía reglada.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — vólvulos de colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 32
+    },
+    "tags": [
+      "volvulo de sigma",
+      "colonoscopia",
+      "recurrencia",
+      "sigmoidectomia"
+    ]
+  },
+  {
+    "id": "T26-L001",
+    "tema": 26,
+    "bloque": "colorrectal",
+    "formato": "larga",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Varón de 63 años acude por dolor en fosa ilíaca izquierda, fiebre y leucocitosis, y la TC abdominopélvica confirma una diverticulitis aguda. Exponga, en un máximo de 350 palabras, la clasificación clínica de Hinchey de la diverticulitis aguda complicada, el tratamiento que corresponde a cada grado, las indicaciones de cirugía urgente y los criterios que hacen elegir entre intervención de Hartmann y sigmoidectomía con anastomosis.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Define la diverticulitis aguda complicada por la presencia de perforación, absceso u obstrucción aguda, y cita la TC como prueba diagnóstica de elección",
+        "puntos": 0.38,
+        "claves": [
+          "perforacion",
+          "absceso",
+          "obstruccion",
+          "TC"
+        ]
+      },
+      {
+        "elemento": "Enumera correctamente los cuatro grados de Hinchey",
+        "puntos": 0.56,
+        "claves": [
+          "flemon",
+          "absceso a distancia",
+          "purulenta",
+          "peritonitis fecal",
+          "pericolico"
+        ]
+      },
+      {
+        "elemento": "Asigna el tratamiento de los grados I y II: antibioterapia con o sin drenaje percutáneo, drenando el absceso cuando supera 4-5 cm",
+        "puntos": 0.38,
+        "claves": [
+          "antibioterapia",
+          "drenaje percutaneo",
+          "cuatro o cinco"
+        ]
+      },
+      {
+        "elemento": "Asigna el tratamiento quirúrgico a los grados III y IV",
+        "puntos": 0.38,
+        "claves": [
+          "cirugia",
+          "grado III",
+          "grado IV"
+        ]
+      },
+      {
+        "elemento": "Enumera las indicaciones de cirugía urgente: peritonitis con abdomen agudo, shock séptico y empeoramiento o fracaso del tratamiento conservador",
+        "puntos": 0.38,
+        "claves": [
+          "peritonitis",
+          "shock septico",
+          "fracaso"
+        ]
+      },
+      {
+        "elemento": "Justifica la elección entre Hartmann y sigmoidectomía con anastomosis según inestabilidad hemodinámica, fracaso orgánico, comorbilidad e insuficiencia renal o respiratoria",
+        "puntos": 0.56,
+        "claves": [
+          "Hartmann",
+          "anastomosis",
+          "inestable",
+          "comorbilidad"
+        ]
+      },
+      {
+        "elemento": "Menciona el lavado laparoscópico como opción en casos seleccionados",
+        "puntos": 0.19,
+        "claves": [
+          "lavado laparoscopico",
+          "casos seleccionados"
+        ]
+      },
+      {
+        "elemento": "Cita las secuelas crónicas y su tratamiento: estenosis con resección y anastomosis, y fístula, sobre todo enterovesical, con resección, reparación y anastomosis",
+        "puntos": 0.17,
+        "claves": [
+          "estenosis",
+          "enterovesical",
+          "reparacion"
+        ]
+      }
+    ],
+    "respuesta_modelo": "La diverticulitis aguda complica al 5 % de los pacientes con diverticulosis y se considera complicada cuando existe perforación, absceso u obstrucción aguda. La prueba diagnóstica de elección es la TC abdominopélvica, con sensibilidad y especificidad del 99 %; la ecografía es la alternativa. La clasificación clínica de Hinchey ordena la enfermedad complicada en cuatro grados: el grado I corresponde al flemón o absceso mesentérico o pericólico; el grado II al absceso a distancia, ya sea pélvico, intraabdominal o retroperitoneal; el grado III a la peritonitis difusa purulenta; y el grado IV a la peritonitis fecal. El tratamiento sigue esa gradación. Los grados I y II se manejan con antibioterapia, asociando drenaje percutáneo cuando el absceso supera los cuatro o cinco centímetros. Los grados III y IV son quirúrgicos. Con independencia del grado, son indicaciones de cirugía urgente la peritonitis con abdomen agudo, el shock séptico y el empeoramiento o fracaso del tratamiento conservador. Una vez sentada la indicación quirúrgica, la elección de la técnica depende del estado del paciente. Si está hemodinámicamente inestable, presenta fracaso orgánico, comorbilidad relevante, insuficiencia renal o insuficiencia respiratoria, se realiza una intervención de Hartmann, es decir, sigmoidectomía con colostomía terminal y cierre del muñón rectal. Si no concurre ninguna de esas circunstancias, puede efectuarse una sigmoidectomía con anastomosis primaria. En casos seleccionados se contempla el lavado laparoscópico como alternativa a la resección. Superada la fase aguda, la diverticulitis deja dos secuelas crónicas que conviene conocer. La primera es la estenosis con obstrucción, cuyo tratamiento es la resección del segmento afectado y la anastomosis. La segunda es la fístula, más frecuentemente enterovesical, que se manifiesta con neumaturia, fecaluria e infecciones urinarias polimicrobianas de repetición y que exige resección del segmento, reparación del órgano receptor y anastomosis. Conviene recordar, por último, que la mayoría de los pacientes con divertículos permanecen asintomáticos: la enfermedad diverticular sintomática afecta al 20-30 %, la diverticulitis al 5-10 % y el sangrado a menos del 5 %.",
+    "explanation": "La pregunta larga recorre el eje que la clase organiza en torno a la clasificación de Hinchey: definición de enfermedad complicada, cuatro grados, tratamiento por grado, indicaciones de cirugía urgente y elección de técnica. El fallo más habitual es memorizar los grados sin ligarlos al tratamiento, de modo que el alumno enumera Hinchey correctamente pero no sabe cuándo se drena un absceso o cuándo se hace un Hartmann. El segundo fallo es confundir el criterio que decide la técnica: no es el grado de Hinchey por sí solo, sino el estado del paciente, con la inestabilidad hemodinámica, el fracaso orgánico y la comorbilidad como determinantes. Se valora también citar las secuelas crónicas, porque cierran el tema y demuestran una visión longitudinal de la enfermedad. Punto de enseñanza: Hinchey ordena la enfermedad, pero es el paciente quien decide la técnica.",
+    "teaching_point": "Hinchey clasifica la diverticulitis complicada y orienta el tratamiento, pero la elección entre Hartmann y anastomosis la determina el estado fisiológico del paciente.",
+    "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — enfermedad diverticular del colon",
+    "fuente_clase": {
+      "archivo": "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx",
+      "pagina": 20
+    },
+    "tags": [
+      "Hinchey",
+      "diverticulitis",
+      "Hartmann",
+      "cirugia urgente"
+    ]
+  }
+]

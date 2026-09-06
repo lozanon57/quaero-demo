@@ -1,0 +1,684 @@
+[
+ {
+  "id": "T13-M001",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En el informe de un TC de estadificación se describe «un plano que discurre desde el lecho de la vesícula biliar hasta el borde izquierdo de la vena cava inferior, sin traducción en la superficie del órgano». El cirujano lo utiliza para planificar la resección. Señale qué separa exactamente ese plano en el hígado del paciente.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El lóbulo derecho del izquierdo morfológicos, marcados por el ligamento falciforme."
+   },
+   {
+    "id": "B",
+    "text": "Los dos hemihígados funcionales, que son la división de primer orden."
+   },
+   {
+    "id": "C",
+    "text": "El sector anterior derecho del sector posterior derecho del mismo hemihígado."
+   },
+   {
+    "id": "D",
+    "text": "El segmento IV del segmento III, siguiendo el trayecto de la cisura umbilical."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El plano descrito es la cisura portal principal o línea de Cantlie, que va desde el fondo vesicular hasta la vena cava inferior y separa los dos hemihígados funcionales. La clase insiste en dos matices que el enunciado reproduce: es un plano, no una línea, y es invisible, por lo que sólo puede identificarse a través de la anatomía vascular. Opción A: la división morfológica en lóbulo derecho e izquierdo la marcan el ligamento falciforme y la cisura umbilical, referencias visibles en la superficie que no coinciden con la división funcional. Opción C: el límite entre los sectores anterior y posterior derechos es la cisura portal derecha, otra de las cisuras descritas en los moldes de corrosión, situada por completo dentro del hemihígado derecho. Opción D: la separación entre los segmentos IV y III corresponde a la cisura umbilical, que es precisamente la referencia que la nomenclatura de Brisbane 2000 emplea para dividir el hígado izquierdo. Punto de enseñanza: en el hígado, superficie y función no coinciden.",
+  "teaching_point": "La línea de Cantlie es un plano invisible entre el fondo vesicular y la vena cava que separa los hemihígados funcionales, no los lóbulos morfológicos.",
+  "guideline_ref": "Cantlie J. On a new arrangement of the right and left lobes of the liver. Proc Anat Soc Great Britain and Ireland 1897;32:4-9, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "linea de Cantlie",
+   "anatomia funcional",
+   "hemihigado"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M002",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Un residente compara la descripción de Healey (1953), obtenida inyectando la vía biliar y la arteria hepática, con la de Couinaud (1957), obtenida inyectando la vena porta. Observa que ambas coinciden en el lado derecho pero no en el izquierdo. Indique en qué consiste esa discrepancia tal como se expuso en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Healey describió cinco sectores portales izquierdos y Couinaud describió solamente dos."
+   },
+   {
+    "id": "B",
+    "text": "Healey describió el lóbulo caudado como un área independiente y Couinaud no lo hizo así."
+   },
+   {
+    "id": "C",
+    "text": "Couinaud excluyó el segmento IV del hígado izquierdo y se lo asignó al hemihígado derecho."
+   },
+   {
+    "id": "D",
+    "text": "El sector medial izquierdo de Couinaud abarca los segmentos IV y III; el medial de Healey, sólo el área 4."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase contrapone las dos descripciones clásicas: son anatómicamente equivalentes en el lado derecho y difieren en el izquierdo. En Couinaud el sector medial izquierdo comprende los segmentos IV y III, mientras que el segmento medial izquierdo de Healey corresponde únicamente al área 4; de forma simétrica, el sector lateral izquierdo de Couinaud es sólo el segmento II, mientras que el segmento lateral de Healey engloba las áreas 2 y 3. Opción A: el número de sectores portales de Couinaud es cinco para todo el hígado, no cinco por el lado izquierdo, y Healey no describe sectores sino lóbulos, segmentos y áreas. Opción C: el segmento IV pertenece al hígado izquierdo en ambos esquemas; lo que cambia es a qué sector se adscribe. Opción B: fue Couinaud, y no Healey, quien individualizó el caudado. Punto de enseñanza: la diferencia Healey-Couinaud está en el reparto del lado izquierdo.",
+  "teaching_point": "Healey y Couinaud coinciden en el hígado derecho; en el izquierdo, el sector medial de Couinaud incluye IV y III, y el de Healey sólo el área 4.",
+  "guideline_ref": "Fasel JH, Schenk A. Concepts for Liver Segment Classification. J Clin Imaging Sci 2013;3:48, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "Healey",
+   "Couinaud",
+   "sectores"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M003",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "En la sesión clínica se discute la resección de una metástasis colorrectal y el cirujano pide describir el hígado «en los tres niveles de Couinaud» antes de decidir la técnica. El residente debe enumerar cuántas unidades existen en cada nivel según se expuso en clase. Señale la combinación correcta.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Dos hemihígados, cuatro sectores y ocho segmentos hepáticos."
+   },
+   {
+    "id": "B",
+    "text": "Dos hemihígados, cinco sectores y nueve segmentos hepáticos."
+   },
+   {
+    "id": "C",
+    "text": "Dos lóbulos, cuatro segmentos y ocho áreas hepatobiliares."
+   },
+   {
+    "id": "D",
+    "text": "Dos hemihígados, cinco sectores y ocho segmentos hepáticos."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase resume la aportación de Couinaud en tres niveles jerárquicos: primer nivel, dos hígados o hemihígados; segundo nivel, cinco sectores; tercer nivel, ocho segmentos. Es el andamiaje sobre el que después se construye la nomenclatura de resecciones. Opción A: cuatro sectores es un recuento alternativo que se encuentra en otros esquemas, pero no es el que figura en la diapositiva de los tres niveles, que habla de cinco. Opción B: nueve segmentos remite al segmento IX que Couinaud añadió al describir el caudado, matiz que la clase menciona como añadido al segmento I, pero el recuento oficial del tercer nivel sigue siendo de ocho. Opción C: dos lóbulos, cuatro segmentos y ocho áreas es exactamente el esquema de Healey y Schroy de 1953, no el de Couinaud. Punto de enseñanza: hemihígados, sectores y segmentos son niveles distintos y no intercambiables.",
+  "teaching_point": "Los tres niveles de Couinaud son dos hemihígados, cinco sectores y ocho segmentos.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "Couinaud",
+   "sectores",
+   "segmentos"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M004",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Al revisar la historia de la segmentación hepática, el profesor subraya que una de las descripciones clásicas no reconoció el lóbulo caudado como unidad independiente, mientras que la otra sí lo individualizó a partir de la inyección del árbol portal. Señale la afirmación que recoge correctamente lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cantlie individualizó el caudado en 1897 al inyectar tinta en el árbol portal."
+   },
+   {
+    "id": "B",
+    "text": "Healey lo describió como área independiente tras inyectar la vía biliar y la arteria."
+   },
+   {
+    "id": "C",
+    "text": "Couinaud lo describió como segmento I; Healey no lo consideró un área independiente."
+   },
+   {
+    "id": "D",
+    "text": "Couinaud no llegó a describir el caudado, que se incorporó en Brisbane en el año 2000."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "Couinaud, trabajando sobre la inyección de la vena porta, describió el caudado como segmento I, con el añadido del segmento IX; Healey y Schroy, que habían inyectado la vía biliar y la arteria hepática, describieron dos lóbulos, cuatro segmentos y ocho áreas, y no individualizaron el caudado como área propia. Opción A: Cantlie inyectó tinta en el árbol portal, pero su aportación fue el plano que separa los lóbulos verdaderos, no la individualización del caudado. Opción B: Healey es precisamente el autor que no lo reconoció como área independiente, de modo que la afirmación invierte el dato. Opción D: la nomenclatura de Brisbane 2000 es una convención terminológica posterior que ordena nombres de resecciones; el caudado ya estaba descrito por Couinaud en 1957. Punto de enseñanza: la vía de inyección condiciona lo que cada autor pudo ver, y por eso el caudado sólo aparece en el esquema portal.",
+  "teaching_point": "El caudado es el segmento I de Couinaud, descrito por vía portal; el esquema biliar-arterial de Healey no lo individualiza.",
+  "guideline_ref": "Healey JE Jr, Schroy PC. Arch Surg 1953;66:599-616, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "caudado",
+   "segmento I",
+   "Couinaud"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M005",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Se programa una hepatectomía derecha por metástasis voluminosas. El cirujano decide controlar primero la cava suprahepática e infrahepática, después disecar y ligar el pedículo portal derecho y la vena hepática derecha, y sólo entonces seccionar el parénquima. Indique a qué técnica de hepatectomía mayor corresponde esta secuencia según se expuso en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Control vascular previo, tal como lo describió Lortat-Jacob en 1952."
+   },
+   {
+    "id": "B",
+    "text": "Sección parenquimatosa con ligadura intraparenquimatosa de Ton That Tung."
+   },
+   {
+    "id": "C",
+    "text": "Segmentectomía reglada definida por la nomenclatura de Brisbane del año 2000."
+   },
+   {
+    "id": "D",
+    "text": "Resección atípica guiada por ecografía intraoperatoria, sin control hiliar previo."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La secuencia descrita, control de la cava supra e infrahepática, disección y ligadura del pedículo portal, disección y ligadura de la vena hepática y por último sección del parénquima, es literalmente la técnica de control vascular previo atribuida en clase a Lortat-Jacob en 1952. Opción B: en la técnica de Ton That Tung el orden se invierte, porque se secciona primero el parénquima a lo largo de la cisura hepática y se accede al pedículo portal y a la vena hepática ya dentro del hígado. Opción C: Brisbane 2000 es una nomenclatura anatómica y de resecciones, no una técnica quirúrgica; nombra lo que se extirpa, no cómo se hace. Opción D: la resección atípica no sigue planos anatómicos ni exige el control hiliar y vascular reglado que describe el enunciado; su base conceptual procede además de Ton That Tung. Punto de enseñanza: el orden de los pasos identifica la escuela técnica.",
+  "teaching_point": "Lortat-Jacob controla los vasos antes de cortar el parénquima; Ton That Tung corta el parénquima y liga dentro.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "Lortat-Jacob",
+   "hepatectomia",
+   "control vascular"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M006",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "En otra intervención el cirujano abre el parénquima a lo largo de la cisura hepática, alcanza el pedículo portal dentro del hígado y liga allí mismo la vena hepática, sin disección hiliar previa. Señale a qué técnica corresponde y qué tipo de resecciones fundamenta conceptualmente, según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Técnica de Lortat-Jacob; fundamenta las hepatectomías derechas extendidas."
+   },
+   {
+    "id": "B",
+    "text": "Técnica de Ton That Tung; fundamenta las resecciones hepáticas atípicas."
+   },
+   {
+    "id": "C",
+    "text": "Técnica de Healey; fundamenta la resección de las ocho áreas biliares."
+   },
+   {
+    "id": "D",
+    "text": "Técnica de Couinaud; fundamenta las sectorectomías portales regladas."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La sección del parénquima a lo largo de la cisura hepática, con acceso intraparenquimatoso al pedículo portal y a la vena hepática, es la técnica de Ton That Tung, descrita en clase tanto para hepatectomías mayores como para segmentectomías regladas, y señalada expresamente como base conceptual de las resecciones atípicas. Opción A: Lortat-Jacob es el extremo opuesto, porque exige el control vascular completo antes de tocar el parénquima. Opción C: Healey aportó un esquema anatómico obtenido por inyección biliar y arterial, no una técnica de transección hepática. Opción D: Couinaud describió hemihígados, sectores y segmentos mediante la inyección portal y los moldes de corrosión, pero tampoco es autor de una técnica quirúrgica; las sectorectomías regladas se apoyan en su anatomía, no en un procedimiento suyo. Punto de enseñanza: la transección primero y la ligadura después es lo que permite salirse de los planos anatómicos y operar de forma atípica.",
+  "teaching_point": "Ton That Tung secciona el parénquima por la cisura y liga los vasos dentro del hígado: es la base conceptual de la resección atípica.",
+  "guideline_ref": "Ton That Tung. Les résections majeures et mineures du foie. París, Masson, 1979, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "Ton That Tung",
+   "reseccion atipica",
+   "transeccion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M007",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Ante la confusión terminológica descrita por Strasberg como «Babel hepática», la IHPBA adoptó en su reunión de Brisbane, en el año 2000, una nomenclatura común de anatomía y resecciones hepáticas. Señale sobre qué anatomía basó el comité de terminología esa clasificación y qué referencia empleó para dividir el hígado izquierdo.",
+  "options": [
+   {
+    "id": "A",
+    "text": "En la anatomía venosa suprahepática; divide el hígado izquierdo por la vena hepática izquierda."
+   },
+   {
+    "id": "B",
+    "text": "En la anatomía portal de Couinaud; divide el hígado izquierdo por la cisura portal izquierda."
+   },
+   {
+    "id": "C",
+    "text": "En la anatomía arterial y biliar; divide el hígado izquierdo por la cisura umbilical."
+   },
+   {
+    "id": "D",
+    "text": "En los moldes de corrosión de Hjortsjo; divide el hígado izquierdo por la línea de Cantlie."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La diapositiva sobre Brisbane 2000 es explícita: el Comité de Terminología de la IHPBA basó la clasificación en la anatomía arterial y biliar, con un addendum para la anatomía de la vena porta según Couinaud, y estableció la división del hígado izquierdo por la cisura umbilical. Opción A: la anatomía de las venas suprahepáticas es imprescindible para planificar la resección y valorar el drenaje del remanente, pero no es la base sobre la que se construyó la nomenclatura. Opción B: la anatomía portal de Couinaud figura en Brisbane sólo como addendum, no como fundamento, y la cisura portal izquierda no es la referencia elegida para dividir el hígado izquierdo. Opción D: los moldes de corrosión son la metodología histórica que permitió describir las cisuras, y la línea de Cantlie separa los dos hemihígados, no las mitades del izquierdo. Punto de enseñanza: Brisbane es arterial y biliar, con la cisura umbilical como referencia izquierda.",
+  "teaching_point": "Brisbane 2000 se basa en la anatomía arterial y biliar y divide el hígado izquierdo por la cisura umbilical.",
+  "guideline_ref": "Terminology Committee of the IHPBA. Terminology of liver anatomy and resections. HPB 2000;2:333-339, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "Brisbane 2000",
+   "IHPBA",
+   "cisura umbilical"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M008",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Al comenzar el tema, el profesor repasa la descripción morfológica clásica del hígado, la que se apoya en referencias visibles y palpables en la superficie del órgano, antes de introducir la anatomía funcional descrita en el siglo XX. Señale qué lóbulos reconoce esa descripción y qué referencia separa el derecho del izquierdo.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Derecho, izquierdo, cuadrado y caudado; el ligamento falciforme y la cisura umbilical separan derecho de izquierdo."
+   },
+   {
+    "id": "B",
+    "text": "Derecho, izquierdo, cuadrado y caudado; la cisura portal media o sagital separa derecho de izquierdo."
+   },
+   {
+    "id": "C",
+    "text": "Derecho e izquierdo divididos en cinco sectores; la cisura portal derecha separa derecho de izquierdo."
+   },
+   {
+    "id": "D",
+    "text": "Derecho e izquierdo, sin lóbulo cuadrado ni caudado; el hilio hepático separa derecho de izquierdo."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La anatomía morfológica clásica, con la que se abre el tema, reconoce cuatro lóbulos, el derecho, el izquierdo, el cuadrado y el caudado, y sitúa el límite entre el derecho y el izquierdo en la cisura umbilical y el ligamento falciforme, referencias que se ven y se palpan en la superficie del órgano. Esa división no coincide con la funcional, que Cantlie desplazó al plano que va del fondo vesicular a la vena cava inferior. Opción B: la cisura portal media o sagital es precisamente ese plano funcional, invisible en la superficie, de modo que la opción atribuye a la descripción morfológica un límite que pertenece a la anatomía portal. Opción C: los cinco sectores son el segundo nivel de Couinaud, obtenido inyectando la vena porta, y la cisura portal derecha separa los dos sectores del hemihígado derecho, no el hígado derecho del izquierdo. Opción D: el lóbulo cuadrado y el caudado forman parte de la descripción morfológica desde los anatomistas clásicos, y el hilio es una referencia transversal que no divide el órgano en mitades derecha e izquierda. Punto de enseñanza: la anatomía que se ve no es la que se opera.",
+  "teaching_point": "La anatomía morfológica reconoce lóbulo derecho, izquierdo, cuadrado y caudado, con el ligamento falciforme y la cisura umbilical como límite entre derecho e izquierdo.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 2
+  },
+  "tags": [
+   "anatomia morfologica",
+   "lobulo cuadrado",
+   "ligamento falciforme"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M009",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Durante una sesión de anatomía quirúrgica se proyectan moldes de corrosión del hígado y el profesor señala en ellos tres cisuras que no pueden verse en el quirófano ni en la superficie del órgano. Indique cuáles son esas cisuras y qué delimitan, según la descripción de Couinaud expuesta en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cisura umbilical, cisura de Arancio y cisura transversa; delimitan los lóbulos clásicos."
+   },
+   {
+    "id": "B",
+    "text": "Cisuras hepáticas anterior, media y posterior; delimitan los ocho segmentos de Couinaud."
+   },
+   {
+    "id": "C",
+    "text": "Cisuras portales derecha, media o sagital e izquierda; delimitan los sectores portales."
+   },
+   {
+    "id": "D",
+    "text": "Cisuras biliares de Healey; delimitan las ocho áreas descritas en el árbol biliar."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "En los moldes de corrosión Couinaud identificó tres cisuras portales, la derecha, la media o sagital y la izquierda, que constituyen el límite entre los sectores portales y que la clase describe expresamente como apreciables sólo en los moldes. La segmentación funcional propiamente dicha se completa con el plano horizontal de la vena porta. Opción B: no existen unas cisuras hepáticas anterior, media y posterior con ese cometido; además, lo que separa los segmentos dentro de cada sector es el plano portal transversal, no una cisura sagital adicional. Opción A: la cisura umbilical, el ligamento de Arancio y la cisura transversa del hilio son referencias morfológicas visibles, justamente lo contrario de lo que plantea el enunciado. Opción D: Healey describió áreas a partir del árbol biliar y arterial, pero la clase reserva el término cisura portal para el esquema de Couinaud. Punto de enseñanza: cisura portal es sinónimo de límite intersectorial.",
+  "teaching_point": "Las tres cisuras portales de Couinaud separan los sectores y sólo se ven en los moldes de corrosión.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "cisuras portales",
+   "moldes de corrosion",
+   "sectores"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M010",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Antes de una hepatectomía compleja por metástasis bilobares, el equipo solicita TC y RM con reconstrucción tridimensional. Un alumno pregunta qué información aportan exactamente estas pruebas en la planificación de la resección. Señale la respuesta que recoge lo expuesto en clase sobre el papel de la imagen preoperatoria.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Permiten estudiar las venas suprahepáticas y las ramas portales de primer, segundo y tercer orden."
+   },
+   {
+    "id": "B",
+    "text": "Permiten seguir el árbol biliar intrahepático hasta los conductos segmentarios, base del cálculo volumétrico."
+   },
+   {
+    "id": "C",
+    "text": "Muestran las cisuras portales como estructuras visibles, lo que hace innecesario el mapa vascular."
+   },
+   {
+    "id": "D",
+    "text": "Aportan el volumen hepático total, aunque el volumen del remanente previsto sigue siendo incalculable."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La diapositiva sobre TC y RM preoperatorias enumera lo que aportan estas pruebas: el estudio de las venas suprahepáticas y de las ramas portales de primer, segundo y tercer orden, los estudios volumétricos y las reconstrucciones tridimensionales, y añade que el acceso fácil a las imágenes permite el entrenamiento y el ensayo previos de los procedimientos complejos. Opción B: lo que la clase describe es el mapa venoso y portal, no el árbol biliar segmentario, y el cálculo del volumen no depende de la anatomía biliar sino de la delimitación del parénquima que se conserva. Opción C: las cisuras portales siguen siendo invisibles en la superficie del hígado, tal como se subraya al describir los moldes de corrosión; la imagen las infiere a partir de la vascularización, de modo que el mapa vascular no sobra, sino que es justamente lo que las hace deducibles. Opción D: la volumetría del remanente previsto es una de las prestaciones que la clase atribuye a estos estudios, de modo que la afirmación invierte el dato. Punto de enseñanza: la planificación empieza en el mapa vascular.",
+  "teaching_point": "La TC y la RM preoperatorias mapean suprahepáticas y ramas portales hasta tercer orden y permiten la volumetría y el modelo 3D.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "TC",
+   "RM",
+   "planificacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-M012",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Tras una hepatectomía izquierda ampliada, el remanente presenta congestión y disfunción precoz. En la revisión del caso se comprueba que no se estudió con detalle el drenaje venoso del remanente en la imagen preoperatoria. Señale qué estructura debe evaluarse sistemáticamente en la TC y la RM antes de una resección mayor.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La arteria hepática común y sus variantes de origen en la mesentérica superior."
+   },
+   {
+    "id": "B",
+    "text": "Las venas suprahepáticas y su relación con el parénquima que se conserva."
+   },
+   {
+    "id": "C",
+    "text": "El tronco de la vena porta y la existencia de una trifurcación portal."
+   },
+   {
+    "id": "D",
+    "text": "La vía biliar principal y las variantes anatómicas de la convergencia biliar."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La congestión y la disfunción precoz del remanente traducen un problema de drenaje venoso de salida, de modo que la estructura que hay que haber estudiado es el sistema de venas suprahepáticas y su relación con el parénquima que queda; la clase señala expresamente que la TC y la RM preoperatorias permiten estudiar las venas suprahepáticas junto con las ramas portales de primer, segundo y tercer orden. Opción A: una arteria hepática aberrante puede causar isquemia del remanente, pero produce citólisis y necrosis, no el cuadro congestivo descrito. Opción D: una variante de la convergencia biliar se manifestaría como fístula o estenosis biliar, no como congestión. Opción C: la trifurcación portal es una variante relevante para el aporte de entrada y para la sección del pedículo, pero la congestión es un problema de salida venosa. Punto de enseñanza: entrada y salida se planifican por separado.",
+  "teaching_point": "La congestión del remanente es un fallo de drenaje venoso: las suprahepáticas se estudian siempre antes de una resección mayor.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "venas suprahepaticas",
+   "congestion",
+   "remanente"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T13-C001",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la sesión de planificación de una hepatectomía el cirujano pide identificar el plano que separa los dos hemihígados funcionales, recordando que no se ve en la superficie del órgano y que fue descrito a finales del siglo XIX. Responda en un máximo de veinte palabras cómo se denomina y entre qué dos referencias anatómicas discurre.",
+  "respuesta_canonica": "Línea o cisura de Cantlie: del fondo vesicular a la vena cava inferior.",
+  "aceptadas": [
+   "cisura portal principal, desde el lecho vesicular hasta la vena cava",
+   "línea de Cantlie, desde la vesícula biliar hasta la cava inferior",
+   "plano de Cantlie entre la fosa vesicular y la vena cava inferior",
+   "cisura portal media, del fondo vesicular a la vena cava inferior"
+  ],
+  "conceptos_clave": [
+   "Cantlie",
+   "vesicular",
+   "cava"
+  ],
+  "max_palabras": 20,
+  "explanation": "Cantlie describió en 1897, inyectando tinta en el árbol portal, que el verdadero límite entre las dos mitades del hígado no es el ligamento falciforme sino un plano que va desde el fondo de la vesícula biliar hasta la vena cava inferior. La clase insiste en dos matices que conviene reproducir en la respuesta: se trata de un plano y no de una línea, pese al nombre con que se ha popularizado, y es invisible, tanto en la superficie del órgano como en el campo quirúrgico, de manera que sólo puede reconocerse por la anatomía vascular o mediante el clampaje selectivo del pedículo. Este plano se corresponde con la cisura portal media o sagital y separa el hígado derecho del hígado izquierdo funcionales, la división de primer orden que después recogerá la nomenclatura de Brisbane 2000. Se considera correcta la respuesta que nombre a Cantlie o la cisura portal principal y sitúe correctamente los dos extremos.",
+  "teaching_point": "El plano de Cantlie va del fondo vesicular a la cava y separa los hemihígados funcionales; no es visible.",
+  "guideline_ref": "Cantlie J. Proc Anat Soc Great Britain and Ireland 1897;32:4-9, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "linea de Cantlie",
+   "anatomia funcional"
+  ]
+ },
+ {
+  "id": "T13-C002",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Claude Couinaud describió en 1957, mediante la inyección de la vena porta y el estudio de moldes de corrosión, una organización jerárquica del hígado en tres niveles que sigue siendo la base de la cirugía hepática moderna. Enumere en un máximo de veinte palabras esos tres niveles con el número de unidades de cada uno.",
+  "respuesta_canonica": "Dos hemihígados, cinco sectores y ocho segmentos.",
+  "aceptadas": [
+   "dos hígados o hemihígados, cinco sectores, ocho segmentos",
+   "2 hemihígados / 5 sectores / 8 segmentos",
+   "2 hemihígados, 5 sectores y 8 segmentos",
+   "dos hemihígados, cinco sectores y ocho segmentos",
+   "primer nivel dos hemihígados, segundo cinco sectores, tercero ocho segmentos"
+  ],
+  "conceptos_clave": [
+   "sectores",
+   "segmentos"
+  ],
+  "max_palabras": 20,
+  "explanation": "La diapositiva de los tres niveles de Couinaud es una de las que más se prestan a pregunta corta porque la respuesta es un recuento cerrado: primer nivel, dos hígados o hemihígados; segundo nivel, cinco sectores; tercer nivel, ocho segmentos. Conviene distinguirlo del esquema de Healey y Schroy de 1953, que a partir de la inyección biliar y arterial habla de dos lóbulos, cuatro segmentos y ocho áreas, y que no individualiza el lóbulo caudado. Couinaud, al trabajar sobre el árbol portal, sí describió el caudado como segmento I, con el añadido del segmento IX, pero el recuento oficial del tercer nivel que recoge la clase sigue siendo de ocho segmentos. La respuesta se considera correcta si incluye los tres números en el orden jerárquico correcto; nombrar sólo los segmentos deja fuera el nivel intermedio, que es precisamente el que la nomenclatura de Brisbane utiliza para las secciones.",
+  "teaching_point": "Couinaud: dos hemihígados, cinco sectores, ocho segmentos. Healey: dos lóbulos, cuatro segmentos, ocho áreas.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos, Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "Couinaud",
+   "sectores",
+   "segmentos"
+  ]
+ },
+ {
+  "id": "T13-C003",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "En la revisión histórica de las técnicas de hepatectomía mayor, la clase contrapone dos escuelas: la descrita por Lortat-Jacob en 1952 y la de Ton That Tung en 1979. Explique en un máximo de veinte palabras cuál es el principio técnico que define a la primera y la diferencia de la segunda.",
+  "respuesta_canonica": "Control vascular completo previo a la sección del parénquima hepático.",
+  "aceptadas": [
+   "controlar cava, pedículo portal y vena hepática antes de seccionar el parénquima",
+   "ligadura vascular extrahepática previa a la transección",
+   "control vascular previo, a diferencia de la ligadura intraparenquimatosa",
+   "controlar y ligar los vasos antes de seccionar el parénquima"
+  ],
+  "conceptos_clave": [
+   "control vascular"
+  ],
+  "max_palabras": 20,
+  "explanation": "La técnica de Lortat-Jacob se define por el control vascular previo: primero se controlan la cava suprahepática e infrahepática, después se disecan y ligan el pedículo portal y la vena hepática correspondientes al lado que se va a extirpar, y sólo entonces se secciona el parénquima. Ton That Tung invierte la secuencia: secciona el parénquima a lo largo de la cisura hepática y accede al pedículo portal y a la vena hepática ya dentro del hígado, ligándolos de forma intraparenquimatosa. La clase señala que esta segunda técnica se describió tanto para hepatectomías mayores como para segmentectomías regladas y que constituye la base conceptual de las resecciones atípicas, precisamente porque no obliga a respetar los planos anatómicos ni la disección hiliar. La respuesta se acepta si menciona el control o la ligadura de los vasos antes de la transección del parénquima.",
+  "teaching_point": "Lortat-Jacob controla los vasos fuera del hígado antes de cortar; Ton That Tung los liga dentro del parénquima.",
+  "guideline_ref": "Ton That Tung. Les résections majeures et mineures du foie. París, Masson, 1979, citado en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "Lortat-Jacob",
+   "Ton That Tung",
+   "hepatectomia"
+  ]
+ },
+ {
+  "id": "T13-C004",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "El Comité de Terminología de la IHPBA adoptó en Brisbane, en el año 2000, una nomenclatura común de anatomía y resecciones hepáticas para resolver la confusión terminológica que Strasberg había llamado «Babel hepática». Indique en un máximo de veinte palabras sobre qué anatomía se construyó esa clasificación y qué addendum incorporó.",
+  "respuesta_canonica": "Sobre la anatomía arterial y biliar, con addendum para la anatomía portal de Couinaud.",
+  "aceptadas": [
+   "anatomía arterial y biliar, con adenda de la vena porta según Couinaud",
+   "se basó en la anatomía arterial y biliar; addendum portal",
+   "arterial y biliar, añadiendo la anatomía de la vena porta de Couinaud"
+  ],
+  "conceptos_clave": [
+   "arterial",
+   "biliar",
+   "porta"
+  ],
+  "max_palabras": 20,
+  "explanation": "La diapositiva de Brisbane 2000 recoge textualmente que el Comité de Terminología de la IHPBA basó la clasificación en la anatomía arterial y biliar, con un addendum para la anatomía de la vena porta según Couinaud, y que estableció la división del hígado izquierdo por la cisura umbilical. Se presentó como anatómicamente correcta, con resecciones definidas de acuerdo con la anatomía, y como una terminología precisa, concisa y traducible, que son los cuatro atributos que la clase enumera. El problema que venía a resolver lo había descrito Strasberg en 1997: dos tipos de lóbulos, áreas que se referían a volúmenes, dos tipos de segmentos, líneas que en realidad eran planos, cisuras no visibles y una terminología de resección variable y confusa. La respuesta se considera correcta si nombra la base arterial y biliar; añadir el addendum portal la completa.",
+  "teaching_point": "Brisbane 2000 se construyó sobre la anatomía arterial y biliar, con addendum portal de Couinaud.",
+  "guideline_ref": "Terminology Committee of the IHPBA. HPB 2000;2:333-339; Strasberg SM. J Am Coll Surg 1997;184:413-34, citados en la clase",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "Brisbane 2000",
+   "IHPBA",
+   "terminologia"
+  ]
+ },
+ {
+  "id": "T13-L001",
+  "tema": 13,
+  "bloque": "higado_trasplante",
+  "formato": "larga",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Un paciente de 62 años con metástasis hepáticas colorrectales localizadas en los segmentos VI y VII es presentado en comité para resección. Exponga, en un máximo de trescientas cincuenta palabras, la anatomía funcional del hígado desde Cantlie hasta la nomenclatura de Brisbane 2000, y explique cómo se traduce esa anatomía en la planificación preoperatoria y en la elección de la técnica de hepatectomía en este paciente.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Distingue anatomía morfológica (lóbulos por ligamento falciforme y cisura umbilical, lóbulo cuadrado y caudado) de anatomía funcional",
+    "puntos": 0.3,
+    "claves": [
+     "falciforme",
+     "umbilical",
+     "morfológica"
+    ]
+   },
+   {
+    "elemento": "Define la línea o plano de Cantlie entre fondo vesicular y vena cava inferior como límite de los hemihígados, señalando que es un plano invisible",
+    "puntos": 0.38,
+    "claves": [
+     "Cantlie",
+     "vesicular",
+     "cava",
+     "plano"
+    ]
+   },
+   {
+    "elemento": "Contrapone el esquema de Healey (biliar y arterial: dos lóbulos, cuatro segmentos, ocho áreas, sin caudado independiente) con el de Couinaud (portal: dos hemihígados, cinco sectores, ocho segmentos, caudado como segmento I)",
+    "puntos": 0.45,
+    "claves": [
+     "Healey",
+     "caudado"
+    ]
+   },
+   {
+    "elemento": "Explica las cisuras portales derecha, media o sagital e izquierda como límites intersectoriales visibles sólo en los moldes de corrosión",
+    "puntos": 0.3,
+    "claves": [
+     "cisuras portales",
+     "moldes",
+     "sectores"
+    ]
+   },
+   {
+    "elemento": "Sitúa Brisbane 2000 como respuesta a la Babel terminológica de Strasberg, basada en la anatomía arterial y biliar con addendum portal y con división del hígado izquierdo por la cisura umbilical",
+    "puntos": 0.38,
+    "claves": [
+     "Brisbane",
+     "arterial y biliar",
+     "cisura umbilical"
+    ]
+   },
+   {
+    "elemento": "Aplica la anatomía al caso: los segmentos VI y VII forman el sector posterior derecho, lo que permite plantear una resección sectorial en lugar de una hepatectomía derecha completa",
+    "puntos": 0.38,
+    "claves": [
+     "VI",
+     "VII",
+     "sector posterior derecho",
+     "resección"
+    ]
+   },
+   {
+    "elemento": "Describe la planificación preoperatoria con TC y RM: venas suprahepáticas, ramas portales de primer a tercer orden, volumetría y reconstrucción tridimensional",
+    "puntos": 0.38,
+    "claves": [
+     "suprahepáticas",
+     "volumetría"
+    ]
+   },
+   {
+    "elemento": "Compara las dos técnicas de hepatectomía mayor: control vascular previo de Lortat-Jacob frente a sección parenquimatosa con ligadura intraparenquimatosa de Ton That Tung, base conceptual de la resección atípica",
+    "puntos": 0.43,
+    "claves": [
+     "Lortat-Jacob",
+     "Ton That Tung",
+     "control vascular",
+     "atípica"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La anatomía hepática admite dos lecturas. La morfológica, la más antigua, divide el órgano en lóbulo derecho e izquierdo por el ligamento falciforme y la cisura umbilical, y reconoce además el lóbulo cuadrado y el caudado; es la que se ve, pero no sirve para operar. La funcional nace con Cantlie en 1897, que al inyectar tinta en el árbol portal describe un plano que va desde el fondo vesicular hasta la vena cava inferior y que separa los verdaderos hemihígados. Es un plano, no una línea, y es invisible: sólo se reconoce por la vascularización.\n\nEn el siglo XX se consolidan dos esquemas. Healey, en 1953, inyectando la vía biliar y la arteria hepática, describe dos lóbulos, cuatro segmentos y ocho áreas, sin individualizar el caudado. Couinaud, en 1957, inyectando la vena porta y estudiando moldes de corrosión, describe tres niveles: dos hemihígados, cinco sectores y ocho segmentos, e individualiza el caudado como segmento I. Los límites intersectoriales son las cisuras portales derecha, media o sagital e izquierda, apreciables sólo en los moldes. Ambos esquemas coinciden en el lado derecho y difieren en el izquierdo.\n\nLa proliferación de términos llevó a Strasberg a hablar de una Babel hepática, y en el año 2000 la IHPBA adoptó en Brisbane una nomenclatura basada en la anatomía arterial y biliar, con addendum portal de Couinaud, que divide el hígado izquierdo por la cisura umbilical y define las resecciones en tres órdenes.\n\nEn este paciente, los segmentos VI y VII constituyen el sector posterior derecho, de modo que la anatomía permite plantear una resección sectorial y preservar los segmentos V y VIII, en lugar de una hepatectomía derecha completa. La decisión exige TC y RM preoperatorias que estudien las venas suprahepáticas y las ramas portales de primer, segundo y tercer orden, con volumetría y reconstrucción tridimensional. Técnicamente puede optarse por el control vascular previo de Lortat-Jacob, con control de la cava y ligadura extrahepática del pedículo y de la vena hepática, o por la sección parenquimatosa con ligadura intraparenquimatosa de Ton That Tung, base conceptual de las resecciones atípicas.",
+  "explanation": "La pregunta obliga a recorrer el tema completo y a cerrarlo con una decisión quirúrgica, que es lo que distingue al alumno que ha entendido la anatomía del que ha memorizado la lista de segmentos. Los tres bloques que deben aparecer son la distinción morfológico-funcional, la contraposición Healey-Couinaud con las cisuras portales y la nomenclatura de Brisbane 2000 con su fundamento arterial y biliar. El cierre clínico exige reconocer que los segmentos VI y VII forman el sector posterior derecho, dato que se deduce del esquema de Couinaud y que cambia la extensión de la resección propuesta, y justificar la imagen preoperatoria como herramienta de planificación vascular y volumétrica. Se penaliza confundir la línea de Cantlie con el ligamento falciforme, atribuir el caudado a Healey, presentar Brisbane como una técnica quirúrgica o citar cifras de volumen remanente que no figuran en el material de clase.",
+  "teaching_point": "La anatomía funcional no es un ejercicio descriptivo: define qué se puede resecar, con qué nombre y con qué técnica.",
+  "guideline_ref": "Terminology Committee of the IHPBA. HPB 2000;2:333-339; Cirugía AEC (Parrilla Aparicio ed., 2022), sección de cirugía hepática",
+  "fuente_clase": {
+   "archivo": "13.- Anatomia hepática.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "anatomia funcional",
+   "Brisbane 2000",
+   "hepatectomia",
+   "planificacion"
+  ]
+ }
+]

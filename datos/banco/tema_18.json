@@ -1,0 +1,708 @@
+[
+ {
+  "id": "T18-M001",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 48 años con obesidad y colelitiasis conocida acude por dolor continuo en hipocondrio derecho de 18 horas de evolución, fiebre de 38,2 grados y signo de Murphy positivo. La analítica muestra leucocitosis con reactantes elevados y bilirrubina, fosfatasa alcalina y GGT normales. La ecografía confirma litiasis con pared vesicular engrosada. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colecistectomía laparoscópica urgente, salvo comorbilidad que la contraindique."
+   },
+   {
+    "id": "B",
+    "text": "Antibioterapia intravenosa y colecistectomía diferida a las ocho semanas."
+   },
+   {
+    "id": "C",
+    "text": "Colangiopancreatografía retrógrada endoscópica previa a cualquier intervención."
+   },
+   {
+    "id": "D",
+    "text": "Colecistostomía percutánea como primer escalón terapéutico de elección."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase establece que en la colecistitis aguda la cirugía urgente es el tratamiento de elección, salvo comorbilidad asociada que lo desaconseje. Se trata de una paciente con menos de 24 horas de evolución, sin plastrón y sin datos analíticos de colestasis, es decir, el escenario más favorable para operar. Opción A: correcta. Opción B: el manejo conservador con antibióticos y medidas de soporte se reserva para los casos con varios días de evolución, en los que el plastrón y la inflamación local incrementan las complicaciones quirúrgicas, y para pacientes con comorbilidad relevante. Opción C: la colangiopancreatografía retrógrada se indica ante sospecha de coledocolitiasis asociada, que se plantea cuando hay colestasis analítica con aumento de bilirrubina, fosfatasa alcalina y GGT; aquí esos parámetros son normales. Opción D: la colecistostomía percutánea se reserva para pacientes con factores de riesgo y mala evolución con tratamiento médico. Punto de enseñanza: colecistitis aguda precoz sin colestasis y sin comorbilidad, quirófano.",
+  "teaching_point": "En la colecistitis aguda, la colecistectomía urgente es de elección salvo comorbilidad o evolución prolongada con plastrón.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 25
+  },
+  "tags": [
+   "colecistitis aguda",
+   "colecistectomia",
+   "urgencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M002",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "La clase describe la etiopatogenia de la litiasis biliar en tres etapas sucesivas, desde el defecto inicial en la secreción de lípidos biliares hasta el cálculo macroscópico, y termina con una afirmación sobre la naturaleza del proceso. Respecto a esa etiopatogenia tal como se expone en clase, ¿qué afirmación se ajusta a lo descrito?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Se inicia con la infección bacteriana de la bilis contenida en la vesícula."
+   },
+   {
+    "id": "B",
+    "text": "Es una enfermedad primariamente metabólica por sobresaturación biliar de colesterol."
+   },
+   {
+    "id": "C",
+    "text": "Depende sobre todo de la hemólisis crónica y del exceso de bilirrubina circulante."
+   },
+   {
+    "id": "D",
+    "text": "Se debe fundamentalmente a un defecto motor primario de la pared vesicular."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La secuencia que expone la clase es clara: primero un defecto en la secreción de lípidos biliares que da lugar a sobresaturación biliar de colesterol; después la precipitación de cristales de colesterol; y finalmente la agregación de esos cristales con moco, bilirrubina y calcio hasta constituir los cálculos macroscópicos. De ahí la conclusión literal de que la litiasis biliar se considera una enfermedad primariamente metabólica. Opción A: la infección es una consecuencia de la obstrucción litiásica, no el desencadenante de la formación del cálculo de colesterol. Opción B: correcta. Opción C: la hemólisis crónica genera cálculos pigmentarios, un mecanismo distinto del descrito en las tres etapas. Opción D: la alteración del vaciamiento vesicular puede contribuir, pero la clase sitúa el origen en la composición de la bilis y no en un defecto motor primario. Punto de enseñanza: la colelitiasis de colesterol empieza en la bilis, no en la pared.",
+  "teaching_point": "La litiasis biliar es una enfermedad primariamente metabólica: sobresaturación, precipitación y agregación.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 12
+  },
+  "tags": [
+   "colelitiasis",
+   "etiopatogenia",
+   "colesterol"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M003",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 26 años estudiada por dolor en hipocondrio derecho y dos episodios previos de colangitis. La colangiorresonancia muestra un colédoco dilatado de forma fusiforme, y esa dilatación se prolonga por los conductos hepáticos derecho e izquierdo hasta sus ramas de segundo orden, sin litiasis en su interior. Según la clasificación de Todani utilizada en clase, ¿a qué tipo corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tipo I, quiste extrahepático, la forma más frecuente."
+   },
+   {
+    "id": "B",
+    "text": "Tipo II, dilatación de morfología diverticular."
+   },
+   {
+    "id": "C",
+    "text": "Tipo IVa, dilatación intrahepática y extrahepática."
+   },
+   {
+    "id": "D",
+    "text": "Tipo III, coledococele de localización intraduodenal."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clasificación de Todani se basa en la localización anatómica, el tamaño y la morfología del quiste, y resulta útil para planificar la cirugía. La clase la desglosa así: tipo I, quiste extrahepático, que supone alrededor del 75 por ciento de los casos; tipo II, de tipo diverticular, raro; tipo III, coledococele intraduodenal, raro; tipo IVa, dilatación fusiforme intrahepática y extrahepática, en torno al 10 por ciento; y tipo IVb, quistes extrahepáticos múltiples (la dilatación sacular aislada del colédoco es el tipo II), alrededor del 5 por ciento; el tipo V es la enfermedad de Caroli, con dilataciones intrahepáticas exclusivas. Opción A: el tipo I es el más frecuente, pero por definición se limita a la vía extrahepática. Opción B: el tipo II es una dilatación diverticular aislada, no una afectación difusa. Opción C: correcta, porque la dilatación es simultáneamente intrahepática y extrahepática. Opción D: el coledococele es una dilatación intraduodenal del extremo distal. Punto de enseñanza: lo que define el IVa es la doble afectación intra y extrahepática; el tipo V es la enfermedad de Caroli, con dilataciones intrahepáticas exclusivas.",
+  "teaching_point": "Todani IVa: dilatación fusiforme intrahepática y extrahepática simultánea.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 53
+  },
+  "tags": [
+   "Todani",
+   "quiste de coledoco",
+   "clasificacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M004",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 74 años acude por fiebre de 39 grados con escalofríos, dolor en hipocondrio derecho e ictericia. Está hipotenso y desorientado. La ecografía muestra la vía biliar dilatada con una litiasis enclavada en el colédoco distal. ¿Qué actuación procede además del soporte hemodinámico y la antibioterapia de amplio espectro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colecistectomía laparoscópica urgente en las primeras horas del ingreso."
+   },
+   {
+    "id": "B",
+    "text": "Observación clínica y drenaje diferido si no mejora en 72 horas."
+   },
+   {
+    "id": "C",
+    "text": "Hepaticoyeyunostomía en Y de Roux de forma inmediata en quirófano."
+   },
+   {
+    "id": "D",
+    "text": "Drenaje urgente de la vía biliar, habitualmente mediante colangiografía retrógrada."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro reúne la tríada de Charcot, fiebre, dolor en hipocondrio derecho e ictericia, sobre una obstrucción litiásica de la vía biliar, y ha progresado a repercusión hemodinámica y neurológica. La clase insiste en que el tratamiento debe ser urgente y consta de dos componentes: medidas de soporte con antibioterapia de amplio espectro y drenaje de la vía biliar, que puede realizarse por colangiopancreatografía retrógrada endoscópica, por vía transparietohepática o quirúrgicamente. Opción A: la colecistectomía no resuelve la obstrucción del colédoco, que es el origen de la sepsis. Opción B: demorar el drenaje en una colangitis grave expone al shock séptico, precisamente la evolución que la clase señala como riesgo. Opción C: una derivación biliodigestiva reglada no es la maniobra de rescate en un paciente séptico e inestable. Opción D: correcta. Punto de enseñanza: en la colangitis aguda, antibiótico y drenaje, y el drenaje no puede esperar.",
+  "teaching_point": "Colangitis aguda: soporte, antibioterapia de amplio espectro y drenaje urgente de la vía biliar.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 37
+  },
+  "tags": [
+   "colangitis",
+   "Charcot",
+   "CPRE"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M005",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Durante una colecistectomía laparoscópica por una colecistitis de varios días de evolución, el cirujano encuentra un plastrón inflamatorio que impide identificar con seguridad el conducto y la arteria císticos en el triángulo de Calot. ¿Qué actuación recomienda la cultura de seguridad en colecistectomía expuesta en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Finalizar con una colecistectomía parcial antes que arriesgar una lesión biliar."
+   },
+   {
+    "id": "B",
+    "text": "Seccionar la estructura tubular más ancha, que corresponde al conducto cístico."
+   },
+   {
+    "id": "C",
+    "text": "Continuar la disección con electrocoagulación hasta exponer el colédoco distal."
+   },
+   {
+    "id": "D",
+    "text": "Colocar un drenaje y terminar sin extirpar ninguna porción de la vesícula."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La cultura de seguridad en colecistectomía implica el uso sistemático del critical view descrito por Strasberg, tener presente la posibilidad de anomalías anatómicas, reconocer cuándo la disección se acerca a un punto de peligro sin precipitarse, pedir ayuda a otro cirujano en caso de duda y, si es necesario, terminar la operación de forma segura sin completar la colecistectomía, dejando parte del infundíbulo. La clase lo formula de manera explícita: es mejor una colecistectomía parcial que una lesión yatrogénica de la vía biliar o una lesión vascular. Opción A: correcta. Opción B: identificar estructuras por su calibre es el error que produce las lesiones biliares, porque el colédoco puede confundirse con el cístico. Opción C: insistir con electrocoagulación en un campo inflamado añade riesgo térmico sobre la vía biliar y la arteria hepática derecha. Opción D: abandonar sin resecar nada no resuelve el proceso séptico. Punto de enseñanza: parar a tiempo también es técnica.",
+  "teaching_point": "Ante una anatomía no identificable, la colecistectomía parcial es preferible a una lesión de la vía biliar.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 32
+  },
+  "tags": [
+   "critical view",
+   "lesion via biliar",
+   "seguridad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M006",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "El informe anatomopatológico de una colecistectomía practicada por cólicos de repetición describe hiperplasia de la mucosa vesicular con divertículos intramurales y adelgazamiento de la capa muscular, de localización predominante en el fundus. No se identifican atipias. ¿Qué entidad corresponde a esta descripción histológica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Adenoma vesicular con displasia de alto grado asociada."
+   },
+   {
+    "id": "B",
+    "text": "Adenomiomatosis vesicular con senos de Rokitansky-Aschoff."
+   },
+   {
+    "id": "C",
+    "text": "Colecistitis xantogranulomatosa de la pared vesicular."
+   },
+   {
+    "id": "D",
+    "text": "Vesícula en porcelana por inflamación crónica calcificada."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La adenomiomatosis se define en la clase como una hiperplasia de la mucosa vesicular de etiología desconocida con adelgazamiento de la muscular, que da lugar a divertículos intramurales llamados senos de Rokitansky-Aschoff. Es más frecuente en mujeres, aparece en torno al 9 por ciento de los estudios anatomopatológicos tras colecistectomía, puede ser segmentaria, con localización típica en el fundus, o difusa, y es una condición benigna, aunque a veces obliga al diagnóstico diferencial por imagen con lesiones malignas. Opción A: el adenoma vesicular es una lesión con elevado riesgo de degeneración, y la clase advierte de que no debe confundirse con la adenomiomatosis. Opción B: correcta. Opción C: la xantogranulomatosa produce un engrosamiento parietal de aspecto pseudotumoral que obliga a descartar cáncer. Opción D: la vesícula en porcelana es una calcificación de la pared por inflamación crónica. Punto de enseñanza: senos de Rokitansky-Aschoff igual a adenomiomatosis benigna.",
+  "teaching_point": "Los senos de Rokitansky-Aschoff definen la adenomiomatosis, condición benigna que no debe confundirse con el adenoma.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 50
+  },
+  "tags": [
+   "adenomiomatosis",
+   "Rokitansky-Aschoff",
+   "anatomia patologica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M007",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 45 años, completamente asintomático, con colelitiasis múltiple hallada de forma casual en una ecografía solicitada por otro motivo. Es diabético insulinodependiente y ha perdido 40 kilos en pocos meses tras una cirugía bariátrica. ¿Qué actuación procede en este paciente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mantener actitud expectante, dado que el paciente no ha tenido síntomas."
+   },
+   {
+    "id": "B",
+    "text": "Operar solo si aparece un primer episodio de cólico biliar típico."
+   },
+   {
+    "id": "C",
+    "text": "Indicar la colecistectomía por la diabetes y la pérdida rápida de peso."
+   },
+   {
+    "id": "D",
+    "text": "Iniciar tratamiento disolutivo oral con control ecográfico anual posterior."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase reconoce que la indicación quirúrgica en la colelitiasis asintomática es controvertida, pero enumera indicaciones concretas: pacientes que viven en regiones remotas y alejadas del tratamiento médico, habitantes de zonas de alto riesgo de cáncer de vesícula, inmunodeprimidos, diabéticos insulinodependientes, pacientes con pérdida de peso rápida tras cirugía bariátrica y vesículas calcificadas en porcelana. El paciente descrito cumple dos de ellas a la vez, y es eso lo que sienta la indicación, no el número ni el tamaño de los cálculos. Opción A: la ausencia de síntomas es la situación de partida de esta pregunta y no anula las indicaciones profilácticas tasadas que recoge la clase. Opción B: esperar al primer cólico es una conducta razonable en un paciente sin factores de riesgo, pero no en quien reúne dos de las indicaciones reconocidas. Opción C: correcta. Opción D: la clase no plantea el tratamiento disolutivo oral como alternativa en este escenario, y no elimina el riesgo de complicaciones. Punto de enseñanza: la litiasis asintomática se opera en situaciones tasadas, y conviene sabérselas.",
+  "teaching_point": "Diabetes insulinodependiente, pérdida rápida de peso, inmunodepresión, vesícula en porcelana y zonas de alto riesgo indican colecistectomía profiláctica.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "colelitiasis asintomatica",
+   "indicacion quirurgica",
+   "profilaxis"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M008",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 62 años con colelitiasis presenta ictericia fluctuante y colestasis analítica. La ecoendoscopia confirma un cálculo de 8 milímetros en el colédoco, con vía biliar de 10 milímetros de calibre y sin fiebre ni otros datos de colangitis. ¿Qué secuencia terapéutica describe la clase como abordaje habitual?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Coledocoduodenostomía de entrada por la dilatación de la vía biliar."
+   },
+   {
+    "id": "B",
+    "text": "Colecistectomía abierta con exploración de la vía biliar y tubo de Kehr."
+   },
+   {
+    "id": "C",
+    "text": "Hepaticoyeyunostomía en Y de Roux para evitar la recidiva litiásica."
+   },
+   {
+    "id": "D",
+    "text": "Colangiografía retrógrada preoperatoria seguida de colecistectomía laparoscópica."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase subraya que en la coledocolitiasis existen múltiples formas de manejo sin un patrón oro y que la elección depende de los recursos y la experiencia de cada centro, pero identifica la colangiopancreatografía retrógrada preoperatoria seguida de colecistectomía laparoscópica como el abordaje habitual. Opción A: la coledocoduodenostomía se reserva para pacientes mayores con vía biliar patológica muy dilatada, con cálculos, barro y detritus, y no está indicada con un colédoco menor de 8 milímetros; además conlleva riesgo de colangitis a largo plazo. Opción B: la exploración abierta con tubo de Kehr es una opción válida, pero la clase la sitúa fuera del abordaje habitual y frente al mínimamente invasivo. Opción C: la derivación en Y de Roux se plantea cuando fracasa la endoscopia, no de entrada. Opción D: correcta. Punto de enseñanza: primero desobstruir por endoscopia, después extirpar la vesícula.",
+  "teaching_point": "Coledocolitiasis: el abordaje habitual es CPRE preoperatoria y después colecistectomía laparoscópica.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 39
+  },
+  "tags": [
+   "coledocolitiasis",
+   "CPRE",
+   "colecistectomia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M009",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Paciente de 68 años ingresado en cuidados intensivos por un politraumatismo, con nutrición parenteral total prolongada, presenta fiebre y deterioro séptico. La ecografía a pie de cama muestra una vesícula distendida, con pared engrosada y sin litiasis en su interior. ¿Qué afirmación se ajusta a esta situación clínica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Se trata de una colecistitis alitiásica, con indicación de cirugía urgente."
+   },
+   {
+    "id": "B",
+    "text": "Es un hidrops vesicular por reabsorción de pigmentos, de manejo conservador."
+   },
+   {
+    "id": "C",
+    "text": "Corresponde a una adenomiomatosis difusa descompensada por la sepsis."
+   },
+   {
+    "id": "D",
+    "text": "Es una colecistitis enfisematosa, que se resuelve con antibioterapia dirigida."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La colecistitis alitiásica supone alrededor del 10 por ciento de las colecistitis y es típica del paciente crítico ingresado en cuidados intensivos y del gran quemado, con nutrición parenteral prolongada como factor asociado. La clase señala además la diabetes y la ateromatosis como factores de riesgo, cita Escherichia coli y Clostridium entre los gérmenes implicados, advierte de que asocia un componente séptico importante y establece la indicación de cirugía urgente. Opción A: correcta. Opción B: el hidrops es la acumulación de líquido claro por reabsorción de los pigmentos biliares tras el impacto de un cálculo, y no explica un cuadro séptico en un paciente sin litiasis. Opción C: la adenomiomatosis es una condición benigna y no cursa con sepsis. Opción D: la colecistitis enfisematosa es la otra forma especial que recoge la clase, pero tampoco se resuelve con antibioterapia aislada. Punto de enseñanza: crítico, sin cálculos y séptico, sospecha alitiásica y quirófano.",
+  "teaching_point": "La colecistitis alitiásica del paciente crítico tiene indicación de cirugía urgente.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "colecistitis alitiasica",
+   "paciente critico",
+   "urgencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M010",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En la clase se indica que la clasificación de Todani de los quistes de colédoco se basa en la localización anatómica, el tamaño y la morfología, y que resulta útil para planificar el tratamiento quirúrgico. Respecto a la distribución por tipos que recoge la clase, ¿qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El tipo III, coledococele intraduodenal, es el más frecuente de todos."
+   },
+   {
+    "id": "B",
+    "text": "El tipo I, quiste extrahepático, representa alrededor del 75 por ciento."
+   },
+   {
+    "id": "C",
+    "text": "El tipo IVb, dilatación sacular, supone en torno al 40 por ciento de los casos."
+   },
+   {
+    "id": "D",
+    "text": "El tipo II, diverticular, es el segundo en frecuencia tras el tipo IVa."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase asigna frecuencias concretas a los tipos de Todani: el tipo I, quiste extrahepático, alrededor del 75 por ciento; el tipo II, diverticular, raro; el tipo III, coledococele intraduodenal, raro; el tipo IVa, dilatación fusiforme intrahepática y extrahepática, en torno al 10 por ciento; y el tipo IVb, quistes extrahepáticos múltiples (la dilatación sacular aislada del colédoco es el tipo II), alrededor del 5 por ciento; el tipo V es la enfermedad de Caroli, con dilataciones intrahepáticas exclusivas. Opción A: el tipo III se describe expresamente como raro. Opción B: correcta. Opción C: la cifra que consta para el tipo IVb es del orden del 5 por ciento, muy lejos del 40 por ciento. Opción D: el tipo II se califica de raro, de modo que no puede ser el segundo en frecuencia; ese lugar corresponde al IVa; el tipo V es la enfermedad de Caroli, con dilataciones intrahepáticas exclusivas. Punto de enseñanza: el quiste de colédoco es abrumadoramente extrahepático, y por eso el tratamiento estándar es la resección de la vía biliar extrahepática con anastomosis biliodigestiva; el tipo V es la enfermedad de Caroli, con dilataciones intrahepáticas exclusivas.",
+  "teaching_point": "Todani tipo I, extrahepático, supone alrededor del 75 por ciento de los quistes de colédoco.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 53
+  },
+  "tags": [
+   "Todani",
+   "quiste de coledoco",
+   "frecuencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M011",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "En la ecografía abdominal de un paciente con dolor biliar recurrente se describen imágenes ecogénicas en la luz vesicular que generan sombra acústica posterior y se desplazan con los cambios de posición del paciente, con una pared vesicular de 2 milímetros de grosor. ¿Qué interpretación corresponde a estos hallazgos?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Pólipos vesiculares sésiles adheridos a la pared, sin litiasis asociada."
+   },
+   {
+    "id": "B",
+    "text": "Colecistitis aguda, por el engrosamiento de la pared vesicular descrita."
+   },
+   {
+    "id": "C",
+    "text": "Colelitiasis sin signos ecográficos de colecistitis aguda asociada."
+   },
+   {
+    "id": "D",
+    "text": "Adenomiomatosis segmentaria del fundus con divertículos intramurales."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase describe los hallazgos ecográficos típicos: la vesícula normal tiene una pared delgada, de grosor inferior a 3 milímetros, sin imágenes ecogénicas en su interior; los cálculos aparecen como imágenes ecogénicas que generan sombra acústica y se desplazan con los cambios de posición. La ecografía es el método de elección, con especificidad superior al 95 por ciento. Aquí la pared mide 2 milímetros, es decir, es normal. Opción A: los pólipos son inmóviles y no producen sombra acústica, justo lo contrario de lo descrito. Opción B: no hay engrosamiento parietal, ya que 2 milímetros está por debajo del límite de 3 milímetros. Opción C: correcta. Opción D: la adenomiomatosis es un hallazgo parietal, con divertículos intramurales, y no explica imágenes móviles con sombra en la luz. Punto de enseñanza: sombra acústica más movilidad igual a cálculo; pared por debajo de 3 milímetros, vesícula no inflamada.",
+  "teaching_point": "Imagen ecogénica móvil con sombra acústica y pared menor de 3 milímetros: colelitiasis sin colecistitis.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 20
+  },
+  "tags": [
+   "ecografia",
+   "colelitiasis",
+   "sombra acustica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-M012",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 34 años con coledocolitiasis de repetición tras varios intentos fallidos de limpieza endoscópica, con la vía biliar principal muy dilatada y ocupada por cálculos y barro. Se decide una derivación biliodigestiva definitiva. ¿Qué técnica recoge la clase como de elección en un paciente de esta edad?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Coledocoduodenostomía laterolateral, por su sencillez y rapidez técnica."
+   },
+   {
+    "id": "B",
+    "text": "Coledocotomía con cierre primario sobre la vía biliar dilatada."
+   },
+   {
+    "id": "C",
+    "text": "Colecistoyeyunostomía para preservar íntegra la vía biliar principal."
+   },
+   {
+    "id": "D",
+    "text": "Hepaticoyeyunostomía en Y de Roux, con menor riesgo de colangitis."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase indica que los procedimientos derivativos se plantean cuando fracasa la endoscopia y distingue dos escenarios. La coledocoduodenostomía se reserva para pacientes mayores con vía biliar patológica muy dilatada y no se recomienda en pacientes jóvenes por su mayor índice de complicaciones infecciosas a largo plazo. La hepaticoyeyunostomía en Y de Roux es la técnica de elección en pacientes jóvenes, porque el asa biliar desfuncionalizada reduce el riesgo de colangitis; su complicación tardía es la estenosis de la anastomosis, que obliga a dilataciones por vía transparietohepática. Opción A: es precisamente la técnica desaconsejada en un paciente de 34 años. Opción B: el cierre primario solo se acepta cuando no hay dudas de que la vía está limpia, sin colangitis ni alteraciones distales. Opción C: la clase no plantea la colecistoyeyunostomía en este contexto. Opción D: correcta. Punto de enseñanza: joven igual a Y de Roux.",
+  "teaching_point": "En el paciente joven, la derivación de elección es la hepaticoyeyunostomía en Y de Roux.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 46
+  },
+  "tags": [
+   "hepaticoyeyunostomia",
+   "derivacion biliar",
+   "Y de Roux"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T18-C001",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En una colecistectomía laparoscópica, antes de colocar los clips y seccionar ninguna estructura, el cirujano debe completar una maniobra de disección considerada la principal medida para prevenir la lesión yatrogénica de la vía biliar. Explique en qué consiste el critical view of safety de la colecistectomía laparoscópica.",
+  "respuesta_canonica": "Disección del triángulo de Calot identificando el conducto cístico y la arteria cística antes de seccionar",
+  "aceptadas": [
+   "exposición del triángulo de Calot con identificación del cístico y de la arteria cística antes de la sección",
+   "identificar conducto y arteria císticos tras disecar el triángulo de Calot",
+   "ventana crítica de seguridad: solo dos estructuras entrando en la vesícula tras limpiar el triángulo de Calot",
+   "disecar Calot hasta ver el conducto cístico y la arteria cística antes de poner clips"
+  ],
+  "conceptos_clave": [
+   "triángulo de Calot",
+   "conducto cístico",
+   "arteria cística",
+   "antes de seccionar"
+  ],
+  "max_palabras": 20,
+  "explanation": "El critical view, descrito por Strasberg y recogido en la clase, obliga a abrir el peritoneo medial y lateral para separar la bolsa de Hartmann y exponer el triángulo de Calot, identificando el conducto y la arteria císticos antes de su sección. Es la maniobra central para reducir la lesión yatrogénica de la vía biliar, que se produce entre el 0,4 y el 0,6 por ciento de las colecistectomías y cuya incidencia aumentó con la curva de aprendizaje de la laparoscopia. Forma parte de la cultura de seguridad en colecistectomía, que incluye además prever anomalías anatómicas, no precipitarse cerca de un punto de peligro, pedir ayuda ante la duda y aceptar una colecistectomía parcial antes que arriesgar una lesión biliar o vascular.",
+  "teaching_point": "Sin visión crítica del triángulo de Calot no se secciona ninguna estructura.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 30
+  },
+  "tags": [
+   "critical view",
+   "Calot",
+   "seguridad"
+  ]
+ },
+ {
+  "id": "T18-C002",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "corta",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Un paciente con coledocolitiasis conocida acude a urgencias con un cuadro séptico de origen biliar, y el adjunto de guardia pregunta por la tríada clínica clásica que debe reconocerse de inmediato porque obliga a drenar la vía biliar. Enumere los tres componentes de la tríada de Charcot en la colangitis aguda.",
+  "respuesta_canonica": "Fiebre, dolor en hipocondrio derecho e ictericia",
+  "aceptadas": [
+   "fiebre, dolor abdominal en hipocondrio derecho e ictericia",
+   "ictericia, fiebre y dolor en el hipocondrio derecho",
+   "dolor en hipocondrio derecho, fiebre con escalofríos e ictericia",
+   "fiebre, ictericia y dolor biliar"
+  ],
+  "conceptos_clave": [
+   "fiebre",
+   "dolor",
+   "ictericia"
+  ],
+  "max_palabras": 20,
+  "explanation": "La colangitis aguda es secundaria a la obstrucción de la vía biliar por litiasis y se presenta clínicamente con la tríada de Charcot: fiebre, dolor en hipocondrio derecho e ictericia. La clase advierte de que es un cuadro grave que puede derivar en shock séptico, por lo que el tratamiento debe ser urgente y combina medidas de soporte y antibioterapia de amplio espectro con el drenaje de la vía biliar, que puede realizarse por colangiopancreatografía retrógrada endoscópica, por vía transparietohepática o quirúrgicamente. Conviene recordar que hasta cerca del 90 por ciento de los pacientes con coledocolitiasis asocian infección con episodios de colangitis, de modo que la tríada es un motivo de alarma frecuente en el paciente litiásico. La ausencia de uno de los tres componentes no descarta el diagnóstico, y la aparición de hipotensión y alteración del nivel de conciencia indica que el cuadro ha progresado y que el drenaje no admite demora.",
+  "teaching_point": "Fiebre, dolor en hipocondrio derecho e ictericia: tríada de Charcot y drenaje biliar urgente.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 37
+  },
+  "tags": [
+   "colangitis",
+   "Charcot"
+  ]
+ },
+ {
+  "id": "T18-C003",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Durante una colecistectomía por colelitiasis crónica se encuentra un cálculo impactado en el infundíbulo vesicular que comprime el conducto hepático común, con una vía biliar difícil de identificar por la inflamación. Defina qué se entiende por síndrome de Mirizzi y qué lo caracteriza frente a otras complicaciones litiásicas.",
+  "respuesta_canonica": "Compresión o fístula entre vesícula y colédoco secundaria a litiasis",
+  "aceptadas": [
+   "compresión del colédoco por un cálculo impactado en la vesícula, con o sin fístula",
+   "fístula colecistocoledociana secundaria a litiasis",
+   "cálculo impactado en el infundíbulo o el cístico que comprime el hepático común, con o sin fístula",
+   "compresión extrínseca de la vía biliar por litiasis vesicular, que puede fistulizar al colédoco"
+  ],
+  "conceptos_clave": [
+   "compresión",
+   "fístula",
+   "colédoco",
+   "litiasis"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase define el síndrome de Mirizzi como el desarrollo de compresión o de fístula entre la vesícula y el colédoco secundaria a la litiasis biliar. Es una de las entidades que agrupa bajo el epígrafe de otras patologías en relación con la litiasis biliar, junto con la hepatolitiasis y la colangitis aguda. Su tratamiento es quirúrgico, y la clase describe dos escenarios según el grado de destrucción de la vía biliar: la resección con derivación biliar, o bien la colecistectomía asociada a coledocoplastia empleando parte de la propia vesícula y cierre sobre tutor. Reconocerlo antes de la intervención importa porque el intento de una colecistectomía convencional en esta situación es una causa clásica de lesión de la vía biliar.",
+  "teaching_point": "Mirizzi: compresión o fístula colecistocoledociana por litiasis, de tratamiento quirúrgico.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 36
+  },
+  "tags": [
+   "Mirizzi",
+   "fistula biliar"
+  ]
+ },
+ {
+  "id": "T18-C004",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "En el seguimiento ecográfico de un paciente asintomático se identifica una lesión polipoidea sésil en la pared vesicular, informada como adenoma, y se plantea si procede la colecistectomía o el control evolutivo. Indique a partir de qué tamaño se acepta indicar la colecistectomía en un adenoma vesicular.",
+  "respuesta_canonica": "Adenomas mayores de 10 mm, o de crecimiento rápido",
+  "aceptadas": [
+   "más de 1 cm o crecimiento rápido",
+   "por encima de 10 mm o si crece deprisa",
+   "a partir de 10 mm de diámetro, o antes si crece rápido",
+   "pólipos de más de un centímetro o con crecimiento rápido"
+  ],
+  "conceptos_clave": [
+   "10 mm",
+   "crecimiento rápido"
+  ],
+  "max_palabras": 20,
+  "explanation": "El adenoma vesicular es una lesión con elevado riesgo de degeneración neoplásica. La clase acepta realizar la colecistectomía en lesiones mayores de 10 milímetros o cuando presenten un crecimiento rápido en el seguimiento. El diagnóstico se hace por ecografía y el tratamiento estándar es la colecistectomía laparoscópica; cuando existe alta sospecha de cáncer, la clase indica el abordaje abierto convencional. Es importante no confundir el adenoma con la adenomiomatosis, que es una hiperplasia benigna de la mucosa con senos de Rokitansky-Aschoff y una frecuencia en torno al 9 por ciento en los estudios anatomopatológicos tras colecistectomía; la clase insiste expresamente en esa distinción porque el pronóstico y la conducta son diferentes. La clase acepta además la colecistectomía profiláctica en otras situaciones tasadas de la patología vesicular, como la vesícula en porcelana, por su elevado riesgo de degeneración neoplásica, lo que ayuda a situar el adenoma dentro del grupo de lesiones que se operan por riesgo oncológico y no por síntomas.",
+  "teaching_point": "Adenoma vesicular mayor de 10 milímetros o de crecimiento rápido: colecistectomía.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 49
+  },
+  "tags": [
+   "adenoma vesicular",
+   "indicacion"
+  ]
+ },
+ {
+  "id": "T18-L001",
+  "tema": 18,
+  "bloque": "vias_biliares",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 58 años acude por dolor en hipocondrio derecho de 36 horas, fiebre de 38 grados y Murphy positivo. La analítica muestra leucocitosis, bilirrubina de 3 miligramos por decilitro y elevación de fosfatasa alcalina y GGT. La ecografía confirma colelitiasis, pared vesicular engrosada y colédoco de 11 milímetros. Exponga el diagnóstico, las exploraciones complementarias que solicitaría y el plan terapéutico, justificando la secuencia.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Establece el diagnóstico de colecistitis aguda litiásica y lo apoya en la clínica, la analítica y la ecografía",
+    "puntos": 0.5,
+    "claves": [
+     "colecistitis aguda",
+     "Murphy",
+     "ecografía"
+    ]
+   },
+   {
+    "elemento": "Interpreta la colestasis analítica como sospecha de coledocolitiasis asociada y lo justifica",
+    "puntos": 0.6,
+    "claves": [
+     "colestasis",
+     "coledocolitiasis",
+     "bilirrubina",
+     "fosfatasa alcalina"
+    ]
+   },
+   {
+    "elemento": "Selecciona las pruebas complementarias adecuadas: ecoendoscopia o colangiorresonancia, y reserva la TC para sospecha de neoplasia o complicación",
+    "puntos": 0.5,
+    "claves": [
+     "ecoendoscopia",
+     "colangiorresonancia",
+     "TC"
+    ]
+   },
+   {
+    "elemento": "Propone la secuencia terapéutica habitual: desobstrucción endoscópica de la vía biliar y colecistectomía laparoscópica posterior",
+    "puntos": 0.6,
+    "claves": [
+     "CPRE",
+     "colecistectomía laparoscópica",
+     "preoperatoria"
+    ]
+   },
+   {
+    "elemento": "Discute la alternativa quirúrgica de exploración de la vía biliar y los criterios de cierre primario frente a cierre sobre tutor",
+    "puntos": 0.4,
+    "claves": [
+     "exploración de la vía biliar",
+     "Kehr",
+     "cierre primario"
+    ]
+   },
+   {
+    "elemento": "Menciona la prevención de la lesión yatrogénica mediante el critical view y la opción de colecistectomía parcial",
+    "puntos": 0.4,
+    "claves": [
+     "critical view",
+     "Calot",
+     "colecistectomía parcial"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro corresponde a una colecistitis aguda litiásica: dolor en hipocondrio derecho, fiebre, Murphy positivo, leucocitosis con reactantes elevados y ecografía compatible, que es la prueba de elección. El dato que cambia el manejo es la colestasis analítica, con bilirrubina, fosfatasa alcalina y GGT elevadas y un colédoco de 11 milímetros: obliga a sospechar coledocolitiasis asociada, situación que ocurre hasta en el 15 por ciento de los pacientes con colelitiasis y que suele cursar con ictericia fluctuante. Para confirmarla, la exploración más rentable es la ecoendoscopia, especialmente útil para detectar barro y cálculos de pequeño tamaño, o bien la colangiorresonancia; la tomografía computarizada, TC, se reserva para la sospecha de neoplasia o de complicación. No hay fiebre alta con escalofríos ni inestabilidad, de modo que no estamos ante una colangitis establecida, que exigiría drenaje urgente de la vía biliar además del soporte y la antibioterapia de amplio espectro. Confirmada la coledocolitiasis, el abordaje habitual que describe la clase es la colangiopancreatografía retrógrada endoscópica, CPRE, preoperatoria para limpiar la vía biliar, seguida de colecistectomía laparoscópica. La alternativa es la exploración de la vía biliar por vía quirúrgica, con coledocoscopio o colangiografía intraoperatoria para asegurar que queda limpia; en ese caso, el cierre primario solo se acepta si no hay dudas sobre la limpieza, no existe colangitis y no hay alteraciones distales en la papila, y en cualquier otra circunstancia se cierra sobre tutor, transcístico o con tubo de Kehr. Los procedimientos derivativos, coledocoduodenostomía en pacientes mayores con vía biliar muy dilatada y hepaticoyeyunostomía en Y de Roux en pacientes jóvenes, se reservan para el fracaso de la endoscopia. Respecto a la colecistectomía, con 36 horas de evolución el momento sigue siendo favorable para operar; si el proceso llevara varios días, con plastrón, sería preferible el manejo conservador inicial. Durante la intervención es obligado el critical view con disección completa del triángulo de Calot, y ante una anatomía no identificable es preferible una colecistectomía parcial a una lesión yatrogénica de la vía biliar.",
+  "explanation": "La pregunta obliga a integrar dos diagnósticos simultáneos y a ordenarlos en el tiempo. El error frecuente es quedarse en la colecistitis y llevar a la paciente a quirófano sin haber estudiado el colédoco, o al revés, tratar la coledocolitiasis y olvidar la vesícula. La rúbrica premia que el alumno reconozca la colestasis como señal de alarma, elija la prueba correcta y proponga la secuencia endoscopia primero, cirugía después, con los matices de tiempo de evolución y de seguridad intraoperatoria que expone la clase. Se valora también que distinga la colecistitis con colestasis analítica de la colangitis establecida, porque la primera admite un estudio ordenado del colédoco y la segunda exige drenaje urgente, y que no invente cifras ni indicaciones que no figuran en la clase, como umbrales de bilirrubina o plazos quirúrgicos concretos.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022; Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Via Biliar T Benignos UCM alumnos.pptx",
+   "pagina": 39
+  },
+  "tags": [
+   "colecistitis",
+   "coledocolitiasis",
+   "CPRE",
+   "manejo"
+  ]
+ }
+]

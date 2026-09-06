@@ -1,0 +1,70 @@
+{
+ "version": "3.0",
+ "fecha": "2026-09-05",
+ "titulo": "Antes de empezar",
+ "estudio": "QUAERO-A — Validación psicométrica de un banco de preguntas generado con inteligencia artificial",
+ "investigadores": "Pablo Lozano Lominchar (investigador principal) y Luis González Bayón",
+ "decision_forzada": true,
+ "secciones": [
+  {
+   "titulo": "Qué es esto",
+   "parrafos": [
+    "Una plataforma con preguntas sobre los 30 temas de Patología Quirúrgica I. Cada una lleva una explicación razonada y un enlace a la diapositiva de la clase de la que sale.",
+    "Es tuya para estudiar, participes o no en el estudio. Esto no es negociable y no hay letra pequeña: si dices que no, entras igual y usas exactamente lo mismo."
+   ]
+  },
+  {
+   "titulo": "Qué estamos investigando",
+   "parrafos": [
+    "Si las preguntas son buenas. Nada más. Queremos saber cuáles resultan demasiado fáciles o demasiado difíciles, cuáles no distinguen a quien sabe de quien no, qué opciones falsas no elige nadie, y si de verdad se contestan en 45 segundos.",
+    "Para eso necesitamos ver cómo responde mucha gente a cada pregunta. Es un estudio sobre las preguntas, no sobre ti.",
+    "No vamos a mirar tu nota del examen. No vamos a pedir tu expediente. No hay nada en este estudio que cruce tu rendimiento en la plataforma con tu rendimiento académico."
+   ]
+  },
+  {
+   "titulo": "Qué se registra si dices que sí",
+   "parrafos": [
+    "Qué preguntas respondes y qué contestas en cada una, cuánto tardas, y si lees la explicación.",
+    "Todo va bajo un código aleatorio. Tu nombre no aparece en ningún fichero de análisis, y los resultados se publican por pregunta, nunca por persona.",
+    "No se registra tu navegación fuera de esta plataforma, ni tu ubicación, ni ningún dato de salud, ni tus calificaciones."
+   ]
+  },
+  {
+   "titulo": "Quiénes somos, y por qué te lo decimos",
+   "parrafos": [
+    "Los dos investigadores somos profesores tuyos y participamos en tu evaluación. Por eso conviene que sepas tres cosas concretas:",
+    "Ninguna pregunta de esta plataforma aparecerá en el examen. Lo verifica una persona independiente y queda por escrito.",
+    "No podemos ver quién ha usado la plataforma ni quién ha consentido hasta después de cerrar las actas. Está implementado en el servidor, no es solo una promesa.",
+    "Y como este estudio no mira tu nota, participar o no participar no puede influir en ella ni siquiera indirectamente."
+   ]
+  },
+  {
+   "titulo": "Las preguntas las escribió una inteligencia artificial",
+   "parrafos": [
+    "Las generó un modelo de lenguaje a partir del temario y de las clases, y las revisó después el profesorado. Aun así pueden tener errores: de hecho, revisándolas hemos encontrado varias erratas en las propias diapositivas, que ya se han comunicado.",
+    "No des una pregunta por buena solo porque esté aquí. Cada una lleva un botón para avisar, y una pregunta señalada se retira en 48 horas hasta resolverla.",
+    "Detectar esos errores es, literalmente, parte del estudio: cuántos se nos escapan es uno de los resultados."
+   ]
+  },
+  {
+   "titulo": "Tus datos y tu derecho a irte",
+   "parrafos": [
+    "Tratamiento conforme al Reglamento (UE) 2016/679 y a la Ley Orgánica 3/2018, con tu consentimiento como base jurídica. Conservación de cinco años tras la publicación.",
+    "Puedes retirarte cuando quieras desde «Mi participación», con un clic y sin dar explicaciones. Retirarte no te quita el acceso a la plataforma ni tiene ninguna consecuencia académica.",
+    "Puedes ejercer los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición, y reclamar ante la Agencia Española de Protección de Datos, con los contactos del final."
+   ]
+  }
+ ],
+ "obligatorios": [],
+ "opcionales": [
+  {"clave": "telemetria", "texto": "Consiento que se registren mis respuestas a las preguntas para estudiar <strong>la calidad del banco</strong>."},
+  {"clave": "cuestionarios", "texto": "Consiento responder algún <strong>cuestionario breve</strong> sobre mi experiencia con la plataforma. <em>Podré saltarme cualquier pregunta.</em>"},
+  {"clave": "datos_abiertos", "texto": "Consiento que las estadísticas <strong>por pregunta</strong>, ya anonimizadas y agregadas, se publiquen junto con el artículo."}
+ ],
+ "contactos": [
+  {"quien": "Investigador principal", "dato": "Pablo Lozano Lominchar · [correo institucional UCM]"},
+  {"quien": "Comité de Ética de la Investigación", "dato": "[pendiente de asignar al aprobar el estudio]"},
+  {"quien": "Delegado de protección de datos", "dato": "[datos de contacto de la UCM]"},
+  {"quien": "Reclamaciones", "dato": "Agencia Española de Protección de Datos · www.aepd.es"}
+ ]
+}

@@ -1,0 +1,743 @@
+[
+ {
+  "id": "T06-M001",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Recién nacido con insuficiencia respiratoria grave desde el parto, abdomen excavado y auscultación con murmullo abolido en hemitórax izquierdo. La radiografía de tórax muestra asas intestinales ocupando ese hemitórax. Señale cuál es el problema fisiopatológico que condiciona el pronóstico y qué actuación inicial procede.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La hipertensión pulmonar sobre pulmones hipoplásicos: intubación, ventilación y sonda nasogástrica."
+   },
+   {
+    "id": "B",
+    "text": "La compresión mecánica del mediastino: toracotomía urgente para reducir las asas herniadas."
+   },
+   {
+    "id": "C",
+    "text": "La obstrucción intestinal por vólvulo: laparotomía inmediata con resección del segmento afecto."
+   },
+   {
+    "id": "D",
+    "text": "La parálisis del nervio frénico: plicatura radial del diafragma en las primeras horas de vida."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El cuadro corresponde a una hernia de Bochdalek, que en el 80 % de los casos es izquierda y se produce porque el canal pleural no se cierra y las vísceras abdominales quedan herniadas en el tórax, condicionando hipoplasia pulmonar bilateral, más marcada en el lado de la hernia, con reducción del número de ramas arteriales y arteriolas, hiperplasia muscular e hipertensión pulmonar. La clase subraya que lo más importante es el tratamiento de la hipertensión pulmonar mediante ventilación adecuada, con intubación traqueal y presión positiva o ventilación de alta frecuencia, descompresión intestinal con sonda nasogástrica y, si es preciso, oxigenación por membrana extracorpórea. Opción B: la cirugía no es urgente; se difiere para dejar que se desarrollen los vasos pulmonares. Opción C: el defecto no es una obstrucción intestinal y una laparotomía inmediata no corrige la hipoplasia ni la hipertensión pulmonar. Opción D: la parálisis frénica define la eventración diafragmática, en la que el diafragma está presente pero no funciona. Punto de enseñanza: primero el pulmón, después el defecto.",
+  "teaching_point": "En la hernia de Bochdalek lo que mata es la hipoplasia pulmonar con hipertensión pulmonar: se estabiliza primero y la reparación del defecto se difiere.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del diafragma",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "hernia de Bochdalek",
+   "hipoplasia pulmonar",
+   "hipertensión pulmonar"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M002",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Al explicar el origen de las hernias diafragmáticas congénitas es necesario recordar cómo se forma el diafragma durante la vida embrionaria. Señale la afirmación correcta sobre la estructura que aparece en la quinta semana, su origen somítico y el momento en que se cierran las membranas pleuroperitoneales.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El septum transversum deriva de los somitas torácicos y las membranas se cierran en la semana doce."
+   },
+   {
+    "id": "B",
+    "text": "Los pliegues pleuroperitoneales originan el tendón central y se cierran antes de la cuarta semana."
+   },
+   {
+    "id": "C",
+    "text": "El septum transversum procede de los somitas C3, C4 y C5 y las membranas se cierran en la semana ocho."
+   },
+   {
+    "id": "D",
+    "text": "El mioblasto cervical forma la porción tendinosa, inervada por los nervios intercostales."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase describe que durante la quinta semana se forma el septum transversum a partir de los somitas C3, C4 y C5, desde la parte inferior de la cavidad pericárdica, separando la cavidad torácica de la abdominal y dando lugar a la porción tendinosa. A la vez aparecen los pliegues pleuroperitoneales desde los laterales, y los canales pleurales, mediante las membranas pleuroperitoneales, se cierran en la octava semana. Ese origen cervical explica que la inervación corra a cargo del nervio frénico, con raíces C3, C4 y C5. Opción A: el origen somítico es cervical, no torácico, y el cierre ocurre en la semana ocho; situarlo en la doce coincide con el momento en que se establece la hipoplasia pulmonar, no con el cierre. Opción B: los pliegues pleuroperitoneales no forman el tendón central, que procede del septum transversum, y el plazo es incorrecto. Opción D: el mioblasto cervical contribuye a la porción muscular inervada por el frénico, mientras que la porción muscular periférica recibe los nervios intercostales. Punto de enseñanza: el origen cervical del diafragma explica el dolor referido al hombro.",
+  "teaching_point": "El septum transversum aparece en la quinta semana a partir de los somitas C3-C5 y las membranas pleuroperitoneales se cierran en la octava; su fallo produce la hernia de Bochdalek.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 4
+  },
+  "tags": [
+   "embriología",
+   "septum transversum",
+   "membranas pleuroperitoneales"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M003",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante la disección del hiato esofágico en una cirugía antirreflujo, el cirujano repasa mentalmente los tres orificios de paso del diafragma, porque la lesión del contenido de cada uno da lugar a una complicación distinta. Señale qué estructura atraviesa el diafragma acompañando a la aorta, según la descripción anatómica de la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Los nervios vagos, que continúan su descenso hacia el plexo celíaco."
+   },
+   {
+    "id": "B",
+    "text": "El conducto torácico, en su ascenso hacia el mediastino posterior."
+   },
+   {
+    "id": "C",
+    "text": "La vena cava inferior, poco antes de desembocar en la aurícula derecha."
+   },
+   {
+    "id": "D",
+    "text": "El nervio frénico, en su trayecto hacia la cara inferior del músculo."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase enumera tres hiatos diafragmáticos: el de la cava, el esofágico, por el que discurren además los nervios vagos, y el aórtico, por el que pasa también el conducto torácico. Esa correspondencia conviene tenerla automatizada, porque explica por qué una disección del hiato esofágico pone en riesgo la inervación vagal y por qué una lesión a la altura del hiato aórtico puede producir un quilotórax. Opción A: los nervios vagos alcanzan el abdomen adosados al esófago y atraviesan el diafragma por el hiato esofágico, no por el aórtico, aunque después se distribuyan hacia el plexo celíaco. Opción C: la vena cava inferior dispone de su propio hiato, y el drenaje venoso del diafragma se dirige a la cava suprahepática, de modo que no comparte orificio con la aorta. Opción D: el nervio frénico, con raíces C3, C4 y C5, es la inervación del músculo y se distribuye en sus cuatro ramas sobre él; la clase no lo incluye entre los elementos que atraviesan los hiatos. Punto de enseñanza: vagos con el esófago, conducto torácico con la aorta.",
+  "teaching_point": "Tres hiatos diafragmáticos: cava, esofágico con los nervios vagos y aórtico con el conducto torácico.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "anatomía quirúrgica",
+   "hiatos diafragmáticos",
+   "nervio vago"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M004",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Varón de 52 años asintomático al que, en una radiografía de tórax realizada por otro motivo, se describe una masa con nivel hidroaéreo situada en el mediastino anteroinferior derecho. La tomografía confirma un saco que contiene colon. Señale el diagnóstico y la conducta que procede.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hernia de Bochdalek: control radiológico periódico, ya que en el adulto es asintomática."
+   },
+   {
+    "id": "B",
+    "text": "Eventración diafragmática derecha: plicatura radial sólo si aparece compromiso respiratorio."
+   },
+   {
+    "id": "C",
+    "text": "Rotura traumática antigua del diafragma: laparotomía urgente por riesgo de estallido."
+   },
+   {
+    "id": "D",
+    "text": "Hernia de Morgagni: reparación quirúrgica por el riesgo de estrangulación del contenido."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La hernia de Morgagni es un defecto anteromedial de cualquiera de los dos lados, debido a la falta de fusión del septum transversum con la pared torácica, y presenta saco herniario que puede contener colon, intestino delgado o hígado. La clase precisa que se diagnostica en niños mayores y adultos de forma incidental, como masa o nivel hidroaéreo en el mediastino anteroinferior, y que se recomienda la reparación quirúrgica, abierta o laparoscópica, por el riesgo de estrangulación. Opción A: la hernia de Bochdalek es posterolateral, izquierda en el 80 % de los casos y se manifiesta en el neonato con insuficiencia respiratoria grave, no como hallazgo mediastínico anterior en el adulto. Opción B: en la eventración el diafragma está presente pero no funciona por lesión del nervio frénico, y no existe saco herniario con colon en el mediastino. Opción C: nada en el enunciado sugiere traumatismo, y la rotura traumática afecta sobre todo al lado izquierdo y al área posterior. Punto de enseñanza: Morgagni es anterior y del adulto; Bochdalek, posterior y del neonato.",
+  "teaching_point": "Masa con nivel hidroaéreo en mediastino anteroinferior de un adulto: hernia de Morgagni, que se repara por el riesgo de estrangulación.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del diafragma",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "hernia de Morgagni",
+   "mediastino anterior",
+   "estrangulación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M005",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 64 años intervenida de cirugía cardiaca hace ocho meses que presenta disnea de esfuerzo progresiva. La radiografía muestra elevación del hemidiafragma izquierdo, íntegro y de contorno continuo, con movimiento paradójico en la exploración dinámica. Señale el diagnóstico y el tratamiento que procede si existe compromiso respiratorio.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Eventración diafragmática por lesión del nervio frénico: plicatura radial hasta dejarlo tenso."
+   },
+   {
+    "id": "B",
+    "text": "Hernia de Bochdalek de presentación tardía: cierre del defecto con colocación de malla."
+   },
+   {
+    "id": "C",
+    "text": "Absceso subfrénico postoperatorio: drenaje percutáneo guiado por imagen y antibioterapia."
+   },
+   {
+    "id": "D",
+    "text": "Tumor mesenquimal del diafragma: resección con márgenes y reconstrucción con malla."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define la eventración diafragmática como congénita o adquirida, debida a lesión del nervio frénico de origen yatrógeno, traumático o por enfermedad nerviosa o muscular, y precisa que el diafragma está presente pero no funciona. Ese es exactamente el hallazgo radiológico descrito: un hemidiafragma íntegro y continuo, elevado y con movimiento paradójico, tras una cirugía cardiaca, escenario clásico de lesión yatrógena del frénico. El tratamiento, cuando existe compromiso respiratorio, es la plicatura radial del diafragma hasta dejarlo tenso. Opción B: en la hernia de Bochdalek hay un defecto real con paso de vísceras al tórax, incompatible con un diafragma íntegro y de contorno continuo. Opción C: el absceso subfrénico es un proceso infeccioso del espacio subfrénico, que cursa con fiebre y dolor referido al hombro, no con movimiento paradójico. Opción D: los tumores del diafragma son raros, de origen mesenquimal, y producen hipo y dolor al respirar con irradiación al hombro, no elevación funcional aislada. Punto de enseñanza: diafragma íntegro pero inmóvil significa nervio, no defecto.",
+  "teaching_point": "Eventración diafragmática: el diafragma está presente pero no funciona por lesión del nervio frénico; si hay compromiso respiratorio, plicatura radial.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del diafragma",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 19
+  },
+  "tags": [
+   "eventración diafragmática",
+   "nervio frénico",
+   "plicatura"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M006",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 29 años que sufre un accidente de tráfico con impacto abdominal cerrado. Presenta insuficiencia respiratoria y la radiografía de tórax muestra la cámara gástrica en el hemitórax izquierdo. Señale qué lesión debe sospecharse en primer lugar y qué mecanismo la explica según la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Neumotórax a tensión izquierdo, por laceración pulmonar con mecanismo valvular."
+   },
+   {
+    "id": "B",
+    "text": "Hernia de Morgagni descompensada, por aumento brusco de la presión intraabdominal."
+   },
+   {
+    "id": "C",
+    "text": "Rotura traumática del diafragma, por estallido debido a hiperpresión en el lado izquierdo."
+   },
+   {
+    "id": "D",
+    "text": "Eventración diafragmática aguda, por sección del nervio frénico en el traumatismo."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase distingue dos mecanismos de trauma diafragmático. En el traumatismo toracoabdominal cerrado se produce el estallido del diafragma por hiperpresión, con predominio del lado izquierdo y del área posterior; en el abierto la lesión es directa, por arma blanca o de fuego. El signo radiológico que recoge la clase es precisamente la cámara gástrica en el hemitórax izquierdo, y advierte de que el diagnóstico es difícil, apoyándose en la insuficiencia respiratoria, la radiografía con derrame o asas intestinales, la tomografía, la laparotomía y la laparoscopia. Opción A: el neumotórax a tensión no desplaza la cámara gástrica al tórax; la imagen descrita es de contenido visceral, no de aire pleural. Opción B: la hernia de Morgagni es congénita, anteromedial y de hallazgo habitualmente incidental en el adulto, no un cuadro postraumático agudo. Opción D: la eventración implica un diafragma íntegro pero denervado, sin paso de vísceras a través de un defecto. Punto de enseñanza: cámara gástrica intratorácica tras trauma cerrado es rotura diafragmática hasta demostrar lo contrario.",
+  "teaching_point": "El trauma toracoabdominal cerrado rompe el diafragma por hiperpresión, más en el lado izquierdo y en el área posterior; la cámara gástrica intratorácica es el signo clave.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del diafragma",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 20
+  },
+  "tags": [
+   "rotura diafragmática",
+   "trauma cerrado",
+   "cámara gástrica intratorácica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M007",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En un frotis de sangre periférica realizado a un paciente esplenectomizado aparecen hematíes con restos de membrana nuclear en su citoplasma. Señale en qué compartimento del bazo se realiza normalmente la depuración de estas inclusiones y qué otra función hematológica se atribuye a ese mismo compartimento.",
+  "options": [
+   {
+    "id": "A",
+    "text": "En la pulpa blanca, que además presenta los antígenos a los linfocitos de la zona marginal."
+   },
+   {
+    "id": "B",
+    "text": "En los folículos germinales, que además sintetizan properdina y tuftsina."
+   },
+   {
+    "id": "C",
+    "text": "En las vainas linfoides periarteriolares, que además almacenan los granulocitos circulantes."
+   },
+   {
+    "id": "D",
+    "text": "En la pulpa roja, que además almacena aproximadamente el treinta por ciento de las plaquetas."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase atribuye a la pulpa roja las funciones hematológicas del bazo: eliminación de hematíes viejos o anormales, remodelado de los hematíes con eliminación de inclusiones citoplasmáticas, que incluyen los restos de membrana nuclear o cuerpos de Howell-Jolly, la hemoglobina precipitada o cuerpos de Heinz y el hierro o cuerpos de Pappenheimer, una función menor en la hematopoyesis y el almacenamiento de aproximadamente el treinta por ciento de las plaquetas. Los cuerpos de Howell-Jolly en un esplenectomizado reflejan la pérdida de esa función depuradora. Opción A: la pulpa blanca desempeña funciones inmunológicas, con presentación antigénica y generación de respuesta celular y humoral, pero no remodela los hematíes. Opción B: la properdina y la tuftsina son opsoninas sintetizadas por los macrófagos tisulares dentro de la respuesta inmune no específica, no producto de los folículos germinales. Opción C: las vainas linfoides periarteriolares son estructuras de pulpa blanca y el bazo almacena plaquetas, no granulocitos. Punto de enseñanza: pulpa roja para el hematíe y la plaqueta, pulpa blanca para la inmunidad.",
+  "teaching_point": "La pulpa roja elimina hematíes anormales y sus inclusiones (Howell-Jolly, Heinz, Pappenheimer) y almacena en torno al 30 % de las plaquetas.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 27
+  },
+  "tags": [
+   "pulpa roja",
+   "cuerpos de Howell-Jolly",
+   "funciones del bazo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M008",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Paciente con hipertensión portal y esplenomegalia que presenta anemia, leucopenia y trombopenia mantenidas. El aspirado de médula ósea muestra hiperproducción de las tres series. Señale qué entidad define este conjunto de hallazgos y mediante qué procedimiento se corrige, según los conceptos que expone la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aplasia medular secundaria a la hipertensión portal, corregida mediante trasplante hepático."
+   },
+   {
+    "id": "B",
+    "text": "Hiperesplenismo, con descenso de una o más series y corrección mediante esplenectomía."
+   },
+   {
+    "id": "C",
+    "text": "Trombosis de la vena esplénica, que se corrige mediante anticoagulación prolongada."
+   },
+   {
+    "id": "D",
+    "text": "Púrpura trombocitopénica idiopática, que se corrige con corticoides en primera línea."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase define el hiperesplenismo como el descenso de una o más de las series sanguíneas acompañado de hiperproducción medular compensadora, con corrección mediante esplenectomía, y señala como causas la hipertensión portal y la presencia de células sanguíneas deformes. El caso reúne los tres elementos: citopenias, médula hiperactiva y una causa reconocida. Opción A: la aplasia medular implicaría una médula hipoproductiva, exactamente lo contrario de lo que muestra el aspirado, de modo que el hallazgo medular la excluye. Opción C: la trombosis de la vena esplénica figura entre las indicaciones de esplenectomía en el hiperesplenismo que enumera la clase, pero es una causa concreta y no la entidad que define el conjunto de hallazgos descritos, y aquí la causa identificada es la hipertensión portal. Opción D: la púrpura trombocitopénica idiopática también es indicación de esplenectomía, pero afecta de forma aislada a la serie plaquetaria y no explica la anemia ni la leucopenia. Punto de enseñanza: citopenia más médula hiperactiva más esplenomegalia define hiperesplenismo.",
+  "teaching_point": "Hiperesplenismo: descenso de una o más series sanguíneas con hiperproducción medular compensadora que se corrige mediante esplenectomía.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "hiperesplenismo",
+   "hipertensión portal",
+   "esplenectomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M009",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Niño de cinco años con esferocitosis hereditaria y crisis hemolíticas repetidas en el que el hematólogo plantea la esplenectomía. Los padres preguntan si conviene operar ya. Señale qué recomienda la clase sobre el momento de la intervención en las enfermedades hereditarias del hematíe y cuál es la razón.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Retrasarla hasta los ocho o diez años, por el riesgo de sepsis fulminante postesplenectomía."
+   },
+   {
+    "id": "B",
+    "text": "Operar cuanto antes, porque el riesgo infeccioso es independiente de la edad del paciente."
+   },
+   {
+    "id": "C",
+    "text": "Retrasarla hasta la adolescencia, porque antes el bazo no participa en la hemólisis."
+   },
+   {
+    "id": "D",
+    "text": "Operar de inmediato y sustituir la vacunación por profilaxis antibiótica indefinida."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase indica la esplenectomía en las anemias hemolíticas, entre ellas la esferocitosis, pero advierte de que la sepsis fulminante postesplenectomía es especialmente importante en niños y jóvenes y recomienda, en caso de enfermedad hereditaria del hematíe, retrasar la esplenectomía hasta los ocho o diez años. Añade que también en el adulto está aumentado el riesgo de infección, principalmente durante los dos primeros años. Opción B: el riesgo no es independiente de la edad; es precisamente la mayor vulnerabilidad del niño pequeño lo que motiva la demora. Opción C: el bazo sí participa en la hemólisis de la esferocitosis desde el principio, ya que la pulpa roja elimina los hematíes anormales; el motivo de la demora es infeccioso, no fisiopatológico. Opción D: la vacunación no se sustituye por antibióticos, sino que se combina con ellos; la clase mantiene la profilaxis antibiótica en menores de cinco años y el tratamiento antibiótico precoz ante signos de infección. Punto de enseñanza: la edad al esplenectomizar es una decisión de riesgo infeccioso.",
+  "teaching_point": "En las enfermedades hereditarias del hematíe la esplenectomía se retrasa hasta los 8-10 años por el riesgo de sepsis fulminante postesplenectomía.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "esferocitosis",
+   "esplenectomía",
+   "sepsis postesplenectomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M010",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Varón de 31 años esplenectomizado hace catorce meses por traumatismo, que acude a urgencias con fiebre alta de pocas horas de evolución, hipotensión y deterioro rápido del nivel de consciencia, sin foco evidente. Señale qué complicación debe sospecharse y qué microorganismo es el responsable más frecuente.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absceso subfrénico residual, causado habitualmente por enterobacterias y estafilococos."
+   },
+   {
+    "id": "B",
+    "text": "Trombosis de la vena esplénica, con bacteriemia secundaria por bacilos gramnegativos."
+   },
+   {
+    "id": "C",
+    "text": "Sepsis fulminante postesplenectomía, causada con más frecuencia por el neumococo."
+   },
+   {
+    "id": "D",
+    "text": "Rotura esplénica en dos tiempos con sobreinfección del hematoma residual."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase describe la sepsis fulminante postesplenectomía como una complicación de especial importancia en niños y jóvenes, y precisa que también en el adulto el riesgo de infección está aumentado, sobre todo durante los dos primeros años tras la intervención, intervalo en el que se encuentra este paciente. Las bacterias responsables son las encapsuladas, con el neumococo a la cabeza en el 50 % de los casos, seguido de Haemophilus influenzae, meningococo, estreptococo, estafilococo, Escherichia coli y Pseudomonas. Opción A: el absceso esplénico, causado por enterobacterias, estafilococos y estreptococos, es una indicación de esplenectomía, no una complicación posible catorce meses después de haber extirpado el bazo. Opción B: la trombosis de la vena esplénica figura entre las indicaciones de esplenectomía en el hiperesplenismo y no explica una sepsis fulminante. Opción D: la rotura en dos tiempos es el riesgo que obliga a vigilar el tratamiento conservador del traumatismo esplénico, imposible en un paciente ya esplenectomizado. Punto de enseñanza: fiebre sin foco en un esplenectomizado es una urgencia.",
+  "teaching_point": "La sepsis fulminante postesplenectomía se debe a bacterias encapsuladas, con el neumococo como responsable del 50 % de los casos, y el riesgo es máximo en los dos primeros años.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "sepsis postesplenectomía",
+   "neumococo",
+   "bacterias encapsuladas"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M011",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Se programa una esplenectomía electiva por quiste hidatídico esplénico en una mujer de 47 años. La consulta de preanestesia pregunta por las medidas preventivas frente a la infección postesplenectomía. Señale qué pauta de vacunación y de seguimiento recoge la clase para esta situación.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vacunar sólo frente al neumococo el mismo día de la intervención, sin necesidad de recuerdos."
+   },
+   {
+    "id": "B",
+    "text": "Vacunar frente al neumococo tres meses después de la cirugía, cuando se recupera la inmunidad."
+   },
+   {
+    "id": "C",
+    "text": "Vacunar frente a neumococo, meningococo y gripe únicamente en los menores de cinco años."
+   },
+   {
+    "id": "D",
+    "text": "Vacunar frente a neumococo, Haemophilus y meningococo quince días antes, con recuerdo cada cuatro años."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase establece como medidas postesplenectomía la vacunación frente al neumococo con la vacuna veintitrés valente, frente a Haemophilus influenzae y frente al meningococo, administrada quince días antes de la intervención si es posible y, si no, quince días después; la vacuna antigripal anual; el recuerdo vacunal para neumococo y meningococo cada cuatro años, sin que esté establecida la necesidad de recuerdo frente a Haemophilus; el tratamiento antibiótico precoz ante signos de infección; la profilaxis antibiótica en menores de cinco años y el brazalete de alerta. Al tratarse de una cirugía programada, procede la pauta preoperatoria. Opción A: limita la cobertura a un solo germen, prescinde de los recuerdos y elige un momento inadecuado. Opción B: retrasar tres meses deja al paciente sin cobertura durante el periodo de mayor riesgo. Opción C: restringe la vacunación a los niños, cuando la clase la indica en todo esplenectomizado y reserva a los menores de cinco años la profilaxis antibiótica. Punto de enseñanza: quince días antes si la cirugía es programada.",
+  "teaching_point": "Vacunación antineumocócica 23-valente, anti-Haemophilus y antimeningocócica 15 días antes de la esplenectomía programada, gripe anual y recuerdo cada 4 años para neumococo y meningococo.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del bazo",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "vacunación",
+   "profilaxis",
+   "esplenectomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-M012",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 23 años con mononucleosis infecciosa que, tras un esfuerzo leve, presenta dolor intenso en el hipocondrio izquierdo e hipotensión que responde a la reposición de volumen. La ecografía muestra un bazo aumentado de tamaño, una laceración parenquimatosa y líquido libre abdominal. Señale qué actitud recomienda la clase en este paciente y con qué razonamiento.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tratamiento conservador con vigilancia estrecha, igual que en la rotura traumática del niño estable."
+   },
+   {
+    "id": "B",
+    "text": "Esplenectomía, porque la rotura asienta sobre un bazo patológico y no cabe el manejo conservador."
+   },
+   {
+    "id": "C",
+    "text": "Tratamiento conservador y cirugía únicamente si más adelante apareciera una rotura en dos tiempos."
+   },
+   {
+    "id": "D",
+    "text": "Cirugía diferida hasta la resolución del cuadro infeccioso, con reposo y controles analíticos seriados."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase separa dos escenarios en la rotura esplénica. Cuando es traumática y ocurre sobre un bazo sano cabe el tratamiento conservador, principalmente en niños, con la advertencia expresa de vigilar la rotura en dos tiempos. Cuando ocurre sobre un bazo patológico, y cita expresamente los tumores, la sarcoidosis, la leishmaniasis y la mononucleosis, requiere esplenectomía. Este paciente pertenece al segundo grupo. Opción A: traslada al bazo enfermo una indicación formulada para el bazo sano del niño traumatizado; el parénquima infiltrado y friable de la mononucleosis no se comporta igual ante la hemostasia espontánea. Opción C: convierte la rotura en dos tiempos en un criterio de rescate cuando en realidad es el riesgo que justifica la vigilancia del tratamiento conservador, opción que aquí no está indicada. Opción D: diferir la cirugía en un paciente con hemoperitoneo e inestabilidad ya documentada expone a un resangrado sin ganancia alguna, porque la esplenomegalia de la mononucleosis tarda semanas en revertir. Punto de enseñanza: la decisión depende de si el bazo era sano o patológico.",
+  "teaching_point": "Rotura esplénica sobre bazo patológico (mononucleosis, tumores, sarcoidosis, leishmaniasis): esplenectomía; sobre bazo sano y sobre todo en el niño, cabe el tratamiento conservador vigilando la rotura en dos tiempos.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del bazo",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 32
+  },
+  "tags": [
+   "rotura esplénica",
+   "tratamiento conservador",
+   "rotura en dos tiempos"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T06-C001",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un paciente presenta elevación de un hemidiafragma con movimiento paradójico tras una intervención sobre el cuello, lo que orienta a una lesión de la inervación motora del músculo. Indique, en un máximo de veinte palabras, qué nervio inerva el diafragma y de qué raíces medulares procede, según la clase.",
+  "respuesta_canonica": "El nervio frénico, con raíces C3, C4 y C5",
+  "aceptadas": [
+   "nervio frénico (C3-C4-C5)",
+   "frénico, procedente de las raíces cervicales tercera, cuarta y quinta",
+   "el nervio frénico, raíces C3 a C5",
+   "nervio frénico, originado en C3, C4 y C5"
+  ],
+  "conceptos_clave": [
+   "frénico",
+   "C3",
+   "C4",
+   "C5"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase establece que la inervación del diafragma corre a cargo del nervio frénico, con raíces C3, C4 y C5, y explica su origen cervical por la embriología: el septum transversum se forma en la quinta semana a partir de los somitas C3, C4 y C5, y el mioblasto cervical aporta la porción muscular inervada por el frénico, mientras que la porción muscular periférica recibe inervación de los nervios intercostales. La respuesta debe nombrar el nervio y las tres raíces; citar el nervio sin las raíces se considera incompleta. Este dato tiene dos consecuencias prácticas que conviene asociar. La primera es que la lesión del frénico, yatrógena, traumática o por enfermedad nerviosa o muscular, produce la eventración diafragmática, en la que el diafragma está presente pero no funciona. La segunda es que el origen cervical explica el dolor referido al hombro característico de la irritación diafragmática, por ejemplo en el absceso subfrénico o en los tumores del diafragma.",
+  "teaching_point": "El diafragma está inervado por el nervio frénico, con raíces C3, C4 y C5.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "nervio frénico",
+   "anatomía",
+   "diafragma"
+  ]
+ },
+ {
+  "id": "T06-C002",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Durante una disección a la altura de los pilares diafragmáticos, en los cuerpos vertebrales L1 a L3, el cirujano debe conocer qué estructuras discurren por cada orificio para evitar lesionarlas. Indique, en un máximo de veinte palabras, qué dos estructuras atraviesan el hiato aórtico según la clase.",
+  "respuesta_canonica": "La aorta y el conducto torácico",
+  "aceptadas": [
+   "aorta descendente y conducto torácico",
+   "arteria aorta junto con el conducto linfático torácico",
+   "la aorta y el conducto torácico atraviesan el hiato aórtico",
+   "aorta abdominal y conducto torácico"
+  ],
+  "conceptos_clave": [
+   "aorta",
+   "conducto torácico"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase enumera tres hiatos diafragmáticos: el de la cava, el esofágico, por el que pasan también los nervios vagos, y el aórtico, por el que discurre además el conducto torácico. La respuesta debe contener las dos estructuras del hiato aórtico; nombrar sólo la aorta se considera incompleta, porque el conducto torácico es precisamente el elemento cuya lesión produce un quilotórax y el que justifica que esta pregunta se formule. Conviene memorizar la correspondencia completa, ya que el error más frecuente consiste en intercambiar los contenidos de los dos hiatos posteriores y situar los nervios vagos en el aórtico. La clase completa la descripción anatómica señalando que las inserciones diafragmáticas son la cara posteroinferior del esternón y el xifoides, el reborde costal inferior de la sexta a la duodécima costilla, los cuerpos vertebrales L1 a L3 mediante los pilares y los ligamentos arcuatos, y que el drenaje venoso se dirige a la cava suprahepática.",
+  "teaching_point": "Por el hiato aórtico pasan la aorta y el conducto torácico; por el esofágico, el esófago y los nervios vagos.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "hiato aórtico",
+   "conducto torácico",
+   "anatomía"
+  ]
+ },
+ {
+  "id": "T06-C003",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Una de las funciones de la pulpa roja del bazo es el remodelado de los hematíes, consistente en retirar de su citoplasma inclusiones de distinta naturaleza cuya presencia en sangre periférica delata la ausencia de función esplénica. Nombre, en un máximo de veinte palabras, las tres inclusiones que cita la clase.",
+  "respuesta_canonica": "Cuerpos de Howell-Jolly, cuerpos de Heinz y cuerpos de Pappenheimer",
+  "aceptadas": [
+   "Howell-Jolly, Heinz y Pappenheimer",
+   "restos de membrana nuclear, hemoglobina precipitada y hierro",
+   "cuerpos de Howell-Jolly, de Heinz y de Pappenheimer",
+   "Howell Jolly (membrana nuclear), Heinz (hemoglobina) y Pappenheimer (hierro)"
+  ],
+  "conceptos_clave": [
+   "Howell-Jolly",
+   "Heinz",
+   "Pappenheimer"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe el remodelado de los hematíes en la pulpa roja como la eliminación de inclusiones citoplasmáticas y las identifica una a una: los restos de membrana nuclear corresponden a los cuerpos de Howell-Jolly, la hemoglobina precipitada a los cuerpos de Heinz y el hierro a los cuerpos de Pappenheimer. La respuesta debe recoger las tres, ya sea por su epónimo o por la sustancia que contienen. Su valor práctico es que, tras una esplenectomía, la clase describe un aumento de las inclusiones citoplasmáticas en los hematíes circulantes, junto con trombocitosis y leucocitosis transitorias y linfocitosis y monocitosis persistentes; encontrar cuerpos de Howell-Jolly en un frotis es, por tanto, un marcador de asplenia funcional o anatómica. Conviene asociar estas funciones al resto de las atribuidas a la pulpa roja: eliminación de hematíes viejos o anormales, papel menor en la hematopoyesis y almacenamiento de aproximadamente el treinta por ciento de las plaquetas.",
+  "teaching_point": "La pulpa roja retira los cuerpos de Howell-Jolly (membrana nuclear), de Heinz (hemoglobina) y de Pappenheimer (hierro).",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 27
+  },
+  "tags": [
+   "pulpa roja",
+   "Howell-Jolly",
+   "Heinz",
+   "Pappenheimer"
+  ]
+ },
+ {
+  "id": "T06-C004",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "La sepsis fulminante postesplenectomía es la complicación tardía más temida de la extirpación del bazo, especialmente en niños y jóvenes, y está causada por bacterias encapsuladas. Indique, en un máximo de veinte palabras, cuál es el microorganismo responsable con más frecuencia y en qué porcentaje de casos lo señala la clase.",
+  "respuesta_canonica": "El neumococo, responsable del cincuenta por ciento de los casos",
+  "aceptadas": [
+   "Streptococcus pneumoniae, 50 %",
+   "neumococo (50 % de las infecciones)",
+   "el neumococo, en el 50 % de los casos",
+   "Streptococcus pneumoniae, responsable de la mitad de los casos"
+  ],
+  "conceptos_clave": [
+   "neumococo",
+   "50"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase enumera las bacterias que causan la infección en el paciente esplenectomizado, todas ellas encapsuladas, y cuantifica la participación del neumococo en el cincuenta por ciento de los casos, seguido de Haemophilus influenzae, meningococo, estreptococo, estafilococo, Escherichia coli y Pseudomonas. La respuesta debe nombrar el neumococo y la cifra; nombrar sólo el germen se considera parcialmente correcta pero incompleta si la pregunta pide ambos datos. El dato tiene traducción directa en la profilaxis: la clase indica la vacunación antineumocócica veintitrés valente junto con las vacunas frente a Haemophilus influenzae y meningococo, quince días antes de la intervención si es posible y, si no, quince días después, con recuerdo para neumococo y meningococo cada cuatro años. Añade la vacuna antigripal anual, el tratamiento antibiótico precoz ante signos de infección, la profilaxis antibiótica en menores de cinco años y el brazalete de alerta. El riesgo es máximo en los dos primeros años.",
+  "teaching_point": "El neumococo causa el 50 % de las infecciones del esplenectomizado y encabeza la lista de bacterias encapsuladas responsables.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de patología del bazo",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "sepsis postesplenectomía",
+   "neumococo",
+   "bacterias encapsuladas"
+  ]
+ },
+ {
+  "id": "T06-L001",
+  "tema": 6,
+  "bloque": "pared_diafragma_bazo",
+  "formato": "larga",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Se plantea una esplenectomía programada en un varón de 34 años con púrpura trombocitopénica idiopática refractaria al tratamiento médico. Exponga, en un máximo de trescientas cincuenta palabras, las indicaciones de esplenectomía que recoge la clase, las funciones del bazo que se pierden con la intervención, las alteraciones hematológicas esperables tras ella y las medidas profilácticas frente a la infección postesplenectomía.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Enumera las indicaciones por hiperesplenismo: anemias hemolíticas (falciforme, esferocitosis, autoinmune), púrpura trombocitopénica idiopática y trombosis de la vena esplénica",
+    "puntos": 0.4,
+    "claves": [
+     "hiperesplenismo",
+     "esferocitosis",
+     "autoinmune",
+     "púrpura trombocitopénica",
+     "vena esplénica"
+    ]
+   },
+   {
+    "elemento": "Añade las demás indicaciones: absceso, aneurisma de la arteria esplénica, bazo colgante, quiste hidatídico, trauma y tumores o quistes esplénicos",
+    "puntos": 0.4,
+    "claves": [
+     "absceso",
+     "aneurisma",
+     "bazo colgante",
+     "quiste hidatídico",
+     "trauma",
+     "tumores"
+    ]
+   },
+   {
+    "elemento": "Describe las funciones hematológicas de la pulpa roja: eliminación y remodelado de hematíes con las inclusiones citoplasmáticas y almacén del 30 % de las plaquetas",
+    "puntos": 0.4,
+    "claves": [
+     "pulpa roja",
+     "Howell-Jolly",
+     "Heinz",
+     "Pappenheimer",
+     "plaquetas"
+    ]
+   },
+   {
+    "elemento": "Describe las funciones inmunológicas de la pulpa blanca y de los macrófagos: presentación antigénica y síntesis de opsoninas, properdina y tuftsina",
+    "puntos": 0.4,
+    "claves": [
+     "pulpa blanca",
+     "opsoninas",
+     "properdina",
+     "tuftsina"
+    ]
+   },
+   {
+    "elemento": "Enumera las alteraciones hematológicas del esplenectomizado: inclusiones citoplasmáticas, trombocitosis y leucocitosis transitorias, linfocitosis y monocitosis persistentes",
+    "puntos": 0.4,
+    "claves": [
+     "inclusiones",
+     "trombocitosis",
+     "leucocitosis",
+     "linfocitosis",
+     "monocitosis"
+    ]
+   },
+   {
+    "elemento": "Explica la sepsis fulminante postesplenectomía: bacterias encapsuladas con neumococo en el 50 %, mayor riesgo en niños y jóvenes y en los dos primeros años, y demora hasta los 8-10 años en enfermedad hereditaria del hematíe",
+    "puntos": 0.4,
+    "claves": [
+     "sepsis fulminante",
+     "encapsuladas",
+     "neumococo",
+     "dos primeros años",
+     "8-10 años"
+    ]
+   },
+   {
+    "elemento": "Detalla la pauta vacunal: neumococo 23-valente, Haemophilus influenzae y meningococo quince días antes o quince días después, gripe anual y recuerdo cada cuatro años",
+    "puntos": 0.4,
+    "claves": [
+     "23-valente",
+     "Haemophilus",
+     "meningococo",
+     "quince días",
+     "cuatro años"
+    ]
+   },
+   {
+    "elemento": "Cierra con las medidas complementarias: antibiótico precoz ante signos de infección, profilaxis antibiótica en menores de cinco años y brazalete de alerta",
+    "puntos": 0.2,
+    "claves": [
+     "antibiótico precoz",
+     "profilaxis",
+     "menores de cinco años",
+     "brazalete"
+    ]
+   }
+  ],
+  "respuesta_modelo": "Las indicaciones de esplenectomía se agrupan en dos bloques. El primero es el hiperesplenismo, definido como el descenso de una o más series sanguíneas con hiperproducción medular compensadora que se corrige extirpando el bazo, y que puede deberse a hipertensión portal o a células sanguíneas deformes; dentro de él se incluyen las anemias hemolíticas por células falciformes, esferocitosis o mecanismo autoinmune, la púrpura trombocitopénica idiopática, el caso planteado, y la trombosis de la vena esplénica. El segundo reúne el absceso, el aneurisma de la arteria esplénica, el bazo colgante por laxitud ligamentosa, el quiste hidatídico, el traumatismo esplénico y los tumores y quistes del bazo. Con la extirpación se pierden dos grupos de funciones. Las hematológicas dependen de la pulpa roja: eliminación de hematíes viejos o anormales, remodelado de los hematíes con retirada de inclusiones citoplasmáticas, que son los cuerpos de Howell-Jolly, de Heinz y de Pappenheimer, y el almacenamiento de en torno al treinta por ciento de las plaquetas. Las inmunológicas dependen de la pulpa blanca y de los macrófagos de la pulpa roja: vigilancia inmunológica intravascular, con presentación antigénica en la zona marginal y respuesta celular y humoral en los folículos germinales, y respuesta inespecífica mediante la síntesis de opsoninas, properdina y tuftsina. Tras la esplenectomía se observan aumento de las inclusiones citoplasmáticas en los hematíes circulantes, trombocitosis y leucocitosis transitorias y linfocitosis y monocitosis persistentes. La complicación temida es la sepsis fulminante postesplenectomía, causada por bacterias encapsuladas, con el neumococo en el cincuenta por ciento de los casos, seguido de otras encapsuladas como Haemophilus influenzae y meningococo; es especialmente grave en niños y jóvenes y el riesgo persiste sobre todo en los dos primeros años, razón por la que en las enfermedades hereditarias del hematíe la esplenectomía se retrasa hasta los 8-10 años. Por ello la profilaxis incluye vacunación antineumocócica veintitrés valente, anti-Haemophilus y antimeningocócica quince días antes de la intervención o, si no es posible, quince días después, vacuna antigripal anual, recuerdo para neumococo y meningococo cada cuatro años, antibiótico precoz ante signos de infección, profilaxis antibiótica en menores de cinco años y brazalete de alerta.",
+  "explanation": "Esta pregunta recorre el bloque esplénico completo y se corrige por elementos, no por extensión. El primer par de elementos comprueba que el alumno distingue las indicaciones ligadas al hiperesplenismo de las que no lo están, distinción que la clase presenta en dos diapositivas separadas y que se pierde cuando se recita una lista única. El tercero y el cuarto exigen separar las funciones hematológicas de la pulpa roja de las inmunológicas de la pulpa blanca y los macrófagos, porque es esa división la que explica después las dos consecuencias de la esplenectomía: las alteraciones del frotis y la vulnerabilidad frente a las bacterias encapsuladas. El quinto y el sexto evalúan precisamente esas consecuencias, con la exigencia de que el alumno sitúe correctamente el periodo de máximo riesgo y la recomendación de demorar la intervención hasta los ocho o diez años en la enfermedad hereditaria del hematíe. Los dos últimos comprueban la pauta profiláctica concreta, que es la parte con traducción práctica inmediata. Se penaliza inventar intervalos vacunales, dosis o porcentajes distintos de los expuestos en la clase.",
+  "teaching_point": "Esplenectomizar obliga a asumir dos pérdidas simultáneas, la depuradora de la pulpa roja y la inmunológica de la pulpa blanca, y la segunda condiciona una profilaxis de por vida.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023); Cirugía AEC 2022, capítulo de patología del bazo",
+  "fuente_clase": {
+   "archivo": "06.- Diafragma . Bazo.pdf",
+   "pagina": 31
+  },
+  "tags": [
+   "esplenectomía",
+   "hiperesplenismo",
+   "sepsis postesplenectomía",
+   "vacunación"
+  ]
+ }
+]

@@ -1,0 +1,716 @@
+[
+ {
+  "id": "T09-M001",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Varón de 68 años con obstrucción intestinal de tres días de evolución por bridas. Está deshidratado y oligúrico, con urea y creatinina elevadas. La gasometría muestra alcalosis metabólica y el ionograma, hipocloremia e hipopotasemia. ¿Qué mecanismo fisiopatológico explica mejor este conjunto de alteraciones analíticas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Pérdida renal primaria de cloro y potasio por nefropatía obstructiva bilateral."
+   },
+   {
+    "id": "B",
+    "text": "Acidosis láctica por isquemia mesentérica establecida con necrosis transmural."
+   },
+   {
+    "id": "C",
+    "text": "Hemodilución por retención hídrica secundaria al eje renina-angiotensina-aldosterona."
+   },
+   {
+    "id": "D",
+    "text": "Secuestro de agua y electrolitos en la luz y la pared intestinal: tercer espacio."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La obstrucción intestinal no es solo un problema mecánico: su repercusión sistémica deriva de un fenómeno de tercer espacio que la clase describe con detalle. Opción A: no corresponde al cuadro: el riñón está respondiendo a la hipovolemia con un patrón prerrenal, no eliminando electrolitos de forma primaria. Opción B: es incompatible con el equilibrio ácido-base descrito: la gasometría muestra alcalosis metabólica, no acidosis. Opción C: contradice el dato de hemoconcentración propio del tercer espacio; ese mecanismo corresponde a la ascitis del fallo cardiaco. Opción D: es correcta: ese secuestro produce deshidratación, hipovolemia, insuficiencia renal prerrenal, hemoconcentración, hipocloremia, hipopotasemia y alcalosis metabólica. Punto de enseñanza: El tercer espacio de la obstrucción intestinal produce hemoconcentración, fracaso prerrenal, hipocloremia, hipopotasemia y alcalosis metabólica.",
+  "teaching_point": "El tercer espacio de la obstrucción intestinal produce hemoconcentración, fracaso prerrenal, hipocloremia, hipopotasemia y alcalosis metabólica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "obstrucción intestinal",
+   "tercer espacio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M002",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 55 años, apendicectomizado hace veinte años, con dolor cólico, vómitos y ausencia de deposición desde hace 24 horas. El abdomen está distendido y timpánico, con ruidos metálicos y sin defensa. La radiografía muestra niveles hidroaéreos y el TAC un cambio de calibre sin masa. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Sonda nasogástrica, reposición hidroelectrolítica y sonda vesical, con actitud conservadora inicial."
+   },
+   {
+    "id": "B",
+    "text": "Laparotomía urgente, dado que las bridas rara vez se resuelven sin cirugía."
+   },
+   {
+    "id": "C",
+    "text": "Antibioterapia de amplio espectro y observación, sin descompresión digestiva."
+   },
+   {
+    "id": "D",
+    "text": "Colonoscopia descompresiva urgente, tratamiento de elección en esta situación."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El cuadro corresponde a una obstrucción intestinal por adherencias, la causa más frecuente en pacientes con cirugía previa, y el manejo inicial no es quirúrgico. Opción A: es correcta: la clase indica descompresión digestiva con sonda nasogástrica, reposición hidroelectrolítica y monitorización de la diuresis con sonda de Foley. Opción B: contradice el dato de la clase: en torno al 80 % de las obstrucciones por adherencias se resuelven con tratamiento conservador en las primeras 48 horas. Opción C: invierte las prioridades: en la obstrucción intestinal no se pautan antibióticos de forma sistemática y la descompresión con sonda nasogástrica es esencial. Opción D: no procede en una obstrucción de intestino delgado por bridas; la descompresión endoscópica se plantea en otros escenarios, como el colon. Punto de enseñanza: En la obstrucción por adherencias el 80 % se resuelve en 48 horas con sonda nasogástrica, fluidos y control de diuresis; en general no se pautan antibióticos.",
+  "teaching_point": "En la obstrucción por adherencias el 80 % se resuelve en 48 horas con sonda nasogástrica, fluidos y control de diuresis; en general no se pautan antibióticos.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "obstrucción intestinal",
+   "adherencias",
+   "tratamiento conservador"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M003",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En el segundo día tras una colecistectomía, un paciente presenta distensión abdominal, náuseas y ausencia de ruidos intestinales a la auscultación, sin haber hecho deposición. La radiografía simple muestra dilatación difusa del intestino delgado y del colon hasta la ampolla rectal, sin cambio de calibre ni asa centinela, y la palpación es poco dolorosa y sin defensa. ¿Qué diagnóstico explica mejor el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obstrucción mecánica por bridas precoces, con dilatación proximal e intestino distal colapsado."
+   },
+   {
+    "id": "B",
+    "text": "Íleo paralítico por parálisis intestinal primaria o refleja, sin punto de transición."
+   },
+   {
+    "id": "C",
+    "text": "Síndrome compartimental abdominal, definido por presión intraabdominal superior a 20 mmHg."
+   },
+   {
+    "id": "D",
+    "text": "Obstrucción por hernia interna, con ruidos metálicos aumentados y niveles localizados."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El íleo paralítico es el gran diagnóstico diferencial de la obstrucción mecánica, y lo que los separa es la existencia o no de un punto de transición: en la obstrucción mecánica el intestino proximal está dilatado y el distal colapsado, mientras que en el íleo la parálisis afecta por igual a todo el tubo digestivo. Opción A: describe un patrón que el enunciado descarta expresamente, porque aquí no hay cambio de calibre y la dilatación alcanza la ampolla rectal. Opción B: es correcta: se trata de una parálisis intestinal primaria o refleja, frecuente en el postoperatorio, en los procesos inflamatorios y en el síndrome de Ogilvie. Opción C: requiere hipertensión intraabdominal con deterioro cardiovascular, respiratorio y renal, datos que el enunciado no recoge en ningún momento. Opción D: no encaja: el paciente tiene ausencia de ruidos, mientras que en la obstrucción mecánica los ruidos están aumentados y son de carácter metálico en la fase inicial. Punto de enseñanza: El íleo paralítico dilata todo el intestino sin punto obstructivo; es frecuente en el postoperatorio, en procesos inflamatorios y en el síndrome de Ogilvie.",
+  "teaching_point": "Íleo paralítico: dilatación de todo el intestino sin punto obstructivo, frecuente en el postoperatorio, en procesos inflamatorios y en el síndrome de Ogilvie.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "íleo paralítico",
+   "diagnóstico diferencial"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M004",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Mujer de 66 años con carcinomatosis peritoneal de origen ovárico en tratamiento con quimioterapia paliativa, que presenta un cuadro suboclusivo. El TAC muestra varios puntos de obstrucción en el intestino delgado con implantes peritoneales difusos. Su estado general es aceptable. ¿Qué actuación procede según lo expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección segmentaria del punto de obstrucción más proximal con anastomosis."
+   },
+   {
+    "id": "B",
+    "text": "Colocación de un stent endoscópico en cada uno de los puntos de obstrucción."
+   },
+   {
+    "id": "C",
+    "text": "Tratamiento con corticoides y medidas de soporte, sin indicación quirúrgica."
+   },
+   {
+    "id": "D",
+    "text": "Bypass entérico amplio con ostomía de descarga, tratamiento de elección."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase separa la obstrucción por neoplasia primaria de la producida por implantes secundarios, y dentro de estos distingue si el punto de obstrucción es único o múltiple. Opción A: solo tendría sentido si existiera un punto único de obstrucción; con varios puntos, resecar uno no resuelve el cuadro. Opción B: no es aplicable: el stent se plantea en obstrucciones de sigma o recto y no en múltiples estenosis de intestino delgado. Opción C: es correcta: ante implantes con puntos múltiples de obstrucción la clase indica corticoides y descarta expresamente la cirugía. Opción D: figura entre las opciones para un punto único de obstrucción, pero no como tratamiento de elección en la obstrucción multifocal por implantes. Punto de enseñanza: Implantes peritoneales con puntos múltiples de obstrucción: corticoides, no cirugía. Punto único: resección, bypass, stent u ostomía.",
+  "teaching_point": "Implantes peritoneales con puntos múltiples de obstrucción: corticoides, no cirugía. Punto único: resección, bypass, stent u ostomía.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "carcinomatosis",
+   "obstrucción maligna",
+   "corticoides"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M005",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 28 años tras colisión de motocicleta a alta velocidad. Llega con tensión arterial de 80/50 mmHg y frecuencia cardiaca de 130 lpm, con abdomen distendido y defensa a la palpación. Presenta un hematoma en banda por el cinturón. ¿Qué actuación procede en la sala de shock?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Evaluación rápida con ecografía o lavado peritoneal y laparotomía sin demora."
+   },
+   {
+    "id": "B",
+    "text": "TAC abdominal con contraste, prueba de elección por su exactitud del 92-98 %."
+   },
+   {
+    "id": "C",
+    "text": "Observación con exploraciones abdominales seriadas y analítica cada seis horas."
+   },
+   {
+    "id": "D",
+    "text": "Laparoscopia diagnóstica para valorar la penetración en la cavidad peritoneal."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "Se trata de un trauma abdominal cerrado en un paciente hemodinámicamente inestable, situación en la que la clase define una vía de actuación distinta a la del paciente estable. Opción A: es correcta: en el paciente inestable la clase indica evaluación rápida en la sala de shock con ecografía o lavado peritoneal y laparotomía directa. Opción B: corresponde al paciente estable: trasladar al TAC a un paciente hipotenso y taquicárdico retrasa el control quirúrgico de la hemorragia. Opción C: es inadmisible con hipotensión, taquicardia, distensión y defensa: la exploración repetida es útil en el paciente estable, no en este. Opción D: está contraindicada en situación de shock y además su objetivo, valorar trayectorias, corresponde al trauma penetrante. Punto de enseñanza: Trauma cerrado inestable: ecografía o lavado peritoneal en la sala de shock y laparotomía. El TAC es del paciente estable.",
+  "teaching_point": "Trauma cerrado inestable: ecografía o lavado peritoneal en la sala de shock y laparotomía. El TAC es del paciente estable.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "trauma cerrado",
+   "paciente inestable",
+   "laparotomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M006",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Ingresa un varón atropellado por un vehículo, sin solución de continuidad en la piel y con un hematoma en banda en la pared abdominal. Mientras se completa la valoración secundaria, el residente pregunta qué tipo de víscera se lesiona con más frecuencia con este mecanismo y por qué. Señale la respuesta correcta según lo explicado en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Víscera hueca, por el aumento brusco de la presión intraluminal en el impacto."
+   },
+   {
+    "id": "B",
+    "text": "Lesión diafragmática, la más frecuente y la peor detectada por el TAC abdominal."
+   },
+   {
+    "id": "C",
+    "text": "Víscera maciza, por compresión directa y deceleración sobre hígado, bazo o riñón."
+   },
+   {
+    "id": "D",
+    "text": "Lesión vascular retroperitoneal, por desgarro de los vasos en la deceleración."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El mecanismo del traumatismo predice qué tipo de víscera se lesiona, y esa predicción es la que orienta la evaluación inicial. En el trauma cerrado no hay solución de continuidad en la piel, el 75 % se debe a accidentes de tráfico y el daño procede de la absorción de energía por compresión directa, deceleración brusca y aumento de la presión abdominal. Opción A: traslada al trauma cerrado el patrón del penetrante, en el que la lesión más frecuente es la de víscera hueca; el aumento de presión es solo uno de los mecanismos del impacto cerrado. Opción B: confunde una limitación conocida del TAC, que detecta peor las lesiones de diafragma y de víscera hueca, con la frecuencia real de esa lesión. Opción C: es correcta: en el trauma cerrado la lesión más frecuente es la de víscera maciza, en forma de laceración o fractura hepática, esplénica, renal o pancreática. Opción D: la lesión vascular retroperitoneal es posible por deceleración, pero no es la lesión más frecuente de este mecanismo. Punto de enseñanza: Trauma cerrado: víscera maciza (hígado, bazo, riñón, páncreas). Trauma penetrante: víscera hueca.",
+  "teaching_point": "Trauma cerrado: víscera maciza (hígado, bazo, riñón, páncreas). Trauma penetrante: víscera hueca.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "mecanismo lesional",
+   "trauma cerrado",
+   "trauma penetrante"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M007",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 34 años, hemodinámicamente estable y sin signos de irritación peritoneal, con una herida por arma blanca en el abdomen anterior que alcanza la fascia. Se realiza un lavado peritoneal diagnóstico infundiendo un litro de suero salino. ¿Qué resultado se considera positivo según los criterios expuestos en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Entre 50.000 y 100.000 hematíes/ml, cifra que ya se considera claramente positiva."
+   },
+   {
+    "id": "B",
+    "text": "Más de 100.000 hematíes/ml o más de 500 leucocitos/ml en el líquido recuperado."
+   },
+   {
+    "id": "C",
+    "text": "Menos de 50.000 hematíes/ml con menos de 100 leucocitos/ml en el líquido."
+   },
+   {
+    "id": "D",
+    "text": "La aspiración de menos de 10 ml de sangre antes de infundir el suero."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El lavado peritoneal diagnóstico tiene umbrales numéricos concretos que separan el resultado positivo del intermedio y del negativo, y conviene conocerlos con precisión. Opción A: corresponde al rango intermedio, junto a 100-500 leucocitos/ml, que no permite considerar positivo el lavado. Opción B: es correcta: son los umbrales de positividad tras infundir un litro de suero salino que recoge la clase. Opción C: define precisamente el resultado negativo del lavado peritoneal diagnóstico. Opción D: invierte el criterio de la aspiración inicial: es positiva la obtención de más de 10 ml de sangre pura, bilis, líquido intestinal o comida. Punto de enseñanza: LPD positivo: más de 10 ml de sangre pura en la aspiración inicial, o tras un litro de salino más de 100.000 hematíes/ml o más de 500 leucocitos/ml.",
+  "teaching_point": "LPD positivo: más de 10 ml de sangre pura en la aspiración inicial, o tras un litro de salino más de 100.000 hematíes/ml o más de 500 leucocitos/ml.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 20
+  },
+  "tags": [
+   "lavado peritoneal diagnóstico",
+   "arma blanca"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M008",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 25 años tras una caída de bicicleta, con lesión esplénica en el TAC. Está hemodinámicamente estable y consciente, sin irritación peritoneal, con hemoperitoneo escaso y sin otras lesiones abdominales. Ha requerido la transfusión de un concentrado de hematíes. ¿Qué actuación procede en este momento?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esplenectomía urgente, por el antecedente de transfusión de hemoderivados."
+   },
+   {
+    "id": "B",
+    "text": "Laparotomía exploradora con esplenorrafia, para evitar el resangrado tardío."
+   },
+   {
+    "id": "C",
+    "text": "Laparoscopia diagnóstica para descartar lesiones intestinales asociadas."
+   },
+   {
+    "id": "D",
+    "text": "Tratamiento conservador, con seguimiento clínico, analítico y control por TAC."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El paciente cumple todos los criterios que la clase exige para el tratamiento conservador de una lesión de víscera sólida, incluida la transfusión inferior a dos concentrados. Opción A: malinterpreta el criterio: el límite que la clase fija son dos concentrados de hematíes, y el paciente solo ha recibido uno. Opción B: renuncia sin motivo al tratamiento conservador, que en el bazo alcanza un 90 % de éxito en niños y es la actitud indicada en el paciente estable. Opción C: no está indicada aquí: la laparoscopia se emplea en el trauma penetrante para valorar trayectorias y sospecha de lesión diafragmática. Opción D: es correcta: cumple estabilidad hemodinámica, hemoperitoneo escaso, situación neurológica intacta, ausencia de otras lesiones y menos de dos concentrados. Punto de enseñanza: Tratamiento conservador de la víscera sólida: estabilidad, hemoperitoneo escaso, neurológico intacto, sin otras lesiones, menos de dos concentrados y seguimiento con TAC.",
+  "teaching_point": "Tratamiento conservador de la víscera sólida: estabilidad, hemoperitoneo escaso, neurológico intacto, sin otras lesiones, menos de dos concentrados y seguimiento con TAC.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "trauma esplénico",
+   "tratamiento conservador"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M009",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Paciente intervenido mediante laparotomía por trauma hepático, con cierre de la pared a tensión. A las doce horas presenta oliguria, elevación de la presión venosa central, aumento de la presión inspiratoria pico y dificultad creciente para ventilar. La presión intraabdominal medida es de 26 mmHg. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Laparotomía descompresiva urgente, tratamiento del síndrome compartimental abdominal."
+   },
+   {
+    "id": "B",
+    "text": "Aumentar la PEEP y forzar la diuresis con furosemida, evitando la reintervención."
+   },
+   {
+    "id": "C",
+    "text": "Embolización arterial hepática urgente por sospecha de resangrado."
+   },
+   {
+    "id": "D",
+    "text": "Packing perihepático percutáneo y traslado a UCI para resucitación."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El cuadro corresponde a un síndrome compartimental abdominal, definido como hipertensión intraabdominal por encima de 20 mmHg con deterioro cardiovascular, respiratorio y renal. Opción A: es correcta: la clase señala la laparotomía descompresiva como el tratamiento del síndrome compartimental abdominal. Opción B: trata los síntomas sin resolver la causa: la elevación del diafragma y la caída del flujo renal persisten mientras no se descomprima el abdomen. Opción C: es una técnica de hemostasia en el trauma hepático, pero no explica la oliguria ni la dificultad ventilatoria por hipertensión intraabdominal. Opción D: confunde el packing, que es una maniobra abierta de compresión perihepática, con el manejo de la hipertensión intraabdominal establecida. Punto de enseñanza: Síndrome compartimental abdominal: presión intraabdominal mayor de 20 mmHg con deterioro cardiovascular, respiratorio y renal. El tratamiento es la laparotomía descompresiva.",
+  "teaching_point": "Síndrome compartimental abdominal: presión intraabdominal mayor de 20 mmHg con deterioro cardiovascular, respiratorio y renal. El tratamiento es la laparotomía descompresiva.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "síndrome compartimental",
+   "hipertensión intraabdominal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M010",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 40 años con trauma abdominal penetrante múltiple. Durante la laparotomía presenta una temperatura de 33,5 °C, acidosis metabólica grave y sangrado difuso en sábana por coagulopatía. Lleva dos horas de intervención y continúa inestable. ¿Qué actuación procede según la estrategia expuesta en clase para esta situación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Completar la reparación definitiva de las lesiones antes de salir de quirófano."
+   },
+   {
+    "id": "B",
+    "text": "Control simple de la hemorragia y de las perforaciones, packing, cierre de piel y UCI."
+   },
+   {
+    "id": "C",
+    "text": "Cerrar el abdomen a tensión y trasladar a la UCI sin controlar el sangrado."
+   },
+   {
+    "id": "D",
+    "text": "Aislamiento vascular hepático prolongado y hepatotomía reglada con ligadura selectiva."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La tríada letal de acidosis metabólica, hipotermia y coagulopatía es exactamente la indicación de la laparotomía de control de daños, que se desarrolla en tres tiempos. Opción A: es justo lo contrario de la estrategia: la reparación definitiva se difiere al tercer tiempo, tras la resucitación en la unidad de cuidados intensivos. Opción B: es correcta: el primer tiempo del control de daños consiste en controlar de manera simple hemorragia y perforaciones, hacer packing y cerrar la piel. Opción C: añade el riesgo de síndrome compartimental abdominal y deja sin resolver la hemorragia, que es la prioridad del primer tiempo. Opción D: son maniobras de hemostasia hepática reglada, incompatibles con la premura que impone la tríada letal en un paciente inestable. Punto de enseñanza: Tríada letal (acidosis, hipotermia, coagulopatía): control de daños en tres tiempos, hemostasia simple y packing, resucitación en UCI y reoperación definitiva.",
+  "teaching_point": "Tríada letal (acidosis, hipotermia, coagulopatía): control de daños en tres tiempos, hemostasia simple y packing, resucitación en UCI y reoperación definitiva.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 30
+  },
+  "tags": [
+   "control de daños",
+   "tríada letal",
+   "packing"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M011",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Varón de 29 años hemodinámicamente estable con una herida por arma blanca en la región lumbar derecha, sin signos de irritación peritoneal ni hemorragia externa activa. Se plantea qué prueba de imagen solicitar para descartar una lesión retroperitoneal inadvertida. ¿Qué actuación procede según lo expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ecografía abdominal, sensible para líquido libre y suficiente en heridas posteriores."
+   },
+   {
+    "id": "B",
+    "text": "Lavado peritoneal diagnóstico, prueba de elección en las heridas de la espalda."
+   },
+   {
+    "id": "C",
+    "text": "Radiografía simple de abdomen para localizar el trayecto y descartar neumoperitoneo."
+   },
+   {
+    "id": "D",
+    "text": "TAC con triple contraste, con una exactitud del 97 % en el abdomen posterior."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "En el trauma penetrante estable la prueba de imagen depende de la región anatómica de entrada, y la clase da una recomendación específica para el abdomen posterior. Opción A: es insuficiente: la ecografía detecta líquido libre con sensibilidad del 70-90 % y no evalúa adecuadamente el retroperitoneo. Opción B: explora la cavidad peritoneal, precisamente el compartimento que no está en cuestión en una herida de la región lumbar. Opción C: no permite evaluar el retroperitoneo ni excluir lesiones viscerales; su rendimiento en el abdomen agudo es escaso. Opción D: es correcta: la clase indica el TAC con triple contraste para las heridas del abdomen posterior y le atribuye una exactitud del 97 %. Punto de enseñanza: Herida por arma blanca en abdomen posterior y paciente estable: TAC con triple contraste, exactitud del 97 %.",
+  "teaching_point": "Herida por arma blanca en abdomen posterior y paciente estable: TAC con triple contraste, exactitud del 97 %.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 22
+  },
+  "tags": [
+   "trauma penetrante",
+   "TAC triple contraste"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-M012",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 31 años con herida por arma de fuego en el abdomen y shock hipovolémico. Mantiene el pulso periférico palpable, está consciente y orientado y no presenta traumatismo craneoencefálico asociado. Mientras se prepara el traslado a quirófano, ¿qué objetivo de resucitación procede según lo expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Normalizar la presión sistólica por encima de 120 mmHg antes de trasladar a quirófano."
+   },
+   {
+    "id": "B",
+    "text": "Restricción de fluidos hasta el control quirúrgico, sin objetivo de presión definido."
+   },
+   {
+    "id": "C",
+    "text": "Hipotensión permisiva, con un objetivo de presión arterial sistólica de 70 mmHg."
+   },
+   {
+    "id": "D",
+    "text": "Hipotensión permisiva solo si existe traumatismo craneoencefálico asociado."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La hipotensión permisiva se aplica en el shock hipovolémico traumático que cumple unas condiciones concretas, todas presentes en este paciente. Opción A: contradice la estrategia: elevar la presión antes del control quirúrgico favorece el resangrado y la dilución de los factores de coagulación. Opción B: lleva el concepto al extremo: no se trata de retirar la resucitación ni de renunciar a un objetivo, sino de dirigirla a una presión sistólica de 70 mmHg. Opción C: es correcta: el paciente tiene shock hipovolémico por trauma penetrante, pulso periférico palpable, conciencia intacta y ausencia de traumatismo craneoencefálico. Opción D: invierte la condición: el traumatismo craneoencefálico es precisamente lo que excluye la estrategia de hipotensión permisiva. Punto de enseñanza: Hipotensión permisiva: shock hipovolémico traumático sin traumatismo craneoencefálico, con pulso periférico y conciencia conservados, objetivo sistólica 70 mmHg.",
+  "teaching_point": "Hipotensión permisiva: shock hipovolémico traumático sin traumatismo craneoencefálico, con pulso periférico y conciencia conservados, objetivo sistólica 70 mmHg.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 27
+  },
+  "tags": [
+   "hipotensión permisiva",
+   "resucitación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T09-C001",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La etiología de la obstrucción intestinal mecánica sigue una distribución bastante constante que conviene tener memorizada, porque orienta la sospecha diagnóstica antes incluso de disponer de la prueba de imagen. Enumere, en un máximo de veinte palabras, las tres causas más frecuentes de obstrucción intestinal por orden de frecuencia.",
+  "respuesta_canonica": "Adherencias, neoplasias y hernias",
+  "aceptadas": [
+   "adherencias, neoplasias y hernias",
+   "adherencias (60 %), neoplasias (20 %) y hernias (10 %)",
+   "bridas o adherencias, tumores y hernias",
+   "bridas, tumores y hernias",
+   "adherencias por cirugía previa, neoplasias y hernias",
+   "adherencias, tumores y hernias"
+  ],
+  "conceptos_clave": [
+   "adherencias",
+   "neoplasias",
+   "hernias"
+  ],
+  "max_palabras": 20,
+  "explanation": "La causa más frecuente de obstrucción intestinal mecánica son las adherencias en pacientes con cirugía previa, que suponen en torno al 60 % de los casos. Le siguen las neoplasias, primarias o en forma de implantes, con alrededor del 20 %, y las hernias, con aproximadamente el 10 %. El 10 % restante agrupa causas diversas: enfermedad de Crohn, infecciones, bezoares y cuerpos extraños. Este orden tiene una consecuencia práctica inmediata, y es que en un paciente con laparotomía previa la primera hipótesis debe ser la brida, cuyo manejo inicial es conservador porque en torno al 80 % se resuelve en las primeras 48 horas. Conviene además no olvidar dos gestos exploratorios que la clase subraya: buscar cicatrices en el abdomen y explorar siempre las áreas inguinales, porque una hernia incarcerada puede pasar desapercibida. Se considera acertada la respuesta que enumere las tres causas en ese orden.",
+  "teaching_point": "Adherencias, neoplasias y hernias, en ese orden; y en toda obstrucción hay que explorar las regiones inguinales.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "obstrucción intestinal",
+   "etiología"
+  ]
+ },
+ {
+  "id": "T09-C002",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En la obstrucción intestinal se produce un secuestro de agua y electrolitos en la luz y en la pared del intestino que altera de forma característica el equilibrio hidroelectrolítico y ácido-base del paciente. Indique, en un máximo de veinte palabras, las alteraciones analíticas propias de ese fenómeno de tercer espacio.",
+  "respuesta_canonica": "Hipocloremia, hipopotasemia y alcalosis metabólica, con hemoconcentración e insuficiencia renal prerrenal",
+  "aceptadas": [
+   "hipocloremia, hipopotasemia y alcalosis metabólica",
+   "alcalosis metabólica hipoclorémica e hipopotasémica con hemoconcentración",
+   "hipocloremia, hipopotasemia, alcalosis metabólica, hemoconcentración e insuficiencia renal prerrenal",
+   "alcalosis metabólica con hipocloremia e hipopotasemia y fracaso renal prerrenal",
+   "deshidratación con hemoconcentración, hipocloremia, hipopotasemia y alcalosis metabólica"
+  ],
+  "conceptos_clave": [
+   "hipocloremia",
+   "hipopotasemia",
+   "alcalosis metabólica"
+  ],
+  "max_palabras": 20,
+  "explanation": "La fisiopatología de la obstrucción intestinal se resume en un tercer espacio: el agua y los electrolitos quedan secuestrados en la luz intestinal y en la propia pared del intestino, y dejan de estar disponibles para el compartimento intravascular. La consecuencia inmediata es la deshidratación con hipovolemia, que se traduce en insuficiencia renal prerrenal y en hemoconcentración. En el plano iónico y ácido-base aparecen hipocloremia, hipopotasemia y alcalosis metabólica, agravadas por los vómitos. Este conjunto explica por qué el tratamiento inicial descansa en la reposición hidroelectrolítica con suero salino y cloruro potásico, en la descompresión digestiva con sonda nasogástrica y en la monitorización de la diuresis mediante sonda de Foley, y por qué en general no se pautan antibióticos. Se considera acertada la respuesta que recoja la tríada iónica y ácido-base característica.",
+  "teaching_point": "Obstrucción intestinal: tercer espacio con hemoconcentración, fracaso prerrenal, hipocloremia, hipopotasemia y alcalosis metabólica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de obstrucción intestinal",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "tercer espacio",
+   "alteraciones hidroelectrolíticas"
+  ]
+ },
+ {
+  "id": "T09-C003",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "El síndrome compartimental abdominal es una complicación grave del cierre a tensión tras una laparotomía por traumatismo, y su reconocimiento precoz depende de manejar una definición numérica concreta junto a sus repercusiones orgánicas. Defina, en un máximo de veinte palabras, el síndrome compartimental abdominal e indique cuál es su tratamiento.",
+  "respuesta_canonica": "Hipertensión intraabdominal mayor de 20 mmHg con deterioro orgánico; tratamiento: laparotomía descompresiva",
+  "aceptadas": [
+   "hipertensión intraabdominal mayor de 20 mmHg con deterioro orgánico; laparotomía descompresiva",
+   "presión intraabdominal superior a 20 mmHg con repercusión cardiovascular, respiratoria y renal; laparotomía descompresiva",
+   "hipertensión intraabdominal >20 mmHg con fallo orgánico, tratada con descompresión quirúrgica",
+   "presión intraabdominal por encima de 20 mmHg con fallo cardiovascular, respiratorio y renal; se trata con laparotomía descompresiva",
+   "presión intraabdominal >20 mmHg con deterioro orgánico; tratamiento con laparotomía descompresiva"
+  ],
+  "conceptos_clave": [
+   "20 mmHg",
+   "laparotomía descompresiva"
+  ],
+  "max_palabras": 20,
+  "explanation": "El síndrome compartimental abdominal se define como una hipertensión intraabdominal superior a 20 mmHg que causa deterioro cardiovascular, respiratorio y renal. En el plano hemodinámico aumentan la presión venosa central, la presión de la arteria pulmonar y las resistencias vasculares, mientras cae el gasto cardiaco. En el plano respiratorio, la elevación del diafragma disminuye la compliance pulmonar y cardiaca, eleva la presión inspiratoria pico y obliga a aumentar la PEEP para poder ventilar al paciente. En el plano renal aparece oliguria por disminución del flujo renal. El tratamiento es la laparotomía descompresiva, y no medidas de soporte aisladas, porque mientras persista la hipertensión intraabdominal el deterioro orgánico continúa. Por eso el cierre de la laparotomía en el paciente traumatizado debe hacerse evitando la tensión. Se considera acertada la respuesta que incluya el umbral numérico y la descompresión quirúrgica.",
+  "teaching_point": "Presión intraabdominal mayor de 20 mmHg con fallo cardiovascular, respiratorio y renal: laparotomía descompresiva.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "síndrome compartimental abdominal",
+   "tratamiento"
+  ]
+ },
+ {
+  "id": "T09-C004",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "La laparotomía de control de daños se indica ante una inestabilidad extrema que conduce a un conjunto de tres alteraciones fisiológicas que se refuerzan entre sí y que se conocen conjuntamente como tríada letal. Enumere, en un máximo de veinte palabras, los tres componentes de esa tríada letal.",
+  "respuesta_canonica": "Acidosis metabólica, hipotermia y coagulopatía",
+  "aceptadas": [
+   "acidosis metabólica, hipotermia y coagulopatía",
+   "acidosis, hipotermia y coagulopatía",
+   "hipotermia, acidosis metabólica y coagulopatía",
+   "coagulopatía, hipotermia y acidosis metabólica",
+   "hipotermia, coagulopatía y acidosis"
+  ],
+  "conceptos_clave": [
+   "acidosis",
+   "hipotermia",
+   "coagulopatía"
+  ],
+  "max_palabras": 20,
+  "explanation": "La tríada letal está formada por acidosis metabólica, hipotermia y coagulopatía, y define la situación de inestabilidad extrema en la que está indicada la laparotomía de control de daños. Los tres elementos se potencian entre sí: la hipoperfusión genera acidosis, la acidosis y la hipotermia deterioran la función de los factores de coagulación y de las plaquetas, y la coagulopatía resultante perpetúa la hemorragia y con ella la hipoperfusión. Romper ese círculo exige abreviar la cirugía. El control de daños se estructura en tres tiempos: primero, control simple de la hemorragia y de las perforaciones intestinales, packing y cierre de la piel; segundo, resucitación en la unidad de cuidados intensivos para corregir temperatura, acidosis y coagulación; y tercero, reoperación con reparación definitiva de las lesiones. Se considera acertada la respuesta que nombre los tres componentes.",
+  "teaching_point": "Acidosis metabólica, hipotermia y coagulopatía: la tríada letal que indica la laparotomía de control de daños.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 30
+  },
+  "tags": [
+   "tríada letal",
+   "control de daños"
+  ]
+ },
+ {
+  "id": "T09-L001",
+  "tema": 9,
+  "bloque": "abdomen_agudo",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 34 años que ingresa tras un accidente de tráfico a alta velocidad, con traumatismo abdominal cerrado y hematoma en banda por el cinturón de seguridad. Exponga, en un máximo de 350 palabras, la evaluación del traumatismo abdominal cerrado: mecanismos lesionales y lesión más frecuente, exploración física, algoritmo diagnóstico según la estabilidad hemodinámica y criterios para el tratamiento conservador de las lesiones de víscera sólida.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Sitúa el trauma cerrado en la evaluación del politraumatizado: valoración primaria ABCDE, resucitación y valoración secundaria",
+    "puntos": 0.43,
+    "claves": [
+     "ABCDE",
+     "primaria",
+     "secundaria",
+     "resucitación"
+    ]
+   },
+   {
+    "elemento": "Describe los mecanismos del trauma cerrado: compresión directa, deceleración brusca y aumento de la presión abdominal",
+    "puntos": 0.43,
+    "claves": [
+     "compresión",
+     "deceleración",
+     "presión abdominal"
+    ]
+   },
+   {
+    "elemento": "Identifica la lesión de víscera maciza como la más frecuente en el trauma cerrado",
+    "puntos": 0.43,
+    "claves": [
+     "víscera maciza",
+     "hígado",
+     "bazo",
+     "riñón"
+    ]
+   },
+   {
+    "elemento": "Detalla la exploración física, incluidas espalda, flancos, periné y genitales, y el valor de la exploración repetida",
+    "puntos": 0.43,
+    "claves": [
+     "flancos",
+     "periné",
+     "repetida"
+    ]
+   },
+   {
+    "elemento": "Aplica el algoritmo del paciente estable: TAC como prueba de elección y sus limitaciones en víscera hueca y diafragma",
+    "puntos": 0.43,
+    "claves": [
+     "estable",
+     "TAC",
+     "víscera hueca",
+     "diafragma"
+    ]
+   },
+   {
+    "elemento": "Aplica el algoritmo del paciente inestable: ecografía o lavado peritoneal en sala de shock y laparotomía directa",
+    "puntos": 0.43,
+    "claves": [
+     "inestable",
+     "ecografía",
+     "lavado peritoneal",
+     "laparotomía"
+    ]
+   },
+   {
+    "elemento": "Enumera los criterios de tratamiento conservador de la lesión de víscera sólida: estabilidad hemodinámica, hemoperitoneo pequeño, neurológico intacto, menos de dos concentrados y seguimiento",
+    "puntos": 0.42,
+    "claves": [
+     "estabilidad",
+     "hemoperitoneo",
+     "concentrados",
+     "seguimiento"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El traumatismo abdominal cerrado se evalúa dentro del esquema del politraumatizado: valoración primaria ABCDE, resucitación y valoración secundaria. En esta última se recogen el mecanismo del trauma, cerrado o penetrante, y su energía, junto a una exploración física completa de cabeza a pies. En el trauma cerrado no existe solución de continuidad en la piel; el 75 % se debe a accidentes de tráfico y el resto a deportes, agresiones y caídas. El daño procede de la absorción de energía, proporcional a la masa por el cuadrado de la velocidad, y los mecanismos son la compresión directa, la deceleración brusca y el aumento de la presión abdominal. La lesión más frecuente es la de víscera maciza, en forma de laceración o fractura hepática, esplénica, renal o pancreática. La exploración física busca en la inspección el hematoma en banda del cinturón y la distensión, y en la palpación el dolor y la defensa; no deben olvidarse la espalda, los flancos, el periné y los genitales externos. La exploración abdominal repetida aporta información esencial. El algoritmo diagnóstico depende de la estabilidad hemodinámica. En el paciente estable la prueba de elección es el TAC, que evalúa órganos sólidos, líquido y aire libre y el retroperitoneo con una exactitud del 92-98 %, con la limitación conocida de las lesiones de víscera hueca y de diafragma; la ecografía y el lavado peritoneal quedan como alternativas. En el paciente inestable, con hipotensión, taquicardia, distensión o defensa, se realiza una evaluación rápida en la sala de shock mediante ecografía, sensible para líquido libre en un 70-90 %, o lavado peritoneal, y se indica laparotomía directa. El tratamiento conservador se reserva a las lesiones de vísceras sólidas —hígado, bazo, riñón— en paciente estable y sin otras lesiones asociadas, y exige estabilidad hemodinámica, hemoperitoneo pequeño sin irritación peritoneal, situación neurológica intacta, ausencia de otras lesiones abdominales, necesidad de menos de dos concentrados de hematíes y seguimiento clínico, analítico y con TAC. En el bazo infantil alcanza un 90 % de éxito.",
+  "explanation": "La pregunta evalúa si el alumno maneja el trauma abdominal cerrado como un algoritmo y no como una lista de datos. El eje que organiza toda la respuesta es la estabilidad hemodinámica: el paciente estable va al TAC, el inestable se evalúa en la sala de shock con ecografía o lavado peritoneal y pasa a laparotomía. Invertir ese eje, o proponer un TAC en un paciente hipotenso y taquicárdico, es el error que más penaliza. Se valora además que se identifique correctamente la víscera maciza como lesión más frecuente en el mecanismo cerrado, frente a la víscera hueca del penetrante, y que se citen las limitaciones del TAC en las lesiones de víscera hueca y de diafragma, porque explican por qué la exploración abdominal repetida sigue siendo esencial. Los criterios de tratamiento conservador deben enumerarse de forma concreta, incluido el límite de dos concentrados de hematíes y el seguimiento con TAC, y no resumirse en un genérico paciente estable.",
+  "teaching_point": "En el trauma abdominal cerrado la estabilidad hemodinámica decide el algoritmo: TAC si está estable, ecografía o lavado y laparotomía si no lo está.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de traumatismos abdominales",
+  "fuente_clase": {
+   "archivo": "09.- Obstrucción intestinal. AA trauma.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "trauma cerrado",
+   "algoritmo diagnóstico",
+   "tratamiento conservador"
+  ]
+ }
+]

@@ -1,0 +1,727 @@
+[
+ {
+  "id": "T17-M001",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Se activa un procedimiento de donación en un paciente ingresado en cuidados intensivos en el que, tras acuerdo entre el equipo sanitario y los familiares, se decide la limitación del tratamiento de soporte vital y se espera la parada cardiaca en condiciones programadas. Según la clasificación de la donación en asistolia expuesta en clase, ¿qué categoría corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tipo III, donación en asistolia controlada."
+   },
+   {
+    "id": "B",
+    "text": "Tipo II, asistolia tras resucitación infructuosa."
+   },
+   {
+    "id": "C",
+    "text": "Tipo I, fallecido fuera del hospital sin resucitación."
+   },
+   {
+    "id": "D",
+    "text": "Tipo IV, parada cardiaca en muerte encefálica."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase divide la donación en asistolia en no controlada, tipos I y II, y controlada, tipos III y IV. El tipo I corresponde al fallecido fuera del hospital por muerte súbita, traumática o no, sin maniobras de resucitación. El tipo II es la resucitación infructuosa, con sus variantes extrahospitalaria e intrahospitalaria. El tipo III es la situación de espera del paro cardiaco tras la limitación del tratamiento de soporte vital acordada entre el equipo sanitario y la familia o los representantes del paciente. El tipo IV es la parada cardiaca que ocurre mientras se establece el diagnóstico de muerte encefálica o después de establecido, pero antes del traslado a quirófano. Opción A: correcta, se corresponde con la definición literal. Opción B: exige maniobras de resucitación fallidas, que aquí no se realizan. Opción C: el paciente está ingresado, no ha fallecido fuera del hospital. Opción D: no hay diagnóstico de muerte encefálica en curso. Punto de enseñanza: lo que define el tipo III es la limitación acordada del soporte vital.",
+  "teaching_point": "Maastricht III: asistolia controlada tras limitación acordada del tratamiento de soporte vital.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "donacion en asistolia",
+   "Maastricht",
+   "donante"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M002",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "En la fase de asignación de un injerto hepático se valoran la compatibilidad ABO, la similitud antropométrica entre donante y receptor, la antigüedad en lista de espera y la gravedad del receptor. Respecto a la puntuación MELD empleada para graduar esa gravedad, ¿qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Se calcula con la albúmina, la ascitis y la encefalopatía hepática."
+   },
+   {
+    "id": "B",
+    "text": "Se calcula con la creatinina, la bilirrubina y el INR del receptor."
+   },
+   {
+    "id": "C",
+    "text": "Mide el gradiente de presión venosa hepática por cateterismo suprahepático."
+   },
+   {
+    "id": "D",
+    "text": "Se basa en el grado de fibrosis obtenido mediante biopsia hepática."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El MELD que se expone en clase se calcula a partir de tres variables analíticas del receptor: la creatinina, la bilirrubina y el INR, combinadas en una fórmula logarítmica. Es una puntuación de gravedad, no de función sintética global, y por eso se emplea para ordenar la lista de espera junto con la compatibilidad ABO, la similitud antropométrica y la antigüedad en lista. Opción A: albúmina, ascitis y encefalopatía son componentes de la clasificación de Child-Pugh, que la clase utiliza en el contexto de la hepatopatía y del hepatocarcinoma, no del MELD. Opción B: correcta. Opción C: el gradiente de presión venosa hepática requiere un estudio hemodinámico y se emplea en la estadificación del hepatocarcinoma en estadio precoz, no en la asignación de injertos. Opción D: la biopsia no interviene en el cálculo del MELD. Punto de enseñanza: MELD igual a creatinina, bilirrubina e INR; Child-Pugh es otra cosa.",
+  "teaching_point": "El MELD se calcula con creatinina, bilirrubina e INR, y ordena la prioridad en lista de espera.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 22
+  },
+  "tags": [
+   "MELD",
+   "asignacion",
+   "lista de espera"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M003",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "sin_material_docente": false,
+  "stem": "Durante la hepatectomía del receptor en un trasplante hepático ortotópico, el cirujano decide despegar el hígado nativo de la vena cava inferior manteniendo esta íntegra, en lugar de resecar el segmento retrohepático de la cava junto con la pieza. ¿Cómo se denomina esta variante técnica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Técnica clásica, con resección de la cava retrohepática."
+   },
+   {
+    "id": "B",
+    "text": "Trasplante hepático auxiliar de implante heterotópico."
+   },
+   {
+    "id": "C",
+    "text": "Técnica de piggyback, que preserva la cava retrohepática."
+   },
+   {
+    "id": "D",
+    "text": "Trasplante secuencial o en dominó del injerto hepático."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase contrapone dos formas de realizar la hepatectomía del receptor: la técnica clásica, que reseca la vena cava retrohepática junto con el hígado nativo, y la técnica de piggyback, que preserva la cava retrohepática despegando el hígado de ella. La diferencia no es anecdótica, porque conservar la cava evita el clampaje completo del retorno venoso y modifica la tolerancia hemodinámica de la fase anhepática. Opción A: es exactamente la técnica contraria a la descrita en el enunciado. Opción B: el trasplante auxiliar es una de las variantes que la clase agrupa junto al split y al secuencial, y consiste en implantar un injerto sin extirpar todo el hígado nativo, no en una forma de disecar la cava. Opción C: correcta. Opción D: el trasplante secuencial o en dominó se refiere al origen del injerto, no a la técnica de hepatectomía. Punto de enseñanza: piggyback igual a preservación de la cava retrohepática.",
+  "teaching_point": "La técnica de piggyback preserva la vena cava retrohepática; la clásica la reseca con el hígado nativo.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "piggyback",
+   "tecnica quirurgica",
+   "cava retrohepatica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M004",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "sin_material_docente": false,
+  "stem": "Al quinto día de un trasplante hepático, un paciente presenta elevación brusca de las transaminasas y deterioro de la función del injerto, y empieza a salir bilis por el drenaje abdominal. La colangiografía confirma una fuga en la anastomosis biliar, sin colección infectada ni signos de sepsis. ¿Qué complicación hay que descartar con carácter urgente como causa de todo el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Rechazo agudo celular del injerto hepático implantado."
+   },
+   {
+    "id": "B",
+    "text": "Disfunción primaria del injerto por daño de preservación."
+   },
+   {
+    "id": "C",
+    "text": "Trombosis de la vena porta del injerto hepático."
+   },
+   {
+    "id": "D",
+    "text": "Trombosis de la arteria hepática del injerto hepático."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "Las complicaciones vasculares del trasplante hepático se producen sobre todo en el postoperatorio precoz, y la clase sitúa la arteria hepática como la localización más frecuente, en torno al 4 a 5 por ciento, por delante de la vena porta, con un 2,2 por ciento, y de las venas suprahepáticas y la cava. Dentro de las complicaciones arteriales enumera la trombosis, la estenosis, los pseudoaneurismas y el síndrome de robo arterial, y les atribuye dos consecuencias que van juntas: la disfunción del injerto y la patología biliar. Ese es el paso que pide el caso: la vía biliar del injerto se nutre exclusivamente del aporte arterial, de modo que una fuga biliar precoz no es un problema local de la sutura, sino el aviso de que la arteria puede estar ocluida. Opción A: el rechazo agudo se diagnostica por biopsia, cursa con deterioro analítico y no produce necrosis ni fuga de la vía biliar. Opción B: la disfunción primaria aparece ya desde la reperfusión y se define precisamente en ausencia de complicaciones vasculares y biliares. Opción C: la trombosis portal es menos frecuente y se manifiesta por hipertensión portal y deterioro funcional, sin isquemia del conducto biliar. Opción D: correcta. Punto de enseñanza: ante una fuga biliar precoz, lo primero que hay que explorar es la arteria hepática.",
+  "teaching_point": "La vía biliar del injerto depende solo del aporte arterial: una fuga biliar precoz obliga a descartar trombosis de la arteria hepática.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "trombosis arterial",
+   "complicaciones vasculares",
+   "postoperatorio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M005",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Un injerto hepático procedente de un donante de edad avanzada, con esteatosis estimada en el 40 por ciento y un tiempo de isquemia prolongado, muestra tras la reperfusión una función muy deficiente. El estudio vascular y la colangiografía no demuestran complicaciones vasculares ni biliares. ¿Qué complicación describe la clase para esta situación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Disfunción del injerto por el daño sufrido durante la preservación."
+   },
+   {
+    "id": "B",
+    "text": "Rechazo hiperagudo mediado por anticuerpos preformados."
+   },
+   {
+    "id": "C",
+    "text": "Síndrome de robo arterial por la arteria gastroduodenal."
+   },
+   {
+    "id": "D",
+    "text": "Recidiva precoz de la enfermedad hepática primaria."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define la disfunción del injerto como la consecuencia sobre la función hepática de la lesión isquémica producida durante la extracción, el transporte y la reperfusión, en ausencia de complicaciones vasculares y biliares. Su frecuencia se sitúa entre el 2 y el 20 por ciento, tiene una mortalidad elevada y sus factores de riesgo son la edad avanzada del donante, la esteatosis del injerto superior al 30 por ciento, la isquemia prolongada, las politransfusiones y el uso de drogas vasoactivas. En su forma extrema, el fallo primario del injerto obliga al retrasplante. Opción A: correcta, el caso reúne tres factores de riesgo y cumple la definición por exclusión. Opción B: el rechazo hiperagudo no es la entidad que la clase describe en este contexto. Opción C: el robo arterial es una complicación arterial, excluida por el estudio vascular. Opción D: la recidiva de la enfermedad primaria figura entre las complicaciones tardías. Punto de enseñanza: donante añoso, esteatosis e isquemia larga predicen disfunción.",
+  "teaching_point": "Edad del donante, esteatosis mayor del 30 por ciento e isquemia prolongada son los factores de riesgo de disfunción del injerto.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 39
+  },
+  "tags": [
+   "disfuncion del injerto",
+   "esteatosis",
+   "preservacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M006",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "extrema",
+  "sin_material_docente": false,
+  "stem": "La biopsia hepática de un paciente trasplantado hace tres años, con colestasis progresiva de meses de evolución y antecedentes de un episodio de rechazo agudo y de infección por citomegalovirus, muestra pérdida de conductos biliares interlobulillares y arteriopatía obliterativa de las ramas arteriales. ¿Qué diagnóstico corresponde a estos hallazgos?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Rechazo agudo celular de presentación tardía."
+   },
+   {
+    "id": "B",
+    "text": "Rechazo crónico del injerto hepático."
+   },
+   {
+    "id": "C",
+    "text": "Recidiva de la hepatopatía primaria del receptor."
+   },
+   {
+    "id": "D",
+    "text": "Toxicidad directa de los fármacos inmunosupresores."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase caracteriza el rechazo crónico por dos hallazgos histológicos, la ductopenia y la arteriopatía obliterativa, y lo describe como menos frecuente que el agudo, entre el 3 y el 10 por ciento frente al 20 al 60 por ciento del agudo. Además señala sus factores de riesgo: un episodio previo de rechazo agudo y la infección por citomegalovirus, ambos presentes en el enunciado, y recuerda que el diagnóstico del rechazo se establece mediante biopsia hepática. Opción A: el rechazo agudo es un rechazo celular de los linfocitos del receptor frente a los antígenos alogénicos del donante y no produce pérdida de conductos ni arteriopatía obliterativa. Opción B: correcta. Opción C: la recidiva de la enfermedad primaria es una complicación tardía, pero reproduciría la histología de la enfermedad de base. Opción D: la toxicidad de los inmunosupresores figura entre las complicaciones tardías, sin ese patrón. Punto de enseñanza: ductopenia más arteriopatía obliterativa igual a rechazo crónico.",
+  "teaching_point": "Ductopenia y arteriopatía obliterativa en la biopsia definen el rechazo crónico del injerto hepático.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 46
+  },
+  "tags": [
+   "rechazo cronico",
+   "biopsia",
+   "ductopenia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M007",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Un paciente trasplantado hepático desarrolla, en la sexta semana del postoperatorio, fiebre, leucopenia y elevación de transaminasas, sin datos de complicación vascular ni biliar en las pruebas de imagen. Se encuentra bajo inmunosupresión plena. ¿Qué agente infeccioso debe sospecharse en primer lugar según el calendario expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Escherichia coli, de origen entérico y foco abdominal."
+   },
+   {
+    "id": "B",
+    "text": "Aspergillus fumigatus, con puerta de entrada pulmonar."
+   },
+   {
+    "id": "C",
+    "text": "Citomegalovirus, del grupo de los virus herpes."
+   },
+   {
+    "id": "D",
+    "text": "Pneumocystis, con neumonía intersticial bilateral difusa."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "Las infecciones son la complicación más frecuente del trasplante hepático, con una frecuencia en torno al 75 por ciento, y son consecuencia directa del estado de inmunosupresión. La clase ordena los agentes por momento de aparición y sitúa expresamente los virus, citomegalovirus y herpes simple, a partir de la cuarta a sexta semana, mientras que las bacterias grampositivas y entéricas y los hongos como Candida y Aspergillus dominan el periodo inicial. La combinación de fiebre, leucopenia y citólisis en la sexta semana es el cuadro típico de la infección por citomegalovirus. Opción A: las infecciones bacterianas entéricas predominan en el postoperatorio inmediato y no cursan con leucopenia. Opción B: la aspergilosis es una infección fúngica del periodo precoz y con expresión pulmonar. Opción C: correcta. Opción D: Pneumocystis produce un cuadro respiratorio, no una citólisis hepática. Punto de enseñanza: el calendario infeccioso orienta el diagnóstico tanto como el cuadro clínico.",
+  "teaching_point": "Citomegalovirus y herpes simple aparecen a partir de la cuarta a sexta semana postrasplante.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 47
+  },
+  "tags": [
+   "infeccion",
+   "citomegalovirus",
+   "inmunosupresion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M008",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "sin_material_docente": false,
+  "stem": "Un paciente con trasplante hepático realizado hace ocho años, en tratamiento inmunosupresor continuado, acude por una lesión ulcerada de crecimiento rápido en el labio inferior. Según la incidencia y el perfil de tumores de novo descritos en clase, ¿qué neoplasia resulta más probable en este contexto?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Linfoma B no Hodgkin de localización mucosa."
+   },
+   {
+    "id": "B",
+    "text": "Sarcoma de Kaposi asociado al herpesvirus 8."
+   },
+   {
+    "id": "C",
+    "text": "Carcinoma de células basales de bajo riesgo."
+   },
+   {
+    "id": "D",
+    "text": "Carcinoma espinocelular de piel y labio."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase sitúa la incidencia de tumores de novo tras el trasplante hepático entre el 3 y el 15 por ciento y atribuye su patogenia a la inmunosupresión mantenida y a los virus oncogénicos, en particular el virus de Epstein-Barr, el herpesvirus 8 y el papilomavirus. Al enumerar los tumores más frecuentes coloca en primer lugar el carcinoma de piel y labio, de estirpe espinocelular, seguido de los linfomas y trastornos linfoproliferativos, los tumores otorrinolaringológicos, el sarcoma de Kaposi y los carcinomas de cérvix y anogenitales. Opción A: los linfomas figuran en la lista, pero por detrás de los cutáneos y con otra presentación clínica. Opción B: el sarcoma de Kaposi aparece como lesiones vasculares violáceas, no como una úlcera labial. Opción C: en el trasplantado predomina el espinocelular, no el basocelular. Opción D: correcta. Punto de enseñanza: el trasplantado necesita vigilancia dermatológica y protección solar de por vida.",
+  "teaching_point": "El tumor de novo más frecuente tras el trasplante es el carcinoma espinocelular de piel y labio.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 48
+  },
+  "tags": [
+   "tumores de novo",
+   "inmunosupresion",
+   "piel"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M009",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Una paciente con síndrome de intestino corto depende de nutrición parenteral domiciliaria desde hace dos años y la tolera sin incidencias, con función hepática normal, buen acceso venoso central y ninguna infección de catéter. Pregunta si debe plantearse un trasplante intestinal. ¿Qué respuesta se ajusta a lo expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La dependencia de la nutrición parenteral por sí sola no indica trasplante."
+   },
+   {
+    "id": "B",
+    "text": "Una dependencia de nutrición parenteral superior al año ya indica trasplante."
+   },
+   {
+    "id": "C",
+    "text": "Procede indicar el trasplante de forma preventiva, antes de las complicaciones."
+   },
+   {
+    "id": "D",
+    "text": "Correspondería un trasplante hepatointestinal por la duración del soporte."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enuncia de forma expresa que la dependencia de la nutrición parenteral total por sí sola no se considera indicación de trasplante intestinal. Lo que indica el trasplante es el fracaso de esa nutrición parenteral, y las situaciones que enumera son la insuficiencia hepática causada por la propia nutrición parenteral, las trombosis múltiples de venas centrales que limitan el acceso venoso, más de dos episodios de infección relacionada con el catéter que requieran hospitalización a cualquier edad, un episodio aislado de infección fúngica de la vía y la deshidratación grave frecuente pese a la suplementación intravenosa. La paciente descrita no cumple ninguna. Opción A: correcta. Opción B: no existe tal criterio temporal en la clase. Opción C: adelantarse a las complicaciones contradice el planteamiento de la clase, que reserva el trasplante para el fracaso demostrado de la nutrición parenteral. Opción D: el trasplante hepatointestinal se plantea cuando hay hepatopatía asociada. Punto de enseñanza: se trasplanta el intestino cuando fracasa la parenteral, no cuando se depende de ella.",
+  "teaching_point": "El trasplante intestinal se indica por el fracaso de la nutrición parenteral, no por la dependencia de ella.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 63
+  },
+  "tags": [
+   "trasplante intestinal",
+   "nutricion parenteral",
+   "indicaciones"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M010",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Varón de 38 años con diabetes mellitus tipo 1 desde la infancia, en hemodiálisis por nefropatía diabética terminal, es remitido para valoración de trasplante. Se discute en sesión la modalidad más adecuada. Según lo expuesto en clase sobre el trasplante pancreático, ¿qué modalidad le corresponde y cuál es la más frecuente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Trasplante pancreático aislado, que es la modalidad más frecuente."
+   },
+   {
+    "id": "B",
+    "text": "Trasplante simultáneo de páncreas y riñón, la modalidad más frecuente."
+   },
+   {
+    "id": "C",
+    "text": "Trasplante de páncreas tras un riñón previo, el más frecuente."
+   },
+   {
+    "id": "D",
+    "text": "Trasplante de islotes pancreáticos, por sus mejores resultados."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase distingue dos escenarios de indicación: la diabetes tipo 1 aislada, que corresponde al trasplante de páncreas aislado, y la diabetes tipo 1 con insuficiencia renal crónica, que corresponde al trasplante pancreatorrenal. Y precisa la distribución de las modalidades: el 89 por ciento son trasplantes simultáneos de páncreas y riñón, el 10 por ciento se realizan sobre un trasplante renal previo y solo el 1 por ciento son trasplantes aislados. El paciente descrito, diabético tipo 1 con nefropatía terminal, encaja en la primera categoría. Opción A: el trasplante aislado se reserva para la diabetes tipo 1 sin insuficiencia renal y supone solo el 1 por ciento. Opción B: correcta. Opción C: la modalidad tras riñón previo es minoritaria y presupone un injerto renal ya funcionante. Opción D: la clase describe el trasplante de islotes con dificultad de aislamiento y malos resultados clínicos. Punto de enseñanza: diabetes tipo 1 con nefropatía terminal, doble trasplante simultáneo.",
+  "teaching_point": "Diabetes tipo 1 con insuficiencia renal terminal: trasplante simultáneo de páncreas y riñón, la modalidad más frecuente.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 52
+  },
+  "tags": [
+   "trasplante pancreatico",
+   "diabetes tipo 1",
+   "pancreatorrenal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M011",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "sin_material_docente": false,
+  "stem": "En la clasificación de los trasplantes que se expone en clase, junto a la clasificación por número de órganos y por lugar de implante, se distinguen según la compatibilidad inmunológica el autotrasplante, el singénico, el alogénico y el xenotrasplante. Respecto al trasplante entre individuos de especies distintas, ¿qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Se realiza de forma habitual en riñón y en corazón."
+   },
+   {
+    "id": "B",
+    "text": "Está permitido si hay compatibilidad ABO entre especies."
+   },
+   {
+    "id": "C",
+    "text": "Está sujeto a moratoria por riesgo de transmisión viral."
+   },
+   {
+    "id": "D",
+    "text": "Se considera singénico por la identidad genética del injerto."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define el xenotrasplante como el trasplante entre individuos de especies diferentes y anota junto a él una moratoria indefinida por el riesgo de transmisión viral entre especies, con referencia a la directiva comunitaria de 2003. Frente a él sitúa el autotrasplante, en el que el mismo paciente es donante y receptor; el singénico, entre individuos genéticamente idénticos, es decir, gemelos univitelinos; y el alogénico, entre individuos de la misma especie genéticamente distintos, que es la situación habitual en la práctica clínica. Opción A: no existe una práctica habitual de xenotrasplante renal o cardiaco en el marco descrito. Opción B: la barrera no es la compatibilidad de grupo sanguíneo, sino la especie y el riesgo infeccioso. Opción C: correcta. Opción D: el singénico requiere identidad genética dentro de la misma especie. Punto de enseñanza: el xenotrasplante está frenado por el riesgo de transmisión viral entre especies.",
+  "teaching_point": "El xenotrasplante está sujeto a moratoria indefinida por el riesgo de transmisión viral entre especies.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "xenotrasplante",
+   "clasificacion",
+   "inmunologia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-M012",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Se oferta un injerto hepático de un donante en muerte encefálica generado en un hospital situado a 600 kilómetros del centro trasplantador. El equipo calcula los tiempos de extracción, traslado e implante bajo preservación estática fría. Según los tiempos máximos expuestos en clase, ¿qué margen se maneja para el hígado?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alrededor de cuatro horas, el mismo margen que el corazón."
+   },
+   {
+    "id": "B",
+    "text": "Entre siete y ocho horas, el mismo margen que el pulmón."
+   },
+   {
+    "id": "C",
+    "text": "Más de veinticuatro horas, el mismo margen que el riñón."
+   },
+   {
+    "id": "D",
+    "text": "Entre ocho y diez horas, algo más de margen que el pulmón."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase compara los tiempos admitidos de preservación estática fría por órgano: el corazón tolera unas 4 horas, los pulmones de 7 a 8 horas, el hígado de 8 a 10 horas y el riñón más de 24 horas. Esa escala explica por qué la logística del trasplante hepático es más exigente que la del renal y por qué se han desarrollado las máquinas de perfusión ex vivo y la preservación dinámica, que la clase presenta como alternativa a la preservación estática. La preservación estática se apoya en la exanguinación, la perfusión con hipotermia a 4 grados y soluciones de baja viscosidad con sustrato energético, iones, estabilizadores del pH y aclaradores de radicales libres. Opción A: corresponde al corazón. Opción B: corresponde al pulmón. Opción C: corresponde al riñón. Opción D: correcta. Punto de enseñanza: la isquemia fría prolongada es además un factor de riesgo de disfunción del injerto.",
+  "teaching_point": "El hígado tolera entre 8 y 10 horas de preservación estática fría; el riñón más de 24.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "preservacion",
+   "isquemia fria",
+   "logistica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T17-C001",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "sin_material_docente": false,
+  "stem": "En la cirugía del receptor de un trasplante hepático, el cirujano debe decidir antes de comenzar la hepatectomía si conservará o no el segmento retrohepático de la vena cava inferior, decisión que condiciona el manejo hemodinámico posterior. Explique qué diferencia la técnica de piggyback de la técnica clásica.",
+  "respuesta_canonica": "Preserva la vena cava retrohepática en lugar de resecarla",
+  "aceptadas": [
+   "conserva la cava retrohepática del receptor",
+   "no se reseca el segmento retrohepático de la vena cava inferior",
+   "el hígado nativo se despega de la cava, que se deja íntegra",
+   "evita el clampaje completo de la cava al preservarla"
+  ],
+  "conceptos_clave": [
+   "preserva",
+   "cava retrohepática"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe dos formas de realizar la hepatectomía del receptor. En la técnica clásica se reseca la vena cava retrohepática junto con el hígado nativo, de modo que el implante exige dos anastomosis cavas. En la técnica de piggyback se preserva la cava retrohepática, despegando de ella el hígado enfermo. La cirugía del receptor se ordena en cuatro pasos: extirpación del órgano nativo, anastomosis vasculares, reperfusión con sangre, momento en el que se produce la isquemia caliente, y anastomosis no vasculares, es decir, la reconstrucción biliar. Elegir una u otra técnica condiciona la tolerancia hemodinámica de la fase anhepática y la necesidad de derivaciones venosas. La clase enmarca además ambas técnicas dentro de otras variantes del trasplante hepático que enumera: el split, que divide un injerto para dos receptores, el auxiliar y el secuencial o en dominó. Conocer la diferencia importa porque la preservación de la cava condiciona el manejo hemodinámico durante la fase anhepática y la necesidad o no de derivaciones venosas.",
+  "teaching_point": "Piggyback: se conserva la cava retrohepática; en la técnica clásica se reseca con el hígado nativo.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "piggyback",
+   "tecnica"
+  ]
+ },
+ {
+  "id": "T17-C002",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "sin_material_docente": false,
+  "stem": "En la adecuación entre donante y receptor de un injerto hepático se valoran la compatibilidad de grupo sanguíneo, la similitud antropométrica, la antigüedad en lista de espera y la gravedad del receptor, esta última medida mediante una puntuación analítica. Cite las tres variables que integran esa puntuación MELD.",
+  "respuesta_canonica": "Creatinina, bilirrubina e INR",
+  "aceptadas": [
+   "bilirrubina, creatinina e INR",
+   "creatinina sérica, bilirrubina total y razón normalizada internacional",
+   "bilirrubina, creatinina y tiempo de protrombina expresado como INR",
+   "creatinina, bilirrubina total e INR del receptor"
+  ],
+  "conceptos_clave": [
+   "creatinina",
+   "bilirrubina",
+   "INR"
+  ],
+  "max_palabras": 20,
+  "explanation": "El MELD combina en una fórmula logarítmica la creatinina, la bilirrubina y el INR, y se emplea para graduar la gravedad del receptor dentro del proceso de adecuación entre donante y receptor. La clase sitúa ese proceso, el matching, junto a otros tres criterios: la compatibilidad inmunológica ABO, la similitud antropométrica en pesos y perímetros, y la antigüedad en lista de espera. Conviene no confundir el MELD con la clasificación de Child-Pugh, que utiliza albúmina, ascitis y encefalopatía además de bilirrubina y coagulación, ni con el gradiente de presión venosa hepática, que se emplea en la estadificación del hepatocarcinoma en estadio precoz y exige un estudio hemodinámico. Recordar las tres variables permite además entender por qué el MELD prioriza al paciente con insuficiencia renal y coagulopatía, y por qué se eligió como criterio de gravedad frente a otras escalas más subjetivas para ordenar la lista de espera de trasplante hepático.",
+  "teaching_point": "MELD: creatinina, bilirrubina e INR.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 22
+  },
+  "tags": [
+   "MELD",
+   "asignacion"
+  ]
+ },
+ {
+  "id": "T17-C003",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Se oferta un injerto hepático generado en un hospital alejado del centro trasplantador y el equipo debe calcular si los tiempos de extracción, traslado e implante encajan dentro del margen admitido para el órgano. Indique qué tiempo de preservación estática fría se admite para el injerto hepático.",
+  "respuesta_canonica": "Entre 8 y 10 horas de isquemia fría",
+  "aceptadas": [
+   "de 8 a 10 horas de isquemia fría",
+   "unas ocho a diez horas",
+   "entre ocho y diez horas de preservación estática fría",
+   "8-10 horas en preservación estática fría"
+  ],
+  "conceptos_clave": [
+   "8",
+   "10",
+   "horas"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase compara los tiempos de preservación estática fría admitidos por órgano: corazón unas 4 horas, pulmones de 7 a 8 horas, hígado de 8 a 10 horas y riñón más de 24 horas. La preservación estática se basa en la exanguinación del órgano, la perfusión en hipotermia a 4 grados y el empleo de soluciones de baja viscosidad que aportan sustrato energético, iones, estabilizadores del pH y aclaradores de radicales libres. Frente a ella, la preservación dinámica con máquinas de perfusión ex vivo permite mantener el órgano aislado en perfusión. Recordar el margen del hígado importa porque la isquemia prolongada es un factor de riesgo reconocido de disfunción del injerto. Conviene además retener la escala completa por órganos, corazón unas 4 horas, pulmones de 7 a 8, hígado de 8 a 10 y riñón más de 24, porque explica las diferencias logísticas entre programas de trasplante y el interés creciente por la perfusión dinámica.",
+  "teaching_point": "Hígado: de 8 a 10 horas de isquemia fría en preservación estática.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "preservacion",
+   "isquemia fria"
+  ]
+ },
+ {
+  "id": "T17-C004",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Una paciente con síndrome de intestino corto lleva dos años con nutrición parenteral domiciliaria bien tolerada, sin hepatopatía, sin trombosis venosas y sin infecciones de catéter, y pregunta si debe entrar en lista de trasplante intestinal. Responda si la dependencia de la nutrición parenteral basta por sí sola.",
+  "respuesta_canonica": "No; por sí sola no es indicación de trasplante intestinal",
+  "aceptadas": [
+   "no, se requiere fracaso de la nutrición parenteral",
+   "no basta: hacen falta complicaciones de la parenteral",
+   "no; lo que indica el trasplante es el fracaso de la nutrición parenteral",
+   "no es indicación por sí sola, hace falta que la parenteral fracase"
+  ],
+  "conceptos_clave": [
+   "no",
+   "no es indicación"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase afirma expresamente que la dependencia de la nutrición parenteral total por sí sola no se considera indicación de trasplante intestinal. Las situaciones que sí lo indican son la insuficiencia hepática causada por la propia nutrición parenteral, las trombosis múltiples de venas centrales que limitan el acceso venoso, más de dos episodios de infección relacionada con el catéter que requieran hospitalización a cualquier edad, un episodio aislado de infección fúngica de la vía y la deshidratación grave frecuente pese a la suplementación intravenosa. La clase añade un dato de organización asistencial relevante: alrededor del 75 por ciento de los pacientes en lista de espera para trasplante intestinal necesitan también un hígado. Ese dato justifica que muchos de estos pacientes acaben recibiendo un injerto hepatointestinal o un trasplante multivisceral, modalidad que la clase sitúa históricamente en Pittsburgh en 1994.",
+  "teaching_point": "El trasplante intestinal se indica por complicaciones de la nutrición parenteral, no por depender de ella.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 63
+  },
+  "tags": [
+   "trasplante intestinal",
+   "indicaciones"
+  ]
+ },
+ {
+  "id": "T17-L001",
+  "tema": 17,
+  "bloque": "trasplante",
+  "formato": "larga",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "sin_material_docente": false,
+  "stem": "Un paciente en lista de espera recibe la oferta de un injerto hepático procedente de un donante en muerte encefálica. Exponga las fases del trasplante hepático, desde la captación del potencial donante hasta la cirugía del receptor, y describa a continuación las complicaciones precoces más relevantes, indicando en cada una qué la define y cómo se sospecha.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Enumera ordenadamente las seis fases: captación del donante, asignación del receptor, cirugía del donante, preservación y transporte, cirugía de banco y cirugía del receptor",
+    "puntos": 0.6,
+    "claves": [
+     "captación",
+     "asignación",
+     "cirugía del donante",
+     "preservación",
+     "banco",
+     "receptor"
+    ]
+   },
+   {
+    "elemento": "Explica los criterios de adecuación donante-receptor: ABO, similitud antropométrica, antigüedad en lista y MELD",
+    "puntos": 0.5,
+    "claves": [
+     "ABO",
+     "antropométrica",
+     "lista de espera",
+     "MELD"
+    ]
+   },
+   {
+    "elemento": "Describe la preservación: hipotermia a 4 grados, soluciones de baja viscosidad y tiempos admitidos para el hígado, y menciona la preservación dinámica",
+    "puntos": 0.4,
+    "claves": [
+     "4 grados",
+     "8 a 10 horas",
+     "perfusión"
+    ]
+   },
+   {
+    "elemento": "Ordena la cirugía del receptor en sus cuatro pasos y distingue técnica clásica de piggyback",
+    "puntos": 0.5,
+    "claves": [
+     "anastomosis vasculares",
+     "reperfusión",
+     "piggyback",
+     "cava retrohepática"
+    ]
+   },
+   {
+    "elemento": "Define la disfunción del injerto y sus factores de riesgo, señalando que se establece en ausencia de complicaciones vasculares y biliares",
+    "puntos": 0.5,
+    "claves": [
+     "disfunción",
+     "esteatosis",
+     "isquemia",
+     "retrasplante"
+    ]
+   },
+   {
+    "elemento": "Expone las complicaciones vasculares y biliares precoces y el rechazo agudo, con su frecuencia relativa y su método diagnóstico",
+    "puntos": 0.5,
+    "claves": [
+     "arteria hepática",
+     "fístula",
+     "estenosis",
+     "rechazo agudo",
+     "biopsia"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El trasplante hepático se organiza en seis fases. La primera es la captación del potencial donante, apoyada en el concepto de muerte encefálica, definida como pérdida irreversible de las funciones clínicas del cerebro incluido el tronco, y en la donación en asistolia, clasificada en no controlada, tipos I y II, y controlada, tipos III y IV. La segunda es la asignación del receptor o matching, que valora la compatibilidad ABO, la similitud antropométrica, la antigüedad en lista de espera y la gravedad del receptor medida por el MELD, calculado con creatinina, bilirrubina e INR. La tercera es la cirugía del donante, en la que se explora la cavidad abdominal para descartar tumores o infecciones y se valora macroscópicamente el injerto: superficie lisa, bordes afilados, ausencia de esteatosis visible y vasos normales. La cuarta es la preservación y el transporte: exanguinación, perfusión en hipotermia a 4 grados con soluciones de baja viscosidad que aportan sustrato energético, iones, estabilizadores del pH y aclaradores de radicales libres, con un margen de 8 a 10 horas para el hígado en preservación estática fría; la preservación dinámica con máquinas de perfusión ex vivo es la alternativa. La quinta es la cirugía de banco, que prepara el órgano para implantarlo. La sexta es la cirugía del receptor, en cuatro pasos: extirpación del órgano nativo, anastomosis vasculares, reperfusión e implante de las anastomosis no vasculares; la hepatectomía puede hacerse con técnica clásica, resecando la cava retrohepática, o con piggyback, preservándola. Entre las complicaciones precoces destacan la disfunción del injerto, del 2 al 20 por ciento, consecuencia de la lesión isquémica y definida en ausencia de complicaciones vasculares y biliares, con la edad del donante, la esteatosis superior al 30 por ciento y la isquemia prolongada como factores de riesgo, y cuya forma extrema, el fallo primario del injerto, obliga al retrasplante; las vasculares, encabezadas por la arteria hepática, del 4 al 5 por ciento, que producen disfunción y patología biliar; las biliares, fístulas, estenosis y litiasis; el rechazo agudo, del 20 al 60 por ciento, diagnosticado por biopsia; y las infecciones, presentes en el 75 por ciento.",
+  "explanation": "La pregunta cubre el esqueleto de la clase y permite discriminar al alumno que la ha seguido. La rúbrica premia el orden de las fases, la precisión de los criterios de asignación y la capacidad de relacionar los factores de riesgo del donante y de la preservación con la disfunción del injerto. Es importante que el alumno no confunda el MELD con Child-Pugh, que sitúe la trombosis arterial como causa de patología biliar por isquemia del conducto, y que no invente cifras de supervivencia ni tiempos de isquemia distintos de los expuestos. Conviene además que el alumno relacione las fases con las complicaciones: la calidad del donante y la duración de la preservación explican la disfunción del injerto, la técnica de las anastomosis vasculares explica las trombosis y estenosis arteriales y portales, y el aporte arterial explica que las complicaciones biliares aparezcan como consecuencia de una trombosis de la arteria hepática.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022; Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "Clase de T Hepático_2022-Def.pdf",
+   "pagina": 19
+  },
+  "tags": [
+   "trasplante hepatico",
+   "fases",
+   "complicaciones"
+  ]
+ }
+]

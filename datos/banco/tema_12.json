@@ -1,0 +1,727 @@
+[
+ {
+  "id": "T12-M001",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 87 años, portadora de pañal, acude por náuseas y vómitos de veinticuatro horas de evolución. La radiografía simple de abdomen muestra dilatación de asas de intestino delgado. En la exploración se palpa una tumoración dolorosa e irreductible por debajo del ligamento inguinal derecho. ¿Qué diagnóstico y qué actitud proceden?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hernia inguinal directa incarcerada; ingreso para observación y reparación programada al resolverse el cuadro."
+   },
+   {
+    "id": "B",
+    "text": "Hernia inguinal indirecta incarcerada; reparación quirúrgica urgente por vía inguinal anterior."
+   },
+   {
+    "id": "C",
+    "text": "Adenopatía inguinal inflamatoria; antibioterapia empírica y control clínico en consulta."
+   },
+   {
+    "id": "D",
+    "text": "Hernia femoral incarcerada con obstrucción intestinal; reparación quirúrgica urgente."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase sitúa la hernia femoral por debajo del ligamento inguinal, protruyendo a través del anillo femoral, y la describe como más frecuente en mujeres y en edades avanzadas. Subraya además que las mujeres tienen más presentaciones de urgencia por su mayor incidencia de hernias femorales, que tienen más probabilidad de incarcerarse o estrangularse; entre los factores de riesgo de incarceración figuran el sexo femenino y la hernia femoral. La irreductibilidad con obstrucción intestinal define la incarceración y obliga a cirugía. Opción A: la hernia directa protruye dentro del triángulo de Hesselbach, por encima del ligamento inguinal, y una hernia incarcerada con obstrucción no admite cirugía diferida. Opción B: la indicación urgente es correcta, pero la localización por debajo del ligamento inguinal excluye la hernia indirecta, que protruye por el anillo inguinal interno y queda por encima del ligamento. Opción C: una adenopatía no produce obstrucción de intestino delgado. Opción D: correcta. Punto de enseñanza: tumoración inguinal irreductible bajo el ligamento inguinal con obstrucción es hernia femoral incarcerada y va a quirófano.",
+  "teaching_point": "Toda hernia irreductible y dolorosa con obstrucción intestinal es quirúrgica urgente, y en la mujer suele ser femoral.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "hernia femoral",
+   "incarceración",
+   "obstrucción"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M002",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante una reparación inguinal abierta se identifica el saco herniario y su relación con los vasos epigástricos inferiores para tipificar el defecto antes de colocar la malla. ¿Qué relación anatómica define correctamente los tipos de hernia de la región inguinocrural según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La hernia directa protruye a través del anillo inguinal interno, lateral a los vasos epigástricos."
+   },
+   {
+    "id": "B",
+    "text": "La hernia femoral protruye por encima del ligamento inguinal y medial al anillo femoral."
+   },
+   {
+    "id": "C",
+    "text": "La hernia indirecta protruye por el anillo inguinal interno, lateral a los vasos epigástricos."
+   },
+   {
+    "id": "D",
+    "text": "La hernia directa protruye lateral a los vasos epigástricos, fuera del triángulo de Hesselbach."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define los tres tipos con dos referencias anatómicas. La hernia inguinal indirecta, que es la más frecuente, protruye por el anillo inguinal interno y es lateral a los vasos epigástricos inferiores. La hernia inguinal directa protruye medialmente a los vasos epigástricos inferiores, dentro del triángulo de Hesselbach, y se debe a debilidad del suelo del canal inguinal. La hernia femoral se sitúa por debajo del ligamento inguinal y protruye a través del anillo femoral. Opción A: describe el trayecto de la indirecta atribuyéndolo a la directa. Opción B: la femoral es inferior al ligamento inguinal, no superior. Opción C: correcta. Opción D: la directa es medial a los vasos epigástricos y precisamente dentro del triángulo de Hesselbach. Punto de enseñanza: los vasos epigástricos inferiores son la referencia que separa la indirecta, lateral, de la directa, medial, y el ligamento inguinal separa las inguinales de la femoral.",
+  "teaching_point": "Indirecta: lateral a los vasos epigástricos por el anillo interno. Directa: medial, en el triángulo de Hesselbach.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "anatomía",
+   "hernia indirecta",
+   "vasos epigástricos"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M003",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Se clasifican las hernias de la pared abdominal por su ubicación para registrar la actividad quirúrgica del servicio. El registro incluye hernias ventrales primarias, incisionales, paraestomales, inguinocrurales, pélvicas y del flanco. ¿Qué asignación se corresponde con la clasificación expuesta en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La hernia de Spiegel es una hernia del flanco por debilidad del triángulo lumbar inferior."
+   },
+   {
+    "id": "B",
+    "text": "La hernia de Spiegel es una hernia ventral primaria, junto a la epigástrica y la umbilical."
+   },
+   {
+    "id": "C",
+    "text": "La hernia obturatriz es una hernia ventral primaria que protruye por el canal obturador."
+   },
+   {
+    "id": "D",
+    "text": "La hernia paraestomal se clasifica como hernia pélvica por atravesar el piso de la pelvis."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase clasifica las hernias de pared por su ubicación. Dentro de las ventrales distingue las primarias, que son la epigástrica, la umbilical y la de Spiegel, las paraestomales y las incisionales o ventrales incisionales. Aparte quedan la hernia inguinal y femoral; la hernia pélvica, que protruye por uno de los forámenes pélvicos, como la ciática y la obturatriz, o por el piso pélvico, como las perineales; y la hernia del flanco, que protruye por áreas debilitadas de la musculatura de la espalda e incluye las del triángulo lumbar superior e inferior. Opción A: la de Spiegel es ventral primaria, no del flanco. Opción B: correcta. Opción C: la obturatriz es una hernia pélvica, por atravesar el foramen obturador. Opción D: la paraestomal es ventral y aparece junto al estoma de la pared abdominal, no en el suelo pélvico. Punto de enseñanza: la clasificación por ubicación ordena el registro y la técnica.",
+  "teaching_point": "Epigástrica, umbilical y de Spiegel son hernias ventrales primarias; ciática y obturatriz son pélvicas.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 4
+  },
+  "tags": [
+   "clasificación",
+   "Spiegel",
+   "hernia ventral"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M004",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón atlético de 42 años refiere desde hace seis meses un bulto en la ingle que le duele al levantarse y al cargar peso. El bulto se reduce con el decúbito y no presenta signos inflamatorios ni datos clínicos de obstrucción intestinal. ¿Qué actitud procede en este paciente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reparación quirúrgica programada, puesto que la hernia es sintomática aunque reductible."
+   },
+   {
+    "id": "B",
+    "text": "Cirugía urgente en las próximas horas por el riesgo inminente de estrangulación herniaria."
+   },
+   {
+    "id": "C",
+    "text": "Actitud expectante con revisiones periódicas, reservando la cirugía para cuando aparezca una complicación."
+   },
+   {
+    "id": "D",
+    "text": "Estudio con resonancia magnética pélvica antes de plantear cualquier opción terapéutica."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase resume la indicación quirúrgica de la hernia en una regla sencilla y fácil de recordar: cirugía si hay síntomas o si aparece una complicación. Este paciente presenta una hernia inguinal reductible pero claramente sintomática, con dolor que limita la actividad, de modo que la indicación es una reparación programada, sin urgencia. Opción A: correcta. Opción B: no hay criterios de urgencia, porque la hernia es reductible, no dolorosa de forma aguda y sin signos de compromiso vascular ni obstrucción. Opción C: esperar a la complicación invierte la regla de la clase, que indica operar cuando la hernia da síntomas y no solo cuando se complica; la espera deja al paciente sintomático y expuesto a una presentación urgente. Opción D: el diagnóstico de la hernia inguinal es clínico y la resonancia no es un paso previo obligado en un caso con exploración concluyente. Punto de enseñanza: hernia sintomática, cirugía programada; hernia complicada, cirugía urgente.",
+  "teaching_point": "La indicación quirúrgica de la hernia se resume en dos supuestos: que dé síntomas o que se complique.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 15
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "hernia inguinal",
+   "reductible"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M005",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Se explica a un paciente la diferencia entre las dos complicaciones mecánicas de la hernia y por qué una de ellas obliga a operar sin demora. Se le describe la secuencia de atrapamiento, edema progresivo y compromiso vascular del contenido herniario. ¿Qué definición es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La incarceración implica isquemia y necrosis del contenido por compromiso arterial establecido."
+   },
+   {
+    "id": "B",
+    "text": "La estrangulación es el atrapamiento reductible del contenido sin repercusión vascular alguna."
+   },
+   {
+    "id": "C",
+    "text": "La incarceración es el atrapamiento del contenido que impide devolverlo al abdomen o la pelvis."
+   },
+   {
+    "id": "D",
+    "text": "La estrangulación se define por la presencia de epiplón, y no de intestino, dentro del saco."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define la incarceración como el atrapamiento del contenido de la hernia dentro del saco herniario, lo que impide devolverlo al abdomen o a la pelvis, y precisa que puede afectar al intestino delgado o grueso, al apéndice, al epiplón, a la vejiga, al ovario u otras estructuras. A medida que el tejido incarcerado se hincha se reduce el flujo venoso y linfático, lo que provoca más edema; si no se trata, la falta de flujo venoso y finalmente arterial produce isquemia y necrosis del contenido, situación que se denomina estrangulación. Opción A: la isquemia y la necrosis definen la estrangulación, no la incarceración. Opción B: la estrangulación no es reductible ni carece de repercusión vascular; es justo lo contrario. Opción C: correcta. Opción D: el contenido del saco no define la complicación, y de hecho el epiplón puede incarcerarse igualmente. Punto de enseñanza: la incarceración es mecánica y la estrangulación es vascular.",
+  "teaching_point": "Incarceración es irreductibilidad mecánica; estrangulación es isquemia y necrosis por compromiso vascular del contenido.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "incarceración",
+   "estrangulación",
+   "complicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M006",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Se revisan los datos epidemiológicos de la hernia inguinal antes de una sesión clínica sobre la actividad del servicio, con atención a la prevalencia por sexos y al tipo de hernia predominante en la mujer. ¿Qué afirmación se corresponde con lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La prevalencia de por vida es del 27 al 43 % en hombres y del 3 al 6 % en mujeres."
+   },
+   {
+    "id": "B",
+    "text": "La hernia inguinal es la afección quirúrgica más común en atención primaria y su prevalencia de por vida es similar en ambos sexos."
+   },
+   {
+    "id": "C",
+    "text": "El varón tiene el doble de riesgo de hernia inguinal que la mujer, diferencia que se iguala por encima de los 75 años."
+   },
+   {
+    "id": "D",
+    "text": "La hernia femoral es cuatro veces más frecuente en el varón, y eso explica sus presentaciones urgentes."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase aporta cifras concretas de prevalencia de por vida de la hernia inguinal: del 27 al 43 % en hombres y del 3 al 6 % en mujeres, y recuerda que es la afección quirúrgica más común atendida por los médicos de atención primaria y que su reparación es la operación más frecuente entre todas las de hernias de pared abdominal. Añade que los hombres tienen de nueve a doce veces más probabilidad de desarrollar una hernia inguinal, mientras que las mujeres tienen cuatro veces más probabilidad de desarrollar una hernia femoral, lo que explica sus presentaciones más frecuentes en urgencias. Opción A: correcta. Opción B: es cierto que es la afección quirúrgica más común en atención primaria, pero la prevalencia no es similar por sexos, sino del 27 al 43 % en hombres frente al 3 al 6 % en mujeres. Opción C: la clase cifra en nueve a doce veces la mayor probabilidad del varón, no en el doble, y sitúa la incidencia máxima entre los 0 y los 5 años y entre los 75 y los 80 sin que la diferencia por sexo desaparezca. Opción D: invierte la relación, porque es la mujer quien tiene cuatro veces más probabilidad de hernia femoral, y de ahí sus presentaciones en urgencia. Punto de enseñanza: la hernia inguinal es de varones y la femoral, de mujeres.",
+  "teaching_point": "Prevalencia de hernia inguinal: 27-43 % en hombres y 3-6 % en mujeres; la femoral es cuatro veces más frecuente en la mujer.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "epidemiología",
+   "prevalencia",
+   "sexo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M007",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "En la consulta de pared abdominal se ordena la lista quirúrgica según el riesgo de que la hernia se complique antes de llegar al quirófano. Se revisan cuatro pacientes, todos con una hernia reductible en el momento de la valoración y con molestias leves que no obligan a operar de urgencia. ¿Cuál de ellos presenta el mayor riesgo de incarceración?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Varón de 70 años con hernia inguinal directa y antecedente de prostatectomía abierta."
+   },
+   {
+    "id": "B",
+    "text": "Varón de 62 años, obeso y fumador, con hernia incisional tras una infección de herida."
+   },
+   {
+    "id": "C",
+    "text": "Varón de 45 años con hernia inguinal indirecta e historia familiar de hernia en su padre."
+   },
+   {
+    "id": "D",
+    "text": "Mujer de 79 años con hernia femoral que ingresó por dolor herniario hace ocho meses."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase separa dos listas que se confunden con facilidad. Los factores de riesgo de padecer una hernia inguinal son el sexo masculino, que multiplica el riesgo por ocho a diez, la edad, con incidencia máxima entre los 0 y los 5 años y entre los 75 y los 80, la historia familiar en parientes de primer grado, el metabolismo alterado del colágeno y la prostatectomía, sobre todo abierta, que lo multiplica por cuatro. Los factores de riesgo de incarceración son otros tres: sexo femenino, hernia femoral y hospitalización relacionada con la hernia en el último año. Opción A: reúne dos factores de aparición de hernia inguinal, no de complicación. Opción B: la obesidad, el tabaquismo y la infección de la herida son factores de riesgo de hernia incisional, tampoco de incarceración. Opción C: la edad joven y la historia familiar predisponen a desarrollar la hernia, pero no a que se atrape el contenido. Opción D: correcta, es la única que reúne los tres factores de incarceración, coherente con que la hernia femoral se incarcere y estrangule con más facilidad. Punto de enseñanza: distinguir los factores que hacen aparecer una hernia de los que la complican.",
+  "teaching_point": "Factores de incarceración: sexo femenino, hernia femoral y hospitalización por la hernia el último año; no confundirlos con los factores de riesgo de padecer una hernia inguinal.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "incarceración",
+   "factores de riesgo",
+   "hernia femoral"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M008",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 68 años, obeso y fumador, intervenido hace un año mediante laparotomía media que se complicó con infección de la herida quirúrgica. Consulta ahora por un abultamiento sobre la cicatriz que aumenta con la maniobra de Valsalva y se reduce en decúbito. ¿Qué diagnóstico y qué factores de riesgo concurren?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Evisceración de presentación tardía; concurren la obesidad, el tabaquismo y la infección de la herida."
+   },
+   {
+    "id": "B",
+    "text": "Hernia incisional; concurren obesidad, tabaquismo, edad avanzada e infección de la herida."
+   },
+   {
+    "id": "C",
+    "text": "Hernia de Spiegel; el factor determinante es la debilidad congénita de la línea semilunar."
+   },
+   {
+    "id": "D",
+    "text": "Hernia umbilical primaria; el factor de riesgo principal es el aumento de presión por la tos."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase define la hernia incisional o eventración como la protrusión de contenido abdominal a través de una laparotomía previa realizada en la pared abdominal, y precisa que puede desarrollarse en el postoperatorio inmediato, en cuyo caso se denomina evisceración, o de forma tardía, que es la hernia incisional propiamente dicha. Enumera como factores de riesgo la obesidad, el tabaquismo, la edad avanzada y la infección de la herida quirúrgica, todos ellos presentes en este paciente. Opción A: los factores de riesgo son los correctos, pero el término no: la clase reserva evisceración para la protrusión del postoperatorio inmediato y llama hernia incisional a la tardía, como esta, que aparece un año después. Opción B: correcta. Opción C: la hernia de Spiegel es una hernia ventral primaria de la línea semilunar, no relacionada con una laparotomía previa. Opción D: la hernia umbilical primaria tampoco asienta sobre una incisión previa. Punto de enseñanza: bulto sobre una laparotomía previa es hernia incisional, y los factores de riesgo son modificables.",
+  "teaching_point": "La hernia incisional protruye por una laparotomía previa; obesidad, tabaquismo, edad e infección de herida la favorecen.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "hernia incisional",
+   "eventración",
+   "factores de riesgo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M009",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 76 años acude a urgencias porque el bulto de su hernia inguinal está hinchado, le empezó a doler en casa hace dos horas y no se reduce. Lleva cuatro horas de espera, está afebril y sin vómitos, con abdomen blando y ruidos hidroaéreos conservados. ¿Qué ocurre y qué procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hernia crónicamente irreductible sin complicación aguda; analgesia y reparación programada preferente."
+   },
+   {
+    "id": "B",
+    "text": "Hernia incarcerada; valoración quirúrgica urgente por el riesgo de evolución a estrangulación."
+   },
+   {
+    "id": "C",
+    "text": "Hernia estrangulada establecida; procede resección intestinal urgente por el tiempo de evolución."
+   },
+   {
+    "id": "D",
+    "text": "Hidrocele agudo del cordón; ecografía diferida y tratamiento antiinflamatorio domiciliario."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El caso reproduce una de las viñetas de la clase. Una hernia previamente reductible que se hincha, duele y deja de reducirse cumple la definición de incarceración: atrapamiento del contenido dentro del saco que impide devolverlo al abdomen o a la pelvis. La secuencia siguiente es el edema progresivo con reducción del flujo venoso y linfático y, si no se trata, la isquemia y necrosis del contenido, es decir, la estrangulación. Por eso la valoración quirúrgica es urgente aunque todavía no haya obstrucción ni signos sistémicos. Opción A: una hernia que hasta hoy se reducía y que en dos horas se hincha, duele y deja de reducirse no es una irreductibilidad crónica, sino una incarceración aguda; demorarla expone a la estrangulación. Opción B: correcta. Opción C: la estrangulación exige isquemia y necrosis del contenido por compromiso vascular, que aquí no está demostrado: el paciente está afebril, sin vómitos y con abdomen blando, y dar por hecha la resección intestinal con dos horas de evolución no se sostiene. Opción D: el hidrocele no explica un bulto herniario irreductible y doloroso de inicio brusco. Punto de enseñanza: la incarceración es la ventana de tiempo antes de la estrangulación.",
+  "teaching_point": "La hernia irreductible y dolorosa está incarcerada: valoración quirúrgica urgente antes de que se estrangule.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "incarceración",
+   "urgencias",
+   "hernia inguinal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M010",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Se explica el mecanismo por el que aparece una hernia de la pared abdominal, describiendo el equilibrio entre la presión que soporta la pared y la respuesta muscular que la contrarresta a lo largo de la vida del paciente. ¿Qué secuencia fisiopatológica describe correctamente la formación de la hernia según la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El descenso de la presión intraabdominal debilita la pared y permite la protrusión visceral."
+   },
+   {
+    "id": "B",
+    "text": "La contracción de la pared genera la presión que empuja las vísceras a través del orificio."
+   },
+   {
+    "id": "C",
+    "text": "La herniación precede al aumento de presión y es la que desencadena la contracción muscular."
+   },
+   {
+    "id": "D",
+    "text": "El aumento de la presión intraabdominal supera la contrapresión de la pared y se produce la hernia."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase esquematiza la fisiopatología en tres pasos encadenados: aumento de la presión intraabdominal, contracción de la pared muscular para generar contrapresión y, cuando esa contrapresión resulta insuficiente, herniación. El concepto general que abre el tema es coherente con ello: una hernia es una protrusión, abultamiento o proyección de un órgano o parte de un órgano a través de la pared corporal que normalmente lo contiene. Opción A: el mecanismo es el aumento y no el descenso de la presión intraabdominal. Opción B: invierte los papeles, porque la contracción muscular es el mecanismo defensivo que se opone a la presión, no su origen. Opción C: altera el orden de la secuencia, situando la herniación como primer paso. Opción D: correcta. Punto de enseñanza: la hernia aparece cuando la presión intraabdominal vence de forma mantenida a la contención de la pared, lo que explica el papel de la tos, el esfuerzo y la obesidad.",
+  "teaching_point": "La hernia surge cuando el aumento de presión intraabdominal supera la contrapresión que genera la pared muscular.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "fisiopatología",
+   "presión intraabdominal",
+   "pared abdominal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M011",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Al revisar la actividad de urgencias se comprueba que las mujeres operadas de hernia de la región inguinocrural llegan en situación de urgencia con más frecuencia que los varones, pese a que la prevalencia de hernia inguinal es mucho menor en ellas. Se pide justificar ese hallazgo con los datos expuestos en la clase. ¿Cuál es la explicación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Presentan cuatro veces más hernias femorales que los varones, y estas se incarceran o estrangulan con más facilidad."
+   },
+   {
+    "id": "B",
+    "text": "La prevalencia de hernia inguinal se iguala entre sexos al corregir por edad, de modo que hay más hernias en riesgo."
+   },
+   {
+    "id": "C",
+    "text": "Su hernia suele ser directa, que produce menos síntomas iniciales, y por eso se diagnostica ya complicada."
+   },
+   {
+    "id": "D",
+    "text": "El sexo femenino multiplica por ocho el riesgo de desarrollar una hernia inguinal a lo largo de la vida."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase explica el fenómeno con dos datos encadenados. Primero, la mujer tiene cuatro veces más probabilidad que el varón de desarrollar una hernia femoral, mientras que la hernia inguinal es mucho menos prevalente en ella, del 3 al 6 % frente al 27 al 43 % del varón. Segundo, la hernia femoral tiene más probabilidad de incarcerarse o estrangularse, y de hecho el sexo femenino y la hernia femoral figuran entre los tres factores de riesgo de incarceración. De la combinación de ambos resulta que la mujer se opera con más frecuencia en situación de urgencia. Opción A: correcta. Opción B: la prevalencia no se iguala; la diferencia por sexos es la que sostiene precisamente el razonamiento contrario. Opción C: la clase no atribuye a la mujer un predominio de hernia directa, que depende de la debilidad del suelo del canal inguinal; la hernia que explica sus urgencias es la femoral. Opción D: invierte el dato, porque es el sexo masculino el que multiplica por ocho a diez el riesgo de hernia inguinal. Punto de enseñanza: no es que la mujer tenga más hernias, es que tiene más hernias femorales.",
+  "teaching_point": "La mujer tiene menos hernias inguinales que el varón pero cuatro veces más femorales, y la femoral se incarcera y estrangula con más facilidad: de ahí sus presentaciones urgentes.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "hernia femoral",
+   "sexo",
+   "urgencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-M012",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 66 años sin antecedentes quirúrgicos consulta por una tumoración reductible en la espalda, por fuera de la musculatura paravertebral derecha, entre la duodécima costilla y la cresta ilíaca, que se hace evidente al incorporarse y con el esfuerzo. No hay laparotomías previas ni relación con la línea media ni con los orificios inguinocrurales. ¿Cómo se clasifica esta hernia por su ubicación?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hernia ventral primaria, en el mismo grupo que la hernia epigástrica y la umbilical."
+   },
+   {
+    "id": "B",
+    "text": "Hernia pélvica, por protruir a través de uno de los forámenes de la pelvis ósea."
+   },
+   {
+    "id": "C",
+    "text": "Hernia del flanco, categoría que incluye las del triángulo lumbar superior e inferior."
+   },
+   {
+    "id": "D",
+    "text": "Hernia incisional ventral, por corresponder a un defecto adquirido de la pared abdominal."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase define la hernia del flanco como la que protruye a través de áreas debilitadas de la musculatura de la espalda e incluye expresamente las hernias del triángulo lumbar superior e inferior. Es una categoría independiente dentro de la clasificación por ubicación, junto a las ventrales, las inguinocrurales y las pélvicas. Opción A: las ventrales primarias son la epigástrica, la umbilical y la de Spiegel, todas en la pared anterior. Opción B: las hernias pélvicas protruyen por uno de los forámenes pélvicos, como la ciática y la obturatriz, o por el piso pélvico, como las perineales, y no por la musculatura dorsal. Opción C: correcta. Opción D: la hernia incisional exige una laparotomía previa, expresamente descartada en el enunciado. Punto de enseñanza: la clasificación por ubicación distingue ventrales, inguinocrurales, pélvicas y del flanco, y el triángulo lumbar corresponde a estas últimas.",
+  "teaching_point": "Las hernias del triángulo lumbar superior e inferior se clasifican como hernias del flanco.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 5
+  },
+  "tags": [
+   "clasificación",
+   "hernia del flanco",
+   "triángulo lumbar"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T12-C001",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la primera clase del tema de pared abdominal se pide al alumno que fije el concepto general antes de abordar la clasificación por ubicación y el tratamiento de las distintas variedades anatómicas. Defina qué es una hernia de la pared abdominal en una sola frase.",
+  "respuesta_canonica": "Protrusión de un órgano o parte de él a través de la pared que lo contiene",
+  "aceptadas": [
+   "protrusión o proyección de un órgano a través de la pared corporal que normalmente lo contiene",
+   "salida de una víscera a través de un defecto de la pared que la contiene",
+   "protrusión de un órgano o de parte de él a través de un defecto de la pared que lo contiene",
+   "abultamiento o proyección de una víscera fuera de la cavidad que normalmente la contiene"
+  ],
+  "conceptos_clave": [
+   "protrusión",
+   "órgano",
+   "pared"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase abre el tema con una definición literal: una hernia es una protrusión, abultamiento o proyección de un órgano o parte de un órgano a través de la pared corporal que normalmente lo contiene. La definición es deliberadamente amplia, porque debe englobar tanto las hernias ventrales, primarias o incisionales, como las inguinocrurales, las pélvicas y las del flanco, que se distinguen después por su ubicación. Conviene retener sus tres elementos: existe un contenido, que es un órgano o parte de él; existe un continente, que es la pared corporal que normalmente lo aloja; y existe un defecto por el que ese contenido protruye. Sobre esa base se entiende la fisiopatología que la clase esquematiza a continuación: el aumento de la presión intraabdominal, la contracción de la pared muscular para generar contrapresión y, cuando esta resulta insuficiente, la herniación. Se acepta cualquier redacción que contenga los tres elementos citados.",
+  "teaching_point": "Una hernia es la protrusión de un órgano, o parte de él, a través de la pared corporal que normalmente lo contiene.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 2
+  },
+  "tags": [
+   "definición",
+   "hernia",
+   "pared abdominal"
+  ]
+ },
+ {
+  "id": "T12-C002",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante una hernioplastia inguinal abierta el cirujano localiza los vasos epigástricos inferiores y el anillo inguinal interno para tipificar el defecto antes de colocar la malla. Indique qué relación anatómica con esos vasos define a la hernia inguinal indirecta y por dónde protruye el saco.",
+  "respuesta_canonica": "Es lateral a los vasos epigástricos inferiores y protruye por el anillo inguinal interno",
+  "aceptadas": [
+   "lateral a los vasos epigástricos, a través del anillo inguinal profundo",
+   "sale por el orificio inguinal interno, lateral a los epigástricos inferiores",
+   "lateral a los vasos epigástricos inferiores, a través del anillo inguinal profundo",
+   "por fuera de los epigástricos inferiores, saliendo por el orificio inguinal interno"
+  ],
+  "conceptos_clave": [
+   "lateral",
+   "epigástricos",
+   "anillo inguinal interno"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase define la hernia inguinal indirecta como la más frecuente, señala que protruye por el anillo inguinal interno y que es lateral a los vasos epigástricos inferiores. La comparación con las otras dos variedades de la región completa el concepto: la hernia inguinal directa protruye medialmente a los vasos epigástricos inferiores, dentro del triángulo de Hesselbach, y responde a una debilidad del suelo del canal inguinal; la hernia femoral, más frecuente en mujeres y en edades más avanzadas, es inferior al ligamento inguinal y protruye a través del anillo femoral. La utilidad de estas referencias es intraoperatoria: los vasos epigástricos inferiores separan la indirecta, lateral, de la directa, medial, y el ligamento inguinal separa ambas de la femoral. Se considera correcta la respuesta que incluya la lateralidad respecto de los vasos epigástricos; mencionar además el anillo inguinal interno la completa.",
+  "teaching_point": "La hernia inguinal indirecta es lateral a los vasos epigástricos inferiores y protruye por el anillo inguinal interno.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "hernia indirecta",
+   "anatomía",
+   "vasos epigástricos"
+  ]
+ },
+ {
+  "id": "T12-C003",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la consulta de cirugía se compara la distribución por sexos de las hernias de la región inguinocrural, para explicar por qué las mujeres presentan con más frecuencia cuadros de urgencia que los varones. Indique qué tipo de hernia es más frecuente en la mujer respecto al varón y en qué proporción.",
+  "respuesta_canonica": "La hernia femoral, cuatro veces más frecuente en la mujer",
+  "aceptadas": [
+   "hernia femoral o crural, x4 en la mujer",
+   "la femoral, con una probabilidad cuatro veces mayor",
+   "la femoral o crural, cuatro veces más frecuente en la mujer",
+   "hernia crural, con una razón de 4 a 1 a favor de la mujer"
+  ],
+  "conceptos_clave": [
+   "femoral",
+   "cuatro veces"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase compara ambos sexos con cifras concretas. Los hombres tienen de nueve a doce veces más probabilidad de desarrollar una hernia inguinal, con una prevalencia de por vida del 27 al 43 %, frente al 3 al 6 % de las mujeres. Las mujeres, en cambio, tienen cuatro veces más probabilidad de desarrollar una hernia femoral. Esa diferencia explica la observación clínica que el material subraya a continuación: las mujeres presentan más cuadros de urgencia debido a la mayor incidencia de hernias femorales, que tienen más probabilidad de incarcerarse o estrangularse. De hecho, entre los factores de riesgo de incarceración la clase enumera el sexo femenino, la hernia femoral y la hospitalización relacionada con la hernia en el último año. Se acepta la respuesta que identifique la hernia femoral o crural; la proporción de cuatro veces completa la respuesta pero no es imprescindible si se identifica el tipo.",
+  "teaching_point": "La hernia femoral es cuatro veces más frecuente en la mujer y explica sus presentaciones urgentes.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "hernia femoral",
+   "sexo",
+   "epidemiología"
+  ]
+ },
+ {
+  "id": "T12-C004",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente con una hernia inguinal irreductible desde hace varias horas presenta ahora dolor intenso, eritema cutáneo sobre el saco y afectación del estado general, con sospecha de compromiso vascular del contenido. Defina qué es la estrangulación herniaria y en qué se diferencia de la incarceración.",
+  "respuesta_canonica": "Isquemia y necrosis del contenido herniario por pérdida del flujo venoso y arterial",
+  "aceptadas": [
+   "necrosis del contenido de la hernia por compromiso vascular",
+   "isquemia del contenido herniario tras fallar el retorno venoso y luego el flujo arterial",
+   "necrosis isquémica del contenido herniario; la incarceración es solo irreductibilidad sin isquemia",
+   "compromiso vascular con necrosis del contenido, a diferencia de la incarceración, que es únicamente irreductible"
+  ],
+  "conceptos_clave": [
+   "isquemia",
+   "necrosis",
+   "flujo"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe una secuencia continua. La incarceración es el atrapamiento del contenido de la hernia dentro del saco herniario, lo que impide devolverlo al abdomen o a la pelvis, y puede afectar al intestino delgado o grueso, al apéndice, al epiplón, a la vejiga, al ovario u otras estructuras. A medida que el tejido incarcerado se hincha, se reduce el flujo venoso y linfático, lo que provoca más edema y cierra un círculo vicioso. Si no se trata, la falta de flujo venoso y, eventualmente, arterial puede resultar en isquemia y necrosis del contenido de la hernia, una condición conocida como estrangulación. La diferencia esencial, por tanto, es que la incarceración es un problema mecánico de irreductibilidad, mientras que la estrangulación añade compromiso vascular con tejido inviable. Se acepta la respuesta que mencione isquemia o necrosis del contenido por compromiso del flujo sanguíneo.",
+  "teaching_point": "La estrangulación es la isquemia y necrosis del contenido herniario; la incarceración es solo la irreductibilidad mecánica.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "estrangulación",
+   "incarceración",
+   "isquemia"
+  ]
+ },
+ {
+  "id": "T12-L001",
+  "tema": 12,
+  "bloque": "pared_abdominal",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 81 años, con antecedente de un episodio de dolor inguinal derecho que precisó reducción manual hace ocho meses, acude por vómitos de veinticuatro horas y distensión abdominal. Se palpa una tumoración dolorosa e irreductible por debajo del ligamento inguinal derecho y la radiografía simple muestra dilatación de asas de intestino delgado. Exponga el diagnóstico, la clasificación anatómica de la hernia, la complicación que presenta y la indicación quirúrgica, con los factores de riesgo implicados. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Identifica el cuadro como obstrucción de intestino delgado secundaria a hernia inguinocrural complicada",
+    "puntos": 0.38,
+    "claves": [
+     "obstrucción",
+     "intestino delgado",
+     "hernia"
+    ]
+   },
+   {
+    "elemento": "Localiza la hernia por debajo del ligamento inguinal y la tipifica como femoral, a través del anillo femoral",
+    "puntos": 0.38,
+    "claves": [
+     "ligamento inguinal",
+     "femoral",
+     "anillo femoral"
+    ]
+   },
+   {
+    "elemento": "Diferencia la hernia femoral de la inguinal directa e indirecta usando los vasos epigástricos inferiores y el triángulo de Hesselbach",
+    "puntos": 0.38,
+    "claves": [
+     "epigástricos",
+     "Hesselbach",
+     "anillo inguinal interno"
+    ]
+   },
+   {
+    "elemento": "Define incarceración y estrangulación y sitúa a la paciente en la secuencia",
+    "puntos": 0.38,
+    "claves": [
+     "incarceración",
+     "estrangulación",
+     "isquemia",
+     "necrosis"
+    ]
+   },
+   {
+    "elemento": "Enumera los factores de riesgo de incarceración: sexo femenino, hernia femoral y hospitalización por la hernia el último año",
+    "puntos": 0.38,
+    "claves": [
+     "sexo femenino",
+     "hernia femoral",
+     "hospitalización"
+    ]
+   },
+   {
+    "elemento": "Justifica la epidemiología: la mujer tiene cuatro veces más hernias femorales y más presentaciones urgentes",
+    "puntos": 0.38,
+    "claves": [
+     "cuatro veces",
+     "mujer",
+     "urgencia"
+    ]
+   },
+   {
+    "elemento": "Establece la indicación quirúrgica urgente conforme a la regla de síntomas frente a complicación",
+    "puntos": 0.38,
+    "claves": [
+     "quirúrgica",
+     "urgente",
+     "complicación"
+    ]
+   },
+   {
+    "elemento": "Menciona la necesidad de valorar la viabilidad del contenido herniario durante la intervención",
+    "puntos": 0.34,
+    "claves": [
+     "viabilidad",
+     "contenido",
+     "intestino"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro corresponde a una obstrucción de intestino delgado secundaria a una hernia inguinocrural complicada. La localización de la tumoración por debajo del ligamento inguinal la tipifica como hernia femoral, que protruye a través del anillo femoral. Esa referencia anatómica es la que permite diferenciarla de las hernias inguinales: la indirecta, que es la más frecuente, protruye por el anillo inguinal interno y es lateral a los vasos epigástricos inferiores; la directa protruye medialmente a esos vasos, dentro del triángulo de Hesselbach, por debilidad del suelo del canal inguinal. La complicación que presenta la paciente es una incarceración, definida como el atrapamiento del contenido de la hernia dentro del saco herniario, que impide devolverlo al abdomen o a la pelvis. El contenido incarcerado se hincha, se reduce el flujo venoso y linfático y aumenta el edema; si el proceso no se interrumpe, la falta de flujo venoso y después arterial produce isquemia y necrosis del contenido, es decir, estrangulación. Los vómitos y la dilatación de asas indican que el asa comprometida está obstruida, de modo que la paciente se encuentra en la ventana de tiempo que separa ambas situaciones. Concurren los tres factores de riesgo de incarceración que recoge la clase: sexo femenino, hernia femoral y hospitalización relacionada con la hernia en el último año, ya que el episodio previo obligó a una reducción manual. Todo ello es coherente con la epidemiología expuesta: las mujeres tienen cuatro veces más probabilidad de desarrollar una hernia femoral y presentan más cuadros de urgencia precisamente por ese motivo, mientras que la hernia inguinal predomina en el varón, con una prevalencia de por vida del 27 al 43 % frente al 3 al 6 % de la mujer. La indicación es quirúrgica y urgente. La regla que resume el tratamiento de las hernias es sencilla: se opera cuando dan síntomas y se opera de urgencia cuando se complican. Durante la intervención debe valorarse la viabilidad del contenido herniario antes de reintroducirlo, resecando el segmento no viable, y repararse después el defecto.",
+  "explanation": "La pregunta evalúa si el alumno reconoce la hernia femoral por su relación con el ligamento inguinal, si distingue incarceración de estrangulación y si aplica correctamente la regla de indicación quirúrgica de la clase. El fallo más frecuente es tipificar como inguinal cualquier tumoración de la región y perder así el dato que explica el riesgo: la hernia femoral es la que más se incarcera y estrangula, y es cuatro veces más frecuente en la mujer. Se valora también que el alumno enumere los tres factores de riesgo de incarceración sin confundirlos con los factores de riesgo de padecer una hernia inguinal, que son el sexo masculino, la edad, la historia familiar, el metabolismo del colágeno alterado y la prostatectomía previa. Se penaliza proponer taxis y cirugía diferida en un cuadro obstructivo, y omitir la valoración de la viabilidad del contenido.",
+  "guideline_ref": "Cirugía AEC (Asociación Española de Cirujanos), Parrilla Aparicio ed., 2022, capítulo de hernias de la pared abdominal",
+  "fuente_clase": {
+   "archivo": "Tema 12.Hernia y pared abdominal.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "hernia femoral",
+   "incarceración",
+   "obstrucción",
+   "indicación quirúrgica"
+  ]
+ }
+]

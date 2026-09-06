@@ -1,0 +1,711 @@
+[
+ {
+  "id": "T23-M001",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 78 años con fibrilación auricular no anticoagulada acude por dolor abdominal de inicio brusco hace tres horas, intenso y difuso, con náuseas y una deposición diarreica. La exploración es prácticamente anodina y desproporcionadamente benigna para el dolor. Hay leucocitosis y acidosis metabólica leve. ¿Qué actuación diagnóstica procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Angiografia mesenterica urgente, patron de referencia clasico con sensibilidad y especificidad proximas al 100 %."
+   },
+   {
+    "id": "B",
+    "text": "Radiografia simple de abdomen buscando impresiones digitales, con reevaluacion clinica en unas horas."
+   },
+   {
+    "id": "C",
+    "text": "Colonoscopia urgente sin preparacion para valorar la mucosa colonica."
+   },
+   {
+    "id": "D",
+    "text": "TC con contraste intravenoso inmediata, sin esperar a que aparezcan signos peritoneales."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El caso reune los rasgos de una embolia de la arteria mesenterica superior: inicio brusco, edad avanzada, fibrilacion auricular como fuente embolica y dolor desproporcionado para la exploracion fisica. La clase señala la TC con contraste intravenoso como metodo de eleccion, con sensibilidad similar a la de la angiografia para la oclusion proximal de los vasos y con la ventaja añadida de valorar el estado del intestino y detectar signos indirectos como el gas en el sistema venoso portal. El diagnostico dentro de las primeras 24 horas reduce la mortalidad a la mitad. Opción A: la angiografia fue el patron de referencia clasico y conserva esas cifras de rendimiento, pero la clase la da por sustituida por la TC en el escenario agudo por su escasa disponibilidad urgente; su indicacion firme es hoy la isquemia cronica. Opción B: la radiografia simple puede mostrar impresiones digitales, pero es una prueba de bajo rendimiento, y reevaluar clinicamente unas horas despues a una paciente con esta sospecha es exactamente lo que dispara la mortalidad. Opción C: la colonoscopia es la prueba de eleccion en la colitis isquemica, no en la isquemia mesenterica aguda de intestino delgado. Punto de enseñanza: sospecha de isquemia mesenterica aguda equivale a angio-TC inmediato, sin esperar a que aparezca la peritonitis.",
+  "teaching_point": "Dolor desproporcionado para la exploracion en un paciente con fibrilacion auricular: angio-TC urgente, sin esperas.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 32
+  },
+  "tags": [
+   "isquemia mesenterica aguda",
+   "embolia AMS",
+   "angio-TC"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M002",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 74 años con arteriopatía periférica que refiere desde hace cuatro días dolor abdominal progresivo, tras meses de dolor postprandial y pérdida de peso. Está hipotenso. El angio-TC muestra oclusión de la arteria mesentérica superior en su origen, con placa calcificada, y sufrimiento desde yeyuno proximal. ¿Qué mecanismo y qué técnica corresponden?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Trombosis arterial aguda sobre placa; revascularizacion mediante by-pass con o sin reseccion intestinal."
+   },
+   {
+    "id": "B",
+    "text": "Embolia de la arteria mesenterica superior; embolectomia con sonda de Fogarty."
+   },
+   {
+    "id": "C",
+    "text": "Trombosis venosa mesenterica; anticoagulacion con heparina y observacion."
+   },
+   {
+    "id": "D",
+    "text": "Isquemia mesenterica no oclusiva; perfusion intraarterial de papaverina durante 24 horas."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El antecedente de angina intestinal, la instauracion insidiosa a lo largo de varios dias, la arteriopatia en otros territorios y la oclusion sobre placa calcificada en el origen del vaso definen una trombosis aguda de la arteria mesenterica superior. La clase indica que en la trombosis la afectacion es mas extensa e incluye el yeyuno proximal, que el tratamiento es el by-pass con o sin reseccion intestinal y que no procede la trombectomia; el pronostico es peor que en la embolia. Opción B: la embolia comienza de forma brusca, suele asentar proximal al origen de la arteria ileocolica y respeta el yeyuno proximal, con territorio de yeyuno medio a colon transverso; ahi si corresponde embolectomia. Opción C: la trombosis venosa mesenterica afecta a pacientes mas jovenes con hipercoagulabilidad y muestra trombo en el eje venoso, no oclusion arterial ostial. Opción D: la isquemia no oclusiva aparece en pacientes criticos con bajo gasto y vasoconstrictores, y en la arteriografia no hay oclusion del tronco. Punto de enseñanza: trombosis, by-pass; embolia, embolectomia.",
+  "teaching_point": "Angina intestinal previa mas oclusion ostial sobre placa: trombosis arterial; se revasculariza con by-pass, no con trombectomia.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 36
+  },
+  "tags": [
+   "trombosis arterial",
+   "by-pass",
+   "isquemia mesenterica aguda"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M003",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 36 años, sin factores de riesgo cardiovascular, con antecedente de pancreatitis aguda reciente, consulta por dolor abdominal difuso de instauración insidiosa en la última semana. El abdomen es blando, sin peritonismo. El angio-TC muestra trombo en la vena mesentérica superior sin neumatosis ni asas sufrientes. ¿Qué tratamiento procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Laparotomia urgente con reseccion intestinal amplia y laparostomia programada."
+   },
+   {
+    "id": "B",
+    "text": "Perfusion intraarterial de papaverina y repetir la arteriografia a las 24 horas."
+   },
+   {
+    "id": "C",
+    "text": "Anticoagulacion precoz con heparina y mantenida de forma indefinida."
+   },
+   {
+    "id": "D",
+    "text": "Anticoagulacion con heparina y reseccion programada del segmento afecto en el mismo ingreso."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El perfil es el clasico de la trombosis venosa mesenterica: paciente joven, sin arteriosclerosis, con un desencadenante secundario, en este caso una pancreatitis aguda, y una instauracion insidiosa a lo largo de dias. El tratamiento es la anticoagulacion, iniciada precozmente con heparina y mantenida despues de forma indefinida por un riesgo de recurrencia elevado, y la cirugia se reserva para el paciente con peritonismo, con reseccion intestinal y valoracion de laparostomia. Opción A: no hay signos de necrosis transmural ni irritacion peritoneal, de modo que una reseccion amplia condenaria al paciente a un intestino corto sin necesidad. Opción B: la papaverina intraarterial es el tratamiento de la isquemia mesenterica no oclusiva, cuadro por vasoconstriccion esplacnica en pacientes criticos. Opción D: la reseccion intestinal en la trombosis venosa mesenterica se reserva para el paciente con peritonismo; programarla en un enfermo con abdomen blando y sin asas sufrientes añade una laparotomia y un riesgo de intestino corto que la anticoagulacion evita. Punto de enseñanza: trombosis venosa mesenterica sin peritonismo se trata con heparina, no con bisturi.",
+  "teaching_point": "Trombosis venosa mesenterica sin peritonismo: anticoagulacion precoz e indefinida; la cirugia solo si hay irritacion peritoneal.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 47
+  },
+  "tags": [
+   "trombosis venosa mesenterica",
+   "anticoagulacion",
+   "heparina"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M004",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Paciente de 70 años ingresado en críticos por shock cardiogénico, con noradrenalina a dosis altas. Al tercer día presenta dolor abdominal, distensión y empeoramiento del láctico sin causa aparente. La arteriografía muestra estenosis en el origen de las ramas proximales de la mesentérica superior y espasmo de las arcadas, sin oclusión. ¿Qué tratamiento inicial procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Embolectomia quirurgica urgente de la arteria mesenterica superior."
+   },
+   {
+    "id": "B",
+    "text": "Perfusion intraarterial de papaverina durante 24 horas y repetir despues la arteriografia."
+   },
+   {
+    "id": "C",
+    "text": "Anticoagulacion con heparina en perfusion y correccion del bajo gasto, sin tratamiento intraarterial."
+   },
+   {
+    "id": "D",
+    "text": "Colectomia subtotal con colostomia terminal por sospecha de colitis gangrenosa."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El cuadro corresponde a una isquemia mesenterica no oclusiva, responsable de alrededor de una cuarta parte de los episodios de isquemia mesenterica aguda. Se debe a vasoconstriccion esplacnica en situaciones de bajo gasto, mediada por sustancias como la endotelina, y puede aparecer horas o incluso dias despues del evento desencadenante y persistir tras su resolucion. Los hallazgos arteriograficos descritos, estenosis de las ramas proximales y espasmo de las arcadas, son los de la clase. El tratamiento es la perfusion intraarterial de papaverina durante 24 horas con repeticion posterior de la arteriografia, junto con anticoagulacion e IECA. Opción A: no hay oclusion embolica que extraer; una embolectomia seria una laparotomia inutil en un paciente critico. Opción C: la anticoagulacion y el soporte hemodinamico forman parte del tratamiento y hay que optimizarlos, pero no revierten el espasmo esplacnico, que es el mecanismo dominante y el que exige papaverina intraarterial. Opción D: la colectomia se reserva para la colitis isquemica grave, y aqui no hay datos de necrosis colonica establecida. Punto de enseñanza: el fracaso del tratamiento conservador si obliga a cirugia con reseccion, laparostomia y second look.",
+  "teaching_point": "Isquemia mesenterica no oclusiva: papaverina intraarterial 24 horas y nueva arteriografia; cirugia solo si fracasa.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 51
+  },
+  "tags": [
+   "isquemia no oclusiva",
+   "papaverina",
+   "arteriografia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M005",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 76 años hipertensa y diabética acude por dolor abdominal en flanco izquierdo, urgencia defecatoria y deposiciones con sangre roja iniciadas hace ocho horas. Está afebril, sin peritonismo, con leucocitosis leve. El TC muestra engrosamiento segmentario del colon descendente. ¿Qué prueba diagnóstica procede y con qué precaución?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colonoscopia sin preparacion previa, porque el polietilenglicol puede agravar la isquemia."
+   },
+   {
+    "id": "B",
+    "text": "Colonoscopia tras preparacion completa con polietilenglicol, para mejorar la visualizacion."
+   },
+   {
+    "id": "C",
+    "text": "Angio-TC urgente sin preparacion, por ser la prueba de eleccion en este cuadro."
+   },
+   {
+    "id": "D",
+    "text": "Enema opaco con doble contraste tras preparacion ligera, para delimitar el segmento afecto."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El cuadro es una colitis isquemica, la forma mas frecuente de isquemia intestinal, tipica de pacientes mayores con factores de riesgo cardiovascular, y la clase establece que la colonoscopia es la prueba diagnostica de eleccion. La exploracion debe realizarse sin preparacion, porque las soluciones de polietilenglicol pueden agravar la isquemia. Los tres hallazgos que la sugieren son el respeto del recto, el caracter segmentario de la lesion flanqueada por mucosa indemne y los nodulos hemorragicos, equivalentes a las impresiones digitales. Opción B: preparar con polietilenglicol es precisamente lo contraindicado, porque una solucion osmotica sobre un colon hipoperfundido puede empeorar la lesion. Opción C: el angio-TC es el metodo de eleccion en la isquemia mesenterica aguda y aporta datos aqui, pero en la colitis isquemica la prueba de eleccion es la colonoscopia, que ademas permite biopsiar y ver el caracter segmentario. Opción D: el enema opaco no informa sobre la mucosa ni permite biopsiar, ha sido desplazado por la endoscopia y su preparacion comparte el mismo riesgo. Punto de enseñanza: colitis isquemica se diagnostica con colonoscopia y sin preparar al paciente.",
+  "teaching_point": "En la colitis isquemica la colonoscopia es la prueba de eleccion y se hace sin preparacion con polietilenglicol.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 72
+  },
+  "tags": [
+   "colitis isquemica",
+   "colonoscopia",
+   "polietilenglicol"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M006",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Una mujer de 79 años con fibrilación auricular ingresa por dolor abdominal y rectorragia, y la colonoscopia muestra una lesión segmentaria en una de las tres zonas del colon que la clase señala como especialmente vulnerables por su circulación colateral precaria. El informe la etiqueta como punto de Griffith. ¿A qué localización corresponde ese punto y qué defecto vascular lo explica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El colon derecho, donde la arteria marginal de Drummond esta poco desarrollada en la mitad de la poblacion."
+   },
+   {
+    "id": "B",
+    "text": "La union rectosigmoidea, situada distal a las ultimas conexiones colaterales con las arterias proximales."
+   },
+   {
+    "id": "C",
+    "text": "El angulo hepatico, punto de transicion entre los territorios de la mesenterica superior y la inferior."
+   },
+   {
+    "id": "D",
+    "text": "El angulo esplenico, donde la arteria marginal de Drummond puede ser tenue o incluso faltar."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El punto de Griffith es el angulo esplenico. La clase lo señala como area de riesgo porque alli la arteria marginal de Drummond puede ser tenue o incluso estar ausente, en torno al 5 % de los casos, y porque ademas pueden faltar vasos rectos. Es una de las tres zonas con mayor incidencia de colitis isquemica, junto con el colon derecho y la union rectosigmoidea. Opción A: el colon derecho es efectivamente un area de riesgo, y por el motivo que se enuncia, la marginal de Drummond poco desarrollada en alrededor de la mitad de la poblacion, pero no recibe ese eponimo. Opción B: la union rectosigmoidea es el punto de Sudek, vulnerable por situarse distal a las ultimas conexiones colaterales con las arterias proximales; el mecanismo esta bien enunciado, el eponimo no. Opción C: el angulo hepatico no figura entre las areas de riesgo, y la transicion entre los territorios de la mesenterica superior y la inferior se produce en el angulo esplenico, no en el hepatico. Punto de enseñanza: Griffith es el angulo esplenico; Sudek, la union rectosigmoidea.",
+  "teaching_point": "Punto de Griffith: angulo esplenico. Punto de Sudek: union rectosigmoidea. El recto suele estar respetado.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "punto de Griffith",
+   "punto de Sudek",
+   "anatomia vascular"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M007",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "En la isquemia intestinal la mucosa es la primera capa que se lesiona, y la clase lo justifica con dos cifras sobre el reparto del flujo esplácnico en condiciones de reposo. Un paciente crítico con bajo gasto sostenido reproduce exactamente ese escenario. ¿Qué proporción del gasto cardíaco recibe el intestino delgado y qué fracción de ese flujo llega a la mucosa?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El 20 % del gasto cardiaco, y la mucosa el 30 % de ese flujo."
+   },
+   {
+    "id": "B",
+    "text": "El 20 % del gasto cardiaco, y la mucosa el 70 % de ese flujo."
+   },
+   {
+    "id": "C",
+    "text": "El 35 % del gasto cardiaco, y la mucosa el 70 % de ese flujo."
+   },
+   {
+    "id": "D",
+    "text": "El 50 % del gasto cardiaco, y la mucosa el 20 % de ese flujo."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase precisa que el intestino delgado recibe el 20 % del flujo cardiaco en reposo, porcentaje que asciende al 35 % durante la digestion, y que la mucosa recibe el 70 % de ese total, razon por la cual es la estructura mas sensible a la isquemia y la primera en lesionarse. Añade que el intestino delgado es capaz de soportar un descenso del 75 % del flujo durante 12 horas sin repercusion, gracias a la apertura de las arcadas colaterales. Opción A: reducir el reparto mucoso a un tercio pierde justamente la desproporcion que explica el patron lesional, con la necrosis empezando en la punta de la vellosidad. Opción C: el 35 % es el flujo que recibe el intestino delgado durante la digestion, no en reposo; confundir ambas cifras es el error tipico de esta diapositiva. Opción D: ningun organo digestivo recibe la mitad del gasto cardiaco en reposo, y ademas invierte la fraccion destinada a la mucosa. Punto de enseñanza: 20 % del gasto cardiaco al intestino y 70 % de ese flujo a la mucosa; la capa mas irrigada es la mas vulnerable.",
+  "teaching_point": "El intestino delgado recibe el 20 % del gasto cardiaco y la mucosa el 70 % de ese flujo: por eso se lesiona primero.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 22
+  },
+  "tags": [
+   "fisiopatologia",
+   "flujo esplacnico",
+   "mucosa"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M008",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Un paciente de 81 años ingresa por colitis isquémica y su familia pregunta qué probabilidad hay de acabar en el quirófano. La clase distingue cinco formas evolutivas del cuadro, con frecuencias muy distintas, desde las que se resuelven solas hasta las que obligan a una colectomía urgente. ¿Cuál de las siguientes es la menos frecuente de todas ellas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colitis transitoria."
+   },
+   {
+    "id": "B",
+    "text": "Colitis isquemica segmentaria cronica."
+   },
+   {
+    "id": "C",
+    "text": "Colitis fulminante universal."
+   },
+   {
+    "id": "D",
+    "text": "Colitis gangrenosa."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clasificacion recogida en la clase ordena la colitis isquemica en colopatia reversible (25-35 %), colitis transitoria (25-40 %), colitis isquemica segmentaria cronica (15-20 %), colitis gangrenosa (8-12 %) y colitis fulminante universal, que es la menos frecuente, por debajo del 5 %. Esa jerarquia explica que la mayoria de los casos se resuelvan de forma espontanea con tratamiento conservador y que solo una minoria evolucione a formas graves que exigen cirugia. Opción A: la colitis transitoria es, junto con la colopatia reversible, la presentacion habitual del cuadro, en torno a un tercio de los casos. Opción B: la segmentaria cronica ocupa una posicion intermedia y es la que puede acabar dando una estenosis sintomatica que requiera reseccion diferida. Opción D: la colitis gangrenosa es la eleccion erronea mas frecuente, porque es la forma grave que primero se recuerda; con un 8-12 % es infrecuente, pero sigue siendo mas frecuente que la fulminante universal. Punto de enseñanza: gravedad y frecuencia no van de la mano; la forma menos frecuente es la fulminante universal, y es la que define el escenario de colectomia urgente junto con la gangrenosa.",
+  "teaching_point": "La colitis fulminante universal es la forma menos frecuente de colitis isquemica, por debajo del 5 % de los casos.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 67
+  },
+  "tags": [
+   "colitis isquemica",
+   "clasificacion",
+   "pronostico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M009",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "Al clasificar la isquemia mesentérica aguda por su mecanismo, la clase asigna a cada categoría un peso relativo que orienta la sospecha clínica antes de disponer de la imagen. ¿Cuál es, según lo expuesto, la causa individual más frecuente de isquemia mesentérica aguda y a qué proporción de los episodios corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "La trombosis venosa mesenterica, en torno al 25 % de los episodios."
+   },
+   {
+    "id": "B",
+    "text": "La isquemia mesenterica no oclusiva, en torno al 50 % de los episodios."
+   },
+   {
+    "id": "C",
+    "text": "La trombosis arterial de la mesenterica superior, en torno al 50 % de los episodios."
+   },
+   {
+    "id": "D",
+    "text": "El embolismo arterial de la mesenterica superior, en torno al 50 % de los episodios."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase establece que la embolia de la arteria mesenterica superior es la causa mas frecuente de isquemia mesenterica aguda y que supone alrededor del 50 % de los episodios. Dentro del reparto etiologico, la oclusion arterial global representa cerca del 65 %, la isquemia no oclusiva alrededor del 25 % y la trombosis venosa mesenterica en torno al 10 %. Opción A: la trombosis venosa es la categoria minoritaria, no la de un cuarto de los casos; ese peso corresponde a la forma no oclusiva. Opción B: la isquemia no oclusiva es responsable de aproximadamente una cuarta parte de los episodios, no de la mitad. Opción C: la trombosis arterial es claramente menos frecuente que la embolia y tiene ademas peor pronostico, porque la afectacion suele ser mas extensa e incluir el yeyuno proximal. Punto de enseñanza: ante isquemia mesenterica aguda, la primera hipotesis estadistica y clinica es la embolia de la mesenterica superior en un paciente con fuente cardioembolica.",
+  "teaching_point": "La embolia de la arteria mesenterica superior causa alrededor del 50 % de los episodios de isquemia mesenterica aguda.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 20
+  },
+  "tags": [
+   "etiologia",
+   "embolia AMS",
+   "epidemiologia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M010",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Una mujer de 68 años refiere dolor epigástrico que aparece tras las comidas y dura alrededor de hora y media, miedo a comer y pérdida de 12 kg en seis meses. Tiene arteriopatía periférica y soplo epigástrico. ¿Qué requisitos deben cumplirse para indicar la revascularización mesentérica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Clinica compatible, confirmacion angiografica, afectacion de dos o tres vasos y estenosis mayor del 50 %."
+   },
+   {
+    "id": "B",
+    "text": "Clinica compatible, confirmacion angiografica, afectacion de un solo vaso y estenosis mayor del 50 %."
+   },
+   {
+    "id": "C",
+    "text": "Clinica compatible, confirmacion angiografica, afectacion de dos o tres vasos y estenosis mayor del 30 %."
+   },
+   {
+    "id": "D",
+    "text": "Clinica compatible, confirmacion por angio-TC, afectacion de un solo vaso y estenosis mayor del 70 %."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El cuadro descrito es una isquemia mesenterica cronica o angina intestinal, con la triada tipica de dolor epigastrico postprandial, fobia a comer y perdida de peso, acompañada de arteriopatia en otros territorios. La clase fija cuatro requisitos para indicar el tratamiento: clinica compatible, confirmacion angiografica, afectacion de dos o tres vasos y estenosis superior al 50 %. Solo cumpliendolos se plantea endarterectomia, by-pass o angioplastia con stent. Opción B: la afectacion de un unico vaso no basta, porque las conexiones entre el tronco celiaco, la mesenterica superior y la mesenterica inferior, a traves de las arcadas pancreatico-duodenales, la arcada de Riolano y la marginal de Drummond, compensan una oclusion aislada y la hacen habitualmente silente. Opción C: bajar el umbral al 30 % llevaria a revascularizar estenosis que no producen isquemia, un riesgo real cuando la correlacion entre angiografia y clinica es pobre. Opción D: sustituir la angiografia por el angio-TC contradice la exigencia de confirmacion angiografica, que la clase considera indicada siempre en la isquemia cronica, y mantiene ademas el error del vaso unico. Punto de enseñanza: clinica compatible, dos o tres vasos y estenosis mayor del 50 %, confirmados por angiografia.",
+  "teaching_point": "Revascularizacion en isquemia mesenterica cronica: clinica compatible, confirmacion angiografica, dos o tres vasos afectos y estenosis mayor del 50 %.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 57
+  },
+  "tags": [
+   "isquemia mesenterica cronica",
+   "angina intestinal",
+   "indicacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M011",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "En la laparotomía de un paciente con isquemia mesentérica aguda por embolia se practica embolectomía y se comprueba que persisten dudas sobre la viabilidad de varios segmentos de intestino delgado tras la revascularización. La situación hemodinámica es inestable. ¿Qué actitud procede al terminar la intervención?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resecar todo el intestino de aspecto dudoso y realizar anastomosis primaria terminoterminal."
+   },
+   {
+    "id": "B",
+    "text": "Resecar solo el intestino claramente necrotico, cerrar la pared y reevaluar la evolucion en planta."
+   },
+   {
+    "id": "C",
+    "text": "Dejar laparostomia y programar un second look en 24-48 horas, sin anastomosis primaria."
+   },
+   {
+    "id": "D",
+    "text": "Resecar los segmentos dudosos y realizar una ileostomia terminal alta, cerrando la pared."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase señala que ante dudas en la delimitacion del area isquemica hay que valorar la laparostomia y no realizar anastomosis primaria, con revision programada del intestino a las 24-48 horas, el llamado second look. El motivo es que la extension real de la necrosis puede progresar tras la revascularizacion, y una anastomosis sobre intestino de viabilidad incierta en un paciente inestable tiene un riesgo de dehiscencia inaceptable. Opción A: reseca de mas y anastomosa sin criterio, y expone a un intestino corto evitable con dependencia de nutricion parenteral domiciliaria. Opción B: limitar la reseccion a lo claramente necrotico es correcto, pero cerrar la pared y confiar en la evolucion clinica en planta impide reevaluar el intestino dudoso justo cuando la necrosis progresa, y obliga a una reintervencion tardia con el paciente ya septico. Opción D: la ileostomia terminal alta da un estoma de alto debito, toma una decision definitiva sobre un intestino cuya viabilidad todavia no esta establecida y no evita tener que reexplorar. Punto de enseñanza: en la isquemia mesenterica con viabilidad dudosa, laparostomia y second look son la norma, no la excepcion.",
+  "teaching_point": "Viabilidad intestinal dudosa tras revascularizacion: laparostomia, sin anastomosis primaria, y second look en 24-48 horas.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 38
+  },
+  "tags": [
+   "laparostomia",
+   "second look",
+   "cirugia de control de daños"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-M012",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "En un paciente con dolor abdominal y sospecha de isquemia mesenterica aguda se realiza un angio-TC. El radiólogo describe, además del estudio de los troncos mesentéricos, la presencia de gas en el sistema venoso portal. ¿Qué significado tiene este hallazgo y qué otro rendimiento destacado tiene esta técnica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perforacion de viscera hueca; la tecnica destaca por descartar la compresion del tronco celiaco."
+   },
+   {
+    "id": "B",
+    "text": "Dato indirecto de isquemia intestinal; la tecnica rinde al maximo en la trombosis venosa mesenterica."
+   },
+   {
+    "id": "C",
+    "text": "Signo precoz de isquemia reversible; la tecnica destaca por su rendimiento en la colitis isquemica."
+   },
+   {
+    "id": "D",
+    "text": "Hallazgo por apertura de colaterales; la tecnica permite prescindir de la colonoscopia diagnostica."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase describe el gas en el sistema venoso portal como un dato indirecto de isquemia en el angio-TC, y subraya que esta tecnica permite demostrar la oclusion de los vasos en sus porciones proximales con sensibilidad similar a la de la angiografia, valorar la vascularizacion y el estado del intestino, y alcanzar su mayor rendimiento en el diagnostico de la trombosis venosa mesenterica, del orden del 90-100 %. Opción A: la perforacion de viscera hueca produce neumoperitoneo, no gas en el eje portal; el sindrome de compresion del tronco celiaco es ademas una causa infrecuente de oclusion arterial, ajena a este hallazgo. Opción C: el gas portal no es un signo precoz ni de reversibilidad, sino un hallazgo de isquemia ya establecida y mal pronostico, y el diagnostico de la colitis isquemica se apoya en la colonoscopia. Opción D: la apertura de las arcadas colaterales es un mecanismo de compensacion que no genera gas en el eje portal, y el angio-TC no sustituye a la colonoscopia, que sigue siendo la prueba de eleccion en la colitis isquemica. Punto de enseñanza: gas portal en el angio-TC es un signo indirecto de isquemia intestinal establecida.",
+  "teaching_point": "El gas en el sistema venoso portal es un signo indirecto de isquemia intestinal; el angio-TC rinde especialmente bien en la trombosis venosa mesenterica.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "angio-TC",
+   "gas portal",
+   "trombosis venosa mesenterica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T23-C001",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un paciente de 72 años consulta por dolor abdominal epigástrico que aparece siempre tras las comidas, ha dejado de comer por miedo al dolor y ha adelgazado de forma llamativa. Enumere los tres síntomas que integran la tríada clínica de la isquemia mesentérica crónica.",
+  "respuesta_canonica": "Dolor epigastrico postprandial, fobia a comer y perdida de peso",
+  "aceptadas": [
+   "dolor abdominal postprandial, miedo a comer y adelgazamiento",
+   "dolor epigastrico postprandial, fobia a comer y perdida de peso",
+   "dolor tras las comidas, miedo a comer y perdida de peso"
+  ],
+  "conceptos_clave": [
+   "postprandial",
+   "comer",
+   "peso"
+  ],
+  "max_palabras": 20,
+  "explanation": "La isquemia mesenterica cronica o angina intestinal se presenta tipicamente en la sexta o septima decada de la vida, con predominio femenino en proporcion de dos a uno. Su triada clinica es dolor epigastrico, fobia a comer y perdida de peso. El dolor se inicia despues de la ingesta y suele durar en torno a hora y media, y la conducta de evitacion alimentaria explica el adelgazamiento, que a menudo es el motivo real de consulta. Se acompaña con frecuencia de malabsorcion y de evidencia de arteriopatia en otros territorios, y existe soplo epigastrico en un porcentaje amplio de casos, si bien es un signo inespecifico. La lesion caracteristica es una placa arteriosclerotica situada en el ostium aortico o en los dos primeros centimetros del origen de la arteria, y la correlacion entre los hallazgos angiograficos y la clinica es pobre, motivo por el que la indicacion terapeutica exige clinica compatible ademas de confirmacion anatomica.",
+  "teaching_point": "Angina intestinal: dolor epigastrico postprandial, fobia a comer y perdida de peso en un paciente con arteriopatia.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 58
+  },
+  "tags": [
+   "isquemia mesenterica cronica",
+   "triada",
+   "angina intestinal"
+  ]
+ },
+ {
+  "id": "T23-C002",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "corta",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Se realiza una colonoscopia sin preparación a una paciente de 74 años con dolor en flanco izquierdo y rectorragia. Cite los tres hallazgos endoscópicos que, según la clase, sugieren el diagnóstico de colitis isquémica frente a otras causas de colitis aguda.",
+  "respuesta_canonica": "Recto respetado, lesion segmentaria flanqueada por mucosa sana y nodulos hemorragicos",
+  "aceptadas": [
+   "recto sin afectacion, caracter segmentario de la lesion y nodulos hemorragicos (impresiones digitales)",
+   "respeto rectal, afectacion segmentaria y thumbprinting"
+  ],
+  "conceptos_clave": [
+   "recto",
+   "segmentaria",
+   "hemorragicos"
+  ],
+  "max_palabras": 20,
+  "explanation": "La colonoscopia es la prueba diagnostica de eleccion en la colitis isquemica y debe realizarse sin preparacion, porque las soluciones de polietilenglicol pueden agravar la isquemia. Los tres hallazgos que orientan al diagnostico son el respeto del recto, aunque existan casos descritos de proctitis isquemica; el caracter segmentario de la lesion, flanqueada por dos areas de mucosa indemne; y los nodulos hemorragicos, areas de hemorragia mucosa y submucosa que equivalen a las impresiones digitales o thumbprinting de la radiografia simple, hallazgo que no es patognomonico y que se aprecia en algo menos de la mitad de los casos cuando la exploracion se realiza dentro de las primeras 48 horas. La distribucion segmentaria refleja la anatomia de las areas de riesgo del colon: colon derecho, angulo esplenico o punto de Griffith, y union rectosigmoidea o punto de Sudek. Ese patron es lo que permite separar el cuadro de una colitis infecciosa o inflamatoria, habitualmente mas difusa y con afectacion rectal.",
+  "teaching_point": "Recto respetado, lesion segmentaria y nodulos hemorragicos son los tres hallazgos endoscopicos de la colitis isquemica.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 72
+  },
+  "tags": [
+   "colonoscopia",
+   "colitis isquemica",
+   "thumbprinting"
+  ]
+ },
+ {
+  "id": "T23-C003",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Una paciente ingresada por colitis isquémica en tratamiento conservador presenta fiebre, taquicardia y defensa abdominal generalizada, con deterioro clínico progresivo pese a la fluidoterapia y la antibioterapia. Cite las tres indicaciones agudas de tratamiento quirúrgico en la colitis isquémica, según se expusieron en la clase.",
+  "respuesta_canonica": "Peritonitis, hemorragia masiva y colitis fulminante con o sin megacolon toxico",
+  "aceptadas": [
+   "irritacion peritoneal, hemorragia masiva y colitis fulminante universal",
+   "peritonitis, sangrado masivo y colitis fulminante con megacolon toxico",
+   "peritonitis, hemorragia masiva y colitis fulminante"
+  ],
+  "conceptos_clave": [
+   "periton",
+   "hemorragia",
+   "fulminante"
+  ],
+  "max_palabras": 20,
+  "explanation": "Las indicaciones quirurgicas en la colitis isquemica se ordenan por el momento evolutivo. Las agudas son la peritonitis, la hemorragia masiva y la colitis fulminante, con o sin megacolon toxico. Las subagudas son la ausencia de respuesta clinica al manejo conservador en dos o tres semanas y la colopatia pierde-proteinas. Las cronicas son la estenosis sintomatica y la colitis isquemica segmentaria sintomatica. La clase añade, entre las indicaciones operatorias, los signos de irritacion peritoneal, la necrosis gangrenosa de la mucosa vista en la colonoscopia, el deterioro clinico asociado y la diarrea con perdida de sangre o colopatia pierde-proteinas mantenida mas de dos semanas. La tecnica es una colectomia subtotal o parcial con colostomia, y en la colitis gangrenosa grave la reseccion abarca todo el colon; no debe realizarse reconstruccion primaria, y hay que valorar second look, laparostomia o colostomia terminal. Son datos predictores de mortalidad la afectacion transmural y la aparicion de la colitis en el postoperatorio de otra intervencion.",
+  "teaching_point": "Peritonitis, hemorragia masiva y colitis fulminante son las tres indicaciones agudas de cirugia en la colitis isquemica.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 75
+  },
+  "tags": [
+   "colitis isquemica",
+   "indicacion quirurgica",
+   "colectomia"
+  ]
+ },
+ {
+  "id": "T23-C004",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la exploración de un paciente con oclusión crónica de la arteria mesentérica inferior se comprueba que el colon izquierdo mantiene su vascularización a través de las conexiones con el territorio de la mesentérica superior. Nombre las dos vías colaterales que unen ambos territorios.",
+  "respuesta_canonica": "La arcada de Riolano y la arteria marginal de Drummond",
+  "aceptadas": [
+   "arcada de Riolano y arteria marginal",
+   "arteria marginal de Drummond y arco de Riolano"
+  ],
+  "conceptos_clave": [
+   "Riolano",
+   "marginal",
+   "Drummond"
+  ],
+  "max_palabras": 20,
+  "explanation": "La vascularizacion del intestino delgado y del colon depende de tres ramas principales de la aorta: el tronco celiaco, la arteria mesenterica superior y la arteria mesenterica inferior. Entre ellas existen conexiones que explican por que una oclusion cronica puede ser clinicamente silente. La conexion entre el tronco celiaco y la mesenterica superior se establece a traves de las arcadas pancreatico-duodenales. La conexion entre la mesenterica superior y la mesenterica inferior se establece a traves de la arcada de Riolano y de la arteria marginal de Drummond. Conocer estas vias tiene consecuencias practicas directas. Por un lado, justifica que la isquemia mesenterica cronica exija habitualmente la afectacion de dos o tres vasos para dar clinica. Por otro, explica el mapa de las areas de riesgo del colon: el colon derecho, donde la marginal de Drummond esta poco desarrollada en alrededor de la mitad de la poblacion, y el angulo esplenico o punto de Griffith, donde esa misma arteria puede ser tenue o estar ausente.",
+  "teaching_point": "Arcada de Riolano y arteria marginal de Drummond conectan los territorios de la mesenterica superior e inferior.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "anatomia vascular",
+   "arcada de Riolano",
+   "arteria marginal"
+  ]
+ },
+ {
+  "id": "T23-L001",
+  "tema": 23,
+  "bloque": "vascular_digestivo",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 79 años con fibrilación auricular, que acude a urgencias por dolor abdominal de inicio brusco de cuatro horas de evolución, intenso y desproporcionado para una exploración abdominal casi normal. Exponga el diagnóstico de sospecha, la estrategia diagnóstica y su prioridad temporal, el diagnóstico diferencial con las demás formas de isquemia mesentérica aguda y el tratamiento quirúrgico. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Plantea embolia de la arteria mesenterica superior y justifica el origen cardioembolico",
+    "puntos": 0.5,
+    "claves": [
+     "embolia",
+     "mesenterica superior",
+     "fibrilacion auricular"
+    ]
+   },
+   {
+    "elemento": "Reconoce el dolor desproporcionado y enumera los signos tardios",
+    "puntos": 0.4,
+    "claves": [
+     "desproporcionado",
+     "hematoquecia",
+     "irritacion peritoneal"
+    ]
+   },
+   {
+    "elemento": "Indica el angio-TC como metodo de eleccion y situa la angiografia como patron tradicional",
+    "puntos": 0.6,
+    "claves": [
+     "contraste",
+     "eleccion",
+     "angiografia"
+    ]
+   },
+   {
+    "elemento": "Subraya el valor del diagnostico en las primeras 24 horas sobre la mortalidad",
+    "puntos": 0.4,
+    "claves": [
+     "24 horas",
+     "mortalidad"
+    ]
+   },
+   {
+    "elemento": "Diferencia embolia, trombosis arterial, trombosis venosa e isquemia no oclusiva",
+    "puntos": 0.6,
+    "claves": [
+     "insidioso",
+     "joven",
+     "bajo gasto"
+    ]
+   },
+   {
+    "elemento": "Describe el tratamiento: soporte, embolectomia y reseccion segun viabilidad",
+    "puntos": 0.3,
+    "claves": [
+     "fluidoterapia",
+     "antibioterapia",
+     "embolectomia",
+     "intestinal"
+    ]
+   },
+   {
+    "elemento": "Justifica laparostomia, ausencia de anastomosis primaria y second look",
+    "puntos": 0.2,
+    "claves": [
+     "laparostomia",
+     "second look"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro sugiere una embolia de la arteria mesenterica superior, causa mas frecuente de isquemia mesenterica aguda, responsable de alrededor del 50 % de los episodios. El origen habitual es un trombo mural en auricula o ventriculo izquierdo, frecuente tras infarto agudo de miocardio, en fibrilacion auricular o tras manipulaciones endovasculares, y en torno a un tercio de los pacientes tiene antecedentes de embolismos perifericos o embolias sincronicas. La localizacion mas frecuente es proximal al origen de la arteria ileocolica. El dato clinico rector es el dolor desproporcionado para la exploracion fisica; la distension, la hematoquecia y la irritacion peritoneal son signos tardios que ya traducen necrosis. El laboratorio aporta leucocitosis, acidosis metabolica, LDH, amilasa y dimero D, pero es inespecifico. La prueba de eleccion es la TC con contraste intravenoso, que demuestra la oclusion proximal con sensibilidad similar a la angiografia, valora el estado del intestino y detecta signos indirectos como el gas en el sistema venoso portal; la angiografia mesenterica fue el patron tradicional y mantiene su papel en la isquemia cronica y en la no oclusiva. La prioridad es temporal: la mortalidad supera el 70 % y el diagnostico dentro de las primeras 24 horas la reduce a la mitad. En el diferencial, la embolia comienza de forma brusca en paciente de edad avanzada; la trombosis arterial es insidiosa, con dias de sintomas, antecedente de angina intestinal hasta en la mitad de los casos y afectacion mas extensa que incluye el yeyuno proximal; la trombosis venosa mesenterica afecta a pacientes jovenes con trauma, hipercoagulabilidad o inflamacion abdominal; la forma no oclusiva aparece en el paciente critico con bajo gasto o farmacos vasoactivos. El tratamiento asocia soporte con fluidoterapia agresiva, antibioterapia de amplio espectro y cuidados criticos. En la embolia el area afecta va de yeyuno medio a colon transverso y la tecnica es la embolectomia con o sin reseccion intestinal, con mejor pronostico que la trombosis, en la que corresponde un by-pass. Si la viabilidad es dudosa se deja laparostomia, no se realiza anastomosis primaria y se programa un second look en 24-48 horas.",
+  "explanation": "La pregunta obliga a recorrer los cuatro escalones que la clase considera decisivos en la isquemia mesenterica aguda: sospecha clinica sostenida en la disociacion entre dolor y exploracion, imagen precoz con angio-TC, diferencial etiologico que condiciona la tecnica y control de daños cuando la viabilidad intestinal es dudosa. El error mas caro del alumno es diferir la imagen a la espera de que aparezcan signos de irritacion peritoneal: cuando aparecen, ya hay necrosis transmural y el pronostico se desploma. El segundo error es aplicar la misma tecnica a todos los mecanismos, olvidando que la embolectomia sirve a la embolia mientras la trombosis arterial requiere by-pass, y que en esta ultima no procede trombectomia. El tercero es realizar una anastomosis primaria sobre intestino de viabilidad incierta en un paciente inestable, cuando la conducta correcta es laparostomia y reexploracion programada. Conviene recordar tambien que la trombosis venosa mesenterica sin peritonismo se trata con anticoagulacion precoz e indefinida, no con cirugia.",
+  "guideline_ref": "Cirugia AEC, Asociacion Española de Cirujanos (Parrilla Aparicio ed., 2022), capitulo de isquemia mesenterica",
+  "fuente_clase": {
+   "archivo": "clase sdr vasculares.pdf",
+   "pagina": 27
+  },
+  "tags": [
+   "isquemia mesenterica aguda",
+   "embolia AMS",
+   "second look",
+   "diagnostico precoz"
+  ]
+ }
+]

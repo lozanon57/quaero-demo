@@ -1,0 +1,721 @@
+[
+ {
+  "id": "T02-M001",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 62 años, fumador de dos paquetes diarios y bebedor importante, con mal estado nutricional. Consulta por disfagia progresiva a sólidos de tres meses y pérdida de doce kilos. La endoscopia muestra una lesión ulcerada estenosante en el tercio medio del esófago. Señale el tipo histológico más probable.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Leiomioma esofágico"
+   },
+   {
+    "id": "B",
+    "text": "Adenocarcinoma"
+   },
+   {
+    "id": "C",
+    "text": "Carcinoma epidermoide"
+   },
+   {
+    "id": "D",
+    "text": "Linfoma esofágico primario"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase contrapone los dos perfiles epidemiológicos del cáncer de esófago. El carcinoma epidermoide se asocia a tabaco, alcohol, bebidas calientes, mal estado nutricional y bajo nivel socioeconómico, aparece sobre mucosa original y se distribuye sobre todo en los tercios proximal y medio. El caso reúne todos esos rasgos. Opción C: correcta. Opción B: el adenocarcinoma se asocia a reflujo, obesidad y esófago de Barrett, aparece sobre mucosa con metaplasia y el noventa y cinco por ciento asientan en el esófago distal, no en el tercio medio; es el distractor que exige distinguir factores de riesgo. Opción A: el leiomioma es un tumor benigno submucoso, cubierto por mucosa íntegra, que no ulcera ni produce pérdida ponderal. Opción D: el linfoma esofágico primario es excepcional y no explica este perfil de riesgo. Punto de enseñanza: tabaco y alcohol en tercio medio hacen pensar en epidermoide; reflujo y obesidad en tercio distal, en adenocarcinoma.",
+  "teaching_point": "Tabaco, alcohol y tercio medio orientan a carcinoma epidermoide; reflujo, obesidad, Barrett y tercio distal orientan a adenocarcinoma.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours, 2019",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "carcinoma epidermoide",
+   "factores de riesgo",
+   "disfagia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M002",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Los tumores benignos suponen menos del uno por ciento de las neoplasias del esófago y se clasifican en mucosos o intraluminales, submucosos y de la pared muscular. Una mujer de 45 años presenta una lesión submucosa incidental con mucosa íntegra. Señale cuál es la lesión benigna más frecuente y qué proporción representa.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Leiomioma, alrededor del sesenta por ciento"
+   },
+   {
+    "id": "B",
+    "text": "Leiomioma, alrededor del veinte por ciento"
+   },
+   {
+    "id": "C",
+    "text": "Quiste de retención, alrededor del sesenta por ciento"
+   },
+   {
+    "id": "D",
+    "text": "Pólipo fibrovascular, alrededor del cinco por ciento"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase cuantifica el reparto de los tumores benignos del esófago: el sesenta por ciento son leiomiomas, el veinte por ciento quistes, el cinco por ciento pólipos fibrovasculares y el cinco por ciento restante fibromas, lipomas, neuromas, adenomas y hemangiomas. El leiomioma es además el prototipo de lesión submucosa con mucosa suprayacente íntegra, aparece entre los cuarenta y los cincuenta años y asienta en los dos tercios distales del esófago. Opción A: correcta. Opción B: identifica bien la lesión, pero le asigna la proporción que corresponde a los quistes; el veinte por ciento es la cifra de la segunda lesión benigna, no de la primera. Opción C: los quistes son efectivamente la segunda lesión benigna más frecuente, con el veinte por ciento y no con el sesenta, y son congénitos en el tercio superior o adquiridos por obstrucción glandular en el esófago inferior. Opción D: el porcentaje del pólipo fibrovascular es correcto, el cinco por ciento, pero no es la lesión más frecuente; es propio de varones de sesenta a setenta años y asienta en el esófago cervical en el ochenta y cinco por ciento de los casos. Punto de enseñanza: sesenta leiomiomas, veinte quistes y cinco pólipos, en ese orden, es el reparto que hay que retener.",
+  "teaching_point": "Sesenta por ciento leiomiomas, veinte por ciento quistes y cinco por ciento pólipos: ese es el reparto de los tumores benignos del esófago.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 3
+  },
+  "tags": [
+   "tumores benignos",
+   "leiomioma",
+   "clasificación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M003",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 58 años, no fumador y con índice de masa corporal elevado, con reflujo gastroesofágico de quince años de evolución. Consulta por disfagia de dos meses y la endoscopia muestra una masa vegetante en el esófago distal, sobre un segmento de mucosa metaplásica. Señale la afirmación que describe correctamente el tumor que cabe esperar, según el perfil epidemiológico expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Carcinoma epidermoide, de incidencia decreciente y localización proximal o media"
+   },
+   {
+    "id": "B",
+    "text": "Adenocarcinoma, de incidencia decreciente y localización proximal"
+   },
+   {
+    "id": "C",
+    "text": "Carcinoma epidermoide, de incidencia creciente y localización distal"
+   },
+   {
+    "id": "D",
+    "text": "Adenocarcinoma, de incidencia creciente y localización distal"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase enfrenta los dos perfiles en columnas. El adenocarcinoma asienta sobre mucosa con metaplasia, se asocia a enfermedad por reflujo, alcohol y obesidad, aparece en raza blanca por encima de los cuarenta años y con buen nivel socioeconómico y nutricional, el noventa y cinco por ciento son distales y su incidencia está en ascenso. El carcinoma epidermoide nace de la mucosa original, se relaciona con tabaco, alcohol, bebidas calientes y exposición ambiental, se reparte en un cuarenta y ocho por ciento proximal, un cuarenta y dos por ciento medio y un diez por ciento distal, y su incidencia está en descenso. El caso, con reflujo de quince años, obesidad y masa sobre segmento metaplásico distal, es un adenocarcinoma. Opción D: correcta. Opción B: acierta la histología pero invierte los dos datos epidemiológicos; el tipo que desciende y predomina en los tercios proximal y medio es el epidermoide. Opción C: atribuye al epidermoide la localización distal y la tendencia ascendente, que son las del adenocarcinoma. Opción A: describe correctamente el perfil del carcinoma epidermoide, pero ese no es el perfil de este paciente; es el distractor que obliga a leer los factores de riesgo antes que la frase. Punto de enseñanza: metaplasia y tercio distal significan adenocarcinoma, que además es el tipo cuya incidencia aumenta.",
+  "teaching_point": "El adenocarcinoma nace sobre metaplasia, es distal en el noventa y cinco por ciento y su incidencia asciende; el epidermoide es proximal o medio y su incidencia desciende.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours, 2019",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "adenocarcinoma",
+   "epidemiología",
+   "esófago de Barrett"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M004",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En un carcinoma de esófago la ecoendoscopia describe una lesión que sobrepasa por completo la capa muscular propia y se extiende al tejido adiposo que rodea al esófago, sin contacto con tráquea, aorta ni pericardio. No se identifican adenopatías sospechosas ni metástasis. Según la clasificación TNM utilizada en clase, señale la categoría T que corresponde.",
+  "options": [
+   {
+    "id": "A",
+    "text": "T1, invasión de lámina propia o submucosa"
+   },
+   {
+    "id": "B",
+    "text": "T3, afectación de la grasa periesofágica"
+   },
+   {
+    "id": "C",
+    "text": "T4, extensión a estructuras adyacentes"
+   },
+   {
+    "id": "D",
+    "text": "T2, invasión de la muscular propia"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El TNM que se maneja en la clase define la categoría T por la profundidad de la invasión de la pared: T1 lámina propia o submucosa, T2 muscular propia, T3 grasa periesofágica y T4 extensión a estructuras adyacentes. La descripción de la ecoendoscopia, lesión que rebasa la muscular propia y alcanza el tejido adiposo que rodea al órgano sin contactar con las estructuras vecinas, corresponde a T3. Opción A: T1 no llega siquiera a la muscular propia. Opción D: T2 se detiene en la muscular propia, y el enunciado dice expresamente que la sobrepasa; es el distractor que obliga a leer con precisión. Opción C: T4 exige extensión a estructuras adyacentes, que el enunciado excluye al negar contacto con tráquea, aorta y pericardio. Opción B: correcta. Punto de enseñanza: en el esófago la T se decide por capas, y la ecoendoscopia es la prueba que mide esa profundidad.",
+  "teaching_point": "T1 submucosa, T2 muscular propia, T3 grasa periesofágica, T4 estructuras adyacentes: la T esofágica se define por profundidad.",
+  "guideline_ref": "Material de clase, Tema 2, TNM del esófago; AJCC Cancer Staging Manual, 8.ª ed., 2017",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "TNM",
+   "ecoendoscopia",
+   "estadificación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M005",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 66 años con disfagia progresiva de dos meses y pérdida de nueve kilos. El esofagograma solicitado por su médico de familia muestra una estenosis irregular de bordes carcomidos en el tercio medio del esófago. Señale la exploración que procede realizar a continuación para orientar todo el proceso diagnóstico.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Endoscopia digestiva alta con toma de biopsias"
+   },
+   {
+    "id": "B",
+    "text": "PET-TC de cuerpo entero con fluorodesoxiglucosa"
+   },
+   {
+    "id": "C",
+    "text": "Ecoendoscopia con punción de adenopatías"
+   },
+   {
+    "id": "D",
+    "text": "Toracoscopia diagnóstica con biopsia ganglionar"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase califica la endoscopia como la mejor y más importante de las exploraciones en el cáncer de esófago, porque establece la localización, las características de la lesión, la extensión proximal y distal, la relación con la unión esofagogástrica y la distensibilidad del estómago, y sobre todo porque permite la toma de biopsias, sin las cuales no hay diagnóstico histológico ni decisión terapéutica. Opción A: correcta. Opción B: el PET-TC aporta información sobre diseminación sistémica, pero se solicita cuando ya hay un tumor confirmado. Opción C: la ecoendoscopia es clave para la estadificación de profundidad y ganglios, no para el diagnóstico inicial. Opción D: la toracoscopia es una técnica mínimamente invasiva de estadificación quirúrgica reservada a casos seleccionados, nunca el primer paso. Punto de enseñanza: primero histología, luego estadificación; el orden inverso genera pruebas caras sobre un diagnóstico que aún no existe.",
+  "teaching_point": "En el cáncer de esófago la endoscopia con biopsias es la prueba prioritaria; la estadificación por imagen viene después.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "diagnóstico",
+   "endoscopia",
+   "biopsia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M006",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Adenocarcinoma del esófago distal en un varón de 64 años. La TC y el PET-TC describen la lesión con afectación de la grasa periesofágica y captación en adenopatías del tronco celíaco, sin lesiones hepáticas ni pulmonares. Según los criterios expuestos en clase, señale la categoría que corresponde a esas adenopatías.",
+  "options": [
+   {
+    "id": "A",
+    "text": "N1 con M0, correspondiente a estadio III"
+   },
+   {
+    "id": "B",
+    "text": "N0 con M0, adenopatías reactivas"
+   },
+   {
+    "id": "C",
+    "text": "M1, correspondiente a estadio IV"
+   },
+   {
+    "id": "D",
+    "text": "T4 por contigüidad con el tronco celíaco"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase advierte de forma expresa que la afectación tumoral de las adenopatías del tronco celíaco se considera M1. No son ganglios regionales sino enfermedad a distancia, de manera que el paciente pasa a estadio IV y, según el esquema terapéutico de la clase, al grupo de los irresecables con intención paliativa. Opción A: clasificarlas como N1 llevaría a estadio III y a una estrategia multidisciplinar potencialmente resecable, que es justamente el error que la diapositiva quiere evitar. Opción C: correcta. Opción B: hay captación patológica en el PET-TC, de modo que no cabe asumirlas reactivas. Opción D: la categoría T mide la profundidad de invasión de la pared y la extensión por contigüidad a estructuras adyacentes, no la afectación ganglionar. Punto de enseñanza: en el cáncer de esófago las adenopatías celíacas no son un escalón más de la N, son M1.",
+  "teaching_point": "La afectación de las adenopatías del tronco celíaco en el cáncer de esófago se clasifica como M1, es decir, estadio IV.",
+  "guideline_ref": "Material de clase, Tema 2, TNM del esófago; AJCC Cancer Staging Manual, 8.ª ed., 2017",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 29
+  },
+  "tags": [
+   "TNM",
+   "adenopatías celíacas",
+   "M1"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M007",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 60 años sin comorbilidad relevante y bien nutrido, con carcinoma de esófago clasificado como T1N0M0 tras endoscopia, ecoendoscopia y PET-TC. El comité de tumores revisa el caso. Según el esquema de indicaciones por estadio que se expuso en clase, señale la estrategia terapéutica que corresponde.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esofaguectomía con intención curativa"
+   },
+   {
+    "id": "B",
+    "text": "Endoprótesis autoexpandible con intención paliativa"
+   },
+   {
+    "id": "C",
+    "text": "Quimiorradioterapia definitiva sin cirugía"
+   },
+   {
+    "id": "D",
+    "text": "Neoadyuvancia con radioquimioterapia y luego cirugía"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El esquema de la clase asigna cirugía a los estadios 0 y I, plantea la neoadyuvancia como interrogante en el estadio II y reserva el abordaje multidisciplinar para el estadio III, con T3N1 o T4 con N0 o N1. Un T1N0M0 es estadio I, se encuentra en el grupo de los resecables y su tratamiento es la esofaguectomía con intención curativa en un paciente sin comorbilidad y bien nutrido como el del caso. Opción C: la quimiorradioterapia definitiva no es la opción de un estadio I resecable. Opción B: la endoprótesis pertenece al arsenal paliativo del estadio IV o del tumor irresecable. Opción A: correcta, esofaguectomía con intención curativa. Opción D: la neoadyuvancia se plantea desde el estadio II en adelante, y aplicarla a un T1N0 supone sobretratar. Punto de enseñanza: en el cáncer de esófago la primera pregunta es si el tumor es resecable, y solo después qué tratamiento se le añade.",
+  "teaching_point": "Estadios 0 y I, cirugía; estadio II, neoadyuvancia a discutir; estadio III, tratamiento multidisciplinar; estadio IV, paliación.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "estadio I",
+   "esofaguectomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M008",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Se planifica la linfadenectomía de un carcinoma del tercio inferior del esófago. El cirujano debe decidir qué campos ganglionares vaciar y qué vía de abordaje emplear, y para ello recuerda el esquema del drenaje linfático del esófago expuesto en clase. Señale hacia qué territorio drena un tumor situado en el tercio inferior.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ascendente, hacia los ganglios cervicales"
+   },
+   {
+    "id": "B",
+    "text": "Descendente, hacia los ganglios celíacos"
+   },
+   {
+    "id": "C",
+    "text": "Hacia los ganglios hiliares pulmonares"
+   },
+   {
+    "id": "D",
+    "text": "Hacia los ganglios paratraqueales y subcarinales"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase resume el drenaje linfático del esófago en una regla operativa: los dos tercios superiores drenan en sentido ascendente y el tercio inferior en sentido descendente. Ese descenso lleva a los territorios celíaco, gastrohepático y de la curvatura menor, que aparecen en el esquema ganglionar de la clase, y es la razón por la que la linfadenectomía de un tumor distal tiene un componente abdominal obligado. Opción A: el sentido ascendente hacia territorios cervicales corresponde a los dos tercios superiores. Opción D: los territorios paratraqueal y subcarinal figuran en el esquema ganglionar del esófago, pero recogen el drenaje del esófago medio y superior, no el descenso del tercio inferior. Opción C: los ganglios hiliares figuran entre los territorios mediastínicos, pero no son la vía preferente del tercio inferior. Opción B: correcta. Punto de enseñanza: la altura del tumor decide qué campos ganglionares hay que vaciar y, con ello, la vía de abordaje.",
+  "teaching_point": "Los dos tercios superiores del esófago drenan en sentido ascendente y el tercio inferior en sentido descendente, hacia el territorio celíaco.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "drenaje linfático",
+   "linfadenectomía",
+   "anatomía quirúrgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M009",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Varón de 59 años, sin comorbilidad respiratoria, con adenocarcinoma del tercio inferior del esófago resecable. Se programa una esofaguectomía abierta en dos tiempos: laparotomía para preparar la plastia gástrica y toracotomía derecha para la resección y la linfadenectomía. Señale qué técnica se está describiendo y dónde queda la anastomosis esofagogástrica.",
+  "options": [
+   {
+    "id": "A",
+    "text": "McKeown, con anastomosis cervical"
+   },
+   {
+    "id": "B",
+    "text": "Ivor Lewis, con anastomosis intratorácica"
+   },
+   {
+    "id": "C",
+    "text": "Sweet, con anastomosis intratorácica"
+   },
+   {
+    "id": "D",
+    "text": "Orringer transhiatal, con anastomosis cervical"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase define la técnica de Ivor Lewis como la combinación de laparotomía y toracotomía derecha, indicada en los tumores del tercio medio e inferior y del cardias, con la ventaja de explorar dos niveles ganglionares, permitir una mejor movilización del esófago y ascender la plastia con seguridad, y con el inconveniente de dejar la anastomosis dentro del tórax. Dos incisiones y anastomosis intratorácica identifican la técnica sin ambigüedad. Opción B: correcta. Opción A: McKeown emplea esas mismas dos incisiones y añade una tercera, la cervicotomía, con anastomosis en el cuello y linfadenectomía más amplia; es el distractor que exige contar las incisiones y situar la sutura. Opción C: la técnica de Sweet termina efectivamente en anastomosis torácica, pero se realiza por toracotomía izquierda con incisión radial del diafragma y con linfadenectomía limitada. Opción D: el abordaje transhiatal de Orringer evita la toracotomía y deja la anastomosis en el cuello; se reserva sobre todo a tumores T1 y T2 del tercio inferior y del cardias. Punto de enseñanza: la esofaguectomía se nombra por las incisiones que emplea y por el lugar donde queda la anastomosis.",
+  "teaching_point": "Ivor Lewis: laparotomía y toracotomía derecha, anastomosis intratorácica. McKeown añade cervicotomía y deja la anastomosis en el cuello.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 42
+  },
+  "tags": [
+   "Ivor Lewis",
+   "vías de abordaje",
+   "esofaguectomía"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M010",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Paciente de 71 años con carcinoma epidermoide de esófago irresecable, en tratamiento paliativo. Desde hace dos semanas presenta accesos de tos con la deglución de líquidos y ha tenido dos neumonías. La TC confirma una comunicación entre el esófago y la vía aérea. Señale la actuación paliativa más apropiada.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gastrostomía de alimentación y dieta absoluta"
+   },
+   {
+    "id": "B",
+    "text": "Terapia fotodinámica sobre el trayecto fistuloso"
+   },
+   {
+    "id": "C",
+    "text": "Esofaguectomía urgente con exclusión del tumor"
+   },
+   {
+    "id": "D",
+    "text": "Endoprótesis esofágica autoexpandible recubierta"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase incluye entre las indicaciones de la endoprótesis esofágica tanto la obstrucción como la fístula traqueoesofágica, y explica que las prótesis autoexpandibles mantienen abierta y permeable la luz del esófago durante unos seis meses. En un tumor irresecable con fístula, sellar el trayecto es lo que devuelve la deglución y frena las neumonías por aspiración. Opción A: la gastrostomía nutre al paciente, pero no cierra la fístula ni evita que la saliva pase a la vía aérea, de modo que las neumonías continúan. Opción D: correcta. Opción C: la esofaguectomía urgente en un tumor irresecable y en un paciente paliativo no es una opción razonable. Opción B: la terapia fotodinámica y el láser figuran en el arsenal paliativo para desobstruir, no para sellar una comunicación con la vía aérea. Punto de enseñanza: obstrucción y fístula son las dos indicaciones de prótesis esofágica en el cáncer avanzado.",
+  "teaching_point": "La endoprótesis autoexpandible recubierta es el tratamiento paliativo de elección de la fístula traqueoesofágica tumoral.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 66
+  },
+  "tags": [
+   "fístula traqueoesofágica",
+   "endoprótesis",
+   "paliación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M011",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Confirmado por biopsia un carcinoma de esófago, el comité necesita conocer con precisión hasta qué capa de la pared llega el tumor y si existen ganglios locorregionales sospechosos, dato que decide si el paciente va directamente a cirugía o recibe tratamiento previo. Señale la exploración que responde mejor a esa pregunta de estadificación locorregional.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esofagograma baritado con doble contraste"
+   },
+   {
+    "id": "B",
+    "text": "PET-TC de cuerpo entero con fluorodesoxiglucosa"
+   },
+   {
+    "id": "C",
+    "text": "Resonancia magnética torácica con contraste"
+   },
+   {
+    "id": "D",
+    "text": "Ecoendoscopia esofágica con punción aspirativa"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase atribuye a la ecoendoscopia el papel de definir la profundidad de la lesión, su longitud, el estado de la luz, los ganglios linfáticos y la invasión de estructuras vecinas, y subraya que es importante para la estadificación y para planificar el tratamiento; combinada con punción aspirativa permite además citología ganglionar. Opción A: el esofagograma localiza la lesión y valora el funcionamiento del esófago y la distinción entre compresión intrínseca y extrínseca, pero no mide capas. Opción B: el PET-TC busca diseminación sistémica; su rendimiento está en las metástasis, no en distinguir T2 de T3. Opción D: correcta. Opción C: la resonancia se emplea para identificar invasión vascular y neural, lesiones T4 y metástasis hepáticas, no para el detalle de capas de la pared. Punto de enseñanza: la profundidad de invasión y la N locorregional son territorio de la ecoendoscopia.",
+  "teaching_point": "La ecoendoscopia es la técnica que mejor define la profundidad de invasión parietal y los ganglios locorregionales del cáncer de esófago.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "ecoendoscopia",
+   "estadificación",
+   "diagnóstico por imagen"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-M012",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 72 años con adenocarcinoma del tercio inferior del esófago estadificado como T2N0M0. Padece una enfermedad pulmonar obstructiva crónica grave, con ingresos repetidos por reagudización, y mantiene un estado nutricional aceptable. El comité de tumores lo considera resecable con intención curativa. Señale la vía de abordaje que mejor se ajusta a este paciente según las indicaciones expuestas en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Esofaguectomía en bloque con linfadenectomía de tres campos"
+   },
+   {
+    "id": "B",
+    "text": "Esofaguectomía transtorácica con toracotomía derecha"
+   },
+   {
+    "id": "C",
+    "text": "Esofaguectomía transhiatal, sin apertura del tórax"
+   },
+   {
+    "id": "D",
+    "text": "Esofaguectomía con toracotomía izquierda e incisión radial del diafragma"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase fija las indicaciones del abordaje transhiatal: tumores T1 y T2, del tercio inferior y del cardias, y tumores cervicales. Sus ventajas son precisamente las que importan en este enfermo: menor repercusión respiratoria, menor morbilidad, menor incidencia de mediastinitis y menor mortalidad, porque evita abrir el tórax en un paciente cuya reserva pulmonar es el factor limitante. Sus inconvenientes, más hemorragia, más lesiones respiratorias y linfadenectomía limitada, son asumibles en un tumor T2 sin adenopatías. Opción C: correcta. Opción B: la vía transtorácica con toracotomía derecha explora dos niveles ganglionares y permite una linfadenectomía más completa, pero es la que más penaliza la función respiratoria y es justo la que conviene evitar aquí. Opción A: la resección en bloque con linfadenectomía de dos o tres campos es todavía más agresiva y exige un paciente en buenas condiciones generales. Opción D: la toracotomía izquierda con incisión radial del diafragma abre igualmente el tórax y sólo permite una linfadenectomía limitada, de modo que suma el inconveniente respiratorio sin la ventaja ganglionar. Punto de enseñanza: en el tumor distal T1-T2 con reserva respiratoria comprometida, el abordaje transhiatal reduce el riesgo operatorio a costa de una linfadenectomía menor.",
+  "teaching_point": "El abordaje transhiatal se indica en tumores T1-T2 del tercio inferior y del cardias; su ventaja principal es la menor repercusión respiratoria.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 50
+  },
+  "tags": [
+   "esofaguectomía transhiatal",
+   "vías de abordaje",
+   "indicación quirúrgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T02-C001",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "Los adenocarcinomas que asientan en la unión esofagogástrica se agrupan en tres tipos según su origen y su forma de invadir el cardias, clasificación que condiciona la vía de abordaje quirúrgico. Defina en una frase el tipo II de esa clasificación, tal como se explicó en la clase de tumores de esófago.",
+  "respuesta_canonica": "Adenocarcinoma verdadero de cardias",
+  "aceptadas": [
+   "adenocarcinoma propio del cardias",
+   "adenocarcinoma verdadero del cardias, en la propia unión esofagogástrica",
+   "adenocarcinoma originado en el propio cardias"
+  ],
+  "conceptos_clave": [
+   "adenocarcinoma",
+   "cardias"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase divide el cáncer de cardias en tres tipos. El tipo I es el adenocarcinoma del esófago distal que se origina en la metaplasia, es decir, sobre esófago de Barrett, e invade la unión esofagogástrica desde arriba. El tipo II es el adenocarcinoma verdadero de cardias, nacido en la propia unión. El tipo III es el adenocarcinoma subcardial que invade el cardias y el esófago distal desde abajo. La distinción no es académica: determina cuánto esófago y cuánto estómago hay que resecar y, por tanto, si la intervención se plantea como una esofaguectomía con plastia gástrica o como una gastrectomía ampliada al esófago distal. Punto de enseñanza: para clasificar estos tumores hay que localizar el epicentro respecto de la unión esofagogástrica, no solo describir dónde se ve la masa.",
+  "teaching_point": "Tipo I nace del Barrett esofágico e invade hacia abajo, tipo II es el adenocarcinoma verdadero de cardias, tipo III es subcardial e invade hacia arriba.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "cáncer de cardias",
+   "clasificación",
+   "unión esofagogástrica"
+  ]
+ },
+ {
+  "id": "T02-C002",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Entre las vías de abordaje abiertas del esófago torácico y abdominal, la clase describe la técnica de Ivor Lewis como una de las opciones estándar para los tumores del tercio medio, del tercio inferior y del cardias. Indique qué dos incisiones combina esta técnica y dónde queda situada la anastomosis.",
+  "respuesta_canonica": "Laparotomía y toracotomía derecha, con anastomosis intratorácica",
+  "aceptadas": [
+   "laparotomía más toracotomía derecha, con anastomosis torácica",
+   "laparotomía y toracotomía derecha, con anastomosis intratorácica",
+   "laparotomía y toracotomía derecha; la anastomosis es torácica"
+  ],
+  "conceptos_clave": [
+   "laparotomía",
+   "toracotomía derecha"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase define la esofaguectomía de Ivor Lewis como la combinación de laparotomía y toracotomía derecha, y la sitúa entre los abordajes estándar. Sus indicaciones son los tumores del tercio medio e inferior y los del cardias. Entre las ventajas enumera la exploración de dos niveles ganglionares, una mejor movilización del esófago y la seguridad al ascender la plastia; entre los inconvenientes, la exposición del hipocondrio izquierdo y la anastomosis intratorácica, que es el punto débil de la técnica porque una dehiscencia a ese nivel provoca mediastinitis. La alternativa de McKeown añade cervicotomía y desplaza la anastomosis al cuello, donde una fuga es menos grave. Punto de enseñanza: elegir entre Ivor Lewis y McKeown es, en buena medida, elegir dónde se prefiere que ocurra una eventual dehiscencia anastomótica.",
+  "teaching_point": "Ivor Lewis combina laparotomía y toracotomía derecha, con anastomosis intratorácica; McKeown añade cervicotomía y anastomosis cervical.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 40
+  },
+  "tags": [
+   "Ivor Lewis",
+   "vías de abordaje",
+   "anastomosis"
+  ]
+ },
+ {
+  "id": "T02-C003",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Además del tabaco, el alcohol y el esófago de Barrett, la clase de tumores de esófago recoge dos trastornos considerados premalignos y con nombre propio, uno asociado a ferropenia y otro a una genodermatosis autosómica dominante de la queratinización. Nombre esos dos trastornos premalignos.",
+  "respuesta_canonica": "Síndrome de Plummer-Vinson y tilosis",
+  "aceptadas": [
+   "Plummer-Vinson y tilosis",
+   "tilosis y síndrome de Plummer-Vinson",
+   "Plummer-Vinson y tilosis palmoplantar"
+  ],
+  "conceptos_clave": [
+   "Plummer-Vinson",
+   "tilosis"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase presenta dos trastornos premalignos con nombre propio. El síndrome de Plummer-Vinson se caracteriza por deficiencia de hierro y atrofia de la mucosa orofaríngea y esofágica, y esa mucosa atrófica es el terreno sobre el que se desarrolla el carcinoma. La tilosis, relacionada con la enfermedad de Darier, es una genodermatosis autosómica dominante con trastorno de la queratinización que afecta a epidermis, uñas y mucosas. Ambos se asocian al carcinoma epidermoide, no al adenocarcinoma, que tiene su propio itinerario premaligno a través de la enfermedad por reflujo y el esófago de Barrett. La clase añade además otras condiciones de riesgo, entre ellas la acalasia, los divertículos, la ingesta de cáusticos, la enfermedad celíaca, el cáncer de cabeza y cuello y la radioterapia previa. Punto de enseñanza: cada estirpe histológica tiene su propia lista de precursores.",
+  "teaching_point": "Plummer-Vinson y tilosis son los dos trastornos premalignos con nombre propio del carcinoma epidermoide de esófago.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "Plummer-Vinson",
+   "tilosis",
+   "lesiones premalignas"
+  ]
+ },
+ {
+  "id": "T02-C004",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La clase enumera los síntomas del cáncer de esófago con la frecuencia con que aparecen, empezando por el que domina el cuadro clínico y que suele ser el motivo por el que el paciente consulta, casi siempre en estadios ya avanzados. Indique cuál es ese síntoma y el rango de frecuencia que le asigna la clase.",
+  "respuesta_canonica": "Disfagia, presente en el 85-95 por ciento de los casos",
+  "aceptadas": [
+   "disfagia, 85-95%",
+   "la disfagia, entre el 85 y el 95 por ciento",
+   "disfagia progresiva, 85 a 95 por ciento"
+  ],
+  "conceptos_clave": [
+   "disfagia",
+   "85",
+   "95"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase ordena los síntomas del cáncer de esófago por frecuencia: disfagia en el ochenta y cinco a noventa y cinco por ciento, pérdida de peso en el cuarenta a setenta por ciento, vómito y regurgitación en el treinta a cuarenta y cinco por ciento, dolor en el veinte a cuarenta y cinco por ciento, tos en el diez a veinticinco por ciento y disnea en el cinco por ciento. El problema clínico es que la disfagia aparece cuando la luz ya está muy comprometida, de modo que la mayoría de los pacientes debutan en estadios avanzados y menos de la mitad son candidatos a resección. En estadios iniciales el paciente puede estar asintomático o presentar únicamente síntomas de reflujo. Punto de enseñanza: la disfagia del cáncer de esófago es un síntoma tardío, y por eso el diagnóstico precoz depende de la vigilancia de los grupos de riesgo.",
+  "teaching_point": "La disfagia es el síntoma dominante del cáncer de esófago, presente en el 85-95 por ciento, pero es un signo tardío.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 18
+  },
+  "tags": [
+   "clínica",
+   "disfagia",
+   "cáncer de esófago"
+  ]
+ },
+ {
+  "id": "T02-L001",
+  "tema": 2,
+  "bloque": "esofago",
+  "formato": "larga",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 63 años, fumador, con carcinoma epidermoide del tercio medio del esófago confirmado por biopsia. Está bien nutrido y no tiene comorbilidad relevante. Exponga cómo completaría la estadificación, qué categorías del TNM condicionan la decisión, qué estrategia terapéutica correspondería según el estadio y qué vías de abordaje quirúrgico serían aplicables a este nivel del esófago. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Enumera las pruebas de estadificación: TC, PET-TC, ecoendoscopia y, en casos seleccionados, técnicas mínimamente invasivas",
+    "puntos": 0.38,
+    "claves": [
+     "TC",
+     "PET",
+     "ecoendoscopia"
+    ]
+   },
+   {
+    "elemento": "Define las categorías T por profundidad de invasión de la pared, de T1 a T4",
+    "puntos": 0.38,
+    "claves": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ]
+   },
+   {
+    "elemento": "Señala que la afectación de las adenopatías del tronco celíaco se considera M1",
+    "puntos": 0.38,
+    "claves": [
+     "celíaco",
+     "M1"
+    ]
+   },
+   {
+    "elemento": "Agrupa los estadios en resecables, potencialmente resecables e irresecables",
+    "puntos": 0.38,
+    "claves": [
+     "resecable",
+     "potencialmente",
+     "irresecable"
+    ]
+   },
+   {
+    "elemento": "Asigna tratamiento por estadio: cirugía en 0-I, neoadyuvancia a discutir en II, manejo multidisciplinar en III y paliación en IV",
+    "puntos": 0.38,
+    "claves": [
+     "cirugía",
+     "neoadyuvancia",
+     "multidisciplinar",
+     "paliativo"
+    ]
+   },
+   {
+    "elemento": "Enuncia los principios oncológicos de la resección: resección R0, linfadenectomía de las zonas de riesgo y reconstrucción del tránsito",
+    "puntos": 0.38,
+    "claves": [
+     "R0",
+     "linfadenectomía",
+     "reconstrucción"
+    ]
+   },
+   {
+    "elemento": "Describe las vías de abordaje aplicables al tercio medio, en particular Ivor Lewis y McKeown, y sus anastomosis",
+    "puntos": 0.38,
+    "claves": [
+     "Ivor Lewis",
+     "McKeown",
+     "anastomosis"
+    ]
+   },
+   {
+    "elemento": "Menciona las opciones de plastia y su situación: estómago tubulizado, colon o yeyuno, en mediastino posterior, retroesternal o subcutáneo",
+    "puntos": 0.34,
+    "claves": [
+     "estómago tubulizado",
+     "colon",
+     "mediastino posterior"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La biopsia endoscópica ya ha dado el diagnóstico; la endoscopia aporta además localización, extensión proximal y distal, relación con la unión esofagogástrica y distensibilidad gástrica. La estadificación se completa con TC, que valora tamaño, espesor de la pared, ganglios, metástasis e invasión de estructuras vecinas; con PET-TC, orientado a la diseminación sistémica; con ecoendoscopia, que mide la profundidad de invasión, la longitud, el estado de la luz y los ganglios locorregionales; y con resonancia si se sospecha invasión vascular o neural o lesiones hepáticas. En casos seleccionados se recurre a fibrobroncoscopia, mediastinoscopia, laparoscopia o toracoscopia. La T se define por capas: T1 lámina propia o submucosa, T2 muscular propia, T3 grasa periesofágica y T4 extensión a estructuras adyacentes, entre ellas tráquea, bronquios, aorta, pericardio y pleura. La N indica afectación ganglionar regional, y conviene recordar que las adenopatías del tronco celíaco se consideran M1. Con esos datos los estadios se agrupan en tres bloques operativos: resecables, que son el 0 y el I; potencialmente resecables, que abarcan el IIA, el IIB y el III; e irresecables, que es el IV. La asignación terapéutica sigue ese esquema: los estadios 0 y I van a cirugía, en el estadio II se discute la neoadyuvancia y el estadio III, con T3N1 o T4 con N0 o N1, se maneja de forma multidisciplinar, habitualmente con radioquimioterapia previa, reevaluación y cirugía. El estadio IV es irresecable y sólo admite tratamiento paliativo, con endoprótesis o radioquimioterapia. Menos de la mitad son candidatos a resección, por comorbilidad, enfermedad avanzada, metástasis o desnutrición. Cuando se opera, los principios son la resección R0, la linfadenectomía de las zonas de riesgo y la reconstrucción del tubo digestivo. Para un tumor del tercio medio las vías aplicables son la de Ivor Lewis, con laparotomía y toracotomía derecha y anastomosis intratorácica, y la de McKeown, que añade cervicotomía y anastomosis cervical; la resección en bloque de Logan o Skinner permite linfadenectomía de dos o tres campos. La plastia habitual es el estómago tubulizado, con el colon o el yeyuno como alternativas, ascendida por mediastino posterior, vía retroesternal o subcutánea.",
+  "explanation": "La pregunta evalúa si el alumno sabe encadenar estadificación y decisión terapéutica en lugar de recitar listas sueltas. Los fallos típicos son tres. El primero, olvidar que las adenopatías celíacas son M1 y no N, error que cambia por completo la estrategia porque desplaza al paciente del grupo potencialmente resecable al irresecable. El segundo, confundir las vías de abordaje: Ivor Lewis y McKeown comparten la toracotomía derecha, pero solo la segunda añade cervicotomía y deja la anastomosis en el cuello, y la de Sweet emplea toracotomía izquierda. El tercero, describir la neoadyuvancia como obligatoria en todos los estadios cuando la clase la plantea como interrogante en el estadio II y como parte del manejo multidisciplinar en el III. Una buena respuesta debe además citar los principios oncológicos de la resección y las opciones de plastia con su situación anatómica.",
+  "teaching_point": "En el cáncer de esófago la estadificación no es un trámite: decide si el paciente entra en el grupo resecable, en el potencialmente resecable o en el paliativo.",
+  "guideline_ref": "Cirugía AEC, Parrilla Aparicio ed., 2022, capítulo de esófago",
+  "fuente_clase": {
+   "archivo": "Tema 2pdf_Tumores de esófago.pdf",
+   "pagina": 36
+  },
+  "tags": [
+   "estadificación",
+   "esofaguectomía",
+   "tratamiento multimodal"
+  ]
+ }
+]

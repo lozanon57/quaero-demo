@@ -1,0 +1,708 @@
+[
+ {
+  "id": "T15-M001",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 42 años a la que, en una ecografía por dolor inespecífico, se detecta una lesión de cuatro centímetros en el lóbulo derecho. La TC muestra una lesión hipodensa bien delimitada con relleno progresivo y centrípeto del contraste, y la RM la describe hiperintensa en T2. Señale la actuación que procede.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección hepática reglada por el riesgo de transformación maligna."
+   },
+   {
+    "id": "B",
+    "text": "Biopsia percutánea para confirmar el diagnóstico antes de decidir."
+   },
+   {
+    "id": "C",
+    "text": "Seguimiento clínico y radiológico, sin indicación quirúrgica inicial."
+   },
+   {
+    "id": "D",
+    "text": "Embolización de la arteria hepática derecha para evitar la rotura."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El patrón descrito es el del hemangioma cavernoso: en la TC con contraste, lesión inicialmente hipodensa y bien delimitada con incremento progresivo y centrípeto del contraste hasta hacerse hiperdensa, y en la RM, prueba de elección, hipointensa con refuerzo nodular en T1 e hiperintensa en T2. Al ser pequeño y asintomático, la clase indica manejo conservador con seguimiento. Opción B: la biopsia no aporta en una lesión con patrón radiológico característico y añade un riesgo hemorrágico innecesario en una lesión vascular. Opción A: el hemangioma no tiene potencial de malignización; la cirugía se reserva a síntomas, duda diagnóstica, cancerofobia o complicaciones, y ninguna concurre aquí. Opción D: la ligadura de la arteria hepática figura entre las opciones quirúrgicas descritas, pero la rotura del hemangioma es poco frecuente y no justifica un procedimiento profiláctico en una lesión de este tamaño. Punto de enseñanza: patrón centrípeto igual a hemangioma y a observación.",
+  "teaching_point": "El hemangioma cavernoso muestra relleno progresivo y centrípeto en TC e hiperseñal en T2; la mayoría sólo requiere seguimiento.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "hemangioma",
+   "TC",
+   "manejo conservador"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M002",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Paciente con un hemangioma hepático de doce centímetros que ingresa por dolor y en cuya analítica destacan trombocitopenia intensa, fibrinógeno bajo y datos de hemólisis, con tendencia a la coagulación intravascular diseminada. Señale cómo se denomina esta complicación y en qué tipo de hemangiomas aparece, según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Síndrome de Budd-Chiari, propio de los hemangiomas subcapsulares."
+   },
+   {
+    "id": "B",
+    "text": "Síndrome hepatopulmonar, propio de los hemangiomas centrales."
+   },
+   {
+    "id": "C",
+    "text": "Síndrome de Zieve, propio de los hemangiomas múltiples y difusos."
+   },
+   {
+    "id": "D",
+    "text": "Síndrome de Kasabach-Merritt, propio de los hemangiomas gigantes."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase describe el síndrome de Kasabach-Merritt como una complicación poco frecuente de los hemangiomas gigantes, definidos como aquellos mayores de siete centímetros, y lo caracteriza como la asociación de un tumor vascular con una coagulopatía de consumo que puede desencadenar coagulación intravascular diseminada, con trombocitopenia, niveles bajos de fibrinógeno y hemólisis. Opción A: el síndrome de Budd-Chiari es la obstrucción del drenaje venoso suprahepático; un hemangioma voluminoso puede comprimir la cava, pero el cuadro sería congestivo y no una coagulopatía de consumo. Opción C: el síndrome de Zieve asocia hepatopatía alcohólica, hiperlipemia y anemia hemolítica, y no guarda relación con los tumores vasculares hepáticos. Opción B: el síndrome hepatopulmonar aparece en la hepatopatía crónica avanzada con dilataciones vasculares intrapulmonares, no en el hemangioma. Punto de enseñanza: en un hemangioma gigante, la plaquetopenia y la hipofibrinogenemia no son un hallazgo casual de laboratorio.",
+  "teaching_point": "Kasabach-Merritt es la coagulopatía de consumo asociada a hemangiomas gigantes: trombocitopenia, fibrinógeno bajo y hemólisis.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 9
+  },
+  "tags": [
+   "hemangioma",
+   "Kasabach-Merritt",
+   "coagulopatia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M003",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 45 años, sin anticonceptivos orales, con una lesión hepática de cinco centímetros hallada de forma incidental. La TC la muestra homogénea e hiperdensa en fase arterial, hipodensa en fase portal, con una cicatriz central. La RM confirma refuerzo de la cicatriz en T2. Señale la actuación que procede.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Biopsia percutánea dirigida a la cicatriz central para descartar malignidad."
+   },
+   {
+    "id": "B",
+    "text": "Resección hepática reglada por el riesgo elevado de hemorragia espontánea."
+   },
+   {
+    "id": "C",
+    "text": "Tratamiento conservador, reservando la cirugía a síntomas o duda diagnóstica."
+   },
+   {
+    "id": "D",
+    "text": "Trasplante hepático por la imposibilidad de descartar un fibrolamelar."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El caso describe una hiperplasia nodular focal, segundo tumor hepático benigno más frecuente, típica de mujeres de cuarenta a cincuenta años, con el patrón radiológico característico de hiperdensidad homogénea en fase arterial, hipodensidad en fase portal y cicatriz central que refuerza en T2. La clase establece que el crecimiento, las complicaciones y la degeneración son excepcionales, por lo que el tratamiento es conservador y la cirugía se reserva a lesiones sintomáticas o a dudas con lesiones de potencial maligno. Opción A: la clase desaconseja expresamente la biopsia, porque no permite diferenciar la hiperplasia nodular focal de un hepatocarcinoma bien diferenciado o de un fibrolamelar. Opción B: el riesgo de hemorragia caracteriza al adenoma, no a la hiperplasia nodular focal. Opción D: el trasplante no tiene ningún papel en esta lesión; la duda diagnóstica se resuelve combinando TC y RM, con una precisión del 90%. Punto de enseñanza: cicatriz central más patrón arterial equivale a observar.",
+  "teaching_point": "La hiperplasia nodular focal se maneja de forma conservadora; la biopsia no se aconseja porque no la distingue del hepatocarcinoma bien diferenciado.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 24
+  },
+  "tags": [
+   "hiperplasia nodular focal",
+   "cicatriz central",
+   "manejo conservador"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M004",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Al explicar por qué la hiperplasia nodular focal presenta una cicatriz central con cordones fibrosos radiales y una arteria de gran calibre en su interior, el profesor describe el mecanismo que la origina. Señale cuál es la secuencia fisiopatológica que se expuso para esta lesión en la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Daño de la circulación portal con shunts arteriovenosos e hiperperfusión."
+   },
+   {
+    "id": "B",
+    "text": "Trombosis de las venas suprahepáticas con congestión y fibrosis secundaria."
+   },
+   {
+    "id": "C",
+    "text": "Estímulo estrogénico mantenido, que obliga a retirar los anticonceptivos orales."
+   },
+   {
+    "id": "D",
+    "text": "Proliferación clonal de hepatocitos por mutación del gen HNF1 alfa."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase describe la etiopatogenia de la hiperplasia nodular focal como un daño de la circulación portal que provoca la aparición de shunts arteriovenosos; la hiperperfusión arterial resultante genera estrés oxidativo, que estimula las células estrelladas y produce la fibrosis central alrededor de la arteria junto con una proliferación de hepatocitos. Añade que puede aparecer con el uso de oxaliplatino. Opción D: la mutación de HNF1 alfa define uno de los subtipos moleculares del adenoma hepatocelular, el más frecuente, no la hiperplasia nodular focal. Opción B: la trombosis suprahepática corresponde al síndrome de Budd-Chiari y produce congestión, no una lesión nodular con cicatriz central. Opción C: es la trampa esperable, porque la lesión aparece en mujeres de cuarenta a cincuenta años, pero la clase niega expresamente una relación clara con las hormonas; la relación estrogénica se describe para el hemangioma y sobre todo para el adenoma, y en la hiperplasia nodular focal el anticonceptivo no se retira, sólo se añade un seguimiento ecográfico anual durante dos o tres años. Punto de enseñanza: la cicatriz central es la huella de la hiperperfusión arterial.",
+  "teaching_point": "La hiperplasia nodular focal nace de un daño portal con shunts arteriovenosos e hiperperfusión arterial; no es hormonodependiente.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 18
+  },
+  "tags": [
+   "hiperplasia nodular focal",
+   "etiopatogenia",
+   "shunt arteriovenoso"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M005",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 29 años en tratamiento con anticonceptivos orales desde hace ocho años, con una lesión hepática única de seis centímetros en el lóbulo derecho, hipervascular en fase arterial y con realce capsular tardío. La alfafetoproteína es normal y está asintomática. Señale la actuación que procede en esta paciente.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Radiofrecuencia percutánea y seguimiento anual con alfafetoproteína."
+   },
+   {
+    "id": "B",
+    "text": "Mantener los anticonceptivos y repetir la resonancia en doce meses."
+   },
+   {
+    "id": "C",
+    "text": "Embolización arterial programada como tratamiento definitivo."
+   },
+   {
+    "id": "D",
+    "text": "Suspender los anticonceptivos e indicar la resección de la lesión."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El cuadro corresponde a un adenoma hepatocelular: mujer joven con anticonceptivos orales mantenidos, lesión única y derecha en el 80% de los casos, hipervascular en fase arterial con realce de la cápsula en fases tardías y alfafetoproteína normal, que la clase señala como poco útil. Entre las indicaciones de cirugía figuran el tamaño mayor de cinco centímetros y el mantenimiento de los anticonceptivos, ambas presentes. Opción B: mantener el estímulo hormonal en un adenoma de seis centímetros perpetúa el riesgo de hemorragia y de transformación maligna, que se asocia precisamente a la ingesta mantenida de hormonas y al tamaño superior a ocho centímetros. Opción C: la embolización se reserva en la clase al manejo de la hemorragia intratumoral, no como tratamiento definitivo de un adenoma no complicado. Opción A: la radiofrecuencia se contempla en la hiperplasia nodular focal y en la adenomatosis, no como alternativa estándar aquí. Punto de enseñanza: retirar el estímulo hormonal no sustituye a la resección cuando ya hay criterios quirúrgicos.",
+  "teaching_point": "Adenoma mayor de cinco centímetros o con anticonceptivos mantenidos: resección, además de suspender el estímulo hormonal.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "adenoma hepatico",
+   "anticonceptivos",
+   "indicacion quirurgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M006",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En la sesión sobre subtipos moleculares del adenoma hepatocelular se discute cuál de ellos condiciona la indicación quirúrgica por su comportamiento biológico. El profesor recuerda además con qué hallazgos histológicos se asocia. Señale qué subtipo presenta el mayor riesgo de transformación maligna según lo expuesto en la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El subtipo con beta-catenina mutada, con anomalías citológicas asociadas."
+   },
+   {
+    "id": "B",
+    "text": "El subtipo con mutación de HNF1 alfa, que asocia esteatosis marcada."
+   },
+   {
+    "id": "C",
+    "text": "El subtipo inflamatorio, con dilatación sinusoidal y reacción ductal."
+   },
+   {
+    "id": "D",
+    "text": "El subtipo telangiectásico, una variedad del subtipo inflamatorio."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enumera cinco subtipos moleculares y atribuye el alto riesgo de malignización al adenoma con beta-catenina mutada, que representa alrededor del 14% de los casos y que histológicamente muestra anomalías citológicas y formaciones pseudoglandulares. Coherentemente, la transformación maligna, del 3 al 7%, se asocia a la beta-catenina mutada, a la glucogenólisis, al tamaño mayor de ocho centímetros y a la ingesta mantenida de hormonas. Opción B: el subtipo con mutación de HNF1 alfa es el más frecuente, en torno al 46%, cursa con esteatosis y sin anomalías citológicas, y tiene bajo riesgo de malignizar. Opción C: el subtipo inflamatorio, cerca del 30%, se asocia a esteatosis y obesidad y su riesgo característico es la hemorragia, no la degeneración. Opción D: el telangiectásico se describe como una variedad del inflamatorio y comparte su perfil de riesgo hemorrágico. Punto de enseñanza: el subtipo molecular no es un dato académico, cambia la indicación quirúrgica.",
+  "teaching_point": "El adenoma con beta-catenina mutada es el de mayor riesgo de malignización; el inflamatorio destaca por el riesgo de hemorragia.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 32
+  },
+  "tags": [
+   "adenoma hepatico",
+   "beta-catenina",
+   "subtipos moleculares"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M007",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Un varón de 38 años con obesidad y consumo previo de anabolizantes presenta un adenoma hepatocelular de tres centímetros, asintomático y estable en dos controles. Se discute en comité si procede la resección. Señale cuál de los siguientes datos constituye por sí solo una indicación de cirugía según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La presencia de esteatosis hepática difusa asociada en la resonancia."
+   },
+   {
+    "id": "B",
+    "text": "El antecedente de consumo de anabolizantes ya interrumpido."
+   },
+   {
+    "id": "C",
+    "text": "La alfafetoproteína en el límite alto de la normalidad analítica."
+   },
+   {
+    "id": "D",
+    "text": "El sexo masculino del paciente, con independencia del tamaño."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase enumera como indicaciones de cirugía en el adenoma hepatocelular los adenomas sintomáticos, los mayores de cinco centímetros, los que crecen más de un centímetro, la glucogenosis, el sexo varón y el mantenimiento de los anticonceptivos orales. El sexo masculino aparece por sí mismo en esa lista, y por eso este paciente, pese al tamaño y a la estabilidad, tiene indicación quirúrgica. Opción A: la esteatosis acompaña con frecuencia al adenoma, sobre todo en los subtipos HNF1 alfa e inflamatorio, pero no es criterio quirúrgico. Opción B: los anabolizantes son un factor de riesgo reconocido en el varón, aunque el criterio que la clase recoge es el mantenimiento del estímulo hormonal, y aquí ya se ha interrumpido. Opción C: la alfafetoproteína suele ser normal en el adenoma y la clase señala que la analítica no aporta, de modo que un valor normal alto no decide nada. Punto de enseñanza: en el varón, el adenoma se opera.",
+  "teaching_point": "Indicaciones de cirugía en el adenoma: sintomático, mayor de 5 cm, crecimiento mayor de 1 cm, glucogenosis, varón y mantenimiento de anticonceptivos.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 34
+  },
+  "tags": [
+   "adenoma hepatico",
+   "indicacion quirurgica",
+   "varon"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M008",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "El informe de una pieza de resección describe una lesión hepática bien delimitada y sin cápsula, constituida por nódulos hepatocelulares con una cicatriz central de la que parten cordones fibrosos radiales, con arterias distróficas rodeadas de linfocitos en las áreas fibróticas. Señale de qué lesión se trata.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Adenoma hepatocelular: hepatocitos desorganizados, sin ductos ni tejido conjuntivo."
+   },
+   {
+    "id": "B",
+    "text": "Hemangioma cavernoso: lagunas vasculares tapizadas de endotelio con septos fibrosos."
+   },
+   {
+    "id": "C",
+    "text": "Hiperplasia nodular focal: con aumento de la ratio de angiopoyetina 1 sobre angiopoyetina 2."
+   },
+   {
+    "id": "D",
+    "text": "Quiste hepático simple: epitelio atípico de origen biliar que segrega líquido seroso."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La descripción reproduce los hallazgos histológicos que la clase atribuye a la hiperplasia nodular focal: lesión bien delimitada y sin cápsula, compuesta por nódulos hepatocelulares con una cicatriz central y cordones de fibrosis radiales, con arterias distróficas acompañadas de linfocitos en las regiones fibróticas, además del aumento de la ratio de ARN mensajero de angiopoyetina 1 frente a angiopoyetina 2 que recoge la opción correcta. Opción A: el adenoma está formado por células parecidas a hepatocitos desorganizadas, sin ductos ni tejido conjuntivo, y carece por completo de la cicatriz y de los cordones radiales que describe la pieza. Opción B: el hemangioma está constituido por lagunas vasculares recubiertas de endotelio y septos fibrosos, con una fina cápsula, un patrón que no incluye nódulos hepatocelulares. Opción D: el quiste hepático simple está tapizado por un epitelio atípico de origen biliar que segrega líquido seroso; es una lesión quística y no un nódulo sólido. Punto de enseñanza: sin cápsula y con cicatriz central radial, es hiperplasia nodular focal.",
+  "teaching_point": "Nódulos hepatocelulares sin cápsula, cicatriz central y cordones fibrosos radiales con arterias distróficas definen la hiperplasia nodular focal.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 19
+  },
+  "tags": [
+   "hiperplasia nodular focal",
+   "histologia",
+   "cicatriz central"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M009",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Mujer de 58 años con un quiste hepático simple conocido de ocho centímetros, asintomático hasta ahora, que acude a urgencias por dolor brusco en el hipocondrio derecho. La ecografía muestra que la lesión ha crecido y que su contenido, antes anecoico, es ahora heterogéneo. Señale qué ha ocurrido y con qué dato de la clase se sostiene esa interpretación.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Sobreinfección del contenido, favorecida por la comunicación del quiste con la vía biliar."
+   },
+   {
+    "id": "B",
+    "text": "Hemorragia intraquística, que es la complicación más frecuente de esta lesión."
+   },
+   {
+    "id": "C",
+    "text": "Rotura al peritoneo con shock anafiláctico, como ocurre en el quiste hidatídico."
+   },
+   {
+    "id": "D",
+    "text": "Degeneración a cistoadenocarcinoma, la complicación más frecuente por encima de cinco centímetros."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase señala que la complicación más frecuente del quiste hepático simple es la hemorragia intraquística, y describe precisamente esta presentación, con dolor de instauración brusca y aumento del tamaño de la lesión. El quiste simple deriva de un desarrollo embriológico anormal, está tapizado por un epitelio atípico de origen biliar que segrega líquido seroso, es más frecuente en mujeres y suele ser unilocular. Opción A: la clase subraya expresamente que el quiste hepático simple no tiene comunicación con el árbol biliar, de modo que el mecanismo que propone la opción no existe; ese dato es justamente el que lo separa de otras lesiones quísticas. Opción C: la rotura con shock anafiláctico pertenece al quiste hidatídico, cuyo líquido es antigénico; el contenido seroso del quiste simple no desencadena anafilaxia. Opción D: el cistoadenocarcinoma figura en el diagnóstico diferencial de los tumores quísticos malignos, junto con la variante quística de la neoplasia mucinosa papilar intraductal, pero no como degeneración de un quiste simple ni ligado a ningún umbral de tamaño. Punto de enseñanza: dolor brusco más crecimiento en un quiste simple equivale a sangrado intraquístico.",
+  "teaching_point": "El quiste hepático simple no comunica con la vía biliar y su complicación más frecuente es la hemorragia intraquística.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "quiste simple",
+   "hemorragia intraquistica",
+   "complicacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M010",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "extrema",
+  "stem": "Mujer de 49 años con enfermedad poliquística que afecta al hígado y a ambos riñones, con hepatomegalia masiva que limita las actividades de la vida diaria, desnutrición severa e insuficiencia renal crónica con filtrado glomerular inferior a treinta mililitros por minuto. Señale cuál es la actuación que procede en esta paciente según los criterios expuestos en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Trasplante hepatorrenal combinado, por reunir criterios de ambos órganos."
+   },
+   {
+    "id": "B",
+    "text": "Fenestración laparoscópica de los quistes de mayor tamaño."
+   },
+   {
+    "id": "C",
+    "text": "Aspiración percutánea y esclerosis de los quistes dominantes."
+   },
+   {
+    "id": "D",
+    "text": "Hepatectomía parcial derecha para reducir el volumen hepático."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase enumera como indicaciones de trasplante hepático en la poliquistosis el dolor abdominal incapacitante, la infección recurrente, la hipertensión portal y la desnutrición, y establece la indicación de trasplante hepatorrenal cuando coexiste insuficiencia renal crónica con filtrado glomerular inferior a cuarenta mililitros por minuto en un paciente que ya cumple criterios hepáticos. Esta paciente reúne ambas condiciones. Opción B: la fenestración es un procedimiento útil en el quiste simple sintomático, pero insuficiente en una hepatomegalia masiva por poliquistosis. Opción C: la aspiración y esclerosis percutánea es el tratamiento del quiste simple sintomático o de crecimiento rápido, no de la enfermedad poliquística difusa. Opción D: la hepatectomía parcial tiene un papel en casos seleccionados, exige un volumen de remanente funcional superior al 30% y es técnicamente compleja, con un 50% de morbilidad; aquí la afectación renal asociada inclina la decisión hacia el trasplante combinado. Punto de enseñanza: la función renal decide entre trasplante hepático y hepatorrenal.",
+  "teaching_point": "En poliquistosis, el trasplante hepatorrenal se indica cuando hay criterios hepáticos y filtrado glomerular menor de 40 mL/min.",
+  "guideline_ref": "Rodríguez Aguilar EF et al. Gastroenterol Hepatol 2021, citado en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 51
+  },
+  "tags": [
+   "poliquistosis hepatorrenal",
+   "trasplante",
+   "indicacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M011",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 22 años con episodios repetidos de fiebre, ictericia y elevación de enzimas hepáticas desde la adolescencia. La colangiorresonancia muestra dilataciones quísticas de los conductos biliares intrahepáticos con litiasis en su interior, limitadas al hígado izquierdo. Señale el diagnóstico y la actuación que procede en este paciente.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Colangitis esclerosante primaria; iniciar ácido ursodesoxicólico."
+   },
+   {
+    "id": "B",
+    "text": "Enfermedad de Caroli lobar; resección hepática del lado afectado."
+   },
+   {
+    "id": "C",
+    "text": "Poliquistosis hepática; observación y control ecográfico anual."
+   },
+   {
+    "id": "D",
+    "text": "Quiste hidatídico múltiple; albendazol seguido de cirugía radical."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La enfermedad de Caroli es la dilatación quística congénita de los conductos biliares, difusa o limitada, esta última más frecuente en el lado izquierdo; suele ser asintomática hasta los quince o veinte años y su presentación más frecuente es la tríada de fiebre, ictericia y elevación de enzimas, con crisis de colangitis que originan litiasis intrahepáticas. Cuando la afectación es segmentaria o lobar, la clase indica la resección hepática del territorio afectado. Opción A: la colangitis esclerosante primaria produce estenosis y dilataciones arrosariadas de la vía biliar, no dilataciones quísticas congénitas limitadas a un lóbulo. Opción C: la poliquistosis hepática cursa con quistes que no comunican con la vía biliar y no da colangitis de repetición ni litiasis intrahepática. Opción D: la hidatidosis no produce dilatación de los conductos biliares, aunque su complicación más frecuente sea biliar. Punto de enseñanza: la afectación difusa obliga a considerar el trasplante y el riesgo de colangiocarcinoma.",
+  "teaching_point": "La enfermedad de Caroli lobar se trata con resección hepática; la difusa, con manejo de complicaciones y trasplante, y asocia colangiocarcinoma en el 10-20%.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 57
+  },
+  "tags": [
+   "enfermedad de Caroli",
+   "litiasis intrahepatica",
+   "reseccion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-M012",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Al abrir el tema de los tumores hepáticos benignos, el profesor ordena las lesiones sólidas por frecuencia y recuerda además a partir de qué tamaño se aplica el calificativo de gigante a la más frecuente de ellas. Señale la afirmación que recoge correctamente ambos datos según lo expuesto en clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "El hemangioma cavernoso es el más frecuente; se llama gigante por encima de cinco centímetros."
+   },
+   {
+    "id": "B",
+    "text": "El hemangioma cavernoso es el más frecuente; se llama gigante por encima de siete centímetros."
+   },
+   {
+    "id": "C",
+    "text": "El hemangioma cavernoso es el más frecuente; se llama gigante por encima de diez centímetros."
+   },
+   {
+    "id": "D",
+    "text": "La hiperplasia nodular focal es la más frecuente; el hemangioma es gigante por encima de siete centímetros."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase presenta el hemangioma cavernoso como el tumor mesenquimal hepático benigno más frecuente y establece que se denomina gigante cuando mide más de siete centímetros, tamaño a partir del cual aparecen los síntomas por crecimiento y el riesgo de síndrome de Kasabach-Merritt. La hiperplasia nodular focal se sitúa expresamente como el segundo tumor hepático benigno más frecuente. Opción A: los cinco centímetros son el umbral de indicación quirúrgica del adenoma hepatocelular, no el que define al hemangioma gigante; es la confusión más habitual entre las dos cifras del tema. Opción C: diez centímetros no corresponde a ningún umbral expuesto en clase, y aplicarlo dejaría fuera de la categoría de gigante a hemangiomas que ya pueden dar síntomas y complicaciones. Opción D: invierte el orden de frecuencia, porque la hiperplasia nodular focal es la segunda y no la primera, aunque acierte el umbral de siete centímetros. Punto de enseñanza: hemangioma primero, hiperplasia nodular focal segunda, y siete centímetros como umbral de gigante.",
+  "teaching_point": "El hemangioma cavernoso es el tumor hepático benigno más frecuente y se llama gigante por encima de siete centímetros; la HNF es el segundo.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "hemangioma",
+   "frecuencia",
+   "hemangioma gigante"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T15-C001",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la consulta de cirugía hepatobiliar se revisa a una paciente con una lesión hepática sólida incidental y el residente debe ordenar el diagnóstico diferencial empezando por la lesión benigna más probable. Indique, en un máximo de veinte palabras, cuál es el tumor hepático benigno más frecuente y a partir de qué tamaño se considera gigante.",
+  "respuesta_canonica": "El hemangioma cavernoso; se considera gigante cuando supera los siete centímetros.",
+  "aceptadas": [
+   "hemangioma cavernoso, gigante si mide más de 7 cm",
+   "hemangioma; gigante por encima de siete centímetros",
+   "hemangioma hepático, denominado gigante a partir de 7 cm",
+   "el hemangioma cavernoso; gigante por encima de 7 cm",
+   "hemangioma cavernoso, gigante a partir de siete centímetros"
+  ],
+  "conceptos_clave": [
+   "hemangioma"
+  ],
+  "max_palabras": 20,
+  "explanation": "El hemangioma cavernoso es el tumor mesenquimal hepático benigno más frecuente y la clase establece el umbral de siete centímetros para calificarlo de gigante. Su incidencia es mayor entre la tercera y la quinta décadas de la vida, predomina en mujeres con una proporción de cinco a uno y se ha relacionado con la exposición a estrógenos, ya sea por anticonceptivos, embarazo o corticoides, que estimulan la proliferación de las células endoteliales. Histológicamente está formado por lagunas vasculares recubiertas de células endoteliales y septos fibrosos, y macroscópicamente son lesiones bien circunscritas, blandas y con una fina cápsula, más frecuentemente únicas y localizadas en el lóbulo derecho. Por debajo de ese umbral la mayoría son asintomáticos y de manejo conservador; por encima aparecen el dolor, la compresión de estructuras vecinas y la posibilidad del síndrome de Kasabach-Merritt. Se acepta la respuesta que nombre el hemangioma y el umbral de siete centímetros.",
+  "teaching_point": "Hemangioma cavernoso: el tumor hepático benigno más frecuente; gigante a partir de siete centímetros.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "hemangioma",
+   "frecuencia",
+   "tamano"
+  ]
+ },
+ {
+  "id": "T15-C002",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "imagen_ap",
+  "difficulty": "basica",
+  "stem": "Ante una lesión hepática sólida hallada de forma incidental, la tomografía computarizada con contraste en varias fases permite reconocer el patrón que caracteriza al hemangioma cavernoso y evitar así pruebas invasivas innecesarias. Describa, en un máximo de veinte palabras, cuál es ese patrón de captación de contraste según lo expuesto en la clase.",
+  "respuesta_canonica": "Relleno progresivo y centrípeto del contraste, hasta hacerse hiperdenso.",
+  "aceptadas": [
+   "captación centrípeta progresiva desde la periferia al centro",
+   "incremento progresivo y centrípeto del contraste",
+   "lesión hipodensa que se rellena de fuera adentro hasta hiperdensa"
+  ],
+  "conceptos_clave": [
+   "centrípeto",
+   "progresivo"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase describe el comportamiento del hemangioma en la tomografía computarizada con contraste en tres fases: se trata inicialmente de una lesión hipodensa y bien delimitada que presenta un incremento progresivo y centrípeto del contraste hasta hacerse hiperdensa. Ese relleno de la periferia hacia el centro es el rasgo que permite diferenciarlo de otras lesiones hipervasculares con lavado precoz, como el adenoma con shunts arteriovenosos o el hepatocarcinoma. La resonancia magnética es la prueba de elección y completa el diagnóstico: la lesión es hipointensa con refuerzo nodular en T1 e hiperintensa en T2. En la ecografía, las lesiones pequeñas aparecen como masas homogéneas lobuladas hiperecoicas con refuerzo posterior y márgenes bien definidos, mientras que las grandes muestran áreas heterogéneas por trombosis o hemorragia. Se acepta como correcta cualquier formulación que recoja el carácter progresivo y centrípeto del relleno; describir sólo la hiperdensidad final se considera incompleto.",
+  "teaching_point": "El hemangioma se rellena de forma progresiva y centrípeta en TC, y es hiperintenso en T2 en resonancia.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "hemangioma",
+   "TC",
+   "patron de realce"
+  ]
+ },
+ {
+  "id": "T15-C003",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En la caracterización molecular del adenoma hepatocelular se describen cinco subtipos con comportamientos biológicos distintos, y uno de ellos condiciona de forma decisiva la indicación quirúrgica por su tendencia a la degeneración. Indique, en un máximo de veinte palabras, cuál es ese subtipo y qué hallazgos histológicos lo acompañan.",
+  "respuesta_canonica": "El subtipo con beta-catenina mutada, con anomalías citológicas y formaciones pseudoglandulares.",
+  "aceptadas": [
+   "adenoma con mutación de beta-catenina",
+   "beta-catenina mutada; anomalías citológicas y pseudoglándulas",
+   "subtipo beta-catenina, alto riesgo de malignizar"
+  ],
+  "conceptos_clave": [
+   "beta-catenina",
+   "citológicas"
+  ],
+  "max_palabras": 20,
+  "explanation": "De los cinco subtipos moleculares que recoge la clase, el adenoma con beta-catenina mutada, alrededor del 14% de los casos, es el que presenta alto riesgo de malignización, y se acompaña de anomalías citológicas y formaciones pseudoglandulares. El subtipo con mutación de HNF1 alfa es el más frecuente, cerca del 46%, cursa con esteatosis, no muestra anomalías citológicas y tiene bajo riesgo de malignizar. El subtipo inflamatorio, en torno al 30%, asocia esteatosis y obesidad, dilatación sinusoidal, engrosamiento arterial y reacción ductal, y su riesgo característico es la hemorragia; el telangiectásico es una variedad suya. Un 10% queda sin clasificar y puede evolucionar a otros fenotipos. La biopsia permite identificar el subtipo con una exactitud del 74,3%. La transformación maligna global es del 3 al 7% y se asocia a la beta-catenina mutada, a la glucogenólisis, al tamaño superior a ocho centímetros y a la ingesta mantenida de hormonas.",
+  "teaching_point": "El adenoma con beta-catenina mutada concentra el riesgo de malignización; el inflamatorio, el de hemorragia.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 33
+  },
+  "tags": [
+   "adenoma hepatico",
+   "beta-catenina",
+   "malignizacion"
+  ]
+ },
+ {
+  "id": "T15-C004",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "basica",
+  "stem": "Una paciente con un quiste hepático simple conocido y estable durante años acude por dolor brusco en el hipocondrio derecho, y la ecografía urgente muestra que la lesión ha aumentado de tamaño y ha cambiado su contenido. Indique, en un máximo de veinte palabras, cuál es la complicación más frecuente de esta lesión.",
+  "respuesta_canonica": "La hemorragia intraquística, que cursa con dolor brusco y aumento de tamaño.",
+  "aceptadas": [
+   "hemorragia intraquística",
+   "sangrado dentro del quiste",
+   "hemorragia en el interior del quiste, con dolor súbito",
+   "sangrado intraquístico",
+   "hematoma intraquístico"
+  ],
+  "conceptos_clave": [
+   "hemorragia"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase señala que la complicación más frecuente del quiste hepático simple es la hemorragia intraquística, que se manifiesta con dolor brusco y aumento del tamaño de la lesión, exactamente el cuadro descrito. Conviene recordar el resto de la caracterización del quiste simple, porque suele acompañar a esta pregunta: es secundario a un desarrollo embriológico anormal, está tapizado por un epitelio atípico de origen biliar que segrega un líquido seroso, no tiene comunicación con el árbol biliar, es más frecuente en mujeres y suele ser unilocular y de tamaño variable. La mayoría son asintomáticos y de diagnóstico casual; los de gran tamaño producen dolor en hipocondrio derecho y signos de compresión, con ictericia o hipertensión portal. En cuanto al tratamiento, los pequeños y asintomáticos sin cambios ecográficos no requieren seguimiento, y los sintomáticos o de crecimiento rápido se tratan mediante aspiración y esclerosis percutánea o fenestración quirúrgica.",
+  "teaching_point": "La hemorragia intraquística es la complicación más frecuente del quiste hepático simple: dolor brusco y crecimiento súbito.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "quiste simple",
+   "hemorragia intraquistica"
+  ]
+ },
+ {
+  "id": "T15-L001",
+  "tema": 15,
+  "bloque": "higado_trasplante",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 33 años en tratamiento con anticonceptivos orales presenta una lesión hepática sólida de cuatro centímetros hallada de forma incidental, sin síntomas y con analítica normal. Exponga, en un máximo de trescientas cincuenta palabras, el diagnóstico diferencial entre hiperplasia nodular focal y adenoma hepatocelular, y el manejo que corresponde a cada una de las dos entidades.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Sitúa la epidemiología de ambas: HNF segundo tumor benigno más frecuente, mujeres de 40-50 años sin relación clara con hormonas; adenoma en mujeres jóvenes con anticonceptivos, y en varones con anabolizantes, obesidad, alcohol y tabaco",
+    "puntos": 0.44,
+    "claves": [
+     "segundo",
+     "anticonceptivos",
+     "anabolizantes"
+    ]
+   },
+   {
+    "elemento": "Explica la etiopatogenia de la HNF: daño de la circulación portal, shunts arteriovenosos, hiperperfusión arterial, estrés oxidativo y células estrelladas; posible aparición con oxaliplatino",
+    "puntos": 0.34,
+    "claves": [
+     "shunts",
+     "hiperperfusión",
+     "estrelladas"
+    ]
+   },
+   {
+    "elemento": "Contrapone la histología: HNF bien delimitada sin cápsula, con cicatriz central y cordones fibrosos radiales; adenoma con hepatocitos desorganizados sin ductos ni tejido conjuntivo",
+    "puntos": 0.44,
+    "claves": [
+     "cicatriz central",
+     "sin cápsula",
+     "desorganizados"
+    ]
+   },
+   {
+    "elemento": "Describe la imagen de la HNF: ecografía poco sensible, TC hiperdensa arterial e hipodensa portal con cicatriz central, RM la prueba más precisa, con precisión del 90% al combinar TC y RM",
+    "puntos": 0.44,
+    "claves": [
+     "arterial",
+     "cicatriz central"
+    ]
+   },
+   {
+    "elemento": "Describe la imagen del adenoma: hipervascular arterial en el 80%, lavado rápido si hay shunts, realce capsular tardío, RM con sensibilidad del 80% y especificidad del 100%, y utilidad de la PET para diferenciarlo de la HNF",
+    "puntos": 0.44,
+    "claves": [
+     "hipervascular"
+    ]
+   },
+   {
+    "elemento": "Señala el papel de la biopsia: desaconsejada en la HNF por no diferenciarla del hepatocarcinoma bien diferenciado o del fibrolamelar; en el adenoma orienta el subtipo con un 74,3% de exactitud",
+    "puntos": 0.34,
+    "claves": [
+     "biopsia",
+     "fibrolamelar",
+     "subtipo"
+    ]
+   },
+   {
+    "elemento": "Define el manejo de cada entidad: HNF conservadora con cirugía sólo si sintomática o hay duda, y ecografía anual 2-3 años si toma anticonceptivos; adenoma con cirugía si sintomático, mayor de 5 cm, crecimiento mayor de 1 cm, glucogenosis, varón o mantenimiento de anticonceptivos, y embolización si hemorragia intratumoral",
+    "puntos": 0.56,
+    "claves": [
+     "conservador",
+     "varón",
+     "embolización"
+    ]
+   }
+  ],
+  "respuesta_modelo": "La hiperplasia nodular focal es el segundo tumor hepático benigno más frecuente y aparece sobre todo en mujeres de cuarenta a cincuenta años, sin una relación clara con las hormonas. Su origen es un daño de la circulación portal que genera shunts arteriovenosos; la hiperperfusión arterial resultante produce estrés oxidativo, estimula las células estrelladas y da lugar a la fibrosis central alrededor de la arteria con proliferación de hepatocitos. Puede aparecer con el uso de oxaliplatino. Histológicamente es una lesión bien delimitada y sin cápsula, con nódulos hepatocelulares, cicatriz central y cordones fibrosos radiales que contienen arterias distróficas rodeadas de linfocitos. El adenoma hepatocelular es más frecuente en mujeres jóvenes que toman anticonceptivos orales, y en varones se asocia a anabolizantes, obesidad, alcohol y tabaco, además de a la diabetes y a las enfermedades del glucógeno. El 80% son lesiones únicas y predominantemente derechas, formadas por células parecidas a hepatocitos desorganizadas, sin ductos ni tejido conjuntivo. El adenoma es hipervascular en fase arterial en el 80%, presenta lavado rápido en fase portal cuando existen shunts arteriovenosos y realce capsular en fases tardías; la resonancia tiene sensibilidad del 80% y especificidad del 100%, y la PET ayuda a diferenciarlo de la hiperplasia nodular focal. La biopsia se desaconseja en la hiperplasia nodular focal porque no la distingue de un hepatocarcinoma bien diferenciado o de un fibrolamelar; en el adenoma orienta el subtipo con un 74,3% de exactitud. El manejo difiere. La hiperplasia nodular focal es conservadora, con cirugía sólo si es sintomática o hay duda diagnóstica, y seguimiento ecográfico anual durante dos o tres años si se mantienen los anticonceptivos. En el adenoma se opera si es sintomático, mayor de cinco centímetros, con crecimiento superior a un centímetro, en la glucogenosis, en varones o si se mantienen los anticonceptivos; la hemorragia intratumoral se maneja con embolización.",
+  "explanation": "El objetivo de la pregunta es que el alumno distinga dos lesiones que comparten paciente tipo y aspecto hipervascular pero cuyo manejo es opuesto: una se observa y la otra se opera. Los ejes que deben aparecer son la epidemiología y la relación hormonal, la etiopatogenia vascular de la hiperplasia nodular focal, la histología con la cicatriz central como marca diferencial, el comportamiento radiológico de cada una con la resonancia como prueba de referencia, el papel limitado de la biopsia y, sobre todo, los criterios concretos de indicación quirúrgica del adenoma. Se valora que el alumno cierre con la conducta que corresponde a la paciente del enunciado, en la que el tamaño inferior a cinco centímetros y la ausencia de síntomas hacen que la decisión dependa del diagnóstico definitivo y de la retirada del anticonceptivo. Se penaliza indicar biopsia en la hiperplasia nodular focal, atribuir riesgo de malignización al hemangioma o citar porcentajes que no figuran en el material de clase.",
+  "teaching_point": "Hiperplasia nodular focal y adenoma se parecen en la imagen arterial y se separan por la cicatriz central, el contexto hormonal y, sobre todo, por el manejo.",
+  "guideline_ref": "Guías Clínicas de la AEC «Cirugía Hepática», citadas en la clase",
+  "fuente_clase": {
+   "archivo": "clase tumore hepaticos benignos.pdf",
+   "pagina": 23
+  },
+  "tags": [
+   "hiperplasia nodular focal",
+   "adenoma hepatico",
+   "diagnostico diferencial"
+  ]
+ }
+]

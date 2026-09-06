@@ -1,0 +1,755 @@
+[
+ {
+  "id": "T29-M001",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 63 años con adenocarcinoma de recto a 7 cm del margen anal. La resonancia pélvica describe un tumor que penetra 12 mm en la grasa mesorrectal, con adenopatías mesorrectales sospechosas y fascia mesorrectal amenazada. La tomografía toracoabdominal no muestra metástasis. ¿Cuál es el siguiente paso más apropiado en el comité multidisciplinar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Quimiorradioterapia neoadyuvante y, tras reevaluación, resección anterior baja con escisión total del mesorrecto"
+   },
+   {
+    "id": "B",
+    "text": "Resección anterior baja de entrada, dejando la quimioterapia adyuvante para el resultado patológico"
+   },
+   {
+    "id": "C",
+    "text": "Resección local transanal del tumor, seguida de vigilancia estrecha con rectoscopia y resonancia"
+   },
+   {
+    "id": "D",
+    "text": "Amputación abdominoperineal de entrada, por el riesgo de margen circunferencial afecto"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El tumor cumple los tres criterios de enfermedad localmente avanzada que la clase define: sobrepasa la pared rectal, hay afectación ganglionar y el margen radial circunferencial está en riesgo. En esa situación el tratamiento estándar es la neoadyuvancia con quimiorradioterapia y, tras reevaluar la respuesta, la resección anterior baja con escisión total del mesorrecto. Opción B: operar de entrada un tumor con la fascia mesorrectal amenazada expone a un margen circunferencial afecto, que es el principal predictor de recidiva local; la adyuvancia no rescata un margen positivo. Opción C: la resección local transanal se reserva para lesiones cT1N0 con factores de buen pronóstico, y aquí hay invasión profunda de la grasa y ganglios sospechosos. Opción D: la amputación abdominoperineal se indica por la relación del tumor con los esfínteres, no por el estadio; a 7 cm del margen anal el esfínter es preservable. Punto de enseñanza: margen radial de riesgo, N positivo o T4 son las tres indicaciones de neoadyuvancia.",
+  "teaching_point": "Recto localmente avanzado (margen de riesgo, N+ o T4): quimiorradioterapia neoadyuvante y después resección anterior baja.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 28
+  },
+  "tags": [
+   "cáncer de recto",
+   "neoadyuvancia",
+   "margen circunferencial"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M002",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante una resección anterior de recto el cirujano realiza la escisión total del mesorrecto. Explica al residente que se trata de una disección por un plano concreto, avascular, que debe recorrerse con electrobisturí y bajo control visual directo para no vulnerar la envoltura del mesorrecto. ¿Entre qué estructuras discurre ese plano?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Entre la muscular propia del recto y la grasa mesorrectal que la rodea circunferencialmente"
+   },
+   {
+    "id": "B",
+    "text": "Entre la fascia mesorrectal y la fascia pélvica parietal, también llamada presacra"
+   },
+   {
+    "id": "C",
+    "text": "Entre el peritoneo visceral del fondo de saco de Douglas y la cara anterior de la próstata"
+   },
+   {
+    "id": "D",
+    "text": "Entre la fascia presacra y el periostio del sacro, por delante de las venas presacras"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La escisión total del mesorrecto consiste en extirpar el recto junto con toda su envoltura de grasa, drenaje venoso y drenaje linfático, respetando íntegra la fascia mesorrectal. El plano correcto es el que existe entre esa fascia mesorrectal y la fascia pélvica parietal o presacra: un plano avascular que se recorre con electrobisturí bajo control visual. La calidad del mesorrecto se informa después en anatomía patológica como satisfactoria cuando la fascia está íntegra e insatisfactoria cuando no lo está. Opción A: disecar entre la muscular propia y la grasa deja el mesorrecto en la pelvis, que es exactamente lo que la técnica pretende evitar. Opción C: el plano anterior respecto a próstata o vagina es solo un sector de la disección, no define el plano de la escisión total. Opción D: entrar por detrás de la fascia presacra abre el plexo venoso presacro y provoca una hemorragia difícil de controlar. Punto de enseñanza: el plano de la ETM es el que separa las dos fascias, no el que separa recto y mesorrecto.",
+  "teaching_point": "La ETM discurre por el plano avascular entre la fascia mesorrectal y la fascia pélvica presacra.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "ETM",
+   "mesorrecto",
+   "anatomía quirúrgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M003",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "En la resonancia magnética de estadificación de un adenocarcinoma de recto, el radiólogo informa de un tumor que sobrepasa la muscular propia y penetra 3 mm en la grasa mesorrectal, sin contactar con la fascia. Según la subclasificación radiológica del T3 utilizada en clase, ¿qué categoría corresponde?",
+  "options": [
+   {
+    "id": "A",
+    "text": "cT3a en la subclasificación por resonancia magnética"
+   },
+   {
+    "id": "B",
+    "text": "cT3d en la subclasificación por resonancia magnética"
+   },
+   {
+    "id": "C",
+    "text": "cT3c en la subclasificación por resonancia magnética"
+   },
+   {
+    "id": "D",
+    "text": "cT3b en la subclasificación por resonancia magnética"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La resonancia permite graduar la profundidad de la invasión de la grasa mesorrectal en los tumores T3, y esa graduación se usa para estimar el riesgo y decidir la neoadyuvancia. Los umbrales explicados en clase son: T3a, menos de un milímetro; T3b, de uno a cinco milímetros; T3c, de cinco a quince milímetros; y T3d, más de quince milímetros. Una penetración de 3 mm corresponde por tanto a T3b. Opción A: el T3a exige penetración inferior al milímetro, es decir, un tumor que apenas rebasa la muscular propia. Opción B: el T3d se reserva para invasiones superiores a quince milímetros, con muy alto riesgo de margen amenazado. Opción C: el T3c empieza en cinco milímetros, umbral que este tumor no alcanza. Punto de enseñanza: la resonancia es la prueba que valora la relación con la fascia mesorrectal y gradúa el T3, mientras que la ecografía endorrectal define mejor los tumores superficiales.",
+  "teaching_point": "T3a menos de 1 mm, T3b de 1 a 5 mm, T3c de 5 a 15 mm y T3d más de 15 mm de invasión de la grasa mesorrectal.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017), con la subclasificación radiológica del T3 empleada en clase",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 6
+  },
+  "tags": [
+   "resonancia",
+   "T3",
+   "estadificación",
+   "fascia mesorrectal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M004",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 68 años con una lesión polipoidea de recto inferior. La ecografía endorrectal la clasifica como cT1N0 y la biopsia muestra adenocarcinoma bien diferenciado, sin invasión linfovascular. La lesión mide 20 mm y es móvil al tacto rectal. ¿Qué opción de tratamiento es la más apropiada en esta paciente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Quimiorradioterapia de ciclo largo seguida de reevaluación y eventual preservación de órgano"
+   },
+   {
+    "id": "B",
+    "text": "Amputación abdominoperineal, por la localización de la lesión en el recto inferior"
+   },
+   {
+    "id": "C",
+    "text": "Resección anterior ultrabaja con anastomosis coloanal y estoma de protección temporal"
+   },
+   {
+    "id": "D",
+    "text": "Resección local transanal con exéresis de todo el espesor de la pared y márgenes libres"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase establece que un cT1N0 con factores de buen pronóstico puede tratarse mediante resección local transanal, hoy realizada con técnicas mínimamente invasivas que permiten extirpar todo el espesor de la pared rectal con márgenes libres. Los factores de buen pronóstico son la buena diferenciación, la ausencia de invasión linfovascular y una invasión submucosa superficial, condiciones que esta paciente cumple. Opción A: la quimiorradioterapia se reserva para la enfermedad localmente avanzada, definida por invasión más allá de la pared, ganglios positivos o margen radial de riesgo, ninguno presente aquí. Opción B: la amputación abdominoperineal se indica por afectación esfinteriana o imposibilidad de obtener márgenes, no por la simple localización baja de un T1. Opción C: la resección anterior ultrabaja es el tratamiento de los cT2-T3 no localmente avanzados y supone una morbilidad desproporcionada para un T1 favorable. Punto de enseñanza: en el T1 la decisión no la marca solo el estadio, sino los factores histológicos de buen pronóstico.",
+  "teaching_point": "cT1N0 con buena diferenciación y sin invasión linfovascular: resección local transanal de todo el espesor.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 28
+  },
+  "tags": [
+   "cT1",
+   "resección transanal",
+   "TAMIS",
+   "indicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M005",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Varón de 59 años fumador, en el quinto día tras una resección anterior baja con anastomosis y estoma de protección. Presenta fiebre de 38,6 °C, taquicardia, dolor hipogástrico y salida de material turbio por el drenaje pélvico. La tomografía confirma una fuga anastomótica con colección. ¿Qué actuación procede?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Antibioterapia, lavado peritoneal e intento de preservar la anastomosis, resecándola solo si hay isquemia"
+   },
+   {
+    "id": "B",
+    "text": "Desmontar la anastomosis y convertir a intervención de Hartmann de forma sistemática y urgente"
+   },
+   {
+    "id": "C",
+    "text": "Antibioterapia y nutrición parenteral exclusivas, difiriendo cualquier gesto sobre la pelvis"
+   },
+   {
+    "id": "D",
+    "text": "Retirar el drenaje pélvico y cerrar el estoma para restablecer el tránsito y descomprimir la pelvis"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "Ante una dehiscencia anastomótica establecida, la clase plantea tratamiento antibiótico, lavado peritoneal e intento de preservación de la anastomosis, reservando la resección para los casos en que exista isquemia del colon. El paciente reúne además varios de los factores de riesgo enumerados: varón intervenido mediante escisión total del mesorrecto y fumador. Opción B: convertir a Hartmann de forma sistemática condena al paciente a una colostomía a menudo definitiva cuando muchas fugas pueden manejarse preservando la anastomosis. Opción C: el tratamiento médico aislado no resuelve una colección establecida; la clase incluye expresamente el lavado peritoneal junto a la antibioterapia, y omitirlo deja el foco séptico dentro de la pelvis. Opción D: cerrar el estoma en plena sepsis pélvica y retirar el drenaje es exactamente lo contrario de lo indicado, porque aumenta la presión sobre una anastomosis dehiscente y suprime la vía de salida del contenido séptico. Punto de enseñanza: el estoma protege de la gravedad de la fuga, no de la fuga.",
+  "teaching_point": "Fuga anastomótica: antibióticos, lavado y preservar la anastomosis; resecar solo si el colon está isquémico.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de complicaciones de la cirugía colorrectal",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 21
+  },
+  "tags": [
+   "dehiscencia",
+   "fuga anastomótica",
+   "estoma de protección",
+   "complicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M006",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 71 años con antecedente de infección por VIH consulta por rectorragia y dolor anal. La exploración muestra una lesión ulcerada en el canal anal, no visible desde el exterior, y adenopatías inguinales palpables. La biopsia bajo anestesia informa de carcinoma epidermoide. ¿Cuál es el tratamiento inicial más apropiado?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Amputación abdominoperineal con linfadenectomía inguinal bilateral en el mismo acto quirúrgico"
+   },
+   {
+    "id": "B",
+    "text": "Quimiorradioterapia, reservando la cirugía radical para el fracaso o la recidiva"
+   },
+   {
+    "id": "C",
+    "text": "Resección local transanal amplia con márgenes de un centímetro y vigilancia inguinal periódica"
+   },
+   {
+    "id": "D",
+    "text": "Quimioterapia sistémica exclusiva, dado que las adenopatías inguinales indican enfermedad diseminada"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El carcinoma epidermoide de ano se trata inicialmente con quimiorradioterapia, con una eficacia elevada que permite preservar el aparato esfinteriano y evitar un estoma definitivo. La cirugía radical, la amputación abdominoperineal, se reserva para el fracaso del tratamiento o para la recidiva; la respuesta se valora clínicamente y con resonancia o PET, dando margen de varios meses antes de considerar que ha fracasado. Opción A: la amputación de entrada era el tratamiento histórico y hoy se considera sobretratamiento, porque sacrifica el esfínter en un tumor curable sin cirugía. Opción C: la resección local se limita a los tumores T1 del margen anal, y esta lesión asienta en el canal anal, no en el margen. Opción D: las adenopatías inguinales forman parte del drenaje linfático regional del canal anal y no equivalen a enfermedad diseminada. Punto de enseñanza: en el ano, la quimiorradioterapia es el tratamiento y la cirugía el rescate; en el recto la relación es la inversa.",
+  "teaching_point": "El carcinoma epidermoide de ano se trata con quimiorradioterapia; la amputación es cirugía de rescate.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores del ano",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 36
+  },
+  "tags": [
+   "cáncer de ano",
+   "epidermoide",
+   "quimiorradioterapia",
+   "VIH"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M007",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Se explica a un paciente que, tras la resección anterior baja con anastomosis, se le construirá una ileostomía de protección que se cerrará meses después. El paciente pregunta para qué sirve exactamente y qué riesgos añade llevarla. ¿Qué afirmación describe correctamente la función y los riesgos del estoma de protección?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reduce la incidencia de la dehiscencia anastomótica al desviar el tránsito fuera de la sutura"
+   },
+   {
+    "id": "B",
+    "text": "No influye en la evolución de la anastomosis y se construye para facilitar los cuidados postoperatorios"
+   },
+   {
+    "id": "C",
+    "text": "Disminuye la gravedad de la fuga anastomótica, pero puede causar grandes pérdidas de agua e insuficiencia renal"
+   },
+   {
+    "id": "D",
+    "text": "Aumenta la presión intraluminal sobre la anastomosis, aunque compensa por reducir la contaminación fecal"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "El estoma de protección es una derivación temporal que no impide que la anastomosis se abra, pero desvía el tránsito y hace que, si la fuga se produce, tenga menos repercusión séptica. La clase lo formula con precisión: disminuye la gravedad de la fuga anastomótica. Su contrapartida es la morbilidad propia del estoma, en particular las grandes pérdidas de agua y electrolitos por la ileostomía, que pueden llevar a deshidratación e insuficiencia renal, motivo frecuente de reingreso. Opción A: es el error más extendido; el estoma no reduce la frecuencia con que la anastomosis se abre, que depende de la vascularización, de la tensión y de los factores de riesgo del paciente, sino la repercusión que tiene cuando se abre. Opción B: minimiza un efecto real, porque la evolución clínica de una fuga derivada y la de una no derivada no son la misma. Opción D: invierte el mecanismo, porque el estoma descomprime la anastomosis en lugar de aumentar la presión sobre ella. Punto de enseñanza: el estoma de protección no protege de la fuga, protege de sus consecuencias, y tiene su propia morbilidad.",
+  "teaching_point": "El estoma de protección reduce la gravedad de la fuga, no su incidencia, y puede causar insuficiencia renal por deshidratación.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 20
+  },
+  "tags": [
+   "estoma de protección",
+   "ileostomía",
+   "dehiscencia"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M008",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 70 años con adenocarcinoma de recto inferior tratada con terapia neoadyuvante total. En la reevaluación el tacto rectal es normal, la rectoscopia muestra una cicatriz plana sin tumor, la resonancia no identifica enfermedad residual y el PET-TC es negativo. La paciente rechaza una amputación. ¿Qué actitud es defendible?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Proceder a la amputación abdominoperineal programada, porque la respuesta clínica no equivale a la patológica"
+   },
+   {
+    "id": "B",
+    "text": "Administrar una segunda tanda de quimiorradioterapia antes de decidir cualquier actitud quirúrgica"
+   },
+   {
+    "id": "C",
+    "text": "Realizar una resección local transanal de la cicatriz para confirmar histológicamente la respuesta"
+   },
+   {
+    "id": "D",
+    "text": "Preservación de órgano con seguimiento estrecho, informando del riesgo de recrecimiento tumoral"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La respuesta clínica completa tras neoadyuvancia abre la posibilidad de preservar el órgano y evitar la resección rectal, estrategia conocida como watch and wait. La clase señala que la respuesta se valora combinando tacto rectal, rectoscopia, resonancia pélvica y TC o PET-TC, y que la terapia neoadyuvante total alcanza tasas de respuesta clínica completa superiores a las de la quimiorradioterapia convencional. La condición imprescindible es el seguimiento estrecho, porque una cuarta parte de los pacientes presenta recrecimiento tumoral. Opción A: es cierto que la respuesta clínica completa no garantiza la ausencia de tumor en la pieza, pero la clase plantea la preservación de órgano precisamente en ese escenario y con vigilancia estrecha; operar a toda respuesta completa anula el beneficio funcional en una paciente que además rechaza el estoma definitivo. Opción B: repetir la quimiorradioterapia no está indicado ante una respuesta completa y añade toxicidad sin beneficio. Opción C: la resección local de la cicatriz no es inocua sobre un recto irradiado y compromete la cicatrización y la función. Punto de enseñanza: preservar el órgano exige una vigilancia disciplinada, porque el recrecimiento es frecuente y sigue siendo rescatable si se detecta pronto.",
+  "teaching_point": "Ante respuesta clínica completa cabe watch and wait, pero uno de cada cuatro pacientes presenta recrecimiento.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 30
+  },
+  "tags": [
+   "watch and wait",
+   "preservación de órgano",
+   "TNT",
+   "recrecimiento"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M009",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "El patólogo informa la pieza de una resección anterior baja. Describe una escisión mesorrectal satisfactoria, catorce ganglios aislados de los que dos están afectados, y una distancia mínima del tumor al margen de resección radial de 0,8 mm. ¿Cómo debe interpretarse ese margen circunferencial y qué implica?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Margen circunferencial afecto, porque se considera positivo a un milímetro o menos del tumor"
+   },
+   {
+    "id": "B",
+    "text": "Margen libre, porque el tumor no contacta con la tinta del margen radial en el estudio microscópico"
+   },
+   {
+    "id": "C",
+    "text": "Margen afecto únicamente si la escisión mesorrectal se hubiera informado como insatisfactoria"
+   },
+   {
+    "id": "D",
+    "text": "Margen libre, porque el umbral de positividad del margen circunferencial se sitúa en cinco milímetros"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "El informe anatomopatológico de una pieza de recto debe recoger la calidad de la escisión mesorrectal, el recuento ganglionar con un mínimo de doce ganglios, el estado del margen de resección circunferencial y la inestabilidad de microsatélites. El margen circunferencial se considera afecto cuando la distancia del tumor al margen radial es igual o inferior a un milímetro, de modo que 0,8 mm es un margen positivo. Su importancia es pronóstica: el margen radial afecto es el principal predictor de recidiva local. Opción B: la definición de positividad no exige contacto con la tinta, basta con quedar a un milímetro o menos. Opción C: la calidad del mesorrecto y el margen circunferencial son dos parámetros independientes del informe, y un mesorrecto íntegro no convierte en libre un margen de 0,8 mm. Opción D: cinco milímetros es la cifra que aparece en la clase al describir la calidad de la escisión mesorrectal, no el umbral del margen circunferencial. Punto de enseñanza: un milímetro separa el margen libre del margen afecto en la pieza de recto.",
+  "teaching_point": "El margen circunferencial de la pieza de recto se considera afecto cuando la distancia es de 1 mm o menos.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "margen circunferencial",
+   "anatomía patológica",
+   "calidad del mesorrecto"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M010",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 74 años con prurito perianal de años de evolución. La exploración muestra una placa eritematosa, eccematoide, de bordes mal definidos y en parte pigmentada, en la piel perianal. La biopsia informa de una proliferación intraepitelial de estirpe glandular que no rebasa la membrana basal. ¿Qué entidad corresponde a esta descripción?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Carcinoma epidermoide de canal anal en estadio precoz, con extensión superficial al margen"
+   },
+   {
+    "id": "B",
+    "text": "Enfermedad de Paget perianal, de crecimiento lento y baja tasa de progresión a cáncer invasivo"
+   },
+   {
+    "id": "C",
+    "text": "Enfermedad de Bowen perianal, carcinoma epidermoide in situ de la piel perianal"
+   },
+   {
+    "id": "D",
+    "text": "Condilomatosis gigante por virus del papiloma humano de serotipos 6 y 11"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La clase separa dos lesiones intraepiteliales del margen anal que comparten aspecto clínico y se distinguen por la histología. La enfermedad de Paget es un adenocarcinoma intraepitelial; la enfermedad de Bowen es un carcinoma epidermoide in situ. Ambas se presentan como una lesión perianal pruriginosa, eritematosa y eccematoide, de bordes mal definidos y a veces pigmentada, de crecimiento lento, con una minoría de casos que progresan a cáncer invasivo, proporción mayor en inmunodeprimidos. El diagnóstico lo da la estirpe que describe la biopsia, y aquí es glandular, es decir, un adenocarcinoma intraepitelial: enfermedad de Paget. Opción A: el carcinoma epidermoide de canal anal es una lesión invasiva que no se visualiza o solo parcialmente desde el exterior, no una placa eccematoide cutánea. Opción C: Bowen encaja con la clínica pero no con la histología, que sería epidermoide in situ y no glandular. Opción D: los serotipos 6 y 11 son los de menor potencial oncogénico y no producen un adenocarcinoma intraepitelial. Punto de enseñanza: misma clínica, distinta estirpe; Paget es glandular y Bowen es escamoso.",
+  "teaching_point": "Paget perianal es un adenocarcinoma intraepitelial; Bowen perianal es un carcinoma epidermoide in situ.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores del ano",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 37
+  },
+  "tags": [
+   "Paget",
+   "Bowen",
+   "margen anal",
+   "anatomía patológica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M011",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de 66 años con adenocarcinoma de recto situado a 2 cm del margen anal. El tacto rectal muestra un tumor fijo que infiltra el complejo esfinteriano, y la resonancia lo confirma. Tras completar la quimiorradioterapia neoadyuvante persiste la infiltración esfinteriana. ¿Qué técnica quirúrgica está indicada en este paciente?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección anterior ultrabaja con anastomosis coloanal manual y reservorio en J de protección"
+   },
+   {
+    "id": "B",
+    "text": "Escisión mesorrectal parcial con anastomosis colorrectal mecánica y estoma temporal derivativo"
+   },
+   {
+    "id": "C",
+    "text": "Amputación abdominoperineal, con colostomía terminal definitiva y cierre del periné"
+   },
+   {
+    "id": "D",
+    "text": "Resección transanal mínimamente invasiva de la cicatriz tumoral y vigilancia con resonancia"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase enumera las indicaciones de la amputación abdominoperineal: tumor que afecta a los esfínteres, tumor tan próximo a ellos que no permite obtener márgenes adecuados, riesgo elevado de dehiscencia o comorbilidad que desaconseja la anastomosis, mal estado funcional del esfínter y preferencia del paciente. La infiltración esfinteriana persistente tras neoadyuvancia es la indicación más clara, porque conservar el esfínter significaría aceptar un margen afecto. Opción A: la anastomosis coloanal exige un esfínter sano y libre de tumor, condición que no se cumple. Opción B: la escisión mesorrectal parcial se reserva para tumores de tercio superior, no para un tumor a 2 cm del margen anal. Opción D: la resección transanal solo tiene cabida en lesiones precoces favorables o en el seguimiento de respuestas completas, no ante infiltración esfinteriana residual. Punto de enseñanza: la indicación de la amputación la marca la relación del tumor con el esfínter, no la altura medida en centímetros.",
+  "teaching_point": "La amputación abdominoperineal se indica cuando el tumor afecta al esfínter o impide obtener márgenes adecuados.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 22
+  },
+  "tags": [
+   "amputación abdominoperineal",
+   "Miles",
+   "esfínter",
+   "indicación"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-M012",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Se reseca por vía transanal una lesión polipoidea de recto en un varón de 64 años. El informe describe adenocarcinoma con invasión del tercio inferior de la submucosa, correspondiente a SM3 de la clasificación de Kikuchi, con márgenes libres. El paciente está en buena situación funcional. ¿Qué actuación procede ahora?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Administrar quimiorradioterapia adyuvante sobre el lecho, evitando así la resección rectal"
+   },
+   {
+    "id": "B",
+    "text": "Dar por suficiente la resección local, ya que los márgenes de resección están libres de tumor"
+   },
+   {
+    "id": "C",
+    "text": "Completar con resección rectal oncológica y escisión mesorrectal, por el elevado riesgo ganglionar"
+   },
+   {
+    "id": "D",
+    "text": "Repetir la resección transanal ampliando los márgenes laterales y profundos de la escisión"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clasificación de Kikuchi gradúa la profundidad de la invasión submucosa en tres tercios y cada nivel se asocia a un riesgo distinto de afectación ganglionar: SM1 tiene un riesgo mínimo, SM2 intermedio y SM3 el más alto de los tres, en torno a la quinta parte de los casos. Ese riesgo no lo resuelve un margen libre, porque los ganglios afectados quedan fuera de la pieza de resección local. Por eso un SM3 obliga a completar con resección rectal oncológica y escisión mesorrectal. Opción A: la quimiorradioterapia adyuvante no sustituye a la linfadenectomía y no está indicada como rescate de una resección local insuficiente en este contexto. Opción B: confunde control local con control ganglionar; el margen libre asegura lo primero y no dice nada de lo segundo. Opción D: ampliar la resección transanal profundiza en la pared pero sigue sin extirpar el mesorrecto, que es donde está el riesgo. Punto de enseñanza: en la resección local del recto la profundidad submucosa manda sobre el estado del margen.",
+  "teaching_point": "SM3 de Kikuchi conlleva riesgo ganglionar alto y obliga a completar con resección rectal oncológica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 11
+  },
+  "tags": [
+   "Kikuchi",
+   "SM3",
+   "resección local",
+   "riesgo ganglionar"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T29-C001",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La escisión total del mesorrecto es la maniobra que define la calidad oncológica de la cirugía del cáncer de recto y se realiza con electrobisturí y bajo control visual directo. Indique entre qué dos estructuras anatómicas discurre el plano avascular por el que debe realizarse esa disección.",
+  "respuesta_canonica": "Entre la fascia mesorrectal y la fascia pélvica presacra",
+  "aceptadas": [
+   "fascia mesorrectal y fascia presacra",
+   "entre la fascia mesorrectal y la fascia presacra",
+   "entre fascia mesorrectal y fascia presacra",
+   "plano entre la fascia mesorrectal y la fascia presacra",
+   "entre fascia mesorrectal y fascia pélvica parietal",
+   "entre la fascia mesorrectal y la fascia pélvica",
+   "plano entre la fascia propia del mesorrecto y la fascia presacra",
+   "fascia mesorrectal y fascia pélvica"
+  ],
+  "conceptos_clave": [
+   "mesorrectal",
+   "fascia pélvica"
+  ],
+  "max_palabras": 20,
+  "explanation": "La escisión total del mesorrecto consiste en extirpar el recto con toda su envoltura de grasa, su drenaje venoso y su drenaje linfático, respetando la integridad de la fascia mesorrectal. La disección discurre por el plano avascular que separa la fascia mesorrectal de la fascia pélvica parietal o presacra, y se realiza con electrobisturí bajo control visual directo. Entrar por delante de ese plano deja mesorrecto residual en la pelvis y compromete el resultado oncológico; entrar por detrás abre el plexo venoso presacro y provoca una hemorragia difícil de controlar. La calidad de la escisión se informa después en anatomía patológica: satisfactoria cuando la fascia mesorrectal está íntegra, e insatisfactoria cuando la resección es irregular o queda muscular visible. Es uno de los indicadores de calidad de la pieza, junto con el recuento ganglionar y el estado del margen circunferencial.",
+  "teaching_point": "El plano de la ETM es el avascular entre la fascia mesorrectal y la fascia pélvica presacra.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 15
+  },
+  "tags": [
+   "ETM",
+   "mesorrecto",
+   "anatomía quirúrgica"
+  ]
+ },
+ {
+  "id": "T29-C002",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "intermedia",
+  "stem": "En el informe anatomopatológico de una pieza de resección de recto, el estado del margen de resección circunferencial es el parámetro con mayor peso pronóstico sobre la recidiva local. Indique a partir de qué distancia entre el tumor y ese margen radial se considera que el margen circunferencial está afecto.",
+  "respuesta_canonica": "Cuando la distancia es de 1 mm o menos",
+  "aceptadas": [
+   "1 mm o menos",
+   "≤ 1 mm",
+   "igual o inferior a 1 mm",
+   "igual o menor de 1 mm",
+   "a 1 mm o menos del margen",
+   "un milímetro o menos",
+   "igual o inferior a un milímetro",
+   "distancia igual o inferior a un milímetro"
+  ],
+  "conceptos_clave": [
+   "1 mm"
+  ],
+  "max_palabras": 20,
+  "explanation": "El informe de la pieza de recto debe recoger cuatro elementos: la calidad de la escisión mesorrectal, el recuento ganglionar con un mínimo de doce ganglios, el estado del margen de resección circunferencial y el estudio de inestabilidad de microsatélites. El margen circunferencial, también llamado radial, se considera afecto cuando la distancia entre el tumor y el margen es igual o inferior a un milímetro. La definición no exige que el tumor contacte con la tinta: basta con esa proximidad. Su importancia es puramente clínica, porque el margen radial afecto es el principal predictor de recidiva local, que en una unidad con buenos resultados debe mantenerse por debajo del ocho por ciento. Precisamente por eso, cuando la resonancia preoperatoria muestra la fascia mesorrectal amenazada, se indica tratamiento neoadyuvante antes de la cirugía.",
+  "teaching_point": "Margen circunferencial afecto es una distancia de 1 mm o menos, no el contacto con la tinta.",
+  "guideline_ref": "AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 26
+  },
+  "tags": [
+   "margen circunferencial",
+   "anatomía patológica",
+   "recidiva local"
+  ]
+ },
+ {
+  "id": "T29-C003",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "Un varón de 68 años es diagnosticado de carcinoma epidermoide de canal anal, sin metástasis a distancia en el estudio de extensión, y el comité multidisciplinar debe decidir el tratamiento. Indique cuál es el tratamiento inicial de elección y qué papel queda reservado a la cirugía radical.",
+  "respuesta_canonica": "Quimiorradioterapia inicial; amputación abdominoperineal solo si fracasa o recidiva",
+  "aceptadas": [
+   "QRT y cirugía de rescate",
+   "quimiorradioterapia y amputación de rescate",
+   "quimiorradioterapia; amputación de rescate",
+   "QRT de entrada y cirugía de rescate",
+   "radioquimioterapia, reservando la amputación abdominoperineal",
+   "quimiorradioterapia inicial y amputación abdominoperineal de rescate",
+   "quimiorradioterapia; la amputación abdominoperineal solo si fracasa o recidiva",
+   "QRT y amputación de rescate",
+   "QRT inicial y amputación de rescate",
+   "QRT; amputación si fracasa o recidiva",
+   "QRT inicial, amputación abdominoperineal de rescate"
+  ],
+  "conceptos_clave": [
+   "amputación"
+  ],
+  "max_palabras": 20,
+  "explanation": "El carcinoma epidermoide de ano tiene un tratamiento inicial no quirúrgico: la quimiorradioterapia, con una eficacia elevada que permite conservar el aparato esfinteriano. La cirugía radical, es decir, la amputación abdominoperineal, queda reservada para el fracaso del tratamiento o para la recidiva. La única excepción que la clase menciona es el tumor T1 del margen anal, en el que puede plantearse la cirugía de entrada. La valoración de la respuesta se prolonga hasta los seis meses y combina exploración física con tacto rectal, resonancia magnética y PET, precisamente para no indicar una amputación innecesaria ante una respuesta que todavía está completándose. Conviene tener presente el contraste con el adenocarcinoma de recto, donde la relación se invierte: la cirugía es el tratamiento y la radioterapia el complemento neoadyuvante.",
+  "teaching_point": "En el cáncer de ano la quimiorradioterapia es el tratamiento y la amputación abdominoperineal el rescate.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de tumores del ano",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 36
+  },
+  "tags": [
+   "cáncer de ano",
+   "quimiorradioterapia",
+   "cirugía de rescate"
+  ]
+ },
+ {
+  "id": "T29-C004",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "corta",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "En una estrategia de preservación de órgano tras neoadyuvancia, el paciente con respuesta clínica completa no se opera y entra en un programa de seguimiento estrecho con rectoscopia, tacto rectal, resonancia y PET-TC. Indique cuál es la principal razón que obliga a ese seguimiento y con qué frecuencia aproximada ocurre.",
+  "respuesta_canonica": "El recrecimiento tumoral, que aparece en torno al 25 % de los casos",
+  "aceptadas": [
+   "recrecimiento del 25%",
+   "recrecimiento del 25 %",
+   "regrowth, 25 por ciento",
+   "el recrecimiento tumoral, en torno al 25 %",
+   "recrecimiento tumoral en uno de cada cuatro pacientes",
+   "el recrecimiento tumoral, en uno de cada cuatro pacientes",
+   "recrecimiento, uno de cada cuatro pacientes",
+   "recidiva local precoz, uno de cada cuatro"
+  ],
+  "conceptos_clave": [
+   "recrecimiento",
+   "25"
+  ],
+  "max_palabras": 20,
+  "explanation": "La estrategia de watch and wait se plantea cuando, tras la neoadyuvancia, la reevaluación con tacto rectal, rectoscopia, resonancia pélvica y TC o PET-TC no identifica enfermedad residual, es decir, ante una respuesta clínica completa. Evita la resección rectal y sus secuelas funcionales y, en tumores bajos, un estoma definitivo. Su talón de Aquiles es el recrecimiento tumoral, que la clase cifra en torno a una cuarta parte de los pacientes; de ahí que el seguimiento deba ser estrecho y protocolizado, porque un recrecimiento detectado a tiempo sigue siendo rescatable quirúrgicamente. La tasa de respuesta clínica completa depende del esquema neoadyuvante empleado y es mayor con terapia neoadyuvante total que con quimiorradioterapia convencional, lo que ha ampliado el número de candidatos a preservación de órgano.",
+  "teaching_point": "El recrecimiento tras watch and wait afecta a uno de cada cuatro pacientes: el seguimiento no es opcional.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 30
+  },
+  "tags": [
+   "watch and wait",
+   "recrecimiento",
+   "preservación de órgano"
+  ]
+ },
+ {
+  "id": "T29-L001",
+  "tema": 29,
+  "bloque": "colorrectal",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 62 años diagnosticado de adenocarcinoma de recto medio, situado a 8 cm del margen anal. Exponga de forma ordenada el proceso asistencial completo: pruebas de estadificación local y sistémica y qué aporta cada una; criterios que definen la enfermedad localmente avanzada y opciones de tratamiento neoadyuvante; opciones quirúrgicas según el estadio clínico y principios técnicos de la resección oncológica; parámetros que debe recoger el informe anatomopatológico de la pieza; y complicaciones y secuelas funcionales que hay que anticipar al paciente. Máximo 350 palabras.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Enumera la estadificación local (tacto rectal, ecografía endorrectal, resonancia pélvica) y sistémica (TC toracoabdominal, CEA y Ca 19-9), con el diagnóstico por endoscopia y confirmación anatomopatológica",
+    "puntos": 0.38,
+    "claves": [
+     "tacto rectal",
+     "ecografía endorrectal",
+     "resonancia",
+     "CEA"
+    ]
+   },
+   {
+    "elemento": "Diferencia el papel de la ecografía endorrectal (tumores superficiales) del de la resonancia (relación con la fascia mesorrectal, lesiones estenosantes)",
+    "puntos": 0.38,
+    "claves": [
+     "superficiales",
+     "fascia mesorrectal",
+     "estenosantes"
+    ]
+   },
+   {
+    "elemento": "Define la enfermedad localmente avanzada: sobrepasa la pared rectal, afectación ganglionar o margen radial de riesgo",
+    "puntos": 0.38,
+    "claves": [
+     "pared",
+     "ganglionar",
+     "margen radial"
+    ]
+   },
+   {
+    "elemento": "Expone las opciones de neoadyuvancia: radioterapia de ciclo corto, quimiorradioterapia y terapia neoadyuvante total, con la posibilidad de respuesta clínica completa",
+    "puntos": 0.38,
+    "claves": [
+     "ciclo corto",
+     "quimiorradioterapia",
+     "neoadyuvante total",
+     "respuesta clínica completa"
+    ]
+   },
+   {
+    "elemento": "Relaciona estadio y cirugía: cT1N0 favorable con resección local transanal, cT2-T3 no avanzado con resección anterior baja, localmente avanzado con quimiorradioterapia previa",
+    "puntos": 0.38,
+    "claves": [
+     "cT1",
+     "transanal",
+     "reseccion",
+     "localmente"
+    ]
+   },
+   {
+    "elemento": "Describe la escisión total del mesorrecto y las indicaciones de la amputación abdominoperineal por afectación esfinteriana o imposibilidad de márgenes",
+    "puntos": 0.38,
+    "claves": [
+     "escisión total del mesorrecto",
+     "avascular",
+     "amputación",
+     "esfínter"
+    ]
+   },
+   {
+    "elemento": "Enumera los parámetros del informe patológico: calidad del mesorrecto, más de doce ganglios, margen circunferencial afecto si es de 1 mm o menos, e inestabilidad de microsatélites",
+    "puntos": 0.38,
+    "claves": [
+     "calidad",
+     "doce ganglios",
+     "milímetro",
+     "microsatélites"
+    ]
+   },
+   {
+    "elemento": "Anticipa complicaciones y secuelas: dehiscencia anastomótica con sus factores de riesgo y manejo, papel y morbilidad del estoma de protección, y síndrome de resección anterior",
+    "puntos": 0.34,
+    "claves": [
+     "dehiscencia",
+     "estoma de protección",
+     "síndrome de resección anterior"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El diagnóstico se establece por endoscopia con confirmación anatomopatológica. La estadificación local combina el tacto rectal, que informa de la distancia al margen anal, del tamaño, de la movilidad y de la relación con los esfínteres; la ecografía endorrectal, que define mejor los tumores superficiales y la invasión de la grasa, con la limitación de las lesiones estenosantes y del tercio superior; y la resonancia pélvica, que valora la relación con la fascia mesorrectal, gradúa la penetración del T3 y no se limita ante estenosis. La estadificación sistémica se hace con TC toracoabdominal y marcadores CEA y Ca 19-9. Se considera enfermedad localmente avanzada la que sobrepasa la pared rectal, la que presenta afectación ganglionar o la que tiene un margen radial circunferencial de riesgo. En esos casos se indica neoadyuvancia, con radioterapia de ciclo corto, quimiorradioterapia o terapia neoadyuvante total, esquema este último que consigue mayores tasas de respuesta clínica completa y abre la puerta a la preservación de órgano, siempre con seguimiento estrecho por el riesgo de recrecimiento. En cuanto a la cirugía, un cT1N0 con factores de buen pronóstico puede tratarse con resección local transanal; un cT2-T3 no localmente avanzado, con resección anterior baja; y el localmente avanzado, con quimiorradioterapia seguida de resección. La resección oncológica exige la escisión total del mesorrecto por el plano avascular entre la fascia mesorrectal y la fascia pélvica presacra. La amputación abdominoperineal se reserva para el tumor que afecta a los esfínteres o que no permite márgenes adecuados, para el mal estado esfinteriano o la comorbilidad que desaconseja la anastomosis, y para la preferencia del paciente. El informe patológico debe recoger la calidad de la escisión mesorrectal, un recuento superior a doce ganglios, el estado del margen circunferencial, que se considera afecto con un milímetro o menos, y la inestabilidad de microsatélites. Finalmente, hay que anticipar la dehiscencia anastomótica, con sus factores de riesgo y su manejo mediante antibióticos, lavado e intento de preservación de la anastomosis, la morbilidad del estoma de protección y el síndrome de resección anterior como secuela funcional.",
+  "explanation": "Esta pregunta recorre la clase entera y penaliza al alumno que solo se sabe la cirugía. Los tres apartados donde se pierden puntos con más frecuencia son la diferenciación entre ecografía endorrectal y resonancia, que no son intercambiables y tienen indicaciones distintas; la definición operativa de enfermedad localmente avanzada, que no es un estadio TNM sino la conjunción de invasión más allá de la pared, afectación ganglionar o margen radial de riesgo; y el informe patológico, que el alumno suele reducir al TNM olvidando la calidad del mesorrecto, el recuento ganglionar y el margen circunferencial. Un cuarto descuido habitual es despachar la neoadyuvancia como si existiera un único esquema, cuando la clase distingue radioterapia de ciclo corto, quimiorradioterapia y terapia neoadyuvante total, con tasas de respuesta clínica completa distintas y consecuencias directas sobre la posibilidad de preservar el órgano. Anticipar las secuelas funcionales, en particular el síndrome de resección anterior, es lo que convierte una respuesta correcta en una respuesta de cirujano.",
+  "teaching_point": "El cáncer de recto se decide en comité: la resonancia marca la neoadyuvancia y la relación con el esfínter marca la técnica.",
+  "guideline_ref": "Cirugía AEC 2022, capítulo de cáncer de recto; AJCC Cancer Staging Manual, 8.ª ed. (2017)",
+  "fuente_clase": {
+   "archivo": "tema 29 Ca recto clase Medicina 2024.pptx",
+   "pagina": 3
+  },
+  "tags": [
+   "cáncer de recto",
+   "estadificación",
+   "ETM",
+   "neoadyuvancia",
+   "complicaciones"
+  ]
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "id": "experiencia_uso",
+ "version": "1.0",
+ "titulo": "Qué te ha parecido",
+ "descripcion": "Seis preguntas sobre la plataforma y las preguntas. Puedes saltarte las que quieras. Es lo único que te vamos a preguntar.",
+ "momento": "cuando_quiera",
+ "obligatorio": false,
+ "preguntas": [
+  {"id": "utilidad", "tipo": "escala", "texto": "¿Te está resultando útil para estudiar?", "min": 0, "max": 10, "etiquetaMin": "Nada", "etiquetaMax": "Mucho", "requerida": false},
+  {"id": "dificultad_percibida", "tipo": "opcion", "texto": "En conjunto, las preguntas te parecen…", "opciones": ["Demasiado fáciles", "Algo fáciles", "En su punto", "Algo difíciles", "Demasiado difíciles"], "requerida": false},
+  {"id": "tiempo", "tipo": "opcion", "texto": "¿Te da tiempo a contestar una pregunta de test en 45 segundos?", "opciones": ["Casi siempre", "A menudo", "A veces", "Casi nunca"], "requerida": false,
+   "ayuda": "Es el tiempo que dura una pregunta en el examen, y uno de los criterios que estamos validando."},
+  {"id": "explicaciones", "tipo": "escala", "texto": "¿Te sirven las explicaciones que vienen después de cada pregunta?", "min": 0, "max": 10, "etiquetaMin": "Nada", "etiquetaMax": "Mucho", "requerida": false},
+  {"id": "errores_detectados", "tipo": "opcion", "texto": "¿Has encontrado alguna pregunta que te pareciera equivocada?", "opciones": ["No", "Sí, y la he señalado", "Sí, pero no la he señalado"], "requerida": false,
+   "ayuda": "Si has visto algo raro y no lo señalaste, dínoslo igual: saber cuántos errores se nos escapan es uno de los resultados del estudio."},
+  {"id": "comentario", "tipo": "texto_libre", "texto": "¿Algo que quieras decirnos?", "requerida": false, "maxLongitud": 1000}
+ ]
+}

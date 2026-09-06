@@ -1,0 +1,734 @@
+[
+ {
+  "id": "T05-M001",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 44 años que pesa 103 kilogramos y mide 1,66 metros, con diabetes tipo 2 en tratamiento con insulina y síndrome de apnea del sueño en tratamiento con presión positiva nocturna. Ha completado un programa dietético supervisado sin resultado. Señale si cumple criterio de indicación quirúrgica y por qué.",
+  "options": [
+   {
+    "id": "A",
+    "text": "No, porque su índice de masa corporal no alcanza los 40 kilogramos por metro cuadrado."
+   },
+   {
+    "id": "B",
+    "text": "Sí, porque su índice de masa corporal supera 35 y asocia comorbilidades mayores."
+   },
+   {
+    "id": "C",
+    "text": "No, porque la diabetes tratada con insulina contraindica la cirugía de la obesidad."
+   },
+   {
+    "id": "D",
+    "text": "Sí, pero sólo tras alcanzar un índice de masa corporal superior a 40 kilogramos por metro cuadrado."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El índice de masa corporal de la paciente es de aproximadamente 37 kilogramos por metro cuadrado. La clase establece dos umbrales de indicación quirúrgica: índice de masa corporal superior a 40, o superior a 35 acompañado de al menos una comorbilidad. La diabetes tipo 2 y el síndrome de apnea e hipoventilación figuran ambos entre las comorbilidades mayores del listado de la Sociedad Española de Cirugía de la Obesidad recogido en la clase, de modo que la paciente cumple el segundo criterio. Opción A: aplica sólo el umbral de 40 y olvida que la presencia de comorbilidad mayor rebaja ese umbral a 35. Opción C: la diabetes no contraindica la intervención; al contrario, es una de las enfermedades que mejoran o se curan con la pérdida sustancial de peso, y por eso refuerza la indicación. Opción D: exigir que engorde hasta superar 40 invierte la lógica del tratamiento. Punto de enseñanza: la comorbilidad mayor desplaza el umbral de indicación de 40 a 35.",
+  "teaching_point": "Indicación de cirugía bariátrica: IMC superior a 40, o superior a 35 con al menos una comorbilidad mayor.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "IMC",
+   "comorbilidad"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M002",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Al valorar a un paciente para cirugía bariátrica se calcula el índice de masa corporal, también llamado índice de Quételet. Señale cómo se obtiene ese índice y qué categoría de la clasificación de la Organización Mundial de la Salud de 1997 corresponde a un valor de 42 kilogramos por metro cuadrado.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Peso en kilogramos dividido por la talla en metros elevada al cuadrado; obesidad grado III."
+   },
+   {
+    "id": "B",
+    "text": "Peso en kilogramos dividido por la talla expresada en metros; obesidad grado II."
+   },
+   {
+    "id": "C",
+    "text": "Talla en centímetros menos cien, comparada con el peso real; obesidad grado III."
+   },
+   {
+    "id": "D",
+    "text": "Cociente entre el diámetro de la cintura y el de la cadera; obesidad grado I."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define el índice de masa corporal o índice de Quételet como una medida de asociación entre el peso y la talla que se obtiene dividiendo el peso en kilogramos por el cuadrado de la altura en metros. En la clasificación de la Organización Mundial de la Salud de 1997 que reproduce la clase, los valores entre 30 y 34,9 corresponden a obesidad grado I, entre 35 y 39,9 a grado II y por encima de 40 a grado III, por lo que 42 se clasifica como obesidad grado III. Opción B: dividir por la talla sin elevarla al cuadrado no es el índice de Quételet y además asigna mal la categoría. Opción C: talla menos cien es la fórmula de Broca, que estima el peso ideal, no el índice de masa corporal. Opción D: el cociente cintura-cadera mide la distribución de la grasa y distingue la obesidad androide de la ginoide, pero no clasifica el grado de obesidad. Punto de enseñanza: no confundir peso ideal, distribución grasa e índice de masa corporal.",
+  "teaching_point": "El IMC o índice de Quételet es peso en kilogramos dividido por la talla en metros al cuadrado; por encima de 40 es obesidad grado III (OMS 1997).",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "IMC",
+   "Quételet",
+   "clasificación OMS"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M003",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Varón de 39 años que pesa 172 kilogramos y mide 1,72 metros, lo que corresponde a un índice de masa corporal de 58 kilogramos por metro cuadrado. Según la clasificación de la American Society for Bariatric Surgery de 1997 que recoge la clase, señale en qué categoría se encuadra y qué implicación pronóstica tiene.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obesidad mórbida, categoría con una mortalidad quirúrgica global en torno al uno por ciento."
+   },
+   {
+    "id": "B",
+    "text": "Obesidad grave, categoría situada entre 35 y 39,9 kilogramos por metro cuadrado."
+   },
+   {
+    "id": "C",
+    "text": "Superobesidad, grupo en el que la mortalidad quirúrgica puede alcanzar el diez por ciento."
+   },
+   {
+    "id": "D",
+    "text": "Super-super obesidad, categoría reservada a los valores comprendidos entre 50 y 59,9."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clasificación de la American Society for Bariatric Surgery de 1997 que reproduce la clase sitúa la obesidad mórbida entre 40 y 49,9, la superobesidad entre 50 y 59,9 y la super-super obesidad entre 60 y 64,9 kilogramos por metro cuadrado. Un valor de 58 corresponde por tanto a superobesidad. La clase precisa además que la mortalidad de la cirugía bariátrica es del uno por ciento, pero que en los superobesos puede llegar hasta el diez por ciento, dato que convierte esta categoría en un elemento central del consentimiento informado. Opción A: la obesidad mórbida se detiene en 49,9 y la cifra de mortalidad del uno por ciento es la global, no la de este paciente. Opción B: la obesidad grave de esa clasificación corresponde al intervalo 35 a 39,9, muy por debajo del caso. Opción D: la super-super obesidad exige superar 60, umbral que el paciente no alcanza. Punto de enseñanza: el índice de masa corporal no sólo clasifica, también estratifica el riesgo operatorio.",
+  "teaching_point": "Superobesidad es un IMC de 50 a 59,9 (ASBS 1997), grupo en el que la mortalidad quirúrgica puede alcanzar el 10 % frente al 1 % global.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 8
+  },
+  "tags": [
+   "superobesidad",
+   "clasificación ASBS",
+   "riesgo quirúrgico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M004",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Paciente intervenido de bypass gástrico hace tres meses que, unos treinta minutos después de tomar un postre azucarado, presenta plenitud, retortijones, náuseas y diarrea explosiva, junto con sudoración, palpitaciones y sensación de debilidad. Señale qué cuadro describe y cuál es el mecanismo fisiopatológico que lo inicia.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Dumping tardío, por liberación inadecuada de insulina con hipoglucemia reactiva posterior."
+   },
+   {
+    "id": "B",
+    "text": "Estenosis de la anastomosis gastroyeyunal, por retención del contenido en el reservorio."
+   },
+   {
+    "id": "C",
+    "text": "Hernia interna con obstrucción, por un defecto mesentérico que no se cerró en la cirugía."
+   },
+   {
+    "id": "D",
+    "text": "Dumping precoz, por vaciado gástrico rápido con llegada de quimo hiperosmolar al yeyuno."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase separa el dumping precoz, que supone el 75 % de los casos, aparece a los treinta minutos y combina síntomas gastrointestinales y vasomotores, del dumping tardío, que supone el 25 %, aparece a las dos o tres horas y es fundamentalmente vasomotor. El caso descrito, con síntomas mixtos a los treinta minutos de una ingesta rica en azúcares simples, corresponde al precoz. Su mecanismo es la pérdida del efecto reservorio y la aceleración del vaciado gástrico, que llevan al yeyuno un quimo hiperosmolar, secuestran líquido intraluminal y provocan hipovolemia, distensión y liberación de hormonas gastrointestinales. Opción A: el dumping tardío se debe a la absorción rápida de glucosa con liberación inadecuada de insulina e hipoglucemia, pero ocurre más tarde y sin el componente gastrointestinal. Opción B: la estenosis de la anastomosis produce intolerancia y vómitos persistentes, no un cuadro desencadenado por el azúcar. Opción C: la hernia interna es una complicación tardía obstructiva. Punto de enseñanza: la cronología separa los dos dumping.",
+  "teaching_point": "Dumping precoz: 30 minutos, síntomas gastrointestinales y vasomotores, por vaciado rápido y quimo yeyunal hiperosmolar; tardío: 2-3 horas, vasomotor, por hipoglucemia.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 28
+  },
+  "tags": [
+   "dumping precoz",
+   "bypass gástrico",
+   "fisiopatología"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M005",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Durante la información preoperatoria a un candidato a cirugía bariátrica hay que explicar qué se considera un resultado satisfactorio. Señale cuál es el objetivo de pérdida ponderal que fija la clase para la cirugía de la obesidad mórbida y sobre qué magnitud se mide esa pérdida.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perder más del 50 por ciento del sobrepeso, definido como peso real menos peso ideal, en más del 75 por ciento de los pacientes."
+   },
+   {
+    "id": "B",
+    "text": "Perder más del 75 por ciento del peso corporal total medido antes de la intervención, de forma mantenida."
+   },
+   {
+    "id": "C",
+    "text": "Alcanzar un índice de masa corporal inferior a 25 kilogramos por metro cuadrado, es decir, normalizar el peso."
+   },
+   {
+    "id": "D",
+    "text": "Reducir el cociente cintura-cadera por debajo de 0,8 en el varón y por debajo de 1 en la mujer."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase define el objetivo de la cirugía como la pérdida de más del 50 por ciento del sobrepeso en más del 75 por ciento de los pacientes, y aclara expresamente que el sobrepeso es el peso real menos el peso ideal, no el peso total. Añade que esa pérdida debe ser duradera y que la finalidad última es situar al paciente en un índice de masa corporal en el que desaparezcan o mejoren las enfermedades asociadas, reduciendo el riesgo de muerte y mejorando la calidad de vida. Opción B: mide la pérdida sobre el peso total, magnitud distinta del sobrepeso, y fija un porcentaje que induciría expectativas falsas en la información preoperatoria. Opción C: normalizar el índice de masa corporal no es el objetivo declarado por la clase, que insiste en que no hay operaciones mágicas y en que la intervención no es cirugía estética; exigirlo convertiría en fracaso a la mayoría de las intervenciones que sí cumplen su fin. Opción D: el cociente cintura-cadera describe la distribución de la grasa, no el resultado ponderal, y además presenta los umbrales invertidos, porque en el varón la obesidad androide se define por encima de 1. Punto de enseñanza: el denominador es el sobrepeso.",
+  "teaching_point": "Objetivo de la cirugía bariátrica: pérdida duradera de más del 50 % del sobrepeso (peso real menos peso ideal) en más del 75 % de los pacientes.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "objetivo quirúrgico",
+   "sobrepeso",
+   "peso ideal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M006",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "La clase agrupa las técnicas de cirugía bariátrica según el mecanismo por el que alteran la ingestión y la absorción de los alimentos, y distingue tres grupos: restrictivas, malabsortivas y mixtas. Señale qué técnica sitúa la clase en el grupo de las mixtas y qué rasgos de su montaje justifican esa clasificación.",
+  "options": [
+   {
+    "id": "A",
+    "text": "La gastrectomía vertical, porque reduce el volumen del estómago y acelera el vaciado hacia el intestino."
+   },
+   {
+    "id": "B",
+    "text": "La derivación biliopancreática de Scopinaro, porque asocia resección gástrica a una derivación intestinal larga."
+   },
+   {
+    "id": "C",
+    "text": "El bypass gástrico, porque asocia un reservorio de quince a veinte mililitros a una reconstrucción en Y de Roux."
+   },
+   {
+    "id": "D",
+    "text": "El cruce duodenal, porque suma una restricción longitudinal a la preservación del píloro."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase organiza las técnicas en tres grupos. Las restrictivas comprenden las gastroplastias, la gastrectomía vertical o sleeve y la banda ajustable, y se describen como uniformemente poco duraderas. Las malabsortivas incluyen el bypass yeyunoileal, hoy abandonado, la derivación biliopancreática de Scopinaro y el cruce duodenal. El grupo de las mixtas está representado por el bypass gástrico, que combina un reservorio gástrico pequeño, de quince a veinte mililitros, con una reconstrucción en Y de Roux cuyo componente malabsortivo admite variantes proximal y distal. Opción A: la gastrectomía vertical es una técnica restrictiva pura, que puede ser paso previo al cruce duodenal o procedimiento único, y no incorpora ninguna derivación intestinal. Opción B: aunque reseque estómago, la clase califica la derivación de Scopinaro como fundamentalmente malabsortiva y técnicamente agresiva, y la sitúa en ese grupo. Opción D: el cruce duodenal incorpora restricción longitudinal y preservación pilórica, pero la clase lo mantiene entre las malabsortivas, como modificación de Scopinaro. Punto de enseñanza: el bypass gástrico es la técnica mixta por excelencia, y el criterio de la clase es dónde coloca cada técnica, no cuántos componentes tiene.",
+  "teaching_point": "El bypass gástrico es la técnica mixta: reservorio de 15-20 ml y reconstrucción en Y de Roux; Scopinaro y el cruce duodenal son malabsortivas y el sleeve, restrictivo.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 21
+  },
+  "tags": [
+   "técnicas bariátricas",
+   "clasificación",
+   "bypass gástrico"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M007",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Mujer de 36 años operada hace cuatro años mediante banda gástrica ajustable. Ha recuperado buena parte del peso perdido, refiere vómitos frecuentes, intolerancia a los sólidos y una calidad de vida claramente peor que antes de la intervención. Señale qué complicaciones propias de esta técnica deben descartarse en primer lugar.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Malnutrición proteica y diarreas con heces flatulentas."
+   },
+   {
+    "id": "B",
+    "text": "Deslizamiento del dispositivo y erosión de la pared del estómago."
+   },
+   {
+    "id": "C",
+    "text": "Insuficiencia hepática con fibrosis y nefrolitiasis."
+   },
+   {
+    "id": "D",
+    "text": "Déficit de vitamina B12 y de calcio por malabsorción."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "La banda gástrica ajustable, descrita por Kuzmak en 1986, es una técnica restrictiva pura, menos agresiva y reversible, pero que la clase asocia a menor pérdida de peso y peor calidad de vida, y cuyas complicaciones específicas son los deslizamientos y la erosión gástrica. El cuadro de la paciente, con recuperación ponderal, vómitos e intolerancia a los sólidos, encaja exactamente con ese perfil mecánico. Opción A: la malnutrición proteica, que afecta al 10 a 15 por ciento, y las diarreas con heces flatulentas, graves en el 30 por ciento, son efectos secundarios de la derivación biliopancreática de Scopinaro, técnica malabsortiva. Opción C: la insuficiencia hepática con fibrosis y la nefrolitiasis son las complicaciones que llevaron a abandonar el bypass yeyunoileal. Opción D: los déficits de vitamina B12 y de calcio aparecen como complicaciones metabólicas tardías de las técnicas que alteran la absorción, y no de un procedimiento que se limita a restringir el paso del alimento sin modificar el circuito intestinal. Punto de enseñanza: cada técnica tiene su patrón de fracaso, y en la banda es mecánico.",
+  "teaching_point": "La banda gástrica ajustable es restrictiva pura y reversible, con menos pérdida de peso, peor calidad de vida y dos complicaciones típicas: deslizamiento y erosión gástrica.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 25
+  },
+  "tags": [
+   "banda gástrica ajustable",
+   "deslizamiento",
+   "erosión gástrica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M008",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Un paciente con obesidad mórbida pregunta en consulta por las diferencias entre la derivación biliopancreática de Scopinaro y el cruce duodenal, ambas recogidas entre las técnicas malabsortivas. Señale qué modificaciones introduce el cruce duodenal sobre la técnica de Scopinaro y qué consecuencia clínica les atribuye la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Suprime el reservorio gástrico y crea un asa alimentaria corta, con más episodios de dumping."
+   },
+   {
+    "id": "B",
+    "text": "Amplía la resección gástrica y extirpa el píloro, lo que reduce la malnutrición proteica."
+   },
+   {
+    "id": "C",
+    "text": "Sustituye la restricción por una banda ajustable reversible, con menos úlceras anastomóticas."
+   },
+   {
+    "id": "D",
+    "text": "Añade restricción longitudinal y preserva el píloro, con ausencia de dumping y menos úlceras."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase presenta el cruce duodenal, descrito por Marceau en 1993, como una modificación de la técnica de Scopinaro que incorpora tres cambios: restricción longitudinal, preservación pilórica y un asa común de cien centímetros. Sus complicaciones se describen como menos graves que las de Scopinaro: ausencia de dumping, menos malnutrición proteica y menos úlceras. La preservación del píloro es precisamente lo que evita el vaciado gástrico brusco y, con él, el síndrome de dumping. Opción A: suprimir el reservorio y acortar el asa alimentaria describiría una técnica más agresiva y aumentaría el dumping, justo lo contrario de lo que aporta el cruce duodenal. Opción B: extirpar el píloro contradice el rasgo distintivo de la técnica y explicaría la aparición de dumping. Opción C: la banda ajustable es una técnica restrictiva independiente, descrita por Kuzmak, que no forma parte del cruce duodenal ni de la derivación biliopancreática. Punto de enseñanza: preservar el píloro es lo que suprime el dumping.",
+  "teaching_point": "El cruce duodenal modifica la técnica de Scopinaro con restricción longitudinal, preservación pilórica y asa común de 100 cm: ausencia de dumping, menos malnutrición proteica y menos úlceras.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 32
+  },
+  "tags": [
+   "cruce duodenal",
+   "Scopinaro",
+   "preservación pilórica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M009",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Paciente intervenida de bypass gástrico hace dos años que acude por astenia intensa, parestesias en las manos y dolores óseos difusos. Ha abandonado el seguimiento en las consultas de nutrición y endocrinología y no toma suplementos. Señale qué grupo de complicaciones de la cirugía bariátrica explica mejor este cuadro.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alteraciones metabólicas y desnutrición, con anemia y déficit de vitamina B12, calcio y vitaminas liposolubles."
+   },
+   {
+    "id": "B",
+    "text": "Complicaciones precoces de la sutura, con dehiscencia anastomótica e infección de la herida quirúrgica."
+   },
+   {
+    "id": "C",
+    "text": "Complicaciones respiratorias postoperatorias, con neumonía y embolia pulmonar de presentación diferida."
+   },
+   {
+    "id": "D",
+    "text": "Complicaciones obstructivas, con hernia interna y estenosis de la anastomosis gastroyeyunal."
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase separa las complicaciones precoces de las tardías. Entre las tardías incluye expresamente las alteraciones metabólicas y la desnutrición, con anemia, déficit de vitamina B12, déficit de calcio y déficit de las vitaminas K, A, D y E. La astenia y la anemia orientan al déficit de hierro y de vitamina B12, las parestesias al déficit de B12 y los dolores óseos al déficit de calcio y de vitamina D. El abandono del seguimiento en nutrición y endocrinología, que la clase considera imprescindible, es el factor que lo precipita. Opción B: la dehiscencia de suturas y la infección de la herida son complicaciones precoces, incompatibles con un intervalo de dos años. Opción C: la neumonía y la embolia pulmonar figuran también entre las precoces y no producen parestesias ni dolores óseos. Opción D: la hernia interna con obstrucción y la estenosis anastomótica sí son tardías, pero cursan con dolor cólico, vómitos e intolerancia, no con el cuadro carencial descrito. Punto de enseñanza: la cirugía bariátrica obliga a seguimiento de por vida.",
+  "teaching_point": "Las complicaciones tardías metabólicas del bypass gástrico incluyen anemia y déficit de B12, calcio y vitaminas K, A, D y E: el seguimiento nutricional es imprescindible.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 42
+  },
+  "tags": [
+   "complicaciones tardías",
+   "déficit vitamina B12",
+   "seguimiento"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M010",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "extrema",
+  "stem": "Un paciente operado hace décadas mediante una técnica malabsortiva pura, dominante durante veinte años, presenta diarrea crónica, desequilibrio electrolítico, nefrolitiasis con insuficiencia renal y deterioro progresivo de la función hepática. Señale de qué técnica se trata y cuál fue el motivo de su abandono.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gastroplastia vertical anillada, abandonada por conseguir menos adelgazamiento que otras técnicas."
+   },
+   {
+    "id": "B",
+    "text": "Derivación biliopancreática de Scopinaro, abandonada por su elevada malnutrición proteica."
+   },
+   {
+    "id": "C",
+    "text": "Bypass yeyunoileal, abandonado por la gravedad de sus complicaciones orgánicas pese a su eficacia ponderal."
+   },
+   {
+    "id": "D",
+    "text": "Banda gástrica ajustable, abandonada por los deslizamientos y la erosión gástrica que producía."
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La clase describe el bypass yeyunoileal como técnica malabsortiva pura, dominante durante veinte años y hoy abandonada, con buena pérdida de peso pero complicaciones graves: diarrea, desequilibrio electrolítico, insuficiencia hepática y fibrosis, nefrolitiasis e insuficiencia renal, estados febriles y erupciones cutáneas. El conjunto de síntomas del enunciado reproduce esa lista. Opción A: la gastroplastia vertical anillada es una técnica restrictiva, no malabsortiva, y la clase le atribuye menos adelgazamiento en general, pero no este perfil de fracaso orgánico. Opción B: la derivación biliopancreática de Scopinaro produce malnutrición proteica en el 10 a 15 por ciento, dumping, úlceras anastomóticas y diarreas, pero la clase no la presenta como abandonada, sino como técnica agresiva y muy eficaz que sigue empleándose. Opción D: la banda ajustable es restrictiva pura y sus complicaciones son mecánicas, sin afectación hepática ni renal. Punto de enseñanza: la malabsorción pura fracasó por toxicidad orgánica, no por falta de eficacia ponderal.",
+  "teaching_point": "El bypass yeyunoileal, malabsortivo puro, se abandonó por insuficiencia hepática con fibrosis, nefrolitiasis con insuficiencia renal y desequilibrio electrolítico, pese a su buena pérdida de peso.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "bypass yeyunoileal",
+   "técnicas abandonadas",
+   "complicaciones"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M011",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "En la consulta de obesidad se emplean medidas antropométricas complementarias al índice de masa corporal. Un varón presenta un cociente entre el diámetro de la cintura y el de la cadera de 1,15 y una circunferencia de cintura de 108 centímetros. Señale cómo se clasifica su distribución de la grasa corporal según la clase.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obesidad ginoide, porque el cociente cintura-cadera del varón supera el umbral de 0,8."
+   },
+   {
+    "id": "B",
+    "text": "Obesidad periférica, porque la circunferencia de cintura no llega a los 120 centímetros."
+   },
+   {
+    "id": "C",
+    "text": "Distribución normal, porque el umbral de cintura en el varón se sitúa en 120 centímetros."
+   },
+   {
+    "id": "D",
+    "text": "Obesidad central o androide, porque el cociente cintura-cadera del varón supera el valor 1."
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase define la obesidad central o androide por un cociente entre el diámetro de la cintura y el de la cadera superior a 1 en el hombre y superior a 0,8 en la mujer, y la obesidad periférica o ginoide por valores inferiores a esos umbrales. Añade como medida independiente la circunferencia de cintura, con umbrales de 94 centímetros en el varón y 80 centímetros en la mujer. El paciente supera ambos criterios, de modo que su distribución es central o androide. Opción A: aplica al varón el umbral de 0,8, que corresponde a la mujer, y además nombra la categoría contraria a la que describe. Opción B: un cociente de 1,15 excluye la distribución periférica, y el umbral de cintura no son 120 centímetros. Opción C: el umbral de circunferencia de cintura en el varón es de 94 centímetros, que el paciente supera con holgura. Punto de enseñanza: los umbrales del cociente cintura-cadera y de la circunferencia de cintura son distintos en varón y en mujer.",
+  "teaching_point": "Obesidad androide: cociente cintura-cadera mayor de 1 en el varón y de 0,8 en la mujer; circunferencia de cintura mayor de 94 cm en el varón y de 80 cm en la mujer.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "índice cintura-cadera",
+   "obesidad androide",
+   "antropometría"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-M012",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Al día siguiente de un bypass gástrico laparoscópico, y siguiendo el protocolo postoperatorio que describe la clase, se realiza un estudio radiológico con contraste antes de iniciar la tolerancia a líquidos. Señale qué contraste se emplea y qué complicación precoz se pretende identificar con esa exploración.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Bario, para valorar la aparición de hernias internas con obstrucción intestinal."
+   },
+   {
+    "id": "B",
+    "text": "Gastrografín, para descartar una fuga por dehiscencia de las suturas."
+   },
+   {
+    "id": "C",
+    "text": "Bario, para medir el volumen del reservorio gástrico y ajustar la pauta dietética."
+   },
+   {
+    "id": "D",
+    "text": "Gastrografín, para valorar la estenosis de la anastomosis gastroyeyunal."
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El protocolo postoperatorio de la clase establece incorporación y deambulación en las primeras veinticuatro horas, tolerancia a líquidos al día siguiente y estudio con gastrografín, con alta al cuarto o quinto día si no hay complicaciones. El gastrografín es un contraste hidrosoluble, y por eso se emplea cuando existe riesgo de fuga: entre las complicaciones precoces que enumera la clase figura la dehiscencia de las suturas, que es lo que este estudio busca descartar antes de dar líquidos. Opción A: el bario está contraindicado ante la sospecha de fuga por su efecto irritante peritoneal, y la hernia interna con obstrucción figura entre las complicaciones tardías, no entre las del primer día. Opción C: medir el volumen del reservorio no es el objetivo del estudio, que se realiza con finalidad de seguridad y no dietética. Opción D: el contraste es el correcto, pero la estenosis de la anastomosis pertenece al grupo de complicaciones tardías y no puede establecerse al día siguiente de la intervención, cuando el edema de la sutura es fisiológico. Punto de enseñanza: contraste hidrosoluble cuando se sospecha fuga.",
+  "teaching_point": "El estudio con gastrografín del primer día postoperatorio busca descartar dehiscencia de suturas antes de iniciar la tolerancia oral.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 41
+  },
+  "tags": [
+   "gastrografín",
+   "dehiscencia de sutura",
+   "postoperatorio"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T05-C001",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "El índice de masa corporal, descrito por Lambert Adolphe Jacques Quételet, es la medida de asociación entre peso y talla que se emplea para clasificar la obesidad y establecer la indicación quirúrgica. Escriba, en un máximo de veinte palabras, la fórmula exacta con la que se calcula, indicando las unidades de cada variable.",
+  "respuesta_canonica": "Peso en kilogramos dividido por la talla en metros elevada al cuadrado",
+  "aceptadas": [
+   "kg / m2",
+   "kg/m2",
+   "peso (kg) entre altura (m) al cuadrado",
+   "peso en kg dividido por el cuadrado de la altura en metros",
+   "peso corporal en kilogramos entre la talla en metros al cuadrado",
+   "peso / talla al cuadrado (kg/m2)"
+  ],
+  "conceptos_clave": [
+   "peso",
+   "kilogramos",
+   "talla",
+   "metros",
+   "cuadrado"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase presenta el índice de masa corporal o índice de Quételet como el cociente entre el peso expresado en kilogramos y el cuadrado de la altura expresada en metros. La respuesta debe recoger las tres piezas que la hacen correcta: el peso en kilogramos en el numerador, la talla en metros en el denominador y el hecho de que esa talla va elevada al cuadrado. Omitir el cuadrado o expresar la talla en centímetros invalida la respuesta, porque cambia por completo la escala de la clasificación. Conviene no confundir esta fórmula con las que la clase enumera para estimar el peso ideal, que son la fórmula de Broca, la fórmula de Lorentz y la de la Metropolitan Life Insurance, ni con las medidas de distribución de la grasa, que son el cociente cintura-cadera y la circunferencia de cintura. El índice de masa corporal es el que sostiene la clasificación de la Organización Mundial de la Salud de 1997 y la de la American Society for Bariatric Surgery.",
+  "teaching_point": "IMC = peso en kilogramos dividido por la talla en metros al cuadrado.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "IMC",
+   "Quételet"
+  ]
+ },
+ {
+  "id": "T05-C002",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "indicacion",
+  "difficulty": "basica",
+  "stem": "En la sesión del comité de obesidad se revisan los candidatos a cirugía y la primera pregunta que se plantea es quién tiene indicación quirúrgica. Enuncie, en un máximo de veinte palabras, los dos criterios de índice de masa corporal que la clase establece para indicar la cirugía de la obesidad mórbida.",
+  "respuesta_canonica": "IMC mayor de 40, o IMC mayor de 35 con al menos una comorbilidad",
+  "aceptadas": [
+   "IMC > 40 kg/m2; IMC > 35 kg/m2 más una comorbilidad",
+   "índice de masa corporal superior a 40, o superior a 35 con comorbilidad asociada",
+   "IMC mayor de 40; o mayor de 35 si hay una comorbilidad mayor",
+   "más de 40 de IMC, o más de 35 con al menos una enfermedad asociada"
+  ],
+  "conceptos_clave": [
+   "40",
+   "35",
+   "comorbilidad"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase responde a la pregunta de quién tiene indicación quirúrgica con dos umbrales: índice de masa corporal superior a 40 kilogramos por metro cuadrado, o superior a 35 acompañado de al menos una comorbilidad. La respuesta debe contener las dos cifras y la condición de comorbilidad, porque omitir el segundo criterio deja fuera a buena parte de los pacientes que se operan. Las comorbilidades mayores que enumera la clase, siguiendo el listado de la Sociedad Española de Cirugía de la Obesidad, son la hipertensión arterial, la enfermedad cardiovascular, la dislipemia, la diabetes tipo 2, el síndrome de apnea e hipoventilación, la osteoartrosis grave y la infertilidad. Cumplir el umbral no basta por sí solo: la clase añade que el paciente debe estar bien informado, tener un perfil psicológico adecuado, haber fracasado un tratamiento conservador supervisado y entender que se trata de una cirugía preventiva y no estética, dentro de un proceso multidisciplinar con seguimiento médico. NOTA: los criterios que enseña la clase son los del NIH de 1991. Las guías ASMBS/IFSO de 2022 (PMID 36336720) recomiendan cirugía metabólica con IMC superior a 35 con independencia de la comorbilidad, y la contemplan entre 30 y 34,9 con enfermedad metabólica.",
+  "teaching_point": "Indicación quirúrgica: IMC superior a 40, o superior a 35 con al menos una comorbilidad.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "IMC",
+   "comorbilidad"
+  ],
+  "discrepancia_evidencia": true
+ },
+ {
+  "id": "T05-C003",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "El objetivo de la cirugía bariátrica se formula como la pérdida de más del cincuenta por ciento del sobrepeso en más del setenta y cinco por ciento de los pacientes. Defina, en un máximo de veinte palabras, qué se entiende exactamente por sobrepeso en esa formulación y por qué no coincide con el peso total.",
+  "respuesta_canonica": "Sobrepeso es el peso real menos el peso ideal del paciente",
+  "aceptadas": [
+   "peso real - peso ideal",
+   "la diferencia entre el peso actual y el peso ideal",
+   "exceso de peso sobre el peso ideal",
+   "el peso real menos el peso ideal, no el peso total",
+   "diferencia entre peso real y peso ideal calculado"
+  ],
+  "conceptos_clave": [
+   "peso real",
+   "peso ideal"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase define el sobrepeso, en el contexto del objetivo de la cirugía, como el peso real menos el peso ideal. La distinción es importante porque el porcentaje de pérdida se calcula sobre esa diferencia y no sobre el peso corporal total: un paciente que pierde el cincuenta por ciento de su sobrepeso ha perdido una fracción mucho menor de su peso absoluto, y confundir ambas magnitudes lleva a informar mal al paciente sobre lo que puede esperar. La respuesta debe nombrar las dos magnitudes que se restan. El peso ideal, a su vez, se estima con las fórmulas que la clase enumera: la de Broca, que es la talla en centímetros menos cien; la de Lorentz, con expresiones distintas para hombres y mujeres; y la de la Metropolitan Life Insurance. Junto al criterio ponderal, la clase exige que la pérdida sea duradera y que sitúe al paciente en un índice de masa corporal en el que mejoren las comorbilidades.",
+  "teaching_point": "Sobrepeso, a efectos del objetivo quirúrgico, es peso real menos peso ideal, no el peso corporal total.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 16
+  },
+  "tags": [
+   "sobrepeso",
+   "peso ideal",
+   "objetivo quirúrgico"
+  ]
+ },
+ {
+  "id": "T05-C004",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "El cruce duodenal descrito por Marceau en 1993 es una modificación de la derivación biliopancreática de Scopinaro que consigue complicaciones menos graves, sin dumping, con menos malnutrición proteica y menos úlceras. Enumere, en un máximo de veinte palabras, las tres modificaciones técnicas concretas que introduce respecto a la técnica original.",
+  "respuesta_canonica": "Restricción longitudinal, preservación pilórica y asa común de cien centímetros",
+  "aceptadas": [
+   "gastrectomía longitudinal, conservación del píloro y asa común de 100 cm",
+   "restricción longitudinal, píloro preservado, asa común 100 cm",
+   "restricción longitudinal, preservación del píloro y asa común de cien centímetros",
+   "sleeve gástrico, píloro conservado y asa común de 100 cm"
+  ],
+  "conceptos_clave": [
+   "restricción longitudinal",
+   "preservación pilórica",
+   "asa común",
+   "100"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase enumera tres modificaciones que el cruce duodenal introduce sobre la derivación biliopancreática de Scopinaro: restricción longitudinal, preservación pilórica y asa común de cien centímetros. La respuesta debe contener las tres, porque cada una explica una parte del mejor perfil de complicaciones que se le atribuye. La preservación del píloro es la que evita el vaciado gástrico brusco y, con él, el síndrome de dumping; la restricción longitudinal añade un componente restrictivo que permite acortar menos el intestino; y el asa común de cien centímetros deja superficie absortiva suficiente para reducir la malnutrición proteica, que en la técnica de Scopinaro afecta al diez o quince por ciento de los pacientes. Conviene recordar que la clase sitúa la gastrectomía vertical como paso previo posible al cruce duodenal, y que Gagner describió el abordaje laparoscópico de esta técnica en 1998. Responder sólo preservación pilórica se considera incompleto.",
+  "teaching_point": "Cruce duodenal: restricción longitudinal, preservación pilórica y asa común de 100 cm sobre la técnica de Scopinaro.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 32
+  },
+  "tags": [
+   "cruce duodenal",
+   "Marceau",
+   "asa común"
+  ]
+ },
+ {
+  "id": "T05-L001",
+  "tema": 5,
+  "bloque": "estomago_bariatrica",
+  "formato": "larga",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Acude a consulta un varón de 41 años con un índice de masa corporal de 46 kilogramos por metro cuadrado, hipertensión arterial y síndrome de apnea del sueño, que solicita ser operado. Exponga, en un máximo de trescientas cincuenta palabras, los criterios de indicación quirúrgica, los requisitos que debe cumplir el paciente además del índice de masa corporal, los riesgos que debe conocer y los objetivos que se persiguen con la intervención.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Enuncia los dos umbrales de indicación: IMC superior a 40, o superior a 35 con al menos una comorbilidad",
+    "puntos": 0.43,
+    "claves": [
+     "40",
+     "35",
+     "comorbilidad"
+    ]
+   },
+   {
+    "elemento": "Identifica correctamente las comorbilidades mayores del paciente entre las del listado de la clase",
+    "puntos": 0.21,
+    "claves": [
+     "hipertensión",
+     "apnea",
+     "comorbilidad"
+    ]
+   },
+   {
+    "elemento": "Enumera los requisitos añadidos: buena información, perfil psicológico adecuado y fracaso del tratamiento conservador supervisado",
+    "puntos": 0.43,
+    "claves": [
+     "información",
+     "perfil psicológico",
+     "tratamiento conservador"
+    ]
+   },
+   {
+    "elemento": "Explica que se trata de cirugía preventiva y no estética, dentro de un proceso multidisciplinar con seguimiento y compromiso de cambio de hábitos",
+    "puntos": 0.43,
+    "claves": [
+     "preventiva",
+     "multidisciplinar",
+     "seguimiento"
+    ]
+   },
+   {
+    "elemento": "Cuantifica el riesgo: morbilidad del 10 al 20 %, mortalidad del 1 % y hasta el 10 % en superobesos, reintervenciones del 2 % anual",
+    "puntos": 0.43,
+    "claves": [
+     "morbilidad",
+     "mortalidad",
+     "superobesos",
+     "reintervenciones"
+    ]
+   },
+   {
+    "elemento": "Formula el objetivo ponderal: pérdida duradera de más del 50 % del sobrepeso, definido como peso real menos peso ideal, en más del 75 % de los pacientes",
+    "puntos": 0.43,
+    "claves": [
+     "50 %",
+     "sobrepeso",
+     "peso ideal",
+     "75 %"
+    ]
+   },
+   {
+    "elemento": "Añade los objetivos clínicos: mejorar o hacer desaparecer las comorbilidades, reducir el riesgo de muerte y mejorar la calidad de vida sin que las modificaciones anatómicas la deterioren",
+    "puntos": 0.43,
+    "claves": [
+     "comorbilidades",
+     "riesgo de muerte",
+     "calidad de vida"
+    ]
+   },
+   {
+    "elemento": "Señala el momento de la intervención: no es cirugía urgente, pero cuanto antes mejor",
+    "puntos": 0.21,
+    "claves": [
+     "urgente",
+     "cuanto antes"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El paciente cumple el criterio ponderal de indicación quirúrgica por partida doble: su índice de masa corporal de 46 supera el umbral de 40, y además superaría el umbral de 35 por asociar comorbilidades mayores, ya que tanto la hipertensión arterial como el síndrome de apnea e hipoventilación figuran en el listado de enfermedades que aparecen o se complican con la obesidad mórbida y que mejoran o se curan con la pérdida sustancial de peso. Cumplir el umbral, sin embargo, no basta. La clase exige que el paciente reciba una buena información, que tenga un perfil psicológico adecuado, que haya fracasado un tratamiento conservador supervisado y que entienda que se trata de una cirugía preventiva, dirigida a disminuir la aparición de comorbilidades, aumentar la expectativa de supervivencia y mejorar la calidad de vida. Hay que dejar claro que no existen operaciones mágicas: el tratamiento es un proceso multidisciplinar que no se resuelve sólo con la cirugía, exige seguimiento médico y compromiso para cambiar hábitos, y no es cirugía estética. En cuanto al momento, no se trata de una intervención urgente, pero cuanto antes se realice, mejor. El paciente debe conocer el riesgo real del procedimiento: una morbilidad del diez al veinte por ciento, una mortalidad en torno al uno por ciento, que en los superobesos puede llegar al diez por ciento, y una tasa de reintervenciones del dos por ciento anual. Los objetivos se formulan en dos planos. En el ponderal, se busca una pérdida superior al 50 % del sobrepeso, entendido como peso real menos peso ideal, en más del 75 % de los pacientes, y que esa pérdida sea duradera. En el clínico, se busca situar al paciente en un índice de masa corporal en el que desaparezcan o mejoren las enfermedades asociadas, reducir el riesgo de muerte por el sobrepeso y mejorar la calidad de vida, con la condición añadida de que las modificaciones anatómicas derivadas de la técnica no la deterioren. El seguimiento posterior se realiza en consultas de nutrición, endocrinología y cirugía.",
+  "explanation": "La pregunta evalúa si el alumno sabe convertir un umbral numérico en una indicación clínica completa, que es la diferencia entre recitar la diapositiva y saber informar a un paciente. La rúbrica reparte los puntos en cuatro bloques. El primero comprueba los dos umbrales de índice de masa corporal y la identificación de las comorbilidades mayores presentes en el caso. El segundo, que es donde más se falla, comprueba los requisitos no ponderales: información, perfil psicológico, fracaso del tratamiento conservador supervisado y comprensión de que la intervención es preventiva y no estética, dentro de un proceso multidisciplinar. El tercero exige las cifras concretas de riesgo, con la distinción entre la mortalidad global y la del superobeso, porque son las que sostienen un consentimiento informado veraz. El cuarto separa el objetivo ponderal, medido sobre el sobrepeso y no sobre el peso total, de los objetivos clínicos de mejoría de comorbilidades, reducción de mortalidad y calidad de vida. Se penaliza atribuir cifras de pérdida de peso o de mortalidad distintas de las expuestas en la clase, y se valora que el alumno mencione el seguimiento posterior en nutrición, endocrinología y cirugía.",
+  "teaching_point": "La indicación de cirugía bariátrica no termina en el índice de masa corporal: requiere información, perfil psicológico, fracaso del tratamiento conservador y compromiso con un seguimiento de por vida.",
+  "guideline_ref": "Cirugía AEC 2022, sección de cirugía de la obesidad",
+  "fuente_clase": {
+   "archivo": "5 Obesidad.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "indicación quirúrgica",
+   "consentimiento informado",
+   "objetivos",
+   "riesgo quirúrgico"
+  ]
+ }
+]

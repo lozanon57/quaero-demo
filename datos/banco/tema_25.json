@@ -1,0 +1,736 @@
+[
+ {
+  "id": "T25-M001",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 62 años con enfermedad de Crohn de veinte años de evolución consulta por dolor cólico periumbilical y varios episodios de suboclusión. La enterografía por TC muestra una lesión estenosante circunferencial de cuatro centímetros en yeyuno, con dilatación preestenótica y colapso distal, sin masa mesentérica ni hepatopatía. ¿Qué estirpe histológica es más probable?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Adenocarcinoma de intestino delgado"
+   },
+   {
+    "id": "B",
+    "text": "Tumor neuroendocrino bien diferenciado"
+   },
+   {
+    "id": "C",
+    "text": "Tumor del estroma gastrointestinal (GIST)"
+   },
+   {
+    "id": "D",
+    "text": "Linfoma no Hodgkin de intestino delgado"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La enfermedad de Crohn figura entre las patologías previas que aumentan la incidencia de adenocarcinoma de intestino delgado, junto con la celiaquía, el ulcus péptico, la fibrosis quística, la derivación biliar y los síndromes de Peutz-Jeghers, poliposis juvenil, poliposis adenomatosa familiar y Lynch. El adenocarcinoma supone el 40 % de los tumores malignos del intestino delgado y predomina en el intestino proximal, con un crecimiento anular que explica la clínica suboclusiva y el patrón de dilatación preestenótica con colapso distal descrito en la TC. Opción A: correcta, reúne localización proximal, morfología estenosante circunferencial y antecedente de Crohn. Opción B: los tumores neuroendocrinos predominan en el intestino distal, se presentan como nódulos submucosos blanquecinos y se acompañan de masas linfáticas con reacción desmoplásica mesentérica, que aquí está ausente. Opción C: el GIST nace en el seno de la muscular propia y suele crecer de forma extraluminal, debutando con hemorragia, masa o obstrucción por compresión, no con un anillo estenosante mucoso. Opción D: el linfoma asienta preferentemente en el íleon, se diagnostica con lesiones grandes de más de cinco centímetros y muestra infiltración difusa de la pared, no una estenosis corta yeyunal. Punto de enseñanza: ante una estenosis anular de yeyuno en un paciente con Crohn de larga evolución, el adenocarcinoma es la primera sospecha.",
+  "teaching_point": "El adenocarcinoma es el tumor maligno más frecuente del intestino delgado, predomina en el intestino proximal y la enfermedad de Crohn es uno de sus factores de riesgo.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — sección de intestino delgado",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 6
+  },
+  "tags": [
+   "adenocarcinoma",
+   "crohn",
+   "intestino delgado",
+   "suboclusion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M002",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Durante una sesión clínica se revisa la distribución histológica de las neoplasias malignas del intestino delgado atendidas en el servicio, que representan alrededor del dos por ciento de los tumores del tubo digestivo. El ponente pregunta por la estirpe maligna más frecuente y por su localización preferente dentro del intestino delgado. ¿Qué combinación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tumor neuroendocrino, con predominio en el duodeno"
+   },
+   {
+    "id": "B",
+    "text": "Adenocarcinoma, con predominio en la porción proximal"
+   },
+   {
+    "id": "C",
+    "text": "Linfoma, con predominio en el yeyuno proximal"
+   },
+   {
+    "id": "D",
+    "text": "GIST, con predominio en el duodeno y el yeyuno proximal"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Las neoplasias del intestino delgado suponen aproximadamente el 2 % de las del tubo digestivo, con incidencia máxima entre los 55 y los 60 años y sin diferencias entre sexos. Entre las malignas, el adenocarcinoma es la estirpe más frecuente, con un 40 % de los casos y predominio en el intestino proximal; los tumores neuroendocrinos, los GIST y los linfomas se reparten aproximadamente el 20 % cada uno. Opción B: correcta, combina la estirpe más frecuente con su localización proximal característica. Opción A: los tumores neuroendocrinos suponen el 20 % y predominan en el intestino distal, no en el duodeno; los del intestino anterior incluyen pulmón, timo, estómago y duodeno proximal, pero son la minoría. Opción C: el linfoma alcanza el 20 % y asienta preferentemente en el íleon, donde hay más tejido linfático en las placas de Peyer. Opción D: el GIST también representa el 20 % de los tumores del intestino delgado, pero es más frecuente en yeyuno e íleon. Punto de enseñanza: adenocarcinoma proximal, neuroendocrino distal, linfoma ileal y GIST yeyuno-ileal es el mapa que hay que memorizar.",
+  "teaching_point": "Adenocarcinoma 40 % y proximal; NET, GIST y linfoma alrededor del 20 % cada uno, con el linfoma y el NET desplazados hacia el intestino distal.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — sección de intestino delgado",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 2
+  },
+  "tags": [
+   "epidemiologia",
+   "adenocarcinoma",
+   "GIST",
+   "linfoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M003",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Niña de catorce años consulta por dolor abdominal cólico recurrente y una deposición melénica. En la exploración destacan máculas pigmentadas en labios, mucosa yugal y pulpejos de los dedos. La ecografía muestra una imagen en diana en íleon compatible con invaginación. Su madre fue intervenida de pólipos de intestino delgado. ¿Qué gen está mutado?",
+  "options": [
+   {
+    "id": "A",
+    "text": "SMAD4, gen supresor mutado en la poliposis juvenil"
+   },
+   {
+    "id": "B",
+    "text": "APC, gen supresor situado en el cromosoma 5"
+   },
+   {
+    "id": "C",
+    "text": "STK11/LKB1, gen supresor situado en el cromosoma 19"
+   },
+   {
+    "id": "D",
+    "text": "MLH1, gen reparador de errores de replicación del ADN"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La combinación de pólipos de intestino delgado que sangran o provocan invaginación y de lesiones pigmentadas periorales, en mucosa bucal, perianales, antebrazos, palmas y plantas, con herencia autosómica dominante, define el síndrome de Peutz-Jeghers. La mutación en línea germinal asienta en el cromosoma 19, en el gen supresor STK11/LKB1 (serina/treonina cinasa 11). Los pólipos son fundamentalmente hamartomas, con adenomas asociados, sobre todo en yeyuno e íleon, y aumentan el riesgo de cáncer en todo el tracto gastrointestinal y de tumores extraintestinales de mama, ovario y trompa, cérvix, tiroides, pulmón y testículo. Opción C: correcta, es el gen y el cromosoma del síndrome de Peutz-Jeghers. Opción B: APC en 5q21 corresponde a la poliposis adenomatosa familiar, que cursa con más de cien adenomas colorrectales y sin máculas mucocutáneas. Opción A: SMAD4 se altera en la mitad de los casos de poliposis juvenil, cuyos hamartomas son dilataciones glandulares quísticas y que no asocia pigmentación perioral. Opción D: MLH1 pertenece al sistema de reparación de errores del síndrome de Lynch, un síndrome no polipósico. Punto de enseñanza: máculas periorales más invaginación en la adolescencia igual a Peutz-Jeghers y STK11.",
+  "teaching_point": "Peutz-Jeghers: autosómico dominante, STK11/LKB1 en el cromosoma 19, hamartomas gastrointestinales y máculas mucocutáneas.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — síndromes polipósicos hereditarios",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 11
+  },
+  "tags": [
+   "peutz-jeghers",
+   "STK11",
+   "invaginacion",
+   "hamartoma"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M004",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "concepto",
+  "difficulty": "extrema",
+  "stem": "Mujer de cuarenta y ocho años acude tras el diagnóstico de su hermano, de cincuenta y dos años, con múltiples adenomas colónicos. En su colonoscopia se objetivan menos de cien adenomas, de aparición mucho más tardía que la habitual en la poliposis clásica, y ni sus padres ni sus abuelos, todos fallecidos a edad avanzada, tuvieron pólipos ni cáncer colorrectal. ¿Qué base genética explica mejor este patrón familiar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mutación germinal de APC en 5q21, de herencia autosómica dominante"
+   },
+   {
+    "id": "B",
+    "text": "Mutación germinal de STK11/LKB1 en el cromosoma 19, autosómica dominante"
+   },
+   {
+    "id": "C",
+    "text": "Mutación germinal de los genes reparadores MMR, con inestabilidad de microsatélites"
+   },
+   {
+    "id": "D",
+    "text": "Mutación de MYH, autosómica recesiva, que altera el APC somático"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clase separa dos formas de poliposis adenomatosa familiar. La forma clásica se debe a una mutación en línea germinal del gen APC, en el cromosoma 5 (5q21), es autosómica dominante y produce más de cien pólipos adenomatosos en colon y recto en niños y adolescentes, con una edad media de detección de veintinueve años; el 30 % son mutaciones de novo, que carecen de historia familiar pero tampoco afectan a los hermanos. La segunda forma se debe a la mutación del gen MYH, es autosómica recesiva y promueve alteraciones del APC somático, y da lugar a una poliposis atenuada, con menos pólipos y más tardíos. Ese es exactamente el patrón del caso: fenotipo atenuado, presentación tardía, un hermano afectado y ninguna generación previa afectada, es decir, una transmisión horizontal propia de la herencia recesiva. Opción D: correcta, reúne el gen, el patrón recesivo y el mecanismo sobre el APC somático. Opción A: la mutación germinal de APC es dominante y habría afectado a alguno de los ascendientes, además de producir más de cien pólipos y de forma precoz. Opción B: STK11/LKB1 corresponde al síndrome de Peutz-Jeghers, cuyos pólipos son hamartomas y que asocia lesiones pigmentadas periorales y mucocutáneas, ausentes aquí. Opción C: los genes reparadores MMR definen el síndrome de Lynch, que es autosómico dominante y, sobre todo, un síndrome no polipósico. Punto de enseñanza: pocos pólipos, tarde, con hermanos afectados y padres sanos apunta a MYH, no a APC.",
+  "teaching_point": "Poliposis atenuada por MYH: autosómica recesiva, altera el APC somático y da menos pólipos y más tardíos que la FAP clásica por mutación germinal de APC.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — síndromes polipósicos hereditarios",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 12
+  },
+  "tags": [
+   "FAP",
+   "MYH",
+   "APC",
+   "herencia recesiva"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M005",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "indicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de treinta y un años con poliposis adenomatosa familiar confirmada presenta más de cien adenomas colónicos y numerosos pólipos en el recto, algunos con displasia de alto grado. Está asintomática y quiere minimizar el riesgo de cáncer en el remanente rectal. ¿Qué actuación quirúrgica procede según lo expuesto en clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Coloproctectomía total con anastomosis ileoanal"
+   },
+   {
+    "id": "B",
+    "text": "Colectomía total con anastomosis ileorrectal"
+   },
+   {
+    "id": "C",
+    "text": "Polipectomía endoscópica seriada con vigilancia semestral"
+   },
+   {
+    "id": "D",
+    "text": "Sigmoidectomía ampliada con anastomosis colorrectal baja"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "En la poliposis adenomatosa familiar la elección entre conservar o extirpar el recto depende de la carga polipoidea rectal y del riesgo estimado de cáncer de recto, que a su vez se relaciona con la localización de la mutación de APC. La clase resume que la colectomía total con anastomosis ileorrectal se reserva para las mutaciones anteriores al codón 1250, mientras que se indica coloproctectomía total con anastomosis ileoanal cuando hay muchos pólipos en el recto o el riesgo de cáncer rectal es elevado, situación en la que se sitúan las mutaciones entre los codones 1250 y 1464. Opción A: correcta, extirpa colon y recto y restablece el tránsito con una anastomosis ileoanal. Opción B: dejaría un recto tapizado de adenomas con displasia de alto grado, es decir, el órgano de mayor riesgo. Opción C: la vigilancia endoscópica no es alternativa a la cirugía en una FAP con displasia de alto grado; solo tiene sentido para lesiones premalignas duodenales y en el seguimiento. Opción D: una resección segmentaria deja intacta la mayor parte del colon poliposo. Punto de enseñanza: recto muy poliposo en FAP significa proctectomía, no anastomosis ileorrectal.",
+  "teaching_point": "Recto respetado o con pocos pólipos: colectomía con anastomosis ileorrectal; recto muy poliposo o alto riesgo: coloproctectomía con anastomosis ileoanal.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — cirugía de la poliposis adenomatosa familiar",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 13
+  },
+  "tags": [
+   "FAP",
+   "IPAA",
+   "colectomia",
+   "indicacion quirurgica"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M006",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de sesenta y cuatro años refiere crisis de enrojecimiento facial y cervical, broncoespasmo y diarrea acuosa. Se ausculta un soplo de estenosis tricuspídea y se palpa hepatomegalia. La resonancia abdominal muestra múltiples lesiones hepáticas hiperintensas en T2 y una masa mesentérica. ¿Qué explica mejor la aparición de estos síntomas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El primario ileal vierte serotonina sin paso metabólico hepático"
+   },
+   {
+    "id": "B",
+    "text": "Las metástasis del hígado vierten aminas vasoactivas eludiendo el metabolismo portal"
+   },
+   {
+    "id": "C",
+    "text": "La reacción desmoplásica mesentérica libera histamina al peritoneo libre"
+   },
+   {
+    "id": "D",
+    "text": "La obstrucción incompleta genera sobrecrecimiento bacteriano productor de serotonina"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "El síndrome carcinoide solo aparece cuando las sustancias vasoactivas segregadas por el tumor neuroendocrino escapan al metabolismo hepático de primer paso. Esto exige metástasis hepáticas o enfermedad extraabdominal (ovario, bronquio, retroperitoneo) que evite la circulación portal; por eso el 90 % de los tumores neuroendocrinos son asintomáticos. El cuadro clínico incluye enrojecimiento cutáneo de cara, cuello y tórax, con lagrimeo e ingurgitación conjuntival, broncoespasmo, diarrea acuosa, vasodilatación con hipotensión, hepatomegalia y lesión valvular del corazón derecho, con estenosis tricuspídea y pulmonar por fibrosis. Opción B: correcta, es el mecanismo fisiopatológico que la clase subraya. Opción A: es falsa de raíz, porque todo lo que segrega un primario intestinal drena por el sistema porta y atraviesa el hígado, que metaboliza las aminas; un primario aislado no produce síndrome carcinoide. Opción C: la reacción desmoplásica mesentérica explica los acodamientos y la obstrucción, no la clínica vasoactiva. Opción D: el sobrecrecimiento bacteriano puede dar diarrea, pero no flushing, broncoespasmo ni valvulopatía derecha. Punto de enseñanza: sin metástasis hepáticas no hay síndrome carcinoide.",
+  "teaching_point": "El síndrome carcinoide exige metástasis hepáticas o enfermedad extraabdominal que evite el metabolismo hepático de primer paso.",
+  "guideline_ref": "Sabiston, Textbook of Surgery, 22.ª ed. (2025) — tumores neuroendocrinos gastrointestinales",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 19
+  },
+  "tags": [
+   "sindrome carcinoide",
+   "NET",
+   "metastasis hepaticas",
+   "serotonina"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M007",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "imagen_ap",
+  "difficulty": "intermedia",
+  "stem": "Varón de sesenta y un años presenta en la TC una masa mesentérico-intestinal hipervascular y, en la resonancia, varias lesiones hepáticas hiperintensas en T2. Se sospecha un tumor neuroendocrino de intestino medio y se plantea una exploración funcional de cuerpo entero que permita localizar el primario y detectar depósitos que las pruebas morfológicas no muestran. ¿Qué exploración procede según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Enterografía por resonancia magnética, que define la pared y el mesenterio"
+   },
+   {
+    "id": "B",
+    "text": "PET-TC con 18F-fluorodesoxiglucosa, que mide el consumo tumoral de glucosa"
+   },
+   {
+    "id": "C",
+    "text": "PET-TC con Ga68-DOTATATE, análogo marcado de somatostatina"
+   },
+   {
+    "id": "D",
+    "text": "Cápsula endoscópica, que inspecciona la mucosa de todo el intestino delgado"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "La propiedad biológica que se explota para el diagnóstico funcional del tumor neuroendocrino es la sobreexpresión de receptores de somatostatina. La clase menciona dos pruebas basadas en ese principio: el Octreoscan, con octreótido marcado con indio 111, y el PET-TC con análogo de somatostatina Ga68-DOTATATE, con una sensibilidad del 91 % y una especificidad en torno al 91 %. El estudio analítico se completa con cromogranina A, que apoya el diagnóstico de tumor neuroendocrino pero no el de síndrome carcinoide y puede elevarse con inhibidores de la bomba de protones y en la enfermedad renal y hepática, y con el 5-HIAA en orina de 24 horas. Opción C: correcta, es la única prueba de la lista que traza los receptores de somatostatina y cubre el cuerpo entero en un solo estudio. Opción A: la enterografía por resonancia es una prueba morfológica excelente, con sensibilidad y especificidad del 97 %, pero no informa del comportamiento biológico ni explora el resto del organismo. Opción B: el PET con fluorodesoxiglucosa mide consumo de glucosa y rinde en lesiones poco diferenciadas y de alto grado, no en un tumor neuroendocrino bien diferenciado de crecimiento lento. Opción D: la cápsula visualiza la mucosa, pero el tumor neuroendocrino es un nódulo submucoso y la cápsula no detecta las metástasis. Punto de enseñanza: receptores de somatostatina significan Octreoscan o Ga68-DOTATATE.",
+  "teaching_point": "El diagnóstico funcional del NET se apoya en los receptores de somatostatina: Octreoscan y PET-TC con Ga68-DOTATATE.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) — neoplasias neuroendocrinas",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 18
+  },
+  "tags": [
+   "NET",
+   "DOTATATE",
+   "octreoscan",
+   "cromogranina A"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M008",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "El informe anatomopatológico de una masa ileal describe una neoplasia neuroendocrina bien diferenciada, con arquitectura organoide conservada, pero con un índice proliferativo elevado que la sitúa en el grado más alto. El clínico duda entre encuadrarla como carcinoma neuroendocrino o como tumor neuroendocrino y consulta la clasificación de la Organización Mundial de la Salud de 2019. ¿Cómo debe clasificarse?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Carcinoma neuroendocrino, categoría que define el alto grado al margen de la diferenciación"
+   },
+   {
+    "id": "B",
+    "text": "Tumor neuroendocrino G1, ya que la buena diferenciación excluye el alto grado"
+   },
+   {
+    "id": "C",
+    "text": "Tumor neuroendocrino G2, porque el alto grado queda reservado a los carcinomas"
+   },
+   {
+    "id": "D",
+    "text": "Tumor neuroendocrino G3, porque la categoría la fija la diferenciación y el grado se asigna dentro de ella"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "La clasificación de la Organización Mundial de la Salud de 2019 divide las neoplasias neuroendocrinas en dos categorías según la diferenciación, y solo después gradúa dentro de una de ellas: los tumores neuroendocrinos bien diferenciados, que se gradúan en G1 de bajo grado, G2 de grado moderado y G3 de alto grado, y los carcinomas neuroendocrinos pobremente diferenciados, que son los más agresivos, responden a la quimioterapia con platinos y tienen peor pronóstico. Un tumor bien diferenciado con índice proliferativo alto no cambia de categoría por ser de alto grado: es un tumor neuroendocrino G3, y no un carcinoma neuroendocrino, distinción que cambia el tratamiento sistémico. Opción D: correcta, respeta el orden de la clasificación, primero diferenciación y después grado. Opción A: invierte ese orden y convertiría en carcinoma a cualquier tumor bien diferenciado que proliferara mucho, que es precisamente el error que la clasificación de 2019 vino a corregir. Opción B: la buena diferenciación no excluye el alto grado, porque el G3 existe precisamente dentro de los tumores bien diferenciados. Opción C: forzar el G2 para no llamar G3 a un tumor bien diferenciado desvirtúa el índice proliferativo del informe. Punto de enseñanza: bien diferenciado se gradúa G1-G3; pobremente diferenciado es carcinoma neuroendocrino.",
+  "teaching_point": "OMS 2019: la categoría la fija la diferenciación (NET frente a NEC) y el grado se asigna dentro de los bien diferenciados, de modo que existe el NET G3, distinto del NEC.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) — neoplasias neuroendocrinas",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 17
+  },
+  "tags": [
+   "OMS 2019",
+   "NEC",
+   "NET",
+   "clasificacion"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M009",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "estadificacion",
+  "difficulty": "extrema",
+  "stem": "Se comparan dos tumores neuroendocrinos bien diferenciados extirpados el mismo día: uno apendicular hallado de forma incidental en una apendicectomía y otro ileal asociado a una masa linfática mesentérica con reacción desmoplásica. En la sesión se discute su capacidad metastásica según la localización, tal y como la recoge la clasificación de la Organización Mundial de la Salud. ¿Qué afirmación es correcta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "El ileal supera el treinta y cinco por ciento, muy por encima del apendicular"
+   },
+   {
+    "id": "B",
+    "text": "El apendicular supera el treinta y cinco por ciento, muy por encima del ileal"
+   },
+   {
+    "id": "C",
+    "text": "Ambos se mantienen por debajo del tres por ciento por estar bien diferenciados"
+   },
+   {
+    "id": "D",
+    "text": "La localización no modifica el riesgo, que depende del grado histológico"
+   }
+  ],
+  "correct_answer": "A",
+  "explanation": "La clase recoge que la capacidad de metastatizar de los tumores neuroendocrinos se relaciona con el tamaño tumoral y con la localización, y da las dos cifras extremas: los apendiculares metastatizan en menos del 3 % de los casos y los ileales por encima del 35 %. Las metástasis son hepáticas en el 60 %, linfáticas en el 40 % y peritoneales en el 20 %. Biológicamente son nódulos submucosos blanquecinos, cubiertos por mucosa indemne o ulcerada, asociados a masas linfáticas y a reacción desmoplásica mesentérica, de crecimiento lento, que acaban obstruyendo la luz o produciendo acodamientos. Opción A: correcta, es la relación descrita en la clase entre las dos localizaciones comparadas. Opción B: invierte exactamente esa relación; el apéndice es la localización de comportamiento más benigno de la serie. Opción C: la cifra por debajo del 3 % corresponde solo al apéndice, y ambos tumores del caso están bien diferenciados, luego la diferenciación no explica la diferencia. Opción D: el grado histológico importa, pero la clase reconoce expresamente la localización y el tamaño como determinantes de la capacidad metastásica. Punto de enseñanza: un tumor neuroendocrino apendicular incidental y uno ileal no son la misma enfermedad en riesgo metastásico.",
+  "teaching_point": "Capacidad metastásica del NET por localización: apéndice por debajo del 3 %, íleon por encima del 35 %.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) — neoplasias neuroendocrinas",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 20
+  },
+  "tags": [
+   "NET",
+   "metastasis",
+   "apendice",
+   "ileon"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M010",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de cincuenta y siete años presenta melenas y una masa de seis centímetros dependiente del yeyuno, de crecimiento predominantemente extraluminal y sin adenopatías regionales. La biopsia muestra células fusiformes. Se solicita inmunohistoquímica para confirmar la sospecha diagnóstica. ¿Qué marcador y qué célula de origen corresponden a esta neoplasia?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cromogranina A, derivado de las células de Kulchitsky"
+   },
+   {
+    "id": "B",
+    "text": "CD-117, derivado de las células intersticiales de Cajal"
+   },
+   {
+    "id": "C",
+    "text": "CDX2, derivado del epitelio glandular de las criptas"
+   },
+   {
+    "id": "D",
+    "text": "CD-20, derivado del tejido linfoide de las placas de Peyer"
+   }
+  ],
+  "correct_answer": "B",
+  "explanation": "Los tumores del estroma gastrointestinal derivan de las células intersticiales de Cajal, los marcapasos intestinales de origen mesodérmico. A nivel molecular expresan receptores tirosina cinasa específicos codificados por los oncogenes KIT y PDGFRA: el 85 % tiene mutación de c-KIT, entre el 5 y el 8 % de PDGFRA y entre el 10 y el 15 % son wild type. El marcador inmunohistoquímico del c-KIT es el CD-117, que reconoce su epítopo extracelular. Microscópicamente el 70 % son de células fusiformes, el 20 % epitelioides y el 10 % mixtos, y nacen en el seno de la muscular propia, por lo que suelen ser extraluminales, con diseminación local y hematógena y con diseminación linfática rara. Opción B: correcta, une el marcador y la célula de origen. Opción A: la cromogranina A y las células de Kulchitsky o argentafines corresponden a los tumores neuroendocrinos. Opción C: CDX2 es un marcador de diferenciación intestinal epitelial, expresado también por los NET, pero no define un GIST. Opción D: CD-20 es un marcador de estirpe linfoide B, propio del linfoma ileal. Punto de enseñanza: masa extraluminal fusocelular sin adenopatías es GIST, y se confirma con CD-117.",
+  "teaching_point": "GIST: origen en las células intersticiales de Cajal, CD-117 positivo, mutación de c-KIT en el 85 % y diseminación linfática rara.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023) — tumores del estroma gastrointestinal",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 23
+  },
+  "tags": [
+   "GIST",
+   "CD117",
+   "cajal",
+   "c-KIT"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M011",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "complicacion",
+  "difficulty": "intermedia",
+  "stem": "Mujer de sesenta y tres años en estudio por anorexia, pérdida de peso y dolor abdominal presenta una masa ileal de siete centímetros con infiltración difusa de la pared. Inicia tratamiento y a las cuarenta y ocho horas sufre dolor brusco con defensa generalizada y neumoperitoneo. ¿Qué complicación y qué estirpe explican mejor el cuadro?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perforación de un GIST yeyunal, que rompe su cápsula al crecer hacia fuera"
+   },
+   {
+    "id": "B",
+    "text": "Perforación de un tumor neuroendocrino ileal, por su reacción desmoplásica"
+   },
+   {
+    "id": "C",
+    "text": "Perforación de un linfoma ileal, descrita en la cuarta parte de los casos"
+   },
+   {
+    "id": "D",
+    "text": "Perforación de un adenocarcinoma ileal, sobre el asa dilatada preestenótica"
+   }
+  ],
+  "correct_answer": "C",
+  "explanation": "Los linfomas suponen el 20 % de los tumores malignos del intestino delgado y asientan preferentemente en el íleon, donde hay más tejido linfático en las placas de Peyer; son más frecuentes en celíacos e inmunodeprimidos. Macroscópicamente se diagnostican grandes, por encima de cinco centímetros, y se extienden por la submucosa; microscópicamente muestran infiltración difusa de la pared intestinal. Clínicamente cursan con anorexia, pérdida de peso, obstrucción intestinal y dolor abdominal, y la perforación aparece en el 25 % de los casos, riesgo que se hace especialmente relevante al iniciar la quimioterapia, que es el tratamiento de base; la cirugía se reserva para la clínica digestiva. Opción C: correcta, la estirpe, la localización, la infiltración difusa y la frecuencia de la perforación encajan con el caso. Opción A: el GIST nace en la muscular propia y crece de forma extraluminal como masa bien delimitada, no como infiltración difusa de la pared. Opción B: la reacción desmoplásica del tumor neuroendocrino explica los acodamientos y la obstrucción, pero la perforación no es su complicación característica. Opción D: el adenocarcinoma predomina en el intestino proximal y perfora sobre una estenosis anular, cuadro que exige obstrucción establecida y que no corresponde a una masa ileal infiltrante. Punto de enseñanza: linfoma ileal más neumoperitoneo al iniciar la quimioterapia es la asociación que hay que reconocer.",
+  "teaching_point": "El linfoma de intestino delgado se perfora en el 25 % de los casos; su tratamiento base es la quimioterapia y la cirugía se reserva para la complicación.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — linfomas del tubo digestivo",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 26
+  },
+  "tags": [
+   "linfoma",
+   "perforacion",
+   "ileon",
+   "neumoperitoneo"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-M012",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "test",
+  "categoria": "caso_clinico",
+  "difficulty": "basica",
+  "stem": "Varón de sesenta y ocho años es diagnosticado de un adenocarcinoma de íleon terminal a diez centímetros de la válvula ileocecal, sin metástasis a distancia en la TC. Se programa cirugía con intención curativa y con una estadificación ganglionar adecuada. ¿Qué intervención procede según lo expuesto en la clase?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resección endoscópica de la lesión y vigilancia con cápsula endoscópica"
+   },
+   {
+    "id": "B",
+    "text": "Resección segmentaria de íleon con linfadenectomía limitada al meso adyacente"
+   },
+   {
+    "id": "C",
+    "text": "Duodenopancreatectomía cefálica con linfadenectomía regional reglada"
+   },
+   {
+    "id": "D",
+    "text": "Hemicolectomía derecha con ligadura en el origen de los vasos ileocólicos"
+   }
+  ],
+  "correct_answer": "D",
+  "explanation": "El tratamiento del adenocarcinoma de intestino delgado es la resección completa del tumor junto con los ganglios linfáticos locorregionales, con un mínimo de ocho ganglios analizados. La extensión de la resección depende de la localización: en el duodeno, duodenopancreatectomía cefálica con linfadenectomía regional; en el yeyuno, resección segmentaria con el área de mesenterio correspondiente; y en el íleon terminal, hemicolectomía derecha con ligadura en el origen de los vasos ileocólicos, porque ese es el territorio de drenaje linfático de la región ileocecal. Opción D: correcta, es la intervención que asegura el vaciamiento del territorio ileocólico. Opción B: una resección segmentaria con linfadenectomía limitada dejaría sin extirpar el pedículo ileocólico y comprometería la estadificación ganglionar. Opción C: la duodenopancreatectomía cefálica corresponde a los tumores duodenales y periampulares, no al íleon terminal. Opción A: la resección endoscópica se reserva para lesiones duodenales y para la vigilancia y resección de lesiones premalignas, no para un adenocarcinoma invasor. Punto de enseñanza: en el íleon terminal, la linfadenectomía oncológica obliga a hemicolectomía derecha.",
+  "teaching_point": "Adenocarcinoma de íleon terminal: hemicolectomía derecha con ligadura en el origen de los vasos ileocólicos y al menos ocho ganglios.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — cirugía oncológica del intestino delgado",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 7
+  },
+  "tags": [
+   "adenocarcinoma",
+   "hemicolectomia derecha",
+   "linfadenectomia",
+   "ileon terminal"
+  ],
+  "tiempo_objetivo_s": 45
+ },
+ {
+  "id": "T25-C001",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "En la clase se distingue el adenoma del hamartoma por su patrón de crecimiento y por su potencial de transformación maligna. Defina, en un máximo de veinte palabras y con los términos empleados por el profesor, qué es un hamartoma del tubo digestivo.",
+  "respuesta_canonica": "Crecimiento desorganizado de células normales del órgano, con dilataciones quísticas; tumor benigno que puede malignizar",
+  "aceptadas": [
+   "proliferación de células normales del órgano que crecen desorganizadamente formando dilataciones quísticas; es benigno",
+   "malformación benigna por crecimiento desorganizado de células normales del órgano con dilataciones quísticas",
+   "tumor benigno formado por células normales del órgano dispuestas de forma desorganizada, con posible transformación maligna"
+  ],
+  "conceptos_clave": [
+   "células normales",
+   "desorganiz",
+   "benign"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clase define el pólipo como una masa que se proyecta hacia la luz intestinal sobre la superficie del epitelio, y separa dos naturalezas. El adenoma es un tumor epitelial benigno de estructura similar al epitelio del que se origina y puede sufrir transformación maligna a través de una displasia progresiva. El hamartoma, en cambio, es un crecimiento de células normales del propio órgano que crecen de forma desorganizada, haciendo dilataciones quísticas; se consideran malformaciones y son tumores benignos, aunque también pueden malignizar. Esta distinción es la que sostiene el resto del tema: los pólipos del síndrome de Peutz-Jeghers y los de la poliposis juvenil son fundamentalmente hamartomas, mientras que los de la poliposis adenomatosa familiar son adenomas. Para dar la respuesta por buena deben aparecer la idea de células normales del órgano, el crecimiento desorganizado y el carácter benigno. Punto de enseñanza: hamartoma no equivale a inofensivo, porque también puede transformarse.",
+  "teaching_point": "El hamartoma es una malformación benigna por crecimiento desorganizado de células normales del órgano, con dilataciones quísticas, y también puede malignizar.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) — lesiones polipoides",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 10
+  },
+  "tags": [
+   "hamartoma",
+   "adenoma",
+   "polipo"
+  ]
+ },
+ {
+  "id": "T25-C002",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "basica",
+  "stem": "Un paciente con hamartomas de dilatación glandular quística en colon, intestino delgado y estómago, hemorragia digestiva e hipoalbuminemia por pérdida proteica es diagnosticado de síndrome de poliposis juvenil. Indique, en un máximo de veinte palabras, qué gen supresor está mutado en la mitad de los casos.",
+  "respuesta_canonica": "El gen supresor SMAD4",
+  "aceptadas": [
+   "SMAD4",
+   "mutación del gen supresor SMAD4",
+   "gen SMAD4 (presente en la mitad de los casos)"
+  ],
+  "conceptos_clave": [
+   "SMAD4"
+  ],
+  "max_palabras": 20,
+  "explanation": "El síndrome de poliposis juvenil es autosómico dominante y la mutación del gen supresor SMAD4 está presente en la mitad de los casos. Los pólipos son hamartomas constituidos por dilataciones glandulares quísticas dentro de un estroma fibroblástico de la lámina propia, junto con adenomas, y asientan fundamentalmente en el colon, aunque también en intestino delgado y estómago. Clínicamente producen hemorragia, invaginación e hipoalbuminemia por pérdida proteica intestinal, y aumenta la incidencia de cáncer gastrointestinal y extraintestinal. El tratamiento depende de la carga polipoidea: si hay pocos pólipos, se extirpan por endoscopia; si hay muchos, se valora colectomía total con reconstrucción ileorrectal, y si el recto no está respetado, coloproctectomía con reservorio ileoanal. Conviene no confundir este gen con STK11/LKB1, propio del síndrome de Peutz-Jeghers, ni con APC, propio de la poliposis adenomatosa familiar. Punto de enseñanza: poliposis juvenil se asocia a SMAD4 en aproximadamente la mitad de los pacientes.",
+  "teaching_point": "Poliposis juvenil: autosómica dominante, SMAD4 mutado en la mitad de los casos, hamartomas con dilataciones glandulares quísticas.",
+  "guideline_ref": "Cirugía AEC (Parrilla Aparicio, ed.), 2022 — síndromes polipósicos hereditarios",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 14
+  },
+  "tags": [
+   "poliposis juvenil",
+   "SMAD4",
+   "hamartoma"
+  ]
+ },
+ {
+  "id": "T25-C003",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "estadificacion",
+  "difficulty": "basica",
+  "stem": "La clasificación de la Organización Mundial de la Salud de 2019 divide las neoplasias neuroendocrinas digestivas en dos grandes categorías según el grado de diferenciación. Enumere, en un máximo de veinte palabras, esas dos categorías tal y como se expusieron en la clase.",
+  "respuesta_canonica": "Tumores neuroendocrinos bien diferenciados (G1, G2, G3) y carcinomas neuroendocrinos pobremente diferenciados",
+  "aceptadas": [
+   "NET bien diferenciados y NEC pobremente diferenciados",
+   "tumores neuroendocrinos bien diferenciados frente a carcinomas neuroendocrinos pobremente diferenciados",
+   "NET bien diferenciados (G1, G2, G3) y NEC pobremente diferenciados"
+  ],
+  "conceptos_clave": [
+   "bien diferenciad",
+   "pobremente diferenciad"
+  ],
+  "max_palabras": 20,
+  "explanation": "La clasificación de la Organización Mundial de la Salud de 2019 separa las neoplasias neuroendocrinas en tumores neuroendocrinos bien diferenciados y carcinomas neuroendocrinos pobremente diferenciados. Los primeros se gradúan en G1 de bajo grado, G2 de grado moderado y G3 de alto grado. Los carcinomas pobremente diferenciados son los tumores más agresivos, responden a la quimioterapia con platinos y tienen peor pronóstico. La respuesta debe recoger las dos ramas, y se admite tanto la nomenclatura completa como las siglas NET y NEC, siempre que quede clara la oposición entre bien y pobremente diferenciado. No se acepta como respuesta correcta enumerar únicamente los grados G1, G2 y G3, porque el eje de la clasificación es la diferenciación y no el grado. Punto de enseñanza: la primera decisión ante una neoplasia neuroendocrina es si está bien o pobremente diferenciada, porque de ahí cuelgan el pronóstico y el tratamiento sistémico.",
+  "teaching_point": "OMS 2019 para NEN: NET bien diferenciados graduados G1-G3 y NEC pobremente diferenciados.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) — neoplasias neuroendocrinas",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 17
+  },
+  "tags": [
+   "OMS 2019",
+   "NET",
+   "NEC",
+   "clasificacion"
+  ]
+ },
+ {
+  "id": "T25-C004",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "corta",
+  "categoria": "concepto",
+  "difficulty": "intermedia",
+  "stem": "Ante una tumoración yeyunal de células fusiformes que nace en la muscular propia y crece de forma extraluminal, el patólogo solicita el marcador inmunohistoquímico que identifica el epítopo extracelular del c-KIT. Indique, en un máximo de veinte palabras, ese marcador y el porcentaje de GIST con mutación de c-KIT.",
+  "respuesta_canonica": "CD-117; el 85 % de los GIST presenta mutación de c-KIT",
+  "aceptadas": [
+   "CD117 y 85 %",
+   "CD-117; mutación de c-KIT en el 85 %",
+   "marcador CD117, c-KIT mutado en el 85 % de los casos"
+  ],
+  "conceptos_clave": [
+   "117",
+   "85"
+  ],
+  "max_palabras": 20,
+  "explanation": "Los GIST expresan receptores tirosina cinasa específicos, glucoproteínas transmembrana codificadas por los oncogenes KIT y PDGFRA. El marcador inmunohistoquímico del c-KIT es el CD-117, que reconoce su epítopo extracelular y es la herramienta diagnóstica que separa el GIST de los antiguos leiomiomas, leiomiosarcomas y blastomas con los que se confundía. En cuanto al perfil molecular, el 85 % de los GIST tiene mutación en c-KIT, entre el 5 y el 8 % en PDGFRA, y entre el 10 y el 15 % son wild type. Microscópicamente el 70 % son fusocelulares, el 20 % epitelioides y el 10 % mixtos, y su origen está en las células intersticiales de Cajal, marcapasos intestinales de estirpe mesodérmica. Para dar por válida la respuesta deben aparecer el marcador CD-117 y la cifra del 85 %. Punto de enseñanza: CD-117 positivo es el sello inmunohistoquímico del GIST.",
+  "teaching_point": "CD-117 es el marcador inmunohistoquímico del c-KIT, mutado en el 85 % de los GIST.",
+  "guideline_ref": "Schwartz, Principles of Surgery, 11.ª ed. (2023) — tumores del estroma gastrointestinal",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 23
+  },
+  "tags": [
+   "GIST",
+   "CD117",
+   "c-KIT",
+   "inmunohistoquimica"
+  ]
+ },
+ {
+  "id": "T25-L001",
+  "tema": 25,
+  "bloque": "intestino_delgado",
+  "formato": "larga",
+  "categoria": "caso_clinico",
+  "difficulty": "intermedia",
+  "stem": "Varón de 64 años consulta por episodios de enrojecimiento facial, broncoespasmo y diarrea acuosa, con hepatomegalia y soplo tricuspídeo. La TC muestra una masa mesentérico-intestinal hipervascular con reacción desmoplásica y múltiples lesiones hepáticas. Exponga, en un máximo de 350 palabras, el diagnóstico sindrómico y tumoral, la fisiopatología de los síntomas, las pruebas analíticas y de imagen que solicitaría y el planteamiento terapéutico quirúrgico y médico, incluido el pronóstico según la extensión.",
+  "max_palabras": 350,
+  "rubrica": [
+   {
+    "elemento": "Identifica el diagnóstico como tumor neuroendocrino de intestino delgado con síndrome carcinoide",
+    "puntos": 0.38,
+    "claves": [
+     "tumor neuroendocrino",
+     "sindrome carcinoide"
+    ]
+   },
+   {
+    "elemento": "Explica que los síntomas exigen metástasis hepáticas o enfermedad extraabdominal que eviten el metabolismo portal de primer paso",
+    "puntos": 0.38,
+    "claves": [
+     "metastasis hepaticas",
+     "hepatic",
+     "primer paso"
+    ]
+   },
+   {
+    "elemento": "Enumera la clínica del síndrome carcinoide: flushing, broncoespasmo, diarrea, hipotensión y valvulopatía derecha por fibrosis",
+    "puntos": 0.38,
+    "claves": [
+     "enrojecimiento",
+     "broncoespasmo",
+     "diarrea",
+     "tricuspide"
+    ]
+   },
+   {
+    "elemento": "Indica el diagnóstico analítico con cromogranina A y 5-HIAA en orina de 24 horas, matizando el valor de cada uno",
+    "puntos": 0.38,
+    "claves": [
+     "cromogranina A",
+     "5-HIAA",
+     "24 horas"
+    ]
+   },
+   {
+    "elemento": "Propone imagen adecuada: TC, RM hepática y prueba funcional de receptores de somatostatina (Octreoscan o PET-TC con Ga68-DOTATATE)",
+    "puntos": 0.38,
+    "claves": [
+     "resonancia",
+     "octreoscan",
+     "DOTATATE",
+     "receptores de somatostatina"
+    ]
+   },
+   {
+    "elemento": "Plantea el tratamiento quirúrgico: la cirugía es el único tratamiento curativo, con resección intestinal según afectación y citorreducción como mejor paliación en enfermedad avanzada",
+    "puntos": 0.38,
+    "claves": [
+     "curativo",
+     "reseccion intestinal",
+     "citorreduccion"
+    ]
+   },
+   {
+    "elemento": "Plantea el tratamiento médico y locorregional: análogos de somatostatina como estándar, radioisótopos unidos a análogos, quimio y radioembolización en metástasis hepáticas irresecables",
+    "puntos": 0.38,
+    "claves": [
+     "somatostatina",
+     "radioisotopos",
+     "quimioembolizacion",
+     "radioembolizacion"
+    ]
+   },
+   {
+    "elemento": "Refiere el pronóstico por extensión: localizado resecado, metástasis linfáticas resecadas y metástasis a distancia",
+    "puntos": 0.34,
+    "claves": [
+     "supervivencia",
+     "localizad",
+     "metastasis a distancia"
+    ]
+   }
+  ],
+  "respuesta_modelo": "El cuadro corresponde a un tumor neuroendocrino de intestino delgado, probablemente ileal, con síndrome carcinoide. Los tumores neuroendocrinos se originan en las células neuroendocrinas o de Kulchitsky del fondo de las glándulas digestivas y son de crecimiento lento; los de intestino medio, que incluyen intestino delgado, apéndice y colon proximal, suponen la mitad de los casos. La masa mesentérica hipervascular con reacción desmoplásica es su imagen característica. El síndrome carcinoide aparece solo cuando existen metástasis hepáticas o enfermedad extraabdominal que permiten que las sustancias vasoactivas, principalmente serotonina, escapen al metabolismo hepático de primer paso; por eso el 90 % de estos tumores son asintomáticos. Clínicamente cursa con enrojecimiento cutáneo de cara, cuello y tórax, lagrimeo e ingurgitación conjuntival, broncoespasmo, diarrea acuosa, vasodilatación con hipotensión y lesión valvular del corazón derecho, con estenosis tricuspídea y pulmonar por fibrosis. El estudio analítico incluye cromogranina A, que apoya el diagnóstico de tumor neuroendocrino pero no el de síndrome carcinoide y puede elevarse con inhibidores de la bomba de protones y en la enfermedad renal y hepática, y 5-HIAA en orina de 24 horas como metabolito de la serotonina. En imagen se solicitan TC abdominopélvica, resonancia hepática, donde las lesiones son hiperintensas en T2, y una prueba funcional basada en la sobreexpresión de receptores de somatostatina, ya sea Octreoscan con octreótido marcado con indio 111 o PET-TC con Ga68-DOTATATE, con sensibilidad del 91 % y especificidad del 94 %. La cirugía es el único tratamiento curativo, con resección intestinal según la afectación y resección local en lesiones pequeñas bien diferenciadas G1; en casos avanzados con metástasis, la citorreducción es la mejor paliación. En metástasis hepáticas irresecables caben citorreducción máxima, quimioembolización, radioembolización con lutecio y, en casos seleccionados, trasplante hepático. El tratamiento médico busca controlar los síntomas y evitar la progresión: los análogos de somatostatina son el estándar, con radioisótopos unidos a análogos como alternativa; la quimioterapia es poco útil. La supervivencia a cinco años es del 100 % en enfermedad localizada resecada, del 65 % con metástasis linfáticas resecadas y del 25 al 35 % con metástasis a distancia.",
+  "explanation": "La pregunta obliga a recorrer el tumor neuroendocrino de intestino delgado de principio a fin, que es como lo expone la clase: origen celular y distribución por segmentos embriológicos, biología con nódulos submucosos y reacción desmoplásica mesentérica, condición imprescindible de metástasis hepáticas para que aparezca el síndrome carcinoide, diagnóstico analítico y funcional, tratamiento quirúrgico y médico, y pronóstico por extensión. El error más penalizado es atribuir el síndrome carcinoide al tumor primario sin metástasis, porque revela que no se ha entendido el metabolismo hepático de primer paso. El segundo error frecuente es olvidar que la cirugía es el único tratamiento curativo y que la citorreducción sigue siendo el mejor tratamiento paliativo en enfermedad avanzada. Se valoran la cromogranina A y el 5-HIAA con sus matices, y las pruebas de receptores de somatostatina como núcleo del diagnóstico funcional. Punto de enseñanza: sin hígado metastásico no hay síndrome carcinoide, y sin cirugía no hay curación.",
+  "teaching_point": "El tumor neuroendocrino de intestino delgado solo produce síndrome carcinoide cuando hay metástasis hepáticas, y solo se cura con cirugía.",
+  "guideline_ref": "WHO Classification of Digestive System Tumours (2019) y Sabiston, Textbook of Surgery, 22.ª ed. (2025)",
+  "fuente_clase": {
+   "archivo": "25.- neoplasias ID.pdf",
+   "pagina": 18
+  },
+  "tags": [
+   "NET",
+   "sindrome carcinoide",
+   "citorreduccion",
+   "analogos de somatostatina"
+  ]
+ }
+]

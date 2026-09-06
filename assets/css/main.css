@@ -1,0 +1,384 @@
+/* =====================================================================
+   QUAERO — Patología Quirúrgica I
+   Dirección: LA LÁMINA DEL ATLAS.
+
+   No es un tablero de puntuación: es una lámina de atlas quirúrgico. Papel
+   cálido, filetes de tinta, número de lámina en el margen, serif de lectura
+   para el enunciado. La decisión no es estética sino de fondo: el objetivo
+   declarado del proyecto es reducir la ansiedad, y una revisión concluyó que
+   la interfaz anterior estaba enteramente enmarcada en pérdida — cronómetro
+   que se enrojece mientras piensas, cuenta atrás de días, «0/30».
+
+   Un atlas no te juzga: te enseña. De ahí todo lo demás, incluido que el
+   fallo se pinte en sepia de anotación y no en rojo de alarma.
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  color-scheme: light dark;
+
+  /* --- el papel y la tinta --- */
+  --papel:        #f4efe4;
+  --papel-alto:   #faf7f0;   /* lámina, ligeramente más clara que el fondo */
+  --papel-hondo:  #ebe4d5;
+  --tinta:        #1f1d18;
+  --tinta-media:  #5c574a;
+  --tinta-tenue:  #8f8878;
+  --filete:       #d8cfba;
+  --filete-fuerte:#bcae91;
+
+  /* --- el rojo de las láminas anatómicas, usado con cuentagotas --- */
+  --minio:        #a5402f;
+  --minio-suave:  #f0e2dc;
+
+  /* --- acierto y fallo: verde botánico y sepia de anotación --- */
+  --bien:         #4a6b3f;
+  --bien-fondo:   #e8eddf;
+  --mal:          #8a6a4f;   /* deliberadamente NO es rojo de alarma */
+  --mal-fondo:    #f1e7db;
+  --nota:         #7a6a3f;
+  --nota-fondo:   #f2ecd8;
+
+  --serif: 'Spectral', ui-serif, Georgia, 'Times New Roman', serif;
+  --sans:  'IBM Plex Sans', ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono:  'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --margen: 9rem;            /* columna de marginalia, como en la lámina */
+  --ancho:  46rem;           /* medida de lectura */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papel:        #17160f;
+    --papel-alto:   #1e1c14;
+    --papel-hondo:  #121109;
+    --tinta:        #ece5d4;
+    --tinta-media:  #a49b85;
+    --tinta-tenue:  #6f6858;
+    --filete:       #34301f;
+    --filete-fuerte:#4a442e;
+    --minio:        #d4705c;
+    --minio-suave:  #2b1d17;
+    --bien:         #93b481;
+    --bien-fondo:   #1c2417;
+    --mal:          #c29a76;
+    --mal-fondo:    #261d14;
+    --nota:         #cbb26a;
+    --nota-fondo:   #241f10;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--tinta);
+  background: var(--papel);
+  /* grano de papel: dos gradientes muy tenues, sin imagen externa */
+  background-image:
+    repeating-linear-gradient(0deg, rgb(0 0 0 / 1.2%) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgb(0 0 0 / 0.8%) 0 1px, transparent 1px 4px);
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-color-scheme: dark) {
+  body { background-image:
+    repeating-linear-gradient(0deg, rgb(255 255 255 / 1.5%) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 1%) 0 1px, transparent 1px 4px); }
+}
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.012em;
+  margin: 0 0 .55em;
+}
+h1 { font-size: clamp(1.55rem, 1.1rem + 1.6vw, 2.1rem); }
+h2 { font-size: 1.28rem; }
+h3 { font-size: 1.02rem; }
+p { margin: 0 0 1em; }
+a { color: var(--minio); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+/* --------------------------------------------------- cabecera de lámina */
+.cabecera {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: baseline; gap: 1rem;
+  padding: .85rem 1.5rem .7rem;
+  background: color-mix(in srgb, var(--papel) 92%, transparent);
+  backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid var(--filete);
+}
+.cabecera .marca {
+  font-family: var(--serif); font-weight: 600; font-size: 1.12rem;
+  letter-spacing: .16em; text-transform: uppercase;
+  display: flex; align-items: baseline; gap: .7rem;
+}
+.cabecera .marca small {
+  font-family: var(--sans); font-weight: 400; font-size: .72rem;
+  letter-spacing: .04em; text-transform: none; color: var(--tinta-tenue);
+}
+.cabecera nav { margin-left: auto; display: flex; gap: .1rem; flex-wrap: wrap; }
+
+main { max-width: 76rem; margin: 0 auto; padding: 2.2rem 1.5rem 6rem; }
+
+/* ----------------------------------------------------------- la lámina */
+/* Asimétrica: marginalia estrecha a la izquierda, texto a la derecha.
+   Es la composición de una plancha de atlas, no una tarjeta centrada. */
+.tarjeta {
+  background: var(--papel-alto);
+  border: 1px solid var(--filete);
+  border-left: 3px solid var(--filete-fuerte);
+  padding: 1.7rem 1.9rem;
+  position: relative;
+  animation: asentar .42s cubic-bezier(.2, .7, .3, 1) both;
+}
+.tarjeta + .tarjeta { margin-top: 1.4rem; animation-delay: .07s; }
+.tarjeta + .tarjeta + .tarjeta { animation-delay: .14s; }
+
+@keyframes asentar {
+  from { opacity: 0; transform: translateY(9px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Número de lámina en el margen, como la numeración grabada del atlas. */
+.lamina { display: grid; grid-template-columns: var(--margen) minmax(0, 1fr); gap: 2.2rem; }
+.lamina > .margen {
+  font-family: var(--mono); font-size: .74rem; line-height: 1.7;
+  color: var(--tinta-tenue); text-align: right;
+  border-right: 1px solid var(--filete); padding-right: 1.1rem;
+}
+.lamina > .margen .numero {
+  font-family: var(--serif); font-size: 2.5rem; font-weight: 300;
+  color: var(--minio); display: block; line-height: 1; margin-bottom: .35rem;
+  font-variant-numeric: oldstyle-nums;
+}
+.lamina > .cuerpo { min-width: 0; max-width: var(--ancho); }
+
+@media (max-width: 760px) {
+  .lamina { grid-template-columns: 1fr; gap: .9rem; }
+  .lamina > .margen {
+    text-align: left; border-right: 0; border-bottom: 1px solid var(--filete);
+    padding: 0 0 .7rem; display: flex; align-items: baseline; gap: .8rem;
+  }
+  .lamina > .margen .numero { font-size: 1.6rem; margin: 0; }
+}
+
+.rejilla { display: grid; gap: 1.2rem; }
+.rejilla.dos  { grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
+.rejilla.tres { grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); }
+.fila { display: flex; gap: .7rem; align-items: center; flex-wrap: wrap; }
+.empuja { margin-left: auto; }
+
+/* ----------------------------------------------------------- controles */
+button, .boton {
+  font-family: var(--sans); font-size: .93rem; font-weight: 500;
+  padding: .58rem 1.15rem;
+  border: 1px solid var(--filete-fuerte);
+  border-radius: 2px;                 /* casi recto: filete, no pastilla */
+  background: transparent; color: var(--tinta);
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+button:hover:not(:disabled) { background: var(--papel-hondo); border-color: var(--tinta-media); }
+button:disabled { opacity: .4; cursor: not-allowed; }
+button.primario {
+  background: var(--minio); border-color: var(--minio); color: #fdf9f2;
+  letter-spacing: .02em;
+}
+button.primario:hover:not(:disabled) { background: color-mix(in srgb, var(--minio) 84%, black); }
+button.sutil { border-color: transparent; color: var(--tinta-media); padding-inline: .7rem; }
+button.sutil:hover:not(:disabled) { background: var(--papel-hondo); color: var(--tinta); }
+button.peligro { color: var(--minio); border-color: color-mix(in srgb, var(--minio) 40%, transparent); }
+button.pequeno { padding: .3rem .72rem; font-size: .84rem; }
+
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--minio); outline-offset: 2px;
+}
+
+/* --------------------------------------------------------- formulario */
+label { display: block; font-weight: 500; font-size: .89rem; margin-bottom: .32rem; }
+input[type=text], input[type=email], input[type=number], select, textarea {
+  font: inherit; width: 100%;
+  padding: .6rem .75rem;
+  border: 1px solid var(--filete-fuerte); border-radius: 2px;
+  background: var(--papel); color: var(--tinta);
+}
+textarea { resize: vertical; min-height: 8rem; line-height: 1.65; font-family: var(--serif); }
+.campo { margin-bottom: 1.25rem; }
+.ayuda { font-size: .85rem; color: var(--tinta-media); margin-top: .32rem; line-height: 1.5; }
+
+.casilla { display: flex; gap: .75rem; align-items: flex-start; margin-bottom: .95rem; cursor: pointer; }
+.casilla input { margin-top: .3rem; width: 1.02rem; height: 1.02rem; flex: none; accent-color: var(--minio); }
+.casilla span { font-weight: 400; }
+
+/* ----------------------------------------------------------- etiquetas */
+.pildora {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-family: var(--mono); font-size: .7rem; font-weight: 500;
+  letter-spacing: .07em; text-transform: uppercase;
+  padding: .2rem .55rem; border-radius: 2px;
+  background: transparent; color: var(--tinta-media);
+  border: 1px solid var(--filete);
+}
+.pildora.acento { color: var(--minio); border-color: color-mix(in srgb, var(--minio) 35%, transparent); background: var(--minio-suave); }
+.pildora.bien   { color: var(--bien); border-color: color-mix(in srgb, var(--bien) 35%, transparent); background: var(--bien-fondo); }
+.pildora.mal    { color: var(--mal);  border-color: color-mix(in srgb, var(--mal) 35%, transparent);  background: var(--mal-fondo); }
+.pildora.aviso  { color: var(--nota); border-color: color-mix(in srgb, var(--nota) 35%, transparent); background: var(--nota-fondo); }
+
+/* -------------------------------------------------------- estadística */
+.metrica .valor {
+  font-family: var(--serif); font-size: 2.4rem; font-weight: 300; line-height: 1;
+  font-variant-numeric: oldstyle-nums tabular-nums; letter-spacing: -.02em;
+}
+.metrica .etiqueta {
+  font-size: .77rem; color: var(--tinta-media); margin-top: .3rem;
+  letter-spacing: .02em;
+}
+
+/* La escala graduada del atlas, no una barra de carga. */
+.barra { height: 1px; background: var(--filete); position: relative; margin: .5rem 0; }
+.barra > span {
+  display: block; height: 3px; margin-top: -1px; background: var(--minio);
+  transition: width .5s cubic-bezier(.2,.7,.3,1);
+}
+
+/* --------------------------------------------------------------- quiz */
+.quiz-cabecera {
+  display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+  padding-bottom: .85rem; margin-bottom: 1.4rem;
+  border-bottom: 1px solid var(--filete);
+}
+.cronometro { font-family: var(--mono); font-size: .82rem; color: var(--tinta-tenue); }
+.cronometro.pasado { color: var(--nota); }
+
+.enunciado {
+  font-family: var(--serif); font-size: 1.19rem; line-height: 1.68;
+  margin-bottom: 1.6rem; text-wrap: pretty;
+}
+
+/* Opciones como entradas de índice, con su letra en el margen. */
+.opciones { display: grid; gap: 0; margin-bottom: 1.3rem; border-top: 1px solid var(--filete); }
+.opcion {
+  display: grid; grid-template-columns: 2.4rem 1fr; align-items: baseline; gap: .9rem;
+  padding: .92rem .6rem .92rem .2rem;
+  border: 0; border-bottom: 1px solid var(--filete); border-radius: 0;
+  background: transparent; text-align: left; width: 100%;
+  font: inherit; color: inherit; cursor: pointer;
+  transition: background .13s ease, padding-left .13s ease;
+}
+.opcion:hover:not(:disabled) { background: var(--papel-hondo); padding-left: .55rem; }
+.opcion .letra {
+  font-family: var(--serif); font-size: 1rem; font-weight: 600;
+  color: var(--tinta-tenue); text-align: center;
+  border: 1px solid var(--filete); border-radius: 50%;
+  width: 1.85rem; height: 1.85rem; display: grid; place-items: center;
+  transition: all .13s ease;
+}
+.opcion.elegida { background: var(--minio-suave); }
+.opcion.elegida .letra { border-color: var(--minio); color: var(--minio); }
+
+/* Acierto y fallo: color MÁS una marca. El color solo excluye a quien no lo
+   distingue, y la retroalimentación es el núcleo de la aplicación. */
+.opcion.correcta { background: var(--bien-fondo); }
+.opcion.correcta .letra { background: var(--bien); border-color: var(--bien); color: var(--papel-alto); }
+.opcion.correcta .letra::after { content: '✓'; position: absolute; margin-left: 2.6rem; color: var(--bien); font-size: .95rem; }
+.opcion.incorrecta { background: var(--mal-fondo); }
+.opcion.incorrecta .letra { background: var(--mal); border-color: var(--mal); color: var(--papel-alto); }
+.opcion.incorrecta .letra::after { content: '✕'; position: absolute; margin-left: 2.6rem; color: var(--mal); font-size: .95rem; }
+.opcion:disabled { cursor: default; opacity: 1; }
+
+/* ---------------------------------------------------------- anotación */
+/* La explicación es la nota al pie de la lámina, no una caja de alerta. */
+.explicacion {
+  border-top: 2px solid var(--filete-fuerte);
+  padding-top: 1.2rem; margin-top: 1.5rem;
+  font-family: var(--serif); font-size: 1.02rem; line-height: 1.68;
+}
+.explicacion h3 {
+  font-family: var(--sans); font-size: .7rem; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-tenue);
+  margin-bottom: .8rem;
+}
+.explicacion p { margin-bottom: .85rem; }
+.perla {
+  border-left: 3px solid var(--minio); background: var(--minio-suave);
+  padding: .8rem 1rem; margin-top: 1rem; font-style: italic;
+}
+.fuentes {
+  display: flex; gap: .5rem; flex-wrap: wrap; align-items: center;
+  margin-top: 1.2rem; padding-top: .9rem; border-top: 1px solid var(--filete);
+  font-family: var(--sans);
+}
+
+/* ------------------------------------------------------------ índice */
+.navegador { display: flex; flex-wrap: wrap; gap: .22rem; margin: 1.2rem 0; }
+.navegador button {
+  width: 2rem; height: 2rem; padding: 0; border-radius: 2px;
+  font-family: var(--mono); font-size: .74rem;
+  display: grid; place-items: center; color: var(--tinta-tenue);
+}
+.navegador button.respondida { border-color: var(--minio); color: var(--minio); background: var(--minio-suave); }
+.navegador button.en-blanco { border-color: var(--nota); color: var(--nota); }
+.navegador button.actual { outline: 2px solid var(--minio); outline-offset: 1px; }
+
+/* ------------------------------------------------------------ tablas */
+table { width: 100%; border-collapse: collapse; font-size: .89rem; }
+th, td { padding: .55rem .65rem; text-align: left; border-bottom: 1px solid var(--filete); }
+th {
+  font-family: var(--sans); font-weight: 600; font-size: .71rem;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-tenue);
+  border-bottom: 1px solid var(--filete-fuerte);
+}
+td.num, th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.tabla-scroll { overflow-x: auto; }
+
+/* ------------------------------------------------------------- avisos */
+.aviso-caja {
+  border-left: 3px solid var(--filete-fuerte); background: var(--papel-hondo);
+  padding: .9rem 1.1rem; margin-bottom: 1.2rem; font-size: .93rem;
+}
+.aviso-caja.info { border-left-color: var(--minio); background: var(--minio-suave); }
+.aviso-caja.atencion { border-left-color: var(--nota); background: var(--nota-fondo); }
+
+.vacio {
+  text-align: center; padding: 4rem 1rem; color: var(--tinta-tenue);
+  font-family: var(--serif); font-style: italic; font-size: 1.05rem;
+}
+
+/* ------------------------------------------------------------- temas */
+.lista-temas { display: grid; gap: 0; border-top: 1px solid var(--filete); }
+.tema-fila {
+  display: grid; grid-template-columns: 2.6rem 1fr auto; align-items: baseline; gap: .9rem;
+  padding: .72rem .5rem .72rem .15rem;
+  border: 0; border-bottom: 1px solid var(--filete); border-radius: 0;
+  background: transparent; cursor: pointer; text-align: left; width: 100%;
+  transition: background .13s ease, padding-left .13s ease;
+}
+.tema-fila:hover { background: var(--papel-hondo); padding-left: .5rem; }
+.tema-fila.elegido { background: var(--minio-suave); }
+.tema-fila .n {
+  font-family: var(--serif); font-size: 1.05rem; color: var(--tinta-tenue);
+  font-variant-numeric: oldstyle-nums; text-align: right;
+}
+.tema-fila.elegido .n { color: var(--minio); }
+.tema-fila .titulo { min-width: 0; font-size: .95rem; }
+.tema-fila .titulo small { display: block; color: var(--tinta-tenue); font-size: .79rem; margin-top: .1rem; }
+
+.oculto { display: none !important; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (max-width: 640px) {
+  main { padding: 1.3rem .95rem 4rem; }
+  .tarjeta { padding: 1.2rem 1.1rem; }
+  .enunciado { font-size: 1.08rem; }
+  .cabecera { padding: .7rem .95rem; }
+  .cabecera .marca { font-size: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, .tarjeta { animation: none !important; transition: none !important; }
+}

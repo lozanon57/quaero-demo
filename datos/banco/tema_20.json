@@ -1,0 +1,730 @@
+[
+  {
+    "id": "T20-M001",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "basica",
+    "stem": "Varón de 44 años con dolor epigástrico transfixiante de doce horas, náuseas y vómitos. La lipasa sérica es cinco veces el límite superior de la normalidad. La ecografía muestra colelitiasis sin dilatación de la vía biliar. No se ha realizado TC. ¿Qué afirmación sobre el diagnóstico es correcta según la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Falta la TC: sin hallazgos radiológicos característicos no puede afirmarse el diagnóstico."
+      },
+      {
+        "id": "B",
+        "text": "Se requiere además amilasa elevada por encima de tres veces para confirmarlo."
+      },
+      {
+        "id": "C",
+        "text": "El diagnóstico ya está establecido: cumple dos de los tres criterios exigidos."
+      },
+      {
+        "id": "D",
+        "text": "El grado de elevación de la lipasa establece además que se trata de una forma grave."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase recoge que, según la revisión del consenso de Atlanta de 2012, el diagnóstico de pancreatitis aguda requiere la presencia de dos o más de estos tres criterios: dolor abdominal compatible, elevación de la lipasa o la amilasa por encima de tres veces el valor normal, y hallazgos radiológicos característicos en TC, ecografía o resonancia. Este paciente cumple los dos primeros, de modo que el diagnóstico está hecho sin necesidad de TC. Opción A: la TC no es imprescindible para diagnosticar; la clase la sitúa entre las 48 y las 72 horas, que es cuando tiene mayor rentabilidad para evaluar lesiones pancreáticas, vasculares y viscerales. Opción B: basta con la lipasa, que además es más específica; exigir las dos enzimas es un requisito que el consenso no impone. Opción D: la elevación de la lipasa es precoz, entre las 4 y las 8 horas, pero su magnitud no se correlaciona con la gravedad. Punto de enseñanza: dos de tres criterios bastan, y la enzima diagnostica pero no gradúa.",
+    "teaching_point": "Diagnóstico de pancreatitis aguda: dos de tres entre dolor, enzima por tres e imagen compatible.",
+    "guideline_ref": "Clasificación de Atlanta, revisión de 2012 (citada en la clase); Cirugía AEC 2022",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 28
+    },
+    "tags": [
+      "pancreatitis aguda",
+      "diagnóstico",
+      "lipasa"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M002",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 58 años con pancreatitis aguda confirmada. En la analítica de ingreso destaca una ALT tres veces el valor normal; la amilasa es normal y la lipasa está elevada. Refiere consumo enólico ocasional. Se busca establecer la etiología en las primeras veinticuatro horas. ¿Qué orientación etiológica procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Etiología alcohólica, porque la amilasa es normal en una cuarta parte de esos casos."
+      },
+      {
+        "id": "B",
+        "text": "Etiología biliar, porque la elevación de ALT por tres tiene un valor predictivo del 95 %."
+      },
+      {
+        "id": "C",
+        "text": "Etiología por hipertrigliceridemia, sugerida por la disociación amilasa-lipasa."
+      },
+      {
+        "id": "D",
+        "text": "Etiología idiopática, ya que ningún dato analítico permite orientar el origen."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase indica que la etiología debe establecerse en las primeras 24 horas y que una elevación de la ALT por encima de tres veces el valor normal tiene un valor predictivo positivo del 95 % para el origen biliar. La confirmación se completa con la ecografía, definitiva en la pancreatitis por colelitiasis con una sensibilidad del 92 al 96 %. Opción A: es cierto que la amilasa es normal en un 25 % de las pancreatitis alcohólicas y que la lipasa es el marcador más específico en ese contexto, pero un consumo ocasional no sostiene el diagnóstico frente a una ALT elevada por tres. Opción D: sólo entre el 5 y el 15 % de las pancreatitis son idiopáticas, y etiquetar como tal un caso con un dato bioquímico orientador es un error con consecuencias, porque más del 50 % de las idiopáticas recurren. Opción C: la hipertrigliceridemia se diagnostica midiendo triglicéridos, no por el comportamiento de amilasa y lipasa. Punto de enseñanza: ALT por tres apunta a la vía biliar y obliga a mirar la vesícula.",
+    "teaching_point": "ALT elevada tres veces el valor normal tiene un VPP del 95 % para pancreatitis biliar.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 33
+    },
+    "tags": [
+      "pancreatitis aguda",
+      "etiología biliar",
+      "ALT"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M003",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "intermedia",
+    "stem": "En la clase se detalla el papel de las determinaciones analíticas en la pancreatitis aguda, separando las que sirven para el diagnóstico, las que informan de la gravedad y las que orientan la etiología. ¿Cuál de las siguientes afirmaciones sobre estos parámetros es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La lipasa se eleva precozmente pero su magnitud no se correlaciona con la gravedad."
+      },
+      {
+        "id": "B",
+        "text": "La proteína C reactiva es el parámetro diagnóstico de elección en las primeras horas."
+      },
+      {
+        "id": "C",
+        "text": "El tripsinógeno-2 urinario se emplea para graduar la gravedad a las 48 horas."
+      },
+      {
+        "id": "D",
+        "text": "La amilasa es más específica que la lipasa en la pancreatitis de origen alcohólico."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La clase separa con claridad tres funciones de la analítica. Como parámetro diagnóstico sitúa la lipasa sanguínea por encima de tres veces su valor normal, que se eleva precozmente entre las 4 y las 8 horas y cuya magnitud no se correlaciona con la gravedad del cuadro; junto a ella figuran la amilasa y el tripsinógeno-2 urinario, con un valor predictivo positivo del 99 %. Como parámetro de gravedad señala la proteína C reactiva, medida al diagnóstico y a las 48 horas. Opción B: la proteína C reactiva no diagnostica pancreatitis, marca gravedad, y además su rendimiento exige la determinación seriada. Opción C: el tripsinógeno-2 urinario es una herramienta diagnóstica, no un marcador pronóstico ni de seguimiento a 48 horas. Opción D: es al revés, la lipasa es el marcador más específico de la pancreatitis aguda por abuso de alcohol, y la amilasa resulta normal en un 25 % de esas pancreatitis. Punto de enseñanza: la enzima dice que hay pancreatitis, no dice cómo de grave es.",
+    "teaching_point": "La lipasa diagnostica de forma precoz y específica, pero no gradúa la gravedad; para eso está la PCR.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 30
+    },
+    "tags": [
+      "lipasa",
+      "PCR",
+      "diagnóstico"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M004",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "imagen_ap",
+    "difficulty": "intermedia",
+    "stem": "Varón de 52 años que sufrió una pancreatitis aguda necrosante hace cinco semanas. La TC de control muestra una colección heterogénea, con contenido líquido y material sólido en su interior, bien delimitada por una pared definida y sin gas extraluminal. Está afebril y con PCR en descenso. ¿Cómo se denomina esta colección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colección aguda líquida peripancreática (CALP)."
+      },
+      {
+        "id": "B",
+        "text": "Necrosis encapsulada (walled-off necrosis)."
+      },
+      {
+        "id": "C",
+        "text": "Pseudoquiste pancreático de pared madura."
+      },
+      {
+        "id": "D",
+        "text": "Colección aguda necrótica (CAN) peripancreática."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase clasifica las colecciones combinando dos ejes: el tipo de pancreatitis de base y el tiempo transcurrido, con el corte en la cuarta semana. En la pancreatitis edematosa intersticial se habla de colección aguda líquida peripancreática antes de las cuatro semanas y de pseudoquiste después. En la pancreatitis necrosante se habla de colección aguda necrótica antes de las cuatro semanas y de necrosis encapsulada después. Aquí hay una pancreatitis necrosante, han pasado cinco semanas y la colección contiene material sólido y tiene pared definida: es una necrosis encapsulada. Opción A: la colección aguda líquida peripancreática es propia de la pancreatitis edematosa y de las primeras cuatro semanas, y por definición no contiene material sólido. Opción C: el pseudoquiste es la evolución tardía de la pancreatitis edematosa y contiene líquido rico en amilasa, no detritus. Opción D: la colección aguda necrótica es la misma lesión pero antes de la cuarta semana, cuando todavía no se ha formado pared. Punto de enseñanza: contenido sólido o líquido decide el nombre, y la cuarta semana decide el apellido.",
+    "teaching_point": "Necrosante más de cuatro semanas equivale a necrosis encapsulada; edematosa más de cuatro semanas, a pseudoquiste.",
+    "guideline_ref": "Clasificación de Atlanta, revisión de 2012 (citada en la clase)",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 24
+    },
+    "tags": [
+      "colecciones",
+      "necrosis encapsulada",
+      "Atlanta 2012"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M005",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "Una paciente ingresada por pancreatitis aguda presenta temperatura de 38,4 ºC, frecuencia cardíaca de 104 lpm, frecuencia respiratoria de 24 rpm y 14.000 leucocitos. Se plantea si cumple criterios de síndrome de respuesta inflamatoria sistémica según la definición recogida en la clase. ¿Qué respuesta es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los cumple: presenta los cuatro parámetros exigidos y basta con dos de ellos."
+      },
+      {
+        "id": "B",
+        "text": "No los cumple: la leucocitosis debe superar los 20.000 leucocitos por milímetro cúbico."
+      },
+      {
+        "id": "C",
+        "text": "Los cumple sólo si presenta además fallo orgánico persistente asociado."
+      },
+      {
+        "id": "D",
+        "text": "No los cumple: se exigen al menos tres de los cuatro parámetros definidos."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "La clase define el síndrome de respuesta inflamatoria sistémica por la presencia de dos o más de los siguientes: temperatura mayor de 38 ºC o menor de 36 ºC, frecuencia cardíaca mayor de 90 lpm, frecuencia respiratoria mayor de 20 rpm o PaCO2 menor de 32 mmHg, y leucocitos mayores de 12.000 o menores de 4.000. Esta paciente cumple los cuatro, de modo que la respuesta es afirmativa con margen. Opción D: el umbral es de dos criterios, no de tres; elevarlo retrasa la identificación de los pacientes de riesgo. Opción B: el punto de corte de leucocitos es 12.000, no 20.000. Opción C: el fallo orgánico pertenece a otra definición, la del síndrome de disfunción multiorgánica, que la clase describe como la alteración de órganos que impide mantener la homeostasis sin intervención. El SIRS importa porque, junto al fallo orgánico, marca el pronóstico: su presencia en las primeras 72 horas se asocia a necrosis extensa. Punto de enseñanza: dos criterios bastan para SIRS, y el SIRS precoz anticipa necrosis y mortalidad.",
+    "teaching_point": "SIRS se define con dos o más criterios; con leucocitos, el umbral es 12.000.",
+    "guideline_ref": "Clasificación de Atlanta, revisión de 2012 (citada en la clase)",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 26
+    },
+    "tags": [
+      "SIRS",
+      "gravedad",
+      "Atlanta 2012"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M006",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Mujer de 39 años con pancreatitis aguda leve de origen biliar. A las 72 horas está asintomática, tolera dieta y la analítica se ha normalizado. La colangio-RM no muestra coledocolitiasis ni dilatación de la vía biliar. ¿Qué actuación procede antes del alta según el esquema de manejo expuesto en la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colecistectomía laparoscópica precoz, sin necesidad de CPRE previa."
+      },
+      {
+        "id": "B",
+        "text": "CPRE con esfinterotomía y colecistectomía diferida a los tres meses."
+      },
+      {
+        "id": "C",
+        "text": "Alta con dieta pobre en grasas y colecistectomía programada al cabo de un año."
+      },
+      {
+        "id": "D",
+        "text": "Ecoendoscopia antes del alta para descartar microlitiasis en el colédoco."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "En la pancreatitis aguda leve el tratamiento es reposo digestivo, analgesia y sueroterapia, con recuperación en 48 a 72 horas. A partir de ahí, el esquema de la clase bifurca según haya o no sospecha de coledocolitiasis: si no la hay, colecistectomía laparoscópica precoz; si la hay, colangio-RM o ecoendoscopia y, en caso de confirmarse, CPRE seguida de colecistectomía. Aquí ya se ha hecho la colangio-RM y es negativa, de modo que sólo queda la colecistectomía en el mismo ingreso, que evita la recidiva. Opción B: la CPRE con esfinterotomía es un procedimiento con morbilidad propia y no está justificada sin coledocolitiasis; además, diferir la colecistectomía expone a un nuevo episodio. Opción C: retrasar un año la colecistectomía deja a la paciente expuesta a recurrencias, algunas graves. Opción D: la ecoendoscopia y la colangio-RM son alternativas para la misma pregunta; repetir el estudio con la otra técnica no añade información. Punto de enseñanza: pancreatitis biliar leve resuelta y sin coledocolitiasis equivale a colecistectomía en el mismo ingreso.",
+    "teaching_point": "La pancreatitis biliar leve se cierra con colecistectomía laparoscópica precoz en el mismo ingreso.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 42
+    },
+    "tags": [
+      "pancreatitis biliar",
+      "colecistectomía precoz",
+      "coledocolitiasis"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M007",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "indicacion",
+    "difficulty": "intermedia",
+    "stem": "Varón de 67 años con pancreatitis aguda grave de origen biliar. Presenta fiebre de 39 ºC, ictericia con bilirrubina de 6 mg/dL, hipotensión y dilatación de la vía biliar principal en la ecografía. Han transcurrido 36 horas desde el inicio del dolor. ¿Qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Necrosectomía quirúrgica urgente en las primeras horas, con colecistectomía asociada."
+      },
+      {
+        "id": "B",
+        "text": "Colecistectomía laparoscópica urgente con colangiografía intraoperatoria."
+      },
+      {
+        "id": "C",
+        "text": "Antibioterapia y drenaje percutáneo biliar, difiriendo la endoscopia más de 72 horas."
+      },
+      {
+        "id": "D",
+        "text": "CPRE con esfinterotomía para descomprimir la vía biliar en las primeras 48-72 horas."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase indica que, ante una pancreatitis aguda grave con sospecha de origen biliar acompañada de colangitis, sepsis, ictericia o vía biliar dilatada, procede descomprimir la vía biliar mediante CPRE con esfinterotomía en las primeras 48 a 72 horas, gesto que reduce un 34 % las complicaciones y disminuye el riesgo de muerte un 44 %. Este paciente reúne fiebre, ictericia, repercusión hemodinámica y vía dilatada, es decir, el escenario exacto de la indicación. Opción A: la cirugía de la necrosis se retrasa cuanto sea posible hasta la tercera o cuarta semana y sólo se plantea ante necrosis infectada, no en la fase precoz. Opción B: la colecistectomía en plena pancreatitis grave y con inestabilidad hemodinámica no resuelve el problema urgente, que es la obstrucción biliar, y añade riesgo. Opción C: el drenaje percutáneo de la vía biliar es un recurso ante CPRE fallida, no la primera opción cuando la endoscopia está disponible, y demorar la descompresión más allá de la ventana de 48 a 72 horas pierde el beneficio demostrado del gesto. Punto de enseñanza: en la pancreatitis grave biliar con colangitis o vía dilatada, la prioridad es descomprimir, no operar.",
+    "teaching_point": "Pancreatitis grave biliar con colangitis, ictericia o vía dilatada: CPRE con esfinterotomía en 48-72 horas.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 46
+    },
+    "tags": [
+      "CPRE",
+      "esfinterotomía",
+      "pancreatitis grave"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M008",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "complicacion",
+    "difficulty": "extrema",
+    "stem": "Varón de 55 años en la cuarta semana de una pancreatitis necrosante. Presenta fiebre, deterioro clínico y PCR mantenida. La TC muestra gas extraluminal en el interior de la necrosis peripancreática y la punción aspirativa confirma infección monomicrobiana por gramnegativos. Está hemodinámicamente estable con soporte en la unidad de cuidados intensivos. ¿Qué actuación procede?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuar sólo con antibioterapia dirigida y nutrición enteral, sin gesto invasivo."
+      },
+      {
+        "id": "B",
+        "text": "Necrosectomía abierta con colocación de un sistema de lavado continuo."
+      },
+      {
+        "id": "C",
+        "text": "Drenaje percutáneo como primer escalón, reservando la necrosectomía mínimamente invasiva para si no mejora."
+      },
+      {
+        "id": "D",
+        "text": "Laparotomía descompresiva con cierre temporal tipo bolsa de Bogotá."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La necrosis pancreática infectada exige intervención, pero la forma de intervenir cambió con el ensayo PANTER: el abordaje escalonado —drenaje percutáneo primero y necrosectomía mínimamente invasiva solo si el paciente no mejora— redujo las complicaciones mayores o la muerte al 40 % frente al 69 % de la necrosectomía abierta, y en torno a un tercio de los pacientes se resolvió únicamente con el drenaje, sin llegar a necrosectomía. Este paciente reúne las condiciones del escalonado: cuarta semana, necrosis ya delimitada, infección confirmada y estabilidad hemodinámica. Opción A: la antibioterapia sola no resuelve una necrosis infectada establecida; es el tratamiento de acompañamiento, no el definitivo. Opción B: es lo que el escalonado desplazó como primera maniobra; sigue teniendo indicación, pero cuando el drenaje fracasa, no antes. Opción D: la laparotomía descompresiva trata el síndrome compartimental abdominal, un problema distinto y de la primera semana. Punto de enseñanza: necrosis infectada no equivale ya a necrosectomía de entrada, sino a drenar primero y escalar solo si hace falta.",
+    "teaching_point": "En la necrosis pancreática infectada, abordaje escalonado: drenaje percutáneo primero y necrosectomía mínimamente invasiva solo si no mejora.",
+    "guideline_ref": "van Santvoort HC et al. N Engl J Med. 2010 (ensayo PANTER)",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 50
+    },
+    "tags": [
+      "necrosis infectada",
+      "necrosectomía",
+      "complicación"
+    ],
+    "tiempo_objetivo_s": 45,
+    "discrepancia_evidencia": true,
+    "trial_ref": "PANTER, N Engl J Med 2010; PMID 20410514",
+    "diverge_de_la_clase": true
+  },
+  {
+    "id": "T20-M009",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Varón de 48 años en la primera semana de una pancreatitis aguda grave, con oliguria, presiones pico elevadas en el respirador y abdomen a tensión. La presión intravesical es de 26 mmHg en tres mediciones separadas seis horas entre sí. ¿Qué actuación procede según la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar la sedación y la relajación muscular, difiriendo cualquier gesto quirúrgico."
+      },
+      {
+        "id": "B",
+        "text": "Laparotomía descompresiva temprana con cierre temporal tipo bolsa de Bogotá."
+      },
+      {
+        "id": "C",
+        "text": "Necrosectomía precoz para eliminar el foco que genera la hipertensión abdominal."
+      },
+      {
+        "id": "D",
+        "text": "Drenaje percutáneo de las colecciones peripancreáticas para reducir la presión."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "La clase define el síndrome compartimental abdominal en la pancreatitis aguda grave como una presión intraabdominal superior a 20 mmHg medida en tres determinaciones de presión intravesical separadas seis horas, y lo señala como causa de disfunción orgánica y de mortalidad durante la primera semana. Añade que la descompresión temprana disminuye la mortalidad, mediante laparotomía y cierre con bolsa de Bogotá. El caso reúne los tres elementos: cifra por encima del umbral, tres mediciones seriadas y disfunción orgánica establecida. Opción A: optimizar sedación y relajación forma parte del manejo médico inicial de la hipertensión intraabdominal, pero con 26 mmHg y fallo orgánico establecido retrasar la descompresión cuesta vidas. Opción C: la necrosectomía precoz es exactamente lo que la clase recomienda evitar, retrasando la cirugía de la necrosis hasta la tercera o cuarta semana y sólo si hay infección. Opción D: el drenaje percutáneo de colecciones estériles está desaconsejado por el riesgo de infectarlas y no resuelve el compartimental. Punto de enseñanza: en la primera semana el enemigo es la presión abdominal, no la necrosis.",
+    "teaching_point": "Presión intravesical mayor de 20 mmHg en tres mediciones con fallo orgánico: laparotomía descompresiva.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 46
+    },
+    "tags": [
+      "síndrome compartimental",
+      "presión intravesical",
+      "bolsa de Bogotá"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M010",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Se discute el soporte nutricional de un paciente con pancreatitis aguda grave, en estado catabólico y con balance nitrogenado negativo. Se comparan la nutrición parenteral total y la alimentación enteral por sonda nasoyeyunal. ¿Qué afirmación recoge correctamente la posición expuesta en la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambas son equivalentes y la elección depende sólo de la tolerancia digestiva."
+      },
+      {
+        "id": "B",
+        "text": "La parenteral es preferible porque garantiza el reposo completo de la glándula."
+      },
+      {
+        "id": "C",
+        "text": "La enteral es más segura y barata, y mantiene la permeabilidad de la mucosa intestinal."
+      },
+      {
+        "id": "D",
+        "text": "La enteral está contraindicada mientras persista el íleo asociado a la pancreatitis."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "La clase contrapone las dos vías con argumentos concretos. A la nutrición parenteral total le atribuye alto coste, riesgo de sepsis de catéter, agravamiento del íleo, hiperglucemia y aumento de los requerimientos energéticos. A la alimentación enteral por sonda nasoyeyunal o yeyunostomía le reconoce menor coste, mayor seguridad, estímulo de la motilidad intestinal y mantenimiento de la permeabilidad de la mucosa, un punto clave porque la vía enteral figura además entre las medidas para evitar la infección de la necrosis. Opción B: el concepto de reposo absoluto de la glándula por vía parenteral no se sostiene, y precisamente el íleo empeora con la parenteral. Opción A: no son equivalentes, la clase toma partido claro por la enteral. Opción D: el íleo no es una contraindicación sino un argumento a favor, porque la nutrición enteral estimula la motilidad. Punto de enseñanza: en la pancreatitis grave se alimenta por el intestino siempre que sea posible, y ello forma parte de la prevención de la infección.",
+    "teaching_point": "En la pancreatitis aguda grave la nutrición enteral es preferible a la parenteral, también para prevenir infección.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 44
+    },
+    "tags": [
+      "nutrición enteral",
+      "pancreatitis grave",
+      "tratamiento"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M011",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "caso_clinico",
+    "difficulty": "extrema",
+    "stem": "Varón de 54 años con pancreatitis crónica de origen enólico diagnosticada hace siete años. Refiere deposiciones grasas y pérdida de peso pese a mantener la ingesta. No presenta dolor en este momento y la glucemia es normal. ¿Qué afirmación explica mejor este cuadro según la clase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La esteatorrea aparece precozmente y suele preceder al dolor en la pancreatitis crónica."
+      },
+      {
+        "id": "B",
+        "text": "La malabsorción proteica precede a la de grasas por déficit inicial de proteasas."
+      },
+      {
+        "id": "C",
+        "text": "La esteatorrea indica destrucción de aproximadamente el 50 % del páncreas exocrino."
+      },
+      {
+        "id": "D",
+        "text": "Refleja un estadio avanzado: exige la destrucción del 90 % del componente exocrino."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase es taxativa sobre la esteatorrea en la pancreatitis crónica: refleja un estadio muy avanzado, requiere la destrucción del 90 % del componente exocrino y suele aparecer alrededor de los seis años del diagnóstico, cronología que encaja con este paciente. Añade que la malabsorción de las grasas es más precoz que la del resto de principios inmediatos porque la secreción de lipasa se altera con más rapidez que la de proteasas o amilasas. Opción A: la esteatorrea es tardía, no precoz; el dolor es la manifestación principal y la que suele aparecer antes, hasta el punto de ser la indicación más frecuente de cirugía. Opción B: es exactamente la inversión de lo que dice la clase, ya que la lipasa se afecta antes que las proteasas. Opción C: el umbral funcional no es del 50 % sino del 90 %, que es lo que explica que la esteatorrea sea un marcador tan tardío. Punto de enseñanza: la esteatorrea es el testigo de un páncreas exocrino ya prácticamente destruido.",
+    "teaching_point": "La esteatorrea exige perder el 90 % del páncreas exocrino y aparece hacia los seis años del diagnóstico.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis crónica",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 61
+    },
+    "tags": [
+      "pancreatitis crónica",
+      "esteatorrea",
+      "insuficiencia exocrina"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-M012",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "test",
+    "categoria": "estadificacion",
+    "difficulty": "extrema",
+    "stem": "Paciente con pancreatitis crónica que desarrolla un pseudoquiste. La CPRE demuestra estenosis del conducto pancreático principal y comunicación evidente del quiste con el ducto, sin antecedente de un brote necrótico reciente. Según la clasificación de pseudoquistes recogida en la clase, ¿qué tipo corresponde a esta situación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tipo I o agudo postnecrótico, con anatomía ductal normal y sin comunicación."
+      },
+      {
+        "id": "B",
+        "text": "Necrosis encapsulada, por tratarse de una colección de más de cuatro semanas."
+      },
+      {
+        "id": "C",
+        "text": "Tipo II o postnecrótico sobre pancreatitis crónica, sin estenosis del conducto."
+      },
+      {
+        "id": "D",
+        "text": "Tipo III o de retención, propio de la pancreatitis crónica con estenosis ductal."
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "La clase define el pseudoquiste como una colección de líquido rico en amilasa circunscrita por una pared de tejido fibroso, causada por la disrupción del ducto pancreático, y recoge la clasificación en tres tipos de Egidio y Schein. El tipo I o agudo postnecrótico aparece tras una pancreatitis aguda, con anatomía ductal normal y sin comunicación con el ducto. El tipo II o postnecrótico surge tras una pancreatitis aguda aislada sobre una pancreatitis crónica, con anomalías ductales y comunicación. El tipo III o de retención se da en la pancreatitis crónica, con estenosis ductales y comunicación con el ducto, que es exactamente el cuadro descrito. Opción A: el tipo I exige anatomía ductal normal y ausencia de comunicación, lo contrario de lo hallado. Opción C: el tipo II requiere un brote agudo previo, que aquí no existe. Opción B: la necrosis encapsulada pertenece a la clasificación de colecciones de la pancreatitis aguda necrosante, no a la de pseudoquistes. Punto de enseñanza: en el pseudoquiste, la anatomía del ducto define el tipo y orienta el tratamiento derivativo.",
+    "teaching_point": "Pseudoquiste tipo III o de retención: pancreatitis crónica, estenosis ductal y comunicación con el ducto.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis crónica",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 71
+    },
+    "tags": [
+      "pseudoquiste",
+      "Egidio y Schein",
+      "pancreatitis crónica"
+    ],
+    "tiempo_objetivo_s": 45
+  },
+  {
+    "id": "T20-C001",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Ante todo paciente con pancreatitis aguda la clase insiste en establecer la etiología dentro de las primeras veinticuatro horas, porque condiciona directamente el tratamiento. Indique cuál es la causa más frecuente de pancreatitis aguda y qué porcentaje aproximado de los casos representa según la clase.",
+    "respuesta_canonica": "Litiasis biliar (colelitiasis), incluida la microlitiasis; alrededor del 90 %",
+    "aceptadas": [
+      "litiasis biliar, 90 %",
+      "origen biliar por colelitiasis o microlitiasis, 90 %",
+      "colelitiasis (90 %)",
+      "origen biliar litiásico, alrededor del 90 %"
+    ],
+    "conceptos_clave": [
+      "colelitiasis",
+      "biliar",
+      "90"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase atribuye el 90 % de las pancreatitis agudas a la colelitiasis, incluyendo expresamente la microlitiasis, y sitúa el alcohol como segunda causa en frecuencia. El resto se reparte entre fármacos, tumores, hipercalcemia, hipertrigliceridemia, anomalías congénitas del páncreas y causas anecdóticas como las picaduras de escorpión, además del grupo idiopático. La etiología no es un dato académico: si el origen es biliar, el episodio se cierra con una colecistectomía que evita la recurrencia, y en presencia de colangitis, ictericia o vía dilatada obliga a una CPRE con esfinterotomía precoz. Por eso la clase exige establecerla en las primeras 24 horas mediante anamnesis, perfil hepático y ecografía, que es definitiva en la pancreatitis por colelitiasis con una sensibilidad del 92 al 96 %. Importa recordar además que entre el 5 y el 15 % quedan como idiopáticas y que más de la mitad de éstas recurren.",
+    "teaching_point": "La colelitiasis causa el 90 % de las pancreatitis agudas; el alcohol es la segunda causa.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 9
+    },
+    "tags": [
+      "etiología",
+      "colelitiasis",
+      "pancreatitis aguda"
+    ]
+  },
+  {
+    "id": "T20-C002",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "corta",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "En la valoración analítica de la gravedad de una pancreatitis aguda, la clase indica medir la proteína C reactiva en dos momentos concretos y fija un umbral por encima del cual se considera signo de gravedad. Indique ese umbral y cuándo debe realizarse la determinación.",
+    "respuesta_canonica": "PCR mayor de 150 mg/l, al diagnóstico y a las 48 horas",
+    "aceptadas": [
+      "PCR > 150 mg/l medida al ingreso y a las 48 h",
+      "proteína C reactiva superior a 150, al diagnóstico y a las 48 horas",
+      "PCR mayor de 150 al diagnóstico y a las 48 h",
+      "150 al ingreso y a las 48 horas"
+    ],
+    "conceptos_clave": [
+      "150",
+      "48"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase separa los parámetros analíticos por su función y coloca la proteína C reactiva entre los de gravedad, indicando medirla al diagnóstico y de nuevo a las 48 horas, con un umbral de 150 mg/l por encima del cual se considera signo de gravedad. En el apartado de diagnóstico de la gravedad añade que una PCR por encima de ese umbral en las primeras 24 horas tiene un valor predictivo positivo de gravedad del 70 al 100 %. La determinación seriada es lo que da valor al dato: una cifra aislada al ingreso puede quedarse corta porque la respuesta inflamatoria todavía no ha alcanzado su pico. Junto a ella la clase sitúa otros parámetros de laboratorio con valor pronóstico, como la procalcitonina para el diagnóstico temprano, el aumento del BUN en las primeras 24 horas, la creatinina y un hematocrito superior al 44 %, que incrementa el riesgo de necrosis. Conviene saber que la propia clase escribe la unidad de dos maneras distintas en dos diapositivas consecutivas, mg/l en el apartado analítico y mg/dl en el de diagnóstico de la gravedad; la unidad correcta es mg/l, y lo que se corrige aquí es la cifra de 150 y el momento de las dos determinaciones, no la unidad.",
+    "teaching_point": "PCR por encima de 150 marca gravedad, y se mide al diagnóstico y a las 48 horas.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 30
+    },
+    "tags": [
+      "PCR",
+      "gravedad",
+      "pancreatitis aguda"
+    ]
+  },
+  {
+    "id": "T20-C003",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "corta",
+    "categoria": "estadificacion",
+    "difficulty": "intermedia",
+    "stem": "En la clasificación de las colecciones de la pancreatitis aguda se distinguen las que aparecen antes y después de la cuarta semana, y también según el tipo de pancreatitis de base. Indique cómo se denomina la colección que aparece después de la cuarta semana en una pancreatitis aguda necrosante.",
+    "respuesta_canonica": "Necrosis encapsulada (walled-off necrosis)",
+    "aceptadas": [
+      "necrosis encapsulada",
+      "walled-off necrosis",
+      "necrosis organizada encapsulada",
+      "WON"
+    ],
+    "conceptos_clave": [
+      "necrosis",
+      "encapsulada"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase organiza las colecciones en una tabla de doble entrada. En la pancreatitis aguda edematosa intersticial, antes de las cuatro semanas se habla de colección aguda líquida peripancreática y, después, de pseudoquiste. En la pancreatitis aguda necrosante, antes de las cuatro semanas se habla de colección aguda necrótica y, después, de necrosis encapsulada. La diferencia importa en la práctica porque determina el contenido esperable y, con él, la vía de tratamiento: una colección con material sólido no se resuelve con un simple drenaje percutáneo de pequeño calibre. Conviene recordar además dos reglas de manejo que la clase subraya: las colecciones no se deben drenar por el riesgo de perder su esterilidad, los abscesos se drenan por vía percutánea y la necrosis pancreática infectada es indicación quirúrgica, retrasando en lo posible la necrosectomía hasta la tercera o cuarta semana.",
+    "teaching_point": "Pancreatitis necrosante y más de cuatro semanas: necrosis encapsulada, no pseudoquiste.",
+    "guideline_ref": "Clasificación de Atlanta, revisión de 2012 (citada en la clase)",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 24
+    },
+    "tags": [
+      "colecciones",
+      "necrosis encapsulada",
+      "Atlanta 2012"
+    ]
+  },
+  {
+    "id": "T20-C004",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "corta",
+    "categoria": "concepto",
+    "difficulty": "basica",
+    "stem": "Un varón de 50 años es diagnosticado de pancreatitis crónica, con calcificaciones pancreáticas en la radiografía simple de abdomen y dilatación irregular del Wirsung en la TC. Indique cuál es la etiología más frecuente de la pancreatitis crónica y el porcentaje aproximado que representa según la clase.",
+    "respuesta_canonica": "El alcohol, en el 70-80 % de los casos",
+    "aceptadas": [
+      "alcohólica, 70-80 %",
+      "consumo de alcohol (70 a 80 %)",
+      "etiología enólica, en torno al 75 %"
+    ],
+    "conceptos_clave": [
+      "alcohol",
+      "70",
+      "80"
+    ],
+    "max_palabras": 20,
+    "explanation": "La clase atribuye a la pancreatitis alcohólica entre el 70 y el 80 % de las pancreatitis crónicas, deja alrededor de un 20 % para las idiopáticas y agrupa el resto en autoinmunes, hereditarias y postraumáticas. En la enumeración de factores de riesgo el alcohol encabeza el grupo toxicometabólico junto al tabaco, la hipercalcemia y el hiperparatiroidismo, seguido de los grupos idiopático, genético, autoinmune, recurrente-severo y obstructivo. Conviene ligar el dato a la patogenia expuesta en la clase, el modelo SAPE, en el que un evento centinela, típicamente una pancreatitis aguda, inicia un proceso de fibrosis mediado por la respuesta antiinflamatoria y protagonizado por la célula estrellada pancreática. Las calcificaciones que menciona el enunciado aparecen en la radiografía simple en un 30 a 40 % de los casos, y la TC es el método más sensible para detectarlas junto a la dilatación del Wirsung.",
+    "teaching_point": "El alcohol explica el 70-80 % de las pancreatitis crónicas; el 20 % son idiopáticas.",
+    "guideline_ref": "Cirugía AEC 2022, capítulo de pancreatitis crónica",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 55
+    },
+    "tags": [
+      "pancreatitis crónica",
+      "etiología",
+      "alcohol"
+    ]
+  },
+  {
+    "id": "T20-L001",
+    "tema": 20,
+    "bloque": "pancreas",
+    "formato": "larga",
+    "categoria": "caso_clinico",
+    "difficulty": "intermedia",
+    "stem": "Un varón de 60 años ingresa por pancreatitis aguda de origen biliar y en las primeras 48 horas desarrolla criterios de gravedad. Exponga cómo se establece el diagnóstico de gravedad en la pancreatitis aguda, qué complicaciones locales pueden aparecer y cómo se clasifican las colecciones, y cuáles son los pilares del tratamiento de la pancreatitis aguda grave, incluyendo las indicaciones de descompresión biliar y de cirugía.",
+    "max_palabras": 350,
+    "rubrica": [
+      {
+        "elemento": "Enumera las herramientas de valoración de la gravedad: evaluación clínica, PCR, Ranson, Glasgow, APACHE II, SOFA y TC con Balthazar",
+        "puntos": 0.38,
+        "claves": [
+          "Ranson",
+          "Glasgow",
+          "APACHE",
+          "Balthazar"
+        ]
+      },
+      {
+        "elemento": "Aporta umbrales correctos: tres o más criterios de Ranson o Glasgow, ocho o más puntos de APACHE II y PCR mayor de 150",
+        "puntos": 0.38,
+        "claves": [
+          "tres o más",
+          "150"
+        ]
+      },
+      {
+        "elemento": "Define SIRS con dos o más criterios y menciona el fallo orgánico persistente como determinante pronóstico",
+        "puntos": 0.3,
+        "claves": [
+          "SIRS",
+          "dos o más",
+          "fallo orgánico"
+        ]
+      },
+      {
+        "elemento": "Enumera las complicaciones locales: colecciones, disfunción del vaciado gástrico, trombosis esplénica, mesentérica o portal, hemorragia digestiva y necrosis colónica",
+        "puntos": 0.38,
+        "claves": [
+          "colecciones",
+          "trombosis",
+          "hemorragia",
+          "necrosis colónica"
+        ]
+      },
+      {
+        "elemento": "Clasifica las colecciones por tipo de pancreatitis y por la cuarta semana: CALP y pseudoquiste frente a CAN y necrosis encapsulada",
+        "puntos": 0.38,
+        "claves": [
+          "pseudoquiste",
+          "necrosis encapsulada"
+        ]
+      },
+      {
+        "elemento": "Expone los pilares del tratamiento de la forma grave: soporte hemodinámico en UCI, nutrición enteral, evitar la progresión a necrosis, modular la respuesta sistémica y prevenir la infección",
+        "puntos": 0.45,
+        "claves": [
+          "UCI",
+          "nutrición enteral",
+          "necrosis",
+          "infección"
+        ]
+      },
+      {
+        "elemento": "Indica la CPRE con esfinterotomía en 48-72 horas ante colangitis, sepsis, ictericia o vía biliar dilatada",
+        "puntos": 0.38,
+        "claves": [
+          "CPRE",
+          "esfinterotomía",
+          "colangitis"
+        ]
+      },
+      {
+        "elemento": "Precisa las indicaciones quirúrgicas: síndrome compartimental con descompresión temprana y necrosis infectada con necrosectomía diferida a la tercera o cuarta semana, sin drenar colecciones estériles",
+        "puntos": 0.35,
+        "claves": [
+          "compartimental",
+          "necrosis infectada",
+          "cuarta semana",
+          "estéril"
+        ]
+      }
+    ],
+    "respuesta_modelo": "Se consideran signos de gravedad tres o más criterios de Ranson o de Glasgow modificado, ocho o más puntos de APACHE II, líquido ascítico hemorrágico, signos de Grey-Turner o de Cullen, un Balthazar D-E y tres o más puntos en el CT Severity Index. Entre los datos del paciente pesan la edad superior a 75 años, el índice de masa corporal por encima de 30, la presencia de SIRS, definido por dos o más criterios entre temperatura, frecuencia cardíaca, frecuencia respiratoria y recuento leucocitario, y sobre todo el fallo orgánico persistente. En el laboratorio la proteína C reactiva por encima de 150 mg/l, medida al diagnóstico y a las 48 horas, es el marcador de referencia, junto a procalcitonina, aumento del BUN, creatinina y hematocrito superior al 44 %. La TC rinde más entre las 48 y las 72 horas. Las complicaciones locales incluyen las colecciones, que son las más frecuentes, la disfunción del vaciado gástrico, la trombosis de las venas esplénica, mesentérica o portal, la hemorragia digestiva y la necrosis colónica. Las colecciones se clasifican según el tipo de pancreatitis y el corte de la cuarta semana: colección aguda líquida peripancreática y después pseudoquiste en la forma edematosa; colección aguda necrótica y después necrosis encapsulada en la necrosante. El tratamiento de la forma grave se apoya en cinco pilares: corregir y mantener la situación hemodinámica con ingreso en UCI; mantener la situación metabólica con nutrición enteral, preferible a la parenteral por ser más segura, más barata y mantener la permeabilidad de la mucosa; evitar la progresión de la necrosis mediante soporte de la perfusión, reposo de la glándula e inhibidores de proteasas; modular la respuesta sistémica; y prevenir la infección con descontaminación intestinal y nutrición enteral, reservando la profilaxis antibiótica a las necrosis extensas. Ante colangitis, sepsis, ictericia o vía biliar dilatada procede CPRE con esfinterotomía en las primeras 48 a 72 horas. La cirugía se reserva al síndrome compartimental, con descompresión temprana, y a la necrosis infectada, con necrosectomía limitada y lavado, retrasada si es posible a la tercera o cuarta semana; las colecciones estériles no se drenan.",
+    "explanation": "La pregunta recorre el eje central de la clase, que es el paso de la pancreatitis leve, resuelta con reposo, analgesia y sueroterapia, a la grave, que exige estratificación y cuidados intensivos. El alumno debe demostrar tres cosas. Primera, que conoce las herramientas de gravedad y sus umbrales, sin mezclar los criterios de Ranson con los puntos de APACHE. Segunda, que domina la clasificación de las colecciones en sus dos ejes, porque de ella depende el gesto terapéutico. Tercera, y es donde se separan las respuestas buenas de las excelentes, que sabe cuándo intervenir y cuándo esperar: descompresión biliar precoz si hay obstrucción con repercusión séptica, descompresión abdominal temprana si hay síndrome compartimental, y necrosectomía sólo ante infección demostrada y lo más tarde posible. Una respuesta que proponga cirugía precoz de la necrosis o drenaje de colecciones estériles falla en lo esencial aunque el resto esté bien.",
+    "teaching_point": "En la pancreatitis grave se descomprime pronto la vía biliar y el abdomen, y se opera tarde la necrosis, sólo si está infectada.",
+    "guideline_ref": "Clasificación de Atlanta, revisión de 2012 (citada en la clase); Cirugía AEC 2022, capítulo de pancreatitis aguda",
+    "fuente_clase": {
+      "archivo": "clase pancreatitis.pdf",
+      "pagina": 43
+    },
+    "tags": [
+      "pancreatitis aguda grave",
+      "gravedad",
+      "tratamiento",
+      "colecciones"
+    ]
+  }
+]

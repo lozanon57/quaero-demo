@@ -1,0 +1,470 @@
+{
+ "temas": [
+  {
+   "n": 1,
+   "titulo": "Esófago: enfermedades funcionales",
+   "descripcion": "Divertículos, acalasia, fístulas, hernia de hiato, RGE, esófago de Barrett",
+   "bloque": "esofago",
+   "bloque_nombre": "Esófago",
+   "fuentes": [
+    "Tema 1pdf_Enfermedades funcionales_2025.pdf"
+   ],
+   "chars": 21650,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 24516
+  },
+  {
+   "n": 2,
+   "titulo": "Esófago: tumores",
+   "descripcion": "Tumores benignos y cáncer de esófago",
+   "bloque": "esofago",
+   "bloque_nombre": "Esófago",
+   "fuentes": [
+    "Tema 2pdf_Tumores de esófago.pdf"
+   ],
+   "chars": 41083,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 44032
+  },
+  {
+   "n": 3,
+   "titulo": "Estómago: patología benigna",
+   "descripcion": "Complicaciones del ulcus péptico, Dieulafoy, gastritis de estrés",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "fuentes": [
+    "03. Pat Gástrica B.pdf"
+   ],
+   "chars": 13678,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 14973
+  },
+  {
+   "n": 4,
+   "titulo": "Estómago: cáncer gástrico y de cardias",
+   "descripcion": "Cáncer gástrico y de la unión esofagogástrica",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "fuentes": [
+    "04.- Pat Gástrica M.pdf"
+   ],
+   "chars": 6800,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 7714
+  },
+  {
+   "n": 5,
+   "titulo": "Cirugía bariátrica",
+   "descripcion": "Obesidad y cirugía metabólica",
+   "bloque": "estomago",
+   "bloque_nombre": "Estómago y cirugía bariátrica",
+   "fuentes": [
+    "5 Obesidad.pdf"
+   ],
+   "chars": 11188,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 12415
+  },
+  {
+   "n": 6,
+   "titulo": "Diafragma y bazo",
+   "descripcion": "Patología diafragmática y esplénica",
+   "bloque": "pared_diafragma",
+   "bloque_nombre": "Pared abdominal, diafragma y bazo",
+   "fuentes": [
+    "06.- Diafragma . Bazo.pdf"
+   ],
+   "chars": 8988,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 10383
+  },
+  {
+   "n": 7,
+   "titulo": "Peritoneo, epiplón y mesenterio",
+   "descripcion": "Carcinomatosis peritoneal",
+   "bloque": "peritoneo",
+   "bloque_nombre": "Peritoneo y peritonitis",
+   "fuentes": [
+    "07.- Peritoneo. Mesenterio.Epiplon.pdf"
+   ],
+   "chars": 7735,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 9239
+  },
+  {
+   "n": 8,
+   "titulo": "Apendicitis aguda y abdomen agudo",
+   "descripcion": "Apendicitis aguda; aproximación al abdomen agudo",
+   "bloque": "abdomen_agudo",
+   "bloque_nombre": "Abdomen agudo",
+   "fuentes": [
+    "08.- AA.Apend aguda.pdf"
+   ],
+   "chars": 11494,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 12863
+  },
+  {
+   "n": 9,
+   "titulo": "Abdomen agudo: obstrucción y trauma",
+   "descripcion": "Obstrucción intestinal y traumatismo abdominal",
+   "bloque": "abdomen_agudo",
+   "bloque_nombre": "Abdomen agudo",
+   "fuentes": [
+    "09.- Obstrucción intestinal. AA trauma.pdf"
+   ],
+   "chars": 8247,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 10035
+  },
+  {
+   "n": 10,
+   "titulo": "Peritonitis y abscesos intraabdominales",
+   "descripcion": "Peritonitis; abscesos",
+   "bloque": "peritoneo",
+   "bloque_nombre": "Peritoneo y peritonitis",
+   "fuentes": [
+    "Tema 10.Peritonitis. Abscesos intrabdominales.pdf"
+   ],
+   "chars": 12470,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 13086
+  },
+  {
+   "n": 11,
+   "titulo": "Retroperitoneo",
+   "descripcion": "Trauma y tumores retroperitoneales",
+   "bloque": "retroperitoneo",
+   "bloque_nombre": "Retroperitoneo",
+   "fuentes": [
+    "11.- Retroperitoneo.pdf"
+   ],
+   "chars": 7851,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 9155
+  },
+  {
+   "n": 12,
+   "titulo": "Pared abdominal: hernias y eventraciones",
+   "descripcion": "Hernias inguinocrurales, eventraciones",
+   "bloque": "pared_diafragma",
+   "bloque_nombre": "Pared abdominal, diafragma y bazo",
+   "fuentes": [
+    "Tema 12.Hernia y pared abdominal.pdf"
+   ],
+   "chars": 4395,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 5310
+  },
+  {
+   "n": 13,
+   "titulo": "Hígado: anatomía, embriología, fisiología y volumetría",
+   "descripcion": "Segmentación hepática, volumetría",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "fuentes": [
+    "13.- Anatomia hepática.pdf"
+   ],
+   "chars": 4860,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 5759
+  },
+  {
+   "n": 14,
+   "titulo": "Hígado: hepatitis, cirrosis, hipertensión portal, abscesos y quiste hidatídico",
+   "descripcion": "Hepatopatía crónica, HTP, absceso hepático, hidatidosis",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "fuentes": [
+    "clasehidatidosis.pdf"
+   ],
+   "chars": 10602,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 12421
+  },
+  {
+   "n": 15,
+   "titulo": "Hígado: tumores benignos",
+   "descripcion": "Adenoma, hiperplasia nodular focal, tumores quísticos",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "fuentes": [
+    "clase tumore hepaticos benignos.pdf"
+   ],
+   "chars": 13014,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 15693
+  },
+  {
+   "n": 16,
+   "titulo": "Hígado: tumores malignos",
+   "descripcion": "Hepatocarcinoma y metástasis hepáticas",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "fuentes": [
+    "Tumores Hepáticos2023-2024.pdf"
+   ],
+   "chars": 30824,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 36448
+  },
+  {
+   "n": 17,
+   "titulo": "Trasplante hepático, pancreático e intestinal",
+   "descripcion": "Indicaciones y principios del trasplante abdominal",
+   "bloque": "higado",
+   "bloque_nombre": "Hígado y trasplante",
+   "fuentes": [
+    "Clase de T Hepático_2022-Def.pdf"
+   ],
+   "chars": 0,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 137
+  },
+  {
+   "n": 18,
+   "titulo": "Vías biliares: anatomía, litiasis y tumores benignos",
+   "descripcion": "Colelitiasis, coledocolitiasis, colecistitis, tumores benignos",
+   "bloque": "biliar",
+   "bloque_nombre": "Vías biliares",
+   "fuentes": [
+    "Via Biliar T Benignos UCM alumnos.pptx"
+   ],
+   "chars": 14562,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 17486
+  },
+  {
+   "n": 19,
+   "titulo": "Vías biliares: tumores malignos",
+   "descripcion": "Colangiocarcinoma y cáncer de vesícula",
+   "bloque": "biliar",
+   "bloque_nombre": "Vías biliares",
+   "fuentes": [
+    "Tumores malignos biliares UCM alumnos.pptx"
+   ],
+   "chars": 15650,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 18805
+  },
+  {
+   "n": 20,
+   "titulo": "Páncreas: anatomía y pancreatitis",
+   "descripcion": "Pancreatitis aguda y crónica",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "fuentes": [
+    "clase pancreatitis.pdf",
+    "capitulopancreatitis.pdf"
+   ],
+   "chars": 141032,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 145498
+  },
+  {
+   "n": 21,
+   "titulo": "Páncreas: cáncer de páncreas y periampular",
+   "descripcion": "Adenocarcinoma ductal y tumores periampulares",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "fuentes": [
+    "ADC pancreas UCM alumnos.pptx"
+   ],
+   "chars": 14628,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 16455
+  },
+  {
+   "n": 22,
+   "titulo": "Páncreas endocrino y tumores neuroendocrinos",
+   "descripcion": "TNE pancreáticos; cirugía de la diabetes",
+   "bloque": "pancreas",
+   "bloque_nombre": "Páncreas",
+   "fuentes": [
+    "TNE pancreas UCM alumnos.pptx"
+   ],
+   "chars": 13017,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 14801
+  },
+  {
+   "n": 23,
+   "titulo": "Síndromes vasculares del aparato digestivo",
+   "descripcion": "Isquemia mesentérica aguda y crónica",
+   "bloque": "vascular_digestivo",
+   "bloque_nombre": "Síndromes vasculares digestivos",
+   "fuentes": [
+    "clase sdr vasculares.pdf"
+   ],
+   "chars": 19933,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 22894
+  },
+  {
+   "n": 24,
+   "titulo": "Intestino delgado: enfermedad inflamatoria intestinal",
+   "descripcion": "Crohn y colitis ulcerosa",
+   "bloque": "intestino_delgado",
+   "bloque_nombre": "Intestino delgado",
+   "fuentes": [
+    "tema 24 Enfermedad Inflamatoria Intestinal.2024.pptx"
+   ],
+   "chars": 10870,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 13473
+  },
+  {
+   "n": 25,
+   "titulo": "Intestino delgado: tumores y poliposis",
+   "descripcion": "Neoplasias de intestino delgado; síndromes de poliposis",
+   "bloque": "intestino_delgado",
+   "bloque_nombre": "Intestino delgado",
+   "fuentes": [
+    "25.- neoplasias ID.pdf"
+   ],
+   "chars": 10986,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 12007
+  },
+  {
+   "n": 26,
+   "titulo": "Colorrectal: anatomía, diverticulosis y vólvulo",
+   "descripcion": "Anatomía y fisiología del colon; diverticulosis; vólvulo",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "fuentes": [
+    "tema 26 Anatomia colon. Diverticulosis. Volvulo 2024.pptx"
+   ],
+   "chars": 11032,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 13578
+  },
+  {
+   "n": 27,
+   "titulo": "Colorrectal: suelo pélvico y patología anal benigna",
+   "descripcion": "Hemorroides, fisura, abscesos, fístula, incontinencia",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "fuentes": [
+    "tema 27 Anatomia y fisiopatología pélvica. Patología anal  benigna 2024.pptx"
+   ],
+   "chars": 9659,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 13741
+  },
+  {
+   "n": 28,
+   "titulo": "Colorrectal: carcinogénesis y cáncer de colon",
+   "descripcion": "Carcinogénesis colorrectal; tumores malignos de colon",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "fuentes": [
+    "28.- carcinogénesis.pdf"
+   ],
+   "chars": 6052,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 6860
+  },
+  {
+   "n": 29,
+   "titulo": "Colorrectal: cáncer de recto y ano",
+   "descripcion": "Tumores malignos de recto y de ano",
+   "bloque": "colorrectal",
+   "bloque_nombre": "Colorrectal",
+   "fuentes": [
+    "tema 29 Ca recto clase Medicina 2024.pptx"
+   ],
+   "chars": 10259,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 12418
+  },
+  {
+   "n": 30,
+   "titulo": "Pelvis: exenteraciones, sacrectomías y pelvectomías",
+   "descripcion": "Cirugía pélvica compleja",
+   "bloque": "pelvis",
+   "bloque_nombre": "Pelvis",
+   "fuentes": [
+    "30.- Pelvis.pdf"
+   ],
+   "chars": 2590,
+   "mcq": 12,
+   "cortas": 4,
+   "largas": 1,
+   "corpus_chars": 3091
+  }
+ ],
+ "bloques": {
+  "esofago": "Esófago",
+  "estomago": "Estómago y cirugía bariátrica",
+  "pared_diafragma": "Pared abdominal, diafragma y bazo",
+  "peritoneo": "Peritoneo y peritonitis",
+  "abdomen_agudo": "Abdomen agudo",
+  "retroperitoneo": "Retroperitoneo",
+  "higado": "Hígado y trasplante",
+  "biliar": "Vías biliares",
+  "pancreas": "Páncreas",
+  "vascular_digestivo": "Síndromes vasculares digestivos",
+  "intestino_delgado": "Intestino delgado",
+  "colorrectal": "Colorrectal",
+  "pelvis": "Pelvis"
+ }
+}
