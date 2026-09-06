@@ -19,8 +19,23 @@ export const SUPABASE_ANON_KEY = ''
  */
 export const ADMINS = Object.freeze([
   'lozanon57@hotmail.com',   // Pablo Lozano Lominchar
-  'lgonza01@ucm.es',         // Luis González Bayón
+  'luisgbayon@gmail.com',    // Luis González Bayón
 ])
+
+/**
+ * Quien puede abrir la revision del banco: recorrer las 503 preguntas con la
+ * clave y la explicacion a la vista, marcar las que hay que repasar y anotar
+ * por que. Es la misma lista que ADMINS, pero separada a proposito: revisar el
+ * banco y ver el panel de uso son dos permisos distintos y no tienen por que ir
+ * juntos cuando se sume alguien mas.
+ */
+export const REVISORES = Object.freeze([
+  'lozanon57@hotmail.com',
+  'luisgbayon@gmail.com',
+])
+
+/** A donde va el informe de revision cuando se cierra la vuelta al banco. */
+export const CORREO_COORDINACION = 'lozanon57@hotmail.com'
 
 /**
  * Dominios de correo admitidos. Vacio = cualquiera, que es lo pedido: basta

@@ -94,6 +94,16 @@ export function aviso(texto, tipo = 'info') {
   return h`<div class="aviso-caja ${tipo}">${crudo(texto)}</div>`
 }
 
+/** Descarga un texto construido en memoria, sin pasar por el servidor. */
+export function descargarTexto(nombre, texto, tipo = 'text/markdown;charset=utf-8') {
+  const url = URL.createObjectURL(new Blob(['\ufeff' + texto], { type: tipo }))
+  const a = Object.assign(document.createElement('a'), { href: url, download: nombre })
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
+  URL.revokeObjectURL(url)
+}
+
 /** Descarga un CSV construido en memoria. */
 export function descargarCSV(nombre, filas) {
   if (!filas.length) return

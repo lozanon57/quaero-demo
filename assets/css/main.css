@@ -306,6 +306,13 @@ textarea { resize: vertical; min-height: 8rem; line-height: 1.65; font-family: v
 .opcion.incorrecta .letra::after { content: '✕'; position: absolute; margin-left: 2.6rem; color: var(--mal); font-size: .95rem; }
 .opcion:disabled { cursor: default; opacity: 1; }
 
+/* En la revision del banco las opciones no se pulsan: se leen. Un div con
+   cursor de mano y desplazamiento al pasar por encima promete una accion que
+   no existe. */
+div.opcion { cursor: default; }
+div.opcion:hover { padding-left: .2rem; background: transparent; }
+div.opcion.correcta, div.opcion.correcta:hover { background: var(--bien-fondo); }
+
 /* ---------------------------------------------------------- anotación */
 /* La explicación es la nota al pie de la lámina, no una caja de alerta. */
 .explicacion {

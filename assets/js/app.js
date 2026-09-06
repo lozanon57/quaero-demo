@@ -6,7 +6,7 @@
  * vistas; las vistas no se hablan entre ellas.
  */
 import { h, crudo, render, alPulsar } from './ui.js'
-import { CONFIG, MODO_LOCAL, FASE_CALIBRACION, DEMOSTRACION } from './config.js'
+import { CONFIG, MODO_LOCAL, FASE_CALIBRACION, DEMOSTRACION, REVISORES } from './config.js'
 import { db } from './db.js'
 import { telemetria } from './telemetria.js'
 import { seleccionar, simulacroCompleto, regimenDificultad } from './banco.js'
@@ -18,6 +18,7 @@ import { vistaInicio } from './vistas/inicio.js'
 import { vistaQuiz, vistaResultado } from './vistas/quiz-vista.js'
 import { vistaAdmin } from './vistas/admin.js'
 import { vistaPerfil } from './vistas/perfil.js'
+import { vistaRevision } from './vistas/revision.js'
 
 const app = document.querySelector('#app')
 const nav = document.querySelector('#nav')
@@ -39,12 +40,14 @@ function pintarNav() {
   // se encarga RLS en el servidor — pero enseñarle a un alumno una puerta que
   // no puede abrir solo genera preguntas.
   const esAdmin = ['docente', 'custodio'].includes(estado.perfil.rol)
+  const esRevisor = REVISORES.includes((estado.perfil.email ?? '').toLowerCase())
   render(
     nav,
     h`
     <button class="sutil pequeno" data-ruta="#/">Inicio</button>
     <button class="sutil pequeno" data-ruta="#/perfil">Mi participación</button>
     ${crudo(esAdmin ? '<button class="sutil pequeno" data-ruta="#/panel">Panel</button>' : '')}
+    ${crudo(esRevisor ? '<button class="sutil pequeno" data-ruta="#/revision">Revisar el banco</button>' : '')}
     <button class="sutil pequeno" id="salir">Salir</button>`,
   )
 }
@@ -167,6 +170,20 @@ async function enrutar() {
         await arrancar()
       },
     })
+    return
+  }
+
+  if (ruta.startsWith('#/revision')) {
+    // La revision del banco es una lista nominal, no un rol: es quien ha
+    // aceptado revisarlo, y hoy son dos personas.
+    if (!REVISORES.includes((estado.perfil.email ?? '').toLowerCase())) {
+      render(app, h`<div class="tarjeta"><h1>Sin acceso</h1>
+        <p>La revisión del banco está abierta solo a quienes la han asumido.</p>
+        <button class="primario" data-ruta="#/">Volver</button></div>`)
+      alPulsar(app, '[data-ruta]', () => { location.hash = '#/' })
+      return
+    }
+    await vistaRevision(app)
     return
   }
 

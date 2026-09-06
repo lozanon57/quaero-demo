@@ -17,7 +17,9 @@ const uuid = () =>
 // ------------------------------------------------------------- local
 function leerLocal() {
   try {
-    return JSON.parse(localStorage.getItem(CLAVE)) ?? vacio()
+    // Mezclado con vacio(): un estado guardado antes de que existiera una tabla
+    // no puede dejar sin definir esa tabla, o el primer spread la revienta.
+    return { ...vacio(), ...(JSON.parse(localStorage.getItem(CLAVE)) ?? {}) }
   } catch {
     return vacio()
   }
@@ -30,6 +32,7 @@ const vacio = () => ({
   intentos: [],
   erratas: [],
   cuestionarios: [],
+  marcas: [],
 })
 
 function escribirLocal(estado) {
@@ -131,6 +134,20 @@ const localAdapter = {
 
   async reportarErrata(e) {
     return insertarLocal('erratas', { ...e, estado: 'abierta' })
+  },
+
+  // Una marca por pregunta y revisor: volver sobre una pregunta corrige el
+  // dictamen anterior en lugar de acumular dos opiniones contradictorias.
+  async guardarMarca(m) {
+    const estado = leerLocal()
+    const resto = estado.marcas.filter((x) => x.pregunta_id !== m.pregunta_id)
+    const fila = { id: uuid(), creado_en: new Date().toISOString(), ...m }
+    escribirLocal({ ...estado, marcas: [...resto, fila] })
+    return fila
+  },
+
+  async misMarcas() {
+    return clon(leerLocal().marcas)
   },
 
   async guardarCuestionario(c) {
@@ -272,6 +289,22 @@ function supabaseAdapter(sb) {
     async misCuestionarios() {
       const id = await uid()
       return lanzar(await sb.from('cuestionarios').select('*').eq('perfil_id', id)) ?? []
+    },
+
+    async guardarMarca(m) {
+      const perfil_id = await uid()
+      return lanzar(
+        await sb
+          .from('marcas_revision')
+          .upsert({ ...m, perfil_id }, { onConflict: 'perfil_id,pregunta_id' })
+          .select()
+          .single(),
+      )
+    },
+
+    async misMarcas() {
+      const id = await uid()
+      return lanzar(await sb.from('marcas_revision').select('*').eq('perfil_id', id)) ?? []
     },
 
     /**
