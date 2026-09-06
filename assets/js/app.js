@@ -6,7 +6,7 @@
  * vistas; las vistas no se hablan entre ellas.
  */
 import { h, crudo, render, alPulsar } from './ui.js'
-import { CONFIG, MODO_LOCAL, FASE_CALIBRACION, DEMOSTRACION, REVISORES } from './config.js'
+import { CONFIG, MODO_LOCAL, FASE_CALIBRACION, DEMOSTRACION, REVISORES, BANCO_VALIDADO } from './config.js'
 import { db } from './db.js'
 import { telemetria } from './telemetria.js'
 import { seleccionar, simulacroCompleto, regimenDificultad } from './banco.js'
@@ -170,6 +170,25 @@ async function enrutar() {
         await arrancar()
       },
     })
+    return
+  }
+
+  // Puerta del banco. El alumno ya ha entrado y ya ha decidido sobre el
+  // consentimiento —esas dos cosas no dependen de la revision—, pero no ve una
+  // sola pregunta hasta que la revision docente esta cerrada.
+  if (!BANCO_VALIDADO && !REVISORES.includes((estado.perfil.email ?? '').toLowerCase())) {
+    render(
+      app,
+      h`<div class="tarjeta" style="max-width:38rem;margin:2rem auto">
+        <h1>Todavía no</h1>
+        <p>El banco está en revisión por el profesorado. Cada pregunta se está
+        leyendo una por una antes de que la veas, y hasta que esa vuelta termine
+        no se abre la práctica.</p>
+        <p style="color:var(--tinta-suave)">Tu acceso ya está hecho y tu decisión
+        sobre el estudio, guardada. No hay que volver a rellenar nada: cuando se
+        abra, entras y empiezas.</p>
+      </div>`,
+    )
     return
   }
 

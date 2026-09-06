@@ -9,6 +9,11 @@
  * El dictamen se guarda en cuanto se pulsa. Quinientas tres preguntas no se
  * revisan de una sentada, y perder media tarde por cerrar una pestaña sería
  * motivo suficiente para no volver a abrirla.
+ *
+ * La cola de trabajo son las PENDIENTES, y solo esas: en cuanto una pregunta
+ * recibe dictamen sale de la cola y no vuelve a aparecer. El contador resta.
+ * Volver a ver dos veces la misma pregunta, en una tarea de quinientas tres, no
+ * es una molestia menor: es lo que hace que se abandone a la mitad.
  */
 import { h, crudo, render, alPulsar, esc, nuevaVista, descargarTexto } from '../ui.js'
 import { CORREO_COORDINACION, MODO_LOCAL } from '../config.js'
@@ -72,33 +77,44 @@ export async function vistaRevision(destino) {
   }
 
   let marcas = new Map(marcasIniciales.map((m) => [m.pregunta_id, m]))
-  // Se empieza donde se dejó: la primera sin dictamen.
-  let i = Math.max(0, preguntas.findIndex((p) => !marcas.has(p.id)))
-  if (i === -1) i = 0
+  let mirandoRevisadas = false
+  let i = 0
 
   const nodo = render(destino, h`<div></div>`)
 
-  const decididas = () => marcas.size
+  const pendientes = () => preguntas.filter((p) => !marcas.has(p.id))
+  const revisadas = () => preguntas.filter((p) => marcas.has(p.id))
+  const cola = () => (mirandoRevisadas ? revisadas() : pendientes())
   const senaladas = () => [...marcas.values()].filter((m) => m.estado === 'revisar').length
 
   function pintar() {
-    const p = preguntas[i]
+    const lista = cola()
+    if (!lista.length) return mirandoRevisadas ? volverAPendientes() : pintarFinal()
+    i = Math.min(Math.max(0, i), lista.length - 1)
+
+    const p = lista[i]
     const m = marcas.get(p.id)
-    const hechas = decididas()
+    const quedan = pendientes().length
 
     render(
       nodo,
       h`
       <section class="tarjeta">
         <div class="quiz-cabecera">
-          <span class="pildora">${hechas} de ${preguntas.length} revisadas · ${senaladas()} señaladas</span>
+          <span class="pildora">${
+            mirandoRevisadas
+              ? `Ya revisadas · ${i + 1} de ${lista.length}`
+              : `Quedan ${quedan} de ${preguntas.length} · ${senaladas()} señalada${
+                  senaladas() === 1 ? '' : 's'
+                }`
+          }</span>
           <button class="sutil pequeno" id="informe">Generar el documento</button>
         </div>
 
         <div class="lamina">
           <div class="margen">
             ${crudo(
-              `<span class="numero">${i + 1}</span>${esc(p.id)}<br>Tema ${Number(p.tema)}<br>${esc(
+              `<span class="numero">${quedan}</span>${esc(p.id)}<br>Tema ${Number(p.tema)}<br>${esc(
                 FORMATO[p.formato] ?? p.formato,
               )}<br>${esc(p.difficulty ?? '')}`,
             )}
@@ -135,9 +151,13 @@ export async function vistaRevision(destino) {
             <div class="fila" style="margin-top:1.4rem">
               <button class="sutil pequeno" id="anterior" ${i === 0 ? 'disabled' : ''}>Anterior</button>
               <button class="sutil pequeno" id="siguiente" ${
-                i === preguntas.length - 1 ? 'disabled' : ''
+                i === lista.length - 1 ? 'disabled' : ''
               }>Siguiente</button>
-              <button class="sutil pequeno" id="pendiente">Ir a la primera sin revisar</button>
+              <button class="sutil pequeno" id="conmutar">${
+                mirandoRevisadas
+                  ? 'Volver a las pendientes'
+                  : `Ver las ${marcas.size} ya revisadas`
+              }</button>
             </div>
           </div>
         </div>
@@ -146,7 +166,9 @@ export async function vistaRevision(destino) {
   }
 
   async function decidir(estado) {
-    const p = preguntas[i]
+    const lista = cola()
+    const p = lista[i]
+    if (!p) return
     const nota = nodo.querySelector('#nota')?.value ?? ''
     const fila = await capa.guardarMarca({
       pregunta_id: p.id,
@@ -157,8 +179,35 @@ export async function vistaRevision(destino) {
     })
     // Mapa nuevo, no mutación del anterior: el estado de la vista se sustituye.
     marcas = new Map([...marcas, [p.id, { ...fila, pregunta_id: p.id, estado, nota }]])
-    if (i < preguntas.length - 1) i += 1
+    // En la cola de pendientes no se avanza: la pregunta acaba de salir de la
+    // cola y la siguiente ocupa su sitio. Avanzar aquí se saltaría una.
+    if (mirandoRevisadas && i < cola().length - 1) i += 1
     pintar()
+  }
+
+  function volverAPendientes() {
+    mirandoRevisadas = false
+    i = 0
+    pintar()
+  }
+
+  /** No quedan pendientes: la vuelta al banco está cerrada. */
+  function pintarFinal() {
+    render(
+      nodo,
+      h`
+      <section class="tarjeta">
+        <h1>Banco revisado entero</h1>
+        <p>Las <strong>${preguntas.length} preguntas</strong> tienen dictamen: has
+        señalado ${senaladas()} para repasar y el resto quedan dadas por buenas.</p>
+        <p>Genera el documento y mándalo: con la revisión cerrada, la plataforma
+        puede abrirse a los alumnos.</p>
+        <div class="fila" style="margin-top:1.2rem">
+          <button class="primario" id="informe">Generar el documento</button>
+          <button class="sutil pequeno" id="conmutar">Repasar las ya revisadas</button>
+        </div>
+      </section>`,
+    )
   }
 
   function generarInforme() {
@@ -206,9 +255,9 @@ export async function vistaRevision(destino) {
     i = Math.min(preguntas.length - 1, i + 1)
     pintar()
   })
-  alPulsar(nodo, '#pendiente', () => {
-    const j = preguntas.findIndex((p) => !marcas.has(p.id))
-    i = j === -1 ? i : j
+  alPulsar(nodo, '#conmutar', () => {
+    mirandoRevisadas = !mirandoRevisadas
+    i = 0
     pintar()
   })
   alPulsar(nodo, '#informe', generarInforme)

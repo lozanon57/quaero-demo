@@ -127,3 +127,16 @@ export const CLASES_PUBLICADAS = false
 
 /** Cartel de que esto es una demostración, no la plataforma en producción. */
 export const DEMOSTRACION = true
+
+/**
+ * ¿Está cerrada la revisión docente del banco?
+ *
+ * Mientras esté en false, el alumno entra, ve la hoja de información y decide,
+ * pero no accede a las preguntas. No es una cautela de más: el estudio mide las
+ * propiedades de los ítems, y un ítem retirado o corregido a mitad de la
+ * recogida ya no tiene una sola dificultad, tiene dos. Abrir antes de cerrar la
+ * revisión estropea justamente lo que se quiere medir.
+ *
+ * Se pone en true cuando el revisor termina las 503, no antes.
+ */
+export const BANCO_VALIDADO = false
