@@ -104,11 +104,15 @@ export async function vistaRevision(destino) {
           <span class="pildora">${
             mirandoRevisadas
               ? `Ya revisadas · ${i + 1} de ${lista.length}`
-              : `Quedan ${quedan} de ${preguntas.length} · ${senaladas()} señalada${
+              : `Quedan ${quedan} de ${preguntas.length}`
+          }</span>
+          <span class="ayuda" style="margin:0">${
+            marcas.size === 0
+              ? 'Todavía no has revisado ninguna'
+              : `${marcas.size} revisada${marcas.size === 1 ? '' : 's'} · ${senaladas()} señalada${
                   senaladas() === 1 ? '' : 's'
                 }`
           }</span>
-          <button class="sutil pequeno" id="informe">Generar el documento</button>
         </div>
 
         <div class="lamina">
@@ -148,16 +152,20 @@ export async function vistaRevision(destino) {
               }</span>
             </div>
 
-            <div class="fila" style="margin-top:1.4rem">
+            <div class="fila" style="margin-top:1.6rem;border-top:1px solid var(--filete);padding-top:.9rem">
               <button class="sutil pequeno" id="anterior" ${i === 0 ? 'disabled' : ''}>Anterior</button>
               <button class="sutil pequeno" id="siguiente" ${
                 i === lista.length - 1 ? 'disabled' : ''
               }>Siguiente</button>
-              <button class="sutil pequeno" id="conmutar">${
-                mirandoRevisadas
-                  ? 'Volver a las pendientes'
-                  : `Ver las ${marcas.size} ya revisadas`
-              }</button>
+              ${crudo(
+                marcas.size
+                  ? `<button class="sutil pequeno" id="conmutar">${
+                      mirandoRevisadas ? 'Volver a las pendientes' : `Ver las ${marcas.size} ya revisadas`
+                    }</button>
+                     <button class="sutil pequeno" id="informe">Generar el documento</button>
+                     <button class="sutil pequeno peligro empuja" id="reiniciar">Empezar de cero</button>`
+                  : '',
+              )}
             </div>
           </div>
         </div>
@@ -261,6 +269,16 @@ export async function vistaRevision(destino) {
     pintar()
   })
   alPulsar(nodo, '#informe', generarInforme)
+  alPulsar(nodo, '#reiniciar', async () => {
+    // Confirmacion con el numero dentro: «¿seguro?» a secas no informa de lo
+    // que se pierde, y aqui se pueden perder cuatrocientas decisiones.
+    if (!confirm(`Se borran los ${marcas.size} dictámenes y el contador vuelve a ${preguntas.length}. No se puede deshacer. ¿Seguir?`)) return
+    await capa.borrarMisMarcas()
+    marcas = new Map()
+    mirandoRevisadas = false
+    i = 0
+    pintar()
+  })
   alPulsar(nodo, '#volver-revision', pintar)
 
   pintar()

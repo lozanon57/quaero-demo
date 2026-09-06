@@ -41,6 +41,18 @@ function pintarNav() {
   // no puede abrir solo genera preguntas.
   const esAdmin = ['docente', 'custodio'].includes(estado.perfil.rol)
   const esRevisor = REVISORES.includes((estado.perfil.email ?? '').toLowerCase())
+  // Mientras la revision sigue abierta, al revisor no se le enseñan cinco
+  // puertas: tiene una tarea y quinientas tres preguntas por delante. Todo lo
+  // demas vuelve a aparecer en cuanto el banco queda validado.
+  if (esRevisor && !BANCO_VALIDADO) {
+    render(
+      nav,
+      h`
+      <button class="sutil pequeno" data-ruta="#/revision">Revisar el banco</button>
+      <button class="sutil pequeno" id="salir">Salir</button>`,
+    )
+    return
+  }
   render(
     nav,
     h`
@@ -180,6 +192,19 @@ async function enrutar() {
         await arrancar()
       },
     })
+    return
+  }
+
+  // Con la revision abierta, el revisor entra directo a revisar: es lo unico
+  // que tiene que hacer, y una pantalla intermedia solo estorba. Solo se
+  // redirige la ruta por defecto: el panel y el perfil siguen alcanzables por
+  // su direccion para quien los necesite.
+  if (
+    ruta === '#/' &&
+    !BANCO_VALIDADO &&
+    REVISORES.includes((estado.perfil.email ?? '').toLowerCase())
+  ) {
+    await vistaRevision(app)
     return
   }
 

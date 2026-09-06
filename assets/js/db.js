@@ -150,6 +150,11 @@ const localAdapter = {
     return clon(leerLocal().marcas)
   },
 
+  async borrarMisMarcas() {
+    const estado = leerLocal()
+    escribirLocal({ ...estado, marcas: [] })
+  },
+
   async guardarCuestionario(c) {
     const estado = leerLocal()
     const resto = estado.cuestionarios.filter((x) => x.tipo !== c.tipo)
@@ -305,6 +310,11 @@ function supabaseAdapter(sb) {
     async misMarcas() {
       const id = await uid()
       return lanzar(await sb.from('marcas_revision').select('*').eq('perfil_id', id)) ?? []
+    },
+
+    async borrarMisMarcas() {
+      const id = await uid()
+      lanzar(await sb.from('marcas_revision').delete().eq('perfil_id', id))
     },
 
     /**
