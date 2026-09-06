@@ -2,7 +2,7 @@
  * Vista del quiz. Renderiza el estado que le da quiz.js y le devuelve acciones;
  * no guarda estado propio salvo el nodo y el cronómetro.
  */
-import { h, crudo, render, alPulsar, esc, reloj, pct } from '../ui.js'
+import { h, crudo, render, alPulsar, esc, reloj, pct, nuevaVista } from '../ui.js'
 import { CONFIG, CLASES_PUBLICADAS } from '../config.js'
 import * as Q from '../quiz.js'
 import { db } from '../db.js'
@@ -137,6 +137,7 @@ function pintarLarga(p, q) {
 }
 
 export function vistaQuiz(destino, quizInicial, { alTerminar, registrar }) {
+  nuevaVista(destino)
   let q = quizInicial
   let inicioExplicacion = null
   const esExamen = q.modo === Q.MODOS.EXAMEN
@@ -331,6 +332,7 @@ export function vistaQuiz(destino, quizInicial, { alTerminar, registrar }) {
 
 /** Pantalla de resultado, con el marcador en la escala del examen real. */
 export function vistaResultado(destino, q, res, { alVolver, alRepasar }) {
+  nuevaVista(destino)
   const m = res.marcador
   const nodo = render(
     destino,

@@ -12,7 +12,7 @@
  * plataforma **idéntica**: si el no participante recibiera un producto peor,
  * sería coerción por la puerta de atrás.
  */
-import { h, crudo, render, alPulsar, esc } from '../ui.js'
+import { h, crudo, render, alPulsar, esc, nuevaVista } from '../ui.js'
 import { db } from '../db.js'
 
 const RUTA = 'contenidos/consentimiento.json'
@@ -28,6 +28,7 @@ async function huella(texto) {
 }
 
 export async function vistaConsentimiento(destino, alDecidir) {
+  nuevaVista(destino)
   render(destino, h`<div class="vacio">Cargando…</div>`)
 
   let doc

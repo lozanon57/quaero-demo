@@ -6,13 +6,14 @@
  * vista agregada. Es la garantía que se le prometió al alumno en la hoja de
  * información, y por eso el panel lo dice en voz alta en lugar de disimularlo.
  */
-import { h, crudo, render, alPulsar, metrica, fecha, descargarCSV, esc } from '../ui.js'
+import { h, crudo, render, alPulsar, metrica, fecha, descargarCSV, esc, nuevaVista } from '../ui.js'
 import { db } from '../db.js'
 import { inventario } from '../banco.js'
 
 const ESTADOS_ERRATA = ['abierta', 'en_revision', 'corregida', 'desestimada', 'retirada']
 
 export async function vistaAdmin(destino) {
+  nuevaVista(destino)
   render(destino, h`<div class="vacio">Cargando el panel…</div>`)
 
   const capa = await db()

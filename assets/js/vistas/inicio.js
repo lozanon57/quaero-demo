@@ -5,7 +5,7 @@
  * cada uno, porque un alumno que no entiende qué modo ha elegido interpreta mal
  * su propio resultado — y en modo examen el resultado incluye la penalización.
  */
-import { h, crudo, render, alPulsar, metrica, diasHasta, esc } from '../ui.js'
+import { h, crudo, render, alPulsar, metrica, diasHasta, esc, nuevaVista } from '../ui.js'
 import { CONFIG, FASE_CALIBRACION } from '../config.js'
 import { inventario, regimenDificultad } from '../banco.js'
 import { db } from '../db.js'
@@ -15,6 +15,7 @@ import { MODOS } from '../quiz.js'
 const LONGITUDES = [10, 20, 40, 70]
 
 export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
+  nuevaVista(destino)
   render(destino, h`<div class="vacio">Cargando el banco…</div>`)
 
   const capa = await db()
@@ -195,7 +196,11 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
 
   const pintarTemas = () => {
     for (const b of nodo.querySelectorAll('[data-tema]')) {
-      b.classList.toggle('elegido', elegidos.has(Number(b.dataset.tema)))
+      const marcado = elegidos.has(Number(b.dataset.tema))
+      b.classList.toggle('elegido', marcado)
+      // El estado de un filtro no puede vivir solo en el color: aria-pressed es
+      // lo unico que oye quien navega con lector de pantalla.
+      b.setAttribute('aria-pressed', String(marcado))
     }
     const r = nodo.querySelector('#resumen-seleccion')
     r.textContent = elegidos.size
@@ -206,7 +211,9 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
 
   const elegirUno = (contenedor, activo) => {
     for (const b of nodo.querySelectorAll(`${contenedor} button`)) {
-      b.classList.toggle(contenedor === '#modos' ? 'elegida' : 'elegido', b === activo)
+      const marcado = b === activo
+      b.classList.toggle(contenedor === '#modos' ? 'elegida' : 'elegido', marcado)
+      b.setAttribute('aria-pressed', String(marcado))
     }
   }
 
@@ -284,6 +291,12 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
   alPulsar(nodo, '#empezar', () => onEmpezar({ temas: [...elegidos], formato, n, modo, adaptar }))
   alPulsar(nodo, '#simulacro', () => onSimulacro(disponibles.map((t) => t.n)))
 
+  // La marca inicial se pinta aqui y no en el HTML: si el estado por defecto y
+  // la clase escrita a mano se separan, el alumno ve marcado un filtro que no
+  // es el que se va a aplicar.
+  elegirUno('#modos', nodo.querySelector(`[data-modo="${modo}"]`))
+  elegirUno('#formatos', nodo.querySelector(`[data-formato="${formato}"]`))
+  elegirUno('#longitudes', nodo.querySelector(`[data-n="${n}"]`))
   pintarTemas()
   pintarNivel()
 }

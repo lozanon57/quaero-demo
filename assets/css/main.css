@@ -195,6 +195,21 @@ button.sutil:hover:not(:disabled) { background: var(--papel-hondo); color: var(-
 button.peligro { color: var(--minio); border-color: color-mix(in srgb, var(--minio) 40%, transparent); }
 button.pequeno { padding: .3rem .72rem; font-size: .84rem; }
 
+/* Filtro elegido. Va DESPUES de la regla de :hover a proposito: las dos tienen
+   la misma especificidad y gana la ultima, asi que al reves el hover borraria
+   la marca de seleccion justo cuando el raton esta encima.
+   Se invierte el contraste ademas de cambiar el color: un cambio de tono no lo
+   ve todo el mundo, y aqui la seleccion es el unico indicio de que la pulsacion
+   ha hecho algo. */
+button.elegido:not(.opcion):not(.tema-fila) {
+  background: var(--minio); border-color: var(--minio); color: #fdf9f2; font-weight: 600;
+}
+button.elegido:not(.opcion):not(.tema-fila):hover:not(:disabled) {
+  background: color-mix(in srgb, var(--minio) 84%, black);
+  border-color: color-mix(in srgb, var(--minio) 84%, black);
+  color: #fdf9f2;
+}
+
 :where(button, a, input, select, textarea, [tabindex]):focus-visible {
   outline: 2px solid var(--minio); outline-offset: 2px;
 }
@@ -359,7 +374,7 @@ td.num, th.num { text-align: right; font-family: var(--mono); font-variant-numer
   transition: background .13s ease, padding-left .13s ease;
 }
 .tema-fila:hover { background: var(--papel-hondo); padding-left: .5rem; }
-.tema-fila.elegido { background: var(--minio-suave); }
+.tema-fila.elegido { background: var(--minio-suave); box-shadow: inset 3px 0 0 var(--minio); }
 .tema-fila .n {
   font-family: var(--serif); font-size: 1.05rem; color: var(--tinta-tenue);
   font-variant-numeric: oldstyle-nums; text-align: right;

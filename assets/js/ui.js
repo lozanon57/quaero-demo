@@ -30,12 +30,38 @@ export function render(destino, html) {
   return nodo
 }
 
+/**
+ * Abre una vista sobre `raiz` y cancela los oyentes de la vista anterior.
+ *
+ * Los oyentes viven en el contenedor, no en los botones, así que sobreviven a
+ * `render()`: al volver a Inicio quedaba vivo el oyente de la visita previa con
+ * su copia antigua de los filtros, y «Empezar» arrancaba dos tandas a la vez —
+ * una con lo que acababas de elegir y otra con lo de la visita anterior.
+ *
+ * La cancelación es por vista y no por `render()` a propósito: el quiz repinta
+ * su nodo en cada pregunta, y la barra de navegación se repinta al cambiar de
+ * ruta, pero ninguno de los dos quiere perder sus oyentes al hacerlo.
+ */
+const vistaAbierta = new WeakMap()
+
+export function nuevaVista(raiz) {
+  const nodo = typeof raiz === 'string' ? document.querySelector(raiz) : raiz
+  vistaAbierta.get(nodo)?.abort()
+  vistaAbierta.set(nodo, new AbortController())
+  return nodo
+}
+
 /** Delegación de eventos: un único listener por vista, no uno por botón. */
 export function alPulsar(raiz, selector, fn) {
-  raiz.addEventListener('click', (e) => {
-    const objetivo = e.target.closest(selector)
-    if (objetivo && raiz.contains(objetivo)) fn(objetivo, e)
-  })
+  const senal = vistaAbierta.get(raiz)?.signal
+  raiz.addEventListener(
+    'click',
+    (e) => {
+      const objetivo = e.target.closest(selector)
+      if (objetivo && raiz.contains(objetivo)) fn(objetivo, e)
+    },
+    senal ? { signal: senal } : undefined,
+  )
 }
 
 export const minutos = (ms) => Math.round(ms / 60000)

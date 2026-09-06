@@ -6,7 +6,7 @@
  * después sin tener que pedírselo a nadie. Un derecho que hay que solicitar por
  * escrito al profesor que te examina no es ejercitable.
  */
-import { h, crudo, render, alPulsar, fecha } from '../ui.js'
+import { h, crudo, render, alPulsar, fecha, nuevaVista } from '../ui.js'
 import { db } from '../db.js'
 import { cargarInstrumentos } from '../cuestionarios.js'
 
@@ -23,6 +23,7 @@ const TEXTO_DECISION = {
 }
 
 export async function vistaPerfil(destino, { alCambiar }) {
+  nuevaVista(destino)
   const capa = await db()
   const [perfil, consent, hechos, instrumentos] = await Promise.all([
     capa.usuarioActual(),
