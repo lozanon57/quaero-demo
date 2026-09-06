@@ -178,10 +178,17 @@ export async function vistaAdmin(destino) {
         <button id="exp-psico">Análisis de ítems (CSV)</button>
         <button id="exp-erratas">Avisos de error (CSV)</button>
         <button id="exp-banco">Inventario del banco (CSV)</button>
+        <button id="exp-intentos">Respuestas en crudo (CSV)</button>
       </div>
     </section>`,
   )
 
+  // La entrada del analisis psicometrico (`analisis/psicometria.py`). En
+  // Supabase, RLS solo devuelve estas filas al custodio o al docente con las
+  // actas cerradas; aqui no hay nada que decidir, se pide y el servidor manda.
+  alPulsar(nodo, '#exp-intentos', () =>
+    descargarCSV('quaero_intentos.csv', datos.intentos ?? []),
+  )
   alPulsar(nodo, '#exp-uso', () => descargarCSV('quaero_uso_por_tema.csv', agregado))
   alPulsar(nodo, '#exp-psico', () => descargarCSV('quaero_items.csv', psicometria))
   alPulsar(nodo, '#exp-erratas', () => descargarCSV('quaero_erratas.csv', datos.erratas ?? []))

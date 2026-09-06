@@ -20,9 +20,14 @@ import { corregirCorta, analizarLarga, puntuarTest, marcador } from './correccio
 export const MODOS = Object.freeze({ ESTUDIO: 'estudio', EXAMEN: 'examen' })
 
 /** Estado inicial. `preguntas` no se copia en profundidad: es de solo lectura. */
-export function crearQuiz({ preguntas, modo = MODOS.ESTUDIO, temas = [], quizId = null }) {
+export function crearQuiz({ preguntas, modo = MODOS.ESTUDIO, temas = [], quizId = null, vistas = new Set() }) {
   return Object.freeze({
     quizId,
+    // Ítems que este alumno ya había respondido antes de esta tanda. Sirve para
+    // marcar primer_intento: la segunda vez que alguien ve una pregunta no es
+    // una observación independiente, y meterla en la dificultad del ítem la
+    // infla. El análisis psicométrico usa solo primeras exposiciones.
+    vistas,
     modo,
     temas,
     preguntas,
@@ -205,7 +210,7 @@ export function intentosDe(q) {
       puntuacion: c.puntuacion ?? null,
       ms_respuesta: Math.round(t.ms ?? 0),
       ms_explicacion: Math.round(t.msExplicacion ?? 0),
-      primer_intento: true,
+      primer_intento: !q.vistas?.has(p.id),
     }
   })
 }

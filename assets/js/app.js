@@ -65,7 +65,7 @@ alPulsar(nav, '#salir', async () => {
 /** Guarda un intento, si el alumno consintió la telemetría. */
 const registrar = (intento) => telemetria.registrarIntento({ ...intento, quiz_id: estado.quiz?.id ?? null })
 
-async function lanzarQuiz(preguntas, modo, temas, regimen = null) {
+async function lanzarQuiz(preguntas, modo, temas, regimen = null, vistas = new Set()) {
   if (!preguntas.length) {
     alert('No hay preguntas disponibles con esos criterios.')
     return
@@ -89,7 +89,7 @@ async function lanzarQuiz(preguntas, modo, temas, regimen = null) {
   }
   estado.quiz = fila
   estado.limpiarQuiz?.()
-  estado.limpiarQuiz = vistaQuiz(app, crearQuiz({ preguntas, modo, temas, quizId: fila?.id ?? null }), {
+  estado.limpiarQuiz = vistaQuiz(app, crearQuiz({ preguntas, modo, temas, quizId: fila?.id ?? null, vistas }), {
     registrar,
     alTerminar: async (q, res) => {
       if (fila) {
@@ -105,7 +105,10 @@ async function lanzarQuiz(preguntas, modo, temas, regimen = null) {
           location.hash = '#/'
           enrutar()
         },
-        alRepasar: (falladas) => lanzarQuiz(falladas, modo, temas, regimen),
+        // Al repasar, las falladas ya están vistas: no vuelven a contar como
+        // primera exposición.
+        alRepasar: (falladas) =>
+          lanzarQuiz(falladas, modo, temas, regimen, new Set([...vistas, ...falladas.map((p) => p.id)])),
       })
     },
   })
@@ -120,11 +123,18 @@ async function pantallaInicio() {
       // calibración tampoco: adaptar sesgaría la dificultad que se quiere medir.
       const r = adaptar && modo !== 'examen' && !FASE_CALIBRACION ? regimenDificultad(intentos) : null
       const preguntas = await seleccionar({ temas, formato, n, vistas, regimen: r?.regimen ?? null })
-      await lanzarQuiz(preguntas, modo, temas, r?.regimen ?? null)
+      await lanzarQuiz(preguntas, modo, temas, r?.regimen ?? null, vistas)
     },
     onSimulacro: async (temas) => {
       if (!confirm('El simulacro son 90 preguntas y dos horas, con penalización. ¿Empezamos?')) return
-      await lanzarQuiz(await simulacroCompleto(temas), 'examen', temas, null)
+      const previos = await (await db()).misIntentos().catch(() => [])
+      await lanzarQuiz(
+        await simulacroCompleto(temas),
+        'examen',
+        temas,
+        null,
+        new Set(previos.map((i) => i.pregunta_id)),
+      )
     },
   })
 }
