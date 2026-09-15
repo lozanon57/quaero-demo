@@ -50,35 +50,27 @@ export async function vistaConsentimiento(destino, alDecidir) {
   const secciones = doc.secciones
     .map(
       (s) =>
-        `<h3 style="margin-top:1.4rem">${esc(s.titulo)}</h3>` +
-        s.parrafos.map((p) => `<p>${esc(p)}</p>`).join(''),
+        `<section class="apartado"><h3>${esc(s.titulo)}</h3>` +
+        s.parrafos.map((p) => `<p>${esc(p)}</p>`).join('') +
+        '</section>',
     )
     .join('')
 
   const nodo = render(
     destino,
-    h`<div class="tarjeta" style="max-width:46rem;margin:1rem auto">
-      <span class="pildora acento">Versión ${doc.version} · ${doc.fecha}</span>
-      <h1 style="margin-top:.7rem">${doc.titulo}</h1>
-      <p style="color:var(--tinta-suave);margin-bottom:0"><strong>${doc.estudio}</strong></p>
-      <p style="color:var(--tinta-suave)">${doc.investigadores}</p>
+    h`<div class="tarjeta hoja" style="max-width:42rem;margin:1rem auto">
+      <p class="rotulo">Hoja de información · versión ${doc.version}</p>
+      <h1>${doc.titulo}</h1>
+      <p class="entrada">Entras igual decidas lo que decidas. Solo necesitamos saber si quieres
+      que tus respuestas cuenten para el estudio, y puedes cambiar de opinión cuando quieras.</p>
 
-      <div class="aviso-caja info">
-        <strong>Entras igual decidas lo que decidas.</strong> Esta pantalla no condiciona tu
-        acceso: solo necesitamos que nos digas si quieres que tus respuestas cuenten para el
-        estudio. Puedes cambiar de opinión cuando quieras.
-      </div>
-
-      <div id="hoja" tabindex="0" role="region" aria-label="Información sobre el estudio"
-           style="max-height:24rem;overflow-y:auto;border:1px solid var(--borde);
-           border-radius:var(--r-m);padding:1rem 1.2rem;margin:1.2rem 0;background:var(--superficie-2)">
+      <div id="hoja" tabindex="-1" role="region" aria-label="Información sobre el estudio">
         ${crudo(secciones)}
-        <h3 style="margin-top:1.4rem">Contacto</h3>
-        <ul>${crudo(doc.contactos.map((c) => `<li><strong>${esc(c.quien)}:</strong> ${esc(c.dato)}</li>`).join(''))}</ul>
       </div>
 
-      <h3>Si participas, ¿en qué?</h3>
-      <p class="ayuda" style="margin-top:-.4rem">Marca lo que quieras. Puedes participar solo en parte.</p>
+      <section class="apartado">
+        <h3>Si participas, ¿en qué?</h3>
+        <p class="ayuda" style="margin-top:-.2rem">Marca lo que quieras. Puedes participar solo en parte.</p>
       ${crudo(
         doc.opcionales
           .map(
@@ -91,17 +83,30 @@ export async function vistaConsentimiento(destino, alDecidir) {
           .join(''),
       )}
 
+      </section>
+
       <p id="error-consent" class="ayuda" style="color:var(--mal)"></p>
 
-      <div class="rejilla tres" style="margin-top:1.5rem">
+      <!-- Las tres con el mismo peso visual, a proposito. Destacar el «si» seria
+           un empujon, y quien lo da es ademas quien pone las notas. -->
+      <div class="rejilla tres decision">
         <button class="primario" id="participo">Sí, participo</button>
         <button class="primario" id="no-participo">No participo</button>
         <button class="primario" id="mas-tarde">Lo decido más tarde</button>
       </div>
       <p class="ayuda" style="margin-top:.9rem">
-        Las tres opciones dan acceso completo a la plataforma. Se guarda tu decisión, la fecha y
-        la versión de este texto, para saber sobre qué te pronunciaste.
+        Las tres dan acceso completo. Se guarda tu decisión, la fecha y la versión de este texto.
       </p>
+
+      <!-- Abierto por defecto: el del delegado de proteccion de datos es el
+           canal por el que se pide el borrado sin pasar por el profesor que
+           examina, y no puede quedar detras de un clic. -->
+      <details class="avanzado contactos" open>
+        <summary>Contacto y reclamaciones</summary>
+        <ul>${crudo(
+          doc.contactos.map((c) => `<li><strong>${esc(c.quien)}:</strong> ${esc(c.dato)}</li>`).join(''),
+        )}</ul>
+      </details>
     </div>`,
   )
 

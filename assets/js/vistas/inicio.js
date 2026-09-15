@@ -1,35 +1,75 @@
 /**
- * Pantalla de inicio: progreso del alumno y configuración del quiz.
+ * Pantalla de inicio: el temario, y dentro de él lo que llevas.
  *
- * Aquí se elige entre los dos modos. Se explica la diferencia con una frase
- * cada uno, porque un alumno que no entiende qué modo ha elegido interpreta mal
- * su propio resultado — y en modo examen el resultado incluye la penalización.
+ * El eje es el tema, no el formato ni la dificultad. Un alumno de cuarto no
+ * estudia «cuarenta preguntas de test»: estudia páncreas. Por eso lo primero
+ * que se ve es el índice de los treinta temas con su cuenta, y las opciones
+ * finas quedan plegadas para quien las quiera.
+ *
+ * Las cuentas se pintan hacia lo que queda, no hacia lo que falta por hacer:
+ * «12 de 17» y una regla que se llena, no un marcador en rojo. El objetivo
+ * declarado del proyecto es reducir la ansiedad, y eso empieza por cómo se
+ * enseña el propio progreso.
  */
-import { h, crudo, render, alPulsar, metrica, diasHasta, esc, nuevaVista } from '../ui.js'
+import { h, crudo, render, alPulsar, diasHasta, esc, nuevaVista } from '../ui.js'
 import { CONFIG, FASE_CALIBRACION } from '../config.js'
 import { inventario, regimenDificultad } from '../banco.js'
 import { db } from '../db.js'
-import { resumirUso } from '../telemetria.js'
+import { progresoPorTema, progresoGlobal } from '../progreso.js'
 import { MODOS } from '../quiz.js'
 
 const LONGITUDES = [10, 20, 40, 70]
+const POR_TANDA = 10
+
+const pct = (x) => (x === null ? '—' : `${Math.round(x * 100)} %`)
+const dosCifras = (n) => String(n).padStart(2, '0')
+
+/** Regla de avance. Un filete que se llena, no una barra de videojuego. */
+function regla(proporcion, etiqueta = '') {
+  const ancho = Math.max(0, Math.min(1, proporcion)) * 100
+  return `<div class="regla" role="img" aria-label="${esc(etiqueta)}">
+            <i style="width:${ancho.toFixed(1)}%"></i>
+          </div>`
+}
+
+function filaTema(t) {
+  // Un tema sin empezar no enseña un cero: enseña cuánto hay. Un «0/17» en
+  // negrita es exactamente el marcador de pérdida que se quería quitar.
+  const estado = !t.disponible
+    ? '<span class="pildora">sin preguntas</span>'
+    : t.pendientes === 0
+      ? '<span class="pildora hecho">completo</span>'
+      : t.hechas === 0
+        ? `<span class="cuenta suave">${t.total} preguntas</span>`
+        : `<span class="cuenta"><b>${t.hechas}</b><i>/${t.total}</i></span>`
+
+  const marcas =
+    t.aciertos + t.fallos > 0
+      ? `<span class="marcas"><span class="ac">${t.aciertos}</span><span class="fa">${t.fallos}</span></span>`
+      : '<span class="marcas vacia"></span>'
+
+  return `<li>
+    <button type="button" class="tema" data-tema="${Number(t.n)}" ${t.disponible ? '' : 'disabled'}>
+      <span class="n">${dosCifras(t.n)}</span>
+      <span class="titulo">${esc(t.titulo)}<small>${esc(t.bloque_nombre ?? '')}</small></span>
+      ${marcas}
+      ${estado}
+      ${regla(t.total ? t.hechas / t.total : 0, `${t.hechas} de ${t.total} respondidas`)}
+    </button>
+  </li>`
+}
 
 export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
   nuevaVista(destino)
-  render(destino, h`<div class="vacio">Cargando el banco…</div>`)
+  render(destino, h`<div class="vacio">Cargando el temario…</div>`)
 
   const capa = await db()
-  const [temas, intentos, sesiones] = await Promise.all([
-    inventario(),
-    capa.misIntentos().catch(() => []),
-    capa.misSesiones().catch(() => []),
-  ])
+  const [temas, intentos] = await Promise.all([inventario(), capa.misIntentos().catch(() => [])])
 
-  const disponibles = temas.filter((t) => t.disponible)
-  const uso = resumirUso(intentos, sesiones, disponibles.length)
+  const filas = progresoPorTema(temas, intentos)
+  const disponibles = filas.filter((t) => t.disponible)
+  const g = progresoGlobal(disponibles)
   const dias = diasHasta(CONFIG.fechaExamen)
-  const respondidasPorTema = new Map()
-  for (const i of intentos) respondidasPorTema.set(i.tema, (respondidasPorTema.get(i.tema) ?? 0) + 1)
 
   const reg = regimenDificultad(intentos)
   const ETIQUETA = { facil: 'más asequible', media: 'equilibrado', dificil: 'más exigente' }
@@ -38,152 +78,142 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
   const totalCorta = disponibles.reduce((a, t) => a + t.corta, 0)
   const totalLarga = disponibles.reduce((a, t) => a + t.larga, 0)
 
+  const empezado = g.hechas > 0
+
   const nodo = render(
     destino,
     h`
-    <section class="tarjeta">
-      <div class="lamina">
-        <div class="margen">
-          ${crudo(
-            // Un «0» grande en el margen es la fila de ceros que se quería
-            // evitar, solo que en tipografía bonita. Antes de empezar, el
-            // margen lleva la extensión del banco, no lo que aún no has hecho.
-            uso.preguntasUnicas === 0
-              ? `<span class="numero">${disponibles.length}</span>temas<br>disponibles`
-              : `<span class="numero">${uso.preguntasUnicas}</span>preguntas<br>trabajadas`,
-          )}
-        </div>
-        <div class="cuerpo">
-          ${crudo(
-            // El estado inicial ya no es una fila de ceros. Cuatro métricas a
-            // cero como primera pantalla es un marcador diciéndote que no has
-            // hecho nada; el atlas empieza por el índice, no por la nota.
-            uso.preguntasUnicas === 0
-              ? `<h1>Empieza por donde quieras</h1>
-                 <p>Hay <strong>${totalTest + totalCorta + totalLarga} preguntas</strong> repartidas
-                 por los ${disponibles.length} temas del programa. Cada una lleva su explicación:
-                 por qué esa opción y por qué no las otras.</p>
-                 <p class="ayuda">Si no sabes por dónde, el tema 1 es tan buen sitio como otro.</p>`
-              : `<h1>Por dónde vas</h1>
-                 <div class="rejilla tres" style="margin:1.3rem 0 .4rem">
-                   ${metrica(uso.minutosActivos, 'minutos de práctica')}
-                   ${metrica(uso.porcentajeAcierto === null ? '—' : uso.porcentajeAcierto + ' %', 'aciertos')}
-                   ${metrica(`${uso.coberturaTemario} de ${disponibles.length}`, 'temas trabajados')}
-                 </div>`,
-          )}
-          <p class="ayuda" style="margin-top:1.2rem">
-            El parcial de Digestivo es el
-            ${new Date(CONFIG.fechaExamen).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' })}${crudo(
-              dias > 0 ? `, dentro de ${dias} días` : dias === 0 ? ', hoy' : '',
-            )}.
-          </p>
-        </div>
-      </div>
+    <section class="tarjeta portada">
+      <p class="rotulo">${empezado ? 'Por dónde vas' : 'Patología Quirúrgica I'}</p>
+      ${crudo(
+        empezado
+          ? `<div class="cifras">
+               <div class="cifra"><span class="numero">${g.hechas}</span><span>respondidas</span></div>
+               <div class="cifra"><span class="numero">${g.pendientes}</span><span>pendientes</span></div>
+               <div class="cifra"><span class="numero">${pct(g.acierto)}</span><span>aciertos</span></div>
+             </div>
+             ${regla(g.avance, `${g.hechas} de ${g.total} preguntas`)}
+             <p class="ayuda">${g.aciertos} acertadas y ${g.fallos} falladas de las
+             ${g.aciertos + g.fallos} corregidas · ${g.temasEmpezados} de
+             ${disponibles.length} temas empezados${
+               g.temasTerminados ? `, ${g.temasTerminados} completos` : ''
+             }.</p>`
+          : `<h1>Empieza por donde quieras</h1>
+             <p>Hay <strong>${g.total} preguntas</strong> repartidas por los
+             ${disponibles.length} temas del programa. Cada una lleva su explicación: por qué esa
+             opción y por qué no las otras.</p>
+             <p class="ayuda">Si no sabes por dónde, el tema 1 es tan buen sitio como otro.</p>`,
+      )}
     </section>
 
     <section class="tarjeta">
-      <h2>Preparar una tanda</h2>
-
-      <div class="campo">
-        <label>Modo</label>
-        <div class="rejilla dos" id="modos">
-          <button type="button" class="opcion elegida" data-modo="${MODOS.ESTUDIO}">
-            <span class="letra">E</span>
-            <span>
-              <strong>Estudio</strong><br>
-              <small style="color:var(--tinta-suave)">Corrige cada pregunta al momento y te
-              enseña la explicación antes de pasar a la siguiente. Sin penalización.</small>
-            </span>
-          </button>
-          <button type="button" class="opcion" data-modo="${MODOS.EXAMEN}">
-            <span class="letra">X</span>
-            <span>
-              <strong>Examen</strong><br>
-              <small style="color:var(--tinta-suave)">Sin corrección hasta el final, navegación
-              libre y penalización de −0,33 por fallo, como el 26 de noviembre.</small>
-            </span>
-          </button>
-        </div>
+      <div class="titular">
+        <h2>El temario</h2>
+        <span class="ayuda">Pulsa un tema y salen ${POR_TANDA} preguntas suyas</span>
       </div>
-
-      <div class="campo">
-        <label>Formato</label>
-        <div class="fila" id="formatos">
-          <button type="button" class="pequeno elegido" data-formato="test">Test (${totalTest})</button>
-          <button type="button" class="pequeno" data-formato="corta">Cortas (${totalCorta})</button>
-          <button type="button" class="pequeno" data-formato="larga">Largas (${totalLarga})</button>
-          <button type="button" class="pequeno" data-formato="mixto">Mezcla</button>
-        </div>
-      </div>
-
-      <div class="campo">
-        <label>Número de preguntas</label>
-        <div class="fila" id="longitudes">
-          ${crudo(
-            LONGITUDES.map(
-              (n, i) =>
-                `<button type="button" class="pequeno${i === 1 ? ' elegido' : ''}" data-n="${n}">${n}</button>`,
-            ).join(''),
-          )}
-        </div>
-      </div>
-
-      <div class="campo">
-        <label>Dificultad</label>
-        <label class="casilla" style="margin-bottom:.4rem">
-          <input type="checkbox" id="adaptar" checked>
-          <span><strong>Ajustar al nivel que llevo</strong> — el nivel sube o baja según cómo
-          vayas, para mantenerte en la banda donde más se aprende.</span>
-        </label>
-        <div class="aviso-caja info" id="explica-nivel" style="margin-bottom:0">
-          ${reg.motivo} Ahora mismo el reparto sería <strong>${ETIQUETA[reg.regimen]}</strong>.
-        </div>
-      </div>
-
-      <div class="campo">
-        <div class="fila" style="margin-bottom:.5rem">
-          <label style="margin:0">Temas</label>
-          <button type="button" class="sutil pequeno" id="todos">Todos</button>
-          <button type="button" class="sutil pequeno" id="ninguno">Ninguno</button>
-          <button type="button" class="sutil pequeno" id="flojos">Donde fallo más</button>
-        </div>
-        <div class="lista-temas" id="temas">
-          ${crudo(
-            temas
-              .map((t) => {
-                const hechas = respondidasPorTema.get(t.n) ?? 0
-                const estado = !t.disponible
-                  ? '<span class="pildora">sin preguntas</span>'
-                  : `<span class="pildora">${t.test}·${t.corta}·${t.larga}</span>`
-                return `<button type="button" class="tema-fila${t.disponible ? '' : ' oculto'}" data-tema="${Number(t.n)}" ${t.disponible ? '' : 'disabled'}>
-                  <span class="n">${Number(t.n)}</span>
-                  <span class="titulo">${esc(t.titulo)}<small>${esc(t.bloque_nombre)}${hechas ? ` · ${hechas} respondidas` : ''}</small></span>
-                  ${estado}
-                </button>`
-              })
-              .join(''),
-          )}
-        </div>
-      </div>
-
-      <div class="fila" style="margin-top:1.2rem">
-        <button class="primario" id="empezar">Empezar</button>
-        <span id="resumen-seleccion" class="ayuda" style="margin:0"></span>
-      </div>
+      <ol class="indice">${crudo(filas.map(filaTema).join(''))}</ol>
     </section>
 
     <section class="tarjeta">
-      <h2>Simulacro completo</h2>
+      <details class="avanzado">
+        <summary>Preparar una tanda a medida</summary>
+
+        <div class="campo">
+          <label>Modo</label>
+          <div class="rejilla dos" id="modos">
+            <button type="button" class="opcion elegida" data-modo="${MODOS.ESTUDIO}">
+              <span class="letra">E</span>
+              <span><strong>Estudio</strong><br>
+                <small>Corrige al momento y enseña la explicación antes de pasar. Sin penalización.</small>
+              </span>
+            </button>
+            <button type="button" class="opcion" data-modo="${MODOS.EXAMEN}">
+              <span class="letra">X</span>
+              <span><strong>Examen</strong><br>
+                <small>Sin corrección hasta el final y penalización de −0,33, como el 26 de noviembre.</small>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label>Formato</label>
+          <div class="fila" id="formatos">
+            <button type="button" class="pequeno" data-formato="test">Test (${totalTest})</button>
+            <button type="button" class="pequeno" data-formato="corta">Cortas (${totalCorta})</button>
+            <button type="button" class="pequeno" data-formato="larga">Largas (${totalLarga})</button>
+            <button type="button" class="pequeno" data-formato="mixto">Mezcla</button>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label>Número de preguntas</label>
+          <div class="fila" id="longitudes">
+            ${crudo(
+              LONGITUDES.map((n) => `<button type="button" class="pequeno" data-n="${n}">${n}</button>`).join(''),
+            )}
+          </div>
+        </div>
+
+        <div class="campo">
+          <label>Dificultad</label>
+          <label class="casilla" style="margin-bottom:.4rem">
+            <input type="checkbox" id="adaptar" checked>
+            <span><strong>Ajustar al nivel que llevo</strong> — el nivel sube o baja según cómo
+            vayas, para mantenerte donde más se aprende.</span>
+          </label>
+          <div class="aviso-caja info" id="explica-nivel" style="margin-bottom:0"></div>
+        </div>
+
+        <div class="campo">
+          <div class="fila" style="margin-bottom:.5rem">
+            <label style="margin:0">Temas</label>
+            <button type="button" class="sutil pequeno" id="todos">Todos</button>
+            <button type="button" class="sutil pequeno" id="ninguno">Ninguno</button>
+            <button type="button" class="sutil pequeno" id="flojos">Donde fallo más</button>
+          </div>
+          <div class="lista-temas" id="temas">
+            ${crudo(
+              filas
+                .map(
+                  (t) => `<button type="button" class="tema-fila${t.disponible ? '' : ' oculto'}"
+                      data-tema="${Number(t.n)}" ${t.disponible ? '' : 'disabled'}>
+                      <span class="n">${Number(t.n)}</span>
+                      <span class="titulo">${esc(t.titulo)}<small>${esc(t.bloque_nombre ?? '')}${
+                        t.hechas ? ` · ${t.hechas} respondidas` : ''
+                      }</small></span>
+                      <span class="pildora">${t.test}·${t.corta}·${t.larga}</span>
+                    </button>`,
+                )
+                .join(''),
+            )}
+          </div>
+        </div>
+
+        <div class="fila" style="margin-top:1.2rem">
+          <button class="primario" id="empezar">Empezar</button>
+          <span id="resumen-seleccion" class="ayuda" style="margin:0"></span>
+        </div>
+      </details>
+    </section>
+
+    <section class="tarjeta">
+      <div class="titular">
+        <h2>Simulacro completo</h2>
+        <span class="ayuda">Dos horas</span>
+      </div>
       <p style="color:var(--tinta-suave)">
         La estructura exacta del examen: 70 preguntas de test con penalización, 15 cortas de
-        20 palabras y 5 largas de 350, repartidas por todo el temario. Dos horas.
+        20 palabras y 5 largas de 350, repartidas por todo el temario.
       </p>
       <button id="simulacro" ${disponibles.length < 5 ? 'disabled' : ''}>Hacer el simulacro</button>
       ${crudo(
-        disponibles.length < 5
-          ? '<p class="ayuda">Disponible cuando haya preguntas de más temas.</p>'
-          : '',
+        disponibles.length < 5 ? '<p class="ayuda">Disponible cuando haya preguntas de más temas.</p>' : '',
       )}
+      <p class="ayuda" style="margin-top:1rem">El examen es el
+      ${new Date(CONFIG.fechaExamen).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' })}${crudo(
+        dias > 0 ? `, dentro de ${dias} días` : dias === 0 ? ', hoy' : '',
+      )}.</p>
     </section>`,
   )
 
@@ -195,11 +225,9 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
   const elegidos = new Set(disponibles.map((t) => t.n))
 
   const pintarTemas = () => {
-    for (const b of nodo.querySelectorAll('[data-tema]')) {
+    for (const b of nodo.querySelectorAll('#temas [data-tema]')) {
       const marcado = elegidos.has(Number(b.dataset.tema))
       b.classList.toggle('elegido', marcado)
-      // El estado de un filtro no puede vivir solo en el color: aria-pressed es
-      // lo unico que oye quien navega con lector de pantalla.
       b.setAttribute('aria-pressed', String(marcado))
     }
     const r = nodo.querySelector('#resumen-seleccion')
@@ -234,9 +262,17 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
       casilla.disabled = false
       caja.innerHTML = adaptar
         ? `${reg.motivo} Ahora mismo el reparto sería <strong>${ETIQUETA[reg.regimen]}</strong>.`
-        : 'Sin ajustar: recibirás la mezcla equilibrada del banco, con su proporción de preguntas difíciles.'
+        : 'Sin ajustar: recibirás la mezcla equilibrada del banco, con su proporción de difíciles.'
     }
   }
+
+  // Un clic en el índice es el camino corto: ese tema, diez preguntas, estudio.
+  alPulsar(nodo, '.indice .tema', (b) => {
+    const t = Number(b.dataset.tema)
+    const fila = filas.find((f) => f.n === t)
+    const cuantas = Math.min(POR_TANDA, fila?.pendientes || fila?.total || POR_TANDA)
+    onEmpezar({ temas: [t], formato: 'mixto', n: cuantas, modo: MODOS.ESTUDIO, adaptar: false })
+  })
 
   alPulsar(nodo, '#modos button', (b) => {
     modo = b.dataset.modo
@@ -255,7 +291,7 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
     n = Number(b.dataset.n)
     elegirUno('#longitudes', b)
   })
-  alPulsar(nodo, '[data-tema]', (b) => {
+  alPulsar(nodo, '#temas [data-tema]', (b) => {
     const t = Number(b.dataset.tema)
     elegidos.has(t) ? elegidos.delete(t) : elegidos.add(t)
     pintarTemas()
@@ -269,18 +305,8 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
     pintarTemas()
   })
   alPulsar(nodo, '#flojos', () => {
-    // Los temas donde el primer intento falla más, y los que aún no ha tocado.
-    const stats = new Map()
-    for (const i of intentos) {
-      if (i.correcto === null) continue
-      const s = stats.get(i.tema) ?? { n: 0, mal: 0 }
-      stats.set(i.tema, { n: s.n + 1, mal: s.mal + (i.correcto ? 0 : 1) })
-    }
     const ordenados = disponibles
-      .map((t) => {
-        const s = stats.get(t.n)
-        return { n: t.n, tasa: s && s.n >= 3 ? s.mal / s.n : 1 }
-      })
+      .map((t) => ({ n: t.n, tasa: t.acierto === null ? 1 : 1 - t.acierto }))
       .sort((a, b) => b.tasa - a.tasa)
       .slice(0, 6)
     elegidos.clear()
@@ -291,9 +317,6 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
   alPulsar(nodo, '#empezar', () => onEmpezar({ temas: [...elegidos], formato, n, modo, adaptar }))
   alPulsar(nodo, '#simulacro', () => onSimulacro(disponibles.map((t) => t.n)))
 
-  // La marca inicial se pinta aqui y no en el HTML: si el estado por defecto y
-  // la clase escrita a mano se separan, el alumno ve marcado un filtro que no
-  // es el que se va a aplicar.
   elegirUno('#modos', nodo.querySelector(`[data-modo="${modo}"]`))
   elegirUno('#formatos', nodo.querySelector(`[data-formato="${formato}"]`))
   elegirUno('#longitudes', nodo.querySelector(`[data-n="${n}"]`))
