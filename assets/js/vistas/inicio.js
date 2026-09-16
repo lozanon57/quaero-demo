@@ -19,7 +19,6 @@ import { progresoPorTema, progresoGlobal } from '../progreso.js'
 import { MODOS } from '../quiz.js'
 
 const LONGITUDES = [10, 20, 40, 70]
-const POR_TANDA = 10
 
 const pct = (x) => (x === null ? '—' : `${Math.round(x * 100)} %`)
 const dosCifras = (n) => String(n).padStart(2, '0')
@@ -109,7 +108,7 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
     <section class="tarjeta">
       <div class="titular">
         <h2>El temario</h2>
-        <span class="ayuda">Pulsa un tema y salen ${POR_TANDA} preguntas suyas</span>
+        <span class="ayuda">Pulsa un tema para ver sus preguntas y las que ya llevas</span>
       </div>
       <ol class="indice">${crudo(filas.map(filaTema).join(''))}</ol>
     </section>
@@ -266,12 +265,11 @@ export async function vistaInicio(destino, { onEmpezar, onSimulacro }) {
     }
   }
 
-  // Un clic en el índice es el camino corto: ese tema, diez preguntas, estudio.
+  // Un clic en el índice abre el tema: sus preguntas, las que ya contestaste
+  // con tu respuesta al lado, y el botón para seguir. Arrancar la tanda
+  // directamente escondía justo lo que hay que poder mirar.
   alPulsar(nodo, '.indice .tema', (b) => {
-    const t = Number(b.dataset.tema)
-    const fila = filas.find((f) => f.n === t)
-    const cuantas = Math.min(POR_TANDA, fila?.pendientes || fila?.total || POR_TANDA)
-    onEmpezar({ temas: [t], formato: 'mixto', n: cuantas, modo: MODOS.ESTUDIO, adaptar: false })
+    location.hash = `#/tema/${Number(b.dataset.tema)}`
   })
 
   alPulsar(nodo, '#modos button', (b) => {

@@ -19,6 +19,7 @@ import { vistaQuiz, vistaResultado } from './vistas/quiz-vista.js'
 import { vistaAdmin } from './vistas/admin.js'
 import { vistaPerfil } from './vistas/perfil.js'
 import { vistaRevision } from './vistas/revision.js'
+import { vistaTema } from './vistas/tema.js'
 
 const app = document.querySelector('#app')
 const nav = document.querySelector('#nav')
@@ -49,6 +50,8 @@ function pintarNav() {
       nav,
       h`
       <button class="sutil pequeno" data-ruta="#/revision">Revisar el banco</button>
+      <button class="sutil pequeno" data-ruta="#/">Ver como alumno</button>
+      ${crudo(esAdmin ? '<button class="sutil pequeno" data-ruta="#/panel">Panel</button>' : '')}
       <button class="sutil pequeno" id="salir">Salir</button>`,
     )
     return
@@ -200,7 +203,7 @@ async function enrutar() {
   // redirige la ruta por defecto: el panel y el perfil siguen alcanzables por
   // su direccion para quien los necesite.
   if (
-    ruta === '#/' &&
+    !location.hash &&
     !BANCO_VALIDADO &&
     REVISORES.includes((estado.perfil.email ?? '').toLowerCase())
   ) {
@@ -225,6 +228,36 @@ async function enrutar() {
       </div>`,
     )
     return
+  }
+
+  if (ruta.startsWith('#/tema/')) {
+    const n = Number.parseInt(ruta.slice('#/tema/'.length), 10)
+    if (Number.isFinite(n)) {
+      await vistaTema(app, n, {
+        onVolver: () => {
+          location.hash = '#/'
+        },
+        onPracticar: async (opciones) => {
+          // Dos entradas: una lista de preguntas ya resuelta (repasar falladas)
+          // o los criterios para que las elija el banco.
+          const previos = await (await db()).misIntentos().catch(() => [])
+          const vistas = new Set(previos.map((i) => i.pregunta_id))
+          if (opciones.preguntas) {
+            await lanzarQuiz(opciones.preguntas, opciones.modo, opciones.temas, null, vistas)
+            return
+          }
+          const preguntas = await seleccionar({
+            temas: opciones.temas,
+            formato: opciones.formato,
+            n: opciones.n,
+            vistas,
+            regimen: null,
+          })
+          await lanzarQuiz(preguntas, opciones.modo, opciones.temas, null, vistas)
+        },
+      })
+      return
+    }
   }
 
   if (ruta.startsWith('#/revision')) {

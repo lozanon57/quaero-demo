@@ -1,6 +1,6 @@
 {
-  "version": "4.0",
-  "fecha": "2026-09-15",
+  "version": "5.0",
+  "fecha": "2026-09-16",
   "titulo": "Antes de empezar",
   "estudio": "QUAERO-A — Validación psicométrica de un banco de preguntas generado con inteligencia artificial",
   "investigadores": "Pablo Lozano Lominchar (investigador principal) y Luis González Bayón",
@@ -23,7 +23,8 @@
     {
       "titulo": "Qué se guarda",
       "parrafos": [
-        "Qué contestas en cada pregunta y cuánto tardas, siempre bajo un código. Los resultados se publican por pregunta, nunca por persona."
+        "Qué contestas en cada pregunta y cuánto tardas, siempre bajo un código. Los resultados se publican por pregunta, nunca por persona.",
+        "Puedes dejarlo cuando quieras desde «Mi participación», sin dar explicaciones y sin perder el acceso."
       ]
     },
     {
@@ -31,14 +32,6 @@
       "parrafos": [
         "Somos profesores tuyos. Por eso: ninguna pregunta de aquí aparecerá en el examen, lo comprueba alguien ajeno al estudio, y no podemos ver quién ha participado hasta que se cierren las actas. No es una promesa, está puesto en el servidor.",
         "Las preguntas las escribió un modelo de inteligencia artificial y las hemos revisado nosotros. Aun así se nos escapará alguna: si algo te chirría, avísanos con el botón de cada pregunta. Nos ayudas."
-      ]
-    },
-    {
-      "titulo": "Tus datos",
-      "parrafos": [
-        "Se tratan conforme al Reglamento (UE) 2016/679 y la Ley Orgánica 3/2018, con tu consentimiento como base jurídica, y se conservan cinco años tras la publicación.",
-        "Puedes dejarlo cuando quieras desde «Mi participación», sin dar explicaciones y sin perder el acceso a la plataforma.",
-        "Tienes derecho de acceso, rectificación, supresión, limitación, portabilidad y oposición, y puedes reclamar ante la Agencia Española de Protección de Datos. Los contactos están abajo."
       ]
     }
   ],
@@ -74,5 +67,14 @@
       "quien": "Reclamaciones",
       "dato": "Agencia Española de Protección de Datos · www.aepd.es"
     }
-  ]
+  ],
+  "detalles": {
+    "titulo": "Los detalles: tus datos, tus derechos y a quién escribir",
+    "parrafos": [
+      "Responsable del tratamiento: los investigadores del estudio, cuyos datos de contacto figuran abajo. La base jurídica es tu consentimiento, y los datos se tratan conforme al Reglamento (UE) 2016/679 de protección de datos y a la Ley Orgánica 3/2018.",
+      "Los datos se guardan seudonimizados, bajo un código que no permite identificarte en los ficheros de análisis, y se conservan cinco años desde la publicación de los resultados. No se ceden a terceros ni se transfieren fuera del Espacio Económico Europeo.",
+      "Puedes ejercer los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición, y retirar tu consentimiento en cualquier momento sin que eso afecte a la licitud del tratamiento anterior. Para pedir además el borrado de lo ya registrado, escribe al delegado de protección de datos y no al investigador: ejercer un derecho no puede obligarte a decírselo al profesor que te evalúa.",
+      "Si no estás conforme con cómo se tratan tus datos, puedes reclamar ante la Agencia Española de Protección de Datos."
+    ]
+  }
 }

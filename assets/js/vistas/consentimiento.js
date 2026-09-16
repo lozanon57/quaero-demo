@@ -98,11 +98,13 @@ export async function vistaConsentimiento(destino, alDecidir) {
         Las tres dan acceso completo. Se guarda tu decisión, la fecha y la versión de este texto.
       </p>
 
-      <!-- Abierto por defecto: el del delegado de proteccion de datos es el
-           canal por el que se pide el borrado sin pasar por el profesor que
-           examina, y no puede quedar detras de un clic. -->
-      <details class="avanzado contactos" open>
-        <summary>Contacto y reclamaciones</summary>
+      <!-- Segunda capa. La informacion completa esta aqui, en la misma pantalla
+           y a un clic, y no antes: metida arriba convierte cuatro parrafos que
+           se entienden en una pagina de la que solo se lee el boton. Es el
+           modelo de informacion por capas, no una version recortada. -->
+      <details class="avanzado detalles">
+        <summary>${esc(doc.detalles?.titulo ?? 'Tus datos, tus derechos y a quién escribir')}</summary>
+        ${crudo((doc.detalles?.parrafos ?? []).map((t) => `<p>${esc(t)}</p>`).join(''))}
         <ul>${crudo(
           doc.contactos.map((c) => `<li><strong>${esc(c.quien)}:</strong> ${esc(c.dato)}</li>`).join(''),
         )}</ul>
